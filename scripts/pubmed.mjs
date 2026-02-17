@@ -1,5 +1,6 @@
 const ESEARCH_URL = 'https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi';
 const ESUMMARY_URL = 'https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi';
+const EFETCH_URL = 'https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi';
 
 const RETRYABLE_STATUSES = new Set([429, 500, 502, 503, 504]);
 
@@ -30,6 +31,46 @@ export async function ncbiGetJson(url, params, { maxRetries = 8 } = {}) {
 
       if (response.ok) {
         return response.json();
+      }
+
+      if (RETRYABLE_STATUSES.has(response.status)) {
+        const baseDelay = 800 * 2 ** attempt;
+        const jitter = 1 + Math.random() * 0.25;
+        await sleep(baseDelay * jitter);
+        continue;
+      }
+
+      const errorBody = await response.text();
+      throw new Error(`NCBI request failed (${response.status}): ${errorBody}`);
+    } catch (error) {
+      clearTimeout(timeout);
+      if (attempt < maxRetries - 1) {
+        const baseDelay = 800 * 2 ** attempt;
+        const jitter = 1 + Math.random() * 0.25;
+        await sleep(baseDelay * jitter);
+        continue;
+      }
+      throw error;
+    }
+  }
+
+  throw new Error('NCBI request failed after retries');
+}
+
+export async function ncbiGetText(url, params, { maxRetries = 8 } = {}) {
+  const queryString = buildQueryString(params);
+  const requestUrl = `${url}?${queryString}`;
+
+  for (let attempt = 0; attempt < maxRetries; attempt += 1) {
+    const controller = new AbortController();
+    const timeout = setTimeout(() => controller.abort(), 30_000);
+
+    try {
+      const response = await fetch(requestUrl, { method: 'GET', signal: controller.signal });
+      clearTimeout(timeout);
+
+      if (response.ok) {
+        return response.text();
       }
 
       if (RETRYABLE_STATUSES.has(response.status)) {
@@ -92,4 +133,21 @@ export async function fetchSummaries(pmids, email, tool, apiKey) {
   }
 
   return result.uids.map((uid) => result[uid]).filter(Boolean);
+}
+
+export async function fetchArticleXml(pmids, email, tool, apiKey) {
+  if (!pmids.length) {
+    return '';
+  }
+
+  const params = {
+    db: 'pubmed',
+    id: pmids.join(','),
+    retmode: 'xml',
+    tool,
+    email,
+    api_key: apiKey
+  };
+
+  return ncbiGetText(EFETCH_URL, params);
 }

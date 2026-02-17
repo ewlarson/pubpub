@@ -41,7 +41,14 @@ NCBI_TOOL=ctsi_pubpub
 NCBI_API_KEY=your_pubmed_key
 PUB_YEAR_START=2025
 PUB_YEAR_END=2025
+PUB_VALIDATE_AFFILIATION=true
+PUB_USE_INITIALS=true
 ```
+
+Notes:
+- If `PUB_YEAR_START` is not provided, the script uses each faculty member's `start date` from the CSV.
+- `PUB_VALIDATE_AFFILIATION` (default `true`) filters results so the matched author has an affiliation that includes the allowed terms (e.g., University of Minnesota).
+- `PUB_USE_INITIALS` (default `true`) includes initial-based author matches when no ORCID is available.
 
 Minimal schema:
 

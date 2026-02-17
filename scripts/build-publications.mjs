@@ -2,7 +2,8 @@ import dotenv from 'dotenv';
 import { existsSync } from 'node:fs';
 import { readFile, writeFile } from 'node:fs/promises';
 import path from 'node:path';
-import { fetchPmids, fetchSummaries } from './pubmed.mjs';
+import { XMLParser } from 'fast-xml-parser';
+import { fetchArticleXml, fetchPmids, fetchSummaries } from './pubmed.mjs';
 
 const CSV_PATH = path.resolve('data', 'CTSI Faculty - Sheet1.csv');
 const OUTPUT_PATH = path.resolve('public', 'data', 'publications.json');
@@ -18,9 +19,24 @@ const EMAIL = process.env.NCBI_EMAIL || 'ewlarson@example.com';
 const TOOL = process.env.NCBI_TOOL || 'ctsi_pubpub';
 const API_KEY = process.env.NCBI_API_KEY || '';
 
-const YEAR_START = Number(process.env.PUB_YEAR_START || process.env.PUB_YEAR || '2025');
-const YEAR_END = Number(process.env.PUB_YEAR_END || process.env.PUB_YEAR || YEAR_START);
+const CURRENT_YEAR = new Date().getFullYear();
+const YEAR_START_OVERRIDE = process.env.PUB_YEAR_START || process.env.PUB_YEAR || '';
+const YEAR_END_OVERRIDE = process.env.PUB_YEAR_END || process.env.PUB_YEAR || '';
+const parsedStartOverride = YEAR_START_OVERRIDE ? Number(YEAR_START_OVERRIDE) : NaN;
+const parsedEndOverride = YEAR_END_OVERRIDE ? Number(YEAR_END_OVERRIDE) : NaN;
+const DEFAULT_YEAR_START = Number.isFinite(parsedStartOverride) ? parsedStartOverride : null;
+const DEFAULT_YEAR_END = Number.isFinite(parsedEndOverride) ? parsedEndOverride : CURRENT_YEAR;
 const DEFAULT_AFFILIATION = 'University of Minnesota';
+const ALLOW_INITIALS = process.env.PUB_USE_INITIALS !== 'false';
+const VALIDATE_AFFILIATION = process.env.PUB_VALIDATE_AFFILIATION !== 'false';
+
+const xmlParser = new XMLParser({
+  ignoreAttributes: false,
+  attributeNamePrefix: '@_',
+  textNodeName: '#text',
+  parseTagValue: false,
+  trimValues: true
+});
 
 const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 
@@ -88,6 +104,22 @@ const parseYearClause = (startYear, endYear) => {
   return `("${startYear}/01/01"[pdat] : "${endYear}/12/31"[pdat])`;
 };
 
+const parseStartDate = (value) => {
+  if (!value) {
+    return null;
+  }
+  const parts = String(value).trim().split('/');
+  if (parts.length !== 3) {
+    return null;
+  }
+  const [month, day, year] = parts.map((part) => Number(part));
+  if (!month || !day || !year) {
+    return null;
+  }
+  const date = new Date(year, month - 1, day);
+  return Number.isNaN(date.getTime()) ? null : date;
+};
+
 const parseSignatureTerms = (value) =>
   value
     .split('|')
@@ -95,6 +127,39 @@ const parseSignatureTerms = (value) =>
     .filter(Boolean);
 
 const isEmail = (value) => /@/.test(value);
+
+const toArray = (value) => {
+  if (!value) {
+    return [];
+  }
+  return Array.isArray(value) ? value : [value];
+};
+
+const getText = (value) => {
+  if (value === undefined || value === null) {
+    return '';
+  }
+  if (typeof value === 'string') {
+    return value;
+  }
+  if (typeof value === 'number') {
+    return String(value);
+  }
+  if (typeof value === 'object' && '#text' in value) {
+    return String(value['#text']);
+  }
+  return '';
+};
+
+const normalizeName = (value) =>
+  String(value || '')
+    .toLowerCase()
+    .replace(/[^a-z]/g, '');
+
+const normalizeAffiliation = (value) =>
+  String(value || '')
+    .toLowerCase()
+    .replace(/[^a-z0-9]/g, '');
 
 const buildAffiliationClause = (terms) => {
   const cleaned = terms.map((term) => term.replace(/\s+/g, ' ').trim());
@@ -105,12 +170,89 @@ const buildAffiliationClause = (terms) => {
   return `(${clauses.join(' OR ')})`;
 };
 
-const buildAuthorClause = (firstName, lastName, orcid) => {
-  const name = `"${lastName} ${firstName}"[fau]`;
-  if (orcid) {
-    return `(${name} OR "${orcid}"[auid])`;
+const buildAuthorClause = (firstName, lastName, orcid, includeInitials = true) => {
+  const trimmedFirst = (firstName || '').trim();
+  const trimmedLast = (lastName || '').trim();
+  const fullName = trimmedFirst && trimmedLast ? `"${trimmedLast} ${trimmedFirst}"[fau]` : '';
+  const firstInitial = trimmedFirst ? trimmedFirst[0] : '';
+  const initialName = includeInitials && firstInitial && trimmedLast
+    ? `"${trimmedLast} ${firstInitial}"[au]`
+    : '';
+
+  const clauses = [fullName, initialName, orcid ? `"${orcid}"[auid]` : ''].filter(Boolean);
+  if (clauses.length === 1) {
+    return clauses[0];
   }
-  return name;
+  return `(${clauses.join(' OR ')})`;
+};
+
+const extractOrcid = (author) => {
+  const identifiers = toArray(author?.Identifier);
+  for (const identifier of identifiers) {
+    if (typeof identifier === 'string') {
+      if (/\\d{4}-\\d{4}-\\d{4}-\\d{4}/.test(identifier)) {
+        return identifier;
+      }
+      continue;
+    }
+    if (identifier?.['@_Source'] === 'ORCID') {
+      return getText(identifier);
+    }
+  }
+  return '';
+};
+
+const extractAffiliations = (author) => {
+  const infoEntries = toArray(author?.AffiliationInfo);
+  return infoEntries
+    .flatMap((entry) => {
+      if (!entry) {
+        return [];
+      }
+      if (typeof entry === 'string') {
+        return [entry];
+      }
+      const affiliation = entry.Affiliation ?? entry;
+      return toArray(affiliation).map(getText);
+    })
+    .map((text) => text.trim())
+    .filter(Boolean);
+};
+
+const authorMatchesPerson = (author, person) => {
+  if (!author) {
+    return false;
+  }
+
+  if (person.orcid) {
+    const authorOrcid = extractOrcid(author).replace(/-/g, '');
+    const targetOrcid = person.orcid.replace(/-/g, '');
+    if (authorOrcid && targetOrcid && authorOrcid === targetOrcid) {
+      return true;
+    }
+  }
+
+  const authorLast = normalizeName(getText(author.LastName));
+  const personLast = normalizeName(person.lastName);
+  if (!authorLast || authorLast !== personLast) {
+    return false;
+  }
+
+  const authorFore = normalizeName(getText(author.ForeName));
+  const personFore = normalizeName(person.foreName);
+
+  if (authorFore && personFore) {
+    if (authorFore === personFore) {
+      return true;
+    }
+    if (authorFore.startsWith(personFore) || personFore.startsWith(authorFore)) {
+      return true;
+    }
+  }
+
+  const authorInitial = normalizeName(getText(author.Initials || author.ForeName)).charAt(0);
+  const personInitial = personFore.charAt(0);
+  return Boolean(authorInitial && personInitial && authorInitial === personInitial);
 };
 
 const chunk = (arr, size) => {
@@ -140,10 +282,73 @@ const mapSummaryToPublication = (summary) => {
     id: summary.uid,
     title: summary.title?.trim() || `PubMed ${summary.uid}`,
     journal: summary.fulljournalname || summary.source || 'Unknown journal',
-    year: year || YEAR_START,
+    year: year || null,
     doi: extractDoi(summary.articleids),
     url: `https://pubmed.ncbi.nlm.nih.gov/${summary.uid}/`
   };
+};
+
+const parseArticlesFromXml = (xmlText) => {
+  if (!xmlText) {
+    return [];
+  }
+  const doc = xmlParser.parse(xmlText);
+  const articles = toArray(doc?.PubmedArticleSet?.PubmedArticle);
+  return articles.map((article) => {
+    const citation = article.MedlineCitation || {};
+    const pmid = getText(citation.PMID);
+    const authors = toArray(citation.Article?.AuthorList?.Author);
+    return { pmid, authors };
+  });
+};
+
+const filterPmidsByAuthorAffiliation = async (pmids, person, affiliationTerms) => {
+  if (!pmids.length) {
+    return new Set();
+  }
+
+  const allowedTerms = affiliationTerms.length ? affiliationTerms : [DEFAULT_AFFILIATION];
+  const normalizedAllowed = allowedTerms.map(normalizeAffiliation).filter(Boolean);
+  const kept = new Set();
+  let missingAffiliationCount = 0;
+
+  for (const batch of chunk(pmids, 100)) {
+    const xmlText = await fetchArticleXml(batch, EMAIL, TOOL, API_KEY);
+    const articles = parseArticlesFromXml(xmlText);
+
+    articles.forEach(({ pmid, authors }) => {
+      const matchedAuthor = authors.find((author) => authorMatchesPerson(author, person));
+      if (!matchedAuthor) {
+        return;
+      }
+
+      const affiliations = extractAffiliations(matchedAuthor);
+      if (!affiliations.length) {
+        missingAffiliationCount += 1;
+        kept.add(String(pmid));
+        return;
+      }
+
+      const normalizedAffiliations = affiliations.map(normalizeAffiliation);
+      const matches = normalizedAffiliations.some((aff) =>
+        normalizedAllowed.some((term) => aff.includes(term))
+      );
+
+      if (matches) {
+        kept.add(String(pmid));
+      }
+    });
+
+    await sleep(120);
+  }
+
+  if (missingAffiliationCount > 0) {
+    console.warn(
+      `${person.name}: ${missingAffiliationCount} records missing author affiliation; kept them anyway.`
+    );
+  }
+
+  return kept;
 };
 
 const parseFaculty = (rows) => {
@@ -172,7 +377,8 @@ const parseFaculty = (rows) => {
         orcid: record.orcid,
         email: record.email,
         signatureTerms: new Set(),
-        programs: new Set()
+        programs: new Set(),
+        startDate: null
       });
     }
 
@@ -180,6 +386,10 @@ const parseFaculty = (rows) => {
     parseSignatureTerms(record.signature_terms).forEach((term) => person.signatureTerms.add(term));
     if (record['program']) {
       person.programs.add(record['program']);
+    }
+    const startDate = parseStartDate(record['start date']);
+    if (startDate && (!person.startDate || startDate < person.startDate)) {
+      person.startDate = startDate;
     }
   });
 
@@ -196,14 +406,17 @@ const parseFaculty = (rows) => {
       orcid: person.orcid || '',
       email: person.email || '',
       signatureTerms,
-      programs: Array.from(person.programs)
+      programs: Array.from(person.programs),
+      startDate: person.startDate,
+      startYear: person.startDate ? person.startDate.getFullYear() : null
     };
   });
 };
 
-const buildTerm = ({ nameFirst, nameLast, orcid, signatureTerms }) => {
-  const authorClause = buildAuthorClause(nameFirst, nameLast, orcid);
-  const yearClause = parseYearClause(YEAR_START, YEAR_END);
+const buildTerm = ({ nameFirst, nameLast, orcid, signatureTerms, yearStart, yearEnd }) => {
+  const includeInitials = ALLOW_INITIALS && !orcid;
+  const authorClause = buildAuthorClause(nameFirst, nameLast, orcid, includeInitials);
+  const yearClause = parseYearClause(yearStart, yearEnd);
   const affiliationTerms = signatureTerms.filter((term) => !isEmail(term));
   if (
     DEFAULT_AFFILIATION &&
@@ -215,7 +428,10 @@ const buildTerm = ({ nameFirst, nameLast, orcid, signatureTerms }) => {
   }
   const affiliationClause = buildAffiliationClause(affiliationTerms);
 
-  return [authorClause, yearClause, affiliationClause].filter(Boolean).join(' AND ');
+  return {
+    term: [authorClause, yearClause, affiliationClause].filter(Boolean).join(' AND '),
+    affiliationTerms
+  };
 };
 
 const main = async () => {
@@ -230,15 +446,26 @@ const main = async () => {
   const results = [];
 
   for (const person of faculty) {
-    const term = buildTerm({
+    const personYearStart = Number.isFinite(DEFAULT_YEAR_START)
+      ? DEFAULT_YEAR_START
+      : person.startYear || DEFAULT_YEAR_END;
+    const personYearEnd = DEFAULT_YEAR_END;
+
+    const { term, affiliationTerms } = buildTerm({
       nameFirst: person.foreName,
       nameLast: person.lastName,
       orcid: person.orcid,
-      signatureTerms: person.signatureTerms
+      signatureTerms: person.signatureTerms,
+      yearStart: personYearStart,
+      yearEnd: personYearEnd
     });
 
-    console.log(`Searching PubMed for ${person.name}...`);
+    console.log(`Searching PubMed for ${person.name} (${personYearStart}-${personYearEnd})...`);
     const pmids = await fetchPmids(term, EMAIL, TOOL, API_KEY);
+
+    const validPmids = VALIDATE_AFFILIATION
+      ? await filterPmidsByAuthorAffiliation(pmids, person, affiliationTerms)
+      : new Set(pmids.map(String));
 
     const summaries = [];
     for (const batch of chunk(pmids, 200)) {
@@ -247,8 +474,13 @@ const main = async () => {
     }
 
     const publications = summaries
+      .filter((summary) => validPmids.has(String(summary.uid)))
       .map(mapSummaryToPublication)
-      .filter((pub) => pub.year >= YEAR_START && pub.year <= YEAR_END)
+      .filter(
+        (pub) =>
+          !pub.year ||
+          (pub.year >= personYearStart && pub.year <= personYearEnd)
+      )
       .sort((a, b) => b.year - a.year || a.title.localeCompare(b.title));
 
     results.push({
