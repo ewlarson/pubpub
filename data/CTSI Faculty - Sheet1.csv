@@ -1,0 +1,20 @@
+person_id,fore_name,last_name,orcid,signature_terms,start date,program ,email
+haynes_david,David,Haynes,0000-0002-6858-428X,dahaynes@umn.edu|XanthosHealth|Institute for Health Informatics,7/1/2019,KAP,dahaynes@umn.edu
+,Monica,Campo Patino,0000-0003-4336-0519,mcampo@umn.edu|University of Washington|University of Minnesota,12/1/2021,K-R01,mcampo@umn.edu
+,Ida,Fonkoue,0000-0003-3282-5739,fonko001@umn.edu|University of Minnesota,1/1/2024,K-R01,fonko001@umn.edu
+,Ida,Fonkoue,0000-0003-3282-5739,fonko001@umn.edu|University of Minnesota,10/7/2021,KL2/K12,fonko001@umn.edu
+,Arif,Hamid,0000-0001-7403-0067,hamid008@umn.edu|University of Minnesota,11/1/2022,K-R01,hamid008@umn.edu
+,Asha,Hassan,0000-0003-0097-3075,asha@umn.edu|University of Minnesota,11/1/2024,KAP,asha@umn.edu
+,Sarah,Kaja,0000-0002-8719-077X,kaja@umn.edu|University of Minnesota,8/1/2022,KAP,kaja@umn.edu
+,Jesse,Kowalski,0000-0003-1745-3877,kowal225@umn.edu|Harvard Medical School|University of Minnesota,3/11/2024,KAP,kowal225@umn.edu
+,Nathan,Mesfin,0000-0001-8419-0339,mesfin@umn.edu|Boston University|University of Minnesota,9/1/2022,KAP,mesfin@umn.edu
+,Jean-Paul,Noel,0000-0001-5297-3363,noelx071@umn.edu|New York University|University of Minnesota,11/1/2024,K-R01,noelx071@umn.edu
+,Oludare,Odumade,0000-0002-8630-8510,oduma002@umn.edu|Boston Children’s Hospital|University of Minnesota,11/1/2024,KAP,oduma002@umn.edu
+,Ebiere,Okah,0000-0003-3784-439X,ebiere@umn.edu|University of North Carolina at Chapel Hill|University of Minnesota,10/1/2022,KAP,ebiere@umn.edu
+,Edgar,Peña,,penax025@umn.edu|Duke University|University of Minnesota,1/11/2024,KAP,penax025@umn.edu
+,Gianna,Rea-Sandin,0000-0002-3395-7277,reasa002@umn.edu|Arizona State University|University of Minnesota,6/1/2024,KAP,reasa002@umn.edu
+,Sabrina,Scroggins,,sscroggi@d.umn.edu|University of Iowa|University of Minnesota,1/1/2024,K-R01,sscroggi@d.umn.edu
+,Sabrina,Scroggins,,sscroggi@d.umn.edu|University of Iowa|University of Minnesota,8/1/2022,KL2/K12,sscroggi@d.umn.edu
+,Stefani,Thomas,0000-0003-1679-5453,stefanit@umn.edu|Johns Hopkins University|University of Minnesota,7/1/2019,KAP,stefanit@umn.edu
+,Cliff,Whetung,0009-0004-9678-0677,cwhetung@d.umn.edu|New York University|University of Minnesota,6/1/2024,KAP,cwhetung@d.umn.edu
+,Serena,Xiong,0000-0001-6399-4397,xiong455@umn.edu|Washington University|University of Minnesota,10/31/2023,KAP,xiong455@umn.edu

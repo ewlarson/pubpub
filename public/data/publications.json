@@ -1,0 +1,570 @@
+{
+  "updated": "2026-02-17",
+  "source": "PubMed E-utilities",
+  "faculty": [
+    {
+      "id": "haynes-david",
+      "name": "David Haynes",
+      "department": "XanthosHealth",
+      "orcid": "0000-0002-6858-428X",
+      "areas": [],
+      "programs": [
+        "KAP"
+      ],
+      "publications": [
+        {
+          "id": "39362292",
+          "title": "A Human-Centered Approach for Designing a Social Care Referral Platform.",
+          "journal": "Applied clinical informatics",
+          "year": 2025,
+          "doi": "10.1055/a-2425-8731",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39362292/"
+        },
+        {
+          "id": "40668547",
+          "title": "Ambient Fine Particulate Matter, Residential Greenness, and Childhood Cancer Risk by Trimester of Exposure in Minnesota 2000 to 2014: A Case-Control Study.",
+          "journal": "Cancer epidemiology, biomarkers & prevention : a publication of the American Association for Cancer Research, cosponsored by the American Society of Preventive Oncology",
+          "year": 2025,
+          "doi": "10.1158/1055-9965.EPI-25-0465",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40668547/"
+        },
+        {
+          "id": "40471344",
+          "title": "Enhancing cancer care through digital social care referrals: insights from the ConnectedNest pilot study.",
+          "journal": "Supportive care in cancer : official journal of the Multinational Association of Supportive Care in Cancer",
+          "year": 2025,
+          "doi": "10.1007/s00520-025-09523-5",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40471344/"
+        },
+        {
+          "id": "40110606",
+          "title": "Environmental health disparities in pediatric cancer: a report from the Fourth Symposium on Childhood Cancer Health Disparities.",
+          "journal": "Pediatric hematology and oncology",
+          "year": 2025,
+          "doi": "10.1080/08880018.2025.2479479",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40110606/"
+        },
+        {
+          "id": "41115337",
+          "title": "Examining the social prescription process: Barriers, facilitators, and the role of health information technology.",
+          "journal": "Social science & medicine (1982)",
+          "year": 2025,
+          "doi": "10.1016/j.socscimed.2025.118668",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41115337/"
+        }
+      ]
+    },
+    {
+      "id": "monica-campo-patino-mcampo-umn-edu",
+      "name": "Monica Campo Patino",
+      "department": "University of Washington",
+      "orcid": "0000-0003-4336-0519",
+      "areas": [],
+      "programs": [
+        "K-R01"
+      ],
+      "publications": [
+        {
+          "id": "41208107",
+          "title": "Shared and distinct responses of human and murine alveolar macrophages and monocyte-derived macrophages to Mycobacterium tuberculosis.",
+          "journal": "ImmunoHorizons",
+          "year": 2025,
+          "doi": "10.1093/immhor/vlaf051",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41208107/"
+        }
+      ]
+    },
+    {
+      "id": "ida-fonkoue-fonko001-umn-edu",
+      "name": "Ida Fonkoue",
+      "department": "University of Minnesota",
+      "orcid": "0000-0003-3282-5739",
+      "areas": [],
+      "programs": [
+        "K-R01",
+        "KL2/K12"
+      ],
+      "publications": [
+        {
+          "id": "39824513",
+          "title": "Estradiol levels are differentially associated with pulse wave velocity in trauma-exposed premenopausal women with and without PTSD.",
+          "journal": "American journal of physiology. Regulatory, integrative and comparative physiology",
+          "year": 2025,
+          "doi": "10.1152/ajpregu.00262.2024",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39824513/"
+        },
+        {
+          "id": "40827103",
+          "title": "Sleep efficiency is negatively associated with resting daytime heart rate in trauma-exposed premenopausal women.",
+          "journal": "Physiological reports",
+          "year": 2025,
+          "doi": "10.14814/phy2.70525",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40827103/"
+        }
+      ]
+    },
+    {
+      "id": "arif-hamid-hamid008-umn-edu",
+      "name": "Arif Hamid",
+      "department": "University of Minnesota",
+      "orcid": "0000-0001-7403-0067",
+      "areas": [],
+      "programs": [
+        "K-R01"
+      ],
+      "publications": [
+        {
+          "id": "41446203",
+          "title": "Dual cholinergic mechanisms for sculpting striatal dopamine in vivo.",
+          "journal": "bioRxiv : the preprint server for biology",
+          "year": 2025,
+          "doi": "10.64898/2025.12.19.695021",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41446203/"
+        }
+      ]
+    },
+    {
+      "id": "asha-hassan-asha-umn-edu",
+      "name": "Asha Hassan",
+      "department": "University of Minnesota",
+      "orcid": "0000-0003-0097-3075",
+      "areas": [],
+      "programs": [
+        "KAP"
+      ],
+      "publications": [
+        {
+          "id": "39523167",
+          "title": "Corrigendum to Society of Family Planning Research Practice Support: Strategies and considerations for addressing race and racism in quantitative family planning studies [Contraception vol 139 (2024) 110534].",
+          "journal": "Contraception",
+          "year": 2025,
+          "doi": "10.1016/j.contraception.2024.110736",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39523167/"
+        },
+        {
+          "id": "41115244",
+          "title": "Fetal Personhood and Reproductive Criminalization - Implications for Patients, Clinicians, and Public Health.",
+          "journal": "The New England journal of medicine",
+          "year": 2025,
+          "doi": "10.1056/NEJMp2508160",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41115244/"
+        },
+        {
+          "id": "40499102",
+          "title": "Integrating Reproductive Justice in Public Health Practice, Research, and Advocacy: An Imperative to Advance Health Equity.",
+          "journal": "American journal of public health",
+          "year": 2025,
+          "doi": "10.2105/AJPH.2025.308060",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40499102/"
+        },
+        {
+          "id": "40474308",
+          "title": "Interest in new methods of \"male contraception\" in survey of people with a prior vasectomy in the United States.",
+          "journal": "Contraception and reproductive medicine",
+          "year": 2025,
+          "doi": "10.1186/s40834-025-00369-0",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40474308/"
+        }
+      ]
+    },
+    {
+      "id": "sarah-kaja-kaja-umn-edu",
+      "name": "Sarah Kaja",
+      "department": "University of Minnesota",
+      "orcid": "0000-0002-8719-077X",
+      "areas": [],
+      "programs": [
+        "KAP"
+      ],
+      "publications": [
+        {
+          "id": "41468188",
+          "title": "Associations of Sleep Duration, Quality, and Timing With Physical Activity and Sedentary Behaviors Among High School Students.",
+          "journal": "Journal of physical activity & health",
+          "year": 2025,
+          "doi": "10.1123/jpah.2025-0247",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41468188/"
+        },
+        {
+          "id": "39884734",
+          "title": "Helping Teens Move + Thrive: Adolescents' Preferences for Online Exercise Videos.",
+          "journal": "Health promotion practice",
+          "year": 2025,
+          "doi": "10.1177/15248399251314423",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39884734/"
+        }
+      ]
+    },
+    {
+      "id": "jesse-kowalski-kowal225-umn-edu",
+      "name": "Jesse Kowalski",
+      "department": "Harvard Medical School",
+      "orcid": "0000-0003-1745-3877",
+      "areas": [],
+      "programs": [
+        "KAP"
+      ],
+      "publications": []
+    },
+    {
+      "id": "nathan-mesfin-mesfin-umn-edu",
+      "name": "Nathan Mesfin",
+      "department": "Boston University",
+      "orcid": "0000-0001-8419-0339",
+      "areas": [],
+      "programs": [
+        "KAP"
+      ],
+      "publications": [
+        {
+          "id": "39530748",
+          "title": "Comparison of six natural language processing approaches to assessing firearm access in Veterans Health Administration electronic health records.",
+          "journal": "Journal of the American Medical Informatics Association : JAMIA",
+          "year": 2025,
+          "doi": "10.1093/jamia/ocae169",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39530748/"
+        },
+        {
+          "id": "40071062",
+          "title": "Contribution of QRS Prolongation to Transplant-Free Survival in Sarcoidosis-Related Pulmonary Hypertension.",
+          "journal": "Pulmonary circulation",
+          "year": 2025,
+          "doi": "10.1002/pul2.70021",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40071062/"
+        },
+        {
+          "id": "41142473",
+          "title": "Hospital and Temporal Variations in Limitations of Care Among Hospitalized Patients with COVID-19: A VIRUS Registry Retrospective Cohort Study.",
+          "journal": "Palliative medicine reports",
+          "year": 2025,
+          "doi": "10.1177/26892820251380523",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41142473/"
+        }
+      ]
+    },
+    {
+      "id": "jean-paul-noel-noelx071-umn-edu",
+      "name": "Jean-Paul Noel",
+      "department": "New York University",
+      "orcid": "0000-0001-5297-3363",
+      "areas": [],
+      "programs": [
+        "K-R01"
+      ],
+      "publications": [
+        {
+          "id": "40903598",
+          "title": "A brain-wide map of neural activity during complex behaviour.",
+          "journal": "Nature",
+          "year": 2025,
+          "doi": "10.1038/s41586-025-09235-0",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40903598/"
+        },
+        {
+          "id": "40461847",
+          "title": "A common computational and neural anomaly across mouse models of autism.",
+          "journal": "Nature neuroscience",
+          "year": 2025,
+          "doi": "10.1038/s41593-025-01965-8",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40461847/"
+        },
+        {
+          "id": "40903597",
+          "title": "Brain-wide representations of prior information in mouse decision-making.",
+          "journal": "Nature",
+          "year": 2025,
+          "doi": "10.1038/s41586-025-09226-1",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40903597/"
+        },
+        {
+          "id": "40669216",
+          "title": "Computational models of peripersonal space representation.",
+          "journal": "Physics of life reviews",
+          "year": 2025,
+          "doi": "10.1016/j.plrev.2025.07.002",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40669216/"
+        },
+        {
+          "id": "40244939",
+          "title": "Neuronal responses in the human primary motor cortex coincide with the subjective onset of movement intention in brain-machine interface-mediated actions.",
+          "journal": "PLoS biology",
+          "year": 2025,
+          "doi": "10.1371/journal.pbio.3003118",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40244939/"
+        },
+        {
+          "id": "40234393",
+          "title": "Pre-movement sensorimotor oscillations shape the sense of agency by gating cortical connectivity.",
+          "journal": "Nature communications",
+          "year": 2025,
+          "doi": "10.1038/s41467-025-58683-9",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40234393/"
+        },
+        {
+          "id": "40354112",
+          "title": "Reproducibility of in vivo electrophysiological measurements in mice.",
+          "journal": "eLife",
+          "year": 2025,
+          "doi": "10.7554/eLife.100840",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40354112/"
+        }
+      ]
+    },
+    {
+      "id": "oludare-odumade-oduma002-umn-edu",
+      "name": "Oludare Odumade",
+      "department": "Boston Children’s Hospital",
+      "orcid": "0000-0002-8630-8510",
+      "areas": [],
+      "programs": [
+        "KAP"
+      ],
+      "publications": [
+        {
+          "id": "39894440",
+          "title": "Congenital parechovirus meningitis presenting as in utero intraventricular hemorrhage: A case report.",
+          "journal": "International journal of infectious diseases : IJID : official publication of the International Society for Infectious Diseases",
+          "year": 2025,
+          "doi": "10.1016/j.ijid.2025.107813",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39894440/"
+        },
+        {
+          "id": "39951083",
+          "title": "Trends in Neonatal Vaccination: A Ten-year Retrospective Study in a Large Delivery Center.",
+          "journal": "The Pediatric infectious disease journal",
+          "year": 2025,
+          "doi": "10.1097/INF.0000000000004661",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39951083/"
+        }
+      ]
+    },
+    {
+      "id": "ebiere-okah-ebiere-umn-edu",
+      "name": "Ebiere Okah",
+      "department": "University of North Carolina at Chapel Hill",
+      "orcid": "0000-0003-3784-439X",
+      "areas": [],
+      "programs": [
+        "KAP"
+      ],
+      "publications": [
+        {
+          "id": "41091417",
+          "title": "A Qualitative Exploration of Primary Care Clinicians' Perceptions of Hypertensive Black Patients.",
+          "journal": "Journal of racial and ethnic health disparities",
+          "year": 2025,
+          "doi": "10.1007/s40615-025-02689-y",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41091417/"
+        },
+        {
+          "id": "40895342",
+          "title": "Knowledge and attitudes about lung cancer screening amongst American Indian adults who use commercial tobacco.",
+          "journal": "Preventive medicine reports",
+          "year": 2025,
+          "doi": "10.1016/j.pmedr.2025.103173",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40895342/"
+        },
+        {
+          "id": "39808441",
+          "title": "Screening for Osteoporosis to Prevent Fractures: A Systematic Evidence Review for the US Preventive Services Task Force.",
+          "journal": "JAMA",
+          "year": 2025,
+          "doi": "10.1001/jama.2024.21653",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39808441/"
+        },
+        {
+          "id": "40789631",
+          "title": "Strengths and Weakness of the Atherosclerotic Cardiovascular Risk Calculation: A Qualitative Study.",
+          "journal": "Journal of the American Board of Family Medicine : JABFM",
+          "year": 2025,
+          "doi": "10.3122/jabfm.2024.240324R1",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40789631/"
+        },
+        {
+          "id": "40378315",
+          "title": "Supporting All Patients With Unintended Pregnancies: Implications for Health Equity.",
+          "journal": "American family physician",
+          "year": 2025,
+          "doi": "",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40378315/"
+        }
+      ]
+    },
+    {
+      "id": "edgar-pe-a-penax025-umn-edu",
+      "name": "Edgar Peña",
+      "department": "Duke University",
+      "orcid": "",
+      "areas": [],
+      "programs": [
+        "KAP"
+      ],
+      "publications": [
+        {
+          "id": "40300613",
+          "title": "Ramped kilohertz-frequency signals produce nerve conduction block without onset response.",
+          "journal": "Journal of neural engineering",
+          "year": 2025,
+          "doi": "10.1088/1741-2552/add20e",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40300613/"
+        }
+      ]
+    },
+    {
+      "id": "gianna-rea-sandin-reasa002-umn-edu",
+      "name": "Gianna Rea-Sandin",
+      "department": "Arizona State University",
+      "orcid": "0000-0002-3395-7277",
+      "areas": [],
+      "programs": [
+        "KAP"
+      ],
+      "publications": [
+        {
+          "id": "40995639",
+          "title": "Examining parent and youth experiences of familism: Effects on youth well-being and family dynamics.",
+          "journal": "Journal of research on adolescence : the official journal of the Society for Research on Adolescence",
+          "year": 2025,
+          "doi": "10.1111/jora.70082",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40995639/"
+        },
+        {
+          "id": "41221469",
+          "title": "The Relations between Children's Sleep and School Engagement: Moderation by Socioeconomic Status and Sex.",
+          "journal": "Social development (Oxford, England)",
+          "year": 2025,
+          "doi": "10.1111/sode.70021",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41221469/"
+        }
+      ]
+    },
+    {
+      "id": "sabrina-scroggins-sscroggi-d-umn-edu",
+      "name": "Sabrina Scroggins",
+      "department": "University of Iowa",
+      "orcid": "",
+      "areas": [],
+      "programs": [
+        "K-R01",
+        "KL2/K12"
+      ],
+      "publications": []
+    },
+    {
+      "id": "stefani-thomas-stefanit-umn-edu",
+      "name": "Stefani Thomas",
+      "department": "Johns Hopkins University",
+      "orcid": "0000-0003-1679-5453",
+      "areas": [],
+      "programs": [
+        "KAP"
+      ],
+      "publications": [
+        {
+          "id": "39808161",
+          "title": "Cancer Incidence in the Hispanic Community Health Study/Study of Latinos (HCHS/SOL)-The Onco-SOL Ancillary Study.",
+          "journal": "Cancer epidemiology, biomarkers & prevention : a publication of the American Association for Cancer Research, cosponsored by the American Society of Preventive Oncology",
+          "year": 2025,
+          "doi": "10.1158/1055-9965.EPI-24-1325",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39808161/"
+        },
+        {
+          "id": "41465250",
+          "title": "Global Proteomic Determination of the Poly-Pharmacological Effects of PARP Inhibitors Following Treatment of High-Grade Serous Ovarian Cancer Cells.",
+          "journal": "International journal of molecular sciences",
+          "year": 2025,
+          "doi": "10.3390/ijms262411820",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41465250/"
+        },
+        {
+          "id": "40564930",
+          "title": "Proteomic Analysis of ARID1A-Deficient Ovarian Clear Cell Carcinoma Cells Reveals Differential Mitochondria ETC Subunit Abundances and Targetable Mitochondrial Pathways.",
+          "journal": "International journal of molecular sciences",
+          "year": 2025,
+          "doi": "10.3390/ijms26125466",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40564930/"
+        }
+      ]
+    },
+    {
+      "id": "cliff-whetung-cwhetung-d-umn-edu",
+      "name": "Cliff Whetung",
+      "department": "New York University",
+      "orcid": "0009-0004-9678-0677",
+      "areas": [],
+      "programs": [
+        "KAP"
+      ],
+      "publications": [
+        {
+          "id": "41005356",
+          "title": "Active aging activities and genetic determinants of cognitive health: findings from the Kuakini Honolulu-Asia Aging Study.",
+          "journal": "The Gerontologist",
+          "year": 2025,
+          "doi": "10.1093/geront/gnaf174",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41005356/"
+        },
+        {
+          "id": "40402154",
+          "title": "Education and Formal Volunteering Delays Cognitive Decline Among Hispanics: Implications for Health Interventions.",
+          "journal": "Journal of gerontological social work",
+          "year": 2025,
+          "doi": "10.1080/01634372.2025.2504071",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40402154/"
+        },
+        {
+          "id": "40832662",
+          "title": "Modifiable factors associated with cognitive health trajectories among Indigenous, Hispanic, Black, and White older adults: an exploratory longitudinal panel analysis of the health and retirement study with a focus on Indigenous peoples.",
+          "journal": "Lancet regional health. Americas",
+          "year": 2025,
+          "doi": "10.1016/j.lana.2025.101207",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40832662/"
+        }
+      ]
+    },
+    {
+      "id": "serena-xiong-xiong455-umn-edu",
+      "name": "Serena Xiong",
+      "department": "Washington University",
+      "orcid": "0000-0001-6399-4397",
+      "areas": [],
+      "programs": [
+        "KAP"
+      ],
+      "publications": [
+        {
+          "id": "37933120",
+          "title": "A Digital Diabetes Storytelling Intervention for the Hmong Community: A Pilot Study.",
+          "journal": "Health promotion practice",
+          "year": 2025,
+          "doi": "10.1177/15248399231208990",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/37933120/"
+        },
+        {
+          "id": "40235015",
+          "title": "Hmong Promoting Vaccines eHealth website: a community-based participatory research pilot to evaluate dissemination and implementation strategies for primary care and educational contexts.",
+          "journal": "Implementation science communications",
+          "year": 2025,
+          "doi": "10.1186/s43058-025-00733-w",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40235015/"
+        },
+        {
+          "id": "40727858",
+          "title": "Patient-Identified Barriers to Hepatitis C Treatment.",
+          "journal": "PRiMER (Leawood, Kan.)",
+          "year": 2025,
+          "doi": "10.22454/PRiMER.2025.634340",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40727858/"
+        },
+        {
+          "id": "40305464",
+          "title": "Perceptions of barriers and facilitators for cervical cancer screening from women and healthcare workers in Ghana: Applying the Dynamic Sustainability Framework.",
+          "journal": "PLOS global public health",
+          "year": 2025,
+          "doi": "10.1371/journal.pgph.0003011",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40305464/"
+        }
+      ]
+    }
+  ]
+}
