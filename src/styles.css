@@ -169,6 +169,26 @@ a:hover {
   color: var(--ink);
 }
 
+.clear-button {
+  padding: 0.65rem 0.9rem;
+  border-radius: 12px;
+  border: 1px solid var(--line);
+  background: #f7f9fc;
+  color: var(--ink);
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.clear-button:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+.clear-button:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
 .table-wrap {
   background: var(--card);
   border: 1px solid var(--line);
@@ -212,19 +232,51 @@ a:hover {
   font-weight: 600;
 }
 
+.name-row {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.copy-link {
+  border: 1px solid var(--line);
+  background: #f7f9fc;
+  color: var(--accent-strong);
+  border-radius: 999px;
+  padding: 0.2rem 0.4rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.copy-link:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+.copy-link:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
 .small {
   font-size: 0.8rem;
 }
 
-.pub-details summary {
-  cursor: pointer;
+.pub-toggle {
+  background: none;
+  border: none;
+  padding: 0;
   color: var(--accent);
   font-weight: 600;
-  list-style: none;
+  cursor: pointer;
+  text-align: left;
 }
 
-.pub-details summary::-webkit-details-marker {
-  display: none;
+.pub-toggle:hover {
+  text-decoration: underline;
 }
 
 .pub-list {

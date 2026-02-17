@@ -3,6 +3,15 @@ import { useEffect, useMemo, useState } from 'react';
 const DATA_URL = `${import.meta.env.BASE_URL}data/publications.json`;
 
 const normalize = (value) => value.toLowerCase();
+const normalizeKey = (value) =>
+  String(value || '')
+    .toLowerCase()
+    .replace(/[^a-z0-9]/g, '');
+const normalizeSlug = (value) =>
+  String(value || '')
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/^-+|-+$/g, '');
 
 export default function App() {
   const [data, setData] = useState({ updated: '', source: '', faculty: [] });
@@ -11,6 +20,8 @@ export default function App() {
   const [yearMin, setYearMin] = useState('');
   const [yearMax, setYearMax] = useState('');
   const [sortBy, setSortBy] = useState('name');
+  const [openId, setOpenId] = useState(null);
+  const [copiedId, setCopiedId] = useState(null);
 
   useEffect(() => {
     let active = true;
@@ -41,6 +52,59 @@ export default function App() {
     };
   }, []);
 
+  useEffect(() => {
+    if (status !== 'ready') {
+      return;
+    }
+    const params = new URLSearchParams(window.location.search);
+    const facultyParam =
+      params.get('faculty') || params.get('name') || params.get('researcher');
+    if (!facultyParam) {
+      return;
+    }
+    const key = normalizeKey(facultyParam);
+    const slug = normalizeSlug(facultyParam);
+    const match = data.faculty.find((member) => {
+      const idKey = normalizeKey(member.id);
+      const nameKey = normalizeKey(member.name);
+      return (
+        idKey === key ||
+        nameKey === key ||
+        normalizeSlug(member.name) === slug ||
+        normalizeSlug(member.id) === slug
+      );
+    });
+    if (match) {
+      setQuery(match.name);
+      setOpenId(match.id);
+    }
+  }, [status, data.faculty]);
+
+  const handleCopyLink = async (member) => {
+    const url = new URL(window.location.href);
+    url.searchParams.set('faculty', member.id);
+    const link = url.toString();
+
+    try {
+      if (navigator.clipboard?.writeText) {
+        await navigator.clipboard.writeText(link);
+      } else {
+        const input = document.createElement('input');
+        input.value = link;
+        document.body.appendChild(input);
+        input.select();
+        document.execCommand('copy');
+        document.body.removeChild(input);
+      }
+      setCopiedId(member.id);
+      window.setTimeout(() => {
+        setCopiedId((current) => (current === member.id ? null : current));
+      }, 1500);
+    } catch (error) {
+      console.error('Failed to copy link', error);
+    }
+  };
+
   const yearBounds = useMemo(() => {
     const years = data.faculty.flatMap((member) =>
       member.publications.map((pub) => pub.year)
@@ -57,6 +121,24 @@ export default function App() {
       setYearMax(yearBounds.max);
     }
   }, [yearBounds]);
+
+  const handleClearFilters = () => {
+    setQuery('');
+    setSortBy('name');
+    if (yearBounds.min && yearBounds.max) {
+      setYearMin(yearBounds.min);
+      setYearMax(yearBounds.max);
+    } else {
+      setYearMin('');
+      setYearMax('');
+    }
+    setOpenId(null);
+    const url = new URL(window.location.href);
+    url.searchParams.delete('faculty');
+    url.searchParams.delete('name');
+    url.searchParams.delete('researcher');
+    window.history.replaceState({}, '', url.toString());
+  };
 
   const filteredFaculty = useMemo(() => {
     const needle = normalize(query.trim());
@@ -106,6 +188,16 @@ export default function App() {
 
     return sorted;
   }, [data, query, sortBy, yearMin, yearMax]);
+
+  useEffect(() => {
+    if (!openId) {
+      return;
+    }
+    const target = document.getElementById(`faculty-${openId}`);
+    if (target) {
+      target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+  }, [openId, filteredFaculty]);
 
   const totalPublications = useMemo(() => {
     return filteredFaculty.reduce(
@@ -210,6 +302,12 @@ export default function App() {
               <option value="latest">Most recent year</option>
             </select>
           </label>
+          <div className="field">
+            <span>Reset</span>
+            <button type="button" className="clear-button" onClick={handleClearFilters}>
+              Clear filters
+            </button>
+          </div>
         </div>
       </section>
 
@@ -232,9 +330,36 @@ export default function App() {
               );
 
               return (
-                <tr key={member.id}>
+                <tr key={member.id} id={`faculty-${member.id}`}>
                   <td>
-                    <div className="name">{member.name}</div>
+                    <div className="name-row">
+                      <div className="name">{member.name}</div>
+                      <button
+                        type="button"
+                        className="copy-link"
+                        onClick={() => handleCopyLink(member)}
+                        aria-label={`Copy link for ${member.name}`}
+                        title="Copy link"
+                      >
+                        <svg
+                          width="16"
+                          height="16"
+                          viewBox="0 0 24 24"
+                          fill="none"
+                          stroke="currentColor"
+                          strokeWidth="2"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          aria-hidden="true"
+                        >
+                          <path d="M10 13a5 5 0 0 0 7.07 0l2.83-2.83a5 5 0 0 0-7.07-7.07L10 5" />
+                          <path d="M14 11a5 5 0 0 0-7.07 0L4.1 13.83a5 5 0 0 0 7.07 7.07L14 19" />
+                        </svg>
+                      </button>
+                      {copiedId === member.id ? (
+                        <span className="muted small">Copied</span>
+                      ) : null}
+                    </div>
                     <div className="muted small">
                       {member.orcid ? (
                         <a
@@ -255,9 +380,19 @@ export default function App() {
                   <td className="num">{member.filteredPublications.length}</td>
                   <td className="num">{latestYear}</td>
                   <td>
-                    <details className="pub-details">
-                      <summary>View list</summary>
-                      <ul className="pub-list">
+                    <button
+                      type="button"
+                      className="pub-toggle"
+                      aria-expanded={openId === member.id}
+                      aria-controls={`pub-list-${member.id}`}
+                      onClick={() => {
+                        setOpenId(openId === member.id ? null : member.id);
+                      }}
+                    >
+                      {openId === member.id ? 'Hide list' : 'View list'}
+                    </button>
+                    {openId === member.id ? (
+                      <ul className="pub-list" id={`pub-list-${member.id}`}>
                         {member.filteredPublications.map((pub) => (
                           <li key={pub.id}>
                             <div className="pub-title">
@@ -290,7 +425,7 @@ export default function App() {
                           </li>
                         ))}
                       </ul>
-                    </details>
+                    ) : null}
                   </td>
                 </tr>
               );

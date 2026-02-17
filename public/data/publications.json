@@ -13,12 +13,12 @@
       ],
       "publications": [
         {
-          "id": "39362292",
-          "title": "A Human-Centered Approach for Designing a Social Care Referral Platform.",
-          "journal": "Applied clinical informatics",
-          "year": 2025,
-          "doi": "10.1055/a-2425-8731",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/39362292/"
+          "id": "41569707",
+          "title": "Race, socioeconomic status, and geography influence utilization of surgery in Minnesota epilepsy patients.",
+          "journal": "Journal of neurosurgery",
+          "year": 2026,
+          "doi": "10.3171/2025.8.JNS25841",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41569707/"
         },
         {
           "id": "40668547",
@@ -53,12 +53,12 @@
           "url": "https://pubmed.ncbi.nlm.nih.gov/41115337/"
         },
         {
-          "id": "38158547",
-          "title": "A Comparison of Three Area-Level Indices of Neighborhood Deprivation and Socioeconomic Status and their Applicability to Breast Cancer Mortality.",
-          "journal": "Journal of urban health : bulletin of the New York Academy of Medicine",
+          "id": "39362292",
+          "title": "A Human-Centered Approach for Designing a Social Care Referral Platform.",
+          "journal": "Applied clinical informatics",
           "year": 2024,
-          "doi": "10.1007/s11524-023-00811-1",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/38158547/"
+          "doi": "10.1055/a-2425-8731",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39362292/"
         },
         {
           "id": "39478774",
@@ -67,14 +67,6 @@
           "year": 2024,
           "doi": "10.1017/cts.2024.570",
           "url": "https://pubmed.ncbi.nlm.nih.gov/39478774/"
-        },
-        {
-          "id": "37775609",
-          "title": "Estimating uninsured and underinsured women eligible for Minnesota's Breast Cancer Screening Program.",
-          "journal": "Cancer causes & control : CCC",
-          "year": 2024,
-          "doi": "10.1007/s10552-023-01792-x",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/37775609/"
         },
         {
           "id": "38366656",
@@ -93,12 +85,28 @@
           "url": "https://pubmed.ncbi.nlm.nih.gov/38881703/"
         },
         {
+          "id": "38158547",
+          "title": "A Comparison of Three Area-Level Indices of Neighborhood Deprivation and Socioeconomic Status and their Applicability to Breast Cancer Mortality.",
+          "journal": "Journal of urban health : bulletin of the New York Academy of Medicine",
+          "year": 2023,
+          "doi": "10.1007/s11524-023-00811-1",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38158547/"
+        },
+        {
           "id": "37133574",
           "title": "Breast Cancer Champions: a peer-to-peer education and mobile mammography program improving breast cancer screening rates for women of African heritage.",
           "journal": "Cancer causes & control : CCC",
           "year": 2023,
           "doi": "10.1007/s10552-023-01704-z",
           "url": "https://pubmed.ncbi.nlm.nih.gov/37133574/"
+        },
+        {
+          "id": "37775609",
+          "title": "Estimating uninsured and underinsured women eligible for Minnesota's Breast Cancer Screening Program.",
+          "journal": "Cancer causes & control : CCC",
+          "year": 2023,
+          "doi": "10.1007/s10552-023-01792-x",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/37775609/"
         },
         {
           "id": "37293106",
@@ -125,14 +133,6 @@
           "url": "https://pubmed.ncbi.nlm.nih.gov/37615989/"
         },
         {
-          "id": "36266493",
-          "title": "PEARL: A Guide for Developing Community-Engaging and Culturally-Sensitive Education Materials.",
-          "journal": "Journal of immigrant and minority health",
-          "year": 2023,
-          "doi": "10.1007/s10903-022-01418-5",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/36266493/"
-        },
-        {
           "id": "36877901",
           "title": "Proposing An Innovative Bond To Increase Investments In Social Drivers Of Health Interventions In Medicaid Managed Care.",
           "journal": "Health affairs (Project Hope)",
@@ -149,6 +149,14 @@
           "url": "https://pubmed.ncbi.nlm.nih.gov/36062735/"
         },
         {
+          "id": "36266493",
+          "title": "PEARL: A Guide for Developing Community-Engaging and Culturally-Sensitive Education Materials.",
+          "journal": "Journal of immigrant and minority health",
+          "year": 2022,
+          "doi": "10.1007/s10903-022-01418-5",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/36266493/"
+        },
+        {
           "id": "35148869",
           "title": "The Association of Residential Mobility With Weight-Related Health Behaviors.",
           "journal": "Journal of nutrition education and behavior",
@@ -157,20 +165,20 @@
           "url": "https://pubmed.ncbi.nlm.nih.gov/35148869/"
         },
         {
-          "id": "35120678",
-          "title": "The effect of pre-aggregation scale on spatially adaptive filters.",
-          "journal": "Spatial and spatio-temporal epidemiology",
-          "year": 2022,
-          "doi": "10.1016/j.sste.2021.100476",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/35120678/"
-        },
-        {
           "id": "34189019",
           "title": "Novel mapping methods to describe utilization of free breast cancer screening from a state program.",
           "journal": "Preventive medicine reports",
           "year": 2021,
           "doi": "10.1016/j.pmedr.2021.101415",
           "url": "https://pubmed.ncbi.nlm.nih.gov/34189019/"
+        },
+        {
+          "id": "35120678",
+          "title": "The effect of pre-aggregation scale on spatially adaptive filters.",
+          "journal": "Spatial and spatio-temporal epidemiology",
+          "year": 2021,
+          "doi": "10.1016/j.sste.2021.100476",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/35120678/"
         },
         {
           "id": "34396369",
@@ -310,14 +318,6 @@
       ],
       "publications": [
         {
-          "id": "39523167",
-          "title": "Corrigendum to Society of Family Planning Research Practice Support: Strategies and considerations for addressing race and racism in quantitative family planning studies [Contraception vol 139 (2024) 110534].",
-          "journal": "Contraception",
-          "year": 2025,
-          "doi": "10.1016/j.contraception.2024.110736",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/39523167/"
-        },
-        {
           "id": "41115244",
           "title": "Fetal Personhood and Reproductive Criminalization - Implications for Patients, Clinicians, and Public Health.",
           "journal": "The New England journal of medicine",
@@ -342,12 +342,12 @@
           "url": "https://pubmed.ncbi.nlm.nih.gov/40474308/"
         },
         {
-          "id": "38964726",
-          "title": "Society of Family Planning Research Practice Support: Strategies and considerations for addressing race and racism in quantitative family planning studies.",
+          "id": "39523167",
+          "title": "Corrigendum to Society of Family Planning Research Practice Support: Strategies and considerations for addressing race and racism in quantitative family planning studies [Contraception vol 139 (2024) 110534].",
           "journal": "Contraception",
           "year": 2024,
-          "doi": "10.1016/j.contraception.2024.110534",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/38964726/"
+          "doi": "10.1016/j.contraception.2024.110736",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39523167/"
         }
       ]
     },
@@ -378,20 +378,20 @@
           "url": "https://pubmed.ncbi.nlm.nih.gov/39884734/"
         },
         {
-          "id": "36455551",
-          "title": "Following Insufficiently Active Adolescents: What Predicts Whether They Meet Adult Activity Guidelines When They Grow Up?",
-          "journal": "Journal of physical activity & health",
-          "year": 2023,
-          "doi": "10.1123/jpah.2022-0300",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/36455551/"
-        },
-        {
           "id": "36429904",
           "title": "Flipping the Script: An Initial Exploration of Flipped Learning as an Enhanced Alternative to Traditional Physical Education Lessons.",
           "journal": "International journal of environmental research and public health",
           "year": 2022,
           "doi": "10.3390/ijerph192215188",
           "url": "https://pubmed.ncbi.nlm.nih.gov/36429904/"
+        },
+        {
+          "id": "36455551",
+          "title": "Following Insufficiently Active Adolescents: What Predicts Whether They Meet Adult Activity Guidelines When They Grow Up?",
+          "journal": "Journal of physical activity & health",
+          "year": 2022,
+          "doi": "10.1123/jpah.2022-0300",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/36455551/"
         }
       ]
     },
@@ -479,14 +479,6 @@
           "year": 2023,
           "doi": "10.1164/rccm.202206-1035RR",
           "url": "https://pubmed.ncbi.nlm.nih.gov/36735934/"
-        },
-        {
-          "id": "33611981",
-          "title": "Critical Care of Patients With Cardiopulmonary Complications of Sarcoidosis.",
-          "journal": "Journal of intensive care medicine",
-          "year": 2022,
-          "doi": "10.1177/0885066621993041",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/33611981/"
         }
       ]
     },
@@ -533,6 +525,14 @@
           "url": "https://pubmed.ncbi.nlm.nih.gov/40669216/"
         },
         {
+          "id": "41469444",
+          "title": "Infinite hidden Markov models can dissect the complexities of learning.",
+          "journal": "Nature neuroscience",
+          "year": 2025,
+          "doi": "10.1038/s41593-025-02130-x",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41469444/"
+        },
+        {
           "id": "40244939",
           "title": "Neuronal responses in the human primary motor cortex coincide with the subjective onset of movement intention in brain-machine interface-mediated actions.",
           "journal": "PLoS biology",
@@ -555,46 +555,6 @@
           "year": 2025,
           "doi": "10.7554/eLife.100840",
           "url": "https://pubmed.ncbi.nlm.nih.gov/40354112/"
-        },
-        {
-          "id": "38982106",
-          "title": "Context-invariant beliefs are supported by dynamic reconfiguration of single unit functional connectivity in prefrontal cortex of male macaques.",
-          "journal": "Nature communications",
-          "year": 2024,
-          "doi": "10.1038/s41467-024-50203-5",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/38982106/"
-        },
-        {
-          "id": "38779447",
-          "title": "Editorial: The bodily self in the multisensory world.",
-          "journal": "Frontiers in human neuroscience",
-          "year": 2024,
-          "doi": "10.3389/fnhum.2024.1418014",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/38779447/"
-        },
-        {
-          "id": "38915704",
-          "title": "Interactive data exploration websites for large-scale electrophysiology.",
-          "journal": "bioRxiv : the preprint server for biology",
-          "year": 2024,
-          "doi": "10.1101/2024.06.07.597950",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/38915704/"
-        },
-        {
-          "id": "38918605",
-          "title": "Lightning Pose: improved animal pose estimation via semi-supervised learning, Bayesian ensembling and cloud-native open-source tools.",
-          "journal": "Nature methods",
-          "year": 2024,
-          "doi": "10.1038/s41592-024-02319-1",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/38918605/"
-        },
-        {
-          "id": "37162966",
-          "title": "Lightning Pose: improved animal pose estimation via semi-supervised learning, Bayesian ensembling, and cloud-native open-source tools.",
-          "journal": "bioRxiv : the preprint server for biology",
-          "year": 2024,
-          "doi": "10.1101/2023.04.28.538703",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/37162966/"
         }
       ]
     },
@@ -623,14 +583,6 @@
           "year": 2025,
           "doi": "10.1097/INF.0000000000004661",
           "url": "https://pubmed.ncbi.nlm.nih.gov/39951083/"
-        },
-        {
-          "id": "39081632",
-          "title": "Breastfeeding and Neonatal Age Influence Neutrophil-Driven Ontogeny of Blood Cell Populations in the First Week of Human Life.",
-          "journal": "Journal of immunology research",
-          "year": 2024,
-          "doi": "10.1155/2024/1117796",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/39081632/"
         }
       ]
     },
@@ -644,6 +596,14 @@
         "KAP"
       ],
       "publications": [
+        {
+          "id": "41578608",
+          "title": "Social identity concordance and trust in healthcare providers: Insights across dental, medical, mental, and vision care.",
+          "journal": "Journal of health psychology",
+          "year": 2026,
+          "doi": "10.1177/13591053251407800",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41578608/"
+        },
         {
           "id": "41091417",
           "title": "A Qualitative Exploration of Primary Care Clinicians' Perceptions of Hypertensive Black Patients.",
@@ -685,14 +645,6 @@
           "url": "https://pubmed.ncbi.nlm.nih.gov/40378315/"
         },
         {
-          "id": "36853405",
-          "title": "Duration of Residence and Hypertension in Black Foreign-Born Residents: NHIS, 2004-2017.",
-          "journal": "Journal of racial and ethnic health disparities",
-          "year": 2024,
-          "doi": "10.1007/s40615-023-01543-3",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/36853405/"
-        },
-        {
           "id": "38439004",
           "title": "Medical educators' perception of race in clinical practice.",
           "journal": "BMC medical education",
@@ -715,6 +667,14 @@
           "year": 2023,
           "doi": "10.1016/j.jadohealth.2023.06.023",
           "url": "https://pubmed.ncbi.nlm.nih.gov/37542507/"
+        },
+        {
+          "id": "36853405",
+          "title": "Duration of Residence and Hypertension in Black Foreign-Born Residents: NHIS, 2004-2017.",
+          "journal": "Journal of racial and ethnic health disparities",
+          "year": 2023,
+          "doi": "10.1007/s40615-023-01543-3",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/36853405/"
         },
         {
           "id": "36935165",
@@ -770,14 +730,6 @@
           "year": 2024,
           "doi": "10.1001/jamapediatrics.2024.3669",
           "url": "https://pubmed.ncbi.nlm.nih.gov/39373995/"
-        },
-        {
-          "id": "37702839",
-          "title": "The Heritability of Psychopathology Symptoms in Early Adolescence: Moderation by Family Cultural Values in the ABCD Study.",
-          "journal": "Behavior genetics",
-          "year": 2024,
-          "doi": "10.1007/s10519-023-10154-x",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/37702839/"
         },
         {
           "id": "38991312",
@@ -876,14 +828,6 @@
           "url": "https://pubmed.ncbi.nlm.nih.gov/36532107/"
         },
         {
-          "id": "34958553",
-          "title": "Proteomic Analysis Reveals Low-Dose PARP Inhibitor-Induced Differential Protein Expression in BRCA1-Mutated High-Grade Serous Ovarian Cancer Cells.",
-          "journal": "Journal of the American Society for Mass Spectrometry",
-          "year": 2022,
-          "doi": "10.1021/jasms.1c00215",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/34958553/"
-        },
-        {
           "id": "35614113",
           "title": "Ultrasensitive detection of salivary SARS-CoV-2 IgG antibodies in individuals with natural and COVID-19 vaccine-induced immunity.",
           "journal": "Scientific reports",
@@ -898,6 +842,14 @@
           "year": 2021,
           "doi": "10.1177/1179547621999409",
           "url": "https://pubmed.ncbi.nlm.nih.gov/33746520/"
+        },
+        {
+          "id": "34958553",
+          "title": "Proteomic Analysis Reveals Low-Dose PARP Inhibitor-Induced Differential Protein Expression in BRCA1-Mutated High-Grade Serous Ovarian Cancer Cells.",
+          "journal": "Journal of the American Society for Mass Spectrometry",
+          "year": 2021,
+          "doi": "10.1021/jasms.1c00215",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/34958553/"
         },
         {
           "id": "34063568",
@@ -964,14 +916,6 @@
       ],
       "publications": [
         {
-          "id": "37933120",
-          "title": "A Digital Diabetes Storytelling Intervention for the Hmong Community: A Pilot Study.",
-          "journal": "Health promotion practice",
-          "year": 2025,
-          "doi": "10.1177/15248399231208990",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/37933120/"
-        },
-        {
           "id": "40235015",
           "title": "Hmong Promoting Vaccines eHealth website: a community-based participatory research pilot to evaluate dissemination and implementation strategies for primary care and educational contexts.",
           "journal": "Implementation science communications",
@@ -986,6 +930,14 @@
           "year": 2025,
           "doi": "10.22454/PRiMER.2025.634340",
           "url": "https://pubmed.ncbi.nlm.nih.gov/40727858/"
+        },
+        {
+          "id": "40305464",
+          "title": "Perceptions of barriers and facilitators for cervical cancer screening from women and healthcare workers in Ghana: Applying the Dynamic Sustainability Framework.",
+          "journal": "PLOS global public health",
+          "year": 2025,
+          "doi": "10.1371/journal.pgph.0003011",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40305464/"
         },
         {
           "id": "38317629",
@@ -1020,52 +972,20 @@
           "url": "https://pubmed.ncbi.nlm.nih.gov/38292027/"
         },
         {
+          "id": "37933120",
+          "title": "A Digital Diabetes Storytelling Intervention for the Hmong Community: A Pilot Study.",
+          "journal": "Health promotion practice",
+          "year": 2023,
+          "doi": "10.1177/15248399231208990",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/37933120/"
+        },
+        {
           "id": "38081672",
           "title": "Applications of implementation science frameworks, models and theories in disparities-focused cancer screening interventions: a scoping review protocol.",
           "journal": "BMJ open",
           "year": 2023,
           "doi": "10.1136/bmjopen-2023-078212",
           "url": "https://pubmed.ncbi.nlm.nih.gov/38081672/"
-        },
-        {
-          "id": "37338961",
-          "title": "Evaluating Human Papillomavirus eHealth in Hmong Adolescents to Promote Vaccinations: Pilot Feasibility Study.",
-          "journal": "JMIR formative research",
-          "year": 2023,
-          "doi": "10.2196/38388",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/37338961/"
-        },
-        {
-          "id": "37234567",
-          "title": "Exploring factors associated with preferences for human papillomavirus (HPV) self-sampling among racially- and ethnically-diverse women in Minnesota: A cross-sectional study.",
-          "journal": "Preventive medicine reports",
-          "year": 2023,
-          "doi": "10.1016/j.pmedr.2023.102243",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/37234567/"
-        },
-        {
-          "id": "36787466",
-          "title": "Shared Decision-Making About Future Fertility in Childhood Cancer Survivorship: Perspectives of Parents in Uganda.",
-          "journal": "Journal of adolescent and young adult oncology",
-          "year": 2023,
-          "doi": "10.1089/jayao.2022.0127",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/36787466/"
-        },
-        {
-          "id": "36579945",
-          "title": "Understanding Fertility Attitudes and Outcomes Among Survivors of Adolescent and Young Adult Cancers in a Low-Resource Setting: A Registry-Based Computer-Assisted Telephone Interview Survey.",
-          "journal": "Journal of adolescent and young adult oncology",
-          "year": 2023,
-          "doi": "10.1089/jayao.2022.0114",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/36579945/"
-        },
-        {
-          "id": "37098079",
-          "title": "Understanding Reproductive Health among Survivors of Paediatric and Young adults (URHSPY) cancers in Uganda: A mixed method study protocol.",
-          "journal": "PloS one",
-          "year": 2023,
-          "doi": "10.1371/journal.pone.0284969",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/37098079/"
         }
       ]
     }

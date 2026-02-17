@@ -47,8 +47,10 @@ PUB_USE_INITIALS=true
 
 Notes:
 - If `PUB_YEAR_START` is not provided, the script uses each faculty member's `start date` from the CSV.
+- By default, the script queries through today's date (not just the end of the calendar year).
 - `PUB_VALIDATE_AFFILIATION` (default `true`) filters results so the matched author has an affiliation that includes the allowed terms (e.g., University of Minnesota).
 - `PUB_USE_INITIALS` (default `true`) includes initial-based author matches when no ORCID is available.
+- When `start date` is used, month/day are respected; if PubMed only provides a month/year, the script treats it as the first of that month.
 
 Minimal schema:
 
@@ -90,3 +92,4 @@ This repo includes `.github/workflows/deploy.yml` for GitHub Pages.
 
 - The Vite `base` option is set to `./` to keep asset paths relative for GitHub Pages.
 - Update the UI in `src/App.jsx` and styles in `src/styles.css`.
+- Deep link to a faculty member with `?faculty=serena-xiong` or `?faculty=Serena%20Xiong` in the URL.

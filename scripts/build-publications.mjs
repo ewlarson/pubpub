@@ -19,13 +19,17 @@ const EMAIL = process.env.NCBI_EMAIL || 'ewlarson@example.com';
 const TOOL = process.env.NCBI_TOOL || 'ctsi_pubpub';
 const API_KEY = process.env.NCBI_API_KEY || '';
 
-const CURRENT_YEAR = new Date().getFullYear();
+const TODAY = new Date();
+const CURRENT_YEAR = TODAY.getFullYear();
 const YEAR_START_OVERRIDE = process.env.PUB_YEAR_START || process.env.PUB_YEAR || '';
 const YEAR_END_OVERRIDE = process.env.PUB_YEAR_END || process.env.PUB_YEAR || '';
 const parsedStartOverride = YEAR_START_OVERRIDE ? Number(YEAR_START_OVERRIDE) : NaN;
 const parsedEndOverride = YEAR_END_OVERRIDE ? Number(YEAR_END_OVERRIDE) : NaN;
 const DEFAULT_YEAR_START = Number.isFinite(parsedStartOverride) ? parsedStartOverride : null;
 const DEFAULT_YEAR_END = Number.isFinite(parsedEndOverride) ? parsedEndOverride : CURRENT_YEAR;
+const DEFAULT_END_DATE = Number.isFinite(parsedEndOverride)
+  ? new Date(DEFAULT_YEAR_END, 11, 31)
+  : TODAY;
 const DEFAULT_AFFILIATION = 'University of Minnesota';
 const ALLOW_INITIALS = process.env.PUB_USE_INITIALS !== 'false';
 const VALIDATE_AFFILIATION = process.env.PUB_VALIDATE_AFFILIATION !== 'false';
@@ -94,14 +98,21 @@ const parseCsv = (text) => {
   return rows;
 };
 
-const parseYearClause = (startYear, endYear) => {
-  if (!startYear || !Number.isFinite(startYear)) {
+const formatDate = (date) => {
+  const year = date.getFullYear();
+  const month = String(date.getMonth() + 1).padStart(2, '0');
+  const day = String(date.getDate()).padStart(2, '0');
+  return `${year}/${month}/${day}`;
+};
+
+const parseDateClause = (startDate, endDate) => {
+  if (!startDate || !(startDate instanceof Date) || Number.isNaN(startDate.getTime())) {
     return '';
   }
-  if (!endYear || startYear === endYear) {
-    return `${startYear}[pdat]`;
+  if (!endDate || !(endDate instanceof Date) || Number.isNaN(endDate.getTime())) {
+    return `${formatDate(startDate)}[pdat]`;
   }
-  return `("${startYear}/01/01"[pdat] : "${endYear}/12/31"[pdat])`;
+  return `("${formatDate(startDate)}"[pdat] : "${formatDate(endDate)}"[pdat])`;
 };
 
 const parseStartDate = (value) => {
@@ -160,6 +171,100 @@ const normalizeAffiliation = (value) =>
   String(value || '')
     .toLowerCase()
     .replace(/[^a-z0-9]/g, '');
+
+const MONTH_INDEX = {
+  jan: 0,
+  feb: 1,
+  mar: 2,
+  apr: 3,
+  may: 4,
+  jun: 5,
+  jul: 6,
+  aug: 7,
+  sep: 8,
+  oct: 9,
+  nov: 10,
+  dec: 11
+};
+
+const parseMonthValue = (value) => {
+  if (!value) {
+    return null;
+  }
+  const token = String(value).toLowerCase();
+  const numeric = Number(token);
+  if (Number.isFinite(numeric)) {
+    const monthIndex = numeric - 1;
+    return monthIndex >= 0 && monthIndex <= 11 ? monthIndex : null;
+  }
+  const key = token.slice(0, 3);
+  if (Object.prototype.hasOwnProperty.call(MONTH_INDEX, key)) {
+    return MONTH_INDEX[key];
+  }
+  return null;
+};
+
+const parseYearValue = (value) => {
+  if (!value) {
+    return null;
+  }
+  const match = String(value).match(/\d{4}/);
+  return match ? Number(match[0]) : null;
+};
+
+const buildDateFromParts = (yearValue, monthValue, dayValue) => {
+  const year = parseYearValue(yearValue);
+  if (!year) {
+    return null;
+  }
+  const monthIndex = parseMonthValue(monthValue) ?? 0;
+  const dayNumber = Number(dayValue);
+  const day = Number.isFinite(dayNumber) && dayNumber >= 1 && dayNumber <= 31 ? dayNumber : 1;
+  return new Date(year, monthIndex, day);
+};
+
+const parsePubDateString = (value) => {
+  if (!value) {
+    return null;
+  }
+  const cleaned = String(value).replace(/[;,]/g, ' ').trim();
+  const tokens = cleaned.replace(/[-/]/g, ' ').split(/\s+/).filter(Boolean);
+  let year = null;
+  let yearIndex = -1;
+  for (let i = 0; i < tokens.length; i += 1) {
+    if (/^\d{4}$/.test(tokens[i])) {
+      year = Number(tokens[i]);
+      yearIndex = i;
+      break;
+    }
+  }
+  if (!year) {
+    return null;
+  }
+  let monthIndex = 0;
+  let monthTokenIndex = -1;
+  for (let i = yearIndex + 1; i < tokens.length; i += 1) {
+    const monthValue = parseMonthValue(tokens[i]);
+    if (monthValue !== null) {
+      monthIndex = monthValue;
+      monthTokenIndex = i;
+      break;
+    }
+  }
+  let day = 1;
+  if (monthTokenIndex >= 0) {
+    for (let i = monthTokenIndex + 1; i < tokens.length; i += 1) {
+      if (/^\d{1,2}$/.test(tokens[i])) {
+        const numeric = Number(tokens[i]);
+        if (numeric >= 1 && numeric <= 31) {
+          day = numeric;
+          break;
+        }
+      }
+    }
+  }
+  return new Date(year, monthIndex, day);
+};
 
 const buildAffiliationClause = (terms) => {
   const cleaned = terms.map((term) => term.replace(/\s+/g, ' ').trim());
@@ -276,8 +381,8 @@ const extractDoi = (articleIds = []) => {
   return doi ? doi.value : '';
 };
 
-const mapSummaryToPublication = (summary) => {
-  const year = extractYear(summary.pubdate);
+const mapSummaryToPublication = (summary, pubDate) => {
+  const year = pubDate ? pubDate.getFullYear() : extractYear(summary.pubdate);
   return {
     id: summary.uid,
     title: summary.title?.trim() || `PubMed ${summary.uid}`,
@@ -286,6 +391,31 @@ const mapSummaryToPublication = (summary) => {
     doi: extractDoi(summary.articleids),
     url: `https://pubmed.ncbi.nlm.nih.gov/${summary.uid}/`
   };
+};
+
+const parsePubDateFromXml = (article) => {
+  const articleDates = toArray(article?.MedlineCitation?.Article?.ArticleDate);
+  for (const dateEntry of articleDates) {
+    const parsed = buildDateFromParts(dateEntry?.Year, dateEntry?.Month, dateEntry?.Day);
+    if (parsed) {
+      return parsed;
+    }
+  }
+
+  const pubDate = article?.MedlineCitation?.Article?.Journal?.JournalIssue?.PubDate;
+  if (pubDate) {
+    const parsed = buildDateFromParts(pubDate.Year, pubDate.Month, pubDate.Day);
+    if (parsed) {
+      return parsed;
+    }
+    const medlineDate = getText(pubDate.MedlineDate);
+    const medlineParsed = parsePubDateString(medlineDate);
+    if (medlineParsed) {
+      return medlineParsed;
+    }
+  }
+
+  return null;
 };
 
 const parseArticlesFromXml = (xmlText) => {
@@ -298,25 +428,30 @@ const parseArticlesFromXml = (xmlText) => {
     const citation = article.MedlineCitation || {};
     const pmid = getText(citation.PMID);
     const authors = toArray(citation.Article?.AuthorList?.Author);
-    return { pmid, authors };
+    const pubDate = parsePubDateFromXml(article);
+    return { pmid, authors, pubDate };
   });
 };
 
 const filterPmidsByAuthorAffiliation = async (pmids, person, affiliationTerms) => {
   if (!pmids.length) {
-    return new Set();
+    return { validPmids: new Set(), pubDates: new Map() };
   }
 
   const allowedTerms = affiliationTerms.length ? affiliationTerms : [DEFAULT_AFFILIATION];
   const normalizedAllowed = allowedTerms.map(normalizeAffiliation).filter(Boolean);
   const kept = new Set();
+  const pubDates = new Map();
   let missingAffiliationCount = 0;
 
   for (const batch of chunk(pmids, 100)) {
     const xmlText = await fetchArticleXml(batch, EMAIL, TOOL, API_KEY);
     const articles = parseArticlesFromXml(xmlText);
 
-    articles.forEach(({ pmid, authors }) => {
+    articles.forEach(({ pmid, authors, pubDate }) => {
+      if (pmid && pubDate) {
+        pubDates.set(String(pmid), pubDate);
+      }
       const matchedAuthor = authors.find((author) => authorMatchesPerson(author, person));
       if (!matchedAuthor) {
         return;
@@ -348,7 +483,7 @@ const filterPmidsByAuthorAffiliation = async (pmids, person, affiliationTerms) =
     );
   }
 
-  return kept;
+  return { validPmids: kept, pubDates };
 };
 
 const parseFaculty = (rows) => {
@@ -413,10 +548,10 @@ const parseFaculty = (rows) => {
   });
 };
 
-const buildTerm = ({ nameFirst, nameLast, orcid, signatureTerms, yearStart, yearEnd }) => {
+const buildTerm = ({ nameFirst, nameLast, orcid, signatureTerms, startDate, endDate }) => {
   const includeInitials = ALLOW_INITIALS && !orcid;
   const authorClause = buildAuthorClause(nameFirst, nameLast, orcid, includeInitials);
-  const yearClause = parseYearClause(yearStart, yearEnd);
+  const yearClause = parseDateClause(startDate, endDate);
   const affiliationTerms = signatureTerms.filter((term) => !isEmail(term));
   if (
     DEFAULT_AFFILIATION &&
@@ -434,6 +569,28 @@ const buildTerm = ({ nameFirst, nameLast, orcid, signatureTerms, yearStart, year
   };
 };
 
+const shouldIncludePublication = ({ pubDate, pubYear, startDate, endDate }) => {
+  const startYear = startDate ? startDate.getFullYear() : null;
+  const endYear = endDate ? endDate.getFullYear() : null;
+
+  if (pubYear && startYear && pubYear < startYear) {
+    return false;
+  }
+  if (pubYear && endYear && pubYear > endYear) {
+    return false;
+  }
+  if (startDate && pubDate && pubDate < startDate) {
+    return false;
+  }
+  if (endDate && pubDate && pubDate > endDate) {
+    return false;
+  }
+  if (startDate && !pubDate && pubYear === startYear) {
+    return false;
+  }
+  return true;
+};
+
 const main = async () => {
   if (!EMAIL || EMAIL.includes('example.com')) {
     console.warn('NCBI_EMAIL is not set. Using a placeholder email may be rate-limited.');
@@ -446,26 +603,33 @@ const main = async () => {
   const results = [];
 
   for (const person of faculty) {
-    const personYearStart = Number.isFinite(DEFAULT_YEAR_START)
-      ? DEFAULT_YEAR_START
-      : person.startYear || DEFAULT_YEAR_END;
-    const personYearEnd = DEFAULT_YEAR_END;
+    const personStartDate = Number.isFinite(DEFAULT_YEAR_START)
+      ? new Date(DEFAULT_YEAR_START, 0, 1)
+      : person.startDate;
+    const personEndDate = DEFAULT_END_DATE;
+    const personYearStart = personStartDate ? personStartDate.getFullYear() : null;
+    const personYearEnd = personEndDate.getFullYear();
 
     const { term, affiliationTerms } = buildTerm({
       nameFirst: person.foreName,
       nameLast: person.lastName,
       orcid: person.orcid,
       signatureTerms: person.signatureTerms,
-      yearStart: personYearStart,
-      yearEnd: personYearEnd
+      startDate: personStartDate,
+      endDate: personEndDate
     });
 
-    console.log(`Searching PubMed for ${person.name} (${personYearStart}-${personYearEnd})...`);
+    const dateLabel = personStartDate
+      ? `${personStartDate.toISOString().slice(0, 10)}-${personEndDate
+          .toISOString()
+          .slice(0, 10)}`
+      : `through ${personEndDate.toISOString().slice(0, 10)}`;
+    console.log(`Searching PubMed for ${person.name} (${dateLabel})...`);
     const pmids = await fetchPmids(term, EMAIL, TOOL, API_KEY);
 
-    const validPmids = VALIDATE_AFFILIATION
+    const { validPmids, pubDates } = VALIDATE_AFFILIATION
       ? await filterPmidsByAuthorAffiliation(pmids, person, affiliationTerms)
-      : new Set(pmids.map(String));
+      : { validPmids: new Set(pmids.map(String)), pubDates: new Map() };
 
     const summaries = [];
     for (const batch of chunk(pmids, 200)) {
@@ -475,12 +639,20 @@ const main = async () => {
 
     const publications = summaries
       .filter((summary) => validPmids.has(String(summary.uid)))
-      .map(mapSummaryToPublication)
-      .filter(
-        (pub) =>
-          !pub.year ||
-          (pub.year >= personYearStart && pub.year <= personYearEnd)
+      .map((summary) => {
+        const pubDate = pubDates.get(String(summary.uid)) || parsePubDateString(summary.pubdate);
+        const pubYear = pubDate ? pubDate.getFullYear() : extractYear(summary.pubdate);
+        return { summary, pubDate, pubYear };
+      })
+      .filter(({ pubDate, pubYear }) =>
+        shouldIncludePublication({
+          pubDate,
+          pubYear,
+          startDate: personStartDate,
+          endDate: personEndDate
+        })
       )
+      .map(({ summary, pubDate }) => mapSummaryToPublication(summary, pubDate))
       .sort((a, b) => b.year - a.year || a.title.localeCompare(b.title));
 
     results.push({
