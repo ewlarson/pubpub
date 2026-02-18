@@ -162,6 +162,20 @@ const getText = (value) => {
   return '';
 };
 
+const buildNameKey = (foreName, lastName) => {
+  const fore = String(foreName || '').trim();
+  const last = String(lastName || '').trim();
+  if (!fore && !last) {
+    return '';
+  }
+  return `${fore}||${last}`;
+};
+
+const parseNameKey = (key) => {
+  const [foreName = '', lastName = ''] = String(key || '').split('||');
+  return { foreName, lastName };
+};
+
 const normalizeName = (value) =>
   String(value || '')
     .toLowerCase()
@@ -275,20 +289,40 @@ const buildAffiliationClause = (terms) => {
   return `(${clauses.join(' OR ')})`;
 };
 
-const buildAuthorClause = (firstName, lastName, orcid, includeInitials = true) => {
-  const trimmedFirst = (firstName || '').trim();
-  const trimmedLast = (lastName || '').trim();
-  const fullName = trimmedFirst && trimmedLast ? `"${trimmedLast} ${trimmedFirst}"[fau]` : '';
-  const firstInitial = trimmedFirst ? trimmedFirst[0] : '';
-  const initialName = includeInitials && firstInitial && trimmedLast
-    ? `"${trimmedLast} ${firstInitial}"[au]`
-    : '';
+const buildAuthorClause = (nameVariants, orcid, includeInitials = true) => {
+  const clauses = [];
 
-  const clauses = [fullName, initialName, orcid ? `"${orcid}"[auid]` : ''].filter(Boolean);
-  if (clauses.length === 1) {
-    return clauses[0];
+  (nameVariants || []).forEach(({ foreName, lastName }) => {
+    const trimmedFirst = (foreName || '').trim();
+    const trimmedLast = (lastName || '').trim();
+    if (!trimmedLast) {
+      return;
+    }
+    const fullName = trimmedFirst && trimmedLast ? `${trimmedLast} ${trimmedFirst}[fau]` : '';
+    const firstInitial = trimmedFirst ? trimmedFirst[0] : '';
+    const initialName = includeInitials && firstInitial && trimmedLast
+      ? `${trimmedLast} ${firstInitial}[au]`
+      : '';
+    if (fullName) {
+      clauses.push(fullName);
+    }
+    if (initialName) {
+      clauses.push(initialName);
+    }
+  });
+
+  if (orcid) {
+    clauses.push(`${orcid}[auid]`);
   }
-  return `(${clauses.join(' OR ')})`;
+
+  const uniqueClauses = Array.from(new Set(clauses));
+  if (!uniqueClauses.length) {
+    return '';
+  }
+  if (uniqueClauses.length === 1) {
+    return uniqueClauses[0];
+  }
+  return `(${uniqueClauses.join(' OR ')})`;
 };
 
 const extractOrcid = (author) => {
@@ -338,26 +372,36 @@ const authorMatchesPerson = (author, person) => {
   }
 
   const authorLast = normalizeName(getText(author.LastName));
-  const personLast = normalizeName(person.lastName);
-  if (!authorLast || authorLast !== personLast) {
+  if (!authorLast) {
     return false;
   }
 
+  const variants = Array.isArray(person.nameVariants) && person.nameVariants.length
+    ? person.nameVariants
+    : [{ foreName: person.foreName, lastName: person.lastName }];
+
   const authorFore = normalizeName(getText(author.ForeName));
-  const personFore = normalizeName(person.foreName);
-
-  if (authorFore && personFore) {
-    if (authorFore === personFore) {
-      return true;
-    }
-    if (authorFore.startsWith(personFore) || personFore.startsWith(authorFore)) {
-      return true;
-    }
-  }
-
   const authorInitial = normalizeName(getText(author.Initials || author.ForeName)).charAt(0);
-  const personInitial = personFore.charAt(0);
-  return Boolean(authorInitial && personInitial && authorInitial === personInitial);
+
+  return variants.some((variant) => {
+    const personLast = normalizeName(variant.lastName);
+    if (!personLast || authorLast !== personLast) {
+      return false;
+    }
+
+    const personFore = normalizeName(variant.foreName);
+    if (authorFore && personFore) {
+      if (authorFore === personFore) {
+        return true;
+      }
+      if (authorFore.startsWith(personFore) || personFore.startsWith(authorFore)) {
+        return true;
+      }
+    }
+
+    const personInitial = personFore.charAt(0);
+    return Boolean(authorInitial && personInitial && authorInitial === personInitial);
+  });
 };
 
 const chunk = (arr, size) => {
@@ -513,11 +557,16 @@ const parseFaculty = (rows) => {
         email: record.email,
         signatureTerms: new Set(),
         programs: new Set(),
-        startDate: null
+        startDate: null,
+        nameVariants: new Set()
       });
     }
 
     const person = facultyMap.get(key);
+    const nameKey = buildNameKey(record.fore_name, record.last_name);
+    if (nameKey) {
+      person.nameVariants.add(nameKey);
+    }
     parseSignatureTerms(record.signature_terms).forEach((term) => person.signatureTerms.add(term));
     if (record['program']) {
       person.programs.add(record['program']);
@@ -532,6 +581,8 @@ const parseFaculty = (rows) => {
     const signatureTerms = Array.from(person.signatureTerms);
     const affiliationTerms = signatureTerms.filter((term) => !isEmail(term));
 
+    const nameVariants = Array.from(person.nameVariants).map(parseNameKey);
+
     return {
       id: person.id,
       name: `${person.foreName} ${person.lastName}`.trim(),
@@ -540,6 +591,9 @@ const parseFaculty = (rows) => {
       department: DEFAULT_AFFILIATION,
       orcid: person.orcid || '',
       email: person.email || '',
+      nameVariants: nameVariants.length
+        ? nameVariants
+        : [{ foreName: person.foreName, lastName: person.lastName }],
       signatureTerms,
       programs: Array.from(person.programs),
       startDate: person.startDate,
@@ -548,9 +602,20 @@ const parseFaculty = (rows) => {
   });
 };
 
-const buildTerm = ({ nameFirst, nameLast, orcid, signatureTerms, startDate, endDate }) => {
+const buildTerm = ({
+  nameFirst,
+  nameLast,
+  nameVariants,
+  orcid,
+  signatureTerms,
+  startDate,
+  endDate
+}) => {
   const includeInitials = ALLOW_INITIALS && !orcid;
-  const authorClause = buildAuthorClause(nameFirst, nameLast, orcid, includeInitials);
+  const resolvedVariants = nameVariants?.length
+    ? nameVariants
+    : [{ foreName: nameFirst, lastName: nameLast }];
+  const authorClause = buildAuthorClause(resolvedVariants, orcid, includeInitials);
   const yearClause = parseDateClause(startDate, endDate);
   const affiliationTerms = signatureTerms.filter((term) => !isEmail(term));
   if (
@@ -561,10 +626,8 @@ const buildTerm = ({ nameFirst, nameLast, orcid, signatureTerms, startDate, endD
   ) {
     affiliationTerms.push(DEFAULT_AFFILIATION);
   }
-  const affiliationClause = buildAffiliationClause(affiliationTerms);
-
   return {
-    term: [authorClause, yearClause, affiliationClause].filter(Boolean).join(' AND '),
+    term: [authorClause, yearClause].filter(Boolean).join(' AND '),
     affiliationTerms
   };
 };
@@ -613,6 +676,7 @@ const main = async () => {
     const { term, affiliationTerms } = buildTerm({
       nameFirst: person.foreName,
       nameLast: person.lastName,
+      nameVariants: person.nameVariants,
       orcid: person.orcid,
       signatureTerms: person.signatureTerms,
       startDate: personStartDate,
