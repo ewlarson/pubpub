@@ -50,7 +50,38 @@ Notes:
 - By default, the script queries through today's date (not just the end of the calendar year).
 - `PUB_VALIDATE_AFFILIATION` (default `true`) filters results so the matched author has an affiliation that includes the allowed terms (e.g., University of Minnesota).
 - `PUB_USE_INITIALS` (default `true`) includes initial-based author matches when no ORCID is available.
+- `PUBPUB_DB_PATH` (default `data/pubpub.sqlite`) sets the SQLite database location.
 - When `start date` is used, month/day are respected; if PubMed only provides a month/year, the script treats it as the first of that month.
+
+### SQLite persistence + curation
+
+Harvested publications and curator feedback now live in SQLite so they persist
+between crawls. The build script writes to `data/pubpub.sqlite` by default; set
+`PUBPUB_DB_PATH` to override.
+
+Tables (created automatically):
+- `publications` (metadata keyed by PMID)
+- `faculty_publications` (join table with first/last seen timestamps)
+- `curation` (true/false positive labels)
+- `faculty_publication_coauthors` (co-author names per faculty/PMID)
+
+To mark false/true positives, insert rows into `curation`:
+
+```bash
+sqlite3 data/pubpub.sqlite \
+  "INSERT INTO curation (faculty_id, pmid, verdict, updated_at) \
+   VALUES ('haynes-david', '41373131', 'false_positive', datetime('now')) \
+   ON CONFLICT(faculty_id, pmid) DO UPDATE SET \
+     verdict=excluded.verdict, updated_at=excluded.updated_at;"
+```
+
+The build step will:
+- exclude `false_positive` PMIDs
+- allow `true_positive` PMIDs to override affiliation filters
+- emit per-faculty signal summaries (`signals`) into `public/data/publications.json`
+
+If `data/curation.json` exists and the database has no curation rows yet, it is
+used once as a seed (legacy import).
 
 Minimal schema:
 

@@ -38,7 +38,7 @@
         },
         {
           "id": "40110606",
-          "title": "Environmental health disparities in pediatric cancer: a report from the Fourth Symposium on Childhood Cancer Health Disparities.",
+          "title": "Environmental health disparities in pediatric cancer: a\u00a0report from the Fourth Symposium on Childhood Cancer Health Disparities.",
           "journal": "Pediatric hematology and oncology",
           "year": 2025,
           "doi": "10.1080/08880018.2025.2479479",
@@ -51,14 +51,6 @@
           "year": 2025,
           "doi": "10.1016/j.socscimed.2025.118668",
           "url": "https://pubmed.ncbi.nlm.nih.gov/41115337/"
-        },
-        {
-          "id": "41373131",
-          "title": "Relationship Between Early Tinnitus Outcomes and Long-term Quality of Life in Cochlear Implant Recipients.",
-          "journal": "Otology & neurotology : official publication of the American Otological Society, American Neurotology Society [and] European Academy of Otology and Neurotology",
-          "year": 2025,
-          "doi": "10.1097/MAO.0000000000004632",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/41373131/"
         },
         {
           "id": "39362292",
@@ -141,14 +133,6 @@
           "url": "https://pubmed.ncbi.nlm.nih.gov/37615989/"
         },
         {
-          "id": "37442597",
-          "title": "Presbycusis and Hearing Preservation in Observed Vestibular Schwannomas.",
-          "journal": "Otology & neurotology : official publication of the American Otological Society, American Neurotology Society [and] European Academy of Otology and Neurotology",
-          "year": 2023,
-          "doi": "10.1097/MAO.0000000000003947",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/37442597/"
-        },
-        {
           "id": "36877901",
           "title": "Proposing An Innovative Bond To Increase Investments In Social Drivers Of Health Interventions In Medicaid Managed Care.",
           "journal": "Health affairs (Project Hope)",
@@ -173,36 +157,12 @@
           "url": "https://pubmed.ncbi.nlm.nih.gov/36266493/"
         },
         {
-          "id": "35833872",
-          "title": "Same-Day Patient Consultation and Cochlear Implantation: Patient Experiences and Barriers to Implementation.",
-          "journal": "Otology & neurotology : official publication of the American Otological Society, American Neurotology Society [and] European Academy of Otology and Neurotology",
-          "year": 2022,
-          "doi": "10.1097/MAO.0000000000003627",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/35833872/"
-        },
-        {
           "id": "35148869",
           "title": "The Association of Residential Mobility With Weight-Related Health Behaviors.",
           "journal": "Journal of nutrition education and behavior",
           "year": 2022,
           "doi": "10.1016/j.jneb.2021.08.018",
           "url": "https://pubmed.ncbi.nlm.nih.gov/35148869/"
-        },
-        {
-          "id": "33661240",
-          "title": "Adaptation of the Standardized Hearing Outcomes Scattergram to Hearing Preservation in Cochlear Implantation.",
-          "journal": "Otology & neurotology : official publication of the American Otological Society, American Neurotology Society [and] European Academy of Otology and Neurotology",
-          "year": 2021,
-          "doi": "10.1097/MAO.0000000000003075",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/33661240/"
-        },
-        {
-          "id": "33606469",
-          "title": "Further Evidence for the Expansion of Adult Cochlear Implant Candidacy Criteria.",
-          "journal": "Otology & neurotology : official publication of the American Otological Society, American Neurotology Society [and] European Academy of Otology and Neurotology",
-          "year": 2021,
-          "doi": "10.1097/MAO.0000000000003068",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/33606469/"
         },
         {
           "id": "34189019",
@@ -221,14 +181,6 @@
           "url": "https://pubmed.ncbi.nlm.nih.gov/35120678/"
         },
         {
-          "id": "32472921",
-          "title": "Outcomes of Revision Cochlear Implantation.",
-          "journal": "Otology & neurotology : official publication of the American Otological Society, American Neurotology Society [and] European Academy of Otology and Neurotology",
-          "year": 2020,
-          "doi": "10.1097/MAO.0000000000002659",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/32472921/"
-        },
-        {
           "id": "34396369",
           "title": "Smart Community Health: A Comprehensive Community Resource Recommendation Platform.",
           "journal": "Biomedical engineering systems and technologies, international joint conference, BIOSTEC ... revised selected papers. BIOSTEC (Conference)",
@@ -236,7 +188,323 @@
           "doi": "10.5220/0009118306140624",
           "url": "https://pubmed.ncbi.nlm.nih.gov/34396369/"
         }
-      ]
+      ],
+      "signals": {
+        "positive": {
+          "count": 22,
+          "yearRange": {
+            "min": 2020,
+            "max": 2026
+          },
+          "yearCounts": [
+            {
+              "year": 2020,
+              "count": 1
+            },
+            {
+              "year": 2021,
+              "count": 2
+            },
+            {
+              "year": 2022,
+              "count": 3
+            },
+            {
+              "year": 2023,
+              "count": 7
+            },
+            {
+              "year": 2024,
+              "count": 4
+            },
+            {
+              "year": 2025,
+              "count": 4
+            },
+            {
+              "year": 2026,
+              "count": 1
+            }
+          ],
+          "topJournals": [
+            {
+              "name": "Cancer causes & control : CCC",
+              "count": 2
+            },
+            {
+              "name": "Applied clinical informatics",
+              "count": 1
+            },
+            {
+              "name": "Biomedical engineering systems and technologies, international joint conference, BIOSTEC ... revised selected papers. BIOSTEC (Conference)",
+              "count": 1
+            },
+            {
+              "name": "Cancer epidemiology, biomarkers & prevention : a publication of the American Association for Cancer Research, cosponsored by the American Society of Preventive Oncology",
+              "count": 1
+            },
+            {
+              "name": "Health affairs (Project Hope)",
+              "count": 1
+            },
+            {
+              "name": "JAMA network open",
+              "count": 1
+            },
+            {
+              "name": "Journal of clinical and translational science",
+              "count": 1
+            },
+            {
+              "name": "Journal of immigrant and minority health",
+              "count": 1
+            },
+            {
+              "name": "Journal of maps",
+              "count": 1
+            },
+            {
+              "name": "Journal of neurosurgery",
+              "count": 1
+            }
+          ],
+          "topKeywords": [
+            {
+              "name": "cancer",
+              "count": 12
+            },
+            {
+              "name": "health",
+              "count": 7
+            },
+            {
+              "name": "breast",
+              "count": 6
+            },
+            {
+              "name": "screening",
+              "count": 5
+            },
+            {
+              "name": "social",
+              "count": 5
+            },
+            {
+              "name": "care",
+              "count": 4
+            },
+            {
+              "name": "minnesota",
+              "count": 4
+            },
+            {
+              "name": "program",
+              "count": 4
+            },
+            {
+              "name": "childhood",
+              "count": 3
+            },
+            {
+              "name": "community",
+              "count": 3
+            },
+            {
+              "name": "platform",
+              "count": 3
+            },
+            {
+              "name": "women",
+              "count": 3
+            }
+          ],
+          "topCoauthors": [
+            {
+              "name": "Kelly D Hughes",
+              "count": 5
+            },
+            {
+              "name": "Pinar Karaca Mandic",
+              "count": 4
+            },
+            {
+              "name": "Anne Blaes",
+              "count": 3
+            },
+            {
+              "name": "Anne M Joseph",
+              "count": 3
+            },
+            {
+              "name": "Lindsay A Williams",
+              "count": 3
+            },
+            {
+              "name": "McKenna Haas",
+              "count": 3
+            },
+            {
+              "name": "Michael E Scheurer",
+              "count": 3
+            },
+            {
+              "name": "Philip J Lupo",
+              "count": 3
+            },
+            {
+              "name": "Thanh T Hoang",
+              "count": 3
+            },
+            {
+              "name": "Abbie Begnaud",
+              "count": 2
+            },
+            {
+              "name": "Helen M Parsons",
+              "count": 2
+            },
+            {
+              "name": "Jeannette M Sample",
+              "count": 2
+            }
+          ]
+        },
+        "negative": {
+          "count": 6,
+          "yearRange": {
+            "min": 2020,
+            "max": 2025
+          },
+          "yearCounts": [
+            {
+              "year": 2020,
+              "count": 1
+            },
+            {
+              "year": 2021,
+              "count": 2
+            },
+            {
+              "year": 2022,
+              "count": 1
+            },
+            {
+              "year": 2023,
+              "count": 1
+            },
+            {
+              "year": 2025,
+              "count": 1
+            }
+          ],
+          "topJournals": [
+            {
+              "name": "Otology & neurotology : official publication of the American Otological Society, American Neurotology Society [and] European Academy of Otology and Neurotology",
+              "count": 6
+            }
+          ],
+          "topKeywords": [
+            {
+              "name": "cochlear",
+              "count": 5
+            },
+            {
+              "name": "hearing",
+              "count": 3
+            },
+            {
+              "name": "implantation",
+              "count": 3
+            },
+            {
+              "name": "implant",
+              "count": 2
+            },
+            {
+              "name": "patient",
+              "count": 2
+            },
+            {
+              "name": "preservation",
+              "count": 2
+            },
+            {
+              "name": "adaptation",
+              "count": 1
+            },
+            {
+              "name": "adult",
+              "count": 1
+            },
+            {
+              "name": "barriers",
+              "count": 1
+            },
+            {
+              "name": "candidacy",
+              "count": 1
+            },
+            {
+              "name": "consultation",
+              "count": 1
+            },
+            {
+              "name": "criteria",
+              "count": 1
+            }
+          ],
+          "topCoauthors": [
+            {
+              "name": "Alejandro Rivas",
+              "count": 2
+            },
+            {
+              "name": "Elizabeth L Perkins",
+              "count": 2
+            },
+            {
+              "name": "Elizabeth Perkins",
+              "count": 2
+            },
+            {
+              "name": "Marc L Bennett",
+              "count": 2
+            },
+            {
+              "name": "Matthew O'Malley",
+              "count": 2
+            },
+            {
+              "name": "Ren&#xe9; Gifford",
+              "count": 2
+            },
+            {
+              "name": "Aaron C Moberly",
+              "count": 1
+            },
+            {
+              "name": "Ankita Patro",
+              "count": 1
+            },
+            {
+              "name": "Ashley M Nassiri",
+              "count": 1
+            },
+            {
+              "name": "Barak M Spector",
+              "count": 1
+            },
+            {
+              "name": "Brendan P O'Connell",
+              "count": 1
+            },
+            {
+              "name": "Julia R Brennan",
+              "count": 1
+            }
+          ]
+        }
+      }
     },
     {
       "id": "monica-campo-patino-mcampo-umn-edu",
@@ -249,12 +517,12 @@
       ],
       "publications": [
         {
-          "id": "41208107",
-          "title": "Shared and distinct responses of human and murine alveolar macrophages and monocyte-derived macrophages to Mycobacterium tuberculosis.",
-          "journal": "ImmunoHorizons",
-          "year": 2025,
-          "doi": "10.1093/immhor/vlaf051",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/41208107/"
+          "id": "41397658",
+          "title": "Synthesis and evaluation of novel oxanthrene scaffold-derived oxazolidinone antibiotics with potent antitubercular activity and low cellular toxicity",
+          "journal": "Bioorg Med Chem Lett",
+          "year": 2026,
+          "doi": "10.1016/j.bmcl.2025.130505",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41397658/"
         },
         {
           "id": "40093075",
@@ -265,6 +533,30 @@
           "url": "https://pubmed.ncbi.nlm.nih.gov/40093075/"
         },
         {
+          "id": "41208107",
+          "title": "Shared and distinct responses of human and murine alveolar macrophages and monocyte-derived macrophages to Mycobacterium tuberculosis.",
+          "journal": "ImmunoHorizons",
+          "year": 2025,
+          "doi": "10.1093/immhor/vlaf051",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41208107/"
+        },
+        {
+          "id": "39162406",
+          "title": "Epigenetic programming of host lipid metabolism associated with resistance to TST/IGRA conversion after exposure to Mycobacterium tuberculosis",
+          "journal": "mSystems",
+          "year": 2024,
+          "doi": "10.1128/msystems.00628-24",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39162406/"
+        },
+        {
+          "id": "38464296",
+          "title": "Epigenetic programming of host lipid metabolism associates with resistance to TST/IGRA conversion after exposure to Mycobacterium tuberculosis",
+          "journal": "bioRxiv",
+          "year": 2024,
+          "doi": "10.1101/2024.02.27.582348",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38464296/"
+        },
+        {
           "id": "38836816",
           "title": "Human Alveolar and Monocyte-Derived Human Macrophage Responses to Mycobacterium tuberculosis.",
           "journal": "Journal of immunology (Baltimore, Md. : 1950)",
@@ -272,7 +564,136 @@
           "doi": "10.4049/jimmunol.2300885",
           "url": "https://pubmed.ncbi.nlm.nih.gov/38836816/"
         }
-      ]
+      ],
+      "signals": {
+        "positive": {
+          "count": 3,
+          "yearRange": {
+            "min": 2024,
+            "max": 2025
+          },
+          "yearCounts": [
+            {
+              "year": 2024,
+              "count": 1
+            },
+            {
+              "year": 2025,
+              "count": 2
+            }
+          ],
+          "topJournals": [
+            {
+              "name": "bioRxiv : the preprint server for biology",
+              "count": 1
+            },
+            {
+              "name": "ImmunoHorizons",
+              "count": 1
+            },
+            {
+              "name": "Journal of immunology (Baltimore, Md. : 1950)",
+              "count": 1
+            }
+          ],
+          "topKeywords": [
+            {
+              "name": "human",
+              "count": 4
+            },
+            {
+              "name": "macrophages",
+              "count": 4
+            },
+            {
+              "name": "alveolar",
+              "count": 3
+            },
+            {
+              "name": "derived",
+              "count": 3
+            },
+            {
+              "name": "monocyte",
+              "count": 3
+            },
+            {
+              "name": "mycobacterium",
+              "count": 3
+            },
+            {
+              "name": "responses",
+              "count": 3
+            },
+            {
+              "name": "tuberculosis",
+              "count": 3
+            },
+            {
+              "name": "distinct",
+              "count": 2
+            },
+            {
+              "name": "murine",
+              "count": 2
+            },
+            {
+              "name": "shared",
+              "count": 2
+            },
+            {
+              "name": "macrophage",
+              "count": 1
+            }
+          ],
+          "topCoauthors": [
+            {
+              "name": "Kimberly A Dill-McFarland",
+              "count": 3
+            },
+            {
+              "name": "Thomas R Hawn",
+              "count": 3
+            },
+            {
+              "name": "Alissa C Rothchild",
+              "count": 2
+            },
+            {
+              "name": "Glenna Peterson",
+              "count": 2
+            },
+            {
+              "name": "Pamelia N Lim",
+              "count": 2
+            },
+            {
+              "name": "Shawn Skerrett",
+              "count": 2
+            },
+            {
+              "name": "Basilin Benson",
+              "count": 1
+            },
+            {
+              "name": "Glenna J Peterson",
+              "count": 1
+            },
+            {
+              "name": "Shawn J Skerrett",
+              "count": 1
+            }
+          ]
+        },
+        "negative": {
+          "count": 0,
+          "yearRange": null,
+          "yearCounts": [],
+          "topJournals": [],
+          "topKeywords": [],
+          "topCoauthors": []
+        }
+      }
     },
     {
       "id": "ida-fonkoue-fonko001-umn-edu",
@@ -389,7 +810,180 @@
           "doi": "10.1016/j.bbih.2022.100527",
           "url": "https://pubmed.ncbi.nlm.nih.gov/36247837/"
         }
-      ]
+      ],
+      "signals": {
+        "positive": {
+          "count": 13,
+          "yearRange": {
+            "min": 2022,
+            "max": 2025
+          },
+          "yearCounts": [
+            {
+              "year": 2022,
+              "count": 1
+            },
+            {
+              "year": 2023,
+              "count": 3
+            },
+            {
+              "year": 2024,
+              "count": 5
+            },
+            {
+              "year": 2025,
+              "count": 4
+            }
+          ],
+          "topJournals": [
+            {
+              "name": "American journal of physiology. Heart and circulatory physiology",
+              "count": 2
+            },
+            {
+              "name": "Clinical autonomic research : official journal of the Clinical Autonomic Research Society",
+              "count": 2
+            },
+            {
+              "name": "Menopause (New York, N.Y.)",
+              "count": 2
+            },
+            {
+              "name": "Physiological reports",
+              "count": 2
+            },
+            {
+              "name": "American journal of physiology. Regulatory, integrative and comparative physiology",
+              "count": 1
+            },
+            {
+              "name": "Brain, behavior, & immunity - health",
+              "count": 1
+            },
+            {
+              "name": "Discover mental health",
+              "count": 1
+            },
+            {
+              "name": "Heart failure reviews",
+              "count": 1
+            },
+            {
+              "name": "Journal of the American College of Cardiology",
+              "count": 1
+            }
+          ],
+          "topKeywords": [
+            {
+              "name": "women",
+              "count": 10
+            },
+            {
+              "name": "ptsd",
+              "count": 6
+            },
+            {
+              "name": "exposed",
+              "count": 5
+            },
+            {
+              "name": "trauma",
+              "count": 5
+            },
+            {
+              "name": "association",
+              "count": 4
+            },
+            {
+              "name": "heart",
+              "count": 4
+            },
+            {
+              "name": "sleep",
+              "count": 4
+            },
+            {
+              "name": "blunted",
+              "count": 3
+            },
+            {
+              "name": "cardiovascular",
+              "count": 3
+            },
+            {
+              "name": "premenopausal",
+              "count": 3
+            },
+            {
+              "name": "stress",
+              "count": 3
+            },
+            {
+              "name": "arterial",
+              "count": 2
+            }
+          ],
+          "topCoauthors": [
+            {
+              "name": "Chowdhury Tasnova Tahsin",
+              "count": 8
+            },
+            {
+              "name": "Chowdhury Ibtida Tahmin",
+              "count": 6
+            },
+            {
+              "name": "Zynab Ahmed",
+              "count": 6
+            },
+            {
+              "name": "Redeat Wattero",
+              "count": 5
+            },
+            {
+              "name": "Vasiliki Michopoulos",
+              "count": 4
+            },
+            {
+              "name": "Abigail Powers",
+              "count": 3
+            },
+            {
+              "name": "Azhaar Mohamed",
+              "count": 3
+            },
+            {
+              "name": "Chasity Corbin",
+              "count": 3
+            },
+            {
+              "name": "Imo A Ebong",
+              "count": 3
+            },
+            {
+              "name": "Jeanie Park",
+              "count": 3
+            },
+            {
+              "name": "Susan B Racette",
+              "count": 3
+            },
+            {
+              "name": "Jason R Carter",
+              "count": 2
+            }
+          ]
+        },
+        "negative": {
+          "count": 0,
+          "yearRange": null,
+          "yearCounts": [],
+          "topJournals": [],
+          "topKeywords": [],
+          "topCoauthors": []
+        }
+      }
     },
     {
       "id": "arif-hamid-hamid008-umn-edu",
@@ -433,7 +1027,144 @@
           "doi": "10.1101/2024.10.17.618918",
           "url": "https://pubmed.ncbi.nlm.nih.gov/39484621/"
         }
-      ]
+      ],
+      "signals": {
+        "positive": {
+          "count": 4,
+          "yearRange": {
+            "min": 2024,
+            "max": 2025
+          },
+          "yearCounts": [
+            {
+              "year": 2024,
+              "count": 2
+            },
+            {
+              "year": 2025,
+              "count": 2
+            }
+          ],
+          "topJournals": [
+            {
+              "name": "bioRxiv : the preprint server for biology",
+              "count": 3
+            },
+            {
+              "name": "Neuroscience and biobehavioral reviews",
+              "count": 1
+            }
+          ],
+          "topKeywords": [
+            {
+              "name": "dopamine",
+              "count": 3
+            },
+            {
+              "name": "active",
+              "count": 1
+            },
+            {
+              "name": "adversity",
+              "count": 1
+            },
+            {
+              "name": "altered",
+              "count": 1
+            },
+            {
+              "name": "behavioral",
+              "count": 1
+            },
+            {
+              "name": "cholinergic",
+              "count": 1
+            },
+            {
+              "name": "direct",
+              "count": 1
+            },
+            {
+              "name": "dual",
+              "count": 1
+            },
+            {
+              "name": "dynamics",
+              "count": 1
+            },
+            {
+              "name": "early",
+              "count": 1
+            },
+            {
+              "name": "exposed",
+              "count": 1
+            },
+            {
+              "name": "instruction",
+              "count": 1
+            }
+          ],
+          "topCoauthors": [
+            {
+              "name": "A Ian More",
+              "count": 1
+            },
+            {
+              "name": "Alana Jaskir",
+              "count": 1
+            },
+            {
+              "name": "Amy Gottschalk",
+              "count": 1
+            },
+            {
+              "name": "Asma Gamam",
+              "count": 1
+            },
+            {
+              "name": "Camila DeMaestri",
+              "count": 1
+            },
+            {
+              "name": "Celine Bogner",
+              "count": 1
+            },
+            {
+              "name": "Christopher I Moore",
+              "count": 1
+            },
+            {
+              "name": "Dayshalis Ofray",
+              "count": 1
+            },
+            {
+              "name": "Dylan Flink",
+              "count": 1
+            },
+            {
+              "name": "Dylan R Flink",
+              "count": 1
+            },
+            {
+              "name": "Faith Bonneson",
+              "count": 1
+            },
+            {
+              "name": "Haley Menees",
+              "count": 1
+            }
+          ]
+        },
+        "negative": {
+          "count": 0,
+          "yearRange": null,
+          "yearCounts": [],
+          "topJournals": [],
+          "topKeywords": [],
+          "topCoauthors": []
+        }
+      }
     },
     {
       "id": "asha-hassan-asha-umn-edu",
@@ -471,13 +1202,150 @@
         },
         {
           "id": "39523167",
-          "title": "Corrigendum to Society of Family Planning Research Practice Support: Strategies and considerations for addressing race and racism in quantitative family planning studies [Contraception vol 139 (2024) 110534].",
+          "title": "Corrigendum to Society of Family Planning Research Practice Support: Strategies and considerations for addressing race and racism in quantitative family planning studies\u00a0[Contraception vol\u00a0139 (2024) 110534].",
           "journal": "Contraception",
           "year": 2024,
           "doi": "10.1016/j.contraception.2024.110736",
           "url": "https://pubmed.ncbi.nlm.nih.gov/39523167/"
         }
-      ]
+      ],
+      "signals": {
+        "positive": {
+          "count": 4,
+          "yearRange": {
+            "min": 2024,
+            "max": 2025
+          },
+          "yearCounts": [
+            {
+              "year": 2024,
+              "count": 1
+            },
+            {
+              "year": 2025,
+              "count": 3
+            }
+          ],
+          "topJournals": [
+            {
+              "name": "American journal of public health",
+              "count": 1
+            },
+            {
+              "name": "Contraception",
+              "count": 1
+            },
+            {
+              "name": "Contraception and reproductive medicine",
+              "count": 1
+            },
+            {
+              "name": "The New England journal of medicine",
+              "count": 1
+            }
+          ],
+          "topKeywords": [
+            {
+              "name": "health",
+              "count": 3
+            },
+            {
+              "name": "contraception",
+              "count": 2
+            },
+            {
+              "name": "family",
+              "count": 2
+            },
+            {
+              "name": "planning",
+              "count": 2
+            },
+            {
+              "name": "practice",
+              "count": 2
+            },
+            {
+              "name": "public",
+              "count": 2
+            },
+            {
+              "name": "reproductive",
+              "count": 2
+            },
+            {
+              "name": "research",
+              "count": 2
+            },
+            {
+              "name": "110534",
+              "count": 1
+            },
+            {
+              "name": "139",
+              "count": 1
+            },
+            {
+              "name": "2024",
+              "count": 1
+            },
+            {
+              "name": "addressing",
+              "count": 1
+            }
+          ],
+          "topCoauthors": [
+            {
+              "name": "Alison Ojanen-Goldsmith",
+              "count": 1
+            },
+            {
+              "name": "Anna K Hing",
+              "count": 1
+            },
+            {
+              "name": "Christy Boraas",
+              "count": 1
+            },
+            {
+              "name": "Goleen Samari",
+              "count": 1
+            },
+            {
+              "name": "Liza Fuentes",
+              "count": 1
+            },
+            {
+              "name": "Madeline Mahoney",
+              "count": 1
+            },
+            {
+              "name": "Marissa Velarde",
+              "count": 1
+            },
+            {
+              "name": "Monica McLemore",
+              "count": 1
+            },
+            {
+              "name": "Nicole Quinones",
+              "count": 1
+            },
+            {
+              "name": "Taylor Riley",
+              "count": 1
+            }
+          ]
+        },
+        "negative": {
+          "count": 0,
+          "yearRange": null,
+          "yearCounts": [],
+          "topJournals": [],
+          "topKeywords": [],
+          "topCoauthors": []
+        }
+      }
     },
     {
       "id": "kaja-sarah",
@@ -601,7 +1469,184 @@
           "doi": "10.1177/08901171221120912",
           "url": "https://pubmed.ncbi.nlm.nih.gov/35968666/"
         }
-      ]
+      ],
+      "signals": {
+        "positive": {
+          "count": 14,
+          "yearRange": {
+            "min": 2022,
+            "max": 2025
+          },
+          "yearCounts": [
+            {
+              "year": 2022,
+              "count": 4
+            },
+            {
+              "year": 2023,
+              "count": 1
+            },
+            {
+              "year": 2024,
+              "count": 4
+            },
+            {
+              "year": 2025,
+              "count": 5
+            }
+          ],
+          "topJournals": [
+            {
+              "name": "The Journal of adolescent health : official publication of the Society for Adolescent Medicine",
+              "count": 3
+            },
+            {
+              "name": "Health promotion practice",
+              "count": 2
+            },
+            {
+              "name": "Journal of physical activity & health",
+              "count": 2
+            },
+            {
+              "name": "ACSM's health & fitness journal",
+              "count": 1
+            },
+            {
+              "name": "American journal of health promotion : AJHP",
+              "count": 1
+            },
+            {
+              "name": "Corrections : policy, practice and research",
+              "count": 1
+            },
+            {
+              "name": "Environmental justice (Print)",
+              "count": 1
+            },
+            {
+              "name": "International journal of environmental research and public health",
+              "count": 1
+            },
+            {
+              "name": "Progress in community health partnerships : research, education, and action",
+              "count": 1
+            },
+            {
+              "name": "Research quarterly for exercise and sport",
+              "count": 1
+            }
+          ],
+          "topKeywords": [
+            {
+              "name": "activity",
+              "count": 9
+            },
+            {
+              "name": "physical",
+              "count": 9
+            },
+            {
+              "name": "adolescents",
+              "count": 5
+            },
+            {
+              "name": "among",
+              "count": 5
+            },
+            {
+              "name": "fitness",
+              "count": 3
+            },
+            {
+              "name": "gender",
+              "count": 3
+            },
+            {
+              "name": "lessons",
+              "count": 3
+            },
+            {
+              "name": "sport",
+              "count": 3
+            },
+            {
+              "name": "adolescent",
+              "count": 2
+            },
+            {
+              "name": "cardiorespiratory",
+              "count": 2
+            },
+            {
+              "name": "community",
+              "count": 2
+            },
+            {
+              "name": "disparities",
+              "count": 2
+            }
+          ],
+          "topCoauthors": [
+            {
+              "name": "Marla E Eisenberg",
+              "count": 5
+            },
+            {
+              "name": "Daheia J Barr-Anderson",
+              "count": 4
+            },
+            {
+              "name": "Dianne Neumark-Sztainer",
+              "count": 4
+            },
+            {
+              "name": "Laura Hooper",
+              "count": 4
+            },
+            {
+              "name": "Eydie N Kramer-Kostecka",
+              "count": 3
+            },
+            {
+              "name": "Amy L Gower",
+              "count": 2
+            },
+            {
+              "name": "G Nic Rider",
+              "count": 2
+            },
+            {
+              "name": "Jenifer K McGuire",
+              "count": 2
+            },
+            {
+              "name": "Kaitlyn T Adams",
+              "count": 2
+            },
+            {
+              "name": "Kathleen K Miller",
+              "count": 2
+            },
+            {
+              "name": "Samantha J Adler",
+              "count": 2
+            },
+            {
+              "name": "Alina Levine",
+              "count": 1
+            }
+          ]
+        },
+        "negative": {
+          "count": 0,
+          "yearRange": null,
+          "yearCounts": [],
+          "topJournals": [],
+          "topKeywords": [],
+          "topCoauthors": []
+        }
+      }
     },
     {
       "id": "jesse-kowalski-kowal225-umn-edu",
@@ -621,7 +1666,104 @@
           "doi": "10.46292/sci24-00082",
           "url": "https://pubmed.ncbi.nlm.nih.gov/41268139/"
         }
-      ]
+      ],
+      "signals": {
+        "positive": {
+          "count": 1,
+          "yearRange": {
+            "min": 2025,
+            "max": 2025
+          },
+          "yearCounts": [
+            {
+              "year": 2025,
+              "count": 1
+            }
+          ],
+          "topJournals": [
+            {
+              "name": "Topics in spinal cord injury rehabilitation",
+              "count": 1
+            }
+          ],
+          "topKeywords": [
+            {
+              "name": "analysis",
+              "count": 1
+            },
+            {
+              "name": "association",
+              "count": 1
+            },
+            {
+              "name": "cord",
+              "count": 1
+            },
+            {
+              "name": "database",
+              "count": 1
+            },
+            {
+              "name": "hallucinogen",
+              "count": 1
+            },
+            {
+              "name": "injury",
+              "count": 1
+            },
+            {
+              "name": "model",
+              "count": 1
+            },
+            {
+              "name": "psychosocial",
+              "count": 1
+            },
+            {
+              "name": "secondary",
+              "count": 1
+            },
+            {
+              "name": "spinal",
+              "count": 1
+            },
+            {
+              "name": "systems",
+              "count": 1
+            },
+            {
+              "name": "use",
+              "count": 1
+            }
+          ],
+          "topCoauthors": [
+            {
+              "name": "Angela Hanks Philippus",
+              "count": 1
+            },
+            {
+              "name": "Jennifer Coker",
+              "count": 1
+            },
+            {
+              "name": "Kayleigh Crane",
+              "count": 1
+            },
+            {
+              "name": "Kimberley R Monden",
+              "count": 1
+            }
+          ]
+        },
+        "negative": {
+          "count": 0,
+          "yearRange": null,
+          "yearCounts": [],
+          "topJournals": [],
+          "topKeywords": [],
+          "topCoauthors": []
+        }
+      }
     },
     {
       "id": "nathan-mesfin-mesfin-umn-edu",
@@ -697,7 +1839,172 @@
           "doi": "10.1164/rccm.202206-1035RR",
           "url": "https://pubmed.ncbi.nlm.nih.gov/36735934/"
         }
-      ]
+      ],
+      "signals": {
+        "positive": {
+          "count": 8,
+          "yearRange": {
+            "min": 2023,
+            "max": 2025
+          },
+          "yearCounts": [
+            {
+              "year": 2023,
+              "count": 3
+            },
+            {
+              "year": 2024,
+              "count": 2
+            },
+            {
+              "year": 2025,
+              "count": 3
+            }
+          ],
+          "topJournals": [
+            {
+              "name": "American journal of respiratory and critical care medicine",
+              "count": 1
+            },
+            {
+              "name": "Chest",
+              "count": 1
+            },
+            {
+              "name": "Critical care explorations",
+              "count": 1
+            },
+            {
+              "name": "Journal of palliative medicine",
+              "count": 1
+            },
+            {
+              "name": "Journal of the American Medical Informatics Association : JAMIA",
+              "count": 1
+            },
+            {
+              "name": "Palliative medicine reports",
+              "count": 1
+            },
+            {
+              "name": "PloS one",
+              "count": 1
+            },
+            {
+              "name": "Pulmonary circulation",
+              "count": 1
+            }
+          ],
+          "topKeywords": [
+            {
+              "name": "health",
+              "count": 4
+            },
+            {
+              "name": "lung",
+              "count": 4
+            },
+            {
+              "name": "covid",
+              "count": 3
+            },
+            {
+              "name": "during",
+              "count": 3
+            },
+            {
+              "name": "administration",
+              "count": 2
+            },
+            {
+              "name": "care",
+              "count": 2
+            },
+            {
+              "name": "electronic",
+              "count": 2
+            },
+            {
+              "name": "records",
+              "count": 2
+            },
+            {
+              "name": "veterans",
+              "count": 2
+            },
+            {
+              "name": "access",
+              "count": 1
+            },
+            {
+              "name": "addressing",
+              "count": 1
+            },
+            {
+              "name": "among",
+              "count": 1
+            }
+          ],
+          "topCoauthors": [
+            {
+              "name": "R Adams Dudley",
+              "count": 3
+            },
+            {
+              "name": "Amy M Linsky",
+              "count": 2
+            },
+            {
+              "name": "Benjamin Langworthy",
+              "count": 2
+            },
+            {
+              "name": "Chris S Xu",
+              "count": 2
+            },
+            {
+              "name": "Jolie Wormwood",
+              "count": 2
+            },
+            {
+              "name": "Michael Still",
+              "count": 2
+            },
+            {
+              "name": "Nicholas E Ingraham",
+              "count": 2
+            },
+            {
+              "name": "Renda Soylemez Wiener",
+              "count": 2
+            },
+            {
+              "name": "Abbas B Jama",
+              "count": 1
+            },
+            {
+              "name": "Abigail La Nou",
+              "count": 1
+            },
+            {
+              "name": "Alicia Woodward-Abel",
+              "count": 1
+            },
+            {
+              "name": "Allan J Walkey",
+              "count": 1
+            }
+          ]
+        },
+        "negative": {
+          "count": 0,
+          "yearRange": null,
+          "yearCounts": [],
+          "topJournals": [],
+          "topKeywords": [],
+          "topCoauthors": []
+        }
+      }
     },
     {
       "id": "jean-paul-noel-noelx071-umn-edu",
@@ -789,7 +2096,168 @@
           "doi": "10.1101/2024.11.28.625897",
           "url": "https://pubmed.ncbi.nlm.nih.gov/39651243/"
         }
-      ]
+      ],
+      "signals": {
+        "positive": {
+          "count": 10,
+          "yearRange": {
+            "min": 2024,
+            "max": 2026
+          },
+          "yearCounts": [
+            {
+              "year": 2024,
+              "count": 1
+            },
+            {
+              "year": 2025,
+              "count": 8
+            },
+            {
+              "year": 2026,
+              "count": 1
+            }
+          ],
+          "topJournals": [
+            {
+              "name": "bioRxiv : the preprint server for biology",
+              "count": 2
+            },
+            {
+              "name": "Nature",
+              "count": 2
+            },
+            {
+              "name": "Nature neuroscience",
+              "count": 2
+            },
+            {
+              "name": "eLife",
+              "count": 1
+            },
+            {
+              "name": "Nature communications",
+              "count": 1
+            },
+            {
+              "name": "Physics of life reviews",
+              "count": 1
+            },
+            {
+              "name": "PLoS biology",
+              "count": 1
+            }
+          ],
+          "topKeywords": [
+            {
+              "name": "brain",
+              "count": 3
+            },
+            {
+              "name": "models",
+              "count": 3
+            },
+            {
+              "name": "computational",
+              "count": 2
+            },
+            {
+              "name": "cortex",
+              "count": 2
+            },
+            {
+              "name": "head",
+              "count": 2
+            },
+            {
+              "name": "mice",
+              "count": 2
+            },
+            {
+              "name": "mouse",
+              "count": 2
+            },
+            {
+              "name": "movement",
+              "count": 2
+            },
+            {
+              "name": "neural",
+              "count": 2
+            },
+            {
+              "name": "wide",
+              "count": 2
+            },
+            {
+              "name": "aborting",
+              "count": 1
+            },
+            {
+              "name": "across",
+              "count": 1
+            }
+          ],
+          "topCoauthors": [
+            {
+              "name": "International Brain Laboratory",
+              "count": 5
+            },
+            {
+              "name": "Alejandro Pan-Vazquez",
+              "count": 4
+            },
+            {
+              "name": "Anne E Urai",
+              "count": 4
+            },
+            {
+              "name": "Guido T Meijer",
+              "count": 4
+            },
+            {
+              "name": "Julius Benson",
+              "count": 4
+            },
+            {
+              "name": "Karolina Z Socha",
+              "count": 4
+            },
+            {
+              "name": "Nathaniel J Miska",
+              "count": 4
+            },
+            {
+              "name": "Noam Roth",
+              "count": 4
+            },
+            {
+              "name": "Andrea Serino",
+              "count": 3
+            },
+            {
+              "name": "Anne K Churchland",
+              "count": 3
+            },
+            {
+              "name": "Anup Khanal",
+              "count": 3
+            },
+            {
+              "name": "Berk Ger&#xe7;ek",
+              "count": 3
+            }
+          ]
+        },
+        "negative": {
+          "count": 0,
+          "yearRange": null,
+          "yearCounts": [],
+          "topJournals": [],
+          "topKeywords": [],
+          "topCoauthors": []
+        }
+      }
     },
     {
       "id": "oludare-odumade-oduma002-umn-edu",
@@ -841,7 +2309,152 @@
           "doi": "10.1097/INF.0000000000004661",
           "url": "https://pubmed.ncbi.nlm.nih.gov/39951083/"
         }
-      ]
+      ],
+      "signals": {
+        "positive": {
+          "count": 5,
+          "yearRange": {
+            "min": 2025,
+            "max": 2025
+          },
+          "yearCounts": [
+            {
+              "year": 2025,
+              "count": 5
+            }
+          ],
+          "topJournals": [
+            {
+              "name": "Cytokine",
+              "count": 1
+            },
+            {
+              "name": "International journal of infectious diseases : IJID : official publication of the International Society for Infectious Diseases",
+              "count": 1
+            },
+            {
+              "name": "Journal of innate immunity",
+              "count": 1
+            },
+            {
+              "name": "The Journal of infectious diseases",
+              "count": 1
+            },
+            {
+              "name": "The Pediatric infectious disease journal",
+              "count": 1
+            }
+          ],
+          "topKeywords": [
+            {
+              "name": "chemokine",
+              "count": 3
+            },
+            {
+              "name": "cytokine",
+              "count": 3
+            },
+            {
+              "name": "associated",
+              "count": 2
+            },
+            {
+              "name": "concentrations",
+              "count": 2
+            },
+            {
+              "name": "ontogeny",
+              "count": 2
+            },
+            {
+              "name": "plasma",
+              "count": 2
+            },
+            {
+              "name": "across",
+              "count": 1
+            },
+            {
+              "name": "blood",
+              "count": 1
+            },
+            {
+              "name": "center",
+              "count": 1
+            },
+            {
+              "name": "cohort",
+              "count": 1
+            },
+            {
+              "name": "congenital",
+              "count": 1
+            },
+            {
+              "name": "containing",
+              "count": 1
+            }
+          ],
+          "topCoauthors": [
+            {
+              "name": "Al Ozonoff",
+              "count": 3
+            },
+            {
+              "name": "Joann Diray-Arce",
+              "count": 3
+            },
+            {
+              "name": "Kinga K Smolen",
+              "count": 3
+            },
+            {
+              "name": "Ofer Levy",
+              "count": 3
+            },
+            {
+              "name": "Alec L Plotkin",
+              "count": 2
+            },
+            {
+              "name": "Asimenia Angelidou",
+              "count": 2
+            },
+            {
+              "name": "Athena N Nguyen",
+              "count": 2
+            },
+            {
+              "name": "Beate Kampmann",
+              "count": 2
+            },
+            {
+              "name": "Kerry McEnaney",
+              "count": 2
+            },
+            {
+              "name": "Olubukola T Idoko",
+              "count": 2
+            },
+            {
+              "name": "Peter Richmond",
+              "count": 2
+            },
+            {
+              "name": "Rym Ben-Othman",
+              "count": 2
+            }
+          ]
+        },
+        "negative": {
+          "count": 0,
+          "yearRange": null,
+          "yearCounts": [],
+          "topJournals": [],
+          "topKeywords": [],
+          "topCoauthors": []
+        }
+      }
     },
     {
       "id": "ebiere-okah-ebiere-umn-edu",
@@ -949,18 +2562,213 @@
           "doi": "10.1016/j.amepre.2022.10.019",
           "url": "https://pubmed.ncbi.nlm.nih.gov/36935165/"
         }
-      ]
+      ],
+      "signals": {
+        "positive": {
+          "count": 12,
+          "yearRange": {
+            "min": 2023,
+            "max": 2026
+          },
+          "yearCounts": [
+            {
+              "year": 2023,
+              "count": 3
+            },
+            {
+              "year": 2024,
+              "count": 2
+            },
+            {
+              "year": 2025,
+              "count": 6
+            },
+            {
+              "year": 2026,
+              "count": 1
+            }
+          ],
+          "topJournals": [
+            {
+              "name": "Journal of racial and ethnic health disparities",
+              "count": 2
+            },
+            {
+              "name": "American family physician",
+              "count": 1
+            },
+            {
+              "name": "American journal of preventive medicine",
+              "count": 1
+            },
+            {
+              "name": "BMC medical education",
+              "count": 1
+            },
+            {
+              "name": "JAMA",
+              "count": 1
+            },
+            {
+              "name": "Journal of clinical and translational science",
+              "count": 1
+            },
+            {
+              "name": "Journal of health psychology",
+              "count": 1
+            },
+            {
+              "name": "Journal of the American Board of Family Medicine : JABFM",
+              "count": 1
+            },
+            {
+              "name": "Patient education and counseling",
+              "count": 1
+            },
+            {
+              "name": "Preventive medicine reports",
+              "count": 1
+            }
+          ],
+          "topKeywords": [
+            {
+              "name": "health",
+              "count": 4
+            },
+            {
+              "name": "black",
+              "count": 3
+            },
+            {
+              "name": "care",
+              "count": 3
+            },
+            {
+              "name": "race",
+              "count": 3
+            },
+            {
+              "name": "screening",
+              "count": 3
+            },
+            {
+              "name": "based",
+              "count": 2
+            },
+            {
+              "name": "healthcare",
+              "count": 2
+            },
+            {
+              "name": "medical",
+              "count": 2
+            },
+            {
+              "name": "qualitative",
+              "count": 2
+            },
+            {
+              "name": "racial",
+              "count": 2
+            },
+            {
+              "name": "risk",
+              "count": 2
+            },
+            {
+              "name": "social",
+              "count": 2
+            }
+          ],
+          "topCoauthors": [
+            {
+              "name": "Andrea Westby",
+              "count": 2
+            },
+            {
+              "name": "Brendan Crow",
+              "count": 2
+            },
+            {
+              "name": "Drexler James",
+              "count": 2
+            },
+            {
+              "name": "J'Mag Karbeah",
+              "count": 2
+            },
+            {
+              "name": "Abbie Begnaud",
+              "count": 1
+            },
+            {
+              "name": "Alex Ajayi",
+              "count": 1
+            },
+            {
+              "name": "Anitra Persaud",
+              "count": 1
+            },
+            {
+              "name": "Anna K Hing",
+              "count": 1
+            },
+            {
+              "name": "Antony Stately",
+              "count": 1
+            },
+            {
+              "name": "Anuradha Jetty",
+              "count": 1
+            },
+            {
+              "name": "Catherine Bi",
+              "count": 1
+            },
+            {
+              "name": "Christi A Patten",
+              "count": 1
+            }
+          ]
+        },
+        "negative": {
+          "count": 0,
+          "yearRange": null,
+          "yearCounts": [],
+          "topJournals": [],
+          "topKeywords": [],
+          "topCoauthors": []
+        }
+      }
     },
     {
       "id": "edgar-pe-a-penax025-umn-edu",
-      "name": "Edgar Peña",
+      "name": "Edgar Pe\u00f1a",
       "department": "University of Minnesota",
       "orcid": "",
       "areas": [],
       "programs": [
         "KAP"
       ],
-      "publications": []
+      "publications": [],
+      "signals": {
+        "positive": {
+          "count": 0,
+          "yearRange": null,
+          "yearCounts": [],
+          "topJournals": [],
+          "topKeywords": [],
+          "topCoauthors": []
+        },
+        "negative": {
+          "count": 0,
+          "yearRange": null,
+          "yearCounts": [],
+          "topJournals": [],
+          "topKeywords": [],
+          "topCoauthors": []
+        }
+      }
     },
     {
       "id": "gianna-rea-sandin-reasa002-umn-edu",
@@ -1004,7 +2812,152 @@
           "doi": "10.1016/j.jecp.2024.105994",
           "url": "https://pubmed.ncbi.nlm.nih.gov/38991312/"
         }
-      ]
+      ],
+      "signals": {
+        "positive": {
+          "count": 4,
+          "yearRange": {
+            "min": 2024,
+            "max": 2025
+          },
+          "yearCounts": [
+            {
+              "year": 2024,
+              "count": 2
+            },
+            {
+              "year": 2025,
+              "count": 2
+            }
+          ],
+          "topJournals": [
+            {
+              "name": "JAMA pediatrics",
+              "count": 1
+            },
+            {
+              "name": "Journal of experimental child psychology",
+              "count": 1
+            },
+            {
+              "name": "Journal of research on adolescence : the official journal of the Society for Research on Adolescence",
+              "count": 1
+            },
+            {
+              "name": "Social development (Oxford, England)",
+              "count": 1
+            }
+          ],
+          "topKeywords": [
+            {
+              "name": "childhood",
+              "count": 2
+            },
+            {
+              "name": "sleep",
+              "count": 2
+            },
+            {
+              "name": "youth",
+              "count": 2
+            },
+            {
+              "name": "acceleration",
+              "count": 1
+            },
+            {
+              "name": "across",
+              "count": 1
+            },
+            {
+              "name": "adolescence",
+              "count": 1
+            },
+            {
+              "name": "adverse",
+              "count": 1
+            },
+            {
+              "name": "age",
+              "count": 1
+            },
+            {
+              "name": "assessed",
+              "count": 1
+            },
+            {
+              "name": "being",
+              "count": 1
+            },
+            {
+              "name": "changes",
+              "count": 1
+            },
+            {
+              "name": "children",
+              "count": 1
+            }
+          ],
+          "topCoauthors": [
+            {
+              "name": "Kathryn Lemery-Chalfant",
+              "count": 2
+            },
+            {
+              "name": "Leah D Doane",
+              "count": 2
+            },
+            {
+              "name": "Sylia Wilson",
+              "count": 2
+            },
+            {
+              "name": "Alexys S Murillo",
+              "count": 1
+            },
+            {
+              "name": "Ariana Ruof",
+              "count": 1
+            },
+            {
+              "name": "Carlos Valiente",
+              "count": 1
+            },
+            {
+              "name": "Christy Bui",
+              "count": 1
+            },
+            {
+              "name": "Colin D Freilich",
+              "count": 1
+            },
+            {
+              "name": "Connor Martz",
+              "count": 1
+            },
+            {
+              "name": "Juan Del Toro",
+              "count": 1
+            },
+            {
+              "name": "Kristian Markon",
+              "count": 1
+            },
+            {
+              "name": "Mary C Davis",
+              "count": 1
+            }
+          ]
+        },
+        "negative": {
+          "count": 0,
+          "yearRange": null,
+          "yearCounts": [],
+          "topJournals": [],
+          "topKeywords": [],
+          "topCoauthors": []
+        }
+      }
     },
     {
       "id": "sabrina-scroggins-sscroggi-d-umn-edu",
@@ -1073,7 +3026,172 @@
           "doi": "10.1007/s43032-022-01065-z",
           "url": "https://pubmed.ncbi.nlm.nih.gov/35984571/"
         }
-      ]
+      ],
+      "signals": {
+        "positive": {
+          "count": 7,
+          "yearRange": {
+            "min": 2022,
+            "max": 2025
+          },
+          "yearCounts": [
+            {
+              "year": 2022,
+              "count": 1
+            },
+            {
+              "year": 2023,
+              "count": 3
+            },
+            {
+              "year": 2024,
+              "count": 2
+            },
+            {
+              "year": 2025,
+              "count": 1
+            }
+          ],
+          "topJournals": [
+            {
+              "name": "bioRxiv : the preprint server for biology",
+              "count": 1
+            },
+            {
+              "name": "Cells",
+              "count": 1
+            },
+            {
+              "name": "International journal of molecular sciences",
+              "count": 1
+            },
+            {
+              "name": "Journal of affective disorders",
+              "count": 1
+            },
+            {
+              "name": "medRxiv : the preprint server for health sciences",
+              "count": 1
+            },
+            {
+              "name": "Reproductive sciences (Thousand Oaks, Calif.)",
+              "count": 1
+            },
+            {
+              "name": "Stem cell research & therapy",
+              "count": 1
+            }
+          ],
+          "topKeywords": [
+            {
+              "name": "cells",
+              "count": 4
+            },
+            {
+              "name": "anti",
+              "count": 2
+            },
+            {
+              "name": "bipolar",
+              "count": 2
+            },
+            {
+              "name": "disorder",
+              "count": 2
+            },
+            {
+              "name": "dysregulation",
+              "count": 2
+            },
+            {
+              "name": "human",
+              "count": 2
+            },
+            {
+              "name": "immune",
+              "count": 2
+            },
+            {
+              "name": "inflammatory",
+              "count": 2
+            },
+            {
+              "name": "maternal",
+              "count": 2
+            },
+            {
+              "name": "balance",
+              "count": 1
+            },
+            {
+              "name": "cd4",
+              "count": 1
+            },
+            {
+              "name": "cell",
+              "count": 1
+            }
+          ],
+          "topCoauthors": [
+            {
+              "name": "Aislinn J Williams",
+              "count": 2
+            },
+            {
+              "name": "Aysheh Alrfooh",
+              "count": 2
+            },
+            {
+              "name": "Benney M R Argue",
+              "count": 2
+            },
+            {
+              "name": "Donna A Santillan",
+              "count": 2
+            },
+            {
+              "name": "Douglas G Scroggins",
+              "count": 2
+            },
+            {
+              "name": "Gabrielle Gray",
+              "count": 2
+            },
+            {
+              "name": "Jacob Michaelson",
+              "count": 2
+            },
+            {
+              "name": "Jenny Gringer Richards",
+              "count": 2
+            },
+            {
+              "name": "Jess G Fiedorowicz",
+              "count": 2
+            },
+            {
+              "name": "John A Wemmie",
+              "count": 2
+            },
+            {
+              "name": "Lucas G Casten",
+              "count": 2
+            },
+            {
+              "name": "Marie E Gaine",
+              "count": 2
+            }
+          ]
+        },
+        "negative": {
+          "count": 0,
+          "yearRange": null,
+          "yearCounts": [],
+          "topJournals": [],
+          "topKeywords": [],
+          "topCoauthors": []
+        }
+      }
     },
     {
       "id": "stefani-thomas-stefanit-umn-edu",
@@ -1094,20 +3212,20 @@
           "url": "https://pubmed.ncbi.nlm.nih.gov/39808161/"
         },
         {
-          "id": "40996037",
-          "title": "Global proteomic analysis of Cryptococcus neoformans clinical strains reveals significant differences between latent and lethal infection.",
-          "journal": "mSystems",
-          "year": 2025,
-          "doi": "10.1128/msystems.00751-25",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/40996037/"
-        },
-        {
           "id": "40502057",
           "title": "Global proteomic analysis of Cryptococcus neoformans clinical strains reveals significant differences between latent and lethal infection.",
           "journal": "bioRxiv : the preprint server for biology",
           "year": 2025,
           "doi": "10.1101/2025.06.03.657666",
           "url": "https://pubmed.ncbi.nlm.nih.gov/40502057/"
+        },
+        {
+          "id": "40996037",
+          "title": "Global proteomic analysis of Cryptococcus neoformans clinical strains reveals significant differences between latent and lethal infection.",
+          "journal": "mSystems",
+          "year": 2025,
+          "doi": "10.1128/msystems.00751-25",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40996037/"
         },
         {
           "id": "41465250",
@@ -1254,20 +3372,20 @@
           "url": "https://pubmed.ncbi.nlm.nih.gov/35634242/"
         },
         {
-          "id": "35703544",
-          "title": "The Serological Sciences Network (SeroNet) for COVID-19: Depth and Breadth of Serology Assays and Plans for Assay Harmonization.",
-          "journal": "mSphere",
-          "year": 2022,
-          "doi": "10.1128/msphere.00193-22",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/35703544/"
-        },
-        {
           "id": "35262095",
           "title": "The Serological Sciences Network (SeroNet) for COVID-19: Depth and Breadth of Serology Assays and Plans for Assay Harmonization.",
           "journal": "medRxiv : the preprint server for health sciences",
           "year": 2022,
           "doi": "10.1101/2022.02.27.22271399",
           "url": "https://pubmed.ncbi.nlm.nih.gov/35262095/"
+        },
+        {
+          "id": "35703544",
+          "title": "The Serological Sciences Network (SeroNet) for COVID-19: Depth and Breadth of Serology Assays and Plans for Assay Harmonization.",
+          "journal": "mSphere",
+          "year": 2022,
+          "doi": "10.1128/msphere.00193-22",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/35703544/"
         },
         {
           "id": "35614113",
@@ -1279,7 +3397,7 @@
         },
         {
           "id": "35248569",
-          "title": "Use of Cotton Balls in Diapers for Collection of Urine Samples Impacts the Analysis of Routine Chemistry Tests: An Evaluation of Cotton Balls, Diapers, and Chemistry Analyzers.",
+          "title": "Use of Cotton Balls in Diapers for Collection of Urine Samples Impacts the Analysis of Routine Chemistry Tests: An\u00a0Evaluation of Cotton Balls, Diapers, and Chemistry Analyzers.",
           "journal": "The Journal of pediatrics",
           "year": 2022,
           "doi": "10.1016/j.jpeds.2022.02.051",
@@ -1365,7 +3483,196 @@
           "doi": "10.1186/s12014-019-9254-0",
           "url": "https://pubmed.ncbi.nlm.nih.gov/31516400/"
         }
-      ]
+      ],
+      "signals": {
+        "positive": {
+          "count": 35,
+          "yearRange": {
+            "min": 2019,
+            "max": 2025
+          },
+          "yearCounts": [
+            {
+              "year": 2019,
+              "count": 2
+            },
+            {
+              "year": 2020,
+              "count": 3
+            },
+            {
+              "year": 2021,
+              "count": 5
+            },
+            {
+              "year": 2022,
+              "count": 9
+            },
+            {
+              "year": 2023,
+              "count": 6
+            },
+            {
+              "year": 2024,
+              "count": 2
+            },
+            {
+              "year": 2025,
+              "count": 8
+            }
+          ],
+          "topJournals": [
+            {
+              "name": "Journal of the American Society for Mass Spectrometry",
+              "count": 3
+            },
+            {
+              "name": "Clinical biochemistry",
+              "count": 2
+            },
+            {
+              "name": "Clinical proteomics",
+              "count": 2
+            },
+            {
+              "name": "International journal of molecular sciences",
+              "count": 2
+            },
+            {
+              "name": "Scientific reports",
+              "count": 2
+            },
+            {
+              "name": "The Journal of pediatrics",
+              "count": 2
+            },
+            {
+              "name": "ACS pharmacology & translational science",
+              "count": 1
+            },
+            {
+              "name": "bioRxiv : the preprint server for biology",
+              "count": 1
+            },
+            {
+              "name": "Cancer epidemiology, biomarkers & prevention : a publication of the American Association for Cancer Research, cosponsored by the American Society of Preventive Oncology",
+              "count": 1
+            },
+            {
+              "name": "Cell",
+              "count": 1
+            }
+          ],
+          "topKeywords": [
+            {
+              "name": "ovarian",
+              "count": 14
+            },
+            {
+              "name": "cancer",
+              "count": 13
+            },
+            {
+              "name": "proteomic",
+              "count": 9
+            },
+            {
+              "name": "clinical",
+              "count": 7
+            },
+            {
+              "name": "grade",
+              "count": 7
+            },
+            {
+              "name": "high",
+              "count": 7
+            },
+            {
+              "name": "serous",
+              "count": 7
+            },
+            {
+              "name": "covid",
+              "count": 6
+            },
+            {
+              "name": "analysis",
+              "count": 5
+            },
+            {
+              "name": "mass",
+              "count": 5
+            },
+            {
+              "name": "spectrometry",
+              "count": 5
+            },
+            {
+              "name": "assay",
+              "count": 4
+            }
+          ],
+          "topCoauthors": [
+            {
+              "name": "Amy B Karger",
+              "count": 8
+            },
+            {
+              "name": "Bharat Thyagarajan",
+              "count": 7
+            },
+            {
+              "name": "Jesenia M Perez",
+              "count": 7
+            },
+            {
+              "name": "Carly A I Twigg",
+              "count": 5
+            },
+            {
+              "name": "Joohyun Ryu",
+              "count": 5
+            },
+            {
+              "name": "Hui Zhang",
+              "count": 4
+            },
+            {
+              "name": "Jolene M Duda",
+              "count": 4
+            },
+            {
+              "name": "Ania Wajnberg",
+              "count": 3
+            },
+            {
+              "name": "Ann M Moormann",
+              "count": 3
+            },
+            {
+              "name": "Catherine Forconi",
+              "count": 3
+            },
+            {
+              "name": "Christopher D Heaney",
+              "count": 3
+            },
+            {
+              "name": "Daniel W Chan",
+              "count": 3
+            }
+          ]
+        },
+        "negative": {
+          "count": 0,
+          "yearRange": null,
+          "yearCounts": [],
+          "topJournals": [],
+          "topKeywords": [],
+          "topCoauthors": []
+        }
+      }
     },
     {
       "id": "cliff-whetung-cwhetung-d-umn-edu",
@@ -1401,7 +3708,128 @@
           "doi": "10.1016/j.lana.2025.101207",
           "url": "https://pubmed.ncbi.nlm.nih.gov/40832662/"
         }
-      ]
+      ],
+      "signals": {
+        "positive": {
+          "count": 3,
+          "yearRange": {
+            "min": 2025,
+            "max": 2025
+          },
+          "yearCounts": [
+            {
+              "year": 2025,
+              "count": 3
+            }
+          ],
+          "topJournals": [
+            {
+              "name": "Journal of gerontological social work",
+              "count": 1
+            },
+            {
+              "name": "Lancet regional health. Americas",
+              "count": 1
+            },
+            {
+              "name": "The Gerontologist",
+              "count": 1
+            }
+          ],
+          "topKeywords": [
+            {
+              "name": "health",
+              "count": 4
+            },
+            {
+              "name": "cognitive",
+              "count": 3
+            },
+            {
+              "name": "aging",
+              "count": 2
+            },
+            {
+              "name": "among",
+              "count": 2
+            },
+            {
+              "name": "indigenous",
+              "count": 2
+            },
+            {
+              "name": "active",
+              "count": 1
+            },
+            {
+              "name": "activities",
+              "count": 1
+            },
+            {
+              "name": "adults",
+              "count": 1
+            },
+            {
+              "name": "analysis",
+              "count": 1
+            },
+            {
+              "name": "asia",
+              "count": 1
+            },
+            {
+              "name": "associated",
+              "count": 1
+            },
+            {
+              "name": "black",
+              "count": 1
+            }
+          ],
+          "topCoauthors": [
+            {
+              "name": "Ernest Gonzales",
+              "count": 3
+            },
+            {
+              "name": "Bradley J Willcox",
+              "count": 1
+            },
+            {
+              "name": "Kamal H Masaki",
+              "count": 1
+            },
+            {
+              "name": "Katsumi Takemoto",
+              "count": 1
+            },
+            {
+              "name": "Peter Martin",
+              "count": 1
+            },
+            {
+              "name": "Randi Chen",
+              "count": 1
+            },
+            {
+              "name": "Yeonjung J Lee",
+              "count": 1
+            },
+            {
+              "name": "Yeonjung Jane Lee",
+              "count": 1
+            }
+          ]
+        },
+        "negative": {
+          "count": 0,
+          "yearRange": null,
+          "yearCounts": [],
+          "topJournals": [],
+          "topKeywords": [],
+          "topCoauthors": []
+        }
+      }
     },
     {
       "id": "serena-xiong-xiong455-umn-edu",
@@ -1485,7 +3913,176 @@
           "doi": "10.1136/bmjopen-2023-078212",
           "url": "https://pubmed.ncbi.nlm.nih.gov/38081672/"
         }
-      ]
+      ],
+      "signals": {
+        "positive": {
+          "count": 9,
+          "yearRange": {
+            "min": 2023,
+            "max": 2025
+          },
+          "yearCounts": [
+            {
+              "year": 2023,
+              "count": 2
+            },
+            {
+              "year": 2024,
+              "count": 4
+            },
+            {
+              "year": 2025,
+              "count": 3
+            }
+          ],
+          "topJournals": [
+            {
+              "name": "BMC public health",
+              "count": 1
+            },
+            {
+              "name": "BMJ open",
+              "count": 1
+            },
+            {
+              "name": "Cancer epidemiology, biomarkers & prevention : a publication of the American Association for Cancer Research, cosponsored by the American Society of Preventive Oncology",
+              "count": 1
+            },
+            {
+              "name": "Health promotion practice",
+              "count": 1
+            },
+            {
+              "name": "Implementation science communications",
+              "count": 1
+            },
+            {
+              "name": "Journal of adolescent and young adult oncology",
+              "count": 1
+            },
+            {
+              "name": "PLOS global public health",
+              "count": 1
+            },
+            {
+              "name": "Preventive medicine reports",
+              "count": 1
+            },
+            {
+              "name": "PRiMER (Leawood, Kan.)",
+              "count": 1
+            }
+          ],
+          "topKeywords": [
+            {
+              "name": "cancer",
+              "count": 5
+            },
+            {
+              "name": "screening",
+              "count": 3
+            },
+            {
+              "name": "among",
+              "count": 2
+            },
+            {
+              "name": "barriers",
+              "count": 2
+            },
+            {
+              "name": "based",
+              "count": 2
+            },
+            {
+              "name": "care",
+              "count": 2
+            },
+            {
+              "name": "cervical",
+              "count": 2
+            },
+            {
+              "name": "community",
+              "count": 2
+            },
+            {
+              "name": "disparities",
+              "count": 2
+            },
+            {
+              "name": "health",
+              "count": 2
+            },
+            {
+              "name": "hmong",
+              "count": 2
+            },
+            {
+              "name": "hpv",
+              "count": 2
+            }
+          ],
+          "topCoauthors": [
+            {
+              "name": "Jay Desai",
+              "count": 2
+            },
+            {
+              "name": "Rahel Ghebre",
+              "count": 2
+            },
+            {
+              "name": "Adam Szpiro",
+              "count": 1
+            },
+            {
+              "name": "Adwoa Bemah Boamah Mensah",
+              "count": 1
+            },
+            {
+              "name": "Alan Barnette",
+              "count": 1
+            },
+            {
+              "name": "Anisa Ibrahim",
+              "count": 1
+            },
+            {
+              "name": "Anthony Kayiira",
+              "count": 1
+            },
+            {
+              "name": "April K Wilhelm",
+              "count": 1
+            },
+            {
+              "name": "Arnethea L Sutton",
+              "count": 1
+            },
+            {
+              "name": "Bai Vue",
+              "count": 1
+            },
+            {
+              "name": "Beth Virnig",
+              "count": 1
+            },
+            {
+              "name": "Bo Qin",
+              "count": 1
+            }
+          ]
+        },
+        "negative": {
+          "count": 0,
+          "yearRange": null,
+          "yearCounts": [],
+          "topJournals": [],
+          "topKeywords": [],
+          "topCoauthors": []
+        }
+      }
     }
   ]
 }

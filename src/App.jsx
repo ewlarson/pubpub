@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from 'react';
+import { Fragment, useEffect, useMemo, useRef, useState } from 'react';
 
 const DATA_URL = `${import.meta.env.BASE_URL}data/publications.json`;
 
@@ -22,6 +22,8 @@ export default function App() {
   const [sortBy, setSortBy] = useState('name');
   const [openId, setOpenId] = useState(null);
   const [copiedId, setCopiedId] = useState(null);
+  const [stickyActive, setStickyActive] = useState(false);
+  const stickyRef = useRef(null);
 
   useEffect(() => {
     let active = true;
@@ -206,6 +208,43 @@ export default function App() {
     );
   }, [filteredFaculty]);
 
+  const openMember = useMemo(() => {
+    if (!openId) {
+      return null;
+    }
+    return filteredFaculty.find((member) => member.id === openId) || null;
+  }, [filteredFaculty, openId]);
+
+  useEffect(() => {
+    if (!openId) {
+      setStickyActive(false);
+      return;
+    }
+
+    const STICKY_OFFSET = 12;
+
+    const handlePosition = () => {
+      const listEl = document.getElementById(`pub-list-${openId}`);
+      if (!listEl) {
+        setStickyActive(false);
+        return;
+      }
+      const rect = listEl.getBoundingClientRect();
+      const stickyHeight = stickyRef.current?.offsetHeight || 0;
+      const withinTop = rect.top <= STICKY_OFFSET;
+      const withinBottom = rect.bottom >= STICKY_OFFSET + stickyHeight + 8;
+      setStickyActive(withinTop && withinBottom);
+    };
+
+    handlePosition();
+    window.addEventListener('scroll', handlePosition, { passive: true });
+    window.addEventListener('resize', handlePosition);
+    return () => {
+      window.removeEventListener('scroll', handlePosition);
+      window.removeEventListener('resize', handlePosition);
+    };
+  }, [openId]);
+
   if (status === 'loading') {
     return (
       <main className="page">
@@ -311,6 +350,23 @@ export default function App() {
         </div>
       </section>
 
+      {openMember ? (
+        <div
+          className={`sticky-author ${stickyActive ? 'is-active' : ''}`}
+          ref={stickyRef}
+        >
+          <div className="sticky-author-card">
+            <div className="sticky-author-main">
+              <span className="sticky-author-name">{openMember.name}</span>
+              <span className="sticky-author-meta">{openMember.department}</span>
+            </div>
+            <span className="sticky-author-count">
+              {openMember.filteredPublications.length} publications
+            </span>
+          </div>
+        </div>
+      ) : null}
+
       <section className="table-wrap">
         <table className="table">
           <thead>
@@ -328,106 +384,130 @@ export default function App() {
               const latestYear = Math.max(
                 ...member.filteredPublications.map((pub) => pub.year)
               );
+              const isOpen = openId === member.id;
 
               return (
-                <tr key={member.id} id={`faculty-${member.id}`}>
-                  <td>
-                    <div className="name-row">
-                      <div className="name">{member.name}</div>
+                <Fragment key={member.id}>
+                  <tr id={`faculty-${member.id}`}>
+                    <td>
+                      <div className="name-row">
+                        <div className="name">{member.name}</div>
+                        <button
+                          type="button"
+                          className="copy-link"
+                          onClick={() => handleCopyLink(member)}
+                          aria-label={`Copy link for ${member.name}`}
+                          title="Copy link"
+                        >
+                          <svg
+                            width="16"
+                            height="16"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="currentColor"
+                            strokeWidth="2"
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            aria-hidden="true"
+                          >
+                            <path d="M10 13a5 5 0 0 0 7.07 0l2.83-2.83a5 5 0 0 0-7.07-7.07L10 5" />
+                            <path d="M14 11a5 5 0 0 0-7.07 0L4.1 13.83a5 5 0 0 0 7.07 7.07L14 19" />
+                          </svg>
+                        </button>
+                        {copiedId === member.id ? (
+                          <span className="muted small">Copied</span>
+                        ) : null}
+                      </div>
+                      <div className="muted small">
+                        {member.orcid ? (
+                          <a
+                            href={`https://orcid.org/${member.orcid}`}
+                            target="_blank"
+                            rel="noreferrer"
+                            className="mono"
+                          >
+                            {member.orcid}
+                          </a>
+                        ) : (
+                          'ORCID not listed'
+                        )}
+                      </div>
+                    </td>
+                    <td>{member.department}</td>
+                    <td>{member.programs?.length ? member.programs.join(', ') : '—'}</td>
+                    <td className="num">{member.filteredPublications.length}</td>
+                    <td className="num">{latestYear}</td>
+                    <td>
                       <button
                         type="button"
-                        className="copy-link"
-                        onClick={() => handleCopyLink(member)}
-                        aria-label={`Copy link for ${member.name}`}
-                        title="Copy link"
+                        className="pub-toggle"
+                        aria-expanded={isOpen}
+                        aria-controls={`pub-list-${member.id}`}
+                        onClick={() => {
+                          setOpenId(isOpen ? null : member.id);
+                        }}
                       >
-                        <svg
-                          width="16"
-                          height="16"
-                          viewBox="0 0 24 24"
-                          fill="none"
-                          stroke="currentColor"
-                          strokeWidth="2"
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                          aria-hidden="true"
-                        >
-                          <path d="M10 13a5 5 0 0 0 7.07 0l2.83-2.83a5 5 0 0 0-7.07-7.07L10 5" />
-                          <path d="M14 11a5 5 0 0 0-7.07 0L4.1 13.83a5 5 0 0 0 7.07 7.07L14 19" />
-                        </svg>
+                        {isOpen ? 'Hide list' : 'View list'}
                       </button>
-                      {copiedId === member.id ? (
-                        <span className="muted small">Copied</span>
-                      ) : null}
-                    </div>
-                    <div className="muted small">
-                      {member.orcid ? (
-                        <a
-                          href={`https://orcid.org/${member.orcid}`}
-                          target="_blank"
-                          rel="noreferrer"
-                          className="mono"
-                        >
-                          {member.orcid}
-                        </a>
-                      ) : (
-                        'ORCID not listed'
-                      )}
-                    </div>
-                  </td>
-                  <td>{member.department}</td>
-                  <td>{member.programs?.length ? member.programs.join(', ') : '—'}</td>
-                  <td className="num">{member.filteredPublications.length}</td>
-                  <td className="num">{latestYear}</td>
-                  <td>
-                    <button
-                      type="button"
-                      className="pub-toggle"
-                      aria-expanded={openId === member.id}
-                      aria-controls={`pub-list-${member.id}`}
-                      onClick={() => {
-                        setOpenId(openId === member.id ? null : member.id);
-                      }}
-                    >
-                      {openId === member.id ? 'Hide list' : 'View list'}
-                    </button>
-                    {openId === member.id ? (
-                      <ul className="pub-list" id={`pub-list-${member.id}`}>
-                        {member.filteredPublications.map((pub) => (
-                          <li key={pub.id}>
-                            <div className="pub-title">
-                              {pub.url ? (
-                                <a href={pub.url} target="_blank" rel="noreferrer">
-                                  {pub.title}
-                                </a>
-                              ) : (
-                                pub.title
-                              )}
+                    </td>
+                  </tr>
+                  {isOpen ? (
+                    <tr className="pub-row">
+                      <td colSpan={6}>
+                        <div className="pub-table-wrap" id={`pub-list-${member.id}`}>
+                          <div className="pub-table">
+                            <div className="pub-grid pub-header">
+                              <span className="pub-head pub-head-pmid">PMID</span>
+                              <span className="pub-head pub-head-year">Year</span>
+                              <span className="pub-head">Journal</span>
+                              <span className="pub-head">Title</span>
+                              <span className="pub-head pub-head-doi">DOI</span>
                             </div>
-                            <div className="pub-meta">
-                              <span>{pub.journal}</span>
-                              <span className="dot" />
-                              <span>{pub.year}</span>
-                              {pub.doi ? (
-                                <>
-                                  <span className="dot" />
-                                  <a
-                                    href={`https://doi.org/${pub.doi}`}
-                                    target="_blank"
-                                    rel="noreferrer"
-                                    className="mono"
-                                  >
-                                    DOI {pub.doi}
-                                  </a>
-                                </>
-                              ) : null}
-                            </div>
-                          </li>
-                        ))}
-                      </ul>
-                    ) : null}
-                  </td>
-                </tr>
+                            {member.filteredPublications.map((pub) => (
+                              <div className="pub-grid" key={pub.id}>
+                                <div className="pub-cell mono pub-pmid">
+                                  {pub.url ? (
+                                    <a href={pub.url} target="_blank" rel="noreferrer">
+                                      {pub.id}
+                                    </a>
+                                  ) : (
+                                    pub.id
+                                  )}
+                                </div>
+                                <div className="pub-cell num pub-year">{pub.year ?? '—'}</div>
+                                <div className="pub-cell">{pub.journal}</div>
+                                <div className="pub-cell pub-title-cell">
+                                  {pub.url ? (
+                                    <a href={pub.url} target="_blank" rel="noreferrer">
+                                      {pub.title}
+                                    </a>
+                                  ) : (
+                                    pub.title
+                                  )}
+                                </div>
+                                <div className="pub-cell pub-doi">
+                                  {pub.doi ? (
+                                    <a
+                                      href={`https://doi.org/${pub.doi}`}
+                                      target="_blank"
+                                      rel="noreferrer"
+                                      className="doi-link"
+                                      aria-label={`Open DOI ${pub.doi}`}
+                                    >
+                                      DOI
+                                    </a>
+                                  ) : (
+                                    '—'
+                                  )}
+                                </div>
+                              </div>
+                            ))}
+                          </div>
+                        </div>
+                      </td>
+                    </tr>
+                  ) : null}
+                </Fragment>
               );
             })}
           </tbody>

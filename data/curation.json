@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "updated": "2026-02-18",
+  "faculty": {
+    "haynes-david": {
+      "falsePositives": [
+        "41373131",
+        "37442597",
+        "35833872",
+        "33661240",
+        "33606469",
+        "32472921"
+      ],
+      "truePositives": []
+    },
+    "monica-campo-patino-mcampo-umn-edu": {
+      "falsePositives": [],
+      "truePositives": [
+        "38464296",
+        "39162406",
+        "41397658"
+      ]
+    }
+  }
+}

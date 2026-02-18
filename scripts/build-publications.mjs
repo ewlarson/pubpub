@@ -1,12 +1,18 @@
 import dotenv from 'dotenv';
 import { existsSync } from 'node:fs';
 import { readFile, writeFile } from 'node:fs/promises';
+import { createRequire } from 'node:module';
 import path from 'node:path';
 import { XMLParser } from 'fast-xml-parser';
 import { fetchArticleXml, fetchPmids, fetchSummaries } from './pubmed.mjs';
 
 const CSV_PATH = path.resolve('data', 'CTSI Faculty - Sheet1.csv');
 const OUTPUT_PATH = path.resolve('public', 'data', 'publications.json');
+const CURATION_PATH = path.resolve('data', 'curation.json');
+const DB_PATH = process.env.PUBPUB_DB_PATH || path.resolve('data', 'pubpub.sqlite');
+
+const require = createRequire(import.meta.url);
+const Database = require('better-sqlite3');
 
 const envLocal = path.resolve('.env.local');
 if (existsSync(envLocal)) {
@@ -98,6 +104,236 @@ const parseCsv = (text) => {
   return rows;
 };
 
+const readJsonFile = async (filePath) => {
+  if (!existsSync(filePath)) {
+    return null;
+  }
+  try {
+    const raw = await readFile(filePath, 'utf8');
+    return JSON.parse(raw);
+  } catch (error) {
+    console.warn(`Failed to read ${filePath}: ${error.message}`);
+    return null;
+  }
+};
+
+const normalizePmid = (value) => String(value || '').replace(/\D/g, '');
+
+const normalizePmidList = (value) => {
+  if (!value) {
+    return [];
+  }
+  const entries = Array.isArray(value) ? value : [value];
+  const pmids = [];
+  for (const entry of entries) {
+    if (!entry) {
+      continue;
+    }
+    if (typeof entry === 'string' || typeof entry === 'number') {
+      const normalized = normalizePmid(entry);
+      if (normalized) {
+        pmids.push(normalized);
+      }
+      continue;
+    }
+    if (typeof entry === 'object') {
+      const normalized = normalizePmid(entry.pmid ?? entry.id ?? '');
+      if (normalized) {
+        pmids.push(normalized);
+      }
+    }
+  }
+  return pmids;
+};
+
+const nowIso = () => new Date().toISOString();
+
+const initDb = () => {
+  const db = new Database(DB_PATH);
+  db.pragma('journal_mode = WAL');
+  db.exec(`
+    CREATE TABLE IF NOT EXISTS publications (
+      pmid TEXT PRIMARY KEY,
+      title TEXT,
+      journal TEXT,
+      year INTEGER,
+      doi TEXT,
+      url TEXT,
+      updated_at TEXT
+    );
+    CREATE TABLE IF NOT EXISTS faculty_publications (
+      faculty_id TEXT NOT NULL,
+      pmid TEXT NOT NULL,
+      first_seen_at TEXT NOT NULL,
+      last_seen_at TEXT NOT NULL,
+      source TEXT NOT NULL DEFAULT 'pubmed',
+      PRIMARY KEY (faculty_id, pmid)
+    );
+    CREATE TABLE IF NOT EXISTS curation (
+      faculty_id TEXT NOT NULL,
+      pmid TEXT NOT NULL,
+      verdict TEXT NOT NULL CHECK (verdict IN ('true_positive', 'false_positive')),
+      reason TEXT,
+      updated_at TEXT NOT NULL,
+      PRIMARY KEY (faculty_id, pmid)
+    );
+    CREATE TABLE IF NOT EXISTS faculty_publication_coauthors (
+      faculty_id TEXT NOT NULL,
+      pmid TEXT NOT NULL,
+      name TEXT NOT NULL,
+      PRIMARY KEY (faculty_id, pmid, name)
+    );
+  `);
+  return db;
+};
+
+const seedCurationFromJson = async (db) => {
+  if (!existsSync(CURATION_PATH)) {
+    return;
+  }
+  const count = db.prepare('SELECT COUNT(*) AS count FROM curation').get()?.count ?? 0;
+  if (count > 0) {
+    return;
+  }
+  const data = await readJsonFile(CURATION_PATH);
+  if (!data || typeof data !== 'object' || !data.faculty) {
+    return;
+  }
+  const insert = db.prepare(`
+    INSERT INTO curation (faculty_id, pmid, verdict, reason, updated_at)
+    VALUES (?, ?, ?, ?, ?)
+    ON CONFLICT(faculty_id, pmid)
+    DO UPDATE SET verdict = excluded.verdict, reason = excluded.reason, updated_at = excluded.updated_at
+  `);
+  const transaction = db.transaction(() => {
+    const timestamp = nowIso();
+    Object.entries(data.faculty).forEach(([facultyId, entry]) => {
+      normalizePmidList(entry?.falsePositives).forEach((pmid) => {
+        insert.run(facultyId, pmid, 'false_positive', 'seeded from curation.json', timestamp);
+      });
+      normalizePmidList(entry?.truePositives).forEach((pmid) => {
+        insert.run(facultyId, pmid, 'true_positive', 'seeded from curation.json', timestamp);
+      });
+    });
+  });
+  transaction();
+};
+
+const getCurationForPerson = (db, personId) => {
+  const rows = db
+    .prepare('SELECT pmid, verdict FROM curation WHERE faculty_id = ?')
+    .all(personId);
+  const falsePositives = rows
+    .filter((row) => row.verdict === 'false_positive')
+    .map((row) => String(row.pmid));
+  const truePositives = rows
+    .filter((row) => row.verdict === 'true_positive')
+    .map((row) => String(row.pmid));
+  return { falsePositives, truePositives };
+};
+
+const upsertPublication = (db, publication) => {
+  const stmt = db.prepare(`
+    INSERT INTO publications (pmid, title, journal, year, doi, url, updated_at)
+    VALUES (@pmid, @title, @journal, @year, @doi, @url, @updated_at)
+    ON CONFLICT(pmid)
+    DO UPDATE SET
+      title = excluded.title,
+      journal = excluded.journal,
+      year = excluded.year,
+      doi = excluded.doi,
+      url = excluded.url,
+      updated_at = excluded.updated_at
+  `);
+  stmt.run({
+    pmid: String(publication.id),
+    title: publication.title,
+    journal: publication.journal,
+    year: publication.year ?? null,
+    doi: publication.doi || '',
+    url: publication.url || '',
+    updated_at: nowIso()
+  });
+};
+
+const upsertFacultyPublication = (db, facultyId, pmid) => {
+  const stmt = db.prepare(`
+    INSERT INTO faculty_publications (faculty_id, pmid, first_seen_at, last_seen_at)
+    VALUES (?, ?, ?, ?)
+    ON CONFLICT(faculty_id, pmid)
+    DO UPDATE SET last_seen_at = excluded.last_seen_at
+  `);
+  const timestamp = nowIso();
+  stmt.run(facultyId, String(pmid), timestamp, timestamp);
+};
+
+const replaceCoauthors = (db, facultyId, pmid, coauthors) => {
+  const deleteStmt = db.prepare(
+    'DELETE FROM faculty_publication_coauthors WHERE faculty_id = ? AND pmid = ?'
+  );
+  const insertStmt = db.prepare(
+    'INSERT OR IGNORE INTO faculty_publication_coauthors (faculty_id, pmid, name) VALUES (?, ?, ?)'
+  );
+  const transaction = db.transaction(() => {
+    deleteStmt.run(facultyId, String(pmid));
+    (coauthors || []).forEach((name) => {
+      if (name) {
+        insertStmt.run(facultyId, String(pmid), name);
+      }
+    });
+  });
+  transaction();
+};
+
+const getPublicationsForFaculty = (db, facultyId) => {
+  const rows = db
+    .prepare(
+      `
+      SELECT p.pmid AS id, p.title, p.journal, p.year, p.doi, p.url
+      FROM publications p
+      INNER JOIN faculty_publications fp ON fp.pmid = p.pmid
+      LEFT JOIN curation c
+        ON c.faculty_id = fp.faculty_id
+        AND c.pmid = fp.pmid
+        AND c.verdict = 'false_positive'
+      WHERE fp.faculty_id = ? AND c.pmid IS NULL
+    `
+    )
+    .all(facultyId);
+  return rows;
+};
+
+const getFalsePositivePublications = (db, facultyId) => {
+  const rows = db
+    .prepare(
+      `
+      SELECT p.pmid AS id, p.title, p.journal, p.year, p.doi, p.url
+      FROM publications p
+      INNER JOIN curation c ON c.pmid = p.pmid
+      WHERE c.faculty_id = ? AND c.verdict = 'false_positive'
+    `
+    )
+    .all(facultyId);
+  return rows;
+};
+
+const getCoauthorsForFaculty = (db, facultyId) => {
+  const rows = db
+    .prepare(
+      'SELECT pmid, name FROM faculty_publication_coauthors WHERE faculty_id = ?'
+    )
+    .all(facultyId);
+  const map = new Map();
+  rows.forEach((row) => {
+    const key = String(row.pmid);
+    if (!map.has(key)) {
+      map.set(key, []);
+    }
+    map.get(key).push(row.name);
+  });
+  return map;
+};
+
 const formatDate = (date) => {
   const year = date.getFullYear();
   const month = String(date.getMonth() + 1).padStart(2, '0');
@@ -185,6 +421,83 @@ const normalizeAffiliation = (value) =>
   String(value || '')
     .toLowerCase()
     .replace(/[^a-z0-9]/g, '');
+
+const STOPWORDS = new Set([
+  'a',
+  'an',
+  'and',
+  'are',
+  'as',
+  'at',
+  'be',
+  'between',
+  'by',
+  'case',
+  'control',
+  'for',
+  'from',
+  'in',
+  'into',
+  'is',
+  'long',
+  'of',
+  'on',
+  'outcomes',
+  'patients',
+  'report',
+  'review',
+  'study',
+  'studies',
+  'the',
+  'to',
+  'with',
+  'without'
+]);
+
+const normalizeSignalKey = (value) =>
+  String(value || '')
+    .toLowerCase()
+    .replace(/[^a-z0-9]/g, '');
+
+const extractKeywords = (value) =>
+  String(value || '')
+    .toLowerCase()
+    .replace(/[^a-z0-9]/g, ' ')
+    .split(/\s+/)
+    .filter((token) => token.length >= 3 && !STOPWORDS.has(token));
+
+const tallyValues = (values, normalize = (value) => value, labeler) => {
+  const counts = new Map();
+  const labels = new Map();
+  values.forEach((value) => {
+    if (!value) {
+      return;
+    }
+    const normalized = normalize(value);
+    if (!normalized) {
+      return;
+    }
+    counts.set(normalized, (counts.get(normalized) || 0) + 1);
+    if (!labels.has(normalized)) {
+      labels.set(normalized, labeler ? labeler(value) : value);
+    }
+  });
+  return { counts, labels };
+};
+
+const topList = (counts, labels, limit = 10) =>
+  Array.from(counts.entries())
+    .sort((a, b) => {
+      const countDiff = b[1] - a[1];
+      if (countDiff) {
+        return countDiff;
+      }
+      const aLabel = String(labels.get(a[0]) || a[0]);
+      const bLabel = String(labels.get(b[0]) || b[0]);
+      return aLabel.localeCompare(bLabel);
+    })
+    .slice(0, limit)
+    .map(([key, count]) => ({ name: labels.get(key) || key, count }));
 
 const MONTH_INDEX = {
   jan: 0,
@@ -358,6 +671,26 @@ const extractAffiliations = (author) => {
     .filter(Boolean);
 };
 
+const formatAuthorName = (author) => {
+  if (!author) {
+    return '';
+  }
+  const collective = getText(author.CollectiveName);
+  if (collective) {
+    return collective.trim();
+  }
+  const last = getText(author.LastName).trim();
+  const fore = getText(author.ForeName).trim();
+  const initials = getText(author.Initials).trim();
+  if (fore && last) {
+    return `${fore} ${last}`;
+  }
+  if (initials && last) {
+    return `${initials} ${last}`;
+  }
+  return last;
+};
+
 const authorMatchesPerson = (author, person) => {
   if (!author) {
     return false;
@@ -437,6 +770,53 @@ const mapSummaryToPublication = (summary, pubDate) => {
   };
 };
 
+const resolvePubDate = (summary, pubDates) => {
+  const fallback = parsePubDateString(summary?.pubdate);
+  if (!pubDates) {
+    return fallback;
+  }
+  return pubDates.get(String(summary.uid)) || fallback;
+};
+
+const buildSignals = (publications, coauthorsByPmid = new Map()) => {
+  const years = publications
+    .map((pub) => pub.year)
+    .filter((year) => Number.isFinite(year));
+
+  const yearRange = years.length
+    ? { min: Math.min(...years), max: Math.max(...years) }
+    : null;
+
+  const yearCounts = (() => {
+    const { counts } = tallyValues(years.map((year) => String(year)));
+    return Array.from(counts.entries())
+      .map(([year, count]) => ({ year: Number(year), count }))
+      .sort((a, b) => a.year - b.year);
+  })();
+
+  const journalTally = tallyValues(
+    publications.map((pub) => pub.journal),
+    normalizeSignalKey
+  );
+  const keywordTally = tallyValues(
+    publications.flatMap((pub) => extractKeywords(pub.title)),
+    (value) => value
+  );
+  const coauthorNames = publications.flatMap(
+    (pub) => coauthorsByPmid.get(String(pub.id)) || []
+  );
+  const coauthorTally = tallyValues(coauthorNames, normalizeName);
+
+  return {
+    count: publications.length,
+    yearRange,
+    yearCounts,
+    topJournals: topList(journalTally.counts, journalTally.labels, 10),
+    topKeywords: topList(keywordTally.counts, keywordTally.labels, 12),
+    topCoauthors: topList(coauthorTally.counts, coauthorTally.labels, 12)
+  };
+};
+
 const parsePubDateFromXml = (article) => {
   const articleDates = toArray(article?.MedlineCitation?.Article?.ArticleDate);
   for (const dateEntry of articleDates) {
@@ -479,13 +859,14 @@ const parseArticlesFromXml = (xmlText) => {
 
 const filterPmidsByAuthorAffiliation = async (pmids, person, affiliationTerms) => {
   if (!pmids.length) {
-    return { validPmids: new Set(), pubDates: new Map() };
+    return { validPmids: new Set(), pubDates: new Map(), coauthorsByPmid: new Map() };
   }
 
   const allowedTerms = affiliationTerms.length ? affiliationTerms : [DEFAULT_AFFILIATION];
   const normalizedAllowed = allowedTerms.map(normalizeAffiliation).filter(Boolean);
   const kept = new Set();
   const pubDates = new Map();
+  const coauthorsByPmid = new Map();
   let missingAffiliationCount = 0;
 
   for (const batch of chunk(pmids, 100)) {
@@ -496,7 +877,25 @@ const filterPmidsByAuthorAffiliation = async (pmids, person, affiliationTerms) =
       if (pmid && pubDate) {
         pubDates.set(String(pmid), pubDate);
       }
-      const matchedAuthor = authors.find((author) => authorMatchesPerson(author, person));
+
+      let matchedAuthor = null;
+      const coauthors = [];
+
+      authors.forEach((author) => {
+        if (authorMatchesPerson(author, person)) {
+          matchedAuthor = author;
+        } else {
+          const name = formatAuthorName(author);
+          if (name) {
+            coauthors.push(name);
+          }
+        }
+      });
+
+      if (pmid) {
+        coauthorsByPmid.set(String(pmid), coauthors);
+      }
+
       if (!matchedAuthor) {
         return;
       }
@@ -527,7 +926,7 @@ const filterPmidsByAuthorAffiliation = async (pmids, person, affiliationTerms) =
     );
   }
 
-  return { validPmids: kept, pubDates };
+  return { validPmids: kept, pubDates, coauthorsByPmid };
 };
 
 const parseFaculty = (rows) => {
@@ -662,6 +1061,8 @@ const main = async () => {
   const csvText = await readFile(CSV_PATH, 'utf8');
   const rows = parseCsv(csvText);
   const faculty = parseFaculty(rows);
+  const db = initDb();
+  await seedCurationFromJson(db);
 
   const results = [];
 
@@ -670,8 +1071,6 @@ const main = async () => {
       ? new Date(DEFAULT_YEAR_START, 0, 1)
       : person.startDate;
     const personEndDate = DEFAULT_END_DATE;
-    const personYearStart = personStartDate ? personStartDate.getFullYear() : null;
-    const personYearEnd = personEndDate.getFullYear();
 
     const { term, affiliationTerms } = buildTerm({
       nameFirst: person.foreName,
@@ -690,10 +1089,17 @@ const main = async () => {
       : `through ${personEndDate.toISOString().slice(0, 10)}`;
     console.log(`Searching PubMed for ${person.name} (${dateLabel})...`);
     const pmids = await fetchPmids(term, EMAIL, TOOL, API_KEY);
+    const { falsePositives, truePositives } = getCurationForPerson(db, person.id);
+    const falsePositiveSet = new Set(falsePositives.map(String));
+    const truePositiveSet = new Set(truePositives.map(String));
 
-    const { validPmids, pubDates } = VALIDATE_AFFILIATION
+    const { validPmids, pubDates, coauthorsByPmid } = VALIDATE_AFFILIATION
       ? await filterPmidsByAuthorAffiliation(pmids, person, affiliationTerms)
-      : { validPmids: new Set(pmids.map(String)), pubDates: new Map() };
+      : {
+          validPmids: new Set(pmids.map(String)),
+          pubDates: new Map(),
+          coauthorsByPmid: new Map()
+        };
 
     const summaries = [];
     for (const batch of chunk(pmids, 200)) {
@@ -701,23 +1107,87 @@ const main = async () => {
       summaries.push(...batchSummaries);
     }
 
-    const publications = summaries
-      .filter((summary) => validPmids.has(String(summary.uid)))
+    const summaryMap = new Map();
+    summaries.forEach((summary) => {
+      if (summary?.uid) {
+        summaryMap.set(String(summary.uid), summary);
+      }
+    });
+
+    const curatedPmids = Array.from(
+      new Set([...falsePositiveSet, ...truePositiveSet].filter(Boolean))
+    );
+    const missingCuratedPmids = curatedPmids.filter((pmid) => !summaryMap.has(String(pmid)));
+    if (missingCuratedPmids.length) {
+      for (const batch of chunk(missingCuratedPmids, 200)) {
+        const batchSummaries = await fetchSummaries(batch, EMAIL, TOOL, API_KEY);
+        batchSummaries.forEach((summary) => {
+          if (summary?.uid && !summaryMap.has(String(summary.uid))) {
+            summaryMap.set(String(summary.uid), summary);
+            summaries.push(summary);
+          }
+        });
+      }
+    }
+
+    const curatedValidPmids = new Set([...validPmids, ...truePositiveSet]);
+    const falsePositivePublications = summaries
+      .filter((summary) => falsePositiveSet.has(String(summary.uid)))
+      .map((summary) => mapSummaryToPublication(summary, resolvePubDate(summary, pubDates)));
+
+    const publicationsToUpsert = summaries
+      .filter((summary) => curatedValidPmids.has(String(summary.uid)))
+      .filter((summary) => !falsePositiveSet.has(String(summary.uid)))
       .map((summary) => {
-        const pubDate = pubDates.get(String(summary.uid)) || parsePubDateString(summary.pubdate);
+        const pubDate = resolvePubDate(summary, pubDates);
         const pubYear = pubDate ? pubDate.getFullYear() : extractYear(summary.pubdate);
-        return { summary, pubDate, pubYear };
+        const isTruePositive = truePositiveSet.has(String(summary.uid));
+        return { summary, pubDate, pubYear, isTruePositive };
       })
-      .filter(({ pubDate, pubYear }) =>
-        shouldIncludePublication({
-          pubDate,
-          pubYear,
-          startDate: personStartDate,
-          endDate: personEndDate
-        })
+      .filter(({ pubDate, pubYear, isTruePositive }) =>
+        isTruePositive
+          ? true
+          : shouldIncludePublication({
+              pubDate,
+              pubYear,
+              startDate: personStartDate,
+              endDate: personEndDate
+            })
       )
-      .map(({ summary, pubDate }) => mapSummaryToPublication(summary, pubDate))
-      .sort((a, b) => b.year - a.year || a.title.localeCompare(b.title));
+      .map(({ summary, pubDate }) => mapSummaryToPublication(summary, pubDate));
+
+    const publicationsToPersist = new Map();
+    publicationsToUpsert.forEach((publication) => {
+      publicationsToPersist.set(String(publication.id), publication);
+    });
+    falsePositivePublications.forEach((publication) => {
+      const key = String(publication.id);
+      if (!publicationsToPersist.has(key)) {
+        publicationsToPersist.set(key, publication);
+      }
+    });
+
+    publicationsToPersist.forEach((publication) => upsertPublication(db, publication));
+    publicationsToUpsert.forEach((publication) =>
+      upsertFacultyPublication(db, person.id, publication.id)
+    );
+
+    coauthorsByPmid.forEach((coauthors, pmid) => {
+      if (publicationsToPersist.has(String(pmid))) {
+        replaceCoauthors(db, person.id, pmid, coauthors);
+      }
+    });
+
+    const dbPublications = getPublicationsForFaculty(db, person.id).sort(
+      (a, b) => (b.year || 0) - (a.year || 0) || a.title.localeCompare(b.title)
+    );
+    const dbFalsePositivePublications = getFalsePositivePublications(db, person.id);
+    const coauthorsFromDb = getCoauthorsForFaculty(db, person.id);
+
+    const signals = {
+      positive: buildSignals(dbPublications, coauthorsFromDb),
+      negative: buildSignals(dbFalsePositivePublications, coauthorsFromDb)
+    };
 
     results.push({
       id: person.id,
@@ -726,7 +1196,8 @@ const main = async () => {
       orcid: person.orcid,
       areas: [],
       programs: person.programs,
-      publications
+      publications: dbPublications,
+      signals
     });
 
     await sleep(350);
@@ -740,6 +1211,7 @@ const main = async () => {
 
   await writeFile(OUTPUT_PATH, `${JSON.stringify(output, null, 2)}\n`, 'utf8');
   console.log(`Wrote ${OUTPUT_PATH}`);
+  db.close();
 };
 
 main().catch((error) => {
