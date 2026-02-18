@@ -13,6 +13,91 @@ const normalizeSlug = (value) =>
     .replace(/[^a-z0-9]+/g, '-')
     .replace(/^-+|-+$/g, '');
 
+const toNumber = (value) => {
+  if (value === '' || value === null || value === undefined) {
+    return null;
+  }
+  const parsed = Number(value);
+  return Number.isFinite(parsed) ? parsed : null;
+};
+
+const buildYearSeries = (publications, range) => {
+  const years = publications
+    .map((pub) => pub.year)
+    .filter((year) => Number.isFinite(year));
+  if (!years.length) {
+    return [];
+  }
+  const minYear = Number.isFinite(range?.min) ? range.min : Math.min(...years);
+  const maxYear = Number.isFinite(range?.max) ? range.max : Math.max(...years);
+  const counts = new Map();
+  years.forEach((year) => {
+    if (year < minYear || year > maxYear) {
+      return;
+    }
+    counts.set(year, (counts.get(year) || 0) + 1);
+  });
+  const series = [];
+  for (let year = minYear; year <= maxYear; year += 1) {
+    series.push({ year, count: counts.get(year) || 0 });
+  }
+  return series;
+};
+
+const formatSparklineLabel = (series) => {
+  if (!series.length) {
+    return 'No publication history available.';
+  }
+  return `Publication counts per year: ${series
+    .map((entry) => `${entry.year}: ${entry.count}`)
+    .join(', ')}`;
+};
+
+const getAuthorCounts = (member, publications) => {
+  const pubs = publications || member.publications || [];
+  const hasAuthorship = pubs.some((pub) => pub?.authorship);
+  if (hasAuthorship) {
+    let first = 0;
+    let last = 0;
+    let known = 0;
+    pubs.forEach((pub) => {
+      if (!pub?.authorship) {
+        return;
+      }
+      known += 1;
+      if (pub.authorship.isFirst) {
+        first += 1;
+      }
+      if (pub.authorship.isLast) {
+        last += 1;
+      }
+    });
+    return known ? { first, last, total: pubs.length, known } : null;
+  }
+  return member.authorCounts || member.signals?.positive?.authorCounts || null;
+};
+
+const formatAuthorshipLabel = (authorship) => {
+  if (!authorship) {
+    return { label: '—', title: 'Authorship position unknown.', isKnown: false };
+  }
+  let label = 'Middle';
+  if (authorship.isFirst && authorship.isLast) {
+    label = 'Sole';
+  } else if (authorship.isFirst) {
+    label = 'First';
+  } else if (authorship.isLast) {
+    label = 'Last';
+  }
+  const position = Number.isFinite(authorship.position) ? authorship.position + 1 : null;
+  const total = Number.isFinite(authorship.total) ? authorship.total : null;
+  const title =
+    position && total
+      ? `Author position ${position} of ${total}.`
+      : 'Authorship position known.';
+  return { label, title, isKnown: true };
+};
+
 export default function App() {
   const [data, setData] = useState({ updated: '', source: '', faculty: [] });
   const [status, setStatus] = useState('loading');
@@ -20,6 +105,7 @@ export default function App() {
   const [yearMin, setYearMin] = useState('');
   const [yearMax, setYearMax] = useState('');
   const [sortBy, setSortBy] = useState('name');
+  const [programFilters, setProgramFilters] = useState([]);
   const [openId, setOpenId] = useState(null);
   const [copiedId, setCopiedId] = useState(null);
   const [stickyActive, setStickyActive] = useState(false);
@@ -124,9 +210,30 @@ export default function App() {
     }
   }, [yearBounds]);
 
+  const activeYearRange = useMemo(() => {
+    const min = toNumber(yearMin) ?? yearBounds.min;
+    const max = toNumber(yearMax) ?? yearBounds.max;
+    return {
+      min: Number.isFinite(min) ? min : null,
+      max: Number.isFinite(max) ? max : null
+    };
+  }, [yearMin, yearMax, yearBounds]);
+
+  const toggleProgramFilter = (program) => {
+    if (!program) {
+      return;
+    }
+    setProgramFilters((current) =>
+      current.includes(program)
+        ? current.filter((entry) => entry !== program)
+        : [...current, program]
+    );
+  };
+
   const handleClearFilters = () => {
     setQuery('');
     setSortBy('name');
+    setProgramFilters([]);
     if (yearBounds.min && yearBounds.max) {
       setYearMin(yearBounds.min);
       setYearMax(yearBounds.max);
@@ -156,6 +263,7 @@ export default function App() {
         member.name,
         member.department,
         ...(member.areas || []),
+        ...(member.programs || []),
         ...pubsInRange.map((pub) => `${pub.title} ${pub.journal}`)
       ]
         .filter(Boolean)
@@ -165,15 +273,23 @@ export default function App() {
         ? normalize(searchableBits).includes(needle)
         : true;
 
+      const matchesPrograms = programFilters.length
+        ? (member.programs || []).some((program) => programFilters.includes(program))
+        : true;
+
       return {
         ...member,
         filteredPublications: pubsInRange,
-        matchesQuery
+        matchesQuery,
+        matchesPrograms
       };
     });
 
     const filtered = facultyWithFilteredPubs.filter(
-      (member) => member.filteredPublications.length > 0 && member.matchesQuery
+      (member) =>
+        member.filteredPublications.length > 0 &&
+        member.matchesQuery &&
+        member.matchesPrograms
     );
 
     const sorted = [...filtered].sort((a, b) => {
@@ -189,7 +305,7 @@ export default function App() {
     });
 
     return sorted;
-  }, [data, query, sortBy, yearMin, yearMax]);
+  }, [data, query, sortBy, yearMin, yearMax, programFilters]);
 
   useEffect(() => {
     if (!openId) {
@@ -348,6 +464,25 @@ export default function App() {
             </button>
           </div>
         </div>
+        {programFilters.length ? (
+          <div className="active-filters">
+            <span className="label">Program filters</span>
+            <div className="chip-row">
+              {programFilters.map((program) => (
+                <button
+                  key={program}
+                  type="button"
+                  className="chip is-active"
+                  onClick={() => toggleProgramFilter(program)}
+                  aria-pressed="true"
+                >
+                  {program}
+                  <span aria-hidden="true">×</span>
+                </button>
+              ))}
+            </div>
+          </div>
+        ) : null}
       </section>
 
       {openMember ? (
@@ -374,8 +509,10 @@ export default function App() {
               <th>Faculty</th>
               <th>Affiliation</th>
               <th>Programs</th>
+              <th>Trend</th>
               <th className="num">Publications</th>
               <th className="num">Latest Year</th>
+              <th>First/Last</th>
               <th>Details</th>
             </tr>
           </thead>
@@ -384,6 +521,15 @@ export default function App() {
               const latestYear = Math.max(
                 ...member.filteredPublications.map((pub) => pub.year)
               );
+              const yearSeries = buildYearSeries(
+                member.filteredPublications,
+                activeYearRange
+              );
+              const sparkMax = Math.max(
+                ...yearSeries.map((entry) => entry.count),
+                1
+              );
+              const authorCounts = getAuthorCounts(member, member.filteredPublications);
               const isOpen = openId === member.id;
 
               return (
@@ -434,9 +580,78 @@ export default function App() {
                       </div>
                     </td>
                     <td>{member.department}</td>
-                    <td>{member.programs?.length ? member.programs.join(', ') : '—'}</td>
+                    <td>
+                      {member.programs?.length ? (
+                        <div className="program-list">
+                          {member.programs.map((program) => {
+                            const isActive = programFilters.includes(program);
+                            return (
+                              <button
+                                key={`${member.id}-${program}`}
+                                type="button"
+                                className={`program-pill ${isActive ? 'is-active' : ''}`}
+                                onClick={() => toggleProgramFilter(program)}
+                                aria-pressed={isActive}
+                                title={`Filter by ${program}`}
+                              >
+                                {program}
+                              </button>
+                            );
+                          })}
+                        </div>
+                      ) : (
+                        '—'
+                      )}
+                    </td>
+                    <td>
+                      {yearSeries.length ? (
+                        <div
+                          className="sparkline"
+                          role="img"
+                          aria-label={formatSparklineLabel(yearSeries)}
+                        >
+                          {yearSeries.map((entry) => (
+                            <span
+                              key={entry.year}
+                              className={`spark-bar ${entry.count ? 'is-active' : ''}`}
+                              style={{ height: `${(entry.count / sparkMax) * 100}%` }}
+                              title={`${entry.year}: ${entry.count}`}
+                            />
+                          ))}
+                        </div>
+                      ) : (
+                        <span className="muted">—</span>
+                      )}
+                      {yearSeries.length ? (
+                        <div className="sparkline-range">
+                          <span>{yearSeries[0].year}</span>
+                          <span>{yearSeries[yearSeries.length - 1].year}</span>
+                        </div>
+                      ) : null}
+                    </td>
                     <td className="num">{member.filteredPublications.length}</td>
                     <td className="num">{latestYear}</td>
+                    <td>
+                      {authorCounts ? (
+                        <div
+                          className="author-counts"
+                          title={
+                            Number.isFinite(authorCounts.known)
+                              ? `Authorship positions known for ${authorCounts.known} of ${authorCounts.total} publications.`
+                              : undefined
+                          }
+                        >
+                          <span>
+                            <strong>{authorCounts.first ?? 0}</strong> first
+                          </span>
+                          <span>
+                            <strong>{authorCounts.last ?? 0}</strong> last
+                          </span>
+                        </div>
+                      ) : (
+                        <span className="muted">—</span>
+                      )}
+                    </td>
                     <td>
                       <button
                         type="button"
@@ -453,55 +668,67 @@ export default function App() {
                   </tr>
                   {isOpen ? (
                     <tr className="pub-row">
-                      <td colSpan={6}>
+                      <td colSpan={8}>
                         <div className="pub-table-wrap" id={`pub-list-${member.id}`}>
                           <div className="pub-table">
                             <div className="pub-grid pub-header">
                               <span className="pub-head pub-head-pmid">PMID</span>
                               <span className="pub-head pub-head-year">Year</span>
+                              <span className="pub-head pub-head-authorship">Authorship</span>
                               <span className="pub-head">Journal</span>
                               <span className="pub-head">Title</span>
                               <span className="pub-head pub-head-doi">DOI</span>
                             </div>
-                            {member.filteredPublications.map((pub) => (
-                              <div className="pub-grid" key={pub.id}>
-                                <div className="pub-cell mono pub-pmid">
-                                  {pub.url ? (
-                                    <a href={pub.url} target="_blank" rel="noreferrer">
-                                      {pub.id}
-                                    </a>
-                                  ) : (
-                                    pub.id
-                                  )}
+                            {member.filteredPublications.map((pub) => {
+                              const authorship = formatAuthorshipLabel(pub.authorship);
+                              return (
+                                <div className="pub-grid" key={pub.id}>
+                                  <div className="pub-cell mono pub-pmid">
+                                    {pub.url ? (
+                                      <a href={pub.url} target="_blank" rel="noreferrer">
+                                        {pub.id}
+                                      </a>
+                                    ) : (
+                                      pub.id
+                                    )}
+                                  </div>
+                                  <div className="pub-cell num pub-year">{pub.year ?? '—'}</div>
+                                  <div
+                                    className={`pub-cell pub-authorship ${
+                                      authorship.isKnown ? '' : 'muted'
+                                    }`}
+                                    title={authorship.title}
+                                  >
+                                    {authorship.label}
+                                  </div>
+                                  <div className="pub-cell">{pub.journal}</div>
+                                  <div className="pub-cell pub-title-cell">
+                                    {pub.url ? (
+                                      <a href={pub.url} target="_blank" rel="noreferrer">
+                                        {pub.title}
+                                      </a>
+                                    ) : (
+                                      pub.title
+                                    )}
+                                  </div>
+                                  <div className="pub-cell pub-doi">
+                                    {pub.doi ? (
+                                      <a
+                                        href={`https://doi.org/${pub.doi}`}
+                                        target="_blank"
+                                        rel="noreferrer"
+                                        className="doi-link"
+                                        aria-label={`Open DOI ${pub.doi}`}
+                                      >
+                                        DOI
+                                      </a>
+                                    ) : (
+                                      '—'
+                                    )}
+                                  </div>
                                 </div>
-                                <div className="pub-cell num pub-year">{pub.year ?? '—'}</div>
-                                <div className="pub-cell">{pub.journal}</div>
-                                <div className="pub-cell pub-title-cell">
-                                  {pub.url ? (
-                                    <a href={pub.url} target="_blank" rel="noreferrer">
-                                      {pub.title}
-                                    </a>
-                                  ) : (
-                                    pub.title
-                                  )}
-                                </div>
-                                <div className="pub-cell pub-doi">
-                                  {pub.doi ? (
-                                    <a
-                                      href={`https://doi.org/${pub.doi}`}
-                                      target="_blank"
-                                      rel="noreferrer"
-                                      className="doi-link"
-                                      aria-label={`Open DOI ${pub.doi}`}
-                                    >
-                                      DOI
-                                    </a>
-                                  ) : (
-                                    '—'
-                                  )}
-                                </div>
-                              </div>
-                            ))}
+                              );
+                            })}
                           </div>
                         </div>
                       </td>

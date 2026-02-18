@@ -859,7 +859,12 @@ const parseArticlesFromXml = (xmlText) => {
 
 const filterPmidsByAuthorAffiliation = async (pmids, person, affiliationTerms) => {
   if (!pmids.length) {
-    return { validPmids: new Set(), pubDates: new Map(), coauthorsByPmid: new Map() };
+    return {
+      validPmids: new Set(),
+      pubDates: new Map(),
+      coauthorsByPmid: new Map(),
+      authorshipByPmid: new Map()
+    };
   }
 
   const allowedTerms = affiliationTerms.length ? affiliationTerms : [DEFAULT_AFFILIATION];
@@ -867,6 +872,7 @@ const filterPmidsByAuthorAffiliation = async (pmids, person, affiliationTerms) =
   const kept = new Set();
   const pubDates = new Map();
   const coauthorsByPmid = new Map();
+  const authorshipByPmid = new Map();
   let missingAffiliationCount = 0;
 
   for (const batch of chunk(pmids, 100)) {
@@ -879,11 +885,16 @@ const filterPmidsByAuthorAffiliation = async (pmids, person, affiliationTerms) =
       }
 
       let matchedAuthor = null;
+      let matchedIndex = -1;
+      const totalAuthors = authors.length;
       const coauthors = [];
 
-      authors.forEach((author) => {
+      authors.forEach((author, index) => {
         if (authorMatchesPerson(author, person)) {
-          matchedAuthor = author;
+          if (matchedIndex < 0) {
+            matchedAuthor = author;
+            matchedIndex = index;
+          }
         } else {
           const name = formatAuthorName(author);
           if (name) {
@@ -894,6 +905,14 @@ const filterPmidsByAuthorAffiliation = async (pmids, person, affiliationTerms) =
 
       if (pmid) {
         coauthorsByPmid.set(String(pmid), coauthors);
+        if (matchedIndex >= 0) {
+          authorshipByPmid.set(String(pmid), {
+            position: matchedIndex,
+            total: totalAuthors,
+            isFirst: matchedIndex === 0,
+            isLast: totalAuthors > 0 && matchedIndex === totalAuthors - 1
+          });
+        }
       }
 
       if (!matchedAuthor) {
@@ -926,7 +945,30 @@ const filterPmidsByAuthorAffiliation = async (pmids, person, affiliationTerms) =
     );
   }
 
-  return { validPmids: kept, pubDates, coauthorsByPmid };
+  return { validPmids: kept, pubDates, coauthorsByPmid, authorshipByPmid };
+};
+
+const buildAuthorCounts = (publications, authorshipByPmid) => {
+  if (!authorshipByPmid || authorshipByPmid.size === 0) {
+    return null;
+  }
+  let first = 0;
+  let last = 0;
+  let known = 0;
+  publications.forEach((pub) => {
+    const entry = authorshipByPmid.get(String(pub.id));
+    if (!entry) {
+      return;
+    }
+    known += 1;
+    if (entry.isFirst) {
+      first += 1;
+    }
+    if (entry.isLast) {
+      last += 1;
+    }
+  });
+  return { first, last, total: publications.length, known };
 };
 
 const parseFaculty = (rows) => {
@@ -1093,12 +1135,13 @@ const main = async () => {
     const falsePositiveSet = new Set(falsePositives.map(String));
     const truePositiveSet = new Set(truePositives.map(String));
 
-    const { validPmids, pubDates, coauthorsByPmid } = VALIDATE_AFFILIATION
+    const { validPmids, pubDates, coauthorsByPmid, authorshipByPmid } = VALIDATE_AFFILIATION
       ? await filterPmidsByAuthorAffiliation(pmids, person, affiliationTerms)
       : {
           validPmids: new Set(pmids.map(String)),
           pubDates: new Map(),
-          coauthorsByPmid: new Map()
+          coauthorsByPmid: new Map(),
+          authorshipByPmid: new Map()
         };
 
     const summaries = [];
@@ -1181,11 +1224,16 @@ const main = async () => {
     const dbPublications = getPublicationsForFaculty(db, person.id).sort(
       (a, b) => (b.year || 0) - (a.year || 0) || a.title.localeCompare(b.title)
     );
+    const publicationsWithAuthorship = dbPublications.map((publication) => {
+      const authorship = authorshipByPmid.get(String(publication.id));
+      return authorship ? { ...publication, authorship } : publication;
+    });
     const dbFalsePositivePublications = getFalsePositivePublications(db, person.id);
     const coauthorsFromDb = getCoauthorsForFaculty(db, person.id);
+    const authorCounts = buildAuthorCounts(dbPublications, authorshipByPmid);
 
     const signals = {
-      positive: buildSignals(dbPublications, coauthorsFromDb),
+      positive: buildSignals(publicationsWithAuthorship, coauthorsFromDb),
       negative: buildSignals(dbFalsePositivePublications, coauthorsFromDb)
     };
 
@@ -1196,7 +1244,8 @@ const main = async () => {
       orcid: person.orcid,
       areas: [],
       programs: person.programs,
-      publications: dbPublications,
+      publications: publicationsWithAuthorship,
+      authorCounts,
       signals
     });
 

@@ -18,7 +18,13 @@
           "journal": "Journal of neurosurgery",
           "year": 2026,
           "doi": "10.3171/2025.8.JNS25841",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/41569707/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41569707/",
+          "authorship": {
+            "position": 11,
+            "total": 17,
+            "isFirst": false,
+            "isLast": false
+          }
         },
         {
           "id": "40668547",
@@ -26,7 +32,13 @@
           "journal": "Cancer epidemiology, biomarkers & prevention : a publication of the American Association for Cancer Research, cosponsored by the American Society of Preventive Oncology",
           "year": 2025,
           "doi": "10.1158/1055-9965.EPI-25-0465",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/40668547/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40668547/",
+          "authorship": {
+            "position": 1,
+            "total": 10,
+            "isFirst": false,
+            "isLast": false
+          }
         },
         {
           "id": "40471344",
@@ -34,15 +46,27 @@
           "journal": "Supportive care in cancer : official journal of the Multinational Association of Supportive Care in Cancer",
           "year": 2025,
           "doi": "10.1007/s00520-025-09523-5",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/40471344/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40471344/",
+          "authorship": {
+            "position": 0,
+            "total": 10,
+            "isFirst": true,
+            "isLast": false
+          }
         },
         {
           "id": "40110606",
-          "title": "Environmental health disparities in pediatric cancer: a\u00a0report from the Fourth Symposium on Childhood Cancer Health Disparities.",
+          "title": "Environmental health disparities in pediatric cancer: a report from the Fourth Symposium on Childhood Cancer Health Disparities.",
           "journal": "Pediatric hematology and oncology",
           "year": 2025,
           "doi": "10.1080/08880018.2025.2479479",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/40110606/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40110606/",
+          "authorship": {
+            "position": 6,
+            "total": 14,
+            "isFirst": false,
+            "isLast": false
+          }
         },
         {
           "id": "41115337",
@@ -50,7 +74,13 @@
           "journal": "Social science & medicine (1982)",
           "year": 2025,
           "doi": "10.1016/j.socscimed.2025.118668",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/41115337/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41115337/",
+          "authorship": {
+            "position": 0,
+            "total": 5,
+            "isFirst": true,
+            "isLast": false
+          }
         },
         {
           "id": "39362292",
@@ -58,7 +88,13 @@
           "journal": "Applied clinical informatics",
           "year": 2024,
           "doi": "10.1055/a-2425-8731",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/39362292/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39362292/",
+          "authorship": {
+            "position": 0,
+            "total": 5,
+            "isFirst": true,
+            "isLast": false
+          }
         },
         {
           "id": "39478774",
@@ -66,7 +102,13 @@
           "journal": "Journal of clinical and translational science",
           "year": 2024,
           "doi": "10.1017/cts.2024.570",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/39478774/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39478774/",
+          "authorship": {
+            "position": 1,
+            "total": 7,
+            "isFirst": false,
+            "isLast": false
+          }
         },
         {
           "id": "38366656",
@@ -74,7 +116,13 @@
           "journal": "Journal of the National Cancer Institute",
           "year": 2024,
           "doi": "10.1093/jnci/djae035",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/38366656/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38366656/",
+          "authorship": {
+            "position": 1,
+            "total": 9,
+            "isFirst": false,
+            "isLast": false
+          }
         },
         {
           "id": "38881703",
@@ -82,7 +130,13 @@
           "journal": "Journal of maps",
           "year": 2024,
           "doi": "10.1080/17445647.2023.2276763",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/38881703/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38881703/",
+          "authorship": {
+            "position": 0,
+            "total": 3,
+            "isFirst": true,
+            "isLast": false
+          }
         },
         {
           "id": "38158547",
@@ -90,7 +144,13 @@
           "journal": "Journal of urban health : bulletin of the New York Academy of Medicine",
           "year": 2023,
           "doi": "10.1007/s11524-023-00811-1",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/38158547/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38158547/",
+          "authorship": {
+            "position": 4,
+            "total": 7,
+            "isFirst": false,
+            "isLast": false
+          }
         },
         {
           "id": "37133574",
@@ -98,7 +158,13 @@
           "journal": "Cancer causes & control : CCC",
           "year": 2023,
           "doi": "10.1007/s10552-023-01704-z",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/37133574/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/37133574/",
+          "authorship": {
+            "position": 0,
+            "total": 5,
+            "isFirst": true,
+            "isLast": false
+          }
         },
         {
           "id": "37775609",
@@ -106,7 +172,13 @@
           "journal": "Cancer causes & control : CCC",
           "year": 2023,
           "doi": "10.1007/s10552-023-01792-x",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/37775609/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/37775609/",
+          "authorship": {
+            "position": 0,
+            "total": 6,
+            "isFirst": true,
+            "isLast": false
+          }
         },
         {
           "id": "37293106",
@@ -114,7 +186,13 @@
           "journal": "Research square",
           "year": 2023,
           "doi": "10.21203/rs.3.rs-2886477/v1",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/37293106/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/37293106/",
+          "authorship": {
+            "position": 0,
+            "total": 6,
+            "isFirst": true,
+            "isLast": false
+          }
         },
         {
           "id": "36403115",
@@ -122,7 +200,13 @@
           "journal": "Journal of public health (Oxford, England)",
           "year": 2023,
           "doi": "10.1093/pubmed/fdac129",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/36403115/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/36403115/",
+          "authorship": {
+            "position": 0,
+            "total": 4,
+            "isFirst": true,
+            "isLast": false
+          }
         },
         {
           "id": "37615989",
@@ -130,7 +214,13 @@
           "journal": "JAMA network open",
           "year": 2023,
           "doi": "10.1001/jamanetworkopen.2023.29903",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/37615989/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/37615989/",
+          "authorship": {
+            "position": 9,
+            "total": 12,
+            "isFirst": false,
+            "isLast": false
+          }
         },
         {
           "id": "36877901",
@@ -138,7 +228,13 @@
           "journal": "Health affairs (Project Hope)",
           "year": 2023,
           "doi": "10.1377/hlthaff.2022.00821",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/36877901/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/36877901/",
+          "authorship": {
+            "position": 3,
+            "total": 6,
+            "isFirst": false,
+            "isLast": false
+          }
         },
         {
           "id": "36062735",
@@ -146,7 +242,13 @@
           "journal": "Substance use & misuse",
           "year": 2022,
           "doi": "10.1080/10826084.2022.2115847",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/36062735/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/36062735/",
+          "authorship": {
+            "position": 5,
+            "total": 7,
+            "isFirst": false,
+            "isLast": false
+          }
         },
         {
           "id": "36266493",
@@ -154,7 +256,13 @@
           "journal": "Journal of immigrant and minority health",
           "year": 2022,
           "doi": "10.1007/s10903-022-01418-5",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/36266493/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/36266493/",
+          "authorship": {
+            "position": 0,
+            "total": 3,
+            "isFirst": true,
+            "isLast": false
+          }
         },
         {
           "id": "35148869",
@@ -162,7 +270,13 @@
           "journal": "Journal of nutrition education and behavior",
           "year": 2022,
           "doi": "10.1016/j.jneb.2021.08.018",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/35148869/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/35148869/",
+          "authorship": {
+            "position": 1,
+            "total": 6,
+            "isFirst": false,
+            "isLast": false
+          }
         },
         {
           "id": "34189019",
@@ -170,7 +284,13 @@
           "journal": "Preventive medicine reports",
           "year": 2021,
           "doi": "10.1016/j.pmedr.2021.101415",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/34189019/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/34189019/",
+          "authorship": {
+            "position": 1,
+            "total": 3,
+            "isFirst": false,
+            "isLast": false
+          }
         },
         {
           "id": "35120678",
@@ -178,7 +298,13 @@
           "journal": "Spatial and spatio-temporal epidemiology",
           "year": 2021,
           "doi": "10.1016/j.sste.2021.100476",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/35120678/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/35120678/",
+          "authorship": {
+            "position": 0,
+            "total": 4,
+            "isFirst": true,
+            "isLast": false
+          }
         },
         {
           "id": "34396369",
@@ -186,9 +312,21 @@
           "journal": "Biomedical engineering systems and technologies, international joint conference, BIOSTEC ... revised selected papers. BIOSTEC (Conference)",
           "year": 2020,
           "doi": "10.5220/0009118306140624",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/34396369/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/34396369/",
+          "authorship": {
+            "position": 1,
+            "total": 2,
+            "isFirst": false,
+            "isLast": true
+          }
         }
       ],
+      "authorCounts": {
+        "first": 10,
+        "last": 1,
+        "total": 22,
+        "known": 22
+      },
       "signals": {
         "positive": {
           "count": 22,
@@ -517,20 +655,18 @@
       ],
       "publications": [
         {
-          "id": "41397658",
-          "title": "Synthesis and evaluation of novel oxanthrene scaffold-derived oxazolidinone antibiotics with potent antitubercular activity and low cellular toxicity",
-          "journal": "Bioorg Med Chem Lett",
-          "year": 2026,
-          "doi": "10.1016/j.bmcl.2025.130505",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/41397658/"
-        },
-        {
           "id": "40093075",
           "title": "Shared and distinct responses of human and murine alveolar macrophages and monocyte-derived macrophages to Mycobacterium tuberculosis.",
           "journal": "bioRxiv : the preprint server for biology",
           "year": 2025,
           "doi": "10.1101/2025.02.28.640814",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/40093075/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40093075/",
+          "authorship": {
+            "position": 6,
+            "total": 7,
+            "isFirst": false,
+            "isLast": true
+          }
         },
         {
           "id": "41208107",
@@ -538,23 +674,13 @@
           "journal": "ImmunoHorizons",
           "year": 2025,
           "doi": "10.1093/immhor/vlaf051",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/41208107/"
-        },
-        {
-          "id": "39162406",
-          "title": "Epigenetic programming of host lipid metabolism associated with resistance to TST/IGRA conversion after exposure to Mycobacterium tuberculosis",
-          "journal": "mSystems",
-          "year": 2024,
-          "doi": "10.1128/msystems.00628-24",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/39162406/"
-        },
-        {
-          "id": "38464296",
-          "title": "Epigenetic programming of host lipid metabolism associates with resistance to TST/IGRA conversion after exposure to Mycobacterium tuberculosis",
-          "journal": "bioRxiv",
-          "year": 2024,
-          "doi": "10.1101/2024.02.27.582348",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/38464296/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41208107/",
+          "authorship": {
+            "position": 6,
+            "total": 7,
+            "isFirst": false,
+            "isLast": true
+          }
         },
         {
           "id": "38836816",
@@ -562,9 +688,21 @@
           "journal": "Journal of immunology (Baltimore, Md. : 1950)",
           "year": 2024,
           "doi": "10.4049/jimmunol.2300885",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/38836816/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38836816/",
+          "authorship": {
+            "position": 0,
+            "total": 6,
+            "isFirst": true,
+            "isLast": false
+          }
         }
       ],
+      "authorCounts": {
+        "first": 1,
+        "last": 2,
+        "total": 3,
+        "known": 3
+      },
       "signals": {
         "positive": {
           "count": 3,
@@ -712,7 +850,13 @@
           "journal": "Heart failure reviews",
           "year": 2025,
           "doi": "10.1007/s10741-025-10550-x",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/40794388/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40794388/",
+          "authorship": {
+            "position": 3,
+            "total": 5,
+            "isFirst": false,
+            "isLast": false
+          }
         },
         {
           "id": "39824513",
@@ -720,7 +864,13 @@
           "journal": "American journal of physiology. Regulatory, integrative and comparative physiology",
           "year": 2025,
           "doi": "10.1152/ajpregu.00262.2024",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/39824513/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39824513/",
+          "authorship": {
+            "position": 8,
+            "total": 9,
+            "isFirst": false,
+            "isLast": true
+          }
         },
         {
           "id": "39774696",
@@ -728,7 +878,13 @@
           "journal": "Menopause (New York, N.Y.)",
           "year": 2025,
           "doi": "10.1097/GME.0000000000002461",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/39774696/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39774696/",
+          "authorship": {
+            "position": 0,
+            "total": 10,
+            "isFirst": true,
+            "isLast": false
+          }
         },
         {
           "id": "40827103",
@@ -736,7 +892,13 @@
           "journal": "Physiological reports",
           "year": 2025,
           "doi": "10.14814/phy2.70525",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/40827103/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40827103/",
+          "authorship": {
+            "position": 6,
+            "total": 7,
+            "isFirst": false,
+            "isLast": true
+          }
         },
         {
           "id": "38969625",
@@ -744,7 +906,13 @@
           "journal": "Physiological reports",
           "year": 2024,
           "doi": "10.14814/phy2.16137",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/38969625/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38969625/",
+          "authorship": {
+            "position": 10,
+            "total": 11,
+            "isFirst": false,
+            "isLast": true
+          }
         },
         {
           "id": "38324188",
@@ -752,7 +920,13 @@
           "journal": "Clinical autonomic research : official journal of the Clinical Autonomic Research Society",
           "year": 2024,
           "doi": "10.1007/s10286-024-01014-7",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/38324188/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38324188/",
+          "authorship": {
+            "position": 10,
+            "total": 11,
+            "isFirst": false,
+            "isLast": true
+          }
         },
         {
           "id": "39516389",
@@ -760,7 +934,13 @@
           "journal": "Discover mental health",
           "year": 2024,
           "doi": "10.1007/s44192-024-00108-y",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/39516389/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39516389/",
+          "authorship": {
+            "position": 6,
+            "total": 7,
+            "isFirst": false,
+            "isLast": true
+          }
         },
         {
           "id": "38214902",
@@ -768,7 +948,13 @@
           "journal": "American journal of physiology. Heart and circulatory physiology",
           "year": 2024,
           "doi": "10.1152/ajpheart.00724.2023",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/38214902/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38214902/",
+          "authorship": {
+            "position": 4,
+            "total": 8,
+            "isFirst": false,
+            "isLast": false
+          }
         },
         {
           "id": "38986672",
@@ -776,7 +962,13 @@
           "journal": "Journal of the American College of Cardiology",
           "year": 2024,
           "doi": "10.1016/j.jacc.2024.05.016",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/38986672/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38986672/",
+          "authorship": {
+            "position": 2,
+            "total": 13,
+            "isFirst": false,
+            "isLast": false
+          }
         },
         {
           "id": "37610715",
@@ -784,7 +976,13 @@
           "journal": "Menopause (New York, N.Y.)",
           "year": 2023,
           "doi": "10.1097/GME.0000000000002235",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/37610715/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/37610715/",
+          "authorship": {
+            "position": 4,
+            "total": 10,
+            "isFirst": false,
+            "isLast": false
+          }
         },
         {
           "id": "37898568",
@@ -792,7 +990,13 @@
           "journal": "Clinical autonomic research : official journal of the Clinical Autonomic Research Society",
           "year": 2023,
           "doi": "10.1007/s10286-023-00995-1",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/37898568/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/37898568/",
+          "authorship": {
+            "position": 0,
+            "total": 9,
+            "isFirst": true,
+            "isLast": false
+          }
         },
         {
           "id": "37505472",
@@ -800,7 +1004,13 @@
           "journal": "American journal of physiology. Heart and circulatory physiology",
           "year": 2023,
           "doi": "10.1152/ajpheart.00169.2023",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/37505472/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/37505472/",
+          "authorship": {
+            "position": 8,
+            "total": 9,
+            "isFirst": false,
+            "isLast": true
+          }
         },
         {
           "id": "36247837",
@@ -808,9 +1018,21 @@
           "journal": "Brain, behavior, & immunity - health",
           "year": 2022,
           "doi": "10.1016/j.bbih.2022.100527",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/36247837/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/36247837/",
+          "authorship": {
+            "position": 1,
+            "total": 14,
+            "isFirst": false,
+            "isLast": false
+          }
         }
       ],
+      "authorCounts": {
+        "first": 2,
+        "last": 6,
+        "total": 13,
+        "known": 13
+      },
       "signals": {
         "positive": {
           "count": 13,
@@ -1001,7 +1223,13 @@
           "journal": "bioRxiv : the preprint server for biology",
           "year": 2025,
           "doi": "10.64898/2025.12.03.692237",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/41415464/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41415464/",
+          "authorship": {
+            "position": 1,
+            "total": 11,
+            "isFirst": false,
+            "isLast": false
+          }
         },
         {
           "id": "41446203",
@@ -1009,7 +1237,13 @@
           "journal": "bioRxiv : the preprint server for biology",
           "year": 2025,
           "doi": "10.64898/2025.12.19.695021",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/41446203/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41446203/",
+          "authorship": {
+            "position": 3,
+            "total": 4,
+            "isFirst": false,
+            "isLast": true
+          }
         },
         {
           "id": "38796122",
@@ -1017,7 +1251,13 @@
           "journal": "Neuroscience and biobehavioral reviews",
           "year": 2024,
           "doi": "10.1016/j.neubiorev.2024.105737",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/38796122/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38796122/",
+          "authorship": {
+            "position": 1,
+            "total": 2,
+            "isFirst": false,
+            "isLast": true
+          }
         },
         {
           "id": "39484621",
@@ -1025,9 +1265,21 @@
           "journal": "bioRxiv : the preprint server for biology",
           "year": 2024,
           "doi": "10.1101/2024.10.17.618918",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/39484621/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39484621/",
+          "authorship": {
+            "position": 11,
+            "total": 12,
+            "isFirst": false,
+            "isLast": true
+          }
         }
       ],
+      "authorCounts": {
+        "first": 0,
+        "last": 3,
+        "total": 4,
+        "known": 4
+      },
       "signals": {
         "positive": {
           "count": 4,
@@ -1182,7 +1434,13 @@
           "journal": "The New England journal of medicine",
           "year": 2025,
           "doi": "10.1056/NEJMp2508160",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/41115244/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41115244/",
+          "authorship": {
+            "position": 1,
+            "total": 2,
+            "isFirst": false,
+            "isLast": true
+          }
         },
         {
           "id": "40499102",
@@ -1190,7 +1448,13 @@
           "journal": "American journal of public health",
           "year": 2025,
           "doi": "10.2105/AJPH.2025.308060",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/40499102/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40499102/",
+          "authorship": {
+            "position": 1,
+            "total": 2,
+            "isFirst": false,
+            "isLast": true
+          }
         },
         {
           "id": "40474308",
@@ -1198,17 +1462,35 @@
           "journal": "Contraception and reproductive medicine",
           "year": 2025,
           "doi": "10.1186/s40834-025-00369-0",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/40474308/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40474308/",
+          "authorship": {
+            "position": 1,
+            "total": 4,
+            "isFirst": false,
+            "isLast": false
+          }
         },
         {
           "id": "39523167",
-          "title": "Corrigendum to Society of Family Planning Research Practice Support: Strategies and considerations for addressing race and racism in quantitative family planning studies\u00a0[Contraception vol\u00a0139 (2024) 110534].",
+          "title": "Corrigendum to Society of Family Planning Research Practice Support: Strategies and considerations for addressing race and racism in quantitative family planning studies [Contraception vol 139 (2024) 110534].",
           "journal": "Contraception",
           "year": 2024,
           "doi": "10.1016/j.contraception.2024.110736",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/39523167/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39523167/",
+          "authorship": {
+            "position": 2,
+            "total": 6,
+            "isFirst": false,
+            "isLast": false
+          }
         }
       ],
+      "authorCounts": {
+        "first": 0,
+        "last": 2,
+        "total": 4,
+        "known": 4
+      },
       "signals": {
         "positive": {
           "count": 4,
@@ -1363,7 +1645,13 @@
           "journal": "Journal of physical activity & health",
           "year": 2025,
           "doi": "10.1123/jpah.2025-0247",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/41468188/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41468188/",
+          "authorship": {
+            "position": 2,
+            "total": 4,
+            "isFirst": false,
+            "isLast": false
+          }
         },
         {
           "id": "39884734",
@@ -1371,7 +1659,13 @@
           "journal": "Health promotion practice",
           "year": 2025,
           "doi": "10.1177/15248399251314423",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/39884734/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39884734/",
+          "authorship": {
+            "position": 0,
+            "total": 4,
+            "isFirst": true,
+            "isLast": false
+          }
         },
         {
           "id": "41684464",
@@ -1379,7 +1673,13 @@
           "journal": "Environmental justice (Print)",
           "year": 2025,
           "doi": "10.1177/19394071251383709",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/41684464/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41684464/",
+          "authorship": {
+            "position": 1,
+            "total": 6,
+            "isFirst": false,
+            "isLast": false
+          }
         },
         {
           "id": "40067311",
@@ -1387,7 +1687,13 @@
           "journal": "Research quarterly for exercise and sport",
           "year": 2025,
           "doi": "10.1080/02701367.2025.2465702",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/40067311/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40067311/",
+          "authorship": {
+            "position": 0,
+            "total": 7,
+            "isFirst": true,
+            "isLast": false
+          }
         },
         {
           "id": "40994610",
@@ -1395,7 +1701,13 @@
           "journal": "ACSM's health & fitness journal",
           "year": 2025,
           "doi": "10.1249/fit.0000000000001056",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/40994610/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40994610/",
+          "authorship": {
+            "position": 7,
+            "total": 8,
+            "isFirst": false,
+            "isLast": true
+          }
         },
         {
           "id": "39925279",
@@ -1403,7 +1715,13 @@
           "journal": "Progress in community health partnerships : research, education, and action",
           "year": 2024,
           "doi": "",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/39925279/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39925279/",
+          "authorship": {
+            "position": 1,
+            "total": 8,
+            "isFirst": false,
+            "isLast": false
+          }
         },
         {
           "id": "38493395",
@@ -1411,7 +1729,13 @@
           "journal": "The Journal of adolescent health : official publication of the Society for Adolescent Medicine",
           "year": 2024,
           "doi": "10.1016/j.jadohealth.2024.01.029",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/38493395/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38493395/",
+          "authorship": {
+            "position": 0,
+            "total": 2,
+            "isFirst": true,
+            "isLast": false
+          }
         },
         {
           "id": "38590221",
@@ -1419,7 +1743,13 @@
           "journal": "Health promotion practice",
           "year": 2024,
           "doi": "10.1177/15248399241245055",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/38590221/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38590221/",
+          "authorship": {
+            "position": 2,
+            "total": 3,
+            "isFirst": false,
+            "isLast": true
+          }
         },
         {
           "id": "39162672",
@@ -1427,7 +1757,13 @@
           "journal": "The Journal of adolescent health : official publication of the Society for Adolescent Medicine",
           "year": 2024,
           "doi": "10.1016/j.jadohealth.2024.06.025",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/39162672/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39162672/",
+          "authorship": {
+            "position": 0,
+            "total": 5,
+            "isFirst": true,
+            "isLast": false
+          }
         },
         {
           "id": "39600318",
@@ -1435,7 +1771,13 @@
           "journal": "Corrections : policy, practice and research",
           "year": 2023,
           "doi": "10.1080/23774657.2023.2233944",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/39600318/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39600318/",
+          "authorship": {
+            "position": 0,
+            "total": 4,
+            "isFirst": true,
+            "isLast": false
+          }
         },
         {
           "id": "36429904",
@@ -1443,7 +1785,13 @@
           "journal": "International journal of environmental research and public health",
           "year": 2022,
           "doi": "10.3390/ijerph192215188",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/36429904/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/36429904/",
+          "authorship": {
+            "position": 1,
+            "total": 7,
+            "isFirst": false,
+            "isLast": false
+          }
         },
         {
           "id": "36455551",
@@ -1451,7 +1799,13 @@
           "journal": "Journal of physical activity & health",
           "year": 2022,
           "doi": "10.1123/jpah.2022-0300",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/36455551/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/36455551/",
+          "authorship": {
+            "position": 0,
+            "total": 7,
+            "isFirst": true,
+            "isLast": false
+          }
         },
         {
           "id": "36411209",
@@ -1459,7 +1813,13 @@
           "journal": "The Journal of adolescent health : official publication of the Society for Adolescent Medicine",
           "year": 2022,
           "doi": "10.1016/j.jadohealth.2022.09.020",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/36411209/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/36411209/",
+          "authorship": {
+            "position": 0,
+            "total": 6,
+            "isFirst": true,
+            "isLast": false
+          }
         },
         {
           "id": "35968666",
@@ -1467,9 +1827,21 @@
           "journal": "American journal of health promotion : AJHP",
           "year": 2022,
           "doi": "10.1177/08901171221120912",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/35968666/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/35968666/",
+          "authorship": {
+            "position": 6,
+            "total": 9,
+            "isFirst": false,
+            "isLast": false
+          }
         }
       ],
+      "authorCounts": {
+        "first": 7,
+        "last": 2,
+        "total": 14,
+        "known": 14
+      },
       "signals": {
         "positive": {
           "count": 14,
@@ -1664,9 +2036,21 @@
           "journal": "Topics in spinal cord injury rehabilitation",
           "year": 2025,
           "doi": "10.46292/sci24-00082",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/41268139/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41268139/",
+          "authorship": {
+            "position": 3,
+            "total": 5,
+            "isFirst": false,
+            "isLast": false
+          }
         }
       ],
+      "authorCounts": {
+        "first": 0,
+        "last": 0,
+        "total": 1,
+        "known": 1
+      },
       "signals": {
         "positive": {
           "count": 1,
@@ -1781,7 +2165,13 @@
           "journal": "Journal of the American Medical Informatics Association : JAMIA",
           "year": 2025,
           "doi": "10.1093/jamia/ocae169",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/39530748/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39530748/",
+          "authorship": {
+            "position": 2,
+            "total": 15,
+            "isFirst": false,
+            "isLast": false
+          }
         },
         {
           "id": "40071062",
@@ -1789,7 +2179,13 @@
           "journal": "Pulmonary circulation",
           "year": 2025,
           "doi": "10.1002/pul2.70021",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/40071062/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40071062/",
+          "authorship": {
+            "position": 2,
+            "total": 5,
+            "isFirst": false,
+            "isLast": false
+          }
         },
         {
           "id": "41142473",
@@ -1797,7 +2193,13 @@
           "journal": "Palliative medicine reports",
           "year": 2025,
           "doi": "10.1177/26892820251380523",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/41142473/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41142473/",
+          "authorship": {
+            "position": 0,
+            "total": 25,
+            "isFirst": true,
+            "isLast": false
+          }
         },
         {
           "id": "38945357",
@@ -1805,7 +2207,13 @@
           "journal": "Chest",
           "year": 2024,
           "doi": "10.1016/j.chest.2024.06.009",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/38945357/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38945357/",
+          "authorship": {
+            "position": 1,
+            "total": 7,
+            "isFirst": false,
+            "isLast": false
+          }
         },
         {
           "id": "39700341",
@@ -1813,7 +2221,13 @@
           "journal": "Critical care explorations",
           "year": 2024,
           "doi": "10.1097/CCE.0000000000001189",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/39700341/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39700341/",
+          "authorship": {
+            "position": 3,
+            "total": 8,
+            "isFirst": false,
+            "isLast": false
+          }
         },
         {
           "id": "37713379",
@@ -1821,7 +2235,13 @@
           "journal": "PloS one",
           "year": 2023,
           "doi": "10.1371/journal.pone.0291542",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/37713379/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/37713379/",
+          "authorship": {
+            "position": 4,
+            "total": 8,
+            "isFirst": false,
+            "isLast": false
+          }
         },
         {
           "id": "36944150",
@@ -1829,7 +2249,13 @@
           "journal": "Journal of palliative medicine",
           "year": 2023,
           "doi": "10.1089/jpm.2022.0394",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/36944150/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/36944150/",
+          "authorship": {
+            "position": 0,
+            "total": 7,
+            "isFirst": true,
+            "isLast": false
+          }
         },
         {
           "id": "36735934",
@@ -1837,9 +2263,21 @@
           "journal": "American journal of respiratory and critical care medicine",
           "year": 2023,
           "doi": "10.1164/rccm.202206-1035RR",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/36735934/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/36735934/",
+          "authorship": {
+            "position": 0,
+            "total": 4,
+            "isFirst": true,
+            "isLast": false
+          }
         }
       ],
+      "authorCounts": {
+        "first": 3,
+        "last": 0,
+        "total": 8,
+        "known": 8
+      },
       "signals": {
         "positive": {
           "count": 8,
@@ -2022,7 +2460,13 @@
           "journal": "bioRxiv : the preprint server for biology",
           "year": 2026,
           "doi": "10.64898/2026.01.12.698940",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/41648332/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41648332/",
+          "authorship": {
+            "position": 3,
+            "total": 7,
+            "isFirst": false,
+            "isLast": false
+          }
         },
         {
           "id": "40903598",
@@ -2030,7 +2474,13 @@
           "journal": "Nature",
           "year": 2025,
           "doi": "10.1038/s41586-025-09235-0",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/40903598/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40903598/",
+          "authorship": {
+            "position": 38,
+            "total": 57,
+            "isFirst": false,
+            "isLast": false
+          }
         },
         {
           "id": "40461847",
@@ -2038,7 +2488,13 @@
           "journal": "Nature neuroscience",
           "year": 2025,
           "doi": "10.1038/s41593-025-01965-8",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/40461847/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40461847/",
+          "authorship": {
+            "position": 0,
+            "total": 7,
+            "isFirst": true,
+            "isLast": false
+          }
         },
         {
           "id": "40903597",
@@ -2046,7 +2502,13 @@
           "journal": "Nature",
           "year": 2025,
           "doi": "10.1038/s41586-025-09226-1",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/40903597/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40903597/",
+          "authorship": {
+            "position": 38,
+            "total": 62,
+            "isFirst": false,
+            "isLast": false
+          }
         },
         {
           "id": "40669216",
@@ -2054,7 +2516,13 @@
           "journal": "Physics of life reviews",
           "year": 2025,
           "doi": "10.1016/j.plrev.2025.07.002",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/40669216/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40669216/",
+          "authorship": {
+            "position": 2,
+            "total": 4,
+            "isFirst": false,
+            "isLast": false
+          }
         },
         {
           "id": "41469444",
@@ -2062,7 +2530,13 @@
           "journal": "Nature neuroscience",
           "year": 2025,
           "doi": "10.1038/s41593-025-02130-x",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/41469444/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41469444/",
+          "authorship": {
+            "position": 7,
+            "total": 13,
+            "isFirst": false,
+            "isLast": false
+          }
         },
         {
           "id": "40244939",
@@ -2070,7 +2544,13 @@
           "journal": "PLoS biology",
           "year": 2025,
           "doi": "10.1371/journal.pbio.3003118",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/40244939/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40244939/",
+          "authorship": {
+            "position": 0,
+            "total": 11,
+            "isFirst": true,
+            "isLast": false
+          }
         },
         {
           "id": "40234393",
@@ -2078,7 +2558,13 @@
           "journal": "Nature communications",
           "year": 2025,
           "doi": "10.1038/s41467-025-58683-9",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/40234393/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40234393/",
+          "authorship": {
+            "position": 1,
+            "total": 13,
+            "isFirst": false,
+            "isLast": false
+          }
         },
         {
           "id": "40354112",
@@ -2086,7 +2572,13 @@
           "journal": "eLife",
           "year": 2025,
           "doi": "10.7554/eLife.100840",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/40354112/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40354112/",
+          "authorship": {
+            "position": 28,
+            "total": 46,
+            "isFirst": false,
+            "isLast": false
+          }
         },
         {
           "id": "39651243",
@@ -2094,9 +2586,21 @@
           "journal": "bioRxiv : the preprint server for biology",
           "year": 2024,
           "doi": "10.1101/2024.11.28.625897",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/39651243/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39651243/",
+          "authorship": {
+            "position": 0,
+            "total": 4,
+            "isFirst": true,
+            "isLast": false
+          }
         }
       ],
+      "authorCounts": {
+        "first": 3,
+        "last": 0,
+        "total": 10,
+        "known": 10
+      },
       "signals": {
         "positive": {
           "count": 10,
@@ -2275,7 +2779,13 @@
           "journal": "International journal of infectious diseases : IJID : official publication of the International Society for Infectious Diseases",
           "year": 2025,
           "doi": "10.1016/j.ijid.2025.107813",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/39894440/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39894440/",
+          "authorship": {
+            "position": 3,
+            "total": 8,
+            "isFirst": false,
+            "isLast": false
+          }
         },
         {
           "id": "41408597",
@@ -2283,7 +2793,13 @@
           "journal": "The Journal of infectious diseases",
           "year": 2025,
           "doi": "10.1093/infdis/jiaf636",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/41408597/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41408597/",
+          "authorship": {
+            "position": 6,
+            "total": 27,
+            "isFirst": false,
+            "isLast": false
+          }
         },
         {
           "id": "41325679",
@@ -2291,7 +2807,13 @@
           "journal": "Cytokine",
           "year": 2025,
           "doi": "10.1016/j.cyto.2025.157076",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/41325679/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41325679/",
+          "authorship": {
+            "position": 6,
+            "total": 18,
+            "isFirst": false,
+            "isLast": false
+          }
         },
         {
           "id": "40435967",
@@ -2299,7 +2821,13 @@
           "journal": "Journal of innate immunity",
           "year": 2025,
           "doi": "10.1159/000545432",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/40435967/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40435967/",
+          "authorship": {
+            "position": 10,
+            "total": 15,
+            "isFirst": false,
+            "isLast": false
+          }
         },
         {
           "id": "39951083",
@@ -2307,9 +2835,21 @@
           "journal": "The Pediatric infectious disease journal",
           "year": 2025,
           "doi": "10.1097/INF.0000000000004661",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/39951083/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39951083/",
+          "authorship": {
+            "position": 6,
+            "total": 8,
+            "isFirst": false,
+            "isLast": false
+          }
         }
       ],
+      "authorCounts": {
+        "first": 0,
+        "last": 0,
+        "total": 5,
+        "known": 5
+      },
       "signals": {
         "positive": {
           "count": 5,
@@ -2472,7 +3012,13 @@
           "journal": "Journal of health psychology",
           "year": 2026,
           "doi": "10.1177/13591053251407800",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/41578608/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41578608/",
+          "authorship": {
+            "position": 3,
+            "total": 4,
+            "isFirst": false,
+            "isLast": true
+          }
         },
         {
           "id": "41091417",
@@ -2480,7 +3026,13 @@
           "journal": "Journal of racial and ethnic health disparities",
           "year": 2025,
           "doi": "10.1007/s40615-025-02689-y",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/41091417/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41091417/",
+          "authorship": {
+            "position": 0,
+            "total": 4,
+            "isFirst": true,
+            "isLast": false
+          }
         },
         {
           "id": "40895342",
@@ -2488,7 +3040,13 @@
           "journal": "Preventive medicine reports",
           "year": 2025,
           "doi": "10.1016/j.pmedr.2025.103173",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/40895342/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40895342/",
+          "authorship": {
+            "position": 4,
+            "total": 8,
+            "isFirst": false,
+            "isLast": false
+          }
         },
         {
           "id": "39808441",
@@ -2496,7 +3054,13 @@
           "journal": "JAMA",
           "year": 2025,
           "doi": "10.1001/jama.2024.21653",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/39808441/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39808441/",
+          "authorship": {
+            "position": 5,
+            "total": 8,
+            "isFirst": false,
+            "isLast": false
+          }
         },
         {
           "id": "40789631",
@@ -2504,7 +3068,13 @@
           "journal": "Journal of the American Board of Family Medicine : JABFM",
           "year": 2025,
           "doi": "10.3122/jabfm.2024.240324R1",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/40789631/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40789631/",
+          "authorship": {
+            "position": 0,
+            "total": 4,
+            "isFirst": true,
+            "isLast": false
+          }
         },
         {
           "id": "40378315",
@@ -2512,7 +3082,13 @@
           "journal": "American family physician",
           "year": 2025,
           "doi": "",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/40378315/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40378315/",
+          "authorship": {
+            "position": 1,
+            "total": 3,
+            "isFirst": false,
+            "isLast": false
+          }
         },
         {
           "id": "41365146",
@@ -2520,7 +3096,13 @@
           "journal": "Patient education and counseling",
           "year": 2025,
           "doi": "10.1016/j.pec.2025.109445",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/41365146/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41365146/",
+          "authorship": {
+            "position": 0,
+            "total": 3,
+            "isFirst": true,
+            "isLast": false
+          }
         },
         {
           "id": "38439004",
@@ -2528,7 +3110,13 @@
           "journal": "BMC medical education",
           "year": 2024,
           "doi": "10.1186/s12909-024-05232-5",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/38439004/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38439004/",
+          "authorship": {
+            "position": 4,
+            "total": 5,
+            "isFirst": false,
+            "isLast": true
+          }
         },
         {
           "id": "38745879",
@@ -2536,7 +3124,13 @@
           "journal": "Journal of clinical and translational science",
           "year": 2024,
           "doi": "10.1017/cts.2024.518",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/38745879/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38745879/",
+          "authorship": {
+            "position": 4,
+            "total": 10,
+            "isFirst": false,
+            "isLast": false
+          }
         },
         {
           "id": "37542507",
@@ -2544,7 +3138,13 @@
           "journal": "The Journal of adolescent health : official publication of the Society for Adolescent Medicine",
           "year": 2023,
           "doi": "10.1016/j.jadohealth.2023.06.023",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/37542507/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/37542507/",
+          "authorship": {
+            "position": 1,
+            "total": 4,
+            "isFirst": false,
+            "isLast": false
+          }
         },
         {
           "id": "36853405",
@@ -2552,7 +3152,13 @@
           "journal": "Journal of racial and ethnic health disparities",
           "year": 2023,
           "doi": "10.1007/s40615-023-01543-3",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/36853405/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/36853405/",
+          "authorship": {
+            "position": 0,
+            "total": 4,
+            "isFirst": true,
+            "isLast": false
+          }
         },
         {
           "id": "36935165",
@@ -2560,9 +3166,21 @@
           "journal": "American journal of preventive medicine",
           "year": 2023,
           "doi": "10.1016/j.amepre.2022.10.019",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/36935165/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/36935165/",
+          "authorship": {
+            "position": 0,
+            "total": 6,
+            "isFirst": true,
+            "isLast": false
+          }
         }
       ],
+      "authorCounts": {
+        "first": 5,
+        "last": 2,
+        "total": 12,
+        "known": 12
+      },
       "signals": {
         "positive": {
           "count": 12,
@@ -2743,7 +3361,7 @@
     },
     {
       "id": "edgar-pe-a-penax025-umn-edu",
-      "name": "Edgar Pe\u00f1a",
+      "name": "Edgar Peña",
       "department": "University of Minnesota",
       "orcid": "",
       "areas": [],
@@ -2751,6 +3369,7 @@
         "KAP"
       ],
       "publications": [],
+      "authorCounts": null,
       "signals": {
         "positive": {
           "count": 0,
@@ -2786,7 +3405,13 @@
           "journal": "Journal of research on adolescence : the official journal of the Society for Research on Adolescence",
           "year": 2025,
           "doi": "10.1111/jora.70082",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/40995639/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40995639/",
+          "authorship": {
+            "position": 0,
+            "total": 2,
+            "isFirst": true,
+            "isLast": false
+          }
         },
         {
           "id": "41221469",
@@ -2794,7 +3419,13 @@
           "journal": "Social development (Oxford, England)",
           "year": 2025,
           "doi": "10.1111/sode.70021",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/41221469/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41221469/",
+          "authorship": {
+            "position": 3,
+            "total": 6,
+            "isFirst": false,
+            "isLast": false
+          }
         },
         {
           "id": "39373995",
@@ -2802,7 +3433,13 @@
           "journal": "JAMA pediatrics",
           "year": 2024,
           "doi": "10.1001/jamapediatrics.2024.3669",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/39373995/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39373995/",
+          "authorship": {
+            "position": 3,
+            "total": 8,
+            "isFirst": false,
+            "isLast": false
+          }
         },
         {
           "id": "38991312",
@@ -2810,9 +3447,21 @@
           "journal": "Journal of experimental child psychology",
           "year": 2024,
           "doi": "10.1016/j.jecp.2024.105994",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/38991312/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38991312/",
+          "authorship": {
+            "position": 4,
+            "total": 8,
+            "isFirst": false,
+            "isLast": false
+          }
         }
       ],
+      "authorCounts": {
+        "first": 1,
+        "last": 0,
+        "total": 4,
+        "known": 4
+      },
       "signals": {
         "positive": {
           "count": 4,
@@ -2976,7 +3625,13 @@
           "journal": "Journal of affective disorders",
           "year": 2025,
           "doi": "10.1016/j.jad.2025.01.062",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/39818340/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39818340/",
+          "authorship": {
+            "position": 10,
+            "total": 12,
+            "isFirst": false,
+            "isLast": false
+          }
         },
         {
           "id": "39211848",
@@ -2984,7 +3639,13 @@
           "journal": "medRxiv : the preprint server for health sciences",
           "year": 2024,
           "doi": "10.1101/2024.07.26.24311078",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/39211848/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39211848/",
+          "authorship": {
+            "position": 10,
+            "total": 12,
+            "isFirst": false,
+            "isLast": false
+          }
         },
         {
           "id": "39464145",
@@ -2992,7 +3653,13 @@
           "journal": "bioRxiv : the preprint server for biology",
           "year": 2024,
           "doi": "10.1101/2024.10.15.618561",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/39464145/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39464145/",
+          "authorship": {
+            "position": 9,
+            "total": 10,
+            "isFirst": false,
+            "isLast": true
+          }
         },
         {
           "id": "37686399",
@@ -3000,7 +3667,13 @@
           "journal": "International journal of molecular sciences",
           "year": 2023,
           "doi": "10.3390/ijms241713594",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/37686399/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/37686399/",
+          "authorship": {
+            "position": 3,
+            "total": 4,
+            "isFirst": false,
+            "isLast": true
+          }
         },
         {
           "id": "37592321",
@@ -3008,7 +3681,13 @@
           "journal": "Stem cell research & therapy",
           "year": 2023,
           "doi": "10.1186/s13287-023-03443-z",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/37592321/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/37592321/",
+          "authorship": {
+            "position": 5,
+            "total": 8,
+            "isFirst": false,
+            "isLast": false
+          }
         },
         {
           "id": "37830587",
@@ -3016,7 +3695,13 @@
           "journal": "Cells",
           "year": 2023,
           "doi": "10.3390/cells12192372",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/37830587/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/37830587/",
+          "authorship": {
+            "position": 0,
+            "total": 2,
+            "isFirst": true,
+            "isLast": false
+          }
         },
         {
           "id": "35984571",
@@ -3024,9 +3709,21 @@
           "journal": "Reproductive sciences (Thousand Oaks, Calif.)",
           "year": 2022,
           "doi": "10.1007/s43032-022-01065-z",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/35984571/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/35984571/",
+          "authorship": {
+            "position": 3,
+            "total": 10,
+            "isFirst": false,
+            "isLast": false
+          }
         }
       ],
+      "authorCounts": {
+        "first": 1,
+        "last": 2,
+        "total": 7,
+        "known": 7
+      },
       "signals": {
         "positive": {
           "count": 7,
@@ -3209,7 +3906,13 @@
           "journal": "Cancer epidemiology, biomarkers & prevention : a publication of the American Association for Cancer Research, cosponsored by the American Society of Preventive Oncology",
           "year": 2025,
           "doi": "10.1158/1055-9965.EPI-24-1325",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/39808161/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39808161/",
+          "authorship": {
+            "position": 13,
+            "total": 17,
+            "isFirst": false,
+            "isLast": false
+          }
         },
         {
           "id": "40502057",
@@ -3217,7 +3920,13 @@
           "journal": "bioRxiv : the preprint server for biology",
           "year": 2025,
           "doi": "10.1101/2025.06.03.657666",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/40502057/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40502057/",
+          "authorship": {
+            "position": 4,
+            "total": 7,
+            "isFirst": false,
+            "isLast": false
+          }
         },
         {
           "id": "40996037",
@@ -3225,7 +3934,13 @@
           "journal": "mSystems",
           "year": 2025,
           "doi": "10.1128/msystems.00751-25",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/40996037/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40996037/",
+          "authorship": {
+            "position": 4,
+            "total": 7,
+            "isFirst": false,
+            "isLast": false
+          }
         },
         {
           "id": "41465250",
@@ -3233,7 +3948,13 @@
           "journal": "International journal of molecular sciences",
           "year": 2025,
           "doi": "10.3390/ijms262411820",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/41465250/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41465250/",
+          "authorship": {
+            "position": 3,
+            "total": 4,
+            "isFirst": false,
+            "isLast": true
+          }
         },
         {
           "id": "41187752",
@@ -3241,7 +3962,13 @@
           "journal": "Cell",
           "year": 2025,
           "doi": "10.1016/j.cell.2025.10.043",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/41187752/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41187752/",
+          "authorship": {
+            "position": 23,
+            "total": 48,
+            "isFirst": false,
+            "isLast": false
+          }
         },
         {
           "id": "39755759",
@@ -3249,7 +3976,13 @@
           "journal": "Scientific reports",
           "year": 2025,
           "doi": "10.1038/s41598-024-84874-3",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/39755759/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39755759/",
+          "authorship": {
+            "position": 10,
+            "total": 11,
+            "isFirst": false,
+            "isLast": true
+          }
         },
         {
           "id": "39839766",
@@ -3257,7 +3990,13 @@
           "journal": "Frontiers in oncology",
           "year": 2025,
           "doi": "10.3389/fonc.2024.1503107",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/39839766/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39839766/",
+          "authorship": {
+            "position": 2,
+            "total": 3,
+            "isFirst": false,
+            "isLast": true
+          }
         },
         {
           "id": "40564930",
@@ -3265,7 +4004,13 @@
           "journal": "International journal of molecular sciences",
           "year": 2025,
           "doi": "10.3390/ijms26125466",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/40564930/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40564930/",
+          "authorship": {
+            "position": 8,
+            "total": 9,
+            "isFirst": false,
+            "isLast": true
+          }
         },
         {
           "id": "39263706",
@@ -3273,7 +4018,13 @@
           "journal": "Journal of the American Society for Mass Spectrometry",
           "year": 2024,
           "doi": "10.1021/jasms.4c00131",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/39263706/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39263706/",
+          "authorship": {
+            "position": 5,
+            "total": 6,
+            "isFirst": false,
+            "isLast": true
+          }
         },
         {
           "id": "38172678",
@@ -3281,7 +4032,13 @@
           "journal": "Clinical proteomics",
           "year": 2024,
           "doi": "10.1186/s12014-023-09447-4",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/38172678/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38172678/",
+          "authorship": {
+            "position": 5,
+            "total": 6,
+            "isFirst": false,
+            "isLast": true
+          }
         },
         {
           "id": "36370283",
@@ -3289,7 +4046,13 @@
           "journal": "Methods in molecular biology (Clifton, N.J.)",
           "year": 2023,
           "doi": "10.1007/978-1-0716-2863-8_18",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/36370283/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/36370283/",
+          "authorship": {
+            "position": 1,
+            "total": 2,
+            "isFirst": false,
+            "isLast": true
+          }
         },
         {
           "id": "37016835",
@@ -3297,7 +4060,13 @@
           "journal": "Journal of the American Society for Mass Spectrometry",
           "year": 2023,
           "doi": "10.1021/jasms.3c00094",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/37016835/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/37016835/",
+          "authorship": {
+            "position": 3,
+            "total": 5,
+            "isFirst": false,
+            "isLast": false
+          }
         },
         {
           "id": "36865788",
@@ -3305,7 +4074,13 @@
           "journal": "Journal of mass spectrometry and advances in the clinical lab",
           "year": 2023,
           "doi": "10.1016/j.jmsacl.2023.02.001",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/36865788/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/36865788/",
+          "authorship": {
+            "position": 1,
+            "total": 2,
+            "isFirst": false,
+            "isLast": true
+          }
         },
         {
           "id": "38107255",
@@ -3313,7 +4088,13 @@
           "journal": "ACS pharmacology & translational science",
           "year": 2023,
           "doi": "10.1021/acsptsci.3c00215",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/38107255/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38107255/",
+          "authorship": {
+            "position": 1,
+            "total": 2,
+            "isFirst": false,
+            "isLast": true
+          }
         },
         {
           "id": "38116719",
@@ -3321,7 +4102,13 @@
           "journal": "Expert review of proteomics",
           "year": 2023,
           "doi": "10.1080/14789450.2023.2295861",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/38116719/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38116719/",
+          "authorship": {
+            "position": 1,
+            "total": 2,
+            "isFirst": false,
+            "isLast": true
+          }
         },
         {
           "id": "38312474",
@@ -3329,7 +4116,13 @@
           "journal": "Contemporary clinical trials communications",
           "year": 2023,
           "doi": "10.1016/j.conctc.2023.101250",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/38312474/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38312474/",
+          "authorship": {
+            "position": 5,
+            "total": 6,
+            "isFirst": false,
+            "isLast": true
+          }
         },
         {
           "id": "36193784",
@@ -3337,7 +4130,13 @@
           "journal": "Proteomics",
           "year": 2022,
           "doi": "10.1002/pmic.202100372",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/36193784/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/36193784/",
+          "authorship": {
+            "position": 2,
+            "total": 3,
+            "isFirst": false,
+            "isLast": true
+          }
         },
         {
           "id": "36532107",
@@ -3345,7 +4144,13 @@
           "journal": "Nature reviews. Methods primers",
           "year": 2022,
           "doi": "10.1038/s43586-022-00175-x",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/36532107/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/36532107/",
+          "authorship": {
+            "position": 0,
+            "total": 5,
+            "isFirst": true,
+            "isLast": false
+          }
         },
         {
           "id": "35765315",
@@ -3353,7 +4158,13 @@
           "journal": "Open forum infectious diseases",
           "year": 2022,
           "doi": "10.1093/ofid/ofac171",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/35765315/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/35765315/",
+          "authorship": {
+            "position": 58,
+            "total": 97,
+            "isFirst": false,
+            "isLast": false
+          }
         },
         {
           "id": "36400240",
@@ -3361,7 +4172,13 @@
           "journal": "The Journal of pediatrics",
           "year": 2022,
           "doi": "10.1016/j.jpeds.2022.10.041",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/36400240/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/36400240/",
+          "authorship": {
+            "position": 0,
+            "total": 5,
+            "isFirst": true,
+            "isLast": false
+          }
         },
         {
           "id": "35634242",
@@ -3369,7 +4186,13 @@
           "journal": "Oncotarget",
           "year": 2022,
           "doi": "10.18632/oncotarget.28241",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/35634242/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/35634242/",
+          "authorship": {
+            "position": 1,
+            "total": 3,
+            "isFirst": false,
+            "isLast": false
+          }
         },
         {
           "id": "35262095",
@@ -3377,7 +4200,13 @@
           "journal": "medRxiv : the preprint server for health sciences",
           "year": 2022,
           "doi": "10.1101/2022.02.27.22271399",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/35262095/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/35262095/",
+          "authorship": {
+            "position": 54,
+            "total": 59,
+            "isFirst": false,
+            "isLast": false
+          }
         },
         {
           "id": "35703544",
@@ -3385,7 +4214,13 @@
           "journal": "mSphere",
           "year": 2022,
           "doi": "10.1128/msphere.00193-22",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/35703544/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/35703544/",
+          "authorship": {
+            "position": 54,
+            "total": 59,
+            "isFirst": false,
+            "isLast": false
+          }
         },
         {
           "id": "35614113",
@@ -3393,15 +4228,27 @@
           "journal": "Scientific reports",
           "year": 2022,
           "doi": "10.1038/s41598-022-12869-z",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/35614113/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/35614113/",
+          "authorship": {
+            "position": 0,
+            "total": 8,
+            "isFirst": true,
+            "isLast": false
+          }
         },
         {
           "id": "35248569",
-          "title": "Use of Cotton Balls in Diapers for Collection of Urine Samples Impacts the Analysis of Routine Chemistry Tests: An\u00a0Evaluation of Cotton Balls, Diapers, and Chemistry Analyzers.",
+          "title": "Use of Cotton Balls in Diapers for Collection of Urine Samples Impacts the Analysis of Routine Chemistry Tests: An Evaluation of Cotton Balls, Diapers, and Chemistry Analyzers.",
           "journal": "The Journal of pediatrics",
           "year": 2022,
           "doi": "10.1016/j.jpeds.2022.02.051",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/35248569/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/35248569/",
+          "authorship": {
+            "position": 0,
+            "total": 5,
+            "isFirst": true,
+            "isLast": false
+          }
         },
         {
           "id": "33746520",
@@ -3409,7 +4256,13 @@
           "journal": "Clinical medicine insights. Case reports",
           "year": 2021,
           "doi": "10.1177/1179547621999409",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/33746520/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/33746520/",
+          "authorship": {
+            "position": 3,
+            "total": 4,
+            "isFirst": false,
+            "isLast": true
+          }
         },
         {
           "id": "33539808",
@@ -3417,7 +4270,13 @@
           "journal": "Clinical biochemistry",
           "year": 2021,
           "doi": "10.1016/j.clinbiochem.2021.01.010",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/33539808/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/33539808/",
+          "authorship": {
+            "position": 0,
+            "total": 15,
+            "isFirst": true,
+            "isLast": false
+          }
         },
         {
           "id": "34958553",
@@ -3425,7 +4284,13 @@
           "journal": "Journal of the American Society for Mass Spectrometry",
           "year": 2021,
           "doi": "10.1021/jasms.1c00215",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/34958553/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/34958553/",
+          "authorship": {
+            "position": 3,
+            "total": 4,
+            "isFirst": false,
+            "isLast": true
+          }
         },
         {
           "id": "34063568",
@@ -3433,7 +4298,13 @@
           "journal": "Molecules (Basel, Switzerland)",
           "year": 2021,
           "doi": "10.3390/molecules26092674",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/34063568/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/34063568/",
+          "authorship": {
+            "position": 1,
+            "total": 2,
+            "isFirst": false,
+            "isLast": true
+          }
         },
         {
           "id": "33826952",
@@ -3441,7 +4312,13 @@
           "journal": "Clinica chimica acta; international journal of clinical chemistry",
           "year": 2021,
           "doi": "10.1016/j.cca.2021.03.030",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/33826952/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/33826952/",
+          "authorship": {
+            "position": 4,
+            "total": 5,
+            "isFirst": false,
+            "isLast": true
+          }
         },
         {
           "id": "33086064",
@@ -3449,7 +4326,13 @@
           "journal": "Cell reports",
           "year": 2020,
           "doi": "10.1016/j.celrep.2020.108276",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/33086064/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/33086064/",
+          "authorship": {
+            "position": 4,
+            "total": 20,
+            "isFirst": false,
+            "isLast": false
+          }
         },
         {
           "id": "32791053",
@@ -3457,7 +4340,13 @@
           "journal": "Clinical biochemistry",
           "year": 2020,
           "doi": "10.1016/j.clinbiochem.2020.08.004",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/32791053/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/32791053/",
+          "authorship": {
+            "position": 5,
+            "total": 7,
+            "isFirst": false,
+            "isLast": false
+          }
         },
         {
           "id": "32534439",
@@ -3465,7 +4354,13 @@
           "journal": "iScience",
           "year": 2020,
           "doi": "10.1016/j.isci.2020.101079",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/32534439/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/32534439/",
+          "authorship": {
+            "position": 0,
+            "total": 6,
+            "isFirst": true,
+            "isLast": false
+          }
         },
         {
           "id": "32100854",
@@ -3473,7 +4368,13 @@
           "journal": "Clinical chemistry",
           "year": 2019,
           "doi": "10.1373/clinchem.2019.307918",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/32100854/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/32100854/",
+          "authorship": {
+            "position": 0,
+            "total": 1,
+            "isFirst": true,
+            "isLast": true
+          }
         },
         {
           "id": "31516400",
@@ -3481,9 +4382,21 @@
           "journal": "Clinical proteomics",
           "year": 2019,
           "doi": "10.1186/s12014-019-9254-0",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/31516400/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/31516400/",
+          "authorship": {
+            "position": 8,
+            "total": 10,
+            "isFirst": false,
+            "isLast": false
+          }
         }
       ],
+      "authorCounts": {
+        "first": 7,
+        "last": 17,
+        "total": 35,
+        "known": 35
+      },
       "signals": {
         "positive": {
           "count": 35,
@@ -3690,7 +4603,13 @@
           "journal": "The Gerontologist",
           "year": 2025,
           "doi": "10.1093/geront/gnaf174",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/41005356/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41005356/",
+          "authorship": {
+            "position": 5,
+            "total": 8,
+            "isFirst": false,
+            "isLast": false
+          }
         },
         {
           "id": "40402154",
@@ -3698,7 +4617,13 @@
           "journal": "Journal of gerontological social work",
           "year": 2025,
           "doi": "10.1080/01634372.2025.2504071",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/40402154/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40402154/",
+          "authorship": {
+            "position": 1,
+            "total": 3,
+            "isFirst": false,
+            "isLast": false
+          }
         },
         {
           "id": "40832662",
@@ -3706,9 +4631,21 @@
           "journal": "Lancet regional health. Americas",
           "year": 2025,
           "doi": "10.1016/j.lana.2025.101207",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/40832662/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40832662/",
+          "authorship": {
+            "position": 0,
+            "total": 2,
+            "isFirst": true,
+            "isLast": false
+          }
         }
       ],
+      "authorCounts": {
+        "first": 1,
+        "last": 0,
+        "total": 3,
+        "known": 3
+      },
       "signals": {
         "positive": {
           "count": 3,
@@ -3847,7 +4784,13 @@
           "journal": "Implementation science communications",
           "year": 2025,
           "doi": "10.1186/s43058-025-00733-w",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/40235015/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40235015/",
+          "authorship": {
+            "position": 0,
+            "total": 7,
+            "isFirst": true,
+            "isLast": false
+          }
         },
         {
           "id": "40727858",
@@ -3855,7 +4798,13 @@
           "journal": "PRiMER (Leawood, Kan.)",
           "year": 2025,
           "doi": "10.22454/PRiMER.2025.634340",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/40727858/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40727858/",
+          "authorship": {
+            "position": 1,
+            "total": 4,
+            "isFirst": false,
+            "isLast": false
+          }
         },
         {
           "id": "40305464",
@@ -3863,7 +4812,13 @@
           "journal": "PLOS global public health",
           "year": 2025,
           "doi": "10.1371/journal.pgph.0003011",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/40305464/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40305464/",
+          "authorship": {
+            "position": 8,
+            "total": 12,
+            "isFirst": false,
+            "isLast": false
+          }
         },
         {
           "id": "38317629",
@@ -3871,7 +4826,13 @@
           "journal": "Cancer epidemiology, biomarkers & prevention : a publication of the American Association for Cancer Research, cosponsored by the American Society of Preventive Oncology",
           "year": 2024,
           "doi": "10.1158/1055-9965.EPI-23-1212",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/38317629/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38317629/",
+          "authorship": {
+            "position": 10,
+            "total": 11,
+            "isFirst": false,
+            "isLast": true
+          }
         },
         {
           "id": "38443823",
@@ -3879,7 +4840,13 @@
           "journal": "BMC public health",
           "year": 2024,
           "doi": "10.1186/s12889-024-18206-5",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/38443823/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38443823/",
+          "authorship": {
+            "position": 0,
+            "total": 7,
+            "isFirst": true,
+            "isLast": false
+          }
         },
         {
           "id": "38613474",
@@ -3887,7 +4854,13 @@
           "journal": "Journal of adolescent and young adult oncology",
           "year": 2024,
           "doi": "10.1089/jayao.2024.0011",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/38613474/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38613474/",
+          "authorship": {
+            "position": 4,
+            "total": 9,
+            "isFirst": false,
+            "isLast": false
+          }
         },
         {
           "id": "38292027",
@@ -3895,7 +4868,13 @@
           "journal": "Preventive medicine reports",
           "year": 2024,
           "doi": "10.1016/j.pmedr.2024.102599",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/38292027/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38292027/",
+          "authorship": {
+            "position": 11,
+            "total": 14,
+            "isFirst": false,
+            "isLast": false
+          }
         },
         {
           "id": "37933120",
@@ -3903,7 +4882,13 @@
           "journal": "Health promotion practice",
           "year": 2023,
           "doi": "10.1177/15248399231208990",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/37933120/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/37933120/",
+          "authorship": {
+            "position": 2,
+            "total": 7,
+            "isFirst": false,
+            "isLast": false
+          }
         },
         {
           "id": "38081672",
@@ -3911,9 +4896,21 @@
           "journal": "BMJ open",
           "year": 2023,
           "doi": "10.1136/bmjopen-2023-078212",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/38081672/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38081672/",
+          "authorship": {
+            "position": 0,
+            "total": 4,
+            "isFirst": true,
+            "isLast": false
+          }
         }
       ],
+      "authorCounts": {
+        "first": 3,
+        "last": 1,
+        "total": 9,
+        "known": 9
+      },
       "signals": {
         "positive": {
           "count": 9,

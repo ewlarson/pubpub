@@ -153,6 +153,39 @@ a:hover {
   align-items: end;
 }
 
+.active-filters {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  margin-top: 1.2rem;
+}
+
+.chip-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.chip {
+  border: 1px solid var(--line);
+  background: #f7f9fc;
+  color: var(--accent-strong);
+  border-radius: 999px;
+  padding: 0.3rem 0.75rem;
+  font-size: 0.8rem;
+  font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  cursor: pointer;
+}
+
+.chip.is-active {
+  border-color: var(--accent);
+  background: rgba(31, 92, 167, 0.12);
+  color: var(--accent);
+}
+
 .field {
   display: grid;
   gap: 0.45rem;
@@ -201,7 +234,7 @@ a:hover {
 .table {
   width: 100%;
   border-collapse: collapse;
-  min-width: 820px;
+  min-width: 980px;
 }
 
 .table th,
@@ -238,6 +271,72 @@ a:hover {
   align-items: center;
   gap: 0.5rem;
   flex-wrap: wrap;
+}
+
+.program-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+}
+
+.program-pill {
+  border: 1px solid var(--line);
+  background: #f7f9fc;
+  color: var(--accent-strong);
+  border-radius: 999px;
+  padding: 0.2rem 0.6rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.program-pill:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+.program-pill.is-active {
+  border-color: var(--accent);
+  background: rgba(31, 92, 167, 0.12);
+  color: var(--accent);
+}
+
+.sparkline {
+  display: flex;
+  align-items: flex-end;
+  gap: 2px;
+  height: 34px;
+}
+
+.spark-bar {
+  width: 6px;
+  background: rgba(31, 92, 167, 0.2);
+  border-radius: 3px;
+  transition: background 150ms ease;
+}
+
+.spark-bar.is-active {
+  background: var(--accent);
+}
+
+.sparkline-range {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.65rem;
+  color: var(--muted);
+  margin-top: 0.25rem;
+  font-variant-numeric: tabular-nums;
+}
+
+.author-counts {
+  display: grid;
+  gap: 0.25rem;
+  font-size: 0.85rem;
+  color: var(--muted);
+}
+
+.author-counts strong {
+  color: var(--ink);
 }
 
 .copy-link {
@@ -377,13 +476,13 @@ a:hover {
 }
 
 .pub-table {
-  min-width: 860px;
+  min-width: 1020px;
   padding: 0.7rem 1rem 1.2rem;
 }
 
 .pub-grid {
   display: grid;
-  grid-template-columns: 120px 70px minmax(260px, 1.5fr) minmax(320px, 2.1fr) 70px;
+  grid-template-columns: 120px 70px 110px minmax(240px, 1.4fr) minmax(320px, 2.2fr) 70px;
   gap: 1rem;
   align-items: start;
   padding: 0.55rem 0;
@@ -422,6 +521,15 @@ a:hover {
 .pub-head-year,
 .pub-year {
   text-align: right;
+}
+
+.pub-head-authorship,
+.pub-authorship {
+  text-align: center;
+}
+
+.pub-authorship {
+  font-weight: 600;
 }
 
 .pub-head-doi {
