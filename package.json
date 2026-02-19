@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build:data": "node scripts/build-publications.mjs",
+    "build:grants": "node scripts/build-grants.mjs",
     "build": "vite build",
     "preview": "vite preview"
   },

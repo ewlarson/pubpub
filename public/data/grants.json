@@ -1,0 +1,506 @@
+{
+  "updated": "2026-02-19",
+  "source": "NIH RePORTER API",
+  "faculty": [
+    {
+      "id": "haynes-david",
+      "name": "David Haynes",
+      "department": "University of Minnesota",
+      "programs": [
+        "KAP"
+      ],
+      "reporterUrl": "",
+      "grants": [
+        {
+          "id": "5R42CA295106-02",
+          "title": "ConnectedNest: a digital platform connecting individuals with cancer to social care",
+          "role": "Not listed",
+          "amount": 925504,
+          "startDate": "2024-09-20",
+          "endDate": "2026-08-31",
+          "fiscalYear": 2025,
+          "url": "https://reporter.nih.gov/project-details/11195638",
+          "coreProjectNum": "R42CA295106"
+        },
+        {
+          "id": "1R42CA295106-01",
+          "title": "ConnectedNest: a digital platform connecting individuals with cancer to social care",
+          "role": "Not listed",
+          "amount": 954983,
+          "startDate": "2024-09-20",
+          "endDate": "2026-08-31",
+          "fiscalYear": 2024,
+          "url": "https://reporter.nih.gov/project-details/11003527",
+          "coreProjectNum": "R42CA295106"
+        }
+      ]
+    },
+    {
+      "id": "monica-campo-patino-mcampo-umn-edu",
+      "name": "Monica Campo Patino",
+      "department": "University of Minnesota",
+      "programs": [
+        "K-R01"
+      ],
+      "reporterUrl": "",
+      "grants": [
+        {
+          "id": "5K08AI130266-06",
+          "title": "Class 1 Histone Deacetylases  Regulate Innate Immune Resistance to Mycobacterium tuberculosis Infection",
+          "role": "Contact PI",
+          "amount": 189324,
+          "startDate": "2018-08-23",
+          "endDate": "2024-07-31",
+          "fiscalYear": 2022,
+          "url": "https://reporter.nih.gov/project-details/10471810",
+          "coreProjectNum": "K08AI130266"
+        },
+        {
+          "id": "7K08AI130266-05",
+          "title": "Class 1 Histone Deacetylases  Regulate Innate Immune Resistance to Mycobacterium tuberculosis Infection",
+          "role": "Contact PI",
+          "amount": 144576,
+          "startDate": "2018-08-23",
+          "endDate": "2023-07-31",
+          "fiscalYear": 2021,
+          "url": "https://reporter.nih.gov/project-details/10550098",
+          "coreProjectNum": "K08AI130266"
+        },
+        {
+          "id": "5K08AI130266-03",
+          "title": "Class 1 Histone Deacetylases  Regulate Innate Immune Resistance to Mycobacterium tuberculosis Infection",
+          "role": "Contact PI",
+          "amount": 189324,
+          "startDate": "2018-08-23",
+          "endDate": "2023-07-31",
+          "fiscalYear": 2020,
+          "url": "https://reporter.nih.gov/project-details/9966881",
+          "coreProjectNum": "K08AI130266"
+        },
+        {
+          "id": "5K08AI130266-02",
+          "title": "Class 1 Histone Deacetylases  Regulate Innate Immune Resistance to Mycobacterium tuberculosis Infection",
+          "role": "Contact PI",
+          "amount": 189324,
+          "startDate": "2018-08-23",
+          "endDate": "2023-07-31",
+          "fiscalYear": 2019,
+          "url": "https://reporter.nih.gov/project-details/9768318",
+          "coreProjectNum": "K08AI130266"
+        },
+        {
+          "id": "1K08AI130266-01A1",
+          "title": "Class 1 Histone Deacetylases  Regulate Innate Immune Resistance to Mycobacterium tuberculosis Infection",
+          "role": "Contact PI",
+          "amount": 189324,
+          "startDate": "2018-08-23",
+          "endDate": "2023-07-31",
+          "fiscalYear": 2018,
+          "url": "https://reporter.nih.gov/project-details/9451642",
+          "coreProjectNum": "K08AI130266"
+        }
+      ]
+    },
+    {
+      "id": "ida-fonkoue-fonko001-umn-edu",
+      "name": "Ida Fonkoue",
+      "department": "University of Minnesota",
+      "programs": [
+        "K-R01",
+        "KL2/K12"
+      ],
+      "reporterUrl": "",
+      "grants": [
+        {
+          "id": "5R03HL174817-02",
+          "title": "Longitudinal changes in vascular and autonomic function in premenopausal women with PTSD",
+          "role": "Not listed",
+          "amount": 106636,
+          "startDate": "2024-09-17",
+          "endDate": "2026-07-31",
+          "fiscalYear": 2025,
+          "url": "https://reporter.nih.gov/project-details/11193972",
+          "coreProjectNum": "R03HL174817"
+        },
+        {
+          "id": "1R03HL174817-01",
+          "title": "Longitudinal changes in vascular and autonomic function in premenopausal women with PTSD",
+          "role": "Not listed",
+          "amount": 106636,
+          "startDate": "2024-09-17",
+          "endDate": "2026-07-31",
+          "fiscalYear": 2024,
+          "url": "https://reporter.nih.gov/project-details/10950226",
+          "coreProjectNum": "R03HL174817"
+        },
+        {
+          "id": "5K01HL161027-04",
+          "title": "Autonomic and Vascular Mechanisms of Cardiovascular Risk in Women with Post-traumatic Stress Disorder (PTSD)",
+          "role": "Not listed",
+          "amount": 132204,
+          "startDate": "2022-04-01",
+          "endDate": "2026-03-31",
+          "fiscalYear": 2025,
+          "url": "https://reporter.nih.gov/project-details/11046513",
+          "coreProjectNum": "K01HL161027"
+        },
+        {
+          "id": "5K01HL161027-03",
+          "title": "Autonomic and Vascular Mechanisms of Cardiovascular Risk in Women with Post-traumatic Stress Disorder (PTSD)",
+          "role": "Not listed",
+          "amount": 132204,
+          "startDate": "2022-04-01",
+          "endDate": "2026-03-31",
+          "fiscalYear": 2024,
+          "url": "https://reporter.nih.gov/project-details/10807067",
+          "coreProjectNum": "K01HL161027"
+        },
+        {
+          "id": "5K01HL161027-02",
+          "title": "Autonomic and Vascular Mechanisms of Cardiovascular Risk in Women with Post-traumatic Stress Disorder (PTSD)",
+          "role": "Not listed",
+          "amount": 132204,
+          "startDate": "2022-04-01",
+          "endDate": "2026-03-31",
+          "fiscalYear": 2023,
+          "url": "https://reporter.nih.gov/project-details/10596476",
+          "coreProjectNum": "K01HL161027"
+        },
+        {
+          "id": "1K01HL161027-01",
+          "title": "Autonomic and Vascular Mechanisms of Cardiovascular Risk in Women with Post-traumatic Stress Disorder (PTSD)",
+          "role": "Not listed",
+          "amount": 132204,
+          "startDate": "2022-04-01",
+          "endDate": "2026-03-31",
+          "fiscalYear": 2022,
+          "url": "https://reporter.nih.gov/project-details/10350237",
+          "coreProjectNum": "K01HL161027"
+        }
+      ]
+    },
+    {
+      "id": "arif-hamid-hamid008-umn-edu",
+      "name": "Arif Hamid",
+      "department": "University of Minnesota",
+      "programs": [
+        "K-R01"
+      ],
+      "reporterUrl": "",
+      "grants": [
+        {
+          "id": "2P50MH119569-06",
+          "title": "The role of spatiotemporal dopamine coordination in disrupted state representation processes in mice",
+          "role": "Not listed",
+          "amount": 297090,
+          "startDate": "2020-04-01",
+          "endDate": "2030-04-30",
+          "fiscalYear": 2025,
+          "url": "https://reporter.nih.gov/project-details/11109961",
+          "coreProjectNum": "P50MH119569"
+        }
+      ]
+    },
+    {
+      "id": "asha-hassan-asha-umn-edu",
+      "name": "Asha Hassan",
+      "department": "University of Minnesota",
+      "programs": [
+        "KAP"
+      ],
+      "reporterUrl": "",
+      "grants": []
+    },
+    {
+      "id": "kaja-sarah",
+      "name": "Sarah Kaja",
+      "department": "University of Minnesota",
+      "programs": [
+        "KAP"
+      ],
+      "reporterUrl": "",
+      "grants": []
+    },
+    {
+      "id": "jesse-kowalski-kowal225-umn-edu",
+      "name": "Jesse Kowalski",
+      "department": "University of Minnesota",
+      "programs": [
+        "KAP"
+      ],
+      "reporterUrl": "",
+      "grants": []
+    },
+    {
+      "id": "nathan-mesfin-mesfin-umn-edu",
+      "name": "Nathan Mesfin",
+      "department": "University of Minnesota",
+      "programs": [
+        "KAP"
+      ],
+      "reporterUrl": "",
+      "grants": []
+    },
+    {
+      "id": "jean-paul-noel-noelx071-umn-edu",
+      "name": "Jean-Paul Noel",
+      "department": "University of Minnesota",
+      "programs": [
+        "K-R01"
+      ],
+      "reporterUrl": "",
+      "grants": [
+        {
+          "id": "5R00NS128075-04",
+          "title": "Neural and Computational Architecture for Complex Navigation and Subjective Self-Location",
+          "role": "Contact PI",
+          "amount": 224101,
+          "startDate": "2023-05-01",
+          "endDate": "2027-11-30",
+          "fiscalYear": 2026,
+          "url": "https://reporter.nih.gov/project-details/11299032",
+          "coreProjectNum": "R00NS128075"
+        },
+        {
+          "id": "4R00NS128075-03",
+          "title": "Neural and Computational Architecture for Complex Navigation and Subjective Self-Location",
+          "role": "Contact PI",
+          "amount": 224101,
+          "startDate": "2023-05-01",
+          "endDate": "2027-11-30",
+          "fiscalYear": 2025,
+          "url": "https://reporter.nih.gov/project-details/11081912",
+          "coreProjectNum": "R00NS128075"
+        },
+        {
+          "id": "5K99NS128075-02",
+          "title": "Neural and Computational Architecture for Complex Navigation and Subjective Self-Location",
+          "role": "Contact PI",
+          "amount": 126415,
+          "startDate": "2023-05-01",
+          "endDate": "2024-11-30",
+          "fiscalYear": 2024,
+          "url": "https://reporter.nih.gov/project-details/10814991",
+          "coreProjectNum": "K99NS128075"
+        },
+        {
+          "id": "1K99NS128075-01A1",
+          "title": "Neural and Computational Architecture for Complex Navigation and Subjective Self-Location",
+          "role": "Contact PI",
+          "amount": 126900,
+          "startDate": "2023-05-01",
+          "endDate": "2025-04-30",
+          "fiscalYear": 2023,
+          "url": "https://reporter.nih.gov/project-details/10664227",
+          "coreProjectNum": "K99NS128075"
+        }
+      ]
+    },
+    {
+      "id": "oludare-odumade-oduma002-umn-edu",
+      "name": "Oludare Odumade",
+      "department": "University of Minnesota",
+      "programs": [
+        "KAP"
+      ],
+      "reporterUrl": "",
+      "grants": []
+    },
+    {
+      "id": "ebiere-okah-ebiere-umn-edu",
+      "name": "Ebiere Okah",
+      "department": "University of Minnesota",
+      "programs": [
+        "KAP"
+      ],
+      "reporterUrl": "",
+      "grants": []
+    },
+    {
+      "id": "edgar-pe-a-penax025-umn-edu",
+      "name": "Edgar Peña",
+      "department": "University of Minnesota",
+      "programs": [
+        "KAP"
+      ],
+      "reporterUrl": "",
+      "grants": []
+    },
+    {
+      "id": "gianna-rea-sandin-reasa002-umn-edu",
+      "name": "Gianna Rea-Sandin",
+      "department": "University of Minnesota",
+      "programs": [
+        "KAP"
+      ],
+      "reporterUrl": "",
+      "grants": [
+        {
+          "id": "1F31HD103374-01A1",
+          "title": "Novel measures of culture and their relation to self-regulation in middle childhood",
+          "role": "Not listed",
+          "amount": 43883,
+          "startDate": "2021-06-01",
+          "endDate": "2022-04-30",
+          "fiscalYear": 2021,
+          "url": "https://reporter.nih.gov/project-details/10233099",
+          "coreProjectNum": "F31HD103374"
+        }
+      ]
+    },
+    {
+      "id": "sabrina-scroggins-sscroggi-d-umn-edu",
+      "name": "Sabrina Scroggins",
+      "department": "University of Minnesota",
+      "programs": [
+        "K-R01",
+        "KL2/K12"
+      ],
+      "reporterUrl": "",
+      "grants": [
+        {
+          "id": "5K01HL155240-05",
+          "title": "Testing the efficacy of regulatory dendritic cell treatment in the prevention of preeclampsia",
+          "role": "Not listed",
+          "amount": 150525,
+          "startDate": "2021-07-01",
+          "endDate": "2026-06-30",
+          "fiscalYear": 2025,
+          "url": "https://reporter.nih.gov/project-details/11133029",
+          "coreProjectNum": "K01HL155240"
+        },
+        {
+          "id": "5K01HL155240-04",
+          "title": "Testing the efficacy of regulatory dendritic cell treatment in the prevention of preeclampsia",
+          "role": "Not listed",
+          "amount": 150525,
+          "startDate": "2021-07-01",
+          "endDate": "2026-06-30",
+          "fiscalYear": 2024,
+          "url": "https://reporter.nih.gov/project-details/10890000",
+          "coreProjectNum": "K01HL155240"
+        },
+        {
+          "id": "5K01HL155240-03",
+          "title": "Testing the efficacy of regulatory dendritic cell treatment in the prevention of preeclampsia",
+          "role": "Not listed",
+          "amount": 150525,
+          "startDate": "2021-07-01",
+          "endDate": "2026-06-30",
+          "fiscalYear": 2023,
+          "url": "https://reporter.nih.gov/project-details/10687022",
+          "coreProjectNum": "K01HL155240"
+        },
+        {
+          "id": "7K01HL155240-02",
+          "title": "Testing the efficacy of regulatory dendritic cell treatment in the prevention of preeclampsia",
+          "role": "Not listed",
+          "amount": 150525,
+          "startDate": "2021-07-01",
+          "endDate": "2026-06-30",
+          "fiscalYear": 2022,
+          "url": "https://reporter.nih.gov/project-details/10675361",
+          "coreProjectNum": "K01HL155240"
+        },
+        {
+          "id": "1K01HL155240-01",
+          "title": "Testing the efficacy of regulatory dendritic cell treatment in the prevention of preeclampsia",
+          "role": "Not listed",
+          "amount": 148542,
+          "startDate": "2021-07-01",
+          "endDate": "2022-05-18",
+          "fiscalYear": 2021,
+          "url": "https://reporter.nih.gov/project-details/10104797",
+          "coreProjectNum": "K01HL155240"
+        }
+      ]
+    },
+    {
+      "id": "stefani-thomas-stefanit-umn-edu",
+      "name": "Stefani Thomas",
+      "department": "University of Minnesota",
+      "programs": [
+        "KAP"
+      ],
+      "reporterUrl": "",
+      "grants": [
+        {
+          "id": "1R21CA288922-01A1",
+          "title": "Preclinical development and validation of targeted mass spectrometry assays for serous ovarian cancer diagnosis",
+          "role": "Contact PI",
+          "amount": 386700,
+          "startDate": "2025-07-07",
+          "endDate": "2027-06-30",
+          "fiscalYear": 2025,
+          "url": "https://reporter.nih.gov/project-details/11114309",
+          "coreProjectNum": "R21CA288922"
+        },
+        {
+          "id": "5R21CA287351-02",
+          "title": "Characterize the metabolic landscape of ARID1A-mutated ovarian cancer",
+          "role": "PI",
+          "amount": 158653,
+          "startDate": "2024-12-01",
+          "endDate": "2026-11-30",
+          "fiscalYear": 2026,
+          "url": "https://reporter.nih.gov/project-details/11237566",
+          "coreProjectNum": "R21CA287351"
+        },
+        {
+          "id": "1R21CA287351-01A1",
+          "title": "Characterize the metabolic landscape of ARID1A-mutated ovarian cancer",
+          "role": "PI",
+          "amount": 212013,
+          "startDate": "2024-12-01",
+          "endDate": "2026-11-30",
+          "fiscalYear": 2025,
+          "url": "https://reporter.nih.gov/project-details/11031554",
+          "coreProjectNum": "R21CA287351"
+        }
+      ]
+    },
+    {
+      "id": "cliff-whetung-cwhetung-d-umn-edu",
+      "name": "Cliff Whetung",
+      "department": "University of Minnesota",
+      "programs": [
+        "KAP"
+      ],
+      "reporterUrl": "",
+      "grants": [
+        {
+          "id": "5R36AG078781-02",
+          "title": "Weathering the Storm of Cognitive Inequities: Testing the Minority Stress and Cognition Model with Indigenous Older Adults",
+          "role": "Not listed",
+          "amount": 61611,
+          "startDate": "2022-07-15",
+          "endDate": "2024-06-03",
+          "fiscalYear": 2023,
+          "url": "https://reporter.nih.gov/project-details/10663384",
+          "coreProjectNum": "R36AG078781"
+        },
+        {
+          "id": "1R36AG078781-01",
+          "title": "Weathering the Storm of Cognitive Inequities: Testing the Minority Stress and Cognition Model with Indigenous Older Adults",
+          "role": "Not listed",
+          "amount": 67781,
+          "startDate": "2022-07-15",
+          "endDate": "2024-06-03",
+          "fiscalYear": 2022,
+          "url": "https://reporter.nih.gov/project-details/10510949",
+          "coreProjectNum": "R36AG078781"
+        }
+      ]
+    },
+    {
+      "id": "serena-xiong-xiong455-umn-edu",
+      "name": "Serena Xiong",
+      "department": "University of Minnesota",
+      "programs": [
+        "KAP"
+      ],
+      "reporterUrl": "",
+      "grants": []
+    }
+  ]
+}

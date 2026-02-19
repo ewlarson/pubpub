@@ -25,6 +25,8 @@ npm run preview
 
 Publication data lives in `public/data/publications.json` and is loaded at runtime. Update that file, commit, and the GitHub Pages workflow will rebuild and deploy.
 
+Grant data lives in `public/data/grants.json` and is loaded in the Grants tab. Update that file to refresh the grant dashboard.
+
 ### Building data from PubMed
 
 There is a Node script that reads `data/CTSI Faculty - Sheet1.csv`, queries PubMed E-utilities, and writes `public/data/publications.json`:
@@ -43,6 +45,25 @@ PUB_YEAR_START=2025
 PUB_YEAR_END=2025
 PUB_VALIDATE_AFFILIATION=true
 PUB_USE_INITIALS=true
+```
+
+### Building data from NIH RePORTER
+
+There is a Node script that reads `data/CTSI Faculty - Sheet1.csv`, queries the NIH RePORTER API, and writes `public/data/grants.json`:
+
+```bash
+npm run build:grants
+```
+
+Optional environment variables (add to `.env.local` if desired):
+
+```bash
+REPORTER_ORG_NAMES=University of Minnesota|UNIV OF MINNESOTA
+REPORTER_FISCAL_YEARS=2024,2025
+REPORTER_DELAY_MS=1200
+REPORTER_API_URL=https://api.reporter.nih.gov/v2/projects/search
+REPORTER_DEFAULT_ORG=University of Minnesota
+REPORTER_PAGE_LIMIT=500
 ```
 
 Notes:
@@ -104,6 +125,34 @@ Minimal schema:
           "year": 2026,
           "doi": "10.xxxx/xxxx",
           "url": "https://..."
+        }
+      ]
+    }
+  ]
+}
+```
+
+Grant schema (for `public/data/grants.json`):
+
+```json
+{
+  "updated": "YYYY-MM-DD",
+  "source": "optional string",
+  "faculty": [
+    {
+      "id": "unique-id",
+      "name": "Full Name, Credentials",
+      "department": "Department or Institute",
+      "programs": ["Program name"],
+      "grants": [
+        {
+          "id": "5R01AA000000-01",
+          "title": "Project title",
+          "role": "Contact PI",
+          "amount": 250000,
+          "startDate": "2024-07-01",
+          "endDate": "2025-06-30",
+          "url": "https://reporter.nih.gov/project-details/...."
         }
       ]
     }
