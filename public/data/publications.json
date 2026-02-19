@@ -6109,6 +6109,20 @@
           }
         },
         {
+          "id": "38324188",
+          "title": "Higher arterial stiffness and blunted vagal control of the heart in young women with compared to without a clinical diagnosis of PTSD.",
+          "journal": "Clinical autonomic research : official journal of the Clinical Autonomic Research Society",
+          "year": 2024,
+          "doi": "10.1007/s10286-024-01014-7",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38324188/",
+          "authorship": {
+            "position": 6,
+            "total": 11,
+            "isFirst": false,
+            "isLast": false
+          }
+        },
+        {
           "id": "38853937",
           "title": "Trajectory Modeling and Response Prediction in Transcranial Magnetic Stimulation for Depression.",
           "journal": "medRxiv : the preprint server for health sciences",
@@ -6238,12 +6252,12 @@
       "authorCounts": {
         "first": 3,
         "last": 1,
-        "total": 11,
-        "known": 11
+        "total": 12,
+        "known": 12
       },
       "signals": {
         "positive": {
-          "count": 11,
+          "count": 12,
           "yearRange": {
             "min": 2018,
             "max": 2024
@@ -6267,13 +6281,17 @@
             },
             {
               "year": 2024,
-              "count": 4
+              "count": 5
             }
           ],
           "topJournals": [
             {
               "name": "Journal of affective disorders",
               "count": 3
+            },
+            {
+              "name": "Clinical autonomic research : official journal of the Clinical Autonomic Research Society",
+              "count": 1
             },
             {
               "name": "Frontiers in psychiatry",
@@ -6326,15 +6344,15 @@
               "count": 6
             },
             {
+              "name": "clinical",
+              "count": 4
+            },
+            {
               "name": "disorder",
               "count": 4
             },
             {
               "name": "adolescents",
-              "count": 3
-            },
-            {
-              "name": "clinical",
               "count": 3
             },
             {
@@ -6364,11 +6382,11 @@
               "count": 7
             },
             {
-              "name": "Joseph Wels",
-              "count": 4
+              "name": "Kathryn R Cullen",
+              "count": 5
             },
             {
-              "name": "Kathryn R Cullen",
+              "name": "Joseph Wels",
               "count": 4
             },
             {
@@ -15014,6 +15032,62 @@
           }
         },
         {
+          "id": "39280091",
+          "title": "Fast Scalable and Accurate Discovery of DAGs Using the Best Order Score Search and Grow-Shrink Trees.",
+          "journal": "Advances in neural information processing systems",
+          "year": 2024,
+          "doi": "",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39280091/",
+          "authorship": {
+            "position": 3,
+            "total": 5,
+            "isFirst": false,
+            "isLast": false
+          }
+        },
+        {
+          "id": "39147294",
+          "title": "tDCS-enhanced cognitive training improves attention and alters connectivity in control and somatomotor networks: A triple blind study.",
+          "journal": "NeuroImage",
+          "year": 2024,
+          "doi": "10.1016/j.neuroimage.2024.120792",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39147294/",
+          "authorship": {
+            "position": 5,
+            "total": 9,
+            "isFirst": false,
+            "isLast": false
+          }
+        },
+        {
+          "id": "37750607",
+          "title": "Are we really targeting and stimulating DLPFC by placing transcranial electrical stimulation (tES) electrodes over F3/F4?",
+          "journal": "Human brain mapping",
+          "year": 2023,
+          "doi": "10.1002/hbm.26492",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/37750607/",
+          "authorship": {
+            "position": 2,
+            "total": 7,
+            "isFirst": false,
+            "isLast": false
+          }
+        },
+        {
+          "id": "37348702",
+          "title": "Frontal tDCS reduces alcohol relapse rates by increasing connections from left dorsolateral prefrontal cortex to addiction networks.",
+          "journal": "Brain stimulation",
+          "year": 2023,
+          "doi": "10.1016/j.brs.2023.06.011",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/37348702/",
+          "authorship": {
+            "position": 0,
+            "total": 8,
+            "isFirst": true,
+            "isLast": false
+          }
+        },
+        {
           "id": "37415080",
           "title": "Relating white matter microstructure in theoretically defined addiction networks to relapse in alcohol use disorder.",
           "journal": "Cerebral cortex (New York, N.Y. : 1991)",
@@ -15025,6 +15099,34 @@
             "total": 8,
             "isFirst": false,
             "isLast": true
+          }
+        },
+        {
+          "id": "35149435",
+          "title": "Differential extrinsic brain network connectivity and social cognitive task-specific demands in Autism Spectrum Disorder (ASD).",
+          "journal": "Journal of psychiatric research",
+          "year": 2022,
+          "doi": "10.1016/j.jpsychires.2022.01.066",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/35149435/",
+          "authorship": {
+            "position": 1,
+            "total": 7,
+            "isFirst": false,
+            "isLast": false
+          }
+        },
+        {
+          "id": "33527998",
+          "title": "Penalized model-based clustering of fMRI data.",
+          "journal": "Biostatistics (Oxford, England)",
+          "year": 2022,
+          "doi": "10.1093/biostatistics/kxaa061",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/33527998/",
+          "authorship": {
+            "position": 2,
+            "total": 6,
+            "isFirst": false,
+            "isLast": false
           }
         },
         {
@@ -15040,143 +15142,353 @@
             "isFirst": true,
             "isLast": false
           }
+        },
+        {
+          "id": "33415334",
+          "title": "Resting State Hypoconnectivity of Reward Networks in Binge Eating Disorder.",
+          "journal": "Cerebral cortex (New York, N.Y. : 1991)",
+          "year": 2021,
+          "doi": "10.1093/cercor/bhaa369",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/33415334/",
+          "authorship": {
+            "position": 1,
+            "total": 9,
+            "isFirst": false,
+            "isLast": false
+          }
+        },
+        {
+          "id": "32865813",
+          "title": "A random covariance model for bi-level graphical modeling with application to resting-state fMRI data.",
+          "journal": "Biometrics",
+          "year": 2020,
+          "doi": "10.1111/biom.13364",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/32865813/",
+          "authorship": {
+            "position": 3,
+            "total": 6,
+            "isFirst": false,
+            "isLast": false
+          }
+        },
+        {
+          "id": "31404267",
+          "title": "Longitudinal Alterations in Prefrontal Resting Brain Connectivity in Non-Treatment-Seeking Young Adults With Cannabis Use Disorder.",
+          "journal": "Frontiers in psychiatry",
+          "year": 2019,
+          "doi": "10.3389/fpsyt.2019.00514",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/31404267/",
+          "authorship": {
+            "position": 0,
+            "total": 5,
+            "isFirst": true,
+            "isLast": false
+          }
+        },
+        {
+          "id": "31682891",
+          "title": "Neural correlates of clinical improvement in response to N-acetylcysteine in adolescents with non-suicidal self-injury.",
+          "journal": "Progress in neuro-psychopharmacology & biological psychiatry",
+          "year": 2019,
+          "doi": "10.1016/j.pnpbp.2019.109778",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/31682891/",
+          "authorship": {
+            "position": 6,
+            "total": 8,
+            "isFirst": false,
+            "isLast": false
+          }
+        },
+        {
+          "id": "30081289",
+          "title": "Brain metabolism changes in women with BPD undergoing olanzapine treatment.",
+          "journal": "Psychiatry research. Neuroimaging",
+          "year": 2018,
+          "doi": "10.1016/j.pscychresns.2018.06.015",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/30081289/",
+          "authorship": {
+            "position": 0,
+            "total": 4,
+            "isFirst": true,
+            "isLast": false
+          }
+        },
+        {
+          "id": "30514646",
+          "title": "Differential cortical thinning of auditory cortex in first episode schizophrenia: Association with auditory verbal hallucinations.",
+          "journal": "Schizophrenia research",
+          "year": 2018,
+          "doi": "10.1016/j.schres.2018.11.014",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/30514646/",
+          "authorship": {
+            "position": 1,
+            "total": 12,
+            "isFirst": false,
+            "isLast": false
+          }
+        },
+        {
+          "id": "30594068",
+          "title": "Hypoconnectivity of insular resting-state networks in adolescents with Autism Spectrum Disorder.",
+          "journal": "Psychiatry research. Neuroimaging",
+          "year": 2018,
+          "doi": "10.1016/j.pscychresns.2018.12.003",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/30594068/",
+          "authorship": {
+            "position": 1,
+            "total": 8,
+            "isFirst": false,
+            "isLast": false
+          }
+        },
+        {
+          "id": "30251758",
+          "title": "Resting state functional connectivity of networks associated with reward and habit in anorexia nervosa.",
+          "journal": "Human brain mapping",
+          "year": 2018,
+          "doi": "10.1002/hbm.24402",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/30251758/",
+          "authorship": {
+            "position": 8,
+            "total": 9,
+            "isFirst": false,
+            "isLast": true
+          }
+        },
+        {
+          "id": "26912785",
+          "title": "Adverse Effects of Cannabis on Adolescent Brain Development: A Longitudinal Study.",
+          "journal": "Cerebral cortex (New York, N.Y. : 1991)",
+          "year": 2017,
+          "doi": "10.1093/cercor/bhw015",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/26912785/",
+          "authorship": {
+            "position": 0,
+            "total": 3,
+            "isFirst": true,
+            "isLast": false
+          }
+        },
+        {
+          "id": "28616384",
+          "title": "Comparison of large-scale human brain functional and anatomical networks in schizophrenia.",
+          "journal": "NeuroImage. Clinical",
+          "year": 2017,
+          "doi": "10.1016/j.nicl.2017.05.007",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/28616384/",
+          "authorship": {
+            "position": 2,
+            "total": 5,
+            "isFirst": false,
+            "isLast": false
+          }
+        },
+        {
+          "id": "28262184",
+          "title": "Resting state synchrony in long-term abstinent alcoholics: Effects of a current major depressive disorder diagnosis.",
+          "journal": "Alcohol (Fayetteville, N.Y.)",
+          "year": 2016,
+          "doi": "10.1016/j.alcohol.2016.11.008",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/28262184/",
+          "authorship": {
+            "position": 1,
+            "total": 4,
+            "isFirst": false,
+            "isLast": false
+          }
         }
       ],
       "authorCounts": {
-        "first": 1,
-        "last": 1,
-        "total": 3,
-        "known": 3
+        "first": 5,
+        "last": 2,
+        "total": 20,
+        "known": 20
       },
       "signals": {
         "positive": {
-          "count": 3,
+          "count": 20,
           "yearRange": {
-            "min": 2022,
+            "min": 2016,
             "max": 2024
           },
           "yearCounts": [
             {
-              "year": 2022,
+              "year": 2016,
               "count": 1
+            },
+            {
+              "year": 2017,
+              "count": 2
+            },
+            {
+              "year": 2018,
+              "count": 4
+            },
+            {
+              "year": 2019,
+              "count": 2
+            },
+            {
+              "year": 2020,
+              "count": 1
+            },
+            {
+              "year": 2021,
+              "count": 1
+            },
+            {
+              "year": 2022,
+              "count": 3
             },
             {
               "year": 2023,
-              "count": 1
+              "count": 3
             },
             {
               "year": 2024,
-              "count": 1
+              "count": 3
             }
           ],
           "topJournals": [
             {
               "name": "Cerebral cortex (New York, N.Y. : 1991)",
+              "count": 4
+            },
+            {
+              "name": "Human brain mapping",
               "count": 2
             },
             {
+              "name": "Psychiatry research. Neuroimaging",
+              "count": 2
+            },
+            {
+              "name": "Advances in neural information processing systems",
+              "count": 1
+            },
+            {
+              "name": "Alcohol (Fayetteville, N.Y.)",
+              "count": 1
+            },
+            {
+              "name": "Biometrics",
+              "count": 1
+            },
+            {
+              "name": "Biostatistics (Oxford, England)",
+              "count": 1
+            },
+            {
               "name": "Brain communications",
+              "count": 1
+            },
+            {
+              "name": "Brain stimulation",
+              "count": 1
+            },
+            {
+              "name": "Frontiers in psychiatry",
               "count": 1
             }
           ],
           "topKeywords": [
             {
-              "name": "addiction",
-              "count": 2
-            },
-            {
-              "name": "alcohol",
-              "count": 2
-            },
-            {
-              "name": "connectivity",
-              "count": 2
-            },
-            {
-              "name": "defined",
-              "count": 2
-            },
-            {
-              "name": "disorder",
-              "count": 2
-            },
-            {
               "name": "networks",
-              "count": 2
-            },
-            {
-              "name": "relapse",
-              "count": 2
+              "count": 8
             },
             {
               "name": "resting",
-              "count": 2
+              "count": 8
             },
             {
-              "name": "theoretically",
-              "count": 2
+              "name": "disorder",
+              "count": 7
             },
             {
-              "name": "use",
-              "count": 2
+              "name": "connectivity",
+              "count": 6
             },
             {
-              "name": "aberrant",
-              "count": 1
+              "name": "state",
+              "count": 6
             },
             {
-              "name": "abstinence",
-              "count": 1
+              "name": "brain",
+              "count": 5
+            },
+            {
+              "name": "addiction",
+              "count": 3
+            },
+            {
+              "name": "alcohol",
+              "count": 3
+            },
+            {
+              "name": "functional",
+              "count": 3
+            },
+            {
+              "name": "hypoconnectivity",
+              "count": 3
+            },
+            {
+              "name": "relapse",
+              "count": 3
+            },
+            {
+              "name": "treatment",
+              "count": 3
             }
           ],
           "topCoauthors": [
             {
               "name": "Kelvin O Lim",
-              "count": 2
-            },
-            {
-              "name": "A F Haynos",
-              "count": 1
-            },
-            {
-              "name": "B A Mueller",
-              "count": 1
+              "count": 15
             },
             {
               "name": "Bryon A Mueller",
-              "count": 1
+              "count": 7
             },
             {
-              "name": "C S Gilmore",
-              "count": 1
+              "name": "Kathryn R Cullen",
+              "count": 3
+            },
+            {
+              "name": "Alexander Opitz",
+              "count": 2
+            },
+            {
+              "name": "Andrew Dilernia",
+              "count": 2
+            },
+            {
+              "name": "Angela Tseng",
+              "count": 2
+            },
+            {
+              "name": "Ann F Haynos",
+              "count": 2
+            },
+            {
+              "name": "Bonnie Klimes-Dougan",
+              "count": 2
+            },
+            {
+              "name": "Carol B Peterson",
+              "count": 2
             },
             {
               "name": "Catherine S Y Chong",
-              "count": 1
+              "count": 2
             },
             {
               "name": "Christy L M Hui",
-              "count": 1
+              "count": 2
             },
             {
-              "name": "Claire Griffin",
-              "count": 1
-            },
-            {
-              "name": "Donovan J Roediger",
-              "count": 1
-            },
-            {
-              "name": "Edwin H M Lee",
-              "count": 1
-            },
-            {
-              "name": "Eric Y H Chen",
-              "count": 1
-            },
-            {
-              "name": "Frances V Marin",
-              "count": 1
+              "name": "Donovan Roediger",
+              "count": 2
             }
           ]
         },
@@ -28085,6 +28397,20 @@
           }
         },
         {
+          "id": "41711305",
+          "title": "Commentary on \"Risk factors for cement leakage after percutaneous vertebral augmentation for osteoporotic vertebral compression fractures: a meta-analysis\".",
+          "journal": "International journal of surgery (London, England)",
+          "year": 2026,
+          "doi": "10.1097/JS9.0000000000004877",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41711305/",
+          "authorship": {
+            "position": 2,
+            "total": 3,
+            "isFirst": false,
+            "isLast": true
+          }
+        },
+        {
           "id": "41697763",
           "title": "Correction to \"Tannic Acid Enhances Cold Resistance in Apis mellifera via Antioxidant Defense and Mitochondrial Oxidative Phosphorylation Activation\".",
           "journal": "Journal of agricultural and food chemistry",
@@ -28157,13 +28483,13 @@
       ],
       "authorCounts": {
         "first": 2,
-        "last": 6,
-        "total": 9,
-        "known": 9
+        "last": 7,
+        "total": 10,
+        "known": 10
       },
       "signals": {
         "positive": {
-          "count": 9,
+          "count": 10,
           "yearRange": {
             "min": 2026,
             "max": 2026
@@ -28171,7 +28497,7 @@
           "yearCounts": [
             {
               "year": 2026,
-              "count": 9
+              "count": 10
             }
           ],
           "topJournals": [
@@ -28181,6 +28507,10 @@
             },
             {
               "name": "Biomedical reports",
+              "count": 1
+            },
+            {
+              "name": "International journal of surgery (London, England)",
               "count": 1
             },
             {
@@ -28218,6 +28548,10 @@
               "count": 2
             },
             {
+              "name": "vertebral",
+              "count": 2
+            },
+            {
               "name": "acid",
               "count": 1
             },
@@ -28230,23 +28564,19 @@
               "count": 1
             },
             {
+              "name": "after",
+              "count": 1
+            },
+            {
               "name": "algorithm",
               "count": 1
             },
             {
+              "name": "analysis",
+              "count": 1
+            },
+            {
               "name": "angular",
-              "count": 1
-            },
-            {
-              "name": "antioxidant",
-              "count": 1
-            },
-            {
-              "name": "apis",
-              "count": 1
-            },
-            {
-              "name": "based",
               "count": 1
             }
           ],
@@ -28257,6 +28587,10 @@
             },
             {
               "name": "Bohan Xie",
+              "count": 1
+            },
+            {
+              "name": "Chengxiang Lei",
               "count": 1
             },
             {
@@ -28293,10 +28627,6 @@
             },
             {
               "name": "Dongming Wu",
-              "count": 1
-            },
-            {
-              "name": "Fang Fang",
               "count": 1
             }
           ]

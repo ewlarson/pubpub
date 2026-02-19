@@ -978,12 +978,42 @@ const parseFaculty = (rows) => {
     .map((row) =>
       headers.reduce((acc, header, index) => {
         acc[header] = (row[index] ?? '').trim();
-        return acc;
-      }, {})
+      return acc;
+    }, {})
     )
     .filter((record) => record.fore_name || record.last_name);
 
   const facultyMap = new Map();
+
+  const addNameVariant = (person, foreName, lastName) => {
+    const nameKey = buildNameKey(foreName, lastName);
+    if (nameKey) {
+      person.nameVariants.add(nameKey);
+    }
+  };
+
+  const addInitialStrippedVariant = (person, foreName, lastName) => {
+    const tokens = String(foreName || '')
+      .trim()
+      .split(/\s+/)
+      .filter(Boolean);
+    if (tokens.length < 2) {
+      return;
+    }
+    const firstToken = tokens[0].replace(/[^a-zA-Z]/g, '');
+    if (firstToken.length !== 1) {
+      return;
+    }
+    const remaining = tokens
+      .slice(1)
+      .map((token) => token.trim())
+      .filter(Boolean)
+      .join(' ');
+    if (!remaining) {
+      return;
+    }
+    addNameVariant(person, remaining, lastName);
+  };
 
   records.forEach((record) => {
     const idBase = record.person_id || `${record.fore_name}-${record.last_name}-${record.email}`;
@@ -1004,10 +1034,8 @@ const parseFaculty = (rows) => {
     }
 
     const person = facultyMap.get(key);
-    const nameKey = buildNameKey(record.fore_name, record.last_name);
-    if (nameKey) {
-      person.nameVariants.add(nameKey);
-    }
+    addNameVariant(person, record.fore_name, record.last_name);
+    addInitialStrippedVariant(person, record.fore_name, record.last_name);
     parseSignatureTerms(record.signature_terms).forEach((term) => person.signatureTerms.add(term));
     if (record['program']) {
       person.programs.add(record['program']);
