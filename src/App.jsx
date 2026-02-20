@@ -169,6 +169,891 @@ const formatAuthorshipLabel = (authorship) => {
   return { label, title, isKnown: true };
 };
 
+const csvEscape = (value) => {
+  let text = value === null || value === undefined ? '' : String(value);
+  if (text.includes('"')) {
+    text = text.replace(/"/g, '""');
+  }
+  if (/[",\n]/.test(text)) {
+    return `"${text}"`;
+  }
+  return text;
+};
+
+const buildCsv = (headers, rows) => {
+  const lines = [headers.map(csvEscape).join(',')];
+  rows.forEach((row) => {
+    lines.push(row.map(csvEscape).join(','));
+  });
+  return lines.join('\n');
+};
+
+const downloadCsv = (filename, headers, rows) => {
+  const csv = `\ufeff${buildCsv(headers, rows)}`;
+  const blob = new Blob([csv], { type: 'text/csv;charset=utf-8;' });
+  const url = URL.createObjectURL(blob);
+  const link = document.createElement('a');
+  link.href = url;
+  link.download = filename;
+  document.body.appendChild(link);
+  link.click();
+  document.body.removeChild(link);
+  URL.revokeObjectURL(url);
+};
+
+const buildExportFilename = (prefix, updated) => {
+  const fallback = new Date().toISOString().slice(0, 10);
+  const stamp = String(updated || fallback).trim();
+  const safeStamp = stamp
+    .replace(/[^0-9a-z-]/gi, '-')
+    .replace(/-+/g, '-')
+    .replace(/^-|-$/g, '');
+  return `${prefix}-${safeStamp || fallback}.csv`;
+};
+const joinList = (values, fallback = '—') =>
+  values && values.length ? values.filter(Boolean).join(' | ') : fallback;
+const formatFilterList = (values) => joinList(values, 'All');
+const joinComma = (values, fallback = '—') =>
+  values && values.length ? values.filter(Boolean).join(', ') : fallback;
+
+const compactNumberFormatter = new Intl.NumberFormat('en-US', {
+  notation: 'compact',
+  maximumFractionDigits: 1
+});
+
+const compactCurrencyFormatter = new Intl.NumberFormat('en-US', {
+  style: 'currency',
+  currency: 'USD',
+  notation: 'compact',
+  maximumFractionDigits: 1
+});
+
+const formatCompactNumber = (value) =>
+  Number.isFinite(value) ? compactNumberFormatter.format(value) : '—';
+
+const formatCompactCurrency = (value) =>
+  Number.isFinite(value) ? compactCurrencyFormatter.format(value) : '—';
+
+const percentFormatter = new Intl.NumberFormat('en-US', {
+  style: 'percent',
+  maximumFractionDigits: 0
+});
+
+const formatPercent = (value) =>
+  Number.isFinite(value) ? percentFormatter.format(value) : '—';
+
+const sanitizeFileToken = (value) =>
+  String(value || 'chart')
+    .trim()
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/^-+|-+$/g, '');
+
+const buildChartFilename = (title, updated, extension) => {
+  const fallback = new Date().toISOString().slice(0, 10);
+  const stamp = sanitizeFileToken(updated || fallback);
+  const base = sanitizeFileToken(title);
+  return `${base || 'chart'}-${stamp || fallback}.${extension}`;
+};
+
+const downloadBlob = (blob, filename) => {
+  const url = URL.createObjectURL(blob);
+  const link = document.createElement('a');
+  link.href = url;
+  link.download = filename;
+  document.body.appendChild(link);
+  link.click();
+  document.body.removeChild(link);
+  URL.revokeObjectURL(url);
+};
+
+const getSvgDimensions = (svgEl) => {
+  if (!svgEl) {
+    return { width: 0, height: 0 };
+  }
+  const viewBox = svgEl.viewBox?.baseVal;
+  if (viewBox && viewBox.width && viewBox.height) {
+    return { width: viewBox.width, height: viewBox.height };
+  }
+  const width = Number(svgEl.getAttribute('width')) || svgEl.getBoundingClientRect().width;
+  const height =
+    Number(svgEl.getAttribute('height')) || svgEl.getBoundingClientRect().height;
+  return { width, height };
+};
+
+const serializeSvg = (svgEl) => {
+  if (!svgEl) {
+    return '';
+  }
+  const clone = svgEl.cloneNode(true);
+  if (!clone.getAttribute('xmlns')) {
+    clone.setAttribute('xmlns', 'http://www.w3.org/2000/svg');
+  }
+  if (!clone.getAttribute('xmlns:xlink')) {
+    clone.setAttribute('xmlns:xlink', 'http://www.w3.org/1999/xlink');
+  }
+  const { width, height } = getSvgDimensions(svgEl);
+  if (width) {
+    clone.setAttribute('width', width);
+  }
+  if (height) {
+    clone.setAttribute('height', height);
+  }
+  const serializer = new XMLSerializer();
+  return serializer.serializeToString(clone);
+};
+
+const downloadSvg = (svgEl, filename) => {
+  if (!svgEl) {
+    return;
+  }
+  const svgText = serializeSvg(svgEl);
+  if (!svgText) {
+    return;
+  }
+  const blob = new Blob([svgText], { type: 'image/svg+xml;charset=utf-8' });
+  downloadBlob(blob, filename);
+};
+
+const downloadPng = (svgEl, filename, options = {}) => {
+  if (!svgEl) {
+    return;
+  }
+  const svgText = serializeSvg(svgEl);
+  if (!svgText) {
+    return;
+  }
+  const { width, height } = getSvgDimensions(svgEl);
+  if (!width || !height) {
+    return;
+  }
+  const { background = '#ffffff', scale = 2 } = options;
+  const svgBlob = new Blob([svgText], { type: 'image/svg+xml;charset=utf-8' });
+  const url = URL.createObjectURL(svgBlob);
+  const image = new Image();
+  image.onload = () => {
+    const canvas = document.createElement('canvas');
+    canvas.width = width * scale;
+    canvas.height = height * scale;
+    const context = canvas.getContext('2d');
+    if (!context) {
+      URL.revokeObjectURL(url);
+      return;
+    }
+    context.scale(scale, scale);
+    if (background) {
+      context.fillStyle = background;
+      context.fillRect(0, 0, width, height);
+    }
+    context.drawImage(image, 0, 0, width, height);
+    canvas.toBlob((blob) => {
+      if (blob) {
+        downloadBlob(blob, filename);
+      }
+      URL.revokeObjectURL(url);
+    }, 'image/png');
+  };
+  image.onerror = () => {
+    URL.revokeObjectURL(url);
+  };
+  image.src = url;
+};
+
+const trimSeries = (series, max = 12) => {
+  if (!series || series.length <= max) {
+    return series || [];
+  }
+  return series.slice(series.length - max);
+};
+
+const collapseSegments = (segments, limit = 5, otherLabel = 'Other') => {
+  const filtered = (segments || []).filter((segment) => segment.value > 0);
+  const sorted = [...filtered].sort((a, b) => b.value - a.value);
+  if (sorted.length <= limit) {
+    return sorted;
+  }
+  const top = sorted.slice(0, limit - 1);
+  const otherValue = sorted.slice(limit - 1).reduce((sum, segment) => sum + segment.value, 0);
+  return [...top, { label: otherLabel, value: otherValue }];
+};
+
+const truncateLabel = (label, max = 10) => {
+  const text = String(label || '');
+  if (text.length <= max) {
+    return text;
+  }
+  return `${text.slice(0, max - 3)}...`;
+};
+
+const getYearFromDate = (value) => {
+  if (!value) {
+    return null;
+  }
+  const match = String(value).match(/^(\d{4})/);
+  if (!match) {
+    return null;
+  }
+  const year = Number(match[1]);
+  return Number.isFinite(year) ? year : null;
+};
+
+const getGrantYear = (grant) =>
+  (Number.isFinite(grant?.fiscalYear) && grant.fiscalYear) ||
+  getYearFromDate(grant?.startDate) ||
+  getYearFromDate(grant?.endDate);
+
+const getAuthorshipCategory = (authorship) => {
+  if (!authorship) {
+    return 'Unknown';
+  }
+  if (authorship.isFirst && authorship.isLast) {
+    return 'Sole';
+  }
+  if (authorship.isFirst) {
+    return 'First';
+  }
+  if (authorship.isLast) {
+    return 'Last';
+  }
+  return 'Middle';
+};
+
+const CHART_COLORS = [
+  '#1f5ca7',
+  '#2f8bc1',
+  '#2aa58b',
+  '#f0b429',
+  '#ee6c4d',
+  '#7c8f3b'
+];
+
+const polarToCartesian = (centerX, centerY, radius, angleInDegrees) => {
+  const angleInRadians = ((angleInDegrees - 90) * Math.PI) / 180.0;
+  return {
+    x: centerX + radius * Math.cos(angleInRadians),
+    y: centerY + radius * Math.sin(angleInRadians)
+  };
+};
+
+const describeDonutArc = (centerX, centerY, outerRadius, innerRadius, startAngle, endAngle) => {
+  const outerStart = polarToCartesian(centerX, centerY, outerRadius, startAngle);
+  const outerEnd = polarToCartesian(centerX, centerY, outerRadius, endAngle);
+  const innerStart = polarToCartesian(centerX, centerY, innerRadius, endAngle);
+  const innerEnd = polarToCartesian(centerX, centerY, innerRadius, startAngle);
+  const largeArcFlag = endAngle - startAngle <= 180 ? '0' : '1';
+
+  return [
+    `M ${outerStart.x} ${outerStart.y}`,
+    `A ${outerRadius} ${outerRadius} 0 ${largeArcFlag} 1 ${outerEnd.x} ${outerEnd.y}`,
+    `L ${innerStart.x} ${innerStart.y}`,
+    `A ${innerRadius} ${innerRadius} 0 ${largeArcFlag} 0 ${innerEnd.x} ${innerEnd.y}`,
+    'Z'
+  ].join(' ');
+};
+
+const ChartCard = ({
+  title,
+  subtitle,
+  onDownloadSvg,
+  onDownloadPng,
+  actionsDisabled,
+  children,
+  legend,
+  detail
+}) => (
+  <article className="chart-card">
+    <header className="chart-head">
+      <div>
+        <p className="chart-title">{title}</p>
+        {subtitle ? <p className="chart-subtitle">{subtitle}</p> : null}
+      </div>
+      <div className="chart-actions">
+        <button
+          type="button"
+          className="chart-button"
+          onClick={onDownloadSvg}
+          disabled={actionsDisabled}
+          title="Download as SVG"
+        >
+          SVG
+        </button>
+        <button
+          type="button"
+          className="chart-button"
+          onClick={onDownloadPng}
+          disabled={actionsDisabled}
+          title="Download as PNG"
+        >
+          PNG
+        </button>
+      </div>
+    </header>
+    <div className="chart-body">{children}</div>
+    {legend}
+    {detail}
+  </article>
+);
+
+const ChartLegend = ({ segments, total, hiddenMap = {}, onToggle }) => (
+  <div className="chart-legend">
+    {segments.map((segment, index) => {
+      const isHidden = Boolean(hiddenMap[segment.label]);
+      return (
+        <button
+          type="button"
+          key={`${segment.label}-${index}`}
+          className={`legend-item ${isHidden ? 'is-muted' : ''}`}
+          onClick={onToggle ? () => onToggle(segment.label) : undefined}
+          aria-pressed={!isHidden}
+          disabled={!onToggle}
+          title={onToggle ? 'Toggle segment' : undefined}
+        >
+          <span className="legend-swatch" style={{ '--swatch': segment.color }} />
+          <span>{segment.label}</span>
+          <strong>{formatPercent(total ? segment.value / total : 0)}</strong>
+        </button>
+      );
+    })}
+  </div>
+);
+
+const ChartDetail = ({ title, lines, onClear }) => {
+  if (!lines?.length) {
+    return null;
+  }
+  return (
+    <div className="chart-detail">
+      <div className="chart-detail-head">
+        <p className="chart-detail-title">{title}</p>
+        {onClear ? (
+          <button type="button" className="chart-detail-clear" onClick={onClear}>
+            Clear
+          </button>
+        ) : null}
+      </div>
+      <div className="chart-detail-lines">
+        {lines.map((line, index) => (
+          <div key={`${line}-${index}`} className="chart-detail-line">
+            {line}
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+};
+
+const LineChart = ({
+  id,
+  data,
+  width = 520,
+  height = 220,
+  accent = '#1f5ca7',
+  ariaLabel,
+  valueFormatter = formatCompactNumber,
+  onSelect,
+  selectedLabel
+}) => {
+  if (!data || data.length === 0) {
+    return null;
+  }
+  const containerRef = useRef(null);
+  const [tooltip, setTooltip] = useState(null);
+  const [hoveredLabel, setHoveredLabel] = useState(null);
+  const padding = { top: 28, right: 24, bottom: 36, left: 40 };
+  const plotWidth = width - padding.left - padding.right;
+  const plotHeight = height - padding.top - padding.bottom;
+  const maxValue = Math.max(...data.map((entry) => entry.value), 1);
+  const step = data.length > 1 ? plotWidth / (data.length - 1) : 0;
+  const baseline = padding.top + plotHeight;
+  const points = data.map((entry, index) => {
+    const x =
+      data.length > 1 ? padding.left + index * step : padding.left + plotWidth / 2;
+    const y = baseline - (entry.value / maxValue) * plotHeight;
+    return { x, y, label: entry.label, value: entry.value };
+  });
+  const linePath = points
+    .map((point, index) => `${index === 0 ? 'M' : 'L'} ${point.x} ${point.y}`)
+    .join(' ');
+  const areaPath = [
+    `M ${points[0].x} ${baseline}`,
+    ...points.map((point) => `L ${point.x} ${point.y}`),
+    `L ${points[points.length - 1].x} ${baseline}`,
+    'Z'
+  ].join(' ');
+  const gridYValues = [0, 0.5, 1];
+  const activeLabel = hoveredLabel ?? selectedLabel;
+
+  const getTooltipPosition = (event) => {
+    const bounds = containerRef.current?.getBoundingClientRect();
+    if (!bounds) {
+      return null;
+    }
+    const targetBounds = event.currentTarget?.getBoundingClientRect?.();
+    let x = event.clientX - bounds.left;
+    let y = event.clientY - bounds.top;
+    if (!event.clientX && targetBounds) {
+      x = targetBounds.left + targetBounds.width / 2 - bounds.left;
+      y = targetBounds.top - bounds.top;
+    }
+    x = Math.min(Math.max(x, 16), bounds.width - 16);
+    y = Math.min(Math.max(y, 16), bounds.height - 16);
+    return { x, y };
+  };
+
+  const showTooltip = (event, entry) => {
+    const position = getTooltipPosition(event);
+    if (!position) {
+      return;
+    }
+    setTooltip({
+      ...position,
+      label: entry.label,
+      value: entry.value
+    });
+  };
+
+  const clearTooltip = () => {
+    setTooltip(null);
+    setHoveredLabel(null);
+  };
+
+  return (
+    <div className="chart-shell" ref={containerRef} onMouseLeave={clearTooltip}>
+      <svg
+        ref={id?.ref}
+        className="chart-svg"
+        width={width}
+        height={height}
+        viewBox={`0 0 ${width} ${height}`}
+        role="img"
+        aria-label={ariaLabel}
+      >
+        <defs>
+          <linearGradient
+            id={`line-gradient-${id?.name || 'line'}`}
+            x1="0"
+            x2="0"
+            y1="0"
+            y2="1"
+          >
+            <stop offset="0%" stopColor={accent} stopOpacity="0.35" />
+            <stop offset="100%" stopColor={accent} stopOpacity="0" />
+          </linearGradient>
+        </defs>
+        <rect width="100%" height="100%" rx="16" fill="#ffffff" />
+        <g stroke="#e6ebf1" strokeWidth="1">
+          {gridYValues.map((value) => {
+            const y = baseline - value * plotHeight;
+            return (
+              <line
+                key={value}
+                x1={padding.left}
+                x2={width - padding.right}
+                y1={y}
+                y2={y}
+              />
+            );
+          })}
+        </g>
+        <path
+          d={areaPath}
+          fill={`url(#line-gradient-${id?.name || 'line'})`}
+          className="chart-area"
+        />
+        <path d={linePath} fill="none" stroke={accent} strokeWidth="2.5" className="chart-line" />
+        {points.map((point) => {
+          const isActive = activeLabel === point.label;
+          const isDimmed = activeLabel && !isActive;
+          return (
+              <circle
+                key={point.label}
+                cx={point.x}
+                cy={point.y}
+                r={isActive ? 5 : 4}
+                fill={accent}
+                className={`chart-point ${isActive ? 'is-active' : ''} ${isDimmed ? 'is-dimmed' : ''}`}
+                tabIndex={0}
+                role="button"
+                aria-label={`${point.label}: ${valueFormatter(point.value)}`}
+                onMouseEnter={(event) => {
+                  setHoveredLabel(point.label);
+                  showTooltip(event, point);
+                }}
+              onMouseMove={(event) => showTooltip(event, point)}
+              onFocus={(event) => {
+                setHoveredLabel(point.label);
+                showTooltip(event, point);
+              }}
+              onBlur={clearTooltip}
+              onClick={() => onSelect?.(point)}
+              onKeyDown={(event) => {
+                if (event.key === 'Enter' || event.key === ' ') {
+                  event.preventDefault();
+                  onSelect?.(point);
+                }
+              }}
+            />
+          );
+        })}
+        <text
+          x={padding.left}
+          y={height - 12}
+          fontFamily="IBM Plex Sans, system-ui, sans-serif"
+          fontSize="11"
+          fill="#5a6872"
+        >
+          {points[0].label}
+        </text>
+        <text
+          x={width - padding.right}
+          y={height - 12}
+          textAnchor="end"
+          fontFamily="IBM Plex Sans, system-ui, sans-serif"
+          fontSize="11"
+          fill="#5a6872"
+        >
+          {points[points.length - 1].label}
+        </text>
+        <text
+          x={width - padding.right}
+          y={padding.top - 8}
+          textAnchor="end"
+          fontFamily="IBM Plex Sans, system-ui, sans-serif"
+          fontSize="12"
+          fill="#1f5ca7"
+        >
+          {valueFormatter(maxValue)}
+        </text>
+      </svg>
+      {tooltip ? (
+        <div className="chart-tooltip" style={{ left: tooltip.x, top: tooltip.y }}>
+          <div className="chart-tooltip-title">{tooltip.label}</div>
+          <div className="chart-tooltip-value">{valueFormatter(tooltip.value)}</div>
+        </div>
+      ) : null}
+    </div>
+  );
+};
+
+const BarChart = ({
+  id,
+  data,
+  width = 520,
+  height = 220,
+  accent = '#1f5ca7',
+  ariaLabel,
+  valueFormatter = formatCompactNumber,
+  labelFormatter = truncateLabel,
+  onSelect,
+  selectedLabel
+}) => {
+  if (!data || data.length === 0) {
+    return null;
+  }
+  const containerRef = useRef(null);
+  const [tooltip, setTooltip] = useState(null);
+  const [hoveredLabel, setHoveredLabel] = useState(null);
+  const padding = { top: 28, right: 20, bottom: 44, left: 42 };
+  const plotWidth = width - padding.left - padding.right;
+  const plotHeight = height - padding.top - padding.bottom;
+  const maxValue = Math.max(...data.map((entry) => entry.value), 1);
+  const gap = data.length > 1 ? Math.min(18, plotWidth / (data.length * 2)) : 0;
+  const barWidth =
+    data.length > 0 ? (plotWidth - gap * (data.length - 1)) / data.length : plotWidth;
+  const activeLabel = hoveredLabel ?? selectedLabel;
+
+  const getTooltipPosition = (event) => {
+    const bounds = containerRef.current?.getBoundingClientRect();
+    if (!bounds) {
+      return null;
+    }
+    const targetBounds = event.currentTarget?.getBoundingClientRect?.();
+    let x = event.clientX - bounds.left;
+    let y = event.clientY - bounds.top;
+    if (!event.clientX && targetBounds) {
+      x = targetBounds.left + targetBounds.width / 2 - bounds.left;
+      y = targetBounds.top - bounds.top;
+    }
+    x = Math.min(Math.max(x, 16), bounds.width - 16);
+    y = Math.min(Math.max(y, 16), bounds.height - 16);
+    return { x, y };
+  };
+
+  const showTooltip = (event, entry) => {
+    const position = getTooltipPosition(event);
+    if (!position) {
+      return;
+    }
+    setTooltip({
+      ...position,
+      label: entry.label,
+      value: entry.value
+    });
+  };
+
+  const clearTooltip = () => {
+    setTooltip(null);
+    setHoveredLabel(null);
+  };
+
+  return (
+    <div className="chart-shell" ref={containerRef} onMouseLeave={clearTooltip}>
+      <svg
+        ref={id?.ref}
+        className="chart-svg"
+        width={width}
+        height={height}
+        viewBox={`0 0 ${width} ${height}`}
+        role="img"
+        aria-label={ariaLabel}
+      >
+        <defs>
+          <linearGradient
+            id={`bar-gradient-${id?.name || 'bar'}`}
+            x1="0"
+            x2="0"
+            y1="0"
+            y2="1"
+          >
+            <stop offset="0%" stopColor={accent} stopOpacity="0.95" />
+            <stop offset="100%" stopColor={accent} stopOpacity="0.5" />
+          </linearGradient>
+        </defs>
+        <rect width="100%" height="100%" rx="16" fill="#ffffff" />
+        <line
+          x1={padding.left}
+          y1={padding.top + plotHeight}
+          x2={width - padding.right}
+          y2={padding.top + plotHeight}
+          stroke="#dce2ea"
+          strokeWidth="1"
+        />
+        {data.map((entry, index) => {
+          const heightRatio = entry.value / maxValue;
+          const barHeight = heightRatio * plotHeight;
+          const x = padding.left + index * (barWidth + gap);
+          const y = padding.top + (plotHeight - barHeight);
+          const isActive = activeLabel === entry.label;
+          const isDimmed = activeLabel && !isActive;
+          return (
+            <g key={`${entry.label}-${index}`}>
+              <rect
+                x={x}
+                y={y}
+                width={barWidth}
+                height={barHeight}
+                rx="6"
+                fill={`url(#bar-gradient-${id?.name || 'bar'})`}
+                className={`chart-bar ${isActive ? 'is-active' : ''} ${isDimmed ? 'is-dimmed' : ''}`}
+                tabIndex={0}
+                role="button"
+                aria-label={`${entry.label}: ${valueFormatter(entry.value)}`}
+                onMouseEnter={(event) => {
+                  setHoveredLabel(entry.label);
+                  showTooltip(event, entry);
+                }}
+                onMouseMove={(event) => showTooltip(event, entry)}
+                onFocus={(event) => {
+                  setHoveredLabel(entry.label);
+                  showTooltip(event, entry);
+                }}
+                onBlur={clearTooltip}
+                onClick={() => onSelect?.(entry)}
+                onKeyDown={(event) => {
+                  if (event.key === 'Enter' || event.key === ' ') {
+                    event.preventDefault();
+                    onSelect?.(entry);
+                  }
+                }}
+              />
+              <text
+                x={x + barWidth / 2}
+                y={y - 6}
+                textAnchor="middle"
+                fontFamily="IBM Plex Sans, system-ui, sans-serif"
+                fontSize="11"
+                fill="#1f5ca7"
+                className={`chart-bar-label ${isDimmed ? 'is-dimmed' : ''}`}
+              >
+                {valueFormatter(entry.value)}
+              </text>
+              <text
+                x={x + barWidth / 2}
+                y={height - 14}
+                textAnchor="middle"
+                fontFamily="IBM Plex Sans, system-ui, sans-serif"
+                fontSize="11"
+                fill="#5a6872"
+                className={`chart-bar-label ${isDimmed ? 'is-dimmed' : ''}`}
+              >
+                {labelFormatter(entry.label)}
+              </text>
+            </g>
+          );
+        })}
+      </svg>
+      {tooltip ? (
+        <div className="chart-tooltip" style={{ left: tooltip.x, top: tooltip.y }}>
+          <div className="chart-tooltip-title">{tooltip.label}</div>
+          <div className="chart-tooltip-value">{valueFormatter(tooltip.value)}</div>
+        </div>
+      ) : null}
+    </div>
+  );
+};
+
+const DonutChart = ({
+  id,
+  segments,
+  width = 520,
+  height = 220,
+  ariaLabel,
+  centerLabel,
+  centerValue,
+  onSelect,
+  selectedLabel
+}) => {
+  if (!segments || segments.length === 0) {
+    return null;
+  }
+  const total = segments.reduce((sum, segment) => sum + segment.value, 0);
+  if (!total) {
+    return null;
+  }
+  const containerRef = useRef(null);
+  const [tooltip, setTooltip] = useState(null);
+  const [hoveredLabel, setHoveredLabel] = useState(null);
+  const centerX = width / 2;
+  const centerY = height / 2;
+  const outerRadius = Math.min(width, height) / 2 - 24;
+  const innerRadius = outerRadius * 0.6;
+  let currentAngle = 0;
+  const activeLabel = hoveredLabel ?? selectedLabel;
+
+  const getTooltipPosition = (event) => {
+    const bounds = containerRef.current?.getBoundingClientRect();
+    if (!bounds) {
+      return null;
+    }
+    const targetBounds = event.currentTarget?.getBoundingClientRect?.();
+    let x = event.clientX - bounds.left;
+    let y = event.clientY - bounds.top;
+    if (!event.clientX && targetBounds) {
+      x = targetBounds.left + targetBounds.width / 2 - bounds.left;
+      y = targetBounds.top - bounds.top;
+    }
+    x = Math.min(Math.max(x, 16), bounds.width - 16);
+    y = Math.min(Math.max(y, 16), bounds.height - 16);
+    return { x, y };
+  };
+
+  const showTooltip = (event, segment) => {
+    const position = getTooltipPosition(event);
+    if (!position) {
+      return;
+    }
+    setTooltip({
+      ...position,
+      label: segment.label,
+      value: segment.value,
+      percent: formatPercent(segment.value / total)
+    });
+  };
+
+  const clearTooltip = () => {
+    setTooltip(null);
+    setHoveredLabel(null);
+  };
+
+  return (
+    <div className="chart-shell" ref={containerRef} onMouseLeave={clearTooltip}>
+      <svg
+        ref={id?.ref}
+        className="chart-svg"
+        width={width}
+        height={height}
+        viewBox={`0 0 ${width} ${height}`}
+        role="img"
+        aria-label={ariaLabel}
+      >
+        <rect width="100%" height="100%" rx="16" fill="#ffffff" />
+        {segments.map((segment, index) => {
+          const startAngle = currentAngle;
+          const sweep = total ? (segment.value / total) * 360 : 0;
+          const endAngle = currentAngle + sweep;
+          currentAngle = endAngle;
+          const color = segment.color || CHART_COLORS[index % CHART_COLORS.length];
+          const isActive = activeLabel === segment.label;
+          const isDimmed = activeLabel && !isActive;
+          return (
+            <path
+              key={`${segment.label}-${segment.value}`}
+              d={describeDonutArc(
+                centerX,
+                centerY,
+                outerRadius,
+                innerRadius,
+                startAngle,
+                endAngle
+              )}
+              fill={color}
+              className={`chart-arc ${isActive ? 'is-active' : ''} ${isDimmed ? 'is-dimmed' : ''}`}
+              tabIndex={0}
+              role="button"
+              aria-label={`${segment.label}: ${formatPercent(segment.value / total)}`}
+              onMouseEnter={(event) => {
+                setHoveredLabel(segment.label);
+                showTooltip(event, segment);
+              }}
+              onMouseMove={(event) => showTooltip(event, segment)}
+              onFocus={(event) => {
+                setHoveredLabel(segment.label);
+                showTooltip(event, segment);
+              }}
+              onBlur={clearTooltip}
+              onClick={() => onSelect?.(segment)}
+              onKeyDown={(event) => {
+                if (event.key === 'Enter' || event.key === ' ') {
+                  event.preventDefault();
+                  onSelect?.(segment);
+                }
+              }}
+            />
+          );
+        })}
+        <circle cx={centerX} cy={centerY} r={innerRadius} fill="#ffffff" />
+        <text
+          x={centerX}
+          y={centerY - 6}
+          textAnchor="middle"
+          fontFamily="IBM Plex Sans, system-ui, sans-serif"
+          fontSize="12"
+          fill="#5a6872"
+        >
+          {centerLabel}
+        </text>
+        <text
+          x={centerX}
+          y={centerY + 14}
+          textAnchor="middle"
+          fontFamily="IBM Plex Sans, system-ui, sans-serif"
+          fontSize="18"
+          fontWeight="600"
+          fill="#1f5ca7"
+        >
+          {centerValue}
+        </text>
+      </svg>
+      {tooltip ? (
+        <div className="chart-tooltip" style={{ left: tooltip.x, top: tooltip.y }}>
+          <div className="chart-tooltip-title">{tooltip.label}</div>
+          <div className="chart-tooltip-value">{tooltip.percent}</div>
+        </div>
+      ) : null}
+    </div>
+  );
+};
+
 export default function App() {
   const [pubData, setPubData] = useState({ updated: '', source: '', faculty: [] });
   const [grantData, setGrantData] = useState({ updated: '', source: '', faculty: [] });
@@ -189,6 +1074,44 @@ export default function App() {
   const [copiedId, setCopiedId] = useState(null);
   const [stickyActive, setStickyActive] = useState(false);
   const stickyRef = useRef(null);
+  const pubTrendRef = useRef(null);
+  const pubProgramRef = useRef(null);
+  const pubAuthorshipRef = useRef(null);
+  const grantFundingRef = useRef(null);
+  const grantTypeRef = useRef(null);
+  const grantTopRef = useRef(null);
+  const [chartSelections, setChartSelections] = useState({
+    pubTrend: null,
+    pubProgram: null,
+    pubAuthorship: null,
+    grantYear: null,
+    grantType: null,
+    grantTop: null
+  });
+  const [hiddenAuthorship, setHiddenAuthorship] = useState({});
+  const [hiddenGrantTypes, setHiddenGrantTypes] = useState({});
+
+  const setSelection = (key, value) => {
+    setChartSelections((current) => ({ ...current, [key]: value }));
+  };
+
+  const clearSelection = (key) => {
+    setChartSelections((current) => ({ ...current, [key]: null }));
+  };
+
+  const toggleHiddenAuthorship = (label) => {
+    setHiddenAuthorship((current) => ({
+      ...current,
+      [label]: !current[label]
+    }));
+  };
+
+  const toggleHiddenGrantTypes = (label) => {
+    setHiddenGrantTypes((current) => ({
+      ...current,
+      [label]: !current[label]
+    }));
+  };
 
   const handleTabChange = (nextTab) => {
     setTab(nextTab);
@@ -346,6 +1269,16 @@ export default function App() {
     setQuery('');
     setProgramFilters([]);
     setGrantTypeFilters([]);
+    setChartSelections({
+      pubTrend: null,
+      pubProgram: null,
+      pubAuthorship: null,
+      grantYear: null,
+      grantType: null,
+      grantTop: null
+    });
+    setHiddenAuthorship({});
+    setHiddenGrantTypes({});
     if (tab === 'publications') {
       setPubSortBy('name');
       if (yearBounds.min && yearBounds.max) {
@@ -369,6 +1302,59 @@ export default function App() {
       url.searchParams.delete('tab');
     }
     window.history.replaceState({}, '', url.toString());
+  };
+
+  const handleSelectPublicationYear = (entry) => {
+    if (!entry?.label) {
+      return;
+    }
+    setSelection('pubTrend', entry);
+    setYearMin(String(entry.label));
+    setYearMax(String(entry.label));
+  };
+
+  const handleSelectProgramSpotlight = (entry) => {
+    if (!entry?.label) {
+      return;
+    }
+    setSelection('pubProgram', entry);
+    if (entry.label !== 'Other') {
+      toggleProgramFilter(entry.label);
+    }
+  };
+
+  const handleSelectAuthorship = (segment) => {
+    if (!segment?.label) {
+      return;
+    }
+    setSelection('pubAuthorship', segment);
+  };
+
+  const handleSelectGrantYear = (entry) => {
+    if (!entry?.label) {
+      return;
+    }
+    setSelection('grantYear', entry);
+  };
+
+  const handleSelectGrantType = (segment) => {
+    if (!segment?.label) {
+      return;
+    }
+    setSelection('grantType', segment);
+    toggleGrantTypeFilter(segment.label);
+  };
+
+  const handleSelectTopFaculty = (entry) => {
+    if (!entry?.label) {
+      return;
+    }
+    setSelection('grantTop', entry);
+    setQuery(entry.label);
+    const match = filteredGrants.find((member) => member.name === entry.label);
+    if (match) {
+      setOpenId(match.id);
+    }
   };
 
   const filteredPublications = useMemo(() => {
@@ -596,6 +1582,452 @@ export default function App() {
     return filteredGrants.some((member) => member.hasAmount);
   }, [filteredGrants]);
 
+  const allPublications = useMemo(
+    () => filteredPublications.flatMap((member) => member.filteredPublications),
+    [filteredPublications]
+  );
+
+  const publicationSeries = useMemo(
+    () => trimSeries(buildYearSeries(allPublications, activeYearRange), 12),
+    [allPublications, activeYearRange]
+  );
+
+  const publicationTrendData = useMemo(
+    () =>
+      publicationSeries.map((entry) => ({
+        label: entry.year,
+        value: entry.count
+      })),
+    [publicationSeries]
+  );
+
+  const programSeries = useMemo(() => {
+    const counts = new Map();
+    filteredPublications.forEach((member) => {
+      const count = member.filteredPublications.length;
+      if (!count) {
+        return;
+      }
+      const programs = member.programs?.length ? member.programs : ['Unlisted'];
+      programs.forEach((program) => {
+        counts.set(program, (counts.get(program) || 0) + count);
+      });
+    });
+    return Array.from(counts, ([label, value]) => ({ label, value })).sort(
+      (a, b) => b.value - a.value
+    );
+  }, [filteredPublications]);
+
+  const topProgramSeries = useMemo(() => {
+    if (!programSeries.length) {
+      return [];
+    }
+    const top = programSeries.slice(0, 5);
+    if (programSeries.length <= 5) {
+      return top;
+    }
+    const otherValue = programSeries
+      .slice(5)
+      .reduce((sum, entry) => sum + entry.value, 0);
+    return [...top, { label: 'Other', value: otherValue }];
+  }, [programSeries]);
+
+  const authorshipSegments = useMemo(() => {
+    const totals = {
+      sole: 0,
+      first: 0,
+      last: 0,
+      middle: 0,
+      unknown: 0
+    };
+    allPublications.forEach((pub) => {
+      if (!pub?.authorship) {
+        totals.unknown += 1;
+        return;
+      }
+      if (pub.authorship.isFirst && pub.authorship.isLast) {
+        totals.sole += 1;
+        return;
+      }
+      if (pub.authorship.isFirst) {
+        totals.first += 1;
+        return;
+      }
+      if (pub.authorship.isLast) {
+        totals.last += 1;
+        return;
+      }
+      totals.middle += 1;
+    });
+    const segments = [
+      { label: 'Sole', value: totals.sole },
+      { label: 'First', value: totals.first },
+      { label: 'Last', value: totals.last },
+      { label: 'Middle', value: totals.middle },
+      { label: 'Unknown', value: totals.unknown }
+    ].filter((segment) => segment.value > 0);
+    return segments.map((segment, index) => ({
+      ...segment,
+      color: CHART_COLORS[index % CHART_COLORS.length]
+    }));
+  }, [allPublications]);
+
+  const authorshipTotal = useMemo(
+    () => authorshipSegments.reduce((sum, segment) => sum + segment.value, 0),
+    [authorshipSegments]
+  );
+
+  const visibleAuthorshipSegments = useMemo(
+    () => authorshipSegments.filter((segment) => !hiddenAuthorship[segment.label]),
+    [authorshipSegments, hiddenAuthorship]
+  );
+
+  const visibleAuthorshipTotal = useMemo(
+    () => visibleAuthorshipSegments.reduce((sum, segment) => sum + segment.value, 0),
+    [visibleAuthorshipSegments]
+  );
+
+  const grantYearSeries = useMemo(() => {
+    const totals = new Map();
+    const counts = new Map();
+    filteredGrants.forEach((member) => {
+      (member.filteredGrants || []).forEach((grant) => {
+        const year = getGrantYear(grant);
+        if (!year) {
+          return;
+        }
+        counts.set(year, (counts.get(year) || 0) + 1);
+        if (Number.isFinite(grant.amount)) {
+          totals.set(year, (totals.get(year) || 0) + grant.amount);
+        }
+      });
+    });
+    const years = Array.from(
+      new Set([...totals.keys(), ...counts.keys()])
+    ).sort((a, b) => a - b);
+    return years.map((year) => ({
+      year,
+      total: totals.get(year) || 0,
+      count: counts.get(year) || 0
+    }));
+  }, [filteredGrants]);
+
+  const grantYearSeriesTrimmed = useMemo(
+    () => trimSeries(grantYearSeries, 8),
+    [grantYearSeries]
+  );
+
+  const grantYearData = useMemo(
+    () =>
+      grantYearSeriesTrimmed.map((entry) => ({
+        label: entry.year,
+        value: hasGrantAmounts ? entry.total : entry.count
+      })),
+    [grantYearSeriesTrimmed, hasGrantAmounts]
+  );
+
+  const grantTypeSegments = useMemo(() => {
+    const counts = new Map();
+    filteredGrants.forEach((member) => {
+      member.groupedGrants.forEach((group) => {
+        const label = group.type || 'Other';
+        counts.set(label, (counts.get(label) || 0) + 1);
+      });
+    });
+    const collapsed = collapseSegments(
+      Array.from(counts, ([label, value]) => ({ label, value })),
+      5,
+      'Other'
+    );
+    return collapsed.map((segment, index) => ({
+      ...segment,
+      color: CHART_COLORS[index % CHART_COLORS.length]
+    }));
+  }, [filteredGrants]);
+
+  const grantTypeTotal = useMemo(
+    () => grantTypeSegments.reduce((sum, segment) => sum + segment.value, 0),
+    [grantTypeSegments]
+  );
+
+  const visibleGrantTypeSegments = useMemo(
+    () => grantTypeSegments.filter((segment) => !hiddenGrantTypes[segment.label]),
+    [grantTypeSegments, hiddenGrantTypes]
+  );
+
+  const visibleGrantTypeTotal = useMemo(
+    () => visibleGrantTypeSegments.reduce((sum, segment) => sum + segment.value, 0),
+    [visibleGrantTypeSegments]
+  );
+
+  useEffect(() => {
+    if (
+      chartSelections.pubAuthorship &&
+      hiddenAuthorship[chartSelections.pubAuthorship.label]
+    ) {
+      clearSelection('pubAuthorship');
+    }
+  }, [chartSelections.pubAuthorship, hiddenAuthorship]);
+
+  useEffect(() => {
+    if (
+      chartSelections.grantType &&
+      hiddenGrantTypes[chartSelections.grantType.label]
+    ) {
+      clearSelection('grantType');
+    }
+  }, [chartSelections.grantType, hiddenGrantTypes]);
+
+  const topGrantFaculty = useMemo(() => {
+    const ranked = filteredGrants.map((member) => ({
+      label: member.name,
+      value: hasGrantAmounts ? member.totalAmount || 0 : member.grantCount
+    }));
+    return ranked
+      .filter((entry) => entry.value > 0)
+      .sort((a, b) => b.value - a.value)
+      .slice(0, 5);
+  }, [filteredGrants, hasGrantAmounts]);
+
+  const hasPublicationTrend = publicationTrendData.some((entry) => entry.value > 0);
+  const hasProgramSeries = topProgramSeries.some((entry) => entry.value > 0);
+  const hasAuthorship = visibleAuthorshipSegments.some((entry) => entry.value > 0);
+  const hasGrantYears = grantYearData.some((entry) => entry.value > 0);
+  const hasGrantTypes = visibleGrantTypeSegments.some((entry) => entry.value > 0);
+  const hasGrantTop = topGrantFaculty.some((entry) => entry.value > 0);
+  const authorshipAllHidden =
+    authorshipSegments.length > 0 && visibleAuthorshipSegments.length === 0;
+  const grantTypesAllHidden =
+    grantTypeSegments.length > 0 && visibleGrantTypeSegments.length === 0;
+
+  const publicationTrendDetail = useMemo(() => {
+    const selection = chartSelections.pubTrend;
+    if (!selection) {
+      return null;
+    }
+    const year = selection.label;
+    const pubsInYear = allPublications.filter((pub) => pub.year === year);
+    const total = pubsInYear.length;
+    const facultyCounts = filteredPublications
+      .map((member) => {
+        const count = member.filteredPublications.filter((pub) => pub.year === year).length;
+        return { name: member.name, count };
+      })
+      .filter((entry) => entry.count > 0)
+      .sort((a, b) => b.count - a.count)
+      .slice(0, 3)
+      .map((entry) => `${entry.name} (${entry.count})`);
+    const journalCounts = new Map();
+    pubsInYear.forEach((pub) => {
+      const journal = pub.journal || 'Unlisted';
+      journalCounts.set(journal, (journalCounts.get(journal) || 0) + 1);
+    });
+    const topJournals = Array.from(journalCounts.entries())
+      .sort((a, b) => b[1] - a[1])
+      .slice(0, 3)
+      .map(([journal, count]) => `${journal} (${count})`);
+    return {
+      title: `Year ${year}`,
+      lines: [
+        `Total publications: ${formatCompactNumber(total)}`,
+        `Top faculty: ${joinComma(facultyCounts)}`,
+        `Top journals: ${joinComma(topJournals)}`
+      ]
+    };
+  }, [chartSelections.pubTrend, allPublications, filteredPublications]);
+
+  const programSpotlightDetail = useMemo(() => {
+    const selection = chartSelections.pubProgram;
+    if (!selection) {
+      return null;
+    }
+    const programLabel = selection.label;
+    const isOther = programLabel === 'Other';
+    const otherPrograms = programSeries.slice(5).map((entry) => entry.label);
+    const activePrograms = isOther ? otherPrograms : [programLabel];
+    const members = filteredPublications.filter((member) => {
+      const programs = member.programs?.length ? member.programs : ['Unlisted'];
+      return programs.some((program) => activePrograms.includes(program));
+    });
+    const total = members.reduce(
+      (sum, member) => sum + member.filteredPublications.length,
+      0
+    );
+    const topFaculty = members
+      .map((member) => ({
+        name: member.name,
+        count: member.filteredPublications.length
+      }))
+      .filter((entry) => entry.count > 0)
+      .sort((a, b) => b.count - a.count)
+      .slice(0, 3)
+      .map((entry) => `${entry.name} (${entry.count})`);
+    const otherNote = isOther
+      ? `Programs grouped: ${joinComma(otherPrograms.slice(0, 4))}${
+          otherPrograms.length > 4 ? ` (+${otherPrograms.length - 4} more)` : ''
+        }`
+      : `Faculty in program: ${members.length}`;
+    return {
+      title: `Program ${programLabel}`,
+      lines: [
+        `Publications tagged ${programLabel}: ${formatCompactNumber(total)}`,
+        `Top faculty: ${joinComma(topFaculty)}`,
+        otherNote
+      ]
+    };
+  }, [chartSelections.pubProgram, filteredPublications, programSeries]);
+
+  const authorshipDetail = useMemo(() => {
+    const selection = chartSelections.pubAuthorship;
+    if (!selection) {
+      return null;
+    }
+    const label = selection.label;
+    const count = selection.value;
+    const pubs = allPublications.filter(
+      (pub) => getAuthorshipCategory(pub.authorship) === label
+    );
+    const latestYear = pubs.length
+      ? Math.max(...pubs.map((pub) => pub.year || 0))
+      : null;
+    const topFaculty = filteredPublications
+      .map((member) => {
+        const tally = member.filteredPublications.filter(
+          (pub) => getAuthorshipCategory(pub.authorship) === label
+        ).length;
+        return { name: member.name, count: tally };
+      })
+      .filter((entry) => entry.count > 0)
+      .sort((a, b) => b.count - a.count)
+      .slice(0, 3)
+      .map((entry) => `${entry.name} (${entry.count})`);
+    return {
+      title: `${label} authorship`,
+      lines: [
+        `Publications: ${formatCompactNumber(count)}`,
+        `Share of total: ${formatPercent(count / authorshipTotal)}`,
+        `Top faculty: ${joinComma(topFaculty)}`,
+        `Latest year: ${latestYear || '—'}`
+      ]
+    };
+  }, [chartSelections.pubAuthorship, allPublications, filteredPublications, authorshipTotal]);
+
+  const grantYearDetail = useMemo(() => {
+    const selection = chartSelections.grantYear;
+    if (!selection) {
+      return null;
+    }
+    const year = selection.label;
+    let totalAmount = 0;
+    let awardCount = 0;
+    const facultyTotals = filteredGrants.map((member) => {
+      let memberAmount = 0;
+      let memberCount = 0;
+      (member.filteredGrants || []).forEach((grant) => {
+        if (getGrantYear(grant) !== year) {
+          return;
+        }
+        memberCount += 1;
+        if (Number.isFinite(grant.amount)) {
+          memberAmount += grant.amount;
+        }
+        if (Number.isFinite(grant.amount)) {
+          totalAmount += grant.amount;
+        }
+        awardCount += 1;
+      });
+      return {
+        name: member.name,
+        amount: memberAmount,
+        count: memberCount
+      };
+    });
+    const topFaculty = facultyTotals
+      .filter((entry) => (hasGrantAmounts ? entry.amount > 0 : entry.count > 0))
+      .sort((a, b) =>
+        hasGrantAmounts ? b.amount - a.amount : b.count - a.count
+      )
+      .slice(0, 3)
+      .map((entry) =>
+        hasGrantAmounts
+          ? `${entry.name} (${formatCompactCurrency(entry.amount)})`
+          : `${entry.name} (${entry.count})`
+      );
+    const lines = [
+      hasGrantAmounts
+        ? `Total awarded: ${formatCurrency(totalAmount)}`
+        : `Awards counted: ${awardCount}`,
+      hasGrantAmounts ? `Awards counted: ${awardCount}` : null,
+      `Top faculty: ${joinComma(topFaculty)}`
+    ].filter(Boolean);
+    return {
+      title: `Fiscal year ${year}`,
+      lines
+    };
+  }, [chartSelections.grantYear, filteredGrants, hasGrantAmounts]);
+
+  const grantTypeDetail = useMemo(() => {
+    const selection = chartSelections.grantType;
+    if (!selection) {
+      return null;
+    }
+    const label = selection.label;
+    const count = selection.value;
+    const topFaculty = filteredGrants
+      .map((member) => {
+        const tally = member.groupedGrants.filter(
+          (group) => (group.type || 'Other') === label
+        ).length;
+        return { name: member.name, count: tally };
+      })
+      .filter((entry) => entry.count > 0)
+      .sort((a, b) => b.count - a.count)
+      .slice(0, 3)
+      .map((entry) => `${entry.name} (${entry.count})`);
+    return {
+      title: `${label} grants`,
+      lines: [
+        `Grants in view: ${formatCompactNumber(count)}`,
+        `Share of total: ${formatPercent(count / grantTypeTotal)}`,
+        `Top faculty: ${joinComma(topFaculty)}`
+      ]
+    };
+  }, [chartSelections.grantType, filteredGrants, grantTypeTotal]);
+
+  const grantTopDetail = useMemo(() => {
+    const selection = chartSelections.grantTop;
+    if (!selection) {
+      return null;
+    }
+    const name = selection.label;
+    const member = filteredGrants.find((entry) => entry.name === name);
+    if (!member) {
+      return null;
+    }
+    const latestEnd = member.groupedGrants.reduce((latest, grant) => {
+      const end = grant.latestEnd || '';
+      return end > latest ? end : latest;
+    }, '');
+    const topAwards = [...member.groupedGrants]
+      .sort((a, b) => (b.totalAmount || 0) - (a.totalAmount || 0))
+      .slice(0, 3)
+      .map((group) =>
+        group.totalAmount
+          ? `${group.coreNumber} (${formatCompactCurrency(group.totalAmount)})`
+          : group.coreNumber
+      );
+    return {
+      title: name,
+      lines: [
+        hasGrantAmounts
+          ? `Total awarded: ${formatCurrency(member.totalAmount || 0)}`
+          : `Grant count: ${member.grantCount}`,
+        `Latest end date: ${latestEnd ? formatDate(latestEnd) : '—'}`,
+        `Top awards: ${joinComma(topAwards)}`
+      ]
+    };
+  }, [chartSelections.grantTop, filteredGrants, hasGrantAmounts]);
+
   const openMember = useMemo(() => {
     if (!openId) {
       return null;
@@ -642,6 +2074,211 @@ export default function App() {
   const activeFile = isPublications
     ? 'public/data/publications.json'
     : 'public/data/grants.json';
+
+  const getPublicationFilterValues = () => [
+    query.trim() || 'All',
+    yearMin ? String(yearMin) : 'All',
+    yearMax ? String(yearMax) : 'All',
+    formatFilterList(programFilters)
+  ];
+
+  const getGrantFilterValues = () => [
+    query.trim() || 'All',
+    formatFilterList(programFilters),
+    formatFilterList(grantTypeFilters)
+  ];
+
+  const handleExportSummaryCsv = () => {
+    if (isPublications) {
+      const filterHeaders = [
+        'Filter: Search',
+        'Filter: Year Min',
+        'Filter: Year Max',
+        'Filter: Programs'
+      ];
+      const filterValues = getPublicationFilterValues();
+      const headers = [
+        'Faculty',
+        'ORCID',
+        'Affiliation',
+        'Programs',
+        'Publications',
+        'Latest Year',
+        'First Authorships',
+        'Last Authorships',
+        ...filterHeaders
+      ];
+      const rows = filteredPublications.map((member) => {
+        const years = member.filteredPublications
+          .map((pub) => pub.year)
+          .filter((year) => Number.isFinite(year));
+        const latestYear = years.length ? Math.max(...years) : '—';
+        const authorCounts = getAuthorCounts(
+          member,
+          member.filteredPublications
+        );
+        return [
+          member.name || '',
+          member.orcid || '—',
+          member.department || '',
+          joinList(member.programs || []),
+          member.filteredPublications.length || 0,
+          latestYear,
+          authorCounts ? authorCounts.first ?? 0 : '—',
+          authorCounts ? authorCounts.last ?? 0 : '—',
+          ...filterValues
+        ];
+      });
+      downloadCsv(
+        buildExportFilename('publications', pubData.updated),
+        headers,
+        rows
+      );
+      return;
+    }
+
+    const filterHeaders = ['Filter: Search', 'Filter: Programs', 'Filter: Grant Types'];
+    const filterValues = getGrantFilterValues();
+    const headers = [
+      'Faculty',
+      'Affiliation',
+      'Programs',
+      'Grant Types',
+      'Grants',
+      'Total Awarded',
+      'Latest End',
+      ...filterHeaders
+    ];
+    const rows = filteredGrants.map((member) => {
+      const latestEnd = member.groupedGrants.reduce((latest, grant) => {
+        const end = grant.latestEnd || '';
+        return end > latest ? end : latest;
+      }, '');
+      return [
+        member.name || '',
+        member.department || '',
+        joinList(member.programs || []),
+        joinList(member.grantTypes || []),
+        member.grantCount ?? 0,
+        member.hasAmount ? formatCurrency(member.totalAmount) : '—',
+        latestEnd ? formatDate(latestEnd) : '—',
+        ...filterValues
+      ];
+    });
+    downloadCsv(
+      buildExportFilename('grants', grantData.updated),
+      headers,
+      rows
+    );
+  };
+
+  const handleExportDetailedCsv = () => {
+    if (isPublications) {
+      const filterHeaders = [
+        'Filter: Search',
+        'Filter: Year Min',
+        'Filter: Year Max',
+        'Filter: Programs'
+      ];
+      const filterValues = getPublicationFilterValues();
+      const headers = [
+        'Faculty',
+        'ORCID',
+        'Affiliation',
+        'Programs',
+        'PMID',
+        'Year',
+        'Authorship',
+        'Author Position',
+        'Author Count',
+        'Journal',
+        'Title',
+        'DOI',
+        'URL',
+        ...filterHeaders
+      ];
+      const rows = filteredPublications.flatMap((member) =>
+        member.filteredPublications.map((pub) => {
+          const authorship = formatAuthorshipLabel(pub.authorship);
+          const position = Number.isFinite(pub.authorship?.position)
+            ? pub.authorship.position + 1
+            : '—';
+          const total = Number.isFinite(pub.authorship?.total)
+            ? pub.authorship.total
+            : '—';
+          return [
+            member.name || '',
+            member.orcid || '—',
+            member.department || '',
+            joinList(member.programs || []),
+            pub.id || '—',
+            Number.isFinite(pub.year) ? pub.year : '—',
+            authorship.label,
+            position,
+            total,
+            pub.journal || '—',
+            pub.title || '—',
+            pub.doi || '—',
+            pub.url || '—',
+            ...filterValues
+          ];
+        })
+      );
+      downloadCsv(
+        buildExportFilename('publications-detailed', pubData.updated),
+        headers,
+        rows
+      );
+      return;
+    }
+
+    const filterHeaders = ['Filter: Search', 'Filter: Programs', 'Filter: Grant Types'];
+    const filterValues = getGrantFilterValues();
+    const headers = [
+      'Faculty',
+      'Affiliation',
+      'Programs',
+      'Grant Type',
+      'Group Number',
+      'Grant ID',
+      'Core Project #',
+      'Role',
+      'Amount',
+      'Start Date',
+      'End Date',
+      'Fiscal Year',
+      'Project Title',
+      'URL',
+      ...filterHeaders
+    ];
+    const rows = filteredGrants.flatMap((member) =>
+      (member.grants || []).map((grant) => {
+        const groupInfo = getGrantGroupInfo(grant);
+        return [
+          member.name || '',
+          member.department || '',
+          joinList(member.programs || []),
+          groupInfo.type || '—',
+          groupInfo.displayNumber || '—',
+          grant.id || '—',
+          grant.coreProjectNum || extractCoreGrantNumber(grant.id) || '—',
+          grant.role || '—',
+          Number.isFinite(grant.amount) ? grant.amount : '—',
+          grant.startDate ? formatDate(grant.startDate) : '—',
+          grant.endDate ? formatDate(grant.endDate) : '—',
+          Number.isFinite(grant.fiscalYear) ? grant.fiscalYear : '—',
+          grant.title || '—',
+          grant.url || '—',
+          ...filterValues
+        ];
+      })
+    );
+    downloadCsv(
+      buildExportFilename('grants-detailed', grantData.updated),
+      headers,
+      rows
+    );
+  };
 
   if (activeStatus === 'loading') {
     return (
@@ -745,6 +2382,22 @@ export default function App() {
           >
             Download JSON
           </a>
+          <button
+            type="button"
+            className="button"
+            onClick={handleExportSummaryCsv}
+            title="Download the current table as a summary CSV"
+          >
+            Download Summary CSV
+          </button>
+          <button
+            type="button"
+            className="button"
+            onClick={handleExportDetailedCsv}
+            title="Download the detailed rows as CSV"
+          >
+            Download Detailed CSV
+          </button>
           {activeData.source ? (
             <span className="tag">Source: {activeData.source}</span>
           ) : null}
@@ -860,6 +2513,296 @@ export default function App() {
             ) : null}
           </div>
         ) : null}
+      </section>
+
+      <section className="insights">
+        <div className="insights-head">
+          <div>
+            <p className="eyebrow">Visualization Studio</p>
+            <h2>Export-ready highlights</h2>
+            <p className="muted">
+              Download any chart as SVG or PNG for decks, docs, and reports.
+            </p>
+          </div>
+          <div className="insights-note">
+            <span className="tag">PNG + SVG exports</span>
+            <span className="tag">Auto-updates with filters</span>
+          </div>
+        </div>
+        <div className="insights-grid">
+          {isPublications ? (
+            <>
+              <ChartCard
+                title="Publication Pulse"
+                subtitle="Year-over-year publication momentum"
+                onDownloadSvg={() =>
+                  downloadSvg(
+                    pubTrendRef.current,
+                    buildChartFilename('publication-pulse', activeData.updated, 'svg')
+                  )
+                }
+                onDownloadPng={() =>
+                  downloadPng(
+                    pubTrendRef.current,
+                    buildChartFilename('publication-pulse', activeData.updated, 'png')
+                  )
+                }
+                actionsDisabled={!hasPublicationTrend}
+                detail={
+                  publicationTrendDetail ? (
+                    <ChartDetail
+                      title={publicationTrendDetail.title}
+                      lines={publicationTrendDetail.lines}
+                      onClear={() => clearSelection('pubTrend')}
+                    />
+                  ) : null
+                }
+              >
+                {hasPublicationTrend ? (
+                  <LineChart
+                    id={{ name: 'pub-pulse', ref: pubTrendRef }}
+                    data={publicationTrendData}
+                    ariaLabel="Publication counts per year"
+                    valueFormatter={formatCompactNumber}
+                    onSelect={handleSelectPublicationYear}
+                    selectedLabel={chartSelections.pubTrend?.label}
+                  />
+                ) : (
+                  <div className="chart-empty">No publication trend data available.</div>
+                )}
+              </ChartCard>
+              <ChartCard
+                title="Program Spotlight"
+                subtitle="Top programs by publication volume"
+                onDownloadSvg={() =>
+                  downloadSvg(
+                    pubProgramRef.current,
+                    buildChartFilename('program-spotlight', activeData.updated, 'svg')
+                  )
+                }
+                onDownloadPng={() =>
+                  downloadPng(
+                    pubProgramRef.current,
+                    buildChartFilename('program-spotlight', activeData.updated, 'png')
+                  )
+                }
+                actionsDisabled={!hasProgramSeries}
+                detail={
+                  programSpotlightDetail ? (
+                    <ChartDetail
+                      title={programSpotlightDetail.title}
+                      lines={programSpotlightDetail.lines}
+                      onClear={() => clearSelection('pubProgram')}
+                    />
+                  ) : null
+                }
+              >
+                {hasProgramSeries ? (
+                  <BarChart
+                    id={{ name: 'pub-programs', ref: pubProgramRef }}
+                    data={topProgramSeries}
+                    ariaLabel="Top programs by publication volume"
+                    valueFormatter={formatCompactNumber}
+                    onSelect={handleSelectProgramSpotlight}
+                    selectedLabel={chartSelections.pubProgram?.label}
+                  />
+                ) : (
+                  <div className="chart-empty">No program distribution data yet.</div>
+                )}
+              </ChartCard>
+              <ChartCard
+                title="Authorship Mix"
+                subtitle="Where CTSI faculty land on author lists"
+                onDownloadSvg={() =>
+                  downloadSvg(
+                    pubAuthorshipRef.current,
+                    buildChartFilename('authorship-mix', activeData.updated, 'svg')
+                  )
+                }
+                onDownloadPng={() =>
+                  downloadPng(
+                    pubAuthorshipRef.current,
+                    buildChartFilename('authorship-mix', activeData.updated, 'png')
+                  )
+                }
+                actionsDisabled={!hasAuthorship}
+                legend={
+                  hasAuthorship ? (
+                    <ChartLegend
+                      segments={authorshipSegments}
+                      total={authorshipTotal}
+                      hiddenMap={hiddenAuthorship}
+                      onToggle={toggleHiddenAuthorship}
+                    />
+                  ) : null
+                }
+                detail={
+                  authorshipDetail ? (
+                    <ChartDetail
+                      title={authorshipDetail.title}
+                      lines={authorshipDetail.lines}
+                      onClear={() => clearSelection('pubAuthorship')}
+                    />
+                  ) : null
+                }
+              >
+                {hasAuthorship ? (
+                  <DonutChart
+                    id={{ name: 'pub-authorship', ref: pubAuthorshipRef }}
+                    segments={visibleAuthorshipSegments}
+                    centerLabel="Total roles"
+                    centerValue={formatCompactNumber(visibleAuthorshipTotal)}
+                    ariaLabel="Authorship role distribution"
+                    onSelect={handleSelectAuthorship}
+                    selectedLabel={chartSelections.pubAuthorship?.label}
+                  />
+                ) : (
+                  <div className="chart-empty">
+                    {authorshipAllHidden
+                      ? 'All segments hidden. Toggle a legend item to show data.'
+                      : 'No authorship role data available.'}
+                  </div>
+                )}
+              </ChartCard>
+            </>
+          ) : (
+            <>
+              <ChartCard
+                title="Funding Runway"
+                subtitle="Awards by fiscal year"
+                onDownloadSvg={() =>
+                  downloadSvg(
+                    grantFundingRef.current,
+                    buildChartFilename('funding-runway', activeData.updated, 'svg')
+                  )
+                }
+                onDownloadPng={() =>
+                  downloadPng(
+                    grantFundingRef.current,
+                    buildChartFilename('funding-runway', activeData.updated, 'png')
+                  )
+                }
+                actionsDisabled={!hasGrantYears}
+                detail={
+                  grantYearDetail ? (
+                    <ChartDetail
+                      title={grantYearDetail.title}
+                      lines={grantYearDetail.lines}
+                      onClear={() => clearSelection('grantYear')}
+                    />
+                  ) : null
+                }
+              >
+                {hasGrantYears ? (
+                  <BarChart
+                    id={{ name: 'grant-years', ref: grantFundingRef }}
+                    data={grantYearData}
+                    ariaLabel="Grant totals by fiscal year"
+                    valueFormatter={hasGrantAmounts ? formatCompactCurrency : formatCompactNumber}
+                    onSelect={handleSelectGrantYear}
+                    selectedLabel={chartSelections.grantYear?.label}
+                  />
+                ) : (
+                  <div className="chart-empty">No grant year data available.</div>
+                )}
+              </ChartCard>
+              <ChartCard
+                title="Grant Type Mix"
+                subtitle="Distribution of award activity codes"
+                onDownloadSvg={() =>
+                  downloadSvg(
+                    grantTypeRef.current,
+                    buildChartFilename('grant-type-mix', activeData.updated, 'svg')
+                  )
+                }
+                onDownloadPng={() =>
+                  downloadPng(
+                    grantTypeRef.current,
+                    buildChartFilename('grant-type-mix', activeData.updated, 'png')
+                  )
+                }
+                actionsDisabled={!hasGrantTypes}
+                legend={
+                  hasGrantTypes ? (
+                    <ChartLegend
+                      segments={grantTypeSegments}
+                      total={grantTypeTotal}
+                      hiddenMap={hiddenGrantTypes}
+                      onToggle={toggleHiddenGrantTypes}
+                    />
+                  ) : null
+                }
+                detail={
+                  grantTypeDetail ? (
+                    <ChartDetail
+                      title={grantTypeDetail.title}
+                      lines={grantTypeDetail.lines}
+                      onClear={() => clearSelection('grantType')}
+                    />
+                  ) : null
+                }
+              >
+                {hasGrantTypes ? (
+                  <DonutChart
+                    id={{ name: 'grant-types', ref: grantTypeRef }}
+                    segments={visibleGrantTypeSegments}
+                    centerLabel="Total grants"
+                    centerValue={formatCompactNumber(visibleGrantTypeTotal)}
+                    ariaLabel="Grant type distribution"
+                    onSelect={handleSelectGrantType}
+                    selectedLabel={chartSelections.grantType?.label}
+                  />
+                ) : (
+                  <div className="chart-empty">
+                    {grantTypesAllHidden
+                      ? 'All segments hidden. Toggle a legend item to show data.'
+                      : 'No grant type data available.'}
+                  </div>
+                )}
+              </ChartCard>
+              <ChartCard
+                title="Top Funded Faculty"
+                subtitle="Highest totals in the current view"
+                onDownloadSvg={() =>
+                  downloadSvg(
+                    grantTopRef.current,
+                    buildChartFilename('top-funded-faculty', activeData.updated, 'svg')
+                  )
+                }
+                onDownloadPng={() =>
+                  downloadPng(
+                    grantTopRef.current,
+                    buildChartFilename('top-funded-faculty', activeData.updated, 'png')
+                  )
+                }
+                actionsDisabled={!hasGrantTop}
+                detail={
+                  grantTopDetail ? (
+                    <ChartDetail
+                      title={grantTopDetail.title}
+                      lines={grantTopDetail.lines}
+                      onClear={() => clearSelection('grantTop')}
+                    />
+                  ) : null
+                }
+              >
+                {hasGrantTop ? (
+                  <BarChart
+                    id={{ name: 'grant-top', ref: grantTopRef }}
+                    data={topGrantFaculty}
+                    ariaLabel="Top funded faculty"
+                    valueFormatter={hasGrantAmounts ? formatCompactCurrency : formatCompactNumber}
+                    labelFormatter={(label) => truncateLabel(label, 8)}
+                    onSelect={handleSelectTopFaculty}
+                    selectedLabel={chartSelections.grantTop?.label}
+                  />
+                ) : (
+                  <div className="chart-empty">No grant totals available yet.</div>
+                )}
+              </ChartCard>
+            </>
+          )}
+        </div>
       </section>
 
       {openMember ? (

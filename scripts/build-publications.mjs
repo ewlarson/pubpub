@@ -417,6 +417,27 @@ const normalizeName = (value) =>
     .toLowerCase()
     .replace(/[^a-z]/g, '');
 
+const isInitialsOnly = (value) => {
+  const raw = String(value || '').trim();
+  if (!raw) {
+    return false;
+  }
+  const letters = raw.replace(/[^a-zA-Z]/g, '');
+  if (!letters) {
+    return false;
+  }
+  if (letters.length === 1) {
+    return true;
+  }
+  if (raw.includes('.') || raw.includes(' ')) {
+    return letters.length <= 3;
+  }
+  if (raw === raw.toUpperCase() && letters.length <= 3) {
+    return true;
+  }
+  return false;
+};
+
 const normalizeAffiliation = (value) =>
   String(value || '')
     .toLowerCase()
@@ -691,51 +712,67 @@ const formatAuthorName = (author) => {
   return last;
 };
 
-const authorMatchesPerson = (author, person) => {
+const getAuthorMatchType = (author, person) => {
   if (!author) {
-    return false;
+    return 'none';
   }
 
   if (person.orcid) {
     const authorOrcid = extractOrcid(author).replace(/-/g, '');
     const targetOrcid = person.orcid.replace(/-/g, '');
     if (authorOrcid && targetOrcid && authorOrcid === targetOrcid) {
-      return true;
+      return 'orcid';
     }
   }
 
   const authorLast = normalizeName(getText(author.LastName));
   if (!authorLast) {
-    return false;
+    return 'none';
   }
 
   const variants = Array.isArray(person.nameVariants) && person.nameVariants.length
     ? person.nameVariants
     : [{ foreName: person.foreName, lastName: person.lastName }];
 
-  const authorFore = normalizeName(getText(author.ForeName));
+  const authorForeRaw = getText(author.ForeName).trim();
+  const authorFore = normalizeName(authorForeRaw);
   const authorInitial = normalizeName(getText(author.Initials || author.ForeName)).charAt(0);
+  const authorHasInformativeFore = Boolean(authorFore) && !isInitialsOnly(authorForeRaw);
+  let matchedByInitial = false;
 
-  return variants.some((variant) => {
+  for (const variant of variants) {
     const personLast = normalizeName(variant.lastName);
     if (!personLast || authorLast !== personLast) {
-      return false;
+      continue;
     }
 
     const personFore = normalizeName(variant.foreName);
     if (authorFore && personFore) {
       if (authorFore === personFore) {
-        return true;
+        return 'name';
       }
       if (authorFore.startsWith(personFore) || personFore.startsWith(authorFore)) {
-        return true;
+        return 'name';
+      }
+      if (authorHasInformativeFore) {
+        continue;
       }
     }
 
+    if (authorHasInformativeFore) {
+      continue;
+    }
+
     const personInitial = personFore.charAt(0);
-    return Boolean(authorInitial && personInitial && authorInitial === personInitial);
-  });
+    if (authorInitial && personInitial && authorInitial === personInitial) {
+      matchedByInitial = true;
+    }
+  }
+
+  return matchedByInitial ? 'initials' : 'none';
 };
+
+const authorMatchesPerson = (author, person) => getAuthorMatchType(author, person) !== 'none';
 
 const chunk = (arr, size) => {
   const chunks = [];
@@ -874,6 +911,7 @@ const filterPmidsByAuthorAffiliation = async (pmids, person, affiliationTerms) =
   const coauthorsByPmid = new Map();
   const authorshipByPmid = new Map();
   let missingAffiliationCount = 0;
+  let skippedInitialAffiliationCount = 0;
 
   for (const batch of chunk(pmids, 100)) {
     const xmlText = await fetchArticleXml(batch, EMAIL, TOOL, API_KEY);
@@ -886,14 +924,17 @@ const filterPmidsByAuthorAffiliation = async (pmids, person, affiliationTerms) =
 
       let matchedAuthor = null;
       let matchedIndex = -1;
+      let matchedType = 'none';
       const totalAuthors = authors.length;
       const coauthors = [];
 
       authors.forEach((author, index) => {
-        if (authorMatchesPerson(author, person)) {
+        const matchType = getAuthorMatchType(author, person);
+        if (matchType !== 'none') {
           if (matchedIndex < 0) {
             matchedAuthor = author;
             matchedIndex = index;
+            matchedType = matchType;
           }
         } else {
           const name = formatAuthorName(author);
@@ -921,6 +962,10 @@ const filterPmidsByAuthorAffiliation = async (pmids, person, affiliationTerms) =
 
       const affiliations = extractAffiliations(matchedAuthor);
       if (!affiliations.length) {
+        if (matchedType === 'initials') {
+          skippedInitialAffiliationCount += 1;
+          return;
+        }
         missingAffiliationCount += 1;
         kept.add(String(pmid));
         return;
@@ -942,6 +987,11 @@ const filterPmidsByAuthorAffiliation = async (pmids, person, affiliationTerms) =
   if (missingAffiliationCount > 0) {
     console.warn(
       `${person.name}: ${missingAffiliationCount} records missing author affiliation; kept them anyway.`
+    );
+  }
+  if (skippedInitialAffiliationCount > 0) {
+    console.warn(
+      `${person.name}: ${skippedInitialAffiliationCount} initial-only matches missing author affiliation; skipped them.`
     );
   }
 

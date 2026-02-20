@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-19",
+  "updated": "2026-02-20",
   "source": "PubMed E-utilities",
   "faculty": [
     {
@@ -6198,13 +6198,7 @@
           "journal": "Journal of psychopharmacology (Oxford, England)",
           "year": 2020,
           "doi": "10.1177/0269881120928203",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/32643995/",
-          "authorship": {
-            "position": 5,
-            "total": 10,
-            "isFirst": false,
-            "isLast": false
-          }
+          "url": "https://pubmed.ncbi.nlm.nih.gov/32643995/"
         },
         {
           "id": "33013493",
@@ -6253,7 +6247,7 @@
         "first": 3,
         "last": 1,
         "total": 12,
-        "known": 12
+        "known": 11
       },
       "signals": {
         "positive": {
@@ -27081,6 +27075,20 @@
           }
         },
         {
+          "id": "41317027",
+          "title": "Generative Artificial Intelligence Use Among Social Work Students: The Role of Perceived Utility and Knowledge.",
+          "journal": "Journal of evidence-based social work (2019)",
+          "year": 2025,
+          "doi": "10.1080/26408066.2025.2596186",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41317027/",
+          "authorship": {
+            "position": 4,
+            "total": 5,
+            "isFirst": false,
+            "isLast": true
+          }
+        },
+        {
           "id": "41355642",
           "title": "Investigating the Social Determinants of Online Technology Use for Seeking Health Information among Black Belt Residents in Alabama.",
           "journal": "Journal of health care for the poor and underserved",
@@ -27186,7 +27194,7 @@
           "doi": "10.1016/j.ygyno.2019.01.019",
           "url": "https://pubmed.ncbi.nlm.nih.gov/30718125/",
           "authorship": {
-            "position": 3,
+            "position": 9,
             "total": 11,
             "isFirst": false,
             "isLast": false
@@ -27214,7 +27222,7 @@
           "doi": "10.1186/s13053-018-0095-z",
           "url": "https://pubmed.ncbi.nlm.nih.gov/29997716/",
           "authorship": {
-            "position": 2,
+            "position": 4,
             "total": 6,
             "isFirst": false,
             "isLast": false
@@ -27629,13 +27637,13 @@
       ],
       "authorCounts": {
         "first": 23,
-        "last": 6,
-        "total": 41,
-        "known": 41
+        "last": 7,
+        "total": 42,
+        "known": 42
       },
       "signals": {
         "positive": {
-          "count": 41,
+          "count": 42,
           "yearRange": {
             "min": 2012,
             "max": 2025
@@ -27687,7 +27695,7 @@
             },
             {
               "year": 2025,
-              "count": 3
+              "count": 4
             }
           ],
           "topJournals": [
@@ -27738,12 +27746,12 @@
               "count": 25
             },
             {
-              "name": "cancer",
+              "name": "among",
               "count": 23
             },
             {
-              "name": "among",
-              "count": 22
+              "name": "cancer",
+              "count": 23
             },
             {
               "name": "korean",
@@ -27775,7 +27783,7 @@
             },
             {
               "name": "social",
-              "count": 8
+              "count": 9
             },
             {
               "name": "cervical",
@@ -28346,13 +28354,7 @@
           "journal": "Biomedical reports",
           "year": 2026,
           "doi": "10.3892/br.2026.2116",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/41696141/",
-          "authorship": {
-            "position": 5,
-            "total": 6,
-            "isFirst": false,
-            "isLast": true
-          }
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41696141/"
         },
         {
           "id": "41706788",
@@ -28360,13 +28362,7 @@
           "journal": "IEEE transactions on cybernetics",
           "year": 2026,
           "doi": "10.1109/TCYB.2026.3662764",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/41706788/",
-          "authorship": {
-            "position": 1,
-            "total": 5,
-            "isFirst": false,
-            "isLast": false
-          }
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41706788/"
         },
         {
           "id": "41686945",
@@ -28374,13 +28370,7 @@
           "journal": "Optics letters",
           "year": 2026,
           "doi": "10.1364/OL.575349",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/41686945/",
-          "authorship": {
-            "position": 10,
-            "total": 11,
-            "isFirst": false,
-            "isLast": true
-          }
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41686945/"
         },
         {
           "id": "41686665",
@@ -28388,13 +28378,7 @@
           "journal": "IEEE transactions on cybernetics",
           "year": 2026,
           "doi": "10.1109/TCYB.2026.3661168",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/41686665/",
-          "authorship": {
-            "position": 2,
-            "total": 3,
-            "isFirst": false,
-            "isLast": true
-          }
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41686665/"
         },
         {
           "id": "41711305",
@@ -28402,13 +28386,7 @@
           "journal": "International journal of surgery (London, England)",
           "year": 2026,
           "doi": "10.1097/JS9.0000000000004877",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/41711305/",
-          "authorship": {
-            "position": 2,
-            "total": 3,
-            "isFirst": false,
-            "isLast": true
-          }
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41711305/"
         },
         {
           "id": "41697763",
@@ -28416,12 +28394,20 @@
           "journal": "Journal of agricultural and food chemistry",
           "year": 2026,
           "doi": "10.1021/acs.jafc.5c16569",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/41697763/",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41697763/"
+        },
+        {
+          "id": "41712301",
+          "title": "Disrupted Neurovascular-Endocrine Coupling in Type 1 Diabetes with impaired awareness of hypoglycaemia.",
+          "journal": "The Journal of clinical investigation",
+          "year": 2026,
+          "doi": "10.1172/JCI199725",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41712301/",
           "authorship": {
-            "position": 6,
-            "total": 7,
+            "position": 5,
+            "total": 10,
             "isFirst": false,
-            "isLast": true
+            "isLast": false
           }
         },
         {
@@ -28430,13 +28416,7 @@
           "journal": "IEEE transactions on cybernetics",
           "year": 2026,
           "doi": "10.1109/TCYB.2026.3662702",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/41706780/",
-          "authorship": {
-            "position": 0,
-            "total": 5,
-            "isFirst": true,
-            "isLast": false
-          }
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41706780/"
         },
         {
           "id": "41706966",
@@ -28444,13 +28424,7 @@
           "journal": "Optics express",
           "year": 2026,
           "doi": "10.1364/OE.579775",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/41706966/",
-          "authorship": {
-            "position": 10,
-            "total": 13,
-            "isFirst": false,
-            "isLast": false
-          }
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41706966/"
         },
         {
           "id": "41706778",
@@ -28458,13 +28432,7 @@
           "journal": "IEEE transactions on cybernetics",
           "year": 2026,
           "doi": "10.1109/TCYB.2026.3656518",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/41706778/",
-          "authorship": {
-            "position": 5,
-            "total": 6,
-            "isFirst": false,
-            "isLast": true
-          }
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41706778/"
         },
         {
           "id": "41703077",
@@ -28472,24 +28440,18 @@
           "journal": "Nature",
           "year": 2026,
           "doi": "10.1038/d41586-026-00497-w",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/41703077/",
-          "authorship": {
-            "position": 0,
-            "total": 1,
-            "isFirst": true,
-            "isLast": true
-          }
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41703077/"
         }
       ],
       "authorCounts": {
-        "first": 2,
-        "last": 7,
-        "total": 10,
-        "known": 10
+        "first": 0,
+        "last": 0,
+        "total": 11,
+        "known": 1
       },
       "signals": {
         "positive": {
-          "count": 10,
+          "count": 11,
           "yearRange": {
             "min": 2026,
             "max": 2026
@@ -28497,7 +28459,7 @@
           "yearCounts": [
             {
               "year": 2026,
-              "count": 10
+              "count": 11
             }
           ],
           "topJournals": [
@@ -28527,6 +28489,10 @@
             },
             {
               "name": "Optics letters",
+              "count": 1
+            },
+            {
+              "name": "The Journal of clinical investigation",
               "count": 1
             }
           ],
@@ -28586,6 +28552,18 @@
               "count": 1
             },
             {
+              "name": "Amir A Moheet",
+              "count": 1
+            },
+            {
+              "name": "Anjali F Kumar",
+              "count": 1
+            },
+            {
+              "name": "Antonietta Canna",
+              "count": 1
+            },
+            {
               "name": "Bohan Xie",
               "count": 1
             },
@@ -28615,18 +28593,6 @@
             },
             {
               "name": "Defeng Liu",
-              "count": 1
-            },
-            {
-              "name": "Deqing Huang",
-              "count": 1
-            },
-            {
-              "name": "Dongdong Yue",
-              "count": 1
-            },
-            {
-              "name": "Dongming Wu",
               "count": 1
             }
           ]
@@ -32186,6 +32152,20 @@
       ],
       "publications": [
         {
+          "id": "41712301",
+          "title": "Disrupted Neurovascular-Endocrine Coupling in Type 1 Diabetes with impaired awareness of hypoglycaemia.",
+          "journal": "The Journal of clinical investigation",
+          "year": 2026,
+          "doi": "10.1172/JCI199725",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41712301/",
+          "authorship": {
+            "position": 9,
+            "total": 10,
+            "isFirst": false,
+            "isLast": true
+          }
+        },
+        {
           "id": "40476345",
           "title": "A Bird's-Eye View of Glycolytic Upregulation in Activated Brain: The Major Fate of Lactate Is Release From Activated Tissue, Not Shuttling to Nearby Neurons.",
           "journal": "Journal of neurochemistry",
@@ -33406,16 +33386,16 @@
       ],
       "authorCounts": {
         "first": 8,
-        "last": 19,
-        "total": 87,
-        "known": 87
+        "last": 20,
+        "total": 88,
+        "known": 88
       },
       "signals": {
         "positive": {
-          "count": 87,
+          "count": 88,
           "yearRange": {
             "min": 2012,
-            "max": 2025
+            "max": 2026
           },
           "yearCounts": [
             {
@@ -33473,6 +33453,10 @@
             {
               "year": 2025,
               "count": 12
+            },
+            {
+              "year": 2026,
+              "count": 1
             }
           ],
           "topJournals": [
@@ -33559,12 +33543,12 @@
               "count": 8
             },
             {
-              "name": "orientation",
+              "name": "diabetes",
               "count": 8
             },
             {
-              "name": "cortex",
-              "count": 7
+              "name": "orientation",
+              "count": 8
             }
           ],
           "topCoauthors": [
@@ -33582,11 +33566,11 @@
             },
             {
               "name": "Pavel Filip",
-              "count": 20
+              "count": 21
             },
             {
               "name": "Lynn E Eberly",
-              "count": 19
+              "count": 20
             },
             {
               "name": "Mauro DiNuzzo",
@@ -35606,6 +35590,20 @@
       ],
       "publications": [
         {
+          "id": "41712301",
+          "title": "Disrupted Neurovascular-Endocrine Coupling in Type 1 Diabetes with impaired awareness of hypoglycaemia.",
+          "journal": "The Journal of clinical investigation",
+          "year": 2026,
+          "doi": "10.1172/JCI199725",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41712301/",
+          "authorship": {
+            "position": 3,
+            "total": 10,
+            "isFirst": false,
+            "isLast": false
+          }
+        },
+        {
           "id": "40670474",
           "title": "Comparative effectiveness of combining antidiabetic medications to treat renal impairment in patients with type 2 diabetes mellitus.",
           "journal": "Scientific reports",
@@ -36351,15 +36349,15 @@
       "authorCounts": {
         "first": 11,
         "last": 14,
-        "total": 53,
-        "known": 53
+        "total": 54,
+        "known": 54
       },
       "signals": {
         "positive": {
-          "count": 53,
+          "count": 54,
           "yearRange": {
             "min": 2013,
-            "max": 2025
+            "max": 2026
           },
           "yearCounts": [
             {
@@ -36413,6 +36411,10 @@
             {
               "year": 2025,
               "count": 9
+            },
+            {
+              "year": 2026,
+              "count": 1
             }
           ],
           "topJournals": [
@@ -36460,7 +36462,7 @@
           "topKeywords": [
             {
               "name": "diabetes",
-              "count": 27
+              "count": 28
             },
             {
               "name": "cystic",
@@ -36475,11 +36477,11 @@
               "count": 18
             },
             {
-              "name": "related",
-              "count": 11
+              "name": "type",
+              "count": 12
             },
             {
-              "name": "type",
+              "name": "related",
               "count": 11
             },
             {
@@ -36491,30 +36493,34 @@
               "count": 5
             },
             {
+              "name": "awareness",
+              "count": 5
+            },
+            {
               "name": "glucose",
               "count": 5
             },
             {
+              "name": "hypoglycaemia",
+              "count": 5
+            },
+            {
               "name": "insulin",
-              "count": 5
-            },
-            {
-              "name": "ivacaftor",
-              "count": 5
-            },
-            {
-              "name": "mellitus",
               "count": 5
             }
           ],
           "topCoauthors": [
             {
               "name": "Elizabeth R Seaquist",
-              "count": 19
+              "count": 20
             },
             {
               "name": "Anjali Kumar",
               "count": 14
+            },
+            {
+              "name": "Lynn E Eberly",
+              "count": 12
             },
             {
               "name": "Antoinette Moran",
@@ -36522,10 +36528,6 @@
             },
             {
               "name": "G&#xfc;lin &#xd6;z",
-              "count": 11
-            },
-            {
-              "name": "Lynn E Eberly",
               "count": 11
             },
             {
@@ -36537,16 +36539,16 @@
               "count": 8
             },
             {
+              "name": "Silvia Mangia",
+              "count": 8
+            },
+            {
               "name": "Andrea Granados",
               "count": 7
             },
             {
-              "name": "Silvia Mangia",
-              "count": 7
-            },
-            {
               "name": "Anjali F Kumar",
-              "count": 5
+              "count": 6
             },
             {
               "name": "Dinesh K Deelchand",
@@ -36588,6 +36590,20 @@
           "authorship": {
             "position": 6,
             "total": 8,
+            "isFirst": false,
+            "isLast": false
+          }
+        },
+        {
+          "id": "41712402",
+          "title": "FUGC: Benchmarking Semi-Supervised Learning Methods for Cervical Segmentation.",
+          "journal": "IEEE transactions on medical imaging",
+          "year": 2026,
+          "doi": "10.1109/TMI.2026.3666364",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41712402/",
+          "authorship": {
+            "position": 16,
+            "total": 39,
             "isFirst": false,
             "isLast": false
           }
@@ -36764,12 +36780,12 @@
       "authorCounts": {
         "first": 0,
         "last": 4,
-        "total": 13,
-        "known": 13
+        "total": 14,
+        "known": 14
       },
       "signals": {
         "positive": {
-          "count": 13,
+          "count": 14,
           "yearRange": {
             "min": 2022,
             "max": 2026
@@ -36793,7 +36809,7 @@
             },
             {
               "year": 2026,
-              "count": 1
+              "count": 2
             }
           ],
           "topJournals": [
@@ -36823,6 +36839,10 @@
             },
             {
               "name": "HGG advances",
+              "count": 1
+            },
+            {
+              "name": "IEEE transactions on medical imaging",
               "count": 1
             },
             {
