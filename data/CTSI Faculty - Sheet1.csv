@@ -12,7 +12,7 @@ kaja_sarah,Sarah,Espinoza,,kaja@umn.edu|University of Minnesota,8/1/2022,KAP,kaj
 ,Jean-Paul,Noel,0000-0001-5297-3363,noelx071@umn.edu|New York University|University of Minnesota,11/1/2024,K-R01,noelx071@umn.edu
 ,Oludare,Odumade,0000-0002-8630-8510,oduma002@umn.edu|Boston Children’s Hospital|University of Minnesota,11/1/2024,KAP,oduma002@umn.edu
 ,Ebiere,Okah,0000-0003-3784-439X,ebiere@umn.edu|University of North Carolina at Chapel Hill|University of Minnesota,10/1/2022,KAP,ebiere@umn.edu
-,Edgar,Peña,,penax025@umn.edu|Duke University|University of Minnesota,1/11/2024,KAP,penax025@umn.edu
+,Edgar,Peña,0000-0003-3148-8355,penax025@umn.edu|Duke University|University of Minnesota,1/11/2024,KAP,penax025@umn.edu
 ,Gianna,Rea-Sandin,0000-0002-3395-7277,reasa002@umn.edu|Arizona State University|University of Minnesota,6/1/2024,KAP,reasa002@umn.edu
 ,Sabrina,Scroggins,,sscroggi@d.umn.edu|University of Iowa|University of Minnesota,1/1/2024,K-R01,sscroggi@d.umn.edu
 ,Sabrina,Scroggins,,sscroggi@d.umn.edu|University of Iowa|University of Minnesota,8/1/2022,KL2/K12,sscroggi@d.umn.edu
@@ -84,3 +84,65 @@ kaja_sarah,Sarah,Espinoza,,kaja@umn.edu|University of Minnesota,8/1/2022,KAP,kaj
 ,Levi,Teigen,0000-0002-6409-0485,teige027@umn.edu|University of Minnesota,2/1/2026,K12 Career Development Program,teige027@umn.edu
 ,Ajay,Verma,0000-0001-8006-8475,akverma@umn.edu|University of Minnesota,2/1/2026,K12 Career Development Program,akverma@umn.edu
 ,Katherine,Vickery,0000-0002-1083-838X,katherine.vickery@hcmed.org|University of Minnesota|Hennepin,9/1/2018,KL2 Career Development Program,katherine.vickery@hcmed.org
+,Alexandra,Armstrong,0000-0002-8498-2843,rolan048@umn.edu|University of Minnesota,2/1/2026,K-R01,rolan048@umn.edu
+,Jason,Baker,0000-0002-5542-1545,jason.baker@hcmed.org|University of Minnesota|Hennepin,3/1/2012,K-R01,jason.baker@hcmed.org
+,Melena,Bellin,0000-0002-7324-4837,bell0130@umn.edu|University of Minnesota,3/1/2014,K-R01,bell0130@umn.edu
+,Antonella,Borgatti,0000-0003-1939-0611,borgatti@umn.edu|University of Minnesota,9/1/2020,K-R01,borgatti@umn.edu
+,Kristina,Burrack,0000-0002-6931-226X,kburrack@umn.edu|University of Minnesota,3/1/2022,K-R01,kburrack@umn.edu
+,Jazmin,Camchong,0000-0001-8658-5780,camch002@umn.edu|University of Minnesota,9/1/2020,K-R01,camch002@umn.edu
+,Selma,Carlson,0000-0002-8553-3097,dura0059@umn.edu|University of Minnesota,3/1/2021,KAP (formerly PreK),dura0059@umn.edu
+,Cari,Clark,0000-0002-9959-5221,cari.j.clark@emory.edu|University of Minnesota|Emory University,3/1/2013,K-R01,cari.j.clark@emory.edu
+,Kathryn,Cullen,0000-0001-9631-3770,rega0026@umn.edu|University of Minnesota,3/1/2014,K-R01,rega0026@umn.edu
+,Brooke,Cunningham,0000-0002-3205-5538,Brooke.Cunningham@state.mn.us|University of Minnesota,11/1/2016,KAP (formerly PreK),Brooke.Cunningham@state.mn.us
+,Michael,Curtis,0000-0002-1616-032x,curtism@umn.edu|University of Minnesota,9/1/2025,KAP (formerly PreK),curtism@umn.edu
+,Jose,Debes,,debes003@umn.edu|University of Minnesota,3/1/2021,K-R01,debes003@umn.edu
+,Casey,Dorr,0000-0002-6108-280X,dorr0022@umn.edu|University of Minnesota,3/1/2022,K-R01,dorr0022@umn.edu
+,Paul,Drawz,0000-0001-7301-9253,draw0003@umn.edu|University of Minnesota,3/1/2014,K-R01,draw0003@umn.edu
+,Naomi,Duke,0000-0002-6567-7376,naomi.duke@duke.edu|University of Minnesota|Duke University,3/1/2013,KAP (formerly PreK),naomi.duke@duke.edu
+,Sian,Durward-Akhurst,0000-0003-3034-1554,durwa004@umn.edu|University of Minnesota,9/1/2022,KAP (formerly PreK),durwa004@umn.edu
+,Eva,Furrow,0000-0002-7339-2354,furro004@umn.edu|University of Minnesota,3/1/2022,K-R01,furro004@umn.edu
+,Bernadette,Gillick,0000-0002-6891-5587,bgillick@wisc.edu|University of Minnesota|University of Wisconsin,3/1/2012,KAP (formerly PreK),bgillick@wisc.edu
+,Allyson,Hart,0000-0003-3517-0141,hart1044@umn.edu|University of Minnesota|Hennepin,11/1/2018,K-R01,hart1044@umn.edu
+,Sarah,Hoffman,0000-0002-7478-953X,hoff0742@umn.edu|University of Minnesota,3/1/2021,K-R01,hoff0742@umn.edu
+,Gautam,Jha,0000-0003-2574-7074,jhaxx014@umn.edu|University of Minnesota,3/1/2012,KAP (formerly PreK),jhaxx014@umn.edu
+,Casey,Johnson,0000-0001-9826-7296,john5037@umn.edu|University of Minnesota,11/1/2019,K-R01,john5037@umn.edu
+,J'Mag,Karbeah,0000-0003-3002-7776,karbe001@umn.edu|University of Minnesota,7/1/2024,KAP (formerly PreK),karbe001@umn.edu
+,Manda,Keller-Ross,0000-0001-9363-5379,kell0529@umn.edu|University of Minnesota,7/1/2024,K-R01,kell0529@umn.edu
+,Amanda,Klein,0000-0002-3433-2180,ahklein2@buffalo.edu|University of Minnesota|University at Buffalo,9/1/2020,K-R01,ahklein2@buffalo.edu
+,Emily,Kringle,0000-0003-4958-9568,ekringle@umn.edu|University of Minnesota,7/1/2024,K-R01,ekringle@umn.edu
+,Theresa,Laguna,0000-0003-4255-0310,University of Minnesota|Seattle Children's,3/1/2013,K-R01,
+,Brianna,Leitzelar,0000-0003-0406-0118,leitz025@umn.edu|University of Minnesota,9/1/2025,KAP (formerly PreK),leitz025@umn.edu
+,Anne-Marie,Leuck,0009-0004-8885-9203,leuck002@umn.edu|University of Minnesota,3/1/2015,KAP (formerly PreK),leuck002@umn.edu
+,Katie,Loth,0000-0001-8934-2522,kloth@umn.edu|University of Minnesota,9/1/2020,K-R01,kloth@umn.edu
+,Stephanie,Misono,0000-0001-9000-6323,smisono@umn.edu|University of Minnesota,3/1/2022,K-R01,smisono@umn.edu
+,Stephanie,Misono,0000-0001-9000-6323,smisono@umn.edu|University of Minnesota,3/1/2013,KAP (formerly PreK),smisono@umn.edu
+,Nakita,Natala,0000-0001-5139-5071,natal006@umn.edu|University of Minnesota,3/1/2021,KAP (formerly PreK),natal006@umn.edu
+,Hai Dang,Nguyen,0000-0003-0125-9471,hdnguyen@umn.edu|University of Minnesota,9/1/2020,KAP (formerly PreK),hdnguyen@umn.edu
+,Melanie,Nicol,0000-0001-5513-5509,mrnicol@umn.edu|University of Minnesota,11/1/2019,K-R01,mrnicol@umn.edu
+,Ronald,Ordinola Zapata,0000-0001-9738-0828,rordinol@umn.edu|University of Minnesota,9/1/2020,KAP (formerly PreK),rordinol@umn.edu
+,Julie,Ostrander,0000-0002-5038-6875,hans1354@umn.edu|University of Minnesota,3/1/2012,K-R01,hans1354@umn.edu
+,Elizabeth (Rene),Pierpont,0000-0001-7555-8613,pier0053@umn.edu|University of Minnesota,7/1/2024,K-R01,pier0053@umn.edu
+,Lynda,Polgreen,0000-0002-2881-6138,lpolgreen@labiomed.org|University of Minnesota,3/1/2012,K-R01,lpolgreen@labiomed.org
+,Alexa,Pragman,0000-0001-8152-3951,alexa@umn.edu|University of Minnesota,11/1/2019,K-R01,alexa@umn.edu
+,Karina,Quevedo,0000-0002-5161-194X,queve001@umn.edu|University of Minnesota,3/1/2015,K-R01,queve001@umn.edu
+,Radha,Rajasingham,0000-0001-5531-0231,radha@umn.edu|University of Minnesota,3/1/2015,KAP (formerly PreK),radha@umn.edu
+,Anita,Randolph,0009-0007-1578-015X,rando149@umn.edu|University of Minnesota,7/1/2024,KAP (formerly PreK),rando149@umn.edu
+,Scott,Reule,0000-0002-8202-7148,reul0011@umn.edu|University of Minnesota,11/1/2016,KAP (formerly PreK),reul0011@umn.edu
+,Elizabeth,Rogers,0000-0002-4819-7178,earogers@umn.edu|University of Minnesota,3/1/2021,K-R01,earogers@umn.edu
+,Zohar,Sachs,0000-0001-9386-4163,sachs038@umn.edu|University of Minnesota,11/1/2018,K-R01,sachs038@umn.edu
+,Erica,Schorr,0000-0003-3252-8208,scho0828@umn.edu|University of Minnesota,3/1/2014,KAP (formerly PreK),scho0828@umn.edu
+,Chetan,Shenoy,0000-0001-8877-4999,cshenoy@umn.edu|University of Minnesota,3/1/2021,K-R01,cshenoy@umn.edu
+,Rebecca,Shlafer,0000-0001-7833-9053,shlaf002@umn.edu|University of Minnesota,3/1/2013,KAP (formerly PreK),shlaf002@umn.edu
+,Glenn,Simmons Jr.,0000-0003-2081-5672,ges246@cornell.edu|University of Minnesota|Cornell University,7/1/2019,KAP (formerly PreK),ges246@cornell.edu
+,Kristine,Talley,0000-0002-3402-3222,carl0106@umn.edu|University of Minnesota,3/1/2014,K-R01,carl0106@umn.edu
+,Gillian,Tarr,0000-0001-7372-1034,gtarr@umn.edu|University of Minnesota,2/1/2026,K-R01,gtarr@umn.edu
+,Deanna,Teoh,0000-0002-1931-1445,dkteoh@umn.edu|University of Minnesota,11/1/2018,K-R01,dkteoh@umn.edu
+,Ferenc,Toth,0000-0002-6615-389X,ftoth@umn.edu|University of Minnesota,3/1/2021,K-R01,ftoth@umn.edu
+,Thu,Truong,0000-0003-2394-551X,thtruong@umn.edu|University of Minnesota,7/1/2024,K-R01,thtruong@umn.edu
+,Lucie,Turcotte,0000-0003-4106-6172,turc0023@umn.edu|University of Minnesota,9/1/2014,KAP (formerly PreK),turc0023@umn.edu
+,Michael,Usher,0000-0002-0205-987X,University of Minnesota|Indiana University,9/1/2015,KAP (formerly PreK),
+,Byron,Vaughn,0000-0001-5081-3761,bvaughn@umn.edu|University of Minnesota,3/1/2015,KAP (formerly PreK),bvaughn@umn.edu
+,Saydra,Wilson,0000-0002-2274-5244,wils2548@umn.edu|University of Minnesota,9/1/2022,KAP (formerly PreK),wils2548@umn.edu
+,Serena,Xiong,0000-0001-6399-4397,xiong455@umn.edu|Washington University|University of Minnesota,10/31/2023,KAP (formerly PreK),xiong455@umn.edu
+,Beshay,Zordoky,0000-0002-9358-4185,zordo001@umn.edu|University of Minnesota,11/1/2019,K-R01,zordo001@umn.edu
+,Beshay,Zordoky,0000-0002-9358-4185,zordo001@umn.edu|University of Minnesota,9/1/2015,KAP (formerly PreK),zordo001@umn.edu

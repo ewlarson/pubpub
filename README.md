@@ -23,9 +23,12 @@ npm run preview
 
 ## Data
 
-Publication data lives in `public/data/publications.json` and is loaded at runtime. Update that file, commit, and the GitHub Pages workflow will rebuild and deploy.
+This project is hosted on GitHub Pages, so runtime data must remain static JSON files:
+- `public/data/publications.json`
+- `public/data/grants.json`
 
-Grant data lives in `public/data/grants.json` and is loaded in the Grants tab. Update that file to refresh the grant dashboard.
+Canonical data now lives in SQLite (`data/pubpub.sqlite`) and build scripts export those
+tables back to static JSON for the frontend.
 
 ### Building data from PubMed
 
@@ -55,6 +58,26 @@ There is a Node script that reads `data/CTSI Faculty - Sheet1.csv`, queries the 
 npm run build:grants
 ```
 
+### Canonical SQLite build flow (recommended)
+
+Run the full relational pipeline:
+
+```bash
+npm run build:data:all
+```
+
+This runs:
+1. `npm run ingest:faculty` (upsert canonical faculty identities/programs)
+2. `npm run build:data` (PubMed harvest into relational tables)
+3. `npm run build:grants` (NIH RePORTER harvest into relational tables)
+4. `npm run export:data` (emit `public/data/publications.json` + `public/data/grants.json`)
+
+Quick data-quality report:
+
+```bash
+npm run audit:data
+```
+
 Optional environment variables (add to `.env.local` if desired):
 
 ```bash
@@ -81,10 +104,15 @@ between crawls. The build script writes to `data/pubpub.sqlite` by default; set
 `PUBPUB_DB_PATH` to override.
 
 Tables (created automatically):
+- `faculty` (canonical faculty identity rows)
+- `faculty_aliases` (alternate names/emails/ORCIDs for merge tracking)
+- `faculty_programs` (program memberships with dates)
 - `publications` (metadata keyed by PMID)
 - `faculty_publications` (join table with first/last seen timestamps)
 - `curation` (true/false positive labels)
 - `faculty_publication_coauthors` (co-author names per faculty/PMID)
+- `grants` (NIH RePORTER grant metadata)
+- `faculty_grants` (faculty-grant relationship + role/amount)
 
 To mark false/true positives, insert rows into `curation`:
 
@@ -103,6 +131,9 @@ The build step will:
 
 If `data/curation.json` exists and the database has no curation rows yet, it is
 used once as a seed (legacy import).
+
+Identity overrides for known merges/splits are stored in
+`data/faculty-identity-overrides.json`.
 
 Minimal schema:
 
@@ -167,6 +198,9 @@ This repo includes `.github/workflows/deploy.yml` for GitHub Pages.
 1. In GitHub, go to **Settings → Pages**.
 2. Under **Build and deployment**, select **GitHub Actions**.
 3. Push to `main` and the workflow will publish the site.
+
+Because Pages is static hosting, do not serve SQLite directly to the browser.
+Always export DB contents into `public/data/*.json` before deploy.
 
 ## Notes
 

@@ -2,6 +2,12 @@ import dotenv from 'dotenv';
 import { existsSync } from 'node:fs';
 import { readFile, writeFile } from 'node:fs/promises';
 import path from 'node:path';
+import {
+  initDb,
+  remapFacultyIdReferences,
+  replaceFacultyGrants,
+  upsertCanonicalFaculty
+} from './db.mjs';
 
 const envLocal = path.resolve('.env.local');
 if (existsSync(envLocal)) {
@@ -168,6 +174,7 @@ const parseFaculty = (rows) => {
         id: key,
         foreName: record.fore_name,
         lastName: record.last_name,
+        orcid: record.orcid,
         email: record.email,
         signatureTerms: new Set(),
         programs: new Set(),
@@ -197,6 +204,7 @@ const parseFaculty = (rows) => {
       name: `${person.foreName} ${person.lastName}`.trim(),
       foreName: person.foreName,
       lastName: person.lastName,
+      orcid: person.orcid || '',
       department: DEFAULT_AFFILIATION,
       email: person.email || '',
       signatureTerms,
@@ -409,10 +417,56 @@ const mapGrants = (person, projects) => {
   return deduped.sort((a, b) => (b.startDate || '').localeCompare(a.startDate || ''));
 };
 
+const canonicalizeFaculty = (db, faculty) => {
+  const merged = new Map();
+
+  for (const person of faculty) {
+    const canonicalId = upsertCanonicalFaculty(db, person, {
+      source: 'grants_build',
+      legacySlug: person.id
+    });
+    remapFacultyIdReferences(db, person.id, canonicalId);
+
+    if (!merged.has(canonicalId)) {
+      merged.set(canonicalId, {
+        ...person,
+        id: canonicalId,
+        signatureTerms: new Set(person.signatureTerms || []),
+        programs: new Set(person.programs || [])
+      });
+      continue;
+    }
+
+    const current = merged.get(canonicalId);
+    (person.signatureTerms || []).forEach((term) => current.signatureTerms.add(term));
+    (person.programs || []).forEach((program) => current.programs.add(program));
+    if (!current.orcid && person.orcid) {
+      current.orcid = person.orcid;
+    }
+    if (!current.email && person.email) {
+      current.email = person.email;
+    }
+    if (!current.name && person.name) {
+      current.name = person.name;
+    }
+    if (!current.startDate || (person.startDate && person.startDate < current.startDate)) {
+      current.startDate = person.startDate;
+    }
+  }
+
+  return Array.from(merged.values()).map((person) => ({
+    ...person,
+    signatureTerms: Array.from(person.signatureTerms),
+    programs: Array.from(person.programs)
+  }));
+};
+
 const main = async () => {
   const csvText = await readFile(CSV_PATH, 'utf8');
   const rows = parseCsv(csvText);
-  const faculty = parseFaculty(rows);
+  const db = initDb();
+  const parsedFaculty = parseFaculty(rows);
+  const faculty = canonicalizeFaculty(db, parsedFaculty);
 
   const orgNamesOverride = parseList(ORG_NAMES_OVERRIDE);
   const fiscalYears = parseYearList(FISCAL_YEARS_OVERRIDE);
@@ -430,6 +484,7 @@ const main = async () => {
       });
       const eligibleProjects = filterProjectsByStartDate(projects, person.startDate);
       const grants = mapGrants(person, eligibleProjects);
+      replaceFacultyGrants(db, person.id, grants, 'nih_reporter');
 
       results.push({
         id: person.id,
@@ -441,6 +496,7 @@ const main = async () => {
       });
     } catch (error) {
       console.error(`Failed to fetch grants for ${person.name}: ${error.message}`);
+      replaceFacultyGrants(db, person.id, [], 'nih_reporter');
       results.push({
         id: person.id,
         name: person.name,
@@ -462,6 +518,7 @@ const main = async () => {
 
   await writeFile(OUTPUT_PATH, `${JSON.stringify(output, null, 2)}\n`, 'utf8');
   console.log(`Wrote ${OUTPUT_PATH}`);
+  db.close();
 };
 
 main().catch((error) => {

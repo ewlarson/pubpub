@@ -418,6 +418,171 @@ const getAuthorshipCategory = (authorship) => {
   return 'Middle';
 };
 
+const getPublicationKey = (pub) => {
+  if (!pub) {
+    return '';
+  }
+  return pub.id || pub.doi || pub.title || '';
+};
+
+const hashString = (value) => {
+  const text = String(value || '');
+  let hash = 0;
+  for (let i = 0; i < text.length; i += 1) {
+    hash = (hash << 5) - hash + text.charCodeAt(i);
+    hash |= 0;
+  }
+  return Math.abs(hash);
+};
+
+const createSeededRandom = (seed) => {
+  let value = seed || 1;
+  return () => {
+    value |= 0;
+    value = (value + 0x6d2b79f5) | 0;
+    let t = Math.imul(value ^ (value >>> 15), 1 | value);
+    t = (t + Math.imul(t ^ (t >>> 7), 61 | t)) ^ t;
+    return ((t ^ (t >>> 14)) >>> 0) / 4294967296;
+  };
+};
+
+const clamp = (value, min, max) => Math.min(Math.max(value, min), max);
+
+const buildNetworkLayout = (
+  nodes,
+  edges,
+  { width = 860, height = 520, iterations = 160 } = {}
+) => {
+  if (!nodes?.length) {
+    return [];
+  }
+  const centerX = width / 2;
+  const centerY = height / 2;
+  const baseRadius = Math.min(width, height) * 0.32;
+  const positions = nodes.map((node, index) => {
+    const rng = createSeededRandom(hashString(node.id));
+    const angle = (index / nodes.length) * Math.PI * 2;
+    const radius = baseRadius * (0.6 + rng() * 0.4);
+    const jitter = baseRadius * 0.18;
+    return {
+      ...node,
+      x: centerX + Math.cos(angle) * radius + (rng() - 0.5) * jitter,
+      y: centerY + Math.sin(angle) * radius + (rng() - 0.5) * jitter,
+      vx: 0,
+      vy: 0
+    };
+  });
+
+  const indexById = new Map(positions.map((node, index) => [node.id, index]));
+  const repulsion = 3800;
+  const linkDistance = Math.min(width, height) * 0.3;
+  const linkStrength = 0.024;
+  const damping = 0.84;
+  const margin = 32;
+
+  for (let step = 0; step < iterations; step += 1) {
+    for (let i = 0; i < positions.length; i += 1) {
+      for (let j = i + 1; j < positions.length; j += 1) {
+        const nodeA = positions[i];
+        const nodeB = positions[j];
+        let dx = nodeA.x - nodeB.x;
+        let dy = nodeA.y - nodeB.y;
+        let distance = Math.sqrt(dx * dx + dy * dy) || 0.01;
+        const force = repulsion / (distance * distance);
+        dx /= distance;
+        dy /= distance;
+        nodeA.vx += dx * force;
+        nodeA.vy += dy * force;
+        nodeB.vx -= dx * force;
+        nodeB.vy -= dy * force;
+      }
+    }
+
+    edges.forEach((edge) => {
+      const sourceIndex = indexById.get(edge.source);
+      const targetIndex = indexById.get(edge.target);
+      if (sourceIndex === undefined || targetIndex === undefined) {
+        return;
+      }
+      const nodeA = positions[sourceIndex];
+      const nodeB = positions[targetIndex];
+      let dx = nodeB.x - nodeA.x;
+      let dy = nodeB.y - nodeA.y;
+      let distance = Math.sqrt(dx * dx + dy * dy) || 0.01;
+      const weightFactor = 1 + Math.min(edge.weight || 1, 6) * 0.12;
+      const force = (distance - linkDistance) * linkStrength * weightFactor;
+      dx /= distance;
+      dy /= distance;
+      nodeA.vx += dx * force;
+      nodeA.vy += dy * force;
+      nodeB.vx -= dx * force;
+      nodeB.vy -= dy * force;
+    });
+
+    positions.forEach((node) => {
+      node.vx *= damping;
+      node.vy *= damping;
+      node.x = clamp(node.x + node.vx, margin, width - margin);
+      node.y = clamp(node.y + node.vy, margin, height - margin);
+    });
+  }
+
+  return positions.map(({ vx, vy, ...node }) => node);
+};
+
+const buildCollaborationGraph = (members) => {
+  const publicationToAuthors = new Map();
+  const nodeMap = new Map();
+
+  members.forEach((member) => {
+    nodeMap.set(member.id, {
+      id: member.id,
+      name: member.name,
+      department: member.department,
+      programs: member.programs || [],
+      publicationCount: member.filteredPublications.length
+    });
+
+    member.filteredPublications.forEach((pub) => {
+      const key = getPublicationKey(pub);
+      if (!key) {
+        return;
+      }
+      if (!publicationToAuthors.has(key)) {
+        publicationToAuthors.set(key, new Set());
+      }
+      publicationToAuthors.get(key).add(member.id);
+    });
+  });
+
+  const edgeMap = new Map();
+  let sharedPublicationCount = 0;
+
+  publicationToAuthors.forEach((authors) => {
+    if (authors.size < 2) {
+      return;
+    }
+    sharedPublicationCount += 1;
+    const list = Array.from(authors);
+    for (let i = 0; i < list.length; i += 1) {
+      for (let j = i + 1; j < list.length; j += 1) {
+        const source = list[i];
+        const target = list[j];
+        const key = source < target ? `${source}__${target}` : `${target}__${source}`;
+        const edge = edgeMap.get(key) || { source, target, weight: 0 };
+        edge.weight += 1;
+        edgeMap.set(key, edge);
+      }
+    }
+  });
+
+  return {
+    nodes: Array.from(nodeMap.values()),
+    edges: Array.from(edgeMap.values()),
+    sharedPublicationCount
+  };
+};
+
 const CHART_COLORS = [
   '#1f5ca7',
   '#2f8bc1',
@@ -1054,6 +1219,219 @@ const DonutChart = ({
   );
 };
 
+const NetworkGraph = ({
+  id,
+  nodes,
+  edges,
+  width = 900,
+  height = 520,
+  ariaLabel,
+  selectedNodeId,
+  onSelectNode
+}) => {
+  const containerRef = useRef(null);
+  const [tooltip, setTooltip] = useState(null);
+
+  const layoutNodes = useMemo(
+    () => buildNetworkLayout(nodes, edges, { width, height }),
+    [nodes, edges, width, height]
+  );
+  const nodeById = useMemo(
+    () => new Map(layoutNodes.map((node) => [node.id, node])),
+    [layoutNodes]
+  );
+  const selectedNode = selectedNodeId ? nodeById.get(selectedNodeId) : null;
+  const connectedIds = useMemo(() => {
+    if (!selectedNodeId) {
+      return new Set();
+    }
+    const set = new Set();
+    edges.forEach((edge) => {
+      if (edge.source === selectedNodeId || edge.target === selectedNodeId) {
+        set.add(edge.source);
+        set.add(edge.target);
+      }
+    });
+    return set;
+  }, [edges, selectedNodeId]);
+
+  const maxWeight = Math.max(...edges.map((edge) => edge.weight || 0), 1);
+  const maxCollab = Math.max(
+    ...layoutNodes.map((node) => node.collaborationCount || 0),
+    1
+  );
+
+  const getTooltipPosition = (event) => {
+    const bounds = containerRef.current?.getBoundingClientRect();
+    if (!bounds) {
+      return null;
+    }
+    const targetBounds = event.currentTarget?.getBoundingClientRect?.();
+    let x = event.clientX - bounds.left;
+    let y = event.clientY - bounds.top;
+    if (!event.clientX && targetBounds) {
+      x = targetBounds.left + targetBounds.width / 2 - bounds.left;
+      y = targetBounds.top - bounds.top;
+    }
+    x = Math.min(Math.max(x, 16), bounds.width - 16);
+    y = Math.min(Math.max(y, 16), bounds.height - 16);
+    return { x, y };
+  };
+
+  const showTooltip = (event, content) => {
+    const position = getTooltipPosition(event);
+    if (!position) {
+      return;
+    }
+    setTooltip({ ...position, ...content });
+  };
+
+  const clearTooltip = () => {
+    setTooltip(null);
+  };
+
+  if (!nodes?.length) {
+    return <div className="chart-empty">No co-authorship connections to display.</div>;
+  }
+
+  return (
+    <div className="chart-shell network-shell" ref={containerRef} onMouseLeave={clearTooltip}>
+      <svg
+        ref={id?.ref}
+        className="chart-svg network-svg"
+        width={width}
+        height={height}
+        viewBox={`0 0 ${width} ${height}`}
+        role="img"
+        aria-label={ariaLabel}
+      >
+        <rect width="100%" height="100%" rx="18" fill="#ffffff" />
+        <g className="network-links">
+          {edges.map((edge) => {
+            const source = nodeById.get(edge.source);
+            const target = nodeById.get(edge.target);
+            if (!source || !target) {
+              return null;
+            }
+            const isActive =
+              selectedNodeId &&
+              (edge.source === selectedNodeId || edge.target === selectedNodeId);
+            const isDimmed = selectedNodeId && !isActive;
+            const strokeWidth = 0.8 + (edge.weight / maxWeight) * 2.4;
+            return (
+              <line
+                key={`${edge.source}-${edge.target}`}
+                x1={source.x}
+                y1={source.y}
+                x2={target.x}
+                y2={target.y}
+                strokeWidth={strokeWidth}
+                className={`network-link ${isActive ? 'is-active' : ''} ${
+                  isDimmed ? 'is-dimmed' : ''
+                }`}
+                onMouseEnter={(event) =>
+                  showTooltip(event, {
+                    title: `${source.name} × ${target.name}`,
+                    detail: `${edge.weight} shared publication${
+                      edge.weight === 1 ? '' : 's'
+                    }`
+                  })
+                }
+                onMouseMove={(event) =>
+                  showTooltip(event, {
+                    title: `${source.name} × ${target.name}`,
+                    detail: `${edge.weight} shared publication${
+                      edge.weight === 1 ? '' : 's'
+                    }`
+                  })
+                }
+              />
+            );
+          })}
+        </g>
+        <g className="network-nodes">
+          {layoutNodes.map((node) => {
+            const isSelected = selectedNodeId === node.id;
+            const isConnected = connectedIds.has(node.id);
+            const isDimmed = selectedNodeId && !isSelected && !isConnected;
+            const radius = 6 + ((node.collaborationCount || 0) / maxCollab) * 10;
+            return (
+              <circle
+                key={node.id}
+                cx={node.x}
+                cy={node.y}
+                r={radius}
+                className={`network-node ${isSelected ? 'is-active' : ''} ${
+                  isDimmed ? 'is-dimmed' : ''
+                }`}
+                tabIndex={0}
+                role="button"
+                aria-label={`${node.name}: ${node.collaborationCount || 0} shared publications`}
+                onMouseEnter={(event) =>
+                  showTooltip(event, {
+                    title: node.name,
+                    detail: `${node.collaborationCount || 0} shared publication${
+                      node.collaborationCount === 1 ? '' : 's'
+                    } • ${node.collaboratorCount || 0} collaborator${
+                      node.collaboratorCount === 1 ? '' : 's'
+                    }`
+                  })
+                }
+                onMouseMove={(event) =>
+                  showTooltip(event, {
+                    title: node.name,
+                    detail: `${node.collaborationCount || 0} shared publication${
+                      node.collaborationCount === 1 ? '' : 's'
+                    } • ${node.collaboratorCount || 0} collaborator${
+                      node.collaboratorCount === 1 ? '' : 's'
+                    }`
+                  })
+                }
+                onFocus={(event) =>
+                  showTooltip(event, {
+                    title: node.name,
+                    detail: `${node.collaborationCount || 0} shared publication${
+                      node.collaborationCount === 1 ? '' : 's'
+                    } • ${node.collaboratorCount || 0} collaborator${
+                      node.collaboratorCount === 1 ? '' : 's'
+                    }`
+                  })
+                }
+                onBlur={clearTooltip}
+                onClick={() => onSelectNode?.(node.id)}
+                onKeyDown={(event) => {
+                  if (event.key === 'Enter' || event.key === ' ') {
+                    event.preventDefault();
+                    onSelectNode?.(node.id);
+                  }
+                }}
+              />
+            );
+          })}
+        </g>
+        {selectedNode ? (
+          <text
+            x={selectedNode.x}
+            y={Math.max(selectedNode.y - 14, 16)}
+            textAnchor="middle"
+            fontFamily="IBM Plex Sans, system-ui, sans-serif"
+            fontSize="12"
+            fill="#1f5ca7"
+          >
+            {selectedNode.name}
+          </text>
+        ) : null}
+      </svg>
+      {tooltip ? (
+        <div className="chart-tooltip" style={{ left: tooltip.x, top: tooltip.y }}>
+          <div className="chart-tooltip-title">{tooltip.title}</div>
+          <div className="chart-tooltip-value">{tooltip.detail}</div>
+        </div>
+      ) : null}
+    </div>
+  );
+};
+
 export default function App() {
   const [pubData, setPubData] = useState({ updated: '', source: '', faculty: [] });
   const [grantData, setGrantData] = useState({ updated: '', source: '', faculty: [] });
@@ -1061,7 +1439,14 @@ export default function App() {
   const [grantStatus, setGrantStatus] = useState('loading');
   const [tab, setTab] = useState(() => {
     const params = new URLSearchParams(window.location.search);
-    return params.get('tab') === 'grants' ? 'grants' : 'publications';
+    const tabParam = params.get('tab');
+    if (tabParam === 'grants') {
+      return 'grants';
+    }
+    if (tabParam === 'collaboration') {
+      return 'collaboration';
+    }
+    return 'publications';
   });
   const [query, setQuery] = useState('');
   const [yearMin, setYearMin] = useState('');
@@ -1090,6 +1475,14 @@ export default function App() {
   });
   const [hiddenAuthorship, setHiddenAuthorship] = useState({});
   const [hiddenGrantTypes, setHiddenGrantTypes] = useState({});
+  const [collabSelection, setCollabSelection] = useState(null);
+  const [collabMinShared, setCollabMinShared] = useState(1);
+  const collaborationRef = useRef(null);
+
+  const isPublications = tab === 'publications';
+  const isGrants = tab === 'grants';
+  const isCollaboration = tab === 'collaboration';
+  const isPublicationView = isPublications || isCollaboration;
 
   const setSelection = (key, value) => {
     setChartSelections((current) => ({ ...current, [key]: value }));
@@ -1118,6 +1511,8 @@ export default function App() {
     const url = new URL(window.location.href);
     if (nextTab === 'grants') {
       url.searchParams.set('tab', 'grants');
+    } else if (nextTab === 'collaboration') {
+      url.searchParams.set('tab', 'collaboration');
     } else {
       url.searchParams.delete('tab');
     }
@@ -1158,8 +1553,11 @@ export default function App() {
   }, []);
 
   useEffect(() => {
-    const currentStatus = tab === 'publications' ? pubStatus : grantStatus;
+    const currentStatus = isGrants ? grantStatus : pubStatus;
     if (currentStatus !== 'ready') {
+      return;
+    }
+    if (isCollaboration) {
       return;
     }
     const params = new URLSearchParams(window.location.search);
@@ -1170,7 +1568,7 @@ export default function App() {
     }
     const key = normalizeKey(facultyParam);
     const slug = normalizeSlug(facultyParam);
-    const facultyList = tab === 'publications' ? pubData.faculty : grantData.faculty;
+    const facultyList = isGrants ? grantData.faculty : pubData.faculty;
     const match = facultyList.find((member) => {
       const idKey = normalizeKey(member.id);
       const nameKey = normalizeKey(member.name);
@@ -1192,6 +1590,8 @@ export default function App() {
     url.searchParams.set('faculty', member.id);
     if (tab === 'grants') {
       url.searchParams.set('tab', 'grants');
+    } else if (tab === 'collaboration') {
+      url.searchParams.set('tab', 'collaboration');
     } else {
       url.searchParams.delete('tab');
     }
@@ -1279,7 +1679,7 @@ export default function App() {
     });
     setHiddenAuthorship({});
     setHiddenGrantTypes({});
-    if (tab === 'publications') {
+    if (isPublicationView) {
       setPubSortBy('name');
       if (yearBounds.min && yearBounds.max) {
         setYearMin(yearBounds.min);
@@ -1292,12 +1692,16 @@ export default function App() {
       setGrantSortBy('name');
     }
     setOpenId(null);
+    setCollabSelection(null);
+    setCollabMinShared(1);
     const url = new URL(window.location.href);
     url.searchParams.delete('faculty');
     url.searchParams.delete('name');
     url.searchParams.delete('researcher');
     if (tab === 'grants') {
       url.searchParams.set('tab', 'grants');
+    } else if (tab === 'collaboration') {
+      url.searchParams.set('tab', 'collaboration');
     } else {
       url.searchParams.delete('tab');
     }
@@ -1540,11 +1944,12 @@ export default function App() {
     return sorted;
   }, [grantData, query, grantSortBy, programFilters, grantTypeFilters]);
 
-  const activeFaculty = tab === 'publications' ? filteredPublications : filteredGrants;
+  const activeFaculty = isGrants ? filteredGrants : filteredPublications;
 
   useEffect(() => {
     setOpenId(null);
     setStickyActive(false);
+    setCollabSelection(null);
   }, [tab]);
 
   useEffect(() => {
@@ -1586,6 +1991,134 @@ export default function App() {
     () => filteredPublications.flatMap((member) => member.filteredPublications),
     [filteredPublications]
   );
+
+  const collaborationGraph = useMemo(
+    () => buildCollaborationGraph(filteredPublications),
+    [filteredPublications]
+  );
+
+  const collabMaxShared = useMemo(() => {
+    if (!collaborationGraph.edges.length) {
+      return 1;
+    }
+    return Math.max(...collaborationGraph.edges.map((edge) => edge.weight || 0), 1);
+  }, [collaborationGraph.edges]);
+
+  useEffect(() => {
+    if (collabMinShared > collabMaxShared) {
+      setCollabMinShared(collabMaxShared);
+    }
+  }, [collabMinShared, collabMaxShared]);
+
+  const collaborationEdges = useMemo(
+    () =>
+      collaborationGraph.edges.filter((edge) => edge.weight >= collabMinShared),
+    [collaborationGraph.edges, collabMinShared]
+  );
+
+  const collaborationNodeStats = useMemo(() => {
+    const stats = new Map();
+    collaborationGraph.nodes.forEach((node) => {
+      stats.set(node.id, { collaborationCount: 0, collaboratorCount: 0 });
+    });
+    collaborationEdges.forEach((edge) => {
+      const sourceStats = stats.get(edge.source);
+      const targetStats = stats.get(edge.target);
+      if (sourceStats) {
+        sourceStats.collaborationCount += edge.weight;
+        sourceStats.collaboratorCount += 1;
+      }
+      if (targetStats) {
+        targetStats.collaborationCount += edge.weight;
+        targetStats.collaboratorCount += 1;
+      }
+    });
+    return stats;
+  }, [collaborationGraph.nodes, collaborationEdges]);
+
+  const collaborationNodes = useMemo(() => {
+    const nodeIds = new Set();
+    collaborationEdges.forEach((edge) => {
+      nodeIds.add(edge.source);
+      nodeIds.add(edge.target);
+    });
+    return collaborationGraph.nodes
+      .filter((node) => nodeIds.has(node.id))
+      .map((node) => ({
+        ...node,
+        ...collaborationNodeStats.get(node.id)
+      }));
+  }, [collaborationGraph.nodes, collaborationEdges, collaborationNodeStats]);
+
+  const collaborationNodeById = useMemo(
+    () => new Map(collaborationGraph.nodes.map((node) => [node.id, node])),
+    [collaborationGraph.nodes]
+  );
+
+  const collaborationStats = useMemo(
+    () => ({
+      nodeCount: collaborationNodes.length,
+      edgeCount: collaborationEdges.length,
+      sharedPublicationCount: collaborationGraph.sharedPublicationCount
+    }),
+    [collaborationNodes.length, collaborationEdges.length, collaborationGraph.sharedPublicationCount]
+  );
+
+  const topCollaborations = useMemo(() => {
+    if (!collaborationEdges.length) {
+      return [];
+    }
+    return [...collaborationEdges]
+      .sort((a, b) => b.weight - a.weight)
+      .slice(0, 6)
+      .map((edge) => ({
+        ...edge,
+        sourceName: collaborationNodeById.get(edge.source)?.name || edge.source,
+        targetName: collaborationNodeById.get(edge.target)?.name || edge.target
+      }));
+  }, [collaborationEdges, collaborationNodeById]);
+
+  const selectedCollaborationNode = useMemo(() => {
+    if (!collabSelection) {
+      return null;
+    }
+    return collaborationNodes.find((node) => node.id === collabSelection) || null;
+  }, [collabSelection, collaborationNodes]);
+
+  const selectedCollaborators = useMemo(() => {
+    if (!selectedCollaborationNode) {
+      return [];
+    }
+    return collaborationEdges
+      .filter(
+        (edge) =>
+          edge.source === selectedCollaborationNode.id ||
+          edge.target === selectedCollaborationNode.id
+      )
+      .map((edge) => {
+        const otherId =
+          edge.source === selectedCollaborationNode.id ? edge.target : edge.source;
+        return {
+          id: otherId,
+          name: collaborationNodeById.get(otherId)?.name || otherId,
+          weight: edge.weight
+        };
+      })
+      .sort((a, b) => b.weight - a.weight)
+      .slice(0, 6);
+  }, [selectedCollaborationNode, collaborationEdges, collaborationNodeById]);
+
+  useEffect(() => {
+    if (!collabSelection) {
+      return;
+    }
+    const stillVisible = collaborationNodes.some(
+      (node) => node.id === collabSelection
+    );
+    if (!stillVisible) {
+      setCollabSelection(null);
+    }
+  }, [collaborationNodes, collabSelection]);
 
   const publicationSeries = useMemo(
     () => trimSeries(buildYearSeries(allPublications, activeYearRange), 12),
@@ -2040,10 +2573,14 @@ export default function App() {
       setStickyActive(false);
       return;
     }
+    if (isCollaboration) {
+      setStickyActive(false);
+      return;
+    }
 
     const STICKY_OFFSET = 12;
 
-    const listPrefix = tab === 'publications' ? 'pub-list' : 'grant-list';
+    const listPrefix = isGrants ? 'grant-list' : 'pub-list';
 
     const handlePosition = () => {
       const listEl = document.getElementById(`${listPrefix}-${openId}`);
@@ -2067,13 +2604,22 @@ export default function App() {
     };
   }, [openId, tab]);
 
-  const isPublications = tab === 'publications';
-  const activeStatus = isPublications ? pubStatus : grantStatus;
-  const activeData = isPublications ? pubData : grantData;
-  const activeLabel = isPublications ? 'publications' : 'grants';
-  const activeFile = isPublications
-    ? 'public/data/publications.json'
-    : 'public/data/grants.json';
+  const activeStatus = isGrants ? grantStatus : pubStatus;
+  const activeData = isGrants ? grantData : pubData;
+  const activeLabel = isGrants ? 'grants' : isCollaboration ? 'collaboration' : 'publications';
+  const activeFile = isGrants
+    ? 'public/data/grants.json'
+    : 'public/data/publications.json';
+  const heroTitle = isGrants
+    ? 'Faculty Grant Dashboard'
+    : isCollaboration
+      ? 'Faculty Collaboration Dashboard'
+      : 'Faculty Publication Dashboard';
+  const heroLead = isGrants
+    ? 'Review NIH RePORTER grants tied to CTSI faculty and track award amounts across the program.'
+    : isCollaboration
+      ? 'Map co-authorship ties between CTSI faculty and surface shared publication activity.'
+      : 'Explore recent publications, filter by year, and highlight CTSI faculty output for grants, reports, and public engagement.';
 
   const getPublicationFilterValues = () => [
     query.trim() || 'All',
@@ -2089,7 +2635,7 @@ export default function App() {
   ];
 
   const handleExportSummaryCsv = () => {
-    if (isPublications) {
+    if (!isGrants) {
       const filterHeaders = [
         'Filter: Search',
         'Filter: Year Min',
@@ -2173,7 +2719,7 @@ export default function App() {
   };
 
   const handleExportDetailedCsv = () => {
-    if (isPublications) {
+    if (!isGrants) {
       const filterHeaders = [
         'Filter: Search',
         'Filter: Year Min',
@@ -2280,6 +2826,44 @@ export default function App() {
     );
   };
 
+  const handleExportCollaborationCsv = () => {
+    const filterHeaders = [
+      'Filter: Search',
+      'Filter: Year Min',
+      'Filter: Year Max',
+      'Filter: Programs',
+      'Filter: Min Shared'
+    ];
+    const filterValues = [...getPublicationFilterValues(), String(collabMinShared)];
+    const headers = [
+      'Faculty A',
+      'Faculty B',
+      'Shared Publications',
+      'Publications A',
+      'Publications B',
+      ...filterHeaders
+    ];
+    const rows = [...collaborationEdges]
+      .sort((a, b) => b.weight - a.weight)
+      .map((edge) => {
+        const source = collaborationNodeById.get(edge.source);
+        const target = collaborationNodeById.get(edge.target);
+        return [
+          source?.name || edge.source,
+          target?.name || edge.target,
+          edge.weight,
+          source?.publicationCount ?? 0,
+          target?.publicationCount ?? 0,
+          ...filterValues
+        ];
+      });
+    downloadCsv(
+      buildExportFilename('collaboration', pubData.updated),
+      headers,
+      rows
+    );
+  };
+
   if (activeStatus === 'loading') {
     return (
       <main className="page">
@@ -2324,10 +2908,21 @@ export default function App() {
           <button
             type="button"
             role="tab"
-            aria-selected={!isPublications}
+            aria-selected={isCollaboration}
+            aria-controls="tab-panel-collaboration"
+            id="tab-collaboration"
+            className={`tab ${isCollaboration ? 'is-active' : ''}`}
+            onClick={() => handleTabChange('collaboration')}
+          >
+            Collaboration
+          </button>
+          <button
+            type="button"
+            role="tab"
+            aria-selected={isGrants}
             aria-controls="tab-panel-grants"
             id="tab-grants"
-            className={`tab ${!isPublications ? 'is-active' : ''}`}
+            className={`tab ${isGrants ? 'is-active' : ''}`}
             onClick={() => handleTabChange('grants')}
           >
             Grants
@@ -2336,38 +2931,51 @@ export default function App() {
       </div>
       <header className="hero">
         <p className="eyebrow">University of Minnesota CTSI</p>
-        <h1>
-          {isPublications ? 'Faculty Publication Dashboard' : 'Faculty Grant Dashboard'}
-        </h1>
-        <p className="lead">
-          {isPublications
-            ? 'Explore recent publications, filter by year, and highlight CTSI faculty output for grants, reports, and public engagement.'
-            : 'Review NIH RePORTER grants tied to CTSI faculty and track award amounts across the program.'}
-        </p>
+        <h1>{heroTitle}</h1>
+        <p className="lead">{heroLead}</p>
         <div className="hero-meta">
-          <div>
-            <span className="label">Faculty in view</span>
-            <strong>{activeFaculty.length}</strong>
-          </div>
-          {isPublications ? (
-            <div>
-              <span className="label">Publications in view</span>
-              <strong>{totalPublications}</strong>
-            </div>
+          {isCollaboration ? (
+            <>
+              <div>
+                <span className="label">Co-authorship pairs</span>
+                <strong>{collaborationStats.edgeCount}</strong>
+              </div>
+              <div>
+                <span className="label">Collaborating faculty</span>
+                <strong>{collaborationStats.nodeCount}</strong>
+              </div>
+              <div>
+                <span className="label">Shared publications</span>
+                <strong>{collaborationStats.sharedPublicationCount}</strong>
+              </div>
+            </>
           ) : (
-            <div>
-              <span className="label">Grant projects in view</span>
-              <strong>{totalGrants}</strong>
-            </div>
+            <>
+              <div>
+                <span className="label">Faculty in view</span>
+                <strong>{activeFaculty.length}</strong>
+              </div>
+              {isPublications ? (
+                <div>
+                  <span className="label">Publications in view</span>
+                  <strong>{totalPublications}</strong>
+                </div>
+              ) : (
+                <div>
+                  <span className="label">Grant projects in view</span>
+                  <strong>{totalGrants}</strong>
+                </div>
+              )}
+              {isGrants ? (
+                <div>
+                  <span className="label">Total awarded</span>
+                  <strong>
+                    {hasGrantAmounts ? formatCurrency(totalGrantAmount) : '—'}
+                  </strong>
+                </div>
+              ) : null}
+            </>
           )}
-          {!isPublications ? (
-            <div>
-              <span className="label">Total awarded</span>
-              <strong>
-                {hasGrantAmounts ? formatCurrency(totalGrantAmount) : '—'}
-              </strong>
-            </div>
-          ) : null}
           <div>
             <span className="label">Last updated</span>
             <strong>{activeData.updated || 'Unknown'}</strong>
@@ -2376,28 +2984,41 @@ export default function App() {
         <div className="hero-actions">
           <a
             className="button"
-            href={isPublications ? PUBLICATIONS_URL : GRANTS_URL}
+            href={isGrants ? GRANTS_URL : PUBLICATIONS_URL}
             target="_blank"
             rel="noreferrer"
           >
             Download JSON
           </a>
-          <button
-            type="button"
-            className="button"
-            onClick={handleExportSummaryCsv}
-            title="Download the current table as a summary CSV"
-          >
-            Download Summary CSV
-          </button>
-          <button
-            type="button"
-            className="button"
-            onClick={handleExportDetailedCsv}
-            title="Download the detailed rows as CSV"
-          >
-            Download Detailed CSV
-          </button>
+          {isCollaboration ? (
+            <button
+              type="button"
+              className="button"
+              onClick={handleExportCollaborationCsv}
+              title="Download collaboration pairs as CSV"
+            >
+              Download Collaboration CSV
+            </button>
+          ) : (
+            <>
+              <button
+                type="button"
+                className="button"
+                onClick={handleExportSummaryCsv}
+                title="Download the current table as a summary CSV"
+              >
+                Download Summary CSV
+              </button>
+              <button
+                type="button"
+                className="button"
+                onClick={handleExportDetailedCsv}
+                title="Download the detailed rows as CSV"
+              >
+                Download Detailed CSV
+              </button>
+            </>
+          )}
           {activeData.source ? (
             <span className="tag">Source: {activeData.source}</span>
           ) : null}
@@ -2411,13 +3032,15 @@ export default function App() {
             <input
               type="search"
               placeholder={
-                isPublications ? 'Name, department, title' : 'Name, department, project'
+                isPublicationView
+                  ? 'Name, department, title'
+                  : 'Name, department, project'
               }
               value={query}
               onChange={(event) => setQuery(event.target.value)}
             />
           </label>
-          {isPublications ? (
+          {isPublicationView ? (
             <>
               <label className="field">
                 <span>Start year</span>
@@ -2439,17 +3062,19 @@ export default function App() {
                   onChange={(event) => setYearMax(event.target.value)}
                 />
               </label>
-              <label className="field">
-                <span>Sort by</span>
-                <select
-                  value={pubSortBy}
-                  onChange={(event) => setPubSortBy(event.target.value)}
-                >
-                  <option value="name">Faculty name</option>
-                  <option value="count">Publication count</option>
-                  <option value="latest">Most recent year</option>
-                </select>
-              </label>
+              {isPublications ? (
+                <label className="field">
+                  <span>Sort by</span>
+                  <select
+                    value={pubSortBy}
+                    onChange={(event) => setPubSortBy(event.target.value)}
+                  >
+                    <option value="name">Faculty name</option>
+                    <option value="count">Publication count</option>
+                    <option value="latest">Most recent year</option>
+                  </select>
+                </label>
+              ) : null}
             </>
           ) : (
             <label className="field">
@@ -2471,7 +3096,7 @@ export default function App() {
             </button>
           </div>
         </div>
-        {programFilters.length || (!isPublications && grantTypeFilters.length) ? (
+        {programFilters.length || (isGrants && grantTypeFilters.length) ? (
           <div className="active-filters">
             {programFilters.length ? (
               <>
@@ -2492,7 +3117,7 @@ export default function App() {
                 </div>
               </>
             ) : null}
-            {!isPublications && grantTypeFilters.length ? (
+            {isGrants && grantTypeFilters.length ? (
               <>
                 <span className="label">Grant type filters</span>
                 <div className="chip-row">
@@ -2513,9 +3138,226 @@ export default function App() {
             ) : null}
           </div>
         ) : null}
+        {isCollaboration ? (
+          <div className="filter-group">
+            <label className="field">
+              <span>Minimum shared publications</span>
+              <select
+                value={collabMinShared}
+                onChange={(event) => setCollabMinShared(Number(event.target.value))}
+                disabled={!collaborationGraph.edges.length}
+              >
+                {Array.from({ length: collabMaxShared }, (_, index) => index + 1).map(
+                  (value) => (
+                    <option key={value} value={value}>
+                      {value}+
+                    </option>
+                  )
+                )}
+              </select>
+            </label>
+            <p className="muted small">
+              Showing co-authorship pairs with at least {collabMinShared} shared
+              publication{collabMinShared === 1 ? '' : 's'}.
+            </p>
+          </div>
+        ) : null}
       </section>
 
-      <section className="insights">
+      {isCollaboration ? (
+        <section
+          className="collaboration"
+          id="tab-panel-collaboration"
+          role="tabpanel"
+          aria-labelledby="tab-collaboration"
+        >
+          <div className="collaboration-head">
+            <div>
+              <p className="eyebrow">Collaboration Studio</p>
+              <h2>Co-authorship network</h2>
+              <p className="muted">
+                Each node is a CTSI faculty member. Connections show shared publications,
+                with thicker links indicating more shared work.
+              </p>
+            </div>
+            <div className="insights-note">
+              <span className="tag">Weighted links</span>
+              <span className="tag">Click nodes to explore</span>
+            </div>
+          </div>
+          <div className="collaboration-grid">
+            <article className="chart-card collaboration-card">
+              <header className="collaboration-card-head">
+                <div>
+                  <p className="chart-title">Network graph</p>
+                  <p className="chart-subtitle">
+                    Shared publication ties across CTSI faculty
+                  </p>
+                </div>
+                <div className="chart-actions">
+                  <button
+                    type="button"
+                    className="chart-button"
+                    onClick={() =>
+                      downloadSvg(
+                        collaborationRef.current,
+                        buildChartFilename(
+                          'collaboration-network',
+                          activeData.updated,
+                          'svg'
+                        )
+                      )
+                    }
+                    disabled={!collaborationEdges.length}
+                    title="Download as SVG"
+                  >
+                    SVG
+                  </button>
+                  <button
+                    type="button"
+                    className="chart-button"
+                    onClick={() =>
+                      downloadPng(
+                        collaborationRef.current,
+                        buildChartFilename(
+                          'collaboration-network',
+                          activeData.updated,
+                          'png'
+                        )
+                      )
+                    }
+                    disabled={!collaborationEdges.length}
+                    title="Download as PNG"
+                  >
+                    PNG
+                  </button>
+                </div>
+              </header>
+              <NetworkGraph
+                id={{ name: 'collaboration-network', ref: collaborationRef }}
+                nodes={collaborationNodes}
+                edges={collaborationEdges}
+                ariaLabel="Co-authorship network of CTSI faculty"
+                selectedNodeId={collabSelection}
+                onSelectNode={(id) =>
+                  setCollabSelection((current) => (current === id ? null : id))
+                }
+              />
+              <div className="network-legend">
+                <span className="network-key">
+                  <span className="network-swatch" /> Faculty member
+                </span>
+                <span className="network-key">
+                  <span className="network-line" /> Shared publications
+                </span>
+              </div>
+            </article>
+            <article className="chart-card collaboration-card">
+              <header className="collaboration-card-head">
+                <div>
+                  <p className="chart-title">Collaboration highlights</p>
+                  <p className="chart-subtitle">
+                    Shared publication activity in this view
+                  </p>
+                </div>
+                {selectedCollaborationNode ? (
+                  <button
+                    type="button"
+                    className="chart-button"
+                    onClick={() => setCollabSelection(null)}
+                  >
+                    Clear
+                  </button>
+                ) : null}
+              </header>
+              <div className="collaboration-metrics">
+                <div className="collaboration-metric">
+                  <span className="label">Collaborating faculty</span>
+                  <strong>{collaborationStats.nodeCount}</strong>
+                </div>
+                <div className="collaboration-metric">
+                  <span className="label">Co-authorship pairs</span>
+                  <strong>{collaborationStats.edgeCount}</strong>
+                </div>
+                <div className="collaboration-metric">
+                  <span className="label">Shared publications</span>
+                  <strong>{collaborationStats.sharedPublicationCount}</strong>
+                </div>
+              </div>
+              {selectedCollaborationNode ? (
+                <div className="collaboration-section">
+                  <div className="collaboration-section-title">Selected faculty</div>
+                  <div className="collaboration-selected">
+                    <div className="collaboration-selected-name">
+                      {selectedCollaborationNode.name}
+                    </div>
+                    <div className="muted small">
+                      {selectedCollaborationNode.department}
+                    </div>
+                    <div className="collaboration-selected-stats">
+                      <span>
+                        {selectedCollaborationNode.publicationCount || 0} publications
+                      </span>
+                      <span>
+                        {selectedCollaborationNode.collaboratorCount || 0} collaborators
+                      </span>
+                      <span>
+                        {selectedCollaborationNode.collaborationCount || 0} shared
+                      </span>
+                    </div>
+                  </div>
+                  <div className="collaboration-list">
+                    {selectedCollaborators.length ? (
+                      selectedCollaborators.map((collaborator) => (
+                        <div
+                          key={collaborator.id}
+                          className="collaboration-row"
+                        >
+                          <span>{collaborator.name}</span>
+                          <strong>
+                            {collaborator.weight} shared publication
+                            {collaborator.weight === 1 ? '' : 's'}
+                          </strong>
+                        </div>
+                      ))
+                    ) : (
+                      <div className="muted small">
+                        No shared publications in the current view.
+                      </div>
+                    )}
+                  </div>
+                </div>
+              ) : (
+                <div className="collaboration-section">
+                  <div className="collaboration-section-title">Top co-authorships</div>
+                  <div className="collaboration-list">
+                    {topCollaborations.length ? (
+                      topCollaborations.map((edge) => (
+                        <div
+                          key={`${edge.source}-${edge.target}`}
+                          className="collaboration-row"
+                        >
+                          <span>
+                            {edge.sourceName} × {edge.targetName}
+                          </span>
+                          <strong>
+                            {edge.weight} shared publication{edge.weight === 1 ? '' : 's'}
+                          </strong>
+                        </div>
+                      ))
+                    ) : (
+                      <div className="muted small">
+                        No co-authorship pairs match the current filters.
+                      </div>
+                    )}
+                  </div>
+                </div>
+              )}
+            </article>
+          </div>
+        </section>
+      ) : (
+        <section className="insights">
         <div className="insights-head">
           <div>
             <p className="eyebrow">Visualization Studio</p>
@@ -2804,8 +3646,9 @@ export default function App() {
           )}
         </div>
       </section>
+      )}
 
-      {openMember ? (
+      {!isCollaboration && openMember ? (
         <div
           className={`sticky-author ${stickyActive ? 'is-active' : ''}`}
           ref={stickyRef}
@@ -3096,7 +3939,7 @@ export default function App() {
             </section>
           ) : null}
         </>
-      ) : (
+      ) : isGrants ? (
         <>
           <section
             className="table-wrap"
@@ -3324,7 +4167,7 @@ export default function App() {
             </section>
           ) : null}
         </>
-      )}
+      ) : null}
 
       <footer className="footer">
         <p>

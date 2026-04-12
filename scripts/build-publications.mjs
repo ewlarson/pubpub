@@ -1,18 +1,14 @@
 import dotenv from 'dotenv';
 import { existsSync } from 'node:fs';
 import { readFile, writeFile } from 'node:fs/promises';
-import { createRequire } from 'node:module';
 import path from 'node:path';
 import { XMLParser } from 'fast-xml-parser';
 import { fetchArticleXml, fetchPmids, fetchSummaries } from './pubmed.mjs';
+import { initDb, remapFacultyIdReferences, upsertCanonicalFaculty } from './db.mjs';
 
 const CSV_PATH = path.resolve('data', 'CTSI Faculty - Sheet1.csv');
 const OUTPUT_PATH = path.resolve('public', 'data', 'publications.json');
 const CURATION_PATH = path.resolve('data', 'curation.json');
-const DB_PATH = process.env.PUBPUB_DB_PATH || path.resolve('data', 'pubpub.sqlite');
-
-const require = createRequire(import.meta.url);
-const Database = require('better-sqlite3');
 
 const envLocal = path.resolve('.env.local');
 if (existsSync(envLocal)) {
@@ -148,46 +144,7 @@ const normalizePmidList = (value) => {
 
 const nowIso = () => new Date().toISOString();
 
-const initDb = () => {
-  const db = new Database(DB_PATH);
-  db.pragma('journal_mode = WAL');
-  db.exec(`
-    CREATE TABLE IF NOT EXISTS publications (
-      pmid TEXT PRIMARY KEY,
-      title TEXT,
-      journal TEXT,
-      year INTEGER,
-      doi TEXT,
-      url TEXT,
-      updated_at TEXT
-    );
-    CREATE TABLE IF NOT EXISTS faculty_publications (
-      faculty_id TEXT NOT NULL,
-      pmid TEXT NOT NULL,
-      first_seen_at TEXT NOT NULL,
-      last_seen_at TEXT NOT NULL,
-      source TEXT NOT NULL DEFAULT 'pubmed',
-      PRIMARY KEY (faculty_id, pmid)
-    );
-    CREATE TABLE IF NOT EXISTS curation (
-      faculty_id TEXT NOT NULL,
-      pmid TEXT NOT NULL,
-      verdict TEXT NOT NULL CHECK (verdict IN ('true_positive', 'false_positive')),
-      reason TEXT,
-      updated_at TEXT NOT NULL,
-      PRIMARY KEY (faculty_id, pmid)
-    );
-    CREATE TABLE IF NOT EXISTS faculty_publication_coauthors (
-      faculty_id TEXT NOT NULL,
-      pmid TEXT NOT NULL,
-      name TEXT NOT NULL,
-      PRIMARY KEY (faculty_id, pmid, name)
-    );
-  `);
-  return db;
-};
-
-const seedCurationFromJson = async (db) => {
+const seedCurationFromJson = async (db, legacyToCanonical = new Map()) => {
   if (!existsSync(CURATION_PATH)) {
     return;
   }
@@ -208,11 +165,24 @@ const seedCurationFromJson = async (db) => {
   const transaction = db.transaction(() => {
     const timestamp = nowIso();
     Object.entries(data.faculty).forEach(([facultyId, entry]) => {
+      const canonicalFacultyId = legacyToCanonical.get(facultyId) || facultyId;
       normalizePmidList(entry?.falsePositives).forEach((pmid) => {
-        insert.run(facultyId, pmid, 'false_positive', 'seeded from curation.json', timestamp);
+        insert.run(
+          canonicalFacultyId,
+          pmid,
+          'false_positive',
+          'seeded from curation.json',
+          timestamp
+        );
       });
       normalizePmidList(entry?.truePositives).forEach((pmid) => {
-        insert.run(facultyId, pmid, 'true_positive', 'seeded from curation.json', timestamp);
+        insert.run(
+          canonicalFacultyId,
+          pmid,
+          'true_positive',
+          'seeded from curation.json',
+          timestamp
+        );
       });
     });
   });
@@ -1121,6 +1091,65 @@ const parseFaculty = (rows) => {
   });
 };
 
+const canonicalizeFaculty = (db, faculty) => {
+  const legacyToCanonical = new Map();
+  const merged = new Map();
+
+  for (const person of faculty) {
+    const canonicalId = upsertCanonicalFaculty(db, person, {
+      source: 'pubmed_build',
+      legacySlug: person.id
+    });
+    legacyToCanonical.set(person.id, canonicalId);
+    remapFacultyIdReferences(db, person.id, canonicalId);
+
+    if (!merged.has(canonicalId)) {
+      merged.set(canonicalId, {
+        ...person,
+        id: canonicalId,
+        signatureTerms: new Set(person.signatureTerms || []),
+        programs: new Set(person.programs || []),
+        nameVariants: new Map(
+          (person.nameVariants || []).map((variant) => [
+            buildNameKey(variant.foreName, variant.lastName),
+            variant
+          ])
+        )
+      });
+      continue;
+    }
+
+    const current = merged.get(canonicalId);
+    (person.signatureTerms || []).forEach((term) => current.signatureTerms.add(term));
+    (person.programs || []).forEach((program) => current.programs.add(program));
+    (person.nameVariants || []).forEach((variant) => {
+      current.nameVariants.set(buildNameKey(variant.foreName, variant.lastName), variant);
+    });
+    if (!current.orcid && person.orcid) {
+      current.orcid = person.orcid;
+    }
+    if (!current.email && person.email) {
+      current.email = person.email;
+    }
+    if (!current.name && person.name) {
+      current.name = person.name;
+    }
+    if (!current.startDate || (person.startDate && person.startDate < current.startDate)) {
+      current.startDate = person.startDate;
+      current.startYear = person.startYear;
+    }
+  }
+
+  const canonicalFaculty = Array.from(merged.values()).map((person) => ({
+    ...person,
+    signatureTerms: Array.from(person.signatureTerms),
+    programs: Array.from(person.programs),
+    nameVariants: Array.from(person.nameVariants.values())
+  }));
+
+  return { faculty: canonicalFaculty, legacyToCanonical };
+};
+
 const buildTerm = ({
   nameFirst,
   nameLast,
@@ -1180,9 +1209,10 @@ const main = async () => {
 
   const csvText = await readFile(CSV_PATH, 'utf8');
   const rows = parseCsv(csvText);
-  const faculty = parseFaculty(rows);
   const db = initDb();
-  await seedCurationFromJson(db);
+  const parsedFaculty = parseFaculty(rows);
+  const { faculty, legacyToCanonical } = canonicalizeFaculty(db, parsedFaculty);
+  await seedCurationFromJson(db, legacyToCanonical);
 
   const results = [];
 

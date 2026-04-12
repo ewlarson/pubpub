@@ -1,0 +1,16 @@
+{
+  "aliases": [
+    {
+      "match": {
+        "email": "kaja@umn.edu"
+      },
+      "canonicalId": "kaja-sarah"
+    },
+    {
+      "match": {
+        "email": "camch002@umn.edu"
+      },
+      "canonicalId": "y-jazmin-camchong-camch002-umn-edu"
+    }
+  ]
+}

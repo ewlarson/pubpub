@@ -5,8 +5,12 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "ingest:faculty": "node scripts/ingest-faculty.mjs",
     "build:data": "node scripts/build-publications.mjs",
     "build:grants": "node scripts/build-grants.mjs",
+    "export:data": "node scripts/export-static-data.mjs",
+    "audit:data": "node scripts/audit-data.mjs",
+    "build:data:all": "npm run ingest:faculty && npm run build:data && npm run build:grants && npm run export:data",
     "build": "vite build",
     "preview": "vite preview"
   },
