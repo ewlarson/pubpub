@@ -76,6 +76,16 @@ export const initDb = (dbPath = DEFAULT_DB_PATH) => {
       PRIMARY KEY (faculty_id, program, start_date),
       FOREIGN KEY (faculty_id) REFERENCES faculty(id)
     );
+    CREATE TABLE IF NOT EXISTS faculty_signature_terms (
+      faculty_id TEXT NOT NULL,
+      term TEXT NOT NULL,
+      term_type TEXT NOT NULL DEFAULT 'affiliation',
+      source TEXT NOT NULL DEFAULT 'csv',
+      PRIMARY KEY (faculty_id, term),
+      FOREIGN KEY (faculty_id) REFERENCES faculty(id)
+    );
+    CREATE INDEX IF NOT EXISTS idx_faculty_signature_terms_type
+      ON faculty_signature_terms(term_type);
 
     CREATE TABLE IF NOT EXISTS publications (
       pmid TEXT PRIMARY KEY,
@@ -246,8 +256,38 @@ export const upsertCanonicalFaculty = (db, person, options = {}) => {
     `).run(canonicalId, cleanProgram, toIsoDate(person.startDate));
   });
 
+  const signatureTerms = Array.isArray(person.signatureTerms) ? person.signatureTerms : [];
+  signatureTerms.forEach((term) => {
+    const cleanTerm = String(term || '').trim();
+    if (!cleanTerm) {
+      return;
+    }
+    const termType = /@/.test(cleanTerm) ? 'email' : 'affiliation';
+    db.prepare(`
+      INSERT INTO faculty_signature_terms (faculty_id, term, term_type, source)
+      VALUES (?, ?, ?, ?)
+      ON CONFLICT(faculty_id, term) DO UPDATE SET
+        term_type = excluded.term_type,
+        source = excluded.source
+    `).run(canonicalId, cleanTerm, termType, source);
+  });
+
   return canonicalId;
 };
+
+export const getFacultySignatureTerms = (db, facultyId) =>
+  db
+    .prepare(
+      `
+      SELECT term
+      FROM faculty_signature_terms
+      WHERE faculty_id = ?
+      ORDER BY term ASC
+    `
+    )
+    .all(facultyId)
+    .map((row) => row.term)
+    .filter(Boolean);
 
 const remapPairTable = (db, tableName, legacyId, canonicalId, extraCols = []) => {
   const extra = extraCols.length ? `, ${extraCols.join(', ')}` : '';
@@ -297,6 +337,14 @@ export const remapFacultyIdReferences = (db, legacyId, canonicalId) => {
       WHERE faculty_id = ?
     `).run(toId, fromId);
     db.prepare('DELETE FROM faculty_programs WHERE faculty_id = ?').run(fromId);
+
+    db.prepare(`
+      INSERT OR IGNORE INTO faculty_signature_terms (faculty_id, term, term_type, source)
+      SELECT ?, term, term_type, source
+      FROM faculty_signature_terms
+      WHERE faculty_id = ?
+    `).run(toId, fromId);
+    db.prepare('DELETE FROM faculty_signature_terms WHERE faculty_id = ?').run(fromId);
   });
   tx();
 };

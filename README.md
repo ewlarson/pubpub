@@ -86,6 +86,7 @@ REPORTER_FISCAL_YEARS=2024,2025
 REPORTER_DELAY_MS=1200
 REPORTER_API_URL=https://api.reporter.nih.gov/v2/projects/search
 REPORTER_DEFAULT_ORG=University of Minnesota
+REPORTER_EXTRA_ORG_NAMES=MINNEAPOLIS VA MEDICAL CENTER
 REPORTER_PAGE_LIMIT=500
 ```
 
@@ -107,6 +108,7 @@ Tables (created automatically):
 - `faculty` (canonical faculty identity rows)
 - `faculty_aliases` (alternate names/emails/ORCIDs for merge tracking)
 - `faculty_programs` (program memberships with dates)
+- `faculty_signature_terms` (stored `signature_terms` entries, including multi-affiliation org terms)
 - `publications` (metadata keyed by PMID)
 - `faculty_publications` (join table with first/last seen timestamps)
 - `curation` (true/false positive labels)

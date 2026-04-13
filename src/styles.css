@@ -921,6 +921,51 @@ a:hover {
   margin-top: 0.7rem;
 }
 
+.faculty-profile {
+  display: grid;
+  gap: 1.2rem;
+}
+
+.faculty-profile-head {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+.faculty-profile-head h2 {
+  font-family: 'IBM Plex Serif', serif;
+  margin-top: 0.2rem;
+}
+
+.faculty-profile-stats {
+  max-width: 960px;
+}
+
+.faculty-profile-programs {
+  display: grid;
+  gap: 0.65rem;
+}
+
+.faculty-profile-programs h3,
+.faculty-profile-block h3 {
+  font-size: 1rem;
+}
+
+.faculty-profile-columns {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+}
+
+.faculty-profile-block {
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  padding: 0.9rem;
+  background: #f9fbff;
+}
+
 .pub-title {
   font-weight: 600;
   margin-bottom: 0.2rem;

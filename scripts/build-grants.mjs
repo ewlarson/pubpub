@@ -3,6 +3,7 @@ import { existsSync } from 'node:fs';
 import { readFile, writeFile } from 'node:fs/promises';
 import path from 'node:path';
 import {
+  getFacultySignatureTerms,
   initDb,
   remapFacultyIdReferences,
   replaceFacultyGrants,
@@ -22,6 +23,8 @@ const API_URL = process.env.REPORTER_API_URL || 'https://api.reporter.nih.gov/v2
 
 const DEFAULT_AFFILIATION = process.env.REPORTER_DEFAULT_ORG || 'University of Minnesota';
 const ORG_NAMES_OVERRIDE = process.env.REPORTER_ORG_NAMES || '';
+const EXTRA_ORG_NAMES_OVERRIDE =
+  process.env.REPORTER_EXTRA_ORG_NAMES || 'MINNEAPOLIS VA MEDICAL CENTER';
 const FISCAL_YEARS_OVERRIDE = process.env.REPORTER_FISCAL_YEARS || '';
 const parsedDelay = Number(process.env.REPORTER_DELAY_MS);
 const parsedLimit = Number(process.env.REPORTER_PAGE_LIMIT);
@@ -54,6 +57,8 @@ const parseYearList = (value) =>
   parseList(value)
     .map((entry) => Number(entry))
     .filter((entry) => Number.isFinite(entry));
+
+const EXTRA_ORG_NAMES = parseList(EXTRA_ORG_NAMES_OVERRIDE);
 
 const normalizeKey = (value) =>
   String(value || '')
@@ -148,6 +153,11 @@ const buildOrgNames = (signatureTerms) => {
   ) {
     orgs.push(DEFAULT_AFFILIATION);
   }
+  EXTRA_ORG_NAMES.forEach((term) => {
+    if (!orgs.some((entry) => entry.toLowerCase() === term.toLowerCase())) {
+      orgs.push(term);
+    }
+  });
   return orgs;
 };
 
@@ -417,6 +427,22 @@ const mapGrants = (person, projects) => {
   return deduped.sort((a, b) => (b.startDate || '').localeCompare(a.startDate || ''));
 };
 
+const getProgramAssociationsForFaculty = (db, facultyId) =>
+  db
+    .prepare(
+      `
+      SELECT program, start_date AS startDate
+      FROM faculty_programs
+      WHERE faculty_id = ?
+      ORDER BY program ASC, start_date ASC
+    `
+    )
+    .all(facultyId)
+    .map((row) => ({
+      program: row.program,
+      startDate: row.startDate || ''
+    }));
+
 const canonicalizeFaculty = (db, faculty) => {
   const merged = new Map();
 
@@ -431,7 +457,10 @@ const canonicalizeFaculty = (db, faculty) => {
       merged.set(canonicalId, {
         ...person,
         id: canonicalId,
-        signatureTerms: new Set(person.signatureTerms || []),
+        signatureTerms: new Set([
+          ...(person.signatureTerms || []),
+          ...getFacultySignatureTerms(db, canonicalId)
+        ]),
         programs: new Set(person.programs || [])
       });
       continue;
@@ -439,6 +468,7 @@ const canonicalizeFaculty = (db, faculty) => {
 
     const current = merged.get(canonicalId);
     (person.signatureTerms || []).forEach((term) => current.signatureTerms.add(term));
+    getFacultySignatureTerms(db, canonicalId).forEach((term) => current.signatureTerms.add(term));
     (person.programs || []).forEach((program) => current.programs.add(program));
     if (!current.orcid && person.orcid) {
       current.orcid = person.orcid;
@@ -474,7 +504,16 @@ const main = async () => {
   const results = [];
 
   for (const person of faculty) {
-    const orgNames = orgNamesOverride.length ? orgNamesOverride : person.orgNames;
+    const orgNames = (() => {
+      const base = orgNamesOverride.length ? orgNamesOverride : person.orgNames;
+      const merged = [...base];
+      EXTRA_ORG_NAMES.forEach((term) => {
+        if (!merged.some((entry) => entry.toLowerCase() === term.toLowerCase())) {
+          merged.push(term);
+        }
+      });
+      return merged;
+    })();
     console.log(`Searching NIH RePORTER for ${person.name}...`);
 
     try {
@@ -485,23 +524,33 @@ const main = async () => {
       const eligibleProjects = filterProjectsByStartDate(projects, person.startDate);
       const grants = mapGrants(person, eligibleProjects);
       replaceFacultyGrants(db, person.id, grants, 'nih_reporter');
+      const programAssociations = getProgramAssociationsForFaculty(db, person.id);
+      const programs = Array.from(
+        new Set(programAssociations.map((entry) => entry.program).filter(Boolean))
+      );
 
       results.push({
         id: person.id,
         name: person.name,
         department: person.department,
-        programs: person.programs,
+        programs,
+        programAssociations,
         reporterUrl: searchUrl,
         grants
       });
     } catch (error) {
       console.error(`Failed to fetch grants for ${person.name}: ${error.message}`);
       replaceFacultyGrants(db, person.id, [], 'nih_reporter');
+      const programAssociations = getProgramAssociationsForFaculty(db, person.id);
+      const programs = Array.from(
+        new Set(programAssociations.map((entry) => entry.program).filter(Boolean))
+      );
       results.push({
         id: person.id,
         name: person.name,
         department: person.department,
-        programs: person.programs,
+        programs,
+        programAssociations,
         reporterUrl: '',
         grants: []
       });

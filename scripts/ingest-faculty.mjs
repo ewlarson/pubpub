@@ -88,6 +88,12 @@ const parsePrograms = (value) => {
   return token ? [token] : [];
 };
 
+const parseSignatureTerms = (value) =>
+  String(value || '')
+    .split('|')
+    .map((term) => term.trim())
+    .filter(Boolean);
+
 const readOverrides = async () => {
   if (!existsSync(OVERRIDES_PATH)) {
     return [];
@@ -122,6 +128,7 @@ const parseFacultyRecords = (rows) => {
         name: `${foreName} ${lastName}`.trim(),
         email,
         orcid: /^none$/i.test(orcid) ? '' : orcid,
+        signatureTerms: parseSignatureTerms(record.signature_terms),
         programs: parsePrograms(record.program),
         startDate: parseStartDate(record.start_date || record.funding_start_date)
       };

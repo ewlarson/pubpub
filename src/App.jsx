@@ -43,6 +43,16 @@ const formatDate = (value) => {
   return text.length >= 10 ? text.slice(0, 10) : text;
 };
 
+const formatProgramAssociation = (association) => {
+  if (!association?.program) {
+    return '';
+  }
+  if (!association.startDate) {
+    return association.program;
+  }
+  return `${association.program} (start ${formatDate(association.startDate)})`;
+};
+
 const extractCoreGrantNumber = (value) => {
   if (!value) {
     return '';
@@ -1456,9 +1466,18 @@ export default function App() {
   const [programFilters, setProgramFilters] = useState([]);
   const [grantTypeFilters, setGrantTypeFilters] = useState([]);
   const [openId, setOpenId] = useState(null);
+  const [selectedFacultyId, setSelectedFacultyId] = useState(() => {
+    const params = new URLSearchParams(window.location.search);
+    return params.get('faculty') || '';
+  });
   const [copiedId, setCopiedId] = useState(null);
   const [stickyActive, setStickyActive] = useState(false);
   const stickyRef = useRef(null);
+  const profileRef = useRef(null);
+  const profilePubTrendRef = useRef(null);
+  const profileGrantYearRef = useRef(null);
+  const profileGrantTypeRef = useRef(null);
+  const profileProgramRef = useRef(null);
   const pubTrendRef = useRef(null);
   const pubProgramRef = useRef(null);
   const pubAuthorshipRef = useRef(null);
@@ -1582,6 +1601,7 @@ export default function App() {
     if (match) {
       setQuery(match.name);
       setOpenId(match.id);
+      setSelectedFacultyId(match.id);
     }
   }, [tab, pubStatus, grantStatus, pubData.faculty, grantData.faculty]);
 
@@ -1615,6 +1635,40 @@ export default function App() {
     } catch (error) {
       console.error('Failed to copy link', error);
     }
+  };
+
+  const handleOpenFacultyProfile = (memberId) => {
+    if (!memberId) {
+      return;
+    }
+    setSelectedFacultyId(memberId);
+    const url = new URL(window.location.href);
+    url.searchParams.set('faculty', memberId);
+    if (tab === 'grants') {
+      url.searchParams.set('tab', 'grants');
+    } else if (tab === 'collaboration') {
+      url.searchParams.set('tab', 'collaboration');
+    } else {
+      url.searchParams.delete('tab');
+    }
+    window.history.replaceState({}, '', url.toString());
+    window.requestAnimationFrame(() => {
+      profileRef.current?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    });
+  };
+
+  const handleCloseFacultyProfile = () => {
+    setSelectedFacultyId('');
+    const url = new URL(window.location.href);
+    url.searchParams.delete('faculty');
+    if (tab === 'grants') {
+      url.searchParams.set('tab', 'grants');
+    } else if (tab === 'collaboration') {
+      url.searchParams.set('tab', 'collaboration');
+    } else {
+      url.searchParams.delete('tab');
+    }
+    window.history.replaceState({}, '', url.toString());
   };
 
   const yearBounds = useMemo(() => {
@@ -1692,6 +1746,7 @@ export default function App() {
       setGrantSortBy('name');
     }
     setOpenId(null);
+    setSelectedFacultyId('');
     setCollabSelection(null);
     setCollabMinShared(1);
     const url = new URL(window.location.href);
@@ -1943,6 +1998,130 @@ export default function App() {
 
     return sorted;
   }, [grantData, query, grantSortBy, programFilters, grantTypeFilters]);
+
+  const facultyProfilesById = useMemo(() => {
+    const map = new Map();
+    const dedupeAssociations = (associations = []) => {
+      const deduped = new Map();
+      associations.forEach((entry) => {
+        const key = `${entry?.program || ''}::${entry?.startDate || ''}`;
+        if (entry?.program && !deduped.has(key)) {
+          deduped.set(key, entry);
+        }
+      });
+      return Array.from(deduped.values()).sort((a, b) =>
+        a.program.localeCompare(b.program) || (a.startDate || '').localeCompare(b.startDate || '')
+      );
+    };
+
+    pubData.faculty.forEach((member) => {
+      map.set(member.id, {
+        id: member.id,
+        name: member.name,
+        department: member.department,
+        orcid: member.orcid || '',
+        publications: member.publications || [],
+        grants: [],
+        programAssociations: dedupeAssociations(member.programAssociations || [])
+      });
+    });
+
+    grantData.faculty.forEach((member) => {
+      const existing = map.get(member.id) || {
+        id: member.id,
+        name: member.name,
+        department: member.department,
+        orcid: '',
+        publications: [],
+        grants: [],
+        programAssociations: []
+      };
+      existing.name = existing.name || member.name;
+      existing.department = existing.department || member.department;
+      existing.grants = member.grants || [];
+      const associations = [
+        ...(existing.programAssociations || []),
+        ...(member.programAssociations || [])
+      ];
+      existing.programAssociations = dedupeAssociations(associations);
+      map.set(member.id, existing);
+    });
+
+    return map;
+  }, [pubData.faculty, grantData.faculty]);
+
+  const selectedFacultyProfile = useMemo(() => {
+    if (!selectedFacultyId) {
+      return null;
+    }
+    return facultyProfilesById.get(selectedFacultyId) || null;
+  }, [facultyProfilesById, selectedFacultyId]);
+
+  const profilePublicationTrendData = useMemo(() => {
+    if (!selectedFacultyProfile?.publications?.length) {
+      return [];
+    }
+    const series = trimSeries(buildYearSeries(selectedFacultyProfile.publications, null), 12);
+    return series.map((entry) => ({ label: entry.year, value: entry.count }));
+  }, [selectedFacultyProfile]);
+
+  const profileGrantYearData = useMemo(() => {
+    if (!selectedFacultyProfile?.grants?.length) {
+      return [];
+    }
+    const counts = new Map();
+    selectedFacultyProfile.grants.forEach((grant) => {
+      const year = getGrantYear(grant);
+      if (!year) {
+        return;
+      }
+      counts.set(year, (counts.get(year) || 0) + 1);
+    });
+    return trimSeries(
+      Array.from(counts.entries())
+        .map(([year, count]) => ({ label: year, value: count }))
+        .sort((a, b) => a.label - b.label),
+      10
+    );
+  }, [selectedFacultyProfile]);
+
+  const profileGrantTypeSegments = useMemo(() => {
+    if (!selectedFacultyProfile?.grants?.length) {
+      return [];
+    }
+    const counts = new Map();
+    selectedFacultyProfile.grants.forEach((grant) => {
+      const label = getGrantGroupInfo(grant).type || 'Other';
+      counts.set(label, (counts.get(label) || 0) + 1);
+    });
+    return collapseSegments(
+      Array.from(counts.entries())
+        .map(([label, value]) => ({ label, value }))
+        .sort((a, b) => b.value - a.value),
+      5,
+      'Other'
+    ).map((segment, index) => ({
+      ...segment,
+      color: CHART_COLORS[index % CHART_COLORS.length]
+    }));
+  }, [selectedFacultyProfile]);
+
+  const profileProgramStartData = useMemo(() => {
+    if (!selectedFacultyProfile?.programAssociations?.length) {
+      return [];
+    }
+    const counts = new Map();
+    selectedFacultyProfile.programAssociations.forEach((association) => {
+      const year = getYearFromDate(association.startDate);
+      if (!year) {
+        return;
+      }
+      counts.set(year, (counts.get(year) || 0) + 1);
+    });
+    return Array.from(counts.entries())
+      .map(([year, count]) => ({ label: year, value: count }))
+      .sort((a, b) => a.label - b.label);
+  }, [selectedFacultyProfile]);
 
   const activeFaculty = isGrants ? filteredGrants : filteredPublications;
 
@@ -3164,6 +3343,291 @@ export default function App() {
         ) : null}
       </section>
 
+      {selectedFacultyProfile ? (
+        <section className="panel faculty-profile" ref={profileRef}>
+          <div className="faculty-profile-head">
+            <div>
+              <p className="eyebrow">Faculty Show Page</p>
+              <h2>{selectedFacultyProfile.name}</h2>
+              <p className="muted">
+                {selectedFacultyProfile.department || 'University of Minnesota'}
+              </p>
+              {selectedFacultyProfile.orcid ? (
+                <p className="muted small">
+                  ORCID:{' '}
+                  <a
+                    href={`https://orcid.org/${selectedFacultyProfile.orcid}`}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="mono"
+                  >
+                    {selectedFacultyProfile.orcid}
+                  </a>
+                </p>
+              ) : null}
+            </div>
+            <button type="button" className="clear-button" onClick={handleCloseFacultyProfile}>
+              Close profile
+            </button>
+          </div>
+          <div className="hero-meta faculty-profile-stats">
+            <div>
+              <span className="label">Publications</span>
+              <strong>{selectedFacultyProfile.publications.length}</strong>
+            </div>
+            <div>
+              <span className="label">Grant Awards</span>
+              <strong>{selectedFacultyProfile.grants.length}</strong>
+            </div>
+            <div>
+              <span className="label">Program Associations</span>
+              <strong>{selectedFacultyProfile.programAssociations.length}</strong>
+            </div>
+          </div>
+          <div className="faculty-profile-programs">
+            <h3>Program Start Dates</h3>
+            {selectedFacultyProfile.programAssociations.length ? (
+              <div className="program-list">
+                {selectedFacultyProfile.programAssociations.map((association) => (
+                  <span
+                    className="program-pill"
+                    key={`${selectedFacultyProfile.id}-${association.program}-${association.startDate || ''}`}
+                  >
+                    {formatProgramAssociation(association)}
+                  </span>
+                ))}
+              </div>
+            ) : (
+              <p className="muted">No program associations listed.</p>
+            )}
+          </div>
+          <div className="insights-grid faculty-profile-charts">
+            <ChartCard
+              title="Publication Trend"
+              subtitle="Publications per year"
+              onDownloadSvg={() =>
+                downloadSvg(
+                  profilePubTrendRef.current,
+                  buildChartFilename(
+                    `${selectedFacultyProfile.id}-publication-trend`,
+                    activeData.updated,
+                    'svg'
+                  )
+                )
+              }
+              onDownloadPng={() =>
+                downloadPng(
+                  profilePubTrendRef.current,
+                  buildChartFilename(
+                    `${selectedFacultyProfile.id}-publication-trend`,
+                    activeData.updated,
+                    'png'
+                  )
+                )
+              }
+              actionsDisabled={!profilePublicationTrendData.length}
+            >
+              {profilePublicationTrendData.length ? (
+                <LineChart
+                  id={{ name: `${selectedFacultyProfile.id}-pub-trend`, ref: profilePubTrendRef }}
+                  data={profilePublicationTrendData}
+                  ariaLabel={`Publication trend for ${selectedFacultyProfile.name}`}
+                />
+              ) : (
+                <div className="chart-empty">No publication trend data.</div>
+              )}
+            </ChartCard>
+            <ChartCard
+              title="Grant Timeline"
+              subtitle="Grant awards by year"
+              onDownloadSvg={() =>
+                downloadSvg(
+                  profileGrantYearRef.current,
+                  buildChartFilename(
+                    `${selectedFacultyProfile.id}-grant-timeline`,
+                    activeData.updated,
+                    'svg'
+                  )
+                )
+              }
+              onDownloadPng={() =>
+                downloadPng(
+                  profileGrantYearRef.current,
+                  buildChartFilename(
+                    `${selectedFacultyProfile.id}-grant-timeline`,
+                    activeData.updated,
+                    'png'
+                  )
+                )
+              }
+              actionsDisabled={!profileGrantYearData.length}
+            >
+              {profileGrantYearData.length ? (
+                <BarChart
+                  id={{ name: `${selectedFacultyProfile.id}-grant-year`, ref: profileGrantYearRef }}
+                  data={profileGrantYearData}
+                  ariaLabel={`Grant timeline for ${selectedFacultyProfile.name}`}
+                />
+              ) : (
+                <div className="chart-empty">No grant timeline data.</div>
+              )}
+            </ChartCard>
+            <ChartCard
+              title="Grant Type Mix"
+              subtitle="Distribution of grant activity types"
+              onDownloadSvg={() =>
+                downloadSvg(
+                  profileGrantTypeRef.current,
+                  buildChartFilename(
+                    `${selectedFacultyProfile.id}-grant-types`,
+                    activeData.updated,
+                    'svg'
+                  )
+                )
+              }
+              onDownloadPng={() =>
+                downloadPng(
+                  profileGrantTypeRef.current,
+                  buildChartFilename(
+                    `${selectedFacultyProfile.id}-grant-types`,
+                    activeData.updated,
+                    'png'
+                  )
+                )
+              }
+              actionsDisabled={!profileGrantTypeSegments.length}
+              legend={
+                profileGrantTypeSegments.length ? (
+                  <ChartLegend
+                    segments={profileGrantTypeSegments}
+                    total={profileGrantTypeSegments.reduce((sum, segment) => sum + segment.value, 0)}
+                  />
+                ) : null
+              }
+            >
+              {profileGrantTypeSegments.length ? (
+                <DonutChart
+                  id={{ name: `${selectedFacultyProfile.id}-grant-type`, ref: profileGrantTypeRef }}
+                  segments={profileGrantTypeSegments}
+                  ariaLabel={`Grant type mix for ${selectedFacultyProfile.name}`}
+                  centerLabel="Types"
+                  centerValue={String(profileGrantTypeSegments.length)}
+                />
+              ) : (
+                <div className="chart-empty">No grant type data.</div>
+              )}
+            </ChartCard>
+            <ChartCard
+              title="Program Start Timeline"
+              subtitle="Program associations by start year"
+              onDownloadSvg={() =>
+                downloadSvg(
+                  profileProgramRef.current,
+                  buildChartFilename(
+                    `${selectedFacultyProfile.id}-program-starts`,
+                    activeData.updated,
+                    'svg'
+                  )
+                )
+              }
+              onDownloadPng={() =>
+                downloadPng(
+                  profileProgramRef.current,
+                  buildChartFilename(
+                    `${selectedFacultyProfile.id}-program-starts`,
+                    activeData.updated,
+                    'png'
+                  )
+                )
+              }
+              actionsDisabled={!profileProgramStartData.length}
+            >
+              {profileProgramStartData.length ? (
+                <BarChart
+                  id={{ name: `${selectedFacultyProfile.id}-program-starts`, ref: profileProgramRef }}
+                  data={profileProgramStartData}
+                  ariaLabel={`Program start years for ${selectedFacultyProfile.name}`}
+                />
+              ) : (
+                <div className="chart-empty">No program start-year data.</div>
+              )}
+            </ChartCard>
+          </div>
+          <div className="faculty-profile-columns">
+            <div className="faculty-profile-block">
+              <h3>Publications</h3>
+              {selectedFacultyProfile.publications.length ? (
+                <ul className="pub-list">
+                  {selectedFacultyProfile.publications.map((pub) => (
+                    <li key={`profile-pub-${selectedFacultyProfile.id}-${pub.id}`}>
+                      <div className="pub-title">
+                        {pub.url ? (
+                          <a href={pub.url} target="_blank" rel="noreferrer">
+                            {pub.title}
+                          </a>
+                        ) : (
+                          pub.title
+                        )}
+                      </div>
+                      <div className="pub-meta">
+                        <span>{pub.journal || '—'}</span>
+                        <span className="dot" />
+                        <span>{pub.year || '—'}</span>
+                        {pub.doi ? (
+                          <>
+                            <span className="dot" />
+                            <a href={`https://doi.org/${pub.doi}`} target="_blank" rel="noreferrer">
+                              DOI
+                            </a>
+                          </>
+                        ) : null}
+                      </div>
+                    </li>
+                  ))}
+                </ul>
+              ) : (
+                <p className="muted">No publications available.</p>
+              )}
+            </div>
+            <div className="faculty-profile-block">
+              <h3>Grant Awards</h3>
+              {selectedFacultyProfile.grants.length ? (
+                <ul className="pub-list">
+                  {selectedFacultyProfile.grants.map((grant) => (
+                    <li
+                      key={`profile-grant-${selectedFacultyProfile.id}-${grant.id}-${grant.fiscalYear || ''}`}
+                    >
+                      <div className="pub-title">
+                        {grant.url ? (
+                          <a href={grant.url} target="_blank" rel="noreferrer">
+                            {grant.title || grant.id}
+                          </a>
+                        ) : (
+                          grant.title || grant.id
+                        )}
+                      </div>
+                      <div className="pub-meta">
+                        <span className="mono">{grant.id || '—'}</span>
+                        <span className="dot" />
+                        <span>{grant.role || '—'}</span>
+                        <span className="dot" />
+                        <span>{formatCurrency(grant.amount)}</span>
+                        <span className="dot" />
+                        <span>
+                          {formatDate(grant.startDate)} to {formatDate(grant.endDate)}
+                        </span>
+                      </div>
+                    </li>
+                  ))}
+                </ul>
+              ) : (
+                <p className="muted">No grants available.</p>
+              )}
+            </div>
+          </div>
+        </section>
+      ) : null}
+
       {isCollaboration ? (
         <section
           className="collaboration"
@@ -3738,6 +4202,13 @@ export default function App() {
                             {copiedId === member.id ? (
                               <span className="muted small">Copied</span>
                             ) : null}
+                            <button
+                              type="button"
+                              className="pub-toggle"
+                              onClick={() => handleOpenFacultyProfile(member.id)}
+                            >
+                              Show page
+                            </button>
                           </div>
                           <div className="muted small">
                             {member.orcid ? (
@@ -3999,6 +4470,13 @@ export default function App() {
                             {copiedId === member.id ? (
                               <span className="muted small">Copied</span>
                             ) : null}
+                            <button
+                              type="button"
+                              className="pub-toggle"
+                              onClick={() => handleOpenFacultyProfile(member.id)}
+                            >
+                              Show page
+                            </button>
                           </div>
                         </td>
                         <td>{member.department}</td>

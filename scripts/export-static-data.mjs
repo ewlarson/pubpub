@@ -108,11 +108,10 @@ const buildSignals = (publications, coauthorsByPmid = new Map()) => {
 const getFacultyRows = (db) =>
   db.prepare('SELECT id, display_name, fore_name, last_name, orcid FROM faculty WHERE active = 1').all();
 
-const getFacultyPrograms = (db, facultyId) =>
-  db
-    .prepare('SELECT program FROM faculty_programs WHERE faculty_id = ? ORDER BY program')
-    .all(facultyId)
-    .map((row) => row.program);
+const toProgramAssociation = (row) => ({
+  program: row.program,
+  startDate: row.start_date || row.startDate || ''
+});
 
 const getPublicationRows = (db, facultyId) =>
   db
@@ -183,6 +182,15 @@ const getGrantRows = (db, facultyId) =>
 const buildPublicationsOutput = (db) => {
   const faculty = getFacultyRows(db).map((facultyRow) => {
     const id = facultyRow.id;
+    const programAssociations = db
+      .prepare(
+        'SELECT program, start_date AS startDate FROM faculty_programs WHERE faculty_id = ? ORDER BY program, start_date'
+      )
+      .all(id)
+      .map(toProgramAssociation);
+    const programs = Array.from(
+      new Set(programAssociations.map((entry) => entry.program).filter(Boolean))
+    );
     const publications = getPublicationRows(db, id);
     const falsePositivePublications = getFalsePositivePublicationRows(db, id);
     const coauthorsByPmid = getCoauthorsByPmid(db, id);
@@ -196,7 +204,8 @@ const buildPublicationsOutput = (db) => {
       department: DEFAULT_DEPARTMENT,
       orcid: facultyRow.orcid || '',
       areas: [],
-      programs: getFacultyPrograms(db, id),
+      programs,
+      programAssociations,
       publications,
       authorCounts: null,
       signals: {
@@ -216,6 +225,15 @@ const buildPublicationsOutput = (db) => {
 const buildGrantsOutput = (db) => {
   const faculty = getFacultyRows(db).map((facultyRow) => {
     const id = facultyRow.id;
+    const programAssociations = db
+      .prepare(
+        'SELECT program, start_date AS startDate FROM faculty_programs WHERE faculty_id = ? ORDER BY program, start_date'
+      )
+      .all(id)
+      .map(toProgramAssociation);
+    const programs = Array.from(
+      new Set(programAssociations.map((entry) => entry.program).filter(Boolean))
+    );
     return {
       id,
       name:
@@ -223,7 +241,8 @@ const buildGrantsOutput = (db) => {
         `${facultyRow.fore_name || ''} ${facultyRow.last_name || ''}`.trim() ||
         id,
       department: DEFAULT_DEPARTMENT,
-      programs: getFacultyPrograms(db, id),
+      programs,
+      programAssociations,
       reporterUrl: '',
       grants: getGrantRows(db, id)
     };

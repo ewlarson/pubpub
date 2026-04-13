@@ -9,6 +9,12 @@
       "programs": [
         "KAP"
       ],
+      "programAssociations": [
+        {
+          "program": "KAP",
+          "startDate": "2019-07-01"
+        }
+      ],
       "reporterUrl": "",
       "grants": [
         {
@@ -42,6 +48,12 @@
       "programs": [
         "K-R01"
       ],
+      "programAssociations": [
+        {
+          "program": "K-R01",
+          "startDate": "2021-12-01"
+        }
+      ],
       "reporterUrl": "",
       "grants": [
         {
@@ -63,9 +75,26 @@
       "department": "University of Minnesota",
       "programs": [
         "K-R01",
-        "K-R01",
         "KL2 Career Development Program",
         "KL2/K12"
+      ],
+      "programAssociations": [
+        {
+          "program": "K-R01",
+          "startDate": "2021-10-07"
+        },
+        {
+          "program": "K-R01",
+          "startDate": "2024-01-01"
+        },
+        {
+          "program": "KL2 Career Development Program",
+          "startDate": "2021-10-07"
+        },
+        {
+          "program": "KL2/K12",
+          "startDate": "2021-10-07"
+        }
       ],
       "reporterUrl": "",
       "grants": [
@@ -144,6 +173,12 @@
       "programs": [
         "K-R01"
       ],
+      "programAssociations": [
+        {
+          "program": "K-R01",
+          "startDate": "2022-11-01"
+        }
+      ],
       "reporterUrl": "",
       "grants": []
     },
@@ -154,16 +189,32 @@
       "programs": [
         "KAP"
       ],
+      "programAssociations": [
+        {
+          "program": "KAP",
+          "startDate": "2024-11-01"
+        }
+      ],
       "reporterUrl": "",
       "grants": []
     },
     {
       "id": "kaja-sarah",
-      "name": "Sarah Kaja (Espinoza)",
+      "name": "Sarah Kaja",
       "department": "University of Minnesota",
       "programs": [
         "K12 Career Development Program",
         "KAP"
+      ],
+      "programAssociations": [
+        {
+          "program": "K12 Career Development Program",
+          "startDate": "2026-02-01"
+        },
+        {
+          "program": "KAP",
+          "startDate": "2022-08-01"
+        }
       ],
       "reporterUrl": "",
       "grants": []
@@ -175,6 +226,12 @@
       "programs": [
         "KAP"
       ],
+      "programAssociations": [
+        {
+          "program": "KAP",
+          "startDate": "2024-03-11"
+        }
+      ],
       "reporterUrl": "",
       "grants": []
     },
@@ -184,6 +241,12 @@
       "department": "University of Minnesota",
       "programs": [
         "KAP"
+      ],
+      "programAssociations": [
+        {
+          "program": "KAP",
+          "startDate": "2022-09-01"
+        }
       ],
       "reporterUrl": "",
       "grants": []
@@ -195,6 +258,12 @@
       "programs": [
         "K-R01"
       ],
+      "programAssociations": [
+        {
+          "program": "K-R01",
+          "startDate": "2024-11-01"
+        }
+      ],
       "reporterUrl": "",
       "grants": []
     },
@@ -204,6 +273,12 @@
       "department": "University of Minnesota",
       "programs": [
         "KAP"
+      ],
+      "programAssociations": [
+        {
+          "program": "KAP",
+          "startDate": "2024-11-01"
+        }
       ],
       "reporterUrl": "",
       "grants": []
@@ -215,6 +290,12 @@
       "programs": [
         "KAP"
       ],
+      "programAssociations": [
+        {
+          "program": "KAP",
+          "startDate": "2022-10-01"
+        }
+      ],
       "reporterUrl": "",
       "grants": []
     },
@@ -224,6 +305,12 @@
       "department": "University of Minnesota",
       "programs": [
         "KAP"
+      ],
+      "programAssociations": [
+        {
+          "program": "KAP",
+          "startDate": "2024-01-11"
+        }
       ],
       "reporterUrl": "",
       "grants": []
@@ -235,6 +322,12 @@
       "programs": [
         "KAP"
       ],
+      "programAssociations": [
+        {
+          "program": "KAP",
+          "startDate": "2024-06-01"
+        }
+      ],
       "reporterUrl": "",
       "grants": []
     },
@@ -244,9 +337,26 @@
       "department": "University of Minnesota",
       "programs": [
         "K-R01",
-        "K-R01",
         "KL2 Career Development Program",
         "KL2/K12"
+      ],
+      "programAssociations": [
+        {
+          "program": "K-R01",
+          "startDate": "2022-08-01"
+        },
+        {
+          "program": "K-R01",
+          "startDate": "2024-01-01"
+        },
+        {
+          "program": "KL2 Career Development Program",
+          "startDate": "2022-08-01"
+        },
+        {
+          "program": "KL2/K12",
+          "startDate": "2022-08-01"
+        }
       ],
       "reporterUrl": "",
       "grants": []
@@ -257,6 +367,12 @@
       "department": "University of Minnesota",
       "programs": [
         "KAP"
+      ],
+      "programAssociations": [
+        {
+          "program": "KAP",
+          "startDate": "2019-07-01"
+        }
       ],
       "reporterUrl": "",
       "grants": [
@@ -302,6 +418,12 @@
       "programs": [
         "KAP"
       ],
+      "programAssociations": [
+        {
+          "program": "KAP",
+          "startDate": "2024-06-01"
+        }
+      ],
       "reporterUrl": "",
       "grants": []
     },
@@ -313,6 +435,16 @@
         "KAP",
         "KAP (formerly PreK)"
       ],
+      "programAssociations": [
+        {
+          "program": "KAP",
+          "startDate": "2023-10-31"
+        },
+        {
+          "program": "KAP (formerly PreK)",
+          "startDate": "2023-10-31"
+        }
+      ],
       "reporterUrl": "",
       "grants": []
     },
@@ -322,6 +454,12 @@
       "department": "University of Minnesota",
       "programs": [
         "KL2 Career Development Program"
+      ],
+      "programAssociations": [
+        {
+          "program": "KL2 Career Development Program",
+          "startDate": "2012-03-01"
+        }
       ],
       "reporterUrl": "",
       "grants": []
@@ -333,6 +471,12 @@
       "programs": [
         "KL2 Career Development Program"
       ],
+      "programAssociations": [
+        {
+          "program": "KL2 Career Development Program",
+          "startDate": "2018-09-01"
+        }
+      ],
       "reporterUrl": "",
       "grants": []
     },
@@ -342,6 +486,12 @@
       "department": "University of Minnesota",
       "programs": [
         "KL2 Career Development Program"
+      ],
+      "programAssociations": [
+        {
+          "program": "KL2 Career Development Program",
+          "startDate": "2021-10-14"
+        }
       ],
       "reporterUrl": "",
       "grants": [
@@ -387,6 +537,12 @@
       "programs": [
         "KL2 Career Development Program"
       ],
+      "programAssociations": [
+        {
+          "program": "KL2 Career Development Program",
+          "startDate": "2012-03-01"
+        }
+      ],
       "reporterUrl": "",
       "grants": [
         {
@@ -419,8 +575,21 @@
       "department": "University of Minnesota",
       "programs": [
         "K-R01",
-        "K-R01",
         "KL2 Career Development Program"
+      ],
+      "programAssociations": [
+        {
+          "program": "K-R01",
+          "startDate": "2011-10-01"
+        },
+        {
+          "program": "K-R01",
+          "startDate": "2012-03-01"
+        },
+        {
+          "program": "KL2 Career Development Program",
+          "startDate": "2011-10-01"
+        }
       ],
       "reporterUrl": "",
       "grants": [
@@ -664,6 +833,12 @@
       "programs": [
         "KL2 Career Development Program"
       ],
+      "programAssociations": [
+        {
+          "program": "KL2 Career Development Program",
+          "startDate": "2020-09-01"
+        }
+      ],
       "reporterUrl": "",
       "grants": [
         {
@@ -685,6 +860,12 @@
       "department": "University of Minnesota",
       "programs": [
         "KL2 Career Development Program"
+      ],
+      "programAssociations": [
+        {
+          "program": "KL2 Career Development Program",
+          "startDate": "2018-09-01"
+        }
       ],
       "reporterUrl": "",
       "grants": [
@@ -774,6 +955,12 @@
       "programs": [
         "KL2 Career Development Program"
       ],
+      "programAssociations": [
+        {
+          "program": "KL2 Career Development Program",
+          "startDate": "2013-09-01"
+        }
+      ],
       "reporterUrl": "",
       "grants": []
     },
@@ -783,6 +970,12 @@
       "department": "University of Minnesota",
       "programs": [
         "KL2 Career Development Program"
+      ],
+      "programAssociations": [
+        {
+          "program": "KL2 Career Development Program",
+          "startDate": "2011-09-01"
+        }
       ],
       "reporterUrl": "",
       "grants": [
@@ -850,6 +1043,12 @@
       "programs": [
         "KL2 Career Development Program"
       ],
+      "programAssociations": [
+        {
+          "program": "KL2 Career Development Program",
+          "startDate": "2019-08-09"
+        }
+      ],
       "reporterUrl": "",
       "grants": [
         {
@@ -911,11 +1110,21 @@
     },
     {
       "id": "y-jazmin-camchong-camch002-umn-edu",
-      "name": "Jazmin Camchong",
+      "name": "Y. Jazmin Camchong",
       "department": "University of Minnesota",
       "programs": [
         "K-R01",
         "KL2 Career Development Program"
+      ],
+      "programAssociations": [
+        {
+          "program": "K-R01",
+          "startDate": "2020-09-01"
+        },
+        {
+          "program": "KL2 Career Development Program",
+          "startDate": "2016-06-01"
+        }
       ],
       "reporterUrl": "",
       "grants": [
@@ -1004,8 +1213,21 @@
       "department": "University of Minnesota",
       "programs": [
         "K-R01",
-        "K-R01",
         "KL2 Career Development Program"
+      ],
+      "programAssociations": [
+        {
+          "program": "K-R01",
+          "startDate": "2011-09-01"
+        },
+        {
+          "program": "K-R01",
+          "startDate": "2013-03-01"
+        },
+        {
+          "program": "KL2 Career Development Program",
+          "startDate": "2011-09-01"
+        }
       ],
       "reporterUrl": "",
       "grants": [
@@ -1073,6 +1295,12 @@
       "programs": [
         "K12 Career Development Program"
       ],
+      "programAssociations": [
+        {
+          "program": "K12 Career Development Program",
+          "startDate": "2024-02-01"
+        }
+      ],
       "reporterUrl": "",
       "grants": []
     },
@@ -1083,6 +1311,12 @@
       "programs": [
         "KL2 Career Development Program"
       ],
+      "programAssociations": [
+        {
+          "program": "KL2 Career Development Program",
+          "startDate": "2012-03-01"
+        }
+      ],
       "reporterUrl": "",
       "grants": []
     },
@@ -1092,6 +1326,12 @@
       "department": "University of Minnesota",
       "programs": [
         "KL2 Career Development Program"
+      ],
+      "programAssociations": [
+        {
+          "program": "KL2 Career Development Program",
+          "startDate": "2021-08-09"
+        }
       ],
       "reporterUrl": "",
       "grants": [
@@ -1125,6 +1365,12 @@
       "department": "University of Minnesota",
       "programs": [
         "KL2 Career Development Program"
+      ],
+      "programAssociations": [
+        {
+          "program": "KL2 Career Development Program",
+          "startDate": "2011-09-01"
+        }
       ],
       "reporterUrl": "",
       "grants": [
@@ -1235,8 +1481,21 @@
       "department": "University of Minnesota",
       "programs": [
         "K12 Career Development Program",
-        "K12 Career Development Program",
         "KAP (formerly PreK)"
+      ],
+      "programAssociations": [
+        {
+          "program": "K12 Career Development Program",
+          "startDate": "2022-09-01"
+        },
+        {
+          "program": "K12 Career Development Program",
+          "startDate": "2024-02-01"
+        },
+        {
+          "program": "KAP (formerly PreK)",
+          "startDate": "2022-09-01"
+        }
       ],
       "reporterUrl": "",
       "grants": []
@@ -1248,6 +1507,12 @@
       "programs": [
         "KL2 Career Development Program"
       ],
+      "programAssociations": [
+        {
+          "program": "KL2 Career Development Program",
+          "startDate": "2019-07-01"
+        }
+      ],
       "reporterUrl": "",
       "grants": []
     },
@@ -1257,6 +1522,12 @@
       "department": "University of Minnesota",
       "programs": [
         "K12 Career Development Program"
+      ],
+      "programAssociations": [
+        {
+          "program": "K12 Career Development Program",
+          "startDate": "2024-02-01"
+        }
       ],
       "reporterUrl": "",
       "grants": []
@@ -1268,6 +1539,12 @@
       "programs": [
         "K12 Career Development Program"
       ],
+      "programAssociations": [
+        {
+          "program": "K12 Career Development Program",
+          "startDate": "2026-02-01"
+        }
+      ],
       "reporterUrl": "",
       "grants": []
     },
@@ -1277,6 +1554,12 @@
       "department": "University of Minnesota",
       "programs": [
         "KL2 Career Development Program"
+      ],
+      "programAssociations": [
+        {
+          "program": "KL2 Career Development Program",
+          "startDate": "2018-09-01"
+        }
       ],
       "reporterUrl": "",
       "grants": [
@@ -1366,6 +1649,12 @@
       "programs": [
         "KL2 Career Development Program"
       ],
+      "programAssociations": [
+        {
+          "program": "KL2 Career Development Program",
+          "startDate": "2019-07-01"
+        }
+      ],
       "reporterUrl": "",
       "grants": []
     },
@@ -1375,8 +1664,21 @@
       "department": "University of Minnesota",
       "programs": [
         "KAP (formerly PreK)",
-        "KL2 Career Development Program",
         "KL2 Career Development Program"
+      ],
+      "programAssociations": [
+        {
+          "program": "KAP (formerly PreK)",
+          "startDate": "2012-03-01"
+        },
+        {
+          "program": "KL2 Career Development Program",
+          "startDate": "2012-03-01"
+        },
+        {
+          "program": "KL2 Career Development Program",
+          "startDate": "2013-09-01"
+        }
       ],
       "reporterUrl": "",
       "grants": [
@@ -1554,6 +1856,12 @@
       "programs": [
         "KL2 Career Development Program"
       ],
+      "programAssociations": [
+        {
+          "program": "KL2 Career Development Program",
+          "startDate": "2018-04-01"
+        }
+      ],
       "reporterUrl": "",
       "grants": []
     },
@@ -1563,8 +1871,21 @@
       "department": "University of Minnesota",
       "programs": [
         "K-R01",
-        "K-R01",
         "KL2 Career Development Program"
+      ],
+      "programAssociations": [
+        {
+          "program": "K-R01",
+          "startDate": "2015-10-01"
+        },
+        {
+          "program": "K-R01",
+          "startDate": "2018-11-01"
+        },
+        {
+          "program": "KL2 Career Development Program",
+          "startDate": "2015-10-01"
+        }
       ],
       "reporterUrl": "",
       "grants": [
@@ -1632,6 +1953,12 @@
       "programs": [
         "KL2 Career Development Program"
       ],
+      "programAssociations": [
+        {
+          "program": "KL2 Career Development Program",
+          "startDate": "2022-03-01"
+        }
+      ],
       "reporterUrl": "",
       "grants": []
     },
@@ -1641,6 +1968,12 @@
       "department": "University of Minnesota",
       "programs": [
         "K12 Career Development Program"
+      ],
+      "programAssociations": [
+        {
+          "program": "K12 Career Development Program",
+          "startDate": "2024-02-01"
+        }
       ],
       "reporterUrl": "",
       "grants": []
@@ -1652,6 +1985,12 @@
       "programs": [
         "K12 Career Development Program"
       ],
+      "programAssociations": [
+        {
+          "program": "K12 Career Development Program",
+          "startDate": "2024-09-01"
+        }
+      ],
       "reporterUrl": "",
       "grants": []
     },
@@ -1662,6 +2001,12 @@
       "programs": [
         "K12 Career Development Program"
       ],
+      "programAssociations": [
+        {
+          "program": "K12 Career Development Program",
+          "startDate": "2024-02-01"
+        }
+      ],
       "reporterUrl": "",
       "grants": []
     },
@@ -1671,6 +2016,12 @@
       "department": "University of Minnesota",
       "programs": [
         "KL2 Career Development Program"
+      ],
+      "programAssociations": [
+        {
+          "program": "KL2 Career Development Program",
+          "startDate": "2011-09-01"
+        }
       ],
       "reporterUrl": "",
       "grants": [
@@ -1848,6 +2199,12 @@
       "programs": [
         "K12 Career Development Program"
       ],
+      "programAssociations": [
+        {
+          "program": "K12 Career Development Program",
+          "startDate": "2026-02-01"
+        }
+      ],
       "reporterUrl": "",
       "grants": []
     },
@@ -1857,6 +2214,12 @@
       "department": "University of Minnesota",
       "programs": [
         "KL2 Career Development Program"
+      ],
+      "programAssociations": [
+        {
+          "program": "KL2 Career Development Program",
+          "startDate": "2022-09-01"
+        }
       ],
       "reporterUrl": "",
       "grants": []
@@ -1868,6 +2231,12 @@
       "programs": [
         "KL2 Career Development Program"
       ],
+      "programAssociations": [
+        {
+          "program": "KL2 Career Development Program",
+          "startDate": "2012-03-01"
+        }
+      ],
       "reporterUrl": "",
       "grants": []
     },
@@ -1877,6 +2246,12 @@
       "department": "University of Minnesota",
       "programs": [
         "KL2 Career Development Program"
+      ],
+      "programAssociations": [
+        {
+          "program": "KL2 Career Development Program",
+          "startDate": "2020-04-01"
+        }
       ],
       "reporterUrl": "",
       "grants": [
@@ -1933,6 +2308,12 @@
       "programs": [
         "KL2 Career Development Program"
       ],
+      "programAssociations": [
+        {
+          "program": "KL2 Career Development Program",
+          "startDate": "2014-03-01"
+        }
+      ],
       "reporterUrl": "",
       "grants": [
         {
@@ -1976,6 +2357,12 @@
       "department": "University of Minnesota",
       "programs": [
         "KL2 Career Development Program"
+      ],
+      "programAssociations": [
+        {
+          "program": "KL2 Career Development Program",
+          "startDate": "2015-09-01"
+        }
       ],
       "reporterUrl": "",
       "grants": [
@@ -2076,6 +2463,12 @@
       "programs": [
         "KL2 Career Development Program"
       ],
+      "programAssociations": [
+        {
+          "program": "KL2 Career Development Program",
+          "startDate": "2013-09-01"
+        }
+      ],
       "reporterUrl": "",
       "grants": []
     },
@@ -2085,6 +2478,12 @@
       "department": "University of Minnesota",
       "programs": [
         "KL2 Career Development Program"
+      ],
+      "programAssociations": [
+        {
+          "program": "KL2 Career Development Program",
+          "startDate": "2012-03-01"
+        }
       ],
       "reporterUrl": "",
       "grants": [
@@ -2394,6 +2793,12 @@
       "programs": [
         "KL2 Career Development Program"
       ],
+      "programAssociations": [
+        {
+          "program": "KL2 Career Development Program",
+          "startDate": "2021-07-01"
+        }
+      ],
       "reporterUrl": "",
       "grants": []
     },
@@ -2403,6 +2808,12 @@
       "department": "University of Minnesota",
       "programs": [
         "KL2 Career Development Program"
+      ],
+      "programAssociations": [
+        {
+          "program": "KL2 Career Development Program",
+          "startDate": "2013-09-01"
+        }
       ],
       "reporterUrl": "",
       "grants": [
@@ -2469,10 +2880,30 @@
       "department": "University of Minnesota",
       "programs": [
         "K-R01",
-        "K-R01",
         "KAP (formerly PreK)",
-        "KL2 Career Development Program",
         "KL2 Career Development Program"
+      ],
+      "programAssociations": [
+        {
+          "program": "K-R01",
+          "startDate": "2013-03-01"
+        },
+        {
+          "program": "K-R01",
+          "startDate": "2022-03-01"
+        },
+        {
+          "program": "KAP (formerly PreK)",
+          "startDate": "2013-03-01"
+        },
+        {
+          "program": "KL2 Career Development Program",
+          "startDate": "2013-03-01"
+        },
+        {
+          "program": "KL2 Career Development Program",
+          "startDate": "2015-09-01"
+        }
       ],
       "reporterUrl": "",
       "grants": [
@@ -2573,6 +3004,12 @@
       "programs": [
         "KL2 Career Development Program"
       ],
+      "programAssociations": [
+        {
+          "program": "KL2 Career Development Program",
+          "startDate": "2012-09-01"
+        }
+      ],
       "reporterUrl": "",
       "grants": [
         {
@@ -2605,8 +3042,21 @@
       "department": "University of Minnesota",
       "programs": [
         "KAP (formerly PreK)",
-        "KL2 Career Development Program",
         "KL2 Career Development Program"
+      ],
+      "programAssociations": [
+        {
+          "program": "KAP (formerly PreK)",
+          "startDate": "2020-09-01"
+        },
+        {
+          "program": "KL2 Career Development Program",
+          "startDate": "2020-09-01"
+        },
+        {
+          "program": "KL2 Career Development Program",
+          "startDate": "2021-07-01"
+        }
       ],
       "reporterUrl": "",
       "grants": [
@@ -2663,6 +3113,12 @@
       "programs": [
         "KL2 Career Development Program"
       ],
+      "programAssociations": [
+        {
+          "program": "KL2 Career Development Program",
+          "startDate": "2014-09-01"
+        }
+      ],
       "reporterUrl": "",
       "grants": [
         {
@@ -2706,6 +3162,12 @@
       "department": "University of Minnesota",
       "programs": [
         "KL2 Career Development Program"
+      ],
+      "programAssociations": [
+        {
+          "program": "KL2 Career Development Program",
+          "startDate": "2014-03-01"
+        }
       ],
       "reporterUrl": "",
       "grants": [
@@ -2783,8 +3245,21 @@
       "department": "University of Minnesota",
       "programs": [
         "K-R01",
-        "K-R01",
         "KL2 Career Development Program"
+      ],
+      "programAssociations": [
+        {
+          "program": "K-R01",
+          "startDate": "2019-07-01"
+        },
+        {
+          "program": "K-R01",
+          "startDate": "2024-07-01"
+        },
+        {
+          "program": "KL2 Career Development Program",
+          "startDate": "2019-07-01"
+        }
       ],
       "reporterUrl": "",
       "grants": []
@@ -2795,11 +3270,135 @@
       "department": "University of Minnesota",
       "programs": [
         "K-R01",
-        "K-R01",
         "KL2 Career Development Program"
       ],
+      "programAssociations": [
+        {
+          "program": "K-R01",
+          "startDate": "2014-09-01"
+        },
+        {
+          "program": "K-R01",
+          "startDate": "2019-11-01"
+        },
+        {
+          "program": "KL2 Career Development Program",
+          "startDate": "2014-09-01"
+        }
+      ],
       "reporterUrl": "",
-      "grants": []
+      "grants": [
+        {
+          "id": "5I01CX002130-04",
+          "title": "Microbial Dysbiosis Among Veterans Following Deployment-Related Airborne Exposures",
+          "role": "Not listed",
+          "amount": 0,
+          "startDate": "2021-10-01",
+          "endDate": "2027-09-30",
+          "fiscalYear": 2025,
+          "url": "https://reporter.nih.gov/project-details/10980523",
+          "coreProjectNum": "I01CX002130"
+        },
+        {
+          "id": "5I01CX002130-03",
+          "title": "Microbial Dysbiosis Among Veterans Following Deployment-Related Airborne Exposures",
+          "role": "Not listed",
+          "amount": 0,
+          "startDate": "2021-10-01",
+          "endDate": "2025-09-30",
+          "fiscalYear": 2024,
+          "url": "https://reporter.nih.gov/project-details/10731356",
+          "coreProjectNum": "I01CX002130"
+        },
+        {
+          "id": "5I01CX002130-02",
+          "title": "Microbial Dysbiosis Among Veterans Following Deployment-Related Airborne Exposures",
+          "role": "Not listed",
+          "amount": 0,
+          "startDate": "2021-10-01",
+          "endDate": "2025-09-30",
+          "fiscalYear": 2023,
+          "url": "https://reporter.nih.gov/project-details/10426050",
+          "coreProjectNum": "I01CX002130"
+        },
+        {
+          "id": "1I01CX002130-01A1",
+          "title": "Microbial Dysbiosis Among Veterans Following Deployment-Related Airborne Exposures",
+          "role": "Not listed",
+          "amount": 0,
+          "startDate": "2021-10-01",
+          "endDate": "2025-09-30",
+          "fiscalYear": 2022,
+          "url": "https://reporter.nih.gov/project-details/10124492",
+          "coreProjectNum": "I01CX002130"
+        },
+        {
+          "id": "5IK2CX001095-06",
+          "title": "Evaluation of the Oral and Lung Microbiota and Inflammation in Chronic Obstructive Pulmonary Disease Frequent Exacerbators",
+          "role": "Not listed",
+          "amount": 0,
+          "startDate": "2015-11-15",
+          "endDate": "2022-05-14",
+          "fiscalYear": 2021,
+          "url": "https://reporter.nih.gov/project-details/10364595",
+          "coreProjectNum": "IK2CX001095"
+        },
+        {
+          "id": "5IK2CX001095-05",
+          "title": "Evaluation of the Oral and Lung Microbiota and Inflammation in Chronic Obstructive Pulmonary Disease Frequent Exacerbators",
+          "role": "Not listed",
+          "amount": 0,
+          "startDate": "2015-11-15",
+          "endDate": "2022-05-14",
+          "fiscalYear": 2020,
+          "url": "https://reporter.nih.gov/project-details/9812753",
+          "coreProjectNum": "IK2CX001095"
+        },
+        {
+          "id": "5IK2CX001095-04",
+          "title": "Evaluation of the Oral and Lung Microbiota and Inflammation in Chronic Obstructive Pulmonary Disease Frequent Exacerbators",
+          "role": "Not listed",
+          "amount": 0,
+          "startDate": "2015-11-15",
+          "endDate": "2020-11-14",
+          "fiscalYear": 2019,
+          "url": "https://reporter.nih.gov/project-details/9640390",
+          "coreProjectNum": "IK2CX001095"
+        },
+        {
+          "id": "5IK2CX001095-03",
+          "title": "Evaluation of the Oral and Lung Microbiota and Inflammation in Chronic Obstructive Pulmonary Disease Frequent Exacerbators",
+          "role": "Not listed",
+          "amount": 0,
+          "startDate": "2015-11-15",
+          "endDate": "2020-11-14",
+          "fiscalYear": 2018,
+          "url": "https://reporter.nih.gov/project-details/9512651",
+          "coreProjectNum": "IK2CX001095"
+        },
+        {
+          "id": "5IK2CX001095-02",
+          "title": "Evaluation of the Oral and Lung Microbiota and Inflammation in Chronic Obstructive Pulmonary Disease Frequent Exacerbators",
+          "role": "Not listed",
+          "amount": 0,
+          "startDate": "2015-11-15",
+          "endDate": "2020-11-14",
+          "fiscalYear": 2017,
+          "url": "https://reporter.nih.gov/project-details/9214232",
+          "coreProjectNum": "IK2CX001095"
+        },
+        {
+          "id": "1IK2CX001095-01A2",
+          "title": "Evaluation of the Oral and Lung Microbiota and Inflammation in Chronic Obstructive Pulmonary Disease Frequent Exacerbators",
+          "role": "Not listed",
+          "amount": 0,
+          "startDate": "2015-11-15",
+          "endDate": "2020-11-14",
+          "fiscalYear": 2016,
+          "url": "https://reporter.nih.gov/project-details/9031299",
+          "coreProjectNum": "IK2CX001095"
+        }
+      ]
     },
     {
       "id": "anna-prizment-prizm001-umn-edu",
@@ -2807,6 +3406,12 @@
       "department": "University of Minnesota",
       "programs": [
         "KL2 Career Development Program"
+      ],
+      "programAssociations": [
+        {
+          "program": "KL2 Career Development Program",
+          "startDate": "2013-09-01"
+        }
       ],
       "reporterUrl": "",
       "grants": [
@@ -2918,6 +3523,12 @@
       "programs": [
         "KL2 Career Development Program"
       ],
+      "programAssociations": [
+        {
+          "program": "KL2 Career Development Program",
+          "startDate": "2020-03-16"
+        }
+      ],
       "reporterUrl": "",
       "grants": []
     },
@@ -2927,8 +3538,21 @@
       "department": "University of Minnesota",
       "programs": [
         "K-R01",
-        "K-R01",
         "KL2 Career Development Program"
+      ],
+      "programAssociations": [
+        {
+          "program": "K-R01",
+          "startDate": "2016-06-01"
+        },
+        {
+          "program": "K-R01",
+          "startDate": "2021-03-01"
+        },
+        {
+          "program": "KL2 Career Development Program",
+          "startDate": "2016-06-01"
+        }
       ],
       "reporterUrl": "",
       "grants": [
@@ -2977,17 +3601,6 @@
           "coreProjectNum": "K23DK118207"
         },
         {
-          "id": "5K23DK118207-03",
-          "title": "Optimizing Diabetes Care Quality for Low-Income Patients",
-          "role": "Not listed",
-          "amount": 198936,
-          "startDate": "2018-09-01",
-          "endDate": "2023-08-31",
-          "fiscalYear": 2020,
-          "url": "https://reporter.nih.gov/project-details/10001066",
-          "coreProjectNum": "K23DK118207"
-        },
-        {
           "id": "3K23DK118207-03S1",
           "title": "Optimizing Diabetes Care Quality for Low-Income Patients",
           "role": "Not listed",
@@ -2996,6 +3609,17 @@
           "endDate": "2023-08-31",
           "fiscalYear": 2020,
           "url": "https://reporter.nih.gov/project-details/10220358",
+          "coreProjectNum": "K23DK118207"
+        },
+        {
+          "id": "5K23DK118207-03",
+          "title": "Optimizing Diabetes Care Quality for Low-Income Patients",
+          "role": "Not listed",
+          "amount": 198936,
+          "startDate": "2018-09-01",
+          "endDate": "2023-08-31",
+          "fiscalYear": 2020,
+          "url": "https://reporter.nih.gov/project-details/10001066",
           "coreProjectNum": "K23DK118207"
         },
         {
@@ -3028,8 +3652,21 @@
       "department": "University of Minnesota",
       "programs": [
         "K-R01",
-        "K-R01",
         "KL2 Career Development Program"
+      ],
+      "programAssociations": [
+        {
+          "program": "K-R01",
+          "startDate": "2015-03-01"
+        },
+        {
+          "program": "K-R01",
+          "startDate": "2018-11-01"
+        },
+        {
+          "program": "KL2 Career Development Program",
+          "startDate": "2015-03-01"
+        }
       ],
       "reporterUrl": "",
       "grants": []
@@ -3040,6 +3677,12 @@
       "department": "University of Minnesota",
       "programs": [
         "KL2 Career Development Program"
+      ],
+      "programAssociations": [
+        {
+          "program": "KL2 Career Development Program",
+          "startDate": "2018-09-01"
+        }
       ],
       "reporterUrl": "",
       "grants": [
@@ -3140,6 +3783,12 @@
       "programs": [
         "KL2 Career Development Program"
       ],
+      "programAssociations": [
+        {
+          "program": "KL2 Career Development Program",
+          "startDate": "2015-09-01"
+        }
+      ],
       "reporterUrl": "",
       "grants": []
     },
@@ -3150,6 +3799,12 @@
       "programs": [
         "KL2 Career Development Program"
       ],
+      "programAssociations": [
+        {
+          "program": "KL2 Career Development Program",
+          "startDate": "2019-04-23"
+        }
+      ],
       "reporterUrl": "",
       "grants": []
     },
@@ -3159,8 +3814,21 @@
       "department": "University of Minnesota",
       "programs": [
         "K-R01",
-        "K-R01",
         "KL2 Career Development Program"
+      ],
+      "programAssociations": [
+        {
+          "program": "K-R01",
+          "startDate": "2015-09-01"
+        },
+        {
+          "program": "K-R01",
+          "startDate": "2021-03-01"
+        },
+        {
+          "program": "KL2 Career Development Program",
+          "startDate": "2015-09-01"
+        }
       ],
       "reporterUrl": "",
       "grants": [
@@ -3315,6 +3983,12 @@
       "department": "University of Minnesota",
       "programs": [
         "KL2 Career Development Program"
+      ],
+      "programAssociations": [
+        {
+          "program": "KL2 Career Development Program",
+          "startDate": "2011-09-01"
+        }
       ],
       "reporterUrl": "",
       "grants": [
@@ -3546,8 +4220,21 @@
       "department": "University of Minnesota",
       "programs": [
         "KAP (formerly PreK)",
-        "KL2 Career Development Program",
         "KL2 Career Development Program"
+      ],
+      "programAssociations": [
+        {
+          "program": "KAP (formerly PreK)",
+          "startDate": "2013-03-01"
+        },
+        {
+          "program": "KL2 Career Development Program",
+          "startDate": "2013-03-01"
+        },
+        {
+          "program": "KL2 Career Development Program",
+          "startDate": "2014-03-01"
+        }
       ],
       "reporterUrl": "",
       "grants": [
@@ -3681,6 +4368,12 @@
       "programs": [
         "KL2 Career Development Program"
       ],
+      "programAssociations": [
+        {
+          "program": "KL2 Career Development Program",
+          "startDate": "2022-04-01"
+        }
+      ],
       "reporterUrl": "",
       "grants": [
         {
@@ -3735,6 +4428,12 @@
       "department": "University of Minnesota",
       "programs": [
         "KL2 Career Development Program"
+      ],
+      "programAssociations": [
+        {
+          "program": "KL2 Career Development Program",
+          "startDate": "2014-03-01"
+        }
       ],
       "reporterUrl": "",
       "grants": [
@@ -3857,6 +4556,12 @@
       "programs": [
         "K12 Career Development Program"
       ],
+      "programAssociations": [
+        {
+          "program": "K12 Career Development Program",
+          "startDate": "2026-02-01"
+        }
+      ],
       "reporterUrl": "",
       "grants": []
     },
@@ -3867,6 +4572,12 @@
       "programs": [
         "K12 Career Development Program"
       ],
+      "programAssociations": [
+        {
+          "program": "K12 Career Development Program",
+          "startDate": "2026-02-01"
+        }
+      ],
       "reporterUrl": "",
       "grants": []
     },
@@ -3876,6 +4587,12 @@
       "department": "University of Minnesota",
       "programs": [
         "KL2 Career Development Program"
+      ],
+      "programAssociations": [
+        {
+          "program": "KL2 Career Development Program",
+          "startDate": "2018-09-01"
+        }
       ],
       "reporterUrl": "",
       "grants": [
@@ -4020,6 +4737,12 @@
       "programs": [
         "K-R01"
       ],
+      "programAssociations": [
+        {
+          "program": "K-R01",
+          "startDate": "2026-02-01"
+        }
+      ],
       "reporterUrl": "",
       "grants": []
     },
@@ -4029,6 +4752,12 @@
       "department": "University of Minnesota",
       "programs": [
         "K-R01"
+      ],
+      "programAssociations": [
+        {
+          "program": "K-R01",
+          "startDate": "2014-03-01"
+        }
       ],
       "reporterUrl": "",
       "grants": [
@@ -4459,6 +5188,12 @@
       "programs": [
         "K-R01"
       ],
+      "programAssociations": [
+        {
+          "program": "K-R01",
+          "startDate": "2020-09-01"
+        }
+      ],
       "reporterUrl": "",
       "grants": [
         {
@@ -4503,6 +5238,12 @@
       "programs": [
         "K-R01"
       ],
+      "programAssociations": [
+        {
+          "program": "K-R01",
+          "startDate": "2022-03-01"
+        }
+      ],
       "reporterUrl": "",
       "grants": []
     },
@@ -4513,8 +5254,37 @@
       "programs": [
         "KAP (formerly PreK)"
       ],
+      "programAssociations": [
+        {
+          "program": "KAP (formerly PreK)",
+          "startDate": "2021-03-01"
+        }
+      ],
       "reporterUrl": "",
-      "grants": []
+      "grants": [
+        {
+          "id": "5IK2CX002525-02",
+          "title": "Evaluation of Left Bundle Branch Area Pacing As A Rescue Strategy for Cardiac Resynchronization Therapy Non-response in Patients With Heart Failure: A Randomized Controlled Trial",
+          "role": "Not listed",
+          "amount": 0,
+          "startDate": "2023-07-01",
+          "endDate": "2028-06-30",
+          "fiscalYear": 2024,
+          "url": "https://reporter.nih.gov/project-details/10862628",
+          "coreProjectNum": "IK2CX002525"
+        },
+        {
+          "id": "1IK2CX002525-01A1",
+          "title": "Evaluation of Left Bundle Branch Area Pacing As A Rescue Strategy for Cardiac Resynchronization Therapy Non-response in Patients With Heart Failure: A Randomized Controlled Trial",
+          "role": "Not listed",
+          "amount": 0,
+          "startDate": "2023-07-01",
+          "endDate": "2028-06-30",
+          "fiscalYear": 2023,
+          "url": "https://reporter.nih.gov/project-details/10703634",
+          "coreProjectNum": "IK2CX002525"
+        }
+      ]
     },
     {
       "id": "kathryn-cullen-rega0026-umn-edu",
@@ -4522,6 +5292,12 @@
       "department": "University of Minnesota",
       "programs": [
         "K-R01"
+      ],
+      "programAssociations": [
+        {
+          "program": "K-R01",
+          "startDate": "2014-03-01"
+        }
       ],
       "reporterUrl": "",
       "grants": [
@@ -4699,6 +5475,12 @@
       "programs": [
         "KAP (formerly PreK)"
       ],
+      "programAssociations": [
+        {
+          "program": "KAP (formerly PreK)",
+          "startDate": "2016-11-01"
+        }
+      ],
       "reporterUrl": "",
       "grants": [
         {
@@ -4754,6 +5536,12 @@
       "programs": [
         "KAP (formerly PreK)"
       ],
+      "programAssociations": [
+        {
+          "program": "KAP (formerly PreK)",
+          "startDate": "2025-09-01"
+        }
+      ],
       "reporterUrl": "",
       "grants": []
     },
@@ -4763,6 +5551,12 @@
       "department": "University of Minnesota",
       "programs": [
         "K-R01"
+      ],
+      "programAssociations": [
+        {
+          "program": "K-R01",
+          "startDate": "2021-03-01"
+        }
       ],
       "reporterUrl": "",
       "grants": [
@@ -4852,6 +5646,12 @@
       "programs": [
         "K-R01"
       ],
+      "programAssociations": [
+        {
+          "program": "K-R01",
+          "startDate": "2022-03-01"
+        }
+      ],
       "reporterUrl": "",
       "grants": []
     },
@@ -4861,6 +5661,12 @@
       "department": "University of Minnesota",
       "programs": [
         "K-R01"
+      ],
+      "programAssociations": [
+        {
+          "program": "K-R01",
+          "startDate": "2014-03-01"
+        }
       ],
       "reporterUrl": "",
       "grants": [
@@ -4994,6 +5800,12 @@
       "programs": [
         "KAP (formerly PreK)"
       ],
+      "programAssociations": [
+        {
+          "program": "KAP (formerly PreK)",
+          "startDate": "2013-03-01"
+        }
+      ],
       "reporterUrl": "",
       "grants": [
         {
@@ -5038,6 +5850,12 @@
       "programs": [
         "K-R01"
       ],
+      "programAssociations": [
+        {
+          "program": "K-R01",
+          "startDate": "2022-03-01"
+        }
+      ],
       "reporterUrl": "",
       "grants": [
         {
@@ -5060,6 +5878,12 @@
       "programs": [
         "K-R01"
       ],
+      "programAssociations": [
+        {
+          "program": "K-R01",
+          "startDate": "2021-03-01"
+        }
+      ],
       "reporterUrl": "",
       "grants": []
     },
@@ -5070,6 +5894,12 @@
       "programs": [
         "KAP (formerly PreK)"
       ],
+      "programAssociations": [
+        {
+          "program": "KAP (formerly PreK)",
+          "startDate": "2012-03-01"
+        }
+      ],
       "reporterUrl": "",
       "grants": []
     },
@@ -5079,6 +5909,12 @@
       "department": "University of Minnesota",
       "programs": [
         "K-R01"
+      ],
+      "programAssociations": [
+        {
+          "program": "K-R01",
+          "startDate": "2019-11-01"
+        }
       ],
       "reporterUrl": "",
       "grants": [
@@ -5157,6 +5993,12 @@
       "programs": [
         "KAP (formerly PreK)"
       ],
+      "programAssociations": [
+        {
+          "program": "KAP (formerly PreK)",
+          "startDate": "2024-07-01"
+        }
+      ],
       "reporterUrl": "",
       "grants": []
     },
@@ -5167,6 +6009,12 @@
       "programs": [
         "K-R01"
       ],
+      "programAssociations": [
+        {
+          "program": "K-R01",
+          "startDate": "2024-07-01"
+        }
+      ],
       "reporterUrl": "",
       "grants": []
     },
@@ -5176,6 +6024,12 @@
       "department": "University of Minnesota",
       "programs": [
         "K-R01"
+      ],
+      "programAssociations": [
+        {
+          "program": "K-R01",
+          "startDate": "2020-09-01"
+        }
       ],
       "reporterUrl": "",
       "grants": [
@@ -5243,6 +6097,12 @@
       "programs": [
         "K-R01"
       ],
+      "programAssociations": [
+        {
+          "program": "K-R01",
+          "startDate": "2024-07-01"
+        }
+      ],
       "reporterUrl": "",
       "grants": []
     },
@@ -5252,6 +6112,12 @@
       "department": "University of Minnesota",
       "programs": [
         "K-R01"
+      ],
+      "programAssociations": [
+        {
+          "program": "K-R01",
+          "startDate": "2013-03-01"
+        }
       ],
       "reporterUrl": "",
       "grants": []
@@ -5263,6 +6129,12 @@
       "programs": [
         "KAP (formerly PreK)"
       ],
+      "programAssociations": [
+        {
+          "program": "KAP (formerly PreK)",
+          "startDate": "2025-09-01"
+        }
+      ],
       "reporterUrl": "",
       "grants": []
     },
@@ -5273,6 +6145,12 @@
       "programs": [
         "KAP (formerly PreK)"
       ],
+      "programAssociations": [
+        {
+          "program": "KAP (formerly PreK)",
+          "startDate": "2015-03-01"
+        }
+      ],
       "reporterUrl": "",
       "grants": []
     },
@@ -5282,6 +6160,12 @@
       "department": "University of Minnesota",
       "programs": [
         "K-R01"
+      ],
+      "programAssociations": [
+        {
+          "program": "K-R01",
+          "startDate": "2020-09-01"
+        }
       ],
       "reporterUrl": "",
       "grants": [
@@ -5338,6 +6222,12 @@
       "programs": [
         "KAP (formerly PreK)"
       ],
+      "programAssociations": [
+        {
+          "program": "KAP (formerly PreK)",
+          "startDate": "2021-03-01"
+        }
+      ],
       "reporterUrl": "",
       "grants": []
     },
@@ -5347,6 +6237,12 @@
       "department": "University of Minnesota",
       "programs": [
         "K-R01"
+      ],
+      "programAssociations": [
+        {
+          "program": "K-R01",
+          "startDate": "2019-11-01"
+        }
       ],
       "reporterUrl": "",
       "grants": [
@@ -5392,6 +6288,12 @@
       "programs": [
         "KAP (formerly PreK)"
       ],
+      "programAssociations": [
+        {
+          "program": "KAP (formerly PreK)",
+          "startDate": "2020-09-01"
+        }
+      ],
       "reporterUrl": "",
       "grants": []
     },
@@ -5401,6 +6303,12 @@
       "department": "University of Minnesota",
       "programs": [
         "K-R01"
+      ],
+      "programAssociations": [
+        {
+          "program": "K-R01",
+          "startDate": "2012-03-01"
+        }
       ],
       "reporterUrl": "",
       "grants": [
@@ -5467,6 +6375,12 @@
       "department": "University of Minnesota",
       "programs": [
         "K-R01"
+      ],
+      "programAssociations": [
+        {
+          "program": "K-R01",
+          "startDate": "2012-03-01"
+        }
       ],
       "reporterUrl": "",
       "grants": [
@@ -5578,6 +6492,12 @@
       "programs": [
         "K-R01"
       ],
+      "programAssociations": [
+        {
+          "program": "K-R01",
+          "startDate": "2015-03-01"
+        }
+      ],
       "reporterUrl": "",
       "grants": [
         {
@@ -5610,6 +6530,12 @@
       "department": "University of Minnesota",
       "programs": [
         "KAP (formerly PreK)"
+      ],
+      "programAssociations": [
+        {
+          "program": "KAP (formerly PreK)",
+          "startDate": "2015-03-01"
+        }
       ],
       "reporterUrl": "",
       "grants": [
@@ -5798,6 +6724,12 @@
       "programs": [
         "KAP (formerly PreK)"
       ],
+      "programAssociations": [
+        {
+          "program": "KAP (formerly PreK)",
+          "startDate": "2024-07-01"
+        }
+      ],
       "reporterUrl": "",
       "grants": []
     },
@@ -5807,6 +6739,12 @@
       "department": "University of Minnesota",
       "programs": [
         "KAP (formerly PreK)"
+      ],
+      "programAssociations": [
+        {
+          "program": "KAP (formerly PreK)",
+          "startDate": "2016-11-01"
+        }
       ],
       "reporterUrl": "",
       "grants": []
@@ -5818,6 +6756,12 @@
       "programs": [
         "KAP (formerly PreK)"
       ],
+      "programAssociations": [
+        {
+          "program": "KAP (formerly PreK)",
+          "startDate": "2014-03-01"
+        }
+      ],
       "reporterUrl": "",
       "grants": []
     },
@@ -5827,6 +6771,12 @@
       "department": "University of Minnesota",
       "programs": [
         "KAP (formerly PreK)"
+      ],
+      "programAssociations": [
+        {
+          "program": "KAP (formerly PreK)",
+          "startDate": "2019-07-01"
+        }
       ],
       "reporterUrl": "",
       "grants": []
@@ -5838,6 +6788,12 @@
       "programs": [
         "K-R01"
       ],
+      "programAssociations": [
+        {
+          "program": "K-R01",
+          "startDate": "2014-03-01"
+        }
+      ],
       "reporterUrl": "",
       "grants": []
     },
@@ -5848,6 +6804,12 @@
       "programs": [
         "K-R01"
       ],
+      "programAssociations": [
+        {
+          "program": "K-R01",
+          "startDate": "2026-02-01"
+        }
+      ],
       "reporterUrl": "",
       "grants": []
     },
@@ -5857,6 +6819,12 @@
       "department": "University of Minnesota",
       "programs": [
         "K-R01"
+      ],
+      "programAssociations": [
+        {
+          "program": "K-R01",
+          "startDate": "2018-11-01"
+        }
       ],
       "reporterUrl": "",
       "grants": [
@@ -5890,6 +6858,12 @@
       "department": "University of Minnesota",
       "programs": [
         "K-R01"
+      ],
+      "programAssociations": [
+        {
+          "program": "K-R01",
+          "startDate": "2021-03-01"
+        }
       ],
       "reporterUrl": "",
       "grants": [
@@ -5935,6 +6909,12 @@
       "programs": [
         "K-R01"
       ],
+      "programAssociations": [
+        {
+          "program": "K-R01",
+          "startDate": "2024-07-01"
+        }
+      ],
       "reporterUrl": "",
       "grants": []
     },
@@ -5944,6 +6924,12 @@
       "department": "University of Minnesota",
       "programs": [
         "KAP (formerly PreK)"
+      ],
+      "programAssociations": [
+        {
+          "program": "KAP (formerly PreK)",
+          "startDate": "2014-09-01"
+        }
       ],
       "reporterUrl": "",
       "grants": [
@@ -6011,6 +6997,12 @@
       "programs": [
         "KAP (formerly PreK)"
       ],
+      "programAssociations": [
+        {
+          "program": "KAP (formerly PreK)",
+          "startDate": "2015-09-01"
+        }
+      ],
       "reporterUrl": "",
       "grants": [
         {
@@ -6066,6 +7058,12 @@
       "programs": [
         "KAP (formerly PreK)"
       ],
+      "programAssociations": [
+        {
+          "program": "KAP (formerly PreK)",
+          "startDate": "2015-03-01"
+        }
+      ],
       "reporterUrl": "",
       "grants": []
     },
@@ -6075,6 +7073,12 @@
       "department": "University of Minnesota",
       "programs": [
         "KAP (formerly PreK)"
+      ],
+      "programAssociations": [
+        {
+          "program": "KAP (formerly PreK)",
+          "startDate": "2022-09-01"
+        }
       ],
       "reporterUrl": "",
       "grants": [
@@ -6097,8 +7101,21 @@
       "department": "University of Minnesota",
       "programs": [
         "K-R01",
-        "K-R01",
         "KAP (formerly PreK)"
+      ],
+      "programAssociations": [
+        {
+          "program": "K-R01",
+          "startDate": "2015-09-01"
+        },
+        {
+          "program": "K-R01",
+          "startDate": "2019-11-01"
+        },
+        {
+          "program": "KAP (formerly PreK)",
+          "startDate": "2015-09-01"
+        }
       ],
       "reporterUrl": "",
       "grants": [

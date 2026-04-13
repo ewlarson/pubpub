@@ -4,7 +4,12 @@ import { readFile, writeFile } from 'node:fs/promises';
 import path from 'node:path';
 import { XMLParser } from 'fast-xml-parser';
 import { fetchArticleXml, fetchPmids, fetchSummaries } from './pubmed.mjs';
-import { initDb, remapFacultyIdReferences, upsertCanonicalFaculty } from './db.mjs';
+import {
+  getFacultySignatureTerms,
+  initDb,
+  remapFacultyIdReferences,
+  upsertCanonicalFaculty
+} from './db.mjs';
 
 const CSV_PATH = path.resolve('data', 'CTSI Faculty - Sheet1.csv');
 const OUTPUT_PATH = path.resolve('public', 'data', 'publications.json');
@@ -303,6 +308,22 @@ const getCoauthorsForFaculty = (db, facultyId) => {
   });
   return map;
 };
+
+const getProgramAssociationsForFaculty = (db, facultyId) =>
+  db
+    .prepare(
+      `
+      SELECT program, start_date AS startDate
+      FROM faculty_programs
+      WHERE faculty_id = ?
+      ORDER BY program ASC, start_date ASC
+    `
+    )
+    .all(facultyId)
+    .map((row) => ({
+      program: row.program,
+      startDate: row.startDate || ''
+    }));
 
 const formatDate = (date) => {
   const year = date.getFullYear();
@@ -874,12 +895,12 @@ const filterPmidsByAuthorAffiliation = async (pmids, person, affiliationTerms) =
     };
   }
 
-  const allowedTerms = affiliationTerms.length ? affiliationTerms : [DEFAULT_AFFILIATION];
-  const normalizedAllowed = allowedTerms.map(normalizeAffiliation).filter(Boolean);
   const kept = new Set();
   const pubDates = new Map();
   const coauthorsByPmid = new Map();
   const authorshipByPmid = new Map();
+  const allowedTerms = affiliationTerms.length ? affiliationTerms : [DEFAULT_AFFILIATION];
+  const normalizedAllowed = allowedTerms.map(normalizeAffiliation).filter(Boolean);
   let missingAffiliationCount = 0;
   let skippedInitialAffiliationCount = 0;
 
@@ -945,7 +966,6 @@ const filterPmidsByAuthorAffiliation = async (pmids, person, affiliationTerms) =
       const matches = normalizedAffiliations.some((aff) =>
         normalizedAllowed.some((term) => aff.includes(term))
       );
-
       if (matches) {
         kept.add(String(pmid));
       }
@@ -1107,7 +1127,10 @@ const canonicalizeFaculty = (db, faculty) => {
       merged.set(canonicalId, {
         ...person,
         id: canonicalId,
-        signatureTerms: new Set(person.signatureTerms || []),
+        signatureTerms: new Set([
+          ...(person.signatureTerms || []),
+          ...getFacultySignatureTerms(db, canonicalId)
+        ]),
         programs: new Set(person.programs || []),
         nameVariants: new Map(
           (person.nameVariants || []).map((variant) => [
@@ -1121,6 +1144,7 @@ const canonicalizeFaculty = (db, faculty) => {
 
     const current = merged.get(canonicalId);
     (person.signatureTerms || []).forEach((term) => current.signatureTerms.add(term));
+    getFacultySignatureTerms(db, canonicalId).forEach((term) => current.signatureTerms.add(term));
     (person.programs || []).forEach((program) => current.programs.add(program));
     (person.nameVariants || []).forEach((variant) => {
       current.nameVariants.set(buildNameKey(variant.foreName, variant.lastName), variant);
@@ -1339,6 +1363,10 @@ const main = async () => {
     const dbFalsePositivePublications = getFalsePositivePublications(db, person.id);
     const coauthorsFromDb = getCoauthorsForFaculty(db, person.id);
     const authorCounts = buildAuthorCounts(dbPublications, authorshipByPmid);
+    const programAssociations = getProgramAssociationsForFaculty(db, person.id);
+    const programs = Array.from(
+      new Set(programAssociations.map((entry) => entry.program).filter(Boolean))
+    );
 
     const signals = {
       positive: buildSignals(publicationsWithAuthorship, coauthorsFromDb),
@@ -1351,7 +1379,8 @@ const main = async () => {
       department: person.department,
       orcid: person.orcid,
       areas: [],
-      programs: person.programs,
+      programs,
+      programAssociations,
       publications: publicationsWithAuthorship,
       authorCounts,
       signals
