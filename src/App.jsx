@@ -39,8 +39,13 @@ const formatDate = (value) => {
   if (!value) {
     return '—';
   }
-  const text = String(value);
-  return text.length >= 10 ? text.slice(0, 10) : text;
+  const text = String(value).trim();
+  const isoDate = text.match(/^(\d{4})-(\d{2})-(\d{2})(?:$|T)/);
+  if (!isoDate) {
+    return text;
+  }
+  const [, year, month, day] = isoDate;
+  return `${month}/${day}/${year}`;
 };
 
 const formatProgramAssociation = (association) => {
