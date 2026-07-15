@@ -30,7 +30,7 @@ export async function ncbiGetJson(url, params, { maxRetries = 8 } = {}) {
       clearTimeout(timeout);
 
       if (response.ok) {
-        return response.json();
+        return await response.json();
       }
 
       if (RETRYABLE_STATUSES.has(response.status)) {
@@ -70,7 +70,7 @@ export async function ncbiGetText(url, params, { maxRetries = 8 } = {}) {
       clearTimeout(timeout);
 
       if (response.ok) {
-        return response.text();
+        return await response.text();
       }
 
       if (RETRYABLE_STATUSES.has(response.status)) {

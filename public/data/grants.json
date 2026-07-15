@@ -1,5 +1,5 @@
 {
-  "updated": "2026-04-12",
+  "updated": "2026-07-15",
   "source": "NIH RePORTER API",
   "faculty": [
     {
@@ -23,7 +23,7 @@
           "role": "Not listed",
           "amount": 925504,
           "startDate": "2024-09-20",
-          "endDate": "2026-08-31",
+          "endDate": "2027-08-31",
           "fiscalYear": 2025,
           "url": "https://reporter.nih.gov/project-details/11195638",
           "coreProjectNum": "R42CA295106"
@@ -200,7 +200,7 @@
     },
     {
       "id": "kaja-sarah",
-      "name": "Sarah Kaja",
+      "name": "Sarah Kaja (Espinoza)",
       "department": "University of Minnesota",
       "programs": [
         "K12 Career Development Program",
@@ -391,7 +391,7 @@
           "id": "5R21CA287351-02",
           "title": "Characterize the metabolic landscape of ARID1A-mutated ovarian cancer",
           "role": "PI",
-          "amount": 158653,
+          "amount": 176280,
           "startDate": "2024-12-01",
           "endDate": "2026-11-30",
           "fiscalYear": 2026,
@@ -551,7 +551,7 @@
           "role": "Not listed",
           "amount": 207895,
           "startDate": "2024-02-01",
-          "endDate": "2026-01-31",
+          "endDate": "2027-01-31",
           "fiscalYear": 2025,
           "url": "https://reporter.nih.gov/project-details/11018541",
           "coreProjectNum": "R21CA286980"
@@ -599,7 +599,7 @@
           "role": "Not listed",
           "amount": 662793,
           "startDate": "2022-07-01",
-          "endDate": "2026-05-31",
+          "endDate": "2027-05-31",
           "fiscalYear": 2025,
           "url": "https://reporter.nih.gov/project-details/11110480",
           "coreProjectNum": "R01HL158756"
@@ -1068,7 +1068,7 @@
           "role": "Not listed",
           "amount": 200266,
           "startDate": "2021-08-09",
-          "endDate": "2026-08-08",
+          "endDate": "2026-04-28",
           "fiscalYear": 2024,
           "url": "https://reporter.nih.gov/project-details/10917146",
           "coreProjectNum": "K23DK124654"
@@ -1110,7 +1110,7 @@
     },
     {
       "id": "y-jazmin-camchong-camch002-umn-edu",
-      "name": "Y. Jazmin Camchong",
+      "name": "Jazmin Camchong",
       "department": "University of Minnesota",
       "programs": [
         "K-R01",
@@ -1302,7 +1302,19 @@
         }
       ],
       "reporterUrl": "",
-      "grants": []
+      "grants": [
+        {
+          "id": "1K01DK147422-01",
+          "title": "The Impact of Short Chain Fatty Acids on Calcium Regulatory Pathways in Kidney Stone Formers",
+          "role": "Not listed",
+          "amount": 161275,
+          "startDate": "2026-06-01",
+          "endDate": "2030-05-31",
+          "fiscalYear": 2026,
+          "url": "https://reporter.nih.gov/project-details/11346750",
+          "coreProjectNum": "K01DK147422"
+        }
+      ]
     },
     {
       "id": "curtis-corum-curtcorum-champaign-gmail-com",
@@ -1564,6 +1576,17 @@
       "reporterUrl": "",
       "grants": [
         {
+          "id": "5R01HL177306-02",
+          "title": "Understanding the genetic and immunologic basis of autoimmune hemolytic anemia (AIHA) in a novel canine model system",
+          "role": "Not listed",
+          "amount": 563804,
+          "startDate": "2025-07-15",
+          "endDate": "2030-04-30",
+          "fiscalYear": 2026,
+          "url": "https://reporter.nih.gov/project-details/11369774",
+          "coreProjectNum": "R01HL177306"
+        },
+        {
           "id": "1R01HL177306-01",
           "title": "Understanding the genetic and immunologic basis of autoimmune hemolytic anemia (AIHA) in a novel canine model system",
           "role": "Not listed",
@@ -1732,7 +1755,7 @@
           "role": "Not listed",
           "amount": 557407,
           "startDate": "2021-07-01",
-          "endDate": "2026-06-30",
+          "endDate": "2027-06-30",
           "fiscalYear": 2025,
           "url": "https://reporter.nih.gov/project-details/11115609",
           "coreProjectNum": "R01HD098202"
@@ -2026,12 +2049,23 @@
       "reporterUrl": "",
       "grants": [
         {
+          "id": "1R25CA306814-01",
+          "title": "Biomarker Development and Applications to Inform Cancer Prevention",
+          "role": "Not listed",
+          "amount": 309761,
+          "startDate": "2026-05-01",
+          "endDate": "2031-04-30",
+          "fiscalYear": 2026,
+          "url": "https://reporter.nih.gov/project-details/11264248",
+          "coreProjectNum": "R25CA306814"
+        },
+        {
           "id": "5R01CA263084-05",
           "title": "High resolution mass spectrometric profile analysis of carcinogen-DNA adducts in oral cells of cigarette smokers and squamous cell carcinoma of the head and neck",
           "role": "Not listed",
           "amount": 555005,
           "startDate": "2021-09-21",
-          "endDate": "2026-08-31",
+          "endDate": "2027-08-31",
           "fiscalYear": 2025,
           "url": "https://reporter.nih.gov/project-details/11159507",
           "coreProjectNum": "R01CA263084"
@@ -2261,7 +2295,7 @@
           "role": "Contact PI",
           "amount": 152928,
           "startDate": "2022-07-01",
-          "endDate": "2026-06-30",
+          "endDate": "2026-12-31",
           "fiscalYear": 2025,
           "url": "https://reporter.nih.gov/project-details/11136287",
           "coreProjectNum": "K23HD107179"
@@ -2316,6 +2350,17 @@
       ],
       "reporterUrl": "",
       "grants": [
+        {
+          "id": "5R01EB033365-03",
+          "title": "Advanced Knee ASL Imaging at 7T",
+          "role": "Contact PI",
+          "amount": 1,
+          "startDate": "2023-06-01",
+          "endDate": "2029-05-31",
+          "fiscalYear": 2026,
+          "url": "https://reporter.nih.gov/project-details/11127463",
+          "coreProjectNum": "R01EB033365"
+        },
         {
           "id": "5R01EB033365-02",
           "title": "Advanced Knee ASL Imaging at 7T",
@@ -2519,6 +2564,17 @@
           "fiscalYear": 2024,
           "url": "https://reporter.nih.gov/project-details/10924718",
           "coreProjectNum": "DP1AG093028"
+        },
+        {
+          "id": "5R01AG087526-03",
+          "title": "Homeostatic modeling of functional neuroimaging data in humans: a novel methodology to obtain brain maps of tissue pCO2, pO2 and pH in aging",
+          "role": "Contact PI",
+          "amount": 644297,
+          "startDate": "2024-08-15",
+          "endDate": "2028-04-30",
+          "fiscalYear": 2026,
+          "url": "https://reporter.nih.gov/project-details/11317142",
+          "coreProjectNum": "R01AG087526"
         },
         {
           "id": "5R01AG087526-02",
@@ -3061,6 +3117,17 @@
       "reporterUrl": "",
       "grants": [
         {
+          "id": "5R01HL163011-05",
+          "title": "Implications of PARP1 in myelodysplastic syndromes and targeted therapy",
+          "role": "Not listed",
+          "amount": 501122,
+          "startDate": "2022-05-20",
+          "endDate": "2027-04-30",
+          "fiscalYear": 2026,
+          "url": "https://reporter.nih.gov/project-details/11325793",
+          "coreProjectNum": "R01HL163011"
+        },
+        {
           "id": "5R01HL163011-04",
           "title": "Implications of PARP1 in myelodysplastic syndromes and targeted therapy",
           "role": "Not listed",
@@ -3194,17 +3261,6 @@
           "coreProjectNum": "R01NS119297"
         },
         {
-          "id": "3R01NS119297-03S1",
-          "title": "3D Bioprinted Spinal Cord Organoids as a Relay System for Spinal Cord Injury",
-          "role": "Not listed",
-          "amount": 74284,
-          "startDate": "2021-09-02",
-          "endDate": "2026-06-30",
-          "fiscalYear": 2023,
-          "url": "https://reporter.nih.gov/project-details/10840561",
-          "coreProjectNum": "R01NS119297"
-        },
-        {
           "id": "5R01NS119297-03",
           "title": "3D Bioprinted Spinal Cord Organoids as a Relay System for Spinal Cord Injury",
           "role": "Not listed",
@@ -3213,6 +3269,17 @@
           "endDate": "2026-06-30",
           "fiscalYear": 2023,
           "url": "https://reporter.nih.gov/project-details/10677016",
+          "coreProjectNum": "R01NS119297"
+        },
+        {
+          "id": "3R01NS119297-03S1",
+          "title": "3D Bioprinted Spinal Cord Organoids as a Relay System for Spinal Cord Injury",
+          "role": "Not listed",
+          "amount": 74284,
+          "startDate": "2021-09-02",
+          "endDate": "2026-06-30",
+          "fiscalYear": 2023,
+          "url": "https://reporter.nih.gov/project-details/10840561",
           "coreProjectNum": "R01NS119297"
         },
         {
@@ -3415,6 +3482,17 @@
       ],
       "reporterUrl": "",
       "grants": [
+        {
+          "id": "1R21CA301160-01A1",
+          "title": "Circulating senescent proteins and their trajectories in relation to age-related outcomes in cancer survivors",
+          "role": "Contact PI",
+          "amount": 399852,
+          "startDate": "2026-05-01",
+          "endDate": "2028-04-30",
+          "fiscalYear": 2026,
+          "url": "https://reporter.nih.gov/project-details/11303732",
+          "coreProjectNum": "R21CA301160"
+        },
         {
           "id": "1R21CA297739-01A1",
           "title": "Socio-environmental Factors, Accelerated Aging, and Cancer Risks and Outcomes in Middle-Aged and Older Adults",
@@ -3687,6 +3765,17 @@
       "reporterUrl": "",
       "grants": [
         {
+          "id": "2R35GM142695-06",
+          "title": "Statistical and Machine Learning Methods to Address Biomedical Challenges for Integrating Multi-view Data",
+          "role": "Not listed",
+          "amount": 408118,
+          "startDate": "2021-09-23",
+          "endDate": "2031-06-30",
+          "fiscalYear": 2026,
+          "url": "https://reporter.nih.gov/project-details/11329729",
+          "coreProjectNum": "R35GM142695"
+        },
+        {
           "id": "5R35GM142695-05",
           "title": "Statistical and Machine Learning Methods to Address Biomedical Challenges for Integrating Multi-view Data",
           "role": "Not listed",
@@ -3720,17 +3809,6 @@
           "coreProjectNum": "R35GM142695"
         },
         {
-          "id": "3R35GM142695-03S1",
-          "title": "Statistical and Machine Learning Methods to Address Biomedical Challenges for Integrating Multi-view Data",
-          "role": "Not listed",
-          "amount": 351514,
-          "startDate": "2021-09-23",
-          "endDate": "2026-06-30",
-          "fiscalYear": 2023,
-          "url": "https://reporter.nih.gov/project-details/10711864",
-          "coreProjectNum": "R35GM142695"
-        },
-        {
           "id": "3R35GM142695-03S2",
           "title": "MultiViewPortal: Towards a Scalable Web Application for Multiview Learning",
           "role": "Not listed",
@@ -3739,6 +3817,17 @@
           "endDate": "2026-06-30",
           "fiscalYear": 2023,
           "url": "https://reporter.nih.gov/project-details/10827749",
+          "coreProjectNum": "R35GM142695"
+        },
+        {
+          "id": "3R35GM142695-03S1",
+          "title": "Statistical and Machine Learning Methods to Address Biomedical Challenges for Integrating Multi-view Data",
+          "role": "Not listed",
+          "amount": 351514,
+          "startDate": "2021-09-23",
+          "endDate": "2026-06-30",
+          "fiscalYear": 2023,
+          "url": "https://reporter.nih.gov/project-details/10711864",
           "coreProjectNum": "R35GM142695"
         },
         {
@@ -3860,7 +3949,7 @@
           "role": "Contact PI",
           "amount": 662793,
           "startDate": "2022-07-01",
-          "endDate": "2026-05-31",
+          "endDate": "2027-05-31",
           "fiscalYear": 2025,
           "url": "https://reporter.nih.gov/project-details/11110480",
           "coreProjectNum": "R01HL158756"
@@ -4016,7 +4105,7 @@
         },
         {
           "id": "5R01AG075734-04",
-          "title": "Training the Long-Term Services and Supports Dementia Care Workforce in Provision of Care to Sexual and Gender Minority Residents",
+          "title": "Training the Long-term Services and Supports Workforce in Responsive Care",
           "role": "Not listed",
           "amount": 699616,
           "startDate": "2022-09-15",
@@ -4048,17 +4137,6 @@
           "coreProjectNum": "R01AG075734"
         },
         {
-          "id": "3R01AG075734-03S1",
-          "title": "Training the Long-Term Services and Supports Dementia Care Workforce in Provision of Care to Sexual and Gender Minority Residents",
-          "role": "Not listed",
-          "amount": 69606,
-          "startDate": "2022-09-15",
-          "endDate": "2026-05-31",
-          "fiscalYear": 2024,
-          "url": "https://reporter.nih.gov/project-details/11090086",
-          "coreProjectNum": "R01AG075734"
-        },
-        {
           "id": "3R01AG075734-02S1",
           "title": "Training the Long-Term Services and Supports Dementia Care Workforce in Provision of Care to Sexual and Gender Minority Residents",
           "role": "Not listed",
@@ -4067,6 +4145,17 @@
           "endDate": "2026-05-31",
           "fiscalYear": 2024,
           "url": "https://reporter.nih.gov/project-details/11004546",
+          "coreProjectNum": "R01AG075734"
+        },
+        {
+          "id": "3R01AG075734-03S1",
+          "title": "Training the Long-Term Services and Supports Dementia Care Workforce in Provision of Care to Sexual and Gender Minority Residents",
+          "role": "Not listed",
+          "amount": 69606,
+          "startDate": "2022-09-15",
+          "endDate": "2026-05-31",
+          "fiscalYear": 2024,
+          "url": "https://reporter.nih.gov/project-details/11090086",
           "coreProjectNum": "R01AG075734"
         },
         {
@@ -4136,17 +4225,6 @@
           "coreProjectNum": "RF1AG069771"
         },
         {
-          "id": "3R01MD010729-05S1",
-          "title": "System Factors and Racial Disparities in Nursing Home Quality of Life and Care",
-          "role": "Not listed",
-          "amount": 352479,
-          "startDate": "2016-08-15",
-          "endDate": "2022-04-30",
-          "fiscalYear": 2020,
-          "url": "https://reporter.nih.gov/project-details/10180782",
-          "coreProjectNum": "R01MD010729"
-        },
-        {
           "id": "5R01MD010729-05",
           "title": "System Factors and Racial Disparities in Nursing Home Quality of Life and Care",
           "role": "Not listed",
@@ -4155,6 +4233,17 @@
           "endDate": "2022-04-30",
           "fiscalYear": 2020,
           "url": "https://reporter.nih.gov/project-details/9907866",
+          "coreProjectNum": "R01MD010729"
+        },
+        {
+          "id": "3R01MD010729-05S1",
+          "title": "System Factors and Racial Disparities in Nursing Home Quality of Life and Care",
+          "role": "Not listed",
+          "amount": 352479,
+          "startDate": "2016-08-15",
+          "endDate": "2022-04-30",
+          "fiscalYear": 2020,
+          "url": "https://reporter.nih.gov/project-details/10180782",
           "coreProjectNum": "R01MD010729"
         },
         {
@@ -4437,6 +4526,17 @@
       ],
       "reporterUrl": "",
       "grants": [
+        {
+          "id": "1R01MD020650-01",
+          "title": "Role of rs142619613 mutation in MAFLD and hyperglycemia and in African Americans",
+          "role": "Contact PI",
+          "amount": 701978,
+          "startDate": "2026-06-08",
+          "endDate": "2030-11-30",
+          "fiscalYear": 2026,
+          "url": "https://reporter.nih.gov/project-details/11202675",
+          "coreProjectNum": "R01MD020650"
+        },
         {
           "id": "1R56DK136596-01A1",
           "title": "Role of YY1 in promoting hepatic insulin resistance, hyperglycemia and NAFLD",
@@ -4762,6 +4862,17 @@
       "reporterUrl": "",
       "grants": [
         {
+          "id": "1R13DK149552-01",
+          "title": "PancreasFest 2026",
+          "role": "Not listed",
+          "amount": 23640,
+          "startDate": "2026-07-11",
+          "endDate": "2027-06-30",
+          "fiscalYear": 2026,
+          "url": "https://reporter.nih.gov/project-details/11466831",
+          "coreProjectNum": "R13DK149552"
+        },
+        {
           "id": "1R01DK146358-01",
           "title": "SGLT2 inhibitor therapy in islet transplantation",
           "role": "Not listed",
@@ -4927,6 +5038,17 @@
           "coreProjectNum": "U01DK127367"
         },
         {
+          "id": "5U01DK126300-07",
+          "title": "University of Minnesota Clinical Center for the Study of Pancreatic Disease",
+          "role": "Not listed",
+          "amount": 603379,
+          "startDate": "2020-09-03",
+          "endDate": "2030-06-30",
+          "fiscalYear": 2026,
+          "url": "https://reporter.nih.gov/project-details/11400472",
+          "coreProjectNum": "U01DK126300"
+        },
+        {
           "id": "2U01DK126300-06",
           "title": "University of Minnesota Clinical Center for the Study of Pancreatic Disease",
           "role": "Not listed",
@@ -4971,17 +5093,6 @@
           "coreProjectNum": "U01DK126300"
         },
         {
-          "id": "3U01DK126300-03S1",
-          "title": "University of Minnesota Clinical Center for the Study of Pancreatic Disease",
-          "role": "Not listed",
-          "amount": 100000,
-          "startDate": "2020-09-03",
-          "endDate": "2025-06-30",
-          "fiscalYear": 2022,
-          "url": "https://reporter.nih.gov/project-details/10684392",
-          "coreProjectNum": "U01DK126300"
-        },
-        {
           "id": "5U01DK126300-03",
           "title": "University of Minnesota Clinical Center for the Study of Pancreatic Disease",
           "role": "Not listed",
@@ -4990,6 +5101,17 @@
           "endDate": "2025-06-30",
           "fiscalYear": 2022,
           "url": "https://reporter.nih.gov/project-details/10445078",
+          "coreProjectNum": "U01DK126300"
+        },
+        {
+          "id": "3U01DK126300-03S1",
+          "title": "University of Minnesota Clinical Center for the Study of Pancreatic Disease",
+          "role": "Not listed",
+          "amount": 100000,
+          "startDate": "2020-09-03",
+          "endDate": "2025-06-30",
+          "fiscalYear": 2022,
+          "url": "https://reporter.nih.gov/project-details/10684392",
           "coreProjectNum": "U01DK126300"
         },
         {
@@ -5200,7 +5322,7 @@
           "id": "5R01CA285620-03",
           "title": "Development of novel AAV vaccine strategy in a pre-clinical model of oral melanoma.",
           "role": "Not listed",
-          "amount": 437379,
+          "amount": 485977,
           "startDate": "2023-12-08",
           "endDate": "2028-11-30",
           "fiscalYear": 2026,
@@ -5676,7 +5798,7 @@
           "role": "Not listed",
           "amount": 470601,
           "startDate": "2022-06-01",
-          "endDate": "2026-05-31",
+          "endDate": "2027-05-31",
           "fiscalYear": 2025,
           "url": "https://reporter.nih.gov/project-details/11097271",
           "coreProjectNum": "R01HL157667"
@@ -5933,7 +6055,7 @@
           "id": "5R01AR081877-04",
           "title": "Early Detection and Monitoring of Osteonecrosis of the Femoral Head",
           "role": "Not listed",
-          "amount": 573018,
+          "amount": 604852,
           "startDate": "2023-03-01",
           "endDate": "2028-01-31",
           "fiscalYear": 2026,
@@ -6247,6 +6369,28 @@
       "reporterUrl": "",
       "grants": [
         {
+          "id": "3R01NS139908-03S1",
+          "title": "Improving outcomes in HIV-associated opportunistic infections using CNS pharmacokinetics and pharmacodynamics",
+          "role": "Not listed",
+          "amount": 190085,
+          "startDate": "2024-08-18",
+          "endDate": "2029-05-31",
+          "fiscalYear": 2026,
+          "url": "https://reporter.nih.gov/project-details/11538505",
+          "coreProjectNum": "R01NS139908"
+        },
+        {
+          "id": "5R01NS139908-03",
+          "title": "Improving outcomes in HIV-associated opportunistic infections using CNS pharmacokinetics and pharmacodynamics",
+          "role": "Not listed",
+          "amount": 455003,
+          "startDate": "2024-08-18",
+          "endDate": "2029-05-31",
+          "fiscalYear": 2026,
+          "url": "https://reporter.nih.gov/project-details/11406184",
+          "coreProjectNum": "R01NS139908"
+        },
+        {
           "id": "3R01NS139908-02S1",
           "title": "Improving outcomes in HIV-associated opportunistic infections using CNS pharmacokinetics and pharmacodynamics",
           "role": "Not listed",
@@ -6540,6 +6684,17 @@
       "reporterUrl": "",
       "grants": [
         {
+          "id": "1K24AI197951-01",
+          "title": "Mentoring Patient-Oriented Research in the Evaluation of Novel Diagnostics for People With Advanced HIV Disease",
+          "role": "Contact PI",
+          "amount": 220485,
+          "startDate": "2026-06-08",
+          "endDate": "2031-05-31",
+          "fiscalYear": 2026,
+          "url": "https://reporter.nih.gov/project-details/11327874",
+          "coreProjectNum": "K24AI197951"
+        },
+        {
           "id": "3U01AI174978-03S1",
           "title": "Enhanced Antifungal Therapy to Improve Survival in Early Disseminated Cryptococcal Infection",
           "role": "Contact PI",
@@ -6559,6 +6714,17 @@
           "endDate": "2028-03-31",
           "fiscalYear": 2026,
           "url": "https://reporter.nih.gov/project-details/11393579",
+          "coreProjectNum": "U01AI174978"
+        },
+        {
+          "id": "3U01AI174978-04S1",
+          "title": "Enhanced Antifungal Therapy to Improve Survival in Early Disseminated Cryptococcal Infection",
+          "role": "Contact PI",
+          "amount": 259181,
+          "startDate": "2023-04-21",
+          "endDate": "2028-03-31",
+          "fiscalYear": 2026,
+          "url": "https://reporter.nih.gov/project-details/11454768",
           "coreProjectNum": "U01AI174978"
         },
         {
@@ -6868,6 +7034,17 @@
       "reporterUrl": "",
       "grants": [
         {
+          "id": "5R01AR082864-03",
+          "title": "The role of vascular failure and biomechanical stress in the development, progression and healing of osteochondritis dissecans lesions",
+          "role": "Contact PI",
+          "amount": 506265,
+          "startDate": "2024-08-09",
+          "endDate": "2029-05-31",
+          "fiscalYear": 2026,
+          "url": "https://reporter.nih.gov/project-details/11413539",
+          "coreProjectNum": "R01AR082864"
+        },
+        {
           "id": "5R01AR082864-02",
           "title": "The role of vascular failure and biomechanical stress in the development, progression and healing of osteochondritis dissecans lesions",
           "role": "Contact PI",
@@ -6933,6 +7110,17 @@
       ],
       "reporterUrl": "",
       "grants": [
+        {
+          "id": "5R01CA298935-02",
+          "title": "Socioeconomic and adversity-associated immunobiologic influences on pediatric hematopoietic cell transplant outcomes",
+          "role": "Not listed",
+          "amount": 625734,
+          "startDate": "2025-05-06",
+          "endDate": "2030-04-30",
+          "fiscalYear": 2026,
+          "url": "https://reporter.nih.gov/project-details/11362394",
+          "coreProjectNum": "R01CA298935"
+        },
         {
           "id": "1R01CA298935-01",
           "title": "Socioeconomic and adversity-associated immunobiologic influences on pediatric hematopoietic cell transplant outcomes",
