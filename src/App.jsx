@@ -14,6 +14,52 @@ const normalizeSlug = (value) =>
     .replace(/[^a-z0-9]+/g, '-')
     .replace(/^-+|-+$/g, '');
 
+const facultyNameCollator = new Intl.Collator('en-US', { sensitivity: 'base' });
+
+const getFacultyNameParts = (member) => {
+  const foreName = String(member?.foreName || '').trim();
+  const lastName = String(member?.lastName || '').trim();
+  if (foreName && lastName) {
+    return { foreName, lastName };
+  }
+
+  const tokens = String(member?.name || '')
+    .trim()
+    .split(/\s+/)
+    .filter(Boolean);
+  if (tokens.length < 2) {
+    return { foreName: '', lastName: tokens[0] || '' };
+  }
+
+  const finalToken = tokens.at(-1);
+  const hasSuffix = /^(?:Jr\.?|Sr\.?|II|III|IV|V)$/i.test(finalToken);
+  const hasParentheticalSurname = /^\(.+\)$/.test(finalToken);
+  const surnameTokenCount = hasSuffix || hasParentheticalSurname ? 2 : 1;
+
+  return {
+    foreName: tokens.slice(0, -surnameTokenCount).join(' '),
+    lastName: tokens.slice(-surnameTokenCount).join(' ')
+  };
+};
+
+const formatFacultyListName = (member) => {
+  const { foreName, lastName } = getFacultyNameParts(member);
+  if (foreName && lastName) {
+    return `${lastName}, ${foreName}`;
+  }
+  return lastName || foreName || String(member?.name || '');
+};
+
+const compareFacultyNames = (a, b) => {
+  const aName = getFacultyNameParts(a);
+  const bName = getFacultyNameParts(b);
+  return (
+    facultyNameCollator.compare(aName.lastName, bName.lastName) ||
+    facultyNameCollator.compare(aName.foreName, bName.foreName) ||
+    facultyNameCollator.compare(String(a?.name || ''), String(b?.name || ''))
+  );
+};
+
 const toNumber = (value) => {
   if (value === '' || value === null || value === undefined) {
     return null;
@@ -1828,6 +1874,7 @@ export default function App() {
 
       const searchableBits = [
         member.name,
+        formatFacultyListName(member),
         member.department,
         ...(member.areas || []),
         ...(member.programs || []),
@@ -1868,7 +1915,7 @@ export default function App() {
         const bLatest = Math.max(...b.filteredPublications.map((pub) => pub.year));
         return bLatest - aLatest;
       }
-      return a.name.localeCompare(b.name);
+      return compareFacultyNames(a, b);
     });
 
     return sorted;
@@ -1881,6 +1928,7 @@ export default function App() {
       const grants = member.grants || [];
       const searchableBits = [
         member.name,
+        formatFacultyListName(member),
         member.department,
         ...(member.areas || []),
         ...(member.programs || []),
@@ -1993,7 +2041,7 @@ export default function App() {
       if (grantSortBy === 'amount') {
         return (b.totalAmount || 0) - (a.totalAmount || 0);
       }
-      return a.name.localeCompare(b.name);
+      return compareFacultyNames(a, b);
     });
 
     return sorted;
@@ -3248,7 +3296,7 @@ export default function App() {
                     value={pubSortBy}
                     onChange={(event) => setPubSortBy(event.target.value)}
                   >
-                    <option value="name">Faculty name</option>
+                    <option value="name">Last name</option>
                     <option value="count">Publication count</option>
                     <option value="latest">Most recent year</option>
                   </select>
@@ -3262,7 +3310,7 @@ export default function App() {
                 value={grantSortBy}
                 onChange={(event) => setGrantSortBy(event.target.value)}
               >
-                <option value="name">Faculty name</option>
+                <option value="name">Last name</option>
                 <option value="count">Grant count</option>
                 <option value="amount">Total awarded</option>
               </select>
@@ -4142,7 +4190,7 @@ export default function App() {
             <table className="table">
               <thead>
                 <tr>
-                  <th>Faculty</th>
+                  <th>Faculty (Last, First)</th>
                   <th>Affiliation</th>
                   <th>Programs</th>
                   <th>Trend</th>
@@ -4176,7 +4224,7 @@ export default function App() {
                       <tr id={`faculty-${member.id}`}>
                         <td>
                           <div className="name-row">
-                            <div className="name">{member.name}</div>
+                            <div className="name">{formatFacultyListName(member)}</div>
                             <button
                               type="button"
                               className="copy-link"
@@ -4421,7 +4469,7 @@ export default function App() {
             <table className="table">
               <thead>
                 <tr>
-                  <th>Faculty</th>
+                  <th>Faculty (Last, First)</th>
                   <th>Affiliation</th>
                   <th>Programs</th>
                   <th>Grant Type</th>
@@ -4444,7 +4492,7 @@ export default function App() {
                       <tr id={`faculty-${member.id}`}>
                         <td>
                           <div className="name-row">
-                            <div className="name">{member.name}</div>
+                            <div className="name">{formatFacultyListName(member)}</div>
                             <button
                               type="button"
                               className="copy-link"

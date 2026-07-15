@@ -577,6 +577,8 @@ const main = async () => {
       results.push({
         id: person.id,
         name: person.name,
+        foreName: person.foreName || '',
+        lastName: person.lastName || '',
         department: person.department,
         programs,
         programAssociations,

@@ -201,6 +201,8 @@ const buildPublicationsOutput = (db) => {
         facultyRow.display_name ||
         `${facultyRow.fore_name || ''} ${facultyRow.last_name || ''}`.trim() ||
         id,
+      foreName: facultyRow.fore_name || '',
+      lastName: facultyRow.last_name || '',
       department: DEFAULT_DEPARTMENT,
       orcid: facultyRow.orcid || '',
       areas: [],
@@ -240,6 +242,8 @@ const buildGrantsOutput = (db) => {
         facultyRow.display_name ||
         `${facultyRow.fore_name || ''} ${facultyRow.last_name || ''}`.trim() ||
         id,
+      foreName: facultyRow.fore_name || '',
+      lastName: facultyRow.last_name || '',
       department: DEFAULT_DEPARTMENT,
       programs,
       programAssociations,
