@@ -562,6 +562,14 @@
       ],
       "publications": [
         {
+          "id": "41397658",
+          "title": "Synthesis and evaluation of novel oxanthrene scaffold-derived oxazolidinone antibiotics with potent antitubercular activity and low cellular toxicity.",
+          "journal": "Bioorganic & medicinal chemistry letters",
+          "year": 2026,
+          "doi": "10.1016/j.bmcl.2025.130505",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41397658/"
+        },
+        {
           "id": "40093075",
           "title": "Shared and distinct responses of human and murine alveolar macrophages and monocyte-derived macrophages to Mycobacterium tuberculosis.",
           "journal": "bioRxiv : the preprint server for biology",
@@ -578,6 +586,22 @@
           "url": "https://pubmed.ncbi.nlm.nih.gov/41208107/"
         },
         {
+          "id": "39162406",
+          "title": "Epigenetic programming of host lipid metabolism associated with resistance to TST/IGRA conversion after exposure to Mycobacterium tuberculosis.",
+          "journal": "mSystems",
+          "year": 2024,
+          "doi": "10.1128/msystems.00628-24",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39162406/"
+        },
+        {
+          "id": "38464296",
+          "title": "Epigenetic programming of host lipid metabolism associates with resistance to TST/IGRA conversion after exposure to Mycobacterium tuberculosis.",
+          "journal": "bioRxiv : the preprint server for biology",
+          "year": 2024,
+          "doi": "10.1101/2024.02.27.582348",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38464296/"
+        },
+        {
           "id": "38836816",
           "title": "Human Alveolar and Monocyte-Derived Human Macrophage Responses to Mycobacterium tuberculosis.",
           "journal": "Journal of immunology (Baltimore, Md. : 1950)",
@@ -589,24 +613,32 @@
       "authorCounts": null,
       "signals": {
         "positive": {
-          "count": 3,
+          "count": 6,
           "yearRange": {
             "min": 2024,
-            "max": 2025
+            "max": 2026
           },
           "yearCounts": [
             {
               "year": 2024,
-              "count": 1
+              "count": 3
             },
             {
               "year": 2025,
               "count": 2
+            },
+            {
+              "year": 2026,
+              "count": 1
             }
           ],
           "topJournals": [
             {
               "name": "bioRxiv : the preprint server for biology",
+              "count": 2
+            },
+            {
+              "name": "Bioorganic & medicinal chemistry letters",
               "count": 1
             },
             {
@@ -616,9 +648,25 @@
             {
               "name": "Journal of immunology (Baltimore, Md. : 1950)",
               "count": 1
+            },
+            {
+              "name": "mSystems",
+              "count": 1
             }
           ],
           "topKeywords": [
+            {
+              "name": "mycobacterium",
+              "count": 5
+            },
+            {
+              "name": "tuberculosis",
+              "count": 5
+            },
+            {
+              "name": "derived",
+              "count": 4
+            },
             {
               "name": "human",
               "count": 4
@@ -632,15 +680,7 @@
               "count": 3
             },
             {
-              "name": "derived",
-              "count": 3
-            },
-            {
               "name": "monocyte",
-              "count": 3
-            },
-            {
-              "name": "mycobacterium",
               "count": 3
             },
             {
@@ -648,24 +688,20 @@
               "count": 3
             },
             {
-              "name": "tuberculosis",
-              "count": 3
+              "name": "after",
+              "count": 2
+            },
+            {
+              "name": "conversion",
+              "count": 2
             },
             {
               "name": "distinct",
               "count": 2
             },
             {
-              "name": "murine",
+              "name": "epigenetic",
               "count": 2
-            },
-            {
-              "name": "shared",
-              "count": 2
-            },
-            {
-              "name": "macrophage",
-              "count": 1
             }
           ],
           "topCoauthors": [
@@ -1517,70 +1553,6 @@
           "url": "https://pubmed.ncbi.nlm.nih.gov/39884734/"
         },
         {
-          "id": "41684464",
-          "title": "Park Acreage and Physical Activity Among Adolescents Living in Green Cities: Conceptualizing Urban Park Oases and Centering Equity.",
-          "journal": "Environmental justice (Print)",
-          "year": 2025,
-          "doi": "10.1177/19394071251383709",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/41684464/"
-        },
-        {
-          "id": "40067311",
-          "title": "Sports Team Participation, Bias-Based Bullying, and Mental Health Among Transgender and Gender Diverse Adolescents.",
-          "journal": "Research quarterly for exercise and sport",
-          "year": 2025,
-          "doi": "10.1080/02701367.2025.2465702",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/40067311/"
-        },
-        {
-          "id": "40994610",
-          "title": "Taking the First Step Together: Key Recommendations to Assess Cardiorespiratory Fitness in Community.",
-          "journal": "ACSM's health & fitness journal",
-          "year": 2025,
-          "doi": "10.1249/fit.0000000000001056",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/40994610/"
-        },
-        {
-          "id": "39925279",
-          "title": "Conducting Community-Partnered Cardiorespiratory Fitness Assessments with Young Adults Underrepresented in Physical Activity Research: Lessons Learned.",
-          "journal": "Progress in community health partnerships : research, education, and action",
-          "year": 2024,
-          "doi": "",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/39925279/"
-        },
-        {
-          "id": "38493395",
-          "title": "Gender-Related Disparities in Sport, Physical Activity, and Physical Activity Lessons in Minnesota From 2016 to 2019.",
-          "journal": "The Journal of adolescent health : official publication of the Society for Adolescent Medicine",
-          "year": 2024,
-          "doi": "10.1016/j.jadohealth.2024.01.029",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/38493395/"
-        },
-        {
-          "id": "38590221",
-          "title": "Move and Thrive: Development of an Adolescent Friendly and Inclusive Online Fitness Resource.",
-          "journal": "Health promotion practice",
-          "year": 2024,
-          "doi": "10.1177/15248399241245055",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/38590221/"
-        },
-        {
-          "id": "39162672",
-          "title": "Who Plays and Who Doesn't? An Intersectional Examination of Disparities in Adolescent Sport and Physical Activity Lesson Participation.",
-          "journal": "The Journal of adolescent health : official publication of the Society for Adolescent Medicine",
-          "year": 2024,
-          "doi": "10.1016/j.jadohealth.2024.06.025",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/39162672/"
-        },
-        {
-          "id": "39600318",
-          "title": "The Interplay between Physical Activity and Psychological, Social, and Perceived Health in Juvenile Corrections Facilities.",
-          "journal": "Corrections : policy, practice and research",
-          "year": 2023,
-          "doi": "10.1080/23774657.2023.2233944",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/39600318/"
-        },
-        {
           "id": "36429904",
           "title": "Flipping the Script: An Initial Exploration of Flipped Learning as an Enhanced Alternative to Traditional Physical Education Lessons.",
           "journal": "International journal of environmental research and public health",
@@ -1595,28 +1567,12 @@
           "year": 2022,
           "doi": "10.1123/jpah.2022-0300",
           "url": "https://pubmed.ncbi.nlm.nih.gov/36455551/"
-        },
-        {
-          "id": "36411209",
-          "title": "Sport and Physical Activity Among Transgender, Gender Diverse, and Questioning Adolescents.",
-          "journal": "The Journal of adolescent health : official publication of the Society for Adolescent Medicine",
-          "year": 2022,
-          "doi": "10.1016/j.jadohealth.2022.09.020",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/36411209/"
-        },
-        {
-          "id": "35968666",
-          "title": "Weight Status Among Minnesota Hispanic or Latino/a Youth: An Exploration of Protective Factors.",
-          "journal": "American journal of health promotion : AJHP",
-          "year": 2022,
-          "doi": "10.1177/08901171221120912",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/35968666/"
         }
       ],
       "authorCounts": null,
       "signals": {
         "positive": {
-          "count": 15,
+          "count": 5,
           "yearRange": {
             "min": 2022,
             "max": 2026
@@ -1624,19 +1580,11 @@
           "yearCounts": [
             {
               "year": 2022,
-              "count": 4
-            },
-            {
-              "year": 2023,
-              "count": 1
-            },
-            {
-              "year": 2024,
-              "count": 4
+              "count": 2
             },
             {
               "year": 2025,
-              "count": 5
+              "count": 2
             },
             {
               "year": 2026,
@@ -1645,31 +1593,11 @@
           ],
           "topJournals": [
             {
-              "name": "The Journal of adolescent health : official publication of the Society for Adolescent Medicine",
-              "count": 3
-            },
-            {
-              "name": "Health promotion practice",
-              "count": 2
-            },
-            {
               "name": "Journal of physical activity & health",
               "count": 2
             },
             {
-              "name": "ACSM's health & fitness journal",
-              "count": 1
-            },
-            {
-              "name": "American journal of health promotion : AJHP",
-              "count": 1
-            },
-            {
-              "name": "Corrections : policy, practice and research",
-              "count": 1
-            },
-            {
-              "name": "Environmental justice (Print)",
+              "name": "Health promotion practice",
               "count": 1
             },
             {
@@ -1677,111 +1605,107 @@
               "count": 1
             },
             {
-              "name": "Progress in community health partnerships : research, education, and action",
-              "count": 1
-            },
-            {
-              "name": "Research quarterly for exercise and sport",
+              "name": "Translational behavioral medicine",
               "count": 1
             }
           ],
           "topKeywords": [
             {
               "name": "activity",
-              "count": 9
-            },
-            {
-              "name": "physical",
-              "count": 9
+              "count": 2
             },
             {
               "name": "adolescents",
-              "count": 5
+              "count": 2
+            },
+            {
+              "name": "exercise",
+              "count": 2
+            },
+            {
+              "name": "physical",
+              "count": 2
+            },
+            {
+              "name": "preferences",
+              "count": 2
+            },
+            {
+              "name": "they",
+              "count": 2
+            },
+            {
+              "name": "active",
+              "count": 1
+            },
+            {
+              "name": "adult",
+              "count": 1
+            },
+            {
+              "name": "alternative",
+              "count": 1
             },
             {
               "name": "among",
-              "count": 5
+              "count": 1
             },
             {
-              "name": "fitness",
-              "count": 3
+              "name": "associations",
+              "count": 1
             },
             {
-              "name": "gender",
-              "count": 3
-            },
-            {
-              "name": "health",
-              "count": 3
-            },
-            {
-              "name": "lessons",
-              "count": 3
-            },
-            {
-              "name": "sport",
-              "count": 3
-            },
-            {
-              "name": "adolescent",
-              "count": 2
-            },
-            {
-              "name": "cardiorespiratory",
-              "count": 2
-            },
-            {
-              "name": "community",
-              "count": 2
+              "name": "behaviors",
+              "count": 1
             }
           ],
           "topCoauthors": [
             {
-              "name": "Marla E Eisenberg",
-              "count": 5
+              "name": "Alina Levine",
+              "count": 1
+            },
+            {
+              "name": "Amelia Mays Woods",
+              "count": 1
+            },
+            {
+              "name": "Ana M Abrantes",
+              "count": 1
+            },
+            {
+              "name": "Andrew M Busch",
+              "count": 1
+            },
+            {
+              "name": "Belden Long",
+              "count": 1
+            },
+            {
+              "name": "Chad M Killian",
+              "count": 1
+            },
+            {
+              "name": "Collin A Webster",
+              "count": 1
             },
             {
               "name": "Daheia J Barr-Anderson",
-              "count": 4
+              "count": 1
             },
             {
               "name": "Dianne Neumark-Sztainer",
-              "count": 4
+              "count": 1
             },
             {
-              "name": "Laura Hooper",
-              "count": 4
+              "name": "Emily M D'Agostino",
+              "count": 1
             },
             {
-              "name": "Eydie N Kramer-Kostecka",
-              "count": 3
+              "name": "Emma Billmyer",
+              "count": 1
             },
             {
-              "name": "Amy L Gower",
-              "count": 2
-            },
-            {
-              "name": "G Nic Rider",
-              "count": 2
-            },
-            {
-              "name": "Jenifer K McGuire",
-              "count": 2
-            },
-            {
-              "name": "Kaitlyn T Adams",
-              "count": 2
-            },
-            {
-              "name": "Kathleen K Miller",
-              "count": 2
-            },
-            {
-              "name": "Samantha J Adler",
-              "count": 2
-            },
-            {
-              "name": "Alina Levine",
+              "name": "Hana-May Eadeh",
               "count": 1
             }
           ]
@@ -3999,14 +3923,6 @@
           "url": "https://pubmed.ncbi.nlm.nih.gov/32534439/"
         },
         {
-          "id": "31578285",
-          "title": "Comparative analysis of the catalytic regulation of NEDD4-1 and WWP2 ubiquitin ligases.",
-          "journal": "The Journal of biological chemistry",
-          "year": 2019,
-          "doi": "10.1074/jbc.RA119.009211",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/31578285/"
-        },
-        {
           "id": "32100854",
           "title": "How Sweet It Is: The Coming of Age of Continuous Glucose Monitoring.",
           "journal": "Clinical chemistry",
@@ -4026,7 +3942,7 @@
       "authorCounts": null,
       "signals": {
         "positive": {
-          "count": 39,
+          "count": 38,
           "yearRange": {
             "min": 2019,
             "max": 2026
@@ -4034,7 +3950,7 @@
           "yearCounts": [
             {
               "year": 2019,
-              "count": 3
+              "count": 2
             },
             {
               "year": 2020,
@@ -4137,10 +4053,6 @@
               "count": 7
             },
             {
-              "name": "analysis",
-              "count": 6
-            },
-            {
               "name": "covid",
               "count": 6
             },
@@ -4155,6 +4067,10 @@
             {
               "name": "study",
               "count": 6
+            },
+            {
+              "name": "analysis",
+              "count": 5
             }
           ],
           "topCoauthors": [
@@ -5424,14 +5340,6 @@
           "url": "https://pubmed.ncbi.nlm.nih.gov/32591498/"
         },
         {
-          "id": "32643995",
-          "title": "Brain entropy and neurotrophic molecular markers accompanying clinical improvement after ketamine: Preliminary evidence in adolescents with treatment-resistant depression.",
-          "journal": "Journal of psychopharmacology (Oxford, England)",
-          "year": 2020,
-          "doi": "10.1177/0269881120928203",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/32643995/"
-        },
-        {
           "id": "33013493",
           "title": "Neural and Behavioral Correlates of Clinical Improvement to Ketamine in Adolescents With Treatment Resistant Depression.",
           "journal": "Frontiers in psychiatry",
@@ -5459,7 +5367,7 @@
       "authorCounts": null,
       "signals": {
         "positive": {
-          "count": 12,
+          "count": 11,
           "yearRange": {
             "min": 2018,
             "max": 2024
@@ -5471,7 +5379,7 @@
             },
             {
               "year": 2020,
-              "count": 4
+              "count": 3
             },
             {
               "year": 2021,
@@ -5512,10 +5420,6 @@
               "count": 1
             },
             {
-              "name": "Journal of psychopharmacology (Oxford, England)",
-              "count": 1
-            },
-            {
               "name": "medRxiv : the preprint server for health sciences",
               "count": 1
             },
@@ -5531,30 +5435,26 @@
           "topKeywords": [
             {
               "name": "depression",
-              "count": 8
+              "count": 7
             },
             {
               "name": "ketamine",
-              "count": 6
+              "count": 5
             },
             {
               "name": "resistant",
-              "count": 6
+              "count": 5
             },
             {
               "name": "treatment",
-              "count": 6
-            },
-            {
-              "name": "clinical",
-              "count": 4
+              "count": 5
             },
             {
               "name": "disorder",
               "count": 4
             },
             {
-              "name": "adolescents",
+              "name": "clinical",
               "count": 3
             },
             {
@@ -5576,19 +5476,23 @@
             {
               "name": "transcranial",
               "count": 3
+            },
+            {
+              "name": "adolescents",
+              "count": 2
             }
           ],
           "topCoauthors": [
             {
               "name": "Kelvin O Lim",
-              "count": 7
-            },
-            {
-              "name": "Kathryn R Cullen",
-              "count": 5
+              "count": 6
             },
             {
               "name": "Joseph Wels",
+              "count": 4
+            },
+            {
+              "name": "Kathryn R Cullen",
               "count": 4
             },
             {
@@ -5608,15 +5512,7 @@
               "count": 3
             },
             {
-              "name": "Bonnie Klimes-Dougan",
-              "count": 3
-            },
-            {
               "name": "Christopher Erbes",
-              "count": 3
-            },
-            {
-              "name": "Michelle Thai",
               "count": 3
             },
             {
@@ -5626,6 +5522,14 @@
             {
               "name": "Saydra Wilson",
               "count": 3
+            },
+            {
+              "name": "Aaron N McInnes",
+              "count": 2
+            },
+            {
+              "name": "Alyssa M Krueger",
+              "count": 2
             }
           ]
         },
@@ -6402,14 +6306,6 @@
           "year": 2023,
           "doi": "10.1038/s41409-023-02084-3",
           "url": "https://pubmed.ncbi.nlm.nih.gov/37598289/"
-        },
-        {
-          "id": "35275990",
-          "title": "Combining nilotinib and PD-L1 blockade reverses CD4+ T-cell dysfunction and prevents relapse in acute B-cell leukemia.",
-          "journal": "Blood",
-          "year": 2022,
-          "doi": "10.1182/blood.2021015341",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/35275990/"
         },
         {
           "id": "36167308",
@@ -7279,7 +7175,7 @@
       "authorCounts": null,
       "signals": {
         "positive": {
-          "count": 169,
+          "count": 168,
           "yearRange": {
             "min": 2012,
             "max": 2026
@@ -7327,7 +7223,7 @@
             },
             {
               "year": 2022,
-              "count": 8
+              "count": 7
             },
             {
               "year": 2023,
@@ -7361,7 +7257,7 @@
             },
             {
               "name": "Blood",
-              "count": 10
+              "count": 9
             },
             {
               "name": "Bone marrow transplantation",
@@ -7391,7 +7287,7 @@
           "topKeywords": [
             {
               "name": "cell",
-              "count": 136
+              "count": 134
             },
             {
               "name": "lymphoma",
@@ -7418,16 +7314,16 @@
               "count": 35
             },
             {
-              "name": "leukemia",
-              "count": 33
-            },
-            {
               "name": "outcomes",
               "count": 33
             },
             {
+              "name": "leukemia",
+              "count": 32
+            },
+            {
               "name": "acute",
-              "count": 26
+              "count": 25
             },
             {
               "name": "allogeneic",
@@ -10253,14 +10149,6 @@
           "url": "https://pubmed.ncbi.nlm.nih.gov/33771904/"
         },
         {
-          "id": "34524933",
-          "title": "Clinical Presentation and Treatment of High-Risk Sarcoidosis.",
-          "journal": "Annals of the American Thoracic Society",
-          "year": 2021,
-          "doi": "10.1513/AnnalsATS.202102-212CME",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/34524933/"
-        },
-        {
           "id": "34744421",
           "title": "Granulomatous-Lymphocytic Interstitial Lung Disease Mimicking Sarcoidosis.",
           "journal": "Sarcoidosis, vasculitis, and diffuse lung diseases : official journal of WASOG",
@@ -10291,14 +10179,6 @@
           "year": 2020,
           "doi": "10.1165/rcmb.2020-0070PS",
           "url": "https://pubmed.ncbi.nlm.nih.gov/32804537/"
-        },
-        {
-          "id": "32487134",
-          "title": "Clinical characteristics and organ system involvement in sarcoidosis: comparison of the University of Minnesota Cohort with other cohorts.",
-          "journal": "BMC pulmonary medicine",
-          "year": 2020,
-          "doi": "10.1186/s12890-020-01191-x",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/32487134/"
         },
         {
           "id": "32503801",
@@ -10464,7 +10344,7 @@
       "authorCounts": null,
       "signals": {
         "positive": {
-          "count": 42,
+          "count": 40,
           "yearRange": {
             "min": 2012,
             "max": 2026
@@ -10500,11 +10380,11 @@
             },
             {
               "year": 2020,
-              "count": 6
+              "count": 5
             },
             {
               "year": 2021,
-              "count": 5
+              "count": 4
             },
             {
               "year": 2022,
@@ -10572,7 +10452,7 @@
           "topKeywords": [
             {
               "name": "sarcoidosis",
-              "count": 25
+              "count": 23
             },
             {
               "name": "lung",
@@ -10622,31 +10502,31 @@
           "topCoauthors": [
             {
               "name": "David M Perlman",
-              "count": 13
+              "count": 11
             },
             {
               "name": "Lisa A Maier",
-              "count": 9
-            },
-            {
-              "name": "Henri Roukoz",
               "count": 8
-            },
-            {
-              "name": "Chetan Shenoy",
-              "count": 7
-            },
-            {
-              "name": "Jeremy Markowitz",
-              "count": 7
             },
             {
               "name": "David Perlman",
               "count": 6
             },
             {
+              "name": "Henri Roukoz",
+              "count": 6
+            },
+            {
+              "name": "Jeremy Markowitz",
+              "count": 6
+            },
+            {
               "name": "Pratik D Jagtap",
               "count": 6
+            },
+            {
+              "name": "Chetan Shenoy",
+              "count": 5
             },
             {
               "name": "Lisa Von Wald",
@@ -13159,14 +13039,6 @@
       ],
       "publications": [
         {
-          "id": "40457622",
-          "title": "Accelerating 3D radial MPnRAGE using a self-supervised deep factor model.",
-          "journal": "Magnetic resonance in medicine",
-          "year": 2025,
-          "doi": "10.1002/mrm.30549",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/40457622/"
-        },
-        {
           "id": "25800547",
           "title": "Gradient-modulated SWIFT.",
           "journal": "Magnetic resonance in medicine",
@@ -13266,10 +13138,10 @@
       "authorCounts": null,
       "signals": {
         "positive": {
-          "count": 13,
+          "count": 12,
           "yearRange": {
             "min": 2012,
-            "max": 2025
+            "max": 2015
           },
           "yearCounts": [
             {
@@ -13287,16 +13159,12 @@
             {
               "year": 2015,
               "count": 2
-            },
-            {
-              "year": 2025,
-              "count": 1
             }
           ],
           "topJournals": [
             {
               "name": "Magnetic resonance in medicine",
-              "count": 8
+              "count": 7
             },
             {
               "name": "Journal of magnetic resonance (San Diego, Calif. : 1997)",
@@ -13318,7 +13186,7 @@
             },
             {
               "name": "using",
-              "count": 7
+              "count": 6
             },
             {
               "name": "imaging",
@@ -13353,11 +13221,11 @@
               "count": 2
             },
             {
-              "name": "accelerating",
+              "name": "after",
               "count": 1
             },
             {
-              "name": "after",
+              "name": "angle",
               "count": 1
             }
           ],
@@ -14075,14 +13943,6 @@
           "url": "https://pubmed.ncbi.nlm.nih.gov/30049962/"
         },
         {
-          "id": "28854208",
-          "title": "Delaying the start of iron until 28 days after antimalarial treatment is associated with lower incidence of subsequent illness in children with malaria and iron deficiency.",
-          "journal": "PloS one",
-          "year": 2017,
-          "doi": "10.1371/journal.pone.0183977",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/28854208/"
-        },
-        {
           "id": "28235023",
           "title": "Markers of oxidative stress in umbilical cord blood from G6PD deficient African newborns.",
           "journal": "PloS one",
@@ -14158,7 +14018,7 @@
       "authorCounts": null,
       "signals": {
         "positive": {
-          "count": 38,
+          "count": 37,
           "yearRange": {
             "min": 2012,
             "max": 2026
@@ -14178,7 +14038,7 @@
             },
             {
               "year": 2017,
-              "count": 2
+              "count": 1
             },
             {
               "year": 2018,
@@ -14220,7 +14080,7 @@
           "topJournals": [
             {
               "name": "PloS one",
-              "count": 6
+              "count": 5
             },
             {
               "name": "The American journal of clinical nutrition",
@@ -14262,19 +14122,19 @@
           "topKeywords": [
             {
               "name": "children",
-              "count": 23
+              "count": 22
             },
             {
               "name": "iron",
-              "count": 21
+              "count": 19
             },
             {
               "name": "malaria",
-              "count": 12
+              "count": 11
             },
             {
               "name": "deficiency",
-              "count": 10
+              "count": 9
             },
             {
               "name": "severe",
@@ -14290,7 +14150,7 @@
             },
             {
               "name": "associated",
-              "count": 7
+              "count": 6
             },
             {
               "name": "hiv",
@@ -14301,30 +14161,26 @@
               "count": 5
             },
             {
-              "name": "after",
+              "name": "among",
               "count": 5
             },
             {
-              "name": "among",
+              "name": "anemia",
               "count": 5
             }
           ],
           "topCoauthors": [
             {
               "name": "Michael K Georgieff",
-              "count": 15
-            },
-            {
-              "name": "Chandy C John",
               "count": 14
             },
             {
-              "name": "Robert O Opoka",
-              "count": 11
+              "name": "Chandy C John",
+              "count": 13
             },
             {
-              "name": "Ezekiel Mupere",
-              "count": 8
+              "name": "Robert O Opoka",
+              "count": 10
             },
             {
               "name": "Paul Bangirana",
@@ -14335,8 +14191,12 @@
               "count": 7
             },
             {
+              "name": "Ezekiel Mupere",
+              "count": 7
+            },
+            {
               "name": "Troy C Lund",
-              "count": 6
+              "count": 5
             },
             {
               "name": "Andrew S Ssemata",
@@ -14355,7 +14215,7 @@
               "count": 4
             },
             {
-              "name": "Ericka G Jaramillo",
+              "name": "John M Ssenkusu",
               "count": 4
             }
           ]
@@ -14916,14 +14776,6 @@
           "url": "https://pubmed.ncbi.nlm.nih.gov/35304249/"
         },
         {
-          "id": "35671392",
-          "title": "Outcomes following treatment for ADA-deficient severe combined immunodeficiency: a report from the PIDTC.",
-          "journal": "Blood",
-          "year": 2022,
-          "doi": "10.1182/blood.2022016196",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/35671392/"
-        },
-        {
           "id": "35052793",
           "title": "Revertant Mosaicism in Epidermolysis Bullosa.",
           "journal": "Biomedicines",
@@ -15047,7 +14899,7 @@
       "authorCounts": null,
       "signals": {
         "positive": {
-          "count": 49,
+          "count": 48,
           "yearRange": {
             "min": 2019,
             "max": 2026
@@ -15067,7 +14919,7 @@
             },
             {
               "year": 2022,
-              "count": 5
+              "count": 4
             },
             {
               "year": 2023,
@@ -15108,10 +14960,6 @@
               "count": 3
             },
             {
-              "name": "Blood",
-              "count": 2
-            },
-            {
               "name": "Lancet (London, England)",
               "count": 2
             },
@@ -15125,6 +14973,10 @@
             },
             {
               "name": "Biomedicines",
+              "count": 1
+            },
+            {
+              "name": "bioRxiv : the preprint server for biology",
               "count": 1
             }
           ],
@@ -15174,58 +15026,58 @@
               "count": 9
             },
             {
-              "name": "outcomes",
-              "count": 8
+              "name": "immune",
+              "count": 7
             }
           ],
           "topCoauthors": [
-            {
-              "name": "Christopher C Dvorak",
-              "count": 13
-            },
             {
               "name": "Jakub Tolar",
               "count": 13
             },
             {
+              "name": "Christopher C Dvorak",
+              "count": 12
+            },
+            {
               "name": "Sung-Yun Pai",
-              "count": 13
+              "count": 12
             },
             {
               "name": "Donald B Kohn",
-              "count": 12
+              "count": 11
             },
             {
               "name": "Michael A Pulsipher",
-              "count": 12
+              "count": 11
             },
             {
               "name": "Shanmuganathan Chandrakasan",
-              "count": 12
+              "count": 11
             },
             {
               "name": "Ahmad Rayes",
-              "count": 11
+              "count": 10
             },
             {
               "name": "Elie Haddad",
-              "count": 11
+              "count": 10
             },
             {
               "name": "Jeffrey J Bednarski",
-              "count": 11
+              "count": 10
             },
             {
               "name": "Linda M Griffith",
-              "count": 11
+              "count": 10
             },
             {
               "name": "Morton J Cowan",
-              "count": 11
+              "count": 10
             },
             {
               "name": "Neena Kapoor",
-              "count": 11
+              "count": 10
             }
           ]
         },
@@ -18398,14 +18250,6 @@
           "url": "https://pubmed.ncbi.nlm.nih.gov/33621421/"
         },
         {
-          "id": "34678077",
-          "title": "Predicted Cure and Survival Among Transplant Recipients With a Previous Cancer Diagnosis.",
-          "journal": "Journal of clinical oncology : official journal of the American Society of Clinical Oncology",
-          "year": 2021,
-          "doi": "10.1200/JCO.21.01195",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/34678077/"
-        },
-        {
           "id": "33926864",
           "title": "Solid Organ Transplantation and Survival among Individuals with a History of Cancer.",
           "journal": "Cancer epidemiology, biomarkers & prevention : a publication of the American Association for Cancer Research, cosponsored by the American Society of Preventive Oncology",
@@ -18545,7 +18389,7 @@
       "authorCounts": null,
       "signals": {
         "positive": {
-          "count": 59,
+          "count": 58,
           "yearRange": {
             "min": 2016,
             "max": 2026
@@ -18573,7 +18417,7 @@
             },
             {
               "year": 2021,
-              "count": 12
+              "count": 11
             },
             {
               "year": 2022,
@@ -18645,7 +18489,7 @@
             },
             {
               "name": "transplant",
-              "count": 21
+              "count": 20
             },
             {
               "name": "data",
@@ -18734,8 +18578,8 @@
               "count": 5
             },
             {
-              "name": "Eric A Engels",
-              "count": 5
+              "name": "Andrew Wey",
+              "count": 4
             }
           ]
         },
@@ -20974,14 +20818,6 @@
           "url": "https://pubmed.ncbi.nlm.nih.gov/40962320/"
         },
         {
-          "id": "41459845",
-          "title": "Determinants of Female Cancer Screening Awareness in Alabama's Black Belt Region.",
-          "journal": "Asian Pacific journal of cancer prevention : APJCP",
-          "year": 2025,
-          "doi": "10.31557/APJCP.2025.26.12.4313",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/41459845/"
-        },
-        {
           "id": "40424624",
           "title": "Factors Associated with Turnover Intention Among Early-Career US Governmental Public Health Employees and a Moderation Role of Race and Ethnicity.",
           "journal": "Journal of public health management and practice : JPHMP",
@@ -21006,84 +20842,12 @@
           "url": "https://pubmed.ncbi.nlm.nih.gov/41355642/"
         },
         {
-          "id": "41312918",
-          "title": "The Role of Technology and Social Media Use in Human Papillomavirus Awareness: A Comparison Across Four Age Groups.",
-          "journal": "Asian Pacific journal of cancer prevention : APJCP",
-          "year": 2025,
-          "doi": "10.31557/APJCP.2025.26.11.3939",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/41312918/"
-        },
-        {
-          "id": "39166357",
-          "title": "Performance Under Fire: Older Adult Cognitive Risks and Protections Under Heat Strain.",
-          "journal": "The Gerontologist",
-          "year": 2024,
-          "doi": "10.1093/geront/gnae116",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/39166357/"
-        },
-        {
-          "id": "36786381",
-          "title": "Quality of Care at the End of Life: Applying the Intersection of Race and Gender.",
-          "journal": "The Gerontologist",
-          "year": 2024,
-          "doi": "10.1093/geront/gnad012",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/36786381/"
-        },
-        {
-          "id": "37116136",
-          "title": "Andersen's Behavioral Model to Identify Correlates of Cervical Cancer Knowledge among American Indian Women.",
-          "journal": "Asian Pacific journal of cancer prevention : APJCP",
-          "year": 2023,
-          "doi": "10.31557/APJCP.2023.24.4.1151",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/37116136/"
-        },
-        {
-          "id": "37733706",
-          "title": "Childhood abuse and opioid prescription use in adulthood: Differences between non-Hispanic Whites and non-Hispanic Blacks in the United States.",
-          "journal": "PloS one",
-          "year": 2023,
-          "doi": "10.1371/journal.pone.0291752",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/37733706/"
-        },
-        {
-          "id": "37036760",
-          "title": "Comprehensive Senior Technology Acceptance Model of Daily Living Assistive Technology for Older Adults With Frailty: Cross-sectional Study.",
-          "journal": "Journal of medical Internet research",
-          "year": 2023,
-          "doi": "10.2196/41935",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/37036760/"
-        },
-        {
           "id": "37464479",
           "title": "Correlations between Social Determinants of Health and Technology Access among Rural African American Alabamians.",
           "journal": "Journal of health care for the poor and underserved",
           "year": 2023,
           "doi": "10.1353/hpu.2023.0003",
           "url": "https://pubmed.ncbi.nlm.nih.gov/37464479/"
-        },
-        {
-          "id": "37338961",
-          "title": "Evaluating Human Papillomavirus eHealth in Hmong Adolescents to Promote Vaccinations: Pilot Feasibility Study.",
-          "journal": "JMIR formative research",
-          "year": 2023,
-          "doi": "10.2196/38388",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/37338961/"
-        },
-        {
-          "id": "37378947",
-          "title": "HPV Vaccination among College Students in the South: The Role of HPV Knowledge on Vaccine Initiation and Completion.",
-          "journal": "Asian Pacific journal of cancer prevention : APJCP",
-          "year": 2023,
-          "doi": "10.31557/APJCP.2023.24.6.2149",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/37378947/"
-        },
-        {
-          "id": "37642042",
-          "title": "Human Papillomavirus (HPV) and HPV Vaccine Awareness among Korean American Immigrants in Alabama: Would Internet Use Improve Health Awareness?",
-          "journal": "Asian Pacific journal of cancer prevention : APJCP",
-          "year": 2023,
-          "doi": "10.31557/APJCP.2023.24.8.2575",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/37642042/"
         },
         {
           "id": "37256747",
@@ -21102,14 +20866,6 @@
           "url": "https://pubmed.ncbi.nlm.nih.gov/36341672/"
         },
         {
-          "id": "36444582",
-          "title": "Mammogram Uptake among Korean American Women in the South: Do Health Beliefs Matter?",
-          "journal": "Asian Pacific journal of cancer prevention : APJCP",
-          "year": 2022,
-          "doi": "10.31557/APJCP.2022.23.11.3693",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/36444582/"
-        },
-        {
           "id": "34783690",
           "title": "Perceived Barriers and Facilitators in Accessing Cervical Cancer Screening: The Voices of Women in a Low-Income Urban Community.",
           "journal": "Family & community health",
@@ -21126,116 +20882,12 @@
           "url": "https://pubmed.ncbi.nlm.nih.gov/36245165/"
         },
         {
-          "id": "35086403",
-          "title": "Unlocking Conspiracy Belief Systems: How Fact-Checking Label on Twitter Counters Conspiratorial MMR Vaccine Misinformation.",
-          "journal": "Health communication",
-          "year": 2022,
-          "doi": "10.1080/10410236.2022.2031452",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/35086403/"
-        },
-        {
-          "id": "33794127",
-          "title": "Acceptance and Commitment Therapy (ACT) Guided Online for Distressed Caregivers of Persons Living with Dementia.",
-          "journal": "Clinical gerontologist",
-          "year": 2021,
-          "doi": "10.1080/07317115.2021.1908475",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/33794127/"
-        },
-        {
-          "id": "34944937",
-          "title": "Disparities in Cervical Cancer Screening with HPV Test among Females with Diabetes in the Deep South.",
-          "journal": "Cancers",
-          "year": 2021,
-          "doi": "10.3390/cancers13246319",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/34944937/"
-        },
-        {
-          "id": "33616028",
-          "title": "Opioid Literacy of Korean Americans in Rural Alabama: Addressing the Role of Social Determinants of Health.",
-          "journal": "Journal of transcultural nursing : official journal of the Transcultural Nursing Society",
-          "year": 2021,
-          "doi": "10.1177/1043659621995902",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/33616028/"
-        },
-        {
-          "id": "33502332",
-          "title": "Role of Health Literacy in Health-Related Information-Seeking Behavior Online: Cross-sectional Study.",
-          "journal": "Journal of medical Internet research",
-          "year": 2021,
-          "doi": "10.2196/14088",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/33502332/"
-        },
-        {
-          "id": "34284681",
-          "title": "Social participation and depressive symptoms in older African American cancer survivors: a comparison with non-cancer subjects.",
-          "journal": "Aging & mental health",
-          "year": 2021,
-          "doi": "10.1080/13607863.2021.1950619",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/34284681/"
-        },
-        {
-          "id": "32336226",
-          "title": "Adherence to Cervical Cancer Screening in Korean American Immigrant Women: Identifying Malleable Variables for Intervention Development.",
-          "journal": "Journal of transcultural nursing : official journal of the Transcultural Nursing Society",
-          "year": 2020,
-          "doi": "10.1177/1043659620914693",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/32336226/"
-        },
-        {
-          "id": "32427566",
-          "title": "Correction: Existing Mobile Phone Apps for Self-Care Management of People With Alzheimer Disease and Related Dementias: Systematic Analysis.",
-          "journal": "JMIR aging",
-          "year": 2020,
-          "doi": "10.2196/18754",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/32427566/"
-        },
-        {
-          "id": "32012045",
-          "title": "Existing Mobile Phone Apps for Self-Care Management of People With Alzheimer Disease and Related Dementias: Systematic Analysis.",
-          "journal": "JMIR aging",
-          "year": 2020,
-          "doi": "10.2196/15290",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/32012045/"
-        },
-        {
           "id": "31098763",
           "title": "Factors Associated with Reported Colorectal Cancer Screening Among Lao-American Immigrants in Minnesota.",
           "journal": "Journal of immigrant and minority health",
           "year": 2020,
           "doi": "10.1007/s10903-019-00899-1",
           "url": "https://pubmed.ncbi.nlm.nih.gov/31098763/"
-        },
-        {
-          "id": "33201774",
-          "title": "Health Literacy in Korean Adults and Korean American Immigrants: Implications for Achieving Health Equity.",
-          "journal": "International quarterly of community health education",
-          "year": 2020,
-          "doi": "10.1177/0272684X20973511",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/33201774/"
-        },
-        {
-          "id": "30718125",
-          "title": "A patient-centered mobile health application to motivate use of genetic counseling among women with ovarian cancer: A pilot randomized controlled trial.",
-          "journal": "Gynecologic oncology",
-          "year": 2019,
-          "doi": "10.1016/j.ygyno.2019.01.019",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/30718125/"
-        },
-        {
-          "id": "31199340",
-          "title": "Development of a Mobile Health Intervention to Promote Papanicolaou Tests and Human Papillomavirus Vaccination in an Underserved Immigrant Population: A Culturally Targeted and Individually Tailored Text Messaging Approach.",
-          "journal": "JMIR mHealth and uHealth",
-          "year": 2019,
-          "doi": "10.2196/13256",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/31199340/"
-        },
-        {
-          "id": "31736081",
-          "title": "Is health literacy associated with mental health literacy? Findings from Mental Health Literacy Scale.",
-          "journal": "Perspectives in psychiatric care",
-          "year": 2019,
-          "doi": "10.1111/ppc.12447",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/31736081/"
         },
         {
           "id": "30624249",
@@ -21252,22 +20904,6 @@
           "year": 2018,
           "doi": "10.1186/s13053-018-0095-z",
           "url": "https://pubmed.ncbi.nlm.nih.gov/29997716/"
-        },
-        {
-          "id": "29962228",
-          "title": "American Indian women cancer survivors' perceptions and experiences with conventional and non-conventional mental health care for depressive symptoms.",
-          "journal": "Ethnicity & health",
-          "year": 2018,
-          "doi": "10.1080/13557858.2018.1493439",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/29962228/"
-        },
-        {
-          "id": "30326735",
-          "title": "Analyzing factors associated with decisional stage of adopting breast cancer screening among Korean American women using precaution adoption process model.",
-          "journal": "Ethnicity & health",
-          "year": 2018,
-          "doi": "10.1080/13557858.2018.1520813",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/30326735/"
         },
         {
           "id": "29802037",
@@ -21505,7 +21141,7 @@
       "authorCounts": null,
       "signals": {
         "positive": {
-          "count": 70,
+          "count": 44,
           "yearRange": {
             "min": 2012,
             "max": 2026
@@ -21537,35 +21173,27 @@
             },
             {
               "year": 2018,
-              "count": 4
+              "count": 2
             },
             {
               "year": 2019,
-              "count": 4
+              "count": 1
             },
             {
               "year": 2020,
-              "count": 5
-            },
-            {
-              "year": 2021,
-              "count": 5
+              "count": 1
             },
             {
               "year": 2022,
-              "count": 5
+              "count": 3
             },
             {
               "year": 2023,
-              "count": 8
-            },
-            {
-              "year": 2024,
               "count": 2
             },
             {
               "year": 2025,
-              "count": 6
+              "count": 4
             },
             {
               "year": 2026,
@@ -21574,19 +21202,11 @@
           ],
           "topJournals": [
             {
-              "name": "Asian Pacific journal of cancer prevention : APJCP",
-              "count": 9
-            },
-            {
               "name": "Journal of health care for the poor and underserved",
               "count": 5
             },
             {
-              "name": "Journal of transcultural nursing : official journal of the Transcultural Nursing Society",
-              "count": 4
-            },
-            {
-              "name": "JMIR aging",
+              "name": "Asian Pacific journal of cancer prevention : APJCP",
               "count": 3
             },
             {
@@ -21594,96 +21214,88 @@
               "count": 3
             },
             {
-              "name": "Journal of medical Internet research",
-              "count": 3
-            },
-            {
-              "name": "Aging & mental health",
-              "count": 2
-            },
-            {
               "name": "American journal of health behavior",
               "count": 2
             },
             {
-              "name": "Ethnicity & health",
+              "name": "Journal of evidence-based social work (2019)",
               "count": 2
             },
             {
-              "name": "JMIR formative research",
+              "name": "Journal of psychosocial oncology",
               "count": 2
+            },
+            {
+              "name": "Journal of transcultural nursing : official journal of the Transcultural Nursing Society",
+              "count": 2
+            },
+            {
+              "name": "Social work in public health",
+              "count": 2
+            },
+            {
+              "name": "Aging & mental health",
+              "count": 1
+            },
+            {
+              "name": "American journal of men's health",
+              "count": 1
             }
           ],
           "topKeywords": [
             {
               "name": "health",
-              "count": 38
-            },
-            {
-              "name": "cancer",
-              "count": 31
+              "count": 25
             },
             {
               "name": "among",
-              "count": 30
+              "count": 23
+            },
+            {
+              "name": "cancer",
+              "count": 22
             },
             {
               "name": "korean",
-              "count": 24
-            },
-            {
-              "name": "american",
-              "count": 21
-            },
-            {
-              "name": "screening",
-              "count": 19
-            },
-            {
-              "name": "literacy",
-              "count": 18
-            },
-            {
-              "name": "women",
               "count": 17
             },
             {
-              "name": "older",
+              "name": "screening",
+              "count": 15
+            },
+            {
+              "name": "american",
               "count": 13
             },
             {
-              "name": "adults",
+              "name": "literacy",
               "count": 12
+            },
+            {
+              "name": "women",
+              "count": 11
+            },
+            {
+              "name": "adults",
+              "count": 10
+            },
+            {
+              "name": "older",
+              "count": 10
             },
             {
               "name": "social",
-              "count": 12
+              "count": 9
             },
             {
               "name": "cervical",
-              "count": 10
+              "count": 7
             }
           ],
           "topCoauthors": [
             {
-              "name": "Eun Young Choi",
-              "count": 6
-            },
-            {
-              "name": "Mi Hwa Lee",
-              "count": 6
-            },
-            {
               "name": "Nam Keol Kim",
               "count": 6
-            },
-            {
-              "name": "Yan Luo",
-              "count": 6
-            },
-            {
-              "name": "Cho Rong Won",
-              "count": 5
             },
             {
               "name": "Do Kyung Lee",
@@ -21694,24 +21306,40 @@
               "count": 4
             },
             {
-              "name": "Kun Wang",
-              "count": 4
-            },
-            {
-              "name": "Seok Won Jin",
-              "count": 4
-            },
-            {
-              "name": "Su Hyun Shin",
-              "count": 4
-            },
-            {
               "name": "Taeho Greg Rhee",
               "count": 4
             },
             {
+              "name": "Eun Young Choi",
+              "count": 3
+            },
+            {
+              "name": "Jeehoon Kim",
+              "count": 3
+            },
+            {
+              "name": "Kun Wang",
+              "count": 3
+            },
+            {
+              "name": "Su Hyun Shin",
+              "count": 3
+            },
+            {
               "name": "Young Ji Yoon",
-              "count": 4
+              "count": 3
+            },
+            {
+              "name": "Young Sun Kim",
+              "count": 3
+            },
+            {
+              "name": "Areum Han",
+              "count": 2
+            },
+            {
+              "name": "Byung Hyun Park",
+              "count": 2
             }
           ]
         },
@@ -22124,244 +21752,16 @@
           "startDate": "2014-03-01"
         }
       ],
-      "publications": [
-        {
-          "id": "41706788",
-          "title": "A Knowledge-Enhanced Evolutionary Multitasking Memetic Algorithm for Multimodal Multiobjective Flexible Job Shop Scheduling Considering Speed.",
-          "journal": "IEEE transactions on cybernetics",
-          "year": 2026,
-          "doi": "10.1109/TCYB.2026.3662764",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/41706788/"
-        },
-        {
-          "id": "41686945",
-          "title": "A method for aerosol fluorescence lifetime measurement based on Mie-fluorescence lidar.",
-          "journal": "Optics letters",
-          "year": 2026,
-          "doi": "10.1364/OL.575349",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/41686945/"
-        },
-        {
-          "id": "41686665",
-          "title": "Adaptive Iterative Learning Reliable Control of Nonrepetitive Systems With Multiple Iteration-Varying Parametric Uncertainties.",
-          "journal": "IEEE transactions on cybernetics",
-          "year": 2026,
-          "doi": "10.1109/TCYB.2026.3661168",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/41686665/"
-        },
-        {
-          "id": "41711305",
-          "title": "Commentary on \"Risk factors for cement leakage after percutaneous vertebral augmentation for osteoporotic vertebral compression fractures: a meta-analysis\".",
-          "journal": "International journal of surgery (London, England)",
-          "year": 2026,
-          "doi": "10.1097/JS9.0000000000004877",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/41711305/"
-        },
-        {
-          "id": "41697763",
-          "title": "Correction to \"Tannic Acid Enhances Cold Resistance in Apis mellifera via Antioxidant Defense and Mitochondrial Oxidative Phosphorylation Activation\".",
-          "journal": "Journal of agricultural and food chemistry",
-          "year": 2026,
-          "doi": "10.1021/acs.jafc.5c16569",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/41697763/"
-        },
-        {
-          "id": "41706780",
-          "title": "DSMDTN: A Data-Selective Multiscale Dual Transfer Network for Fault Diagnosis of Key Components in Rotating Machinery.",
-          "journal": "IEEE transactions on cybernetics",
-          "year": 2026,
-          "doi": "10.1109/TCYB.2026.3662702",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/41706780/"
-        },
-        {
-          "id": "41712301",
-          "title": "Disrupted neurovascular-endocrine coupling in type 1 diabetes with impaired awareness of hypoglycemia.",
-          "journal": "The Journal of clinical investigation",
-          "year": 2026,
-          "doi": "10.1172/JCI199725",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/41712301/"
-        },
-        {
-          "id": "41706966",
-          "title": "High-angular-resolution adaptive terahertz scanning imaging via dynamic zoom optics and beam steering metasurfaces.",
-          "journal": "Optics express",
-          "year": 2026,
-          "doi": "10.1364/OE.579775",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/41706966/"
-        },
-        {
-          "id": "41706778",
-          "title": "Max-Min Robust Unsupervised Feature Selection via Sparse Subspace.",
-          "journal": "IEEE transactions on cybernetics",
-          "year": 2026,
-          "doi": "10.1109/TCYB.2026.3656518",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/41706778/"
-        },
-        {
-          "id": "41703077",
-          "title": "Smartphones are a double-edged tool in classrooms.",
-          "journal": "Nature",
-          "year": 2026,
-          "doi": "10.1038/d41586-026-00497-w",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/41703077/"
-        },
-        {
-          "id": "41696141",
-          "title": "[Retracted] Prostaglandin E2 reduces swine myocardial ischemia reperfusion injury via increased endothelial nitric oxide synthase and vascular endothelial growth factor expression levels.",
-          "journal": "Biomedical reports",
-          "year": 2026,
-          "doi": "10.3892/br.2026.2116",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/41696141/"
-        }
-      ],
+      "publications": [],
       "authorCounts": null,
       "signals": {
         "positive": {
-          "count": 11,
-          "yearRange": {
-            "min": 2026,
-            "max": 2026
-          },
-          "yearCounts": [
-            {
-              "year": 2026,
-              "count": 11
-            }
-          ],
-          "topJournals": [
-            {
-              "name": "IEEE transactions on cybernetics",
-              "count": 4
-            },
-            {
-              "name": "Biomedical reports",
-              "count": 1
-            },
-            {
-              "name": "International journal of surgery (London, England)",
-              "count": 1
-            },
-            {
-              "name": "Journal of agricultural and food chemistry",
-              "count": 1
-            },
-            {
-              "name": "Nature",
-              "count": 1
-            },
-            {
-              "name": "Optics express",
-              "count": 1
-            },
-            {
-              "name": "Optics letters",
-              "count": 1
-            },
-            {
-              "name": "The Journal of clinical investigation",
-              "count": 1
-            }
-          ],
-          "topKeywords": [
-            {
-              "name": "via",
-              "count": 4
-            },
-            {
-              "name": "adaptive",
-              "count": 2
-            },
-            {
-              "name": "endothelial",
-              "count": 2
-            },
-            {
-              "name": "fluorescence",
-              "count": 2
-            },
-            {
-              "name": "vertebral",
-              "count": 2
-            },
-            {
-              "name": "acid",
-              "count": 1
-            },
-            {
-              "name": "activation",
-              "count": 1
-            },
-            {
-              "name": "aerosol",
-              "count": 1
-            },
-            {
-              "name": "after",
-              "count": 1
-            },
-            {
-              "name": "algorithm",
-              "count": 1
-            },
-            {
-              "name": "analysis",
-              "count": 1
-            },
-            {
-              "name": "angular",
-              "count": 1
-            }
-          ],
-          "topCoauthors": [
-            {
-              "name": "Aili Li",
-              "count": 1
-            },
-            {
-              "name": "Amir A Moheet",
-              "count": 1
-            },
-            {
-              "name": "Anjali F Kumar",
-              "count": 1
-            },
-            {
-              "name": "Antonietta Canna",
-              "count": 1
-            },
-            {
-              "name": "Bohan Xie",
-              "count": 1
-            },
-            {
-              "name": "Chengxiang Lei",
-              "count": 1
-            },
-            {
-              "name": "Chuang Chen",
-              "count": 1
-            },
-            {
-              "name": "Cong Luo",
-              "count": 1
-            },
-            {
-              "name": "Congjing Hao",
-              "count": 1
-            },
-            {
-              "name": "Cunsong Wang",
-              "count": 1
-            },
-            {
-              "name": "Daoming Li",
-              "count": 1
-            },
-            {
-              "name": "Defeng Liu",
-              "count": 1
-            }
-          ]
+          "count": 0,
+          "yearRange": null,
+          "yearCounts": [],
+          "topJournals": [],
+          "topKeywords": [],
+          "topCoauthors": []
         },
         "negative": {
           "count": 0,
@@ -23846,14 +23246,6 @@
           "url": "https://pubmed.ncbi.nlm.nih.gov/35839284/"
         },
         {
-          "id": "35344398",
-          "title": "The Rise of the Expert Patient in Cancer: From Backseat Passenger to Co-navigator.",
-          "journal": "JCO oncology practice",
-          "year": 2022,
-          "doi": "10.1200/OP.21.00763",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/35344398/"
-        },
-        {
           "id": "35454893",
           "title": "Tunneling Nanotubes between Cells Migrating in ECM Mimicking Fibrous Environments.",
           "journal": "Cancers",
@@ -24489,7 +23881,7 @@
       "authorCounts": null,
       "signals": {
         "positive": {
-          "count": 165,
+          "count": 164,
           "yearRange": {
             "min": 2013,
             "max": 2026
@@ -24533,7 +23925,7 @@
             },
             {
               "year": 2022,
-              "count": 16
+              "count": 15
             },
             {
               "year": 2023,
@@ -24597,7 +23989,7 @@
           "topKeywords": [
             {
               "name": "cancer",
-              "count": 77
+              "count": 76
             },
             {
               "name": "patients",
@@ -27260,14 +26652,6 @@
           "url": "https://pubmed.ncbi.nlm.nih.gov/42117734/"
         },
         {
-          "id": "41712301",
-          "title": "Disrupted neurovascular-endocrine coupling in type 1 diabetes with impaired awareness of hypoglycemia.",
-          "journal": "The Journal of clinical investigation",
-          "year": 2026,
-          "doi": "10.1172/JCI199725",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/41712301/"
-        },
-        {
           "id": "41932619",
           "title": "Obesity and Metabolic Complications in Cystic Fibrosis.",
           "journal": "Endocrine practice : official journal of the American College of Endocrinology and the American Association of Clinical Endocrinologists",
@@ -27711,7 +27095,7 @@
       "authorCounts": null,
       "signals": {
         "positive": {
-          "count": 58,
+          "count": 57,
           "yearRange": {
             "min": 2013,
             "max": 2026
@@ -27771,7 +27155,7 @@
             },
             {
               "year": 2026,
-              "count": 5
+              "count": 4
             }
           ],
           "topJournals": [
@@ -27819,7 +27203,7 @@
           "topKeywords": [
             {
               "name": "diabetes",
-              "count": 31
+              "count": 30
             },
             {
               "name": "cystic",
@@ -27831,7 +27215,7 @@
             },
             {
               "name": "hypoglycemia",
-              "count": 19
+              "count": 18
             },
             {
               "name": "related",
@@ -27839,7 +27223,7 @@
             },
             {
               "name": "type",
-              "count": 12
+              "count": 11
             },
             {
               "name": "patients",
@@ -27862,22 +27246,18 @@
               "count": 6
             },
             {
-              "name": "awareness",
+              "name": "case",
               "count": 5
             }
           ],
           "topCoauthors": [
             {
               "name": "Elizabeth R Seaquist",
-              "count": 20
+              "count": 19
             },
             {
               "name": "Anjali Kumar",
               "count": 14
-            },
-            {
-              "name": "Lynn E Eberly",
-              "count": 12
             },
             {
               "name": "Antoinette Moran",
@@ -27885,6 +27265,10 @@
             },
             {
               "name": "G&#xfc;lin &#xd6;z",
+              "count": 11
+            },
+            {
+              "name": "Lynn E Eberly",
               "count": 11
             },
             {
@@ -27896,16 +27280,16 @@
               "count": 9
             },
             {
-              "name": "Silvia Mangia",
-              "count": 8
-            },
-            {
               "name": "Andrea Granados",
               "count": 7
             },
             {
+              "name": "Silvia Mangia",
+              "count": 7
+            },
+            {
               "name": "Anjali F Kumar",
-              "count": 6
+              "count": 5
             },
             {
               "name": "Dinesh K Deelchand",
@@ -28369,14 +27753,6 @@
           "url": "https://pubmed.ncbi.nlm.nih.gov/36878433/"
         },
         {
-          "id": "37239814",
-          "title": "Engineering Human Cells Expressing CRISPR/Cas9-Synergistic Activation Mediators for Recombinant Protein Production.",
-          "journal": "International journal of molecular sciences",
-          "year": 2023,
-          "doi": "10.3390/ijms24108468",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/37239814/"
-        },
-        {
           "id": "37657419",
           "title": "Phage-assisted evolution and protein engineering yield compact, efficient prime editors.",
           "journal": "Cell",
@@ -28399,14 +27775,6 @@
           "year": 2022,
           "doi": "10.1016/j.cell.2021.12.021",
           "url": "https://pubmed.ncbi.nlm.nih.gov/35021064/"
-        },
-        {
-          "id": "35563479",
-          "title": "Engineering CRISPR/Cas9 for Multiplexed Recombinant Coagulation Factor Production.",
-          "journal": "International journal of molecular sciences",
-          "year": 2022,
-          "doi": "10.3390/ijms23095090",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/35563479/"
         },
         {
           "id": "36357719",
@@ -28692,7 +28060,7 @@
       "authorCounts": null,
       "signals": {
         "positive": {
-          "count": 51,
+          "count": 49,
           "yearRange": {
             "min": 2015,
             "max": 2026
@@ -28724,11 +28092,11 @@
             },
             {
               "year": 2022,
-              "count": 6
+              "count": 5
             },
             {
               "year": 2023,
-              "count": 3
+              "count": 2
             },
             {
               "year": 2024,
@@ -28746,7 +28114,7 @@
           "topJournals": [
             {
               "name": "International journal of molecular sciences",
-              "count": 6
+              "count": 4
             },
             {
               "name": "Molecular therapy : the journal of the American Society of Gene Therapy",
@@ -28788,31 +28156,27 @@
           "topKeywords": [
             {
               "name": "cells",
-              "count": 16
+              "count": 15
             },
             {
               "name": "editing",
               "count": 13
             },
             {
+              "name": "human",
+              "count": 11
+            },
+            {
               "name": "cas9",
-              "count": 12
+              "count": 10
             },
             {
               "name": "crispr",
-              "count": 12
-            },
-            {
-              "name": "human",
-              "count": 12
+              "count": 10
             },
             {
               "name": "gene",
               "count": 9
-            },
-            {
-              "name": "engineering",
-              "count": 8
             },
             {
               "name": "bullosa",
@@ -28833,12 +28197,16 @@
             {
               "name": "cell",
               "count": 6
+            },
+            {
+              "name": "disease",
+              "count": 6
             }
           ],
           "topCoauthors": [
             {
               "name": "Jakub Tolar",
-              "count": 31
+              "count": 29
             },
             {
               "name": "Bruce R Blazar",
@@ -28865,24 +28233,24 @@
               "count": 7
             },
             {
-              "name": "Colby J Feser",
-              "count": 7
-            },
-            {
-              "name": "Megan J Riddle",
-              "count": 7
-            },
-            {
               "name": "Asim Saha",
-              "count": 6
-            },
-            {
-              "name": "Christopher J Lees",
               "count": 6
             },
             {
               "name": "Cindy R Eide",
               "count": 6
+            },
+            {
+              "name": "Friederike Knipping",
+              "count": 6
+            },
+            {
+              "name": "Megan J Riddle",
+              "count": 6
+            },
+            {
+              "name": "Cara-Lin Lonetree",
+              "count": 5
             }
           ]
         },
@@ -29490,14 +28858,6 @@
           "url": "https://pubmed.ncbi.nlm.nih.gov/40988568/"
         },
         {
-          "id": "41804372",
-          "title": "Patient and caregiver perspectives on neurodevelopmental and mental health care for RASopathies.",
-          "journal": "Therapeutic advances in rare disease",
-          "year": 2026,
-          "doi": "10.1177/26330040261427019",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/41804372/"
-        },
-        {
           "id": "41834696",
           "title": "The 9th International RASopathies Symposium.",
           "journal": "American journal of medical genetics. Part A",
@@ -29653,7 +29013,7 @@
       "authorCounts": null,
       "signals": {
         "positive": {
-          "count": 22,
+          "count": 21,
           "yearRange": {
             "min": 2019,
             "max": 2026
@@ -29689,7 +29049,7 @@
             },
             {
               "year": 2026,
-              "count": 4
+              "count": 3
             }
           ],
           "topJournals": [
@@ -29744,16 +29104,12 @@
               "count": 6
             },
             {
-              "name": "rasopathies",
-              "count": 5
-            },
-            {
               "name": "syndrome",
               "count": 5
             },
             {
-              "name": "health",
-              "count": 3
+              "name": "rasopathies",
+              "count": 4
             },
             {
               "name": "international",
@@ -29761,10 +29117,6 @@
             },
             {
               "name": "neurocognitive",
-              "count": 3
-            },
-            {
-              "name": "neurodevelopmental",
               "count": 3
             },
             {
@@ -29776,11 +29128,19 @@
               "count": 2
             },
             {
-              "name": "care",
+              "name": "children",
               "count": 2
             },
             {
-              "name": "children",
+              "name": "clinical",
+              "count": 2
+            },
+            {
+              "name": "disease",
+              "count": 2
+            },
+            {
+              "name": "expanding",
               "count": 2
             }
           ],
@@ -29802,10 +29162,6 @@
               "count": 4
             },
             {
-              "name": "Dante J Rogers",
-              "count": 4
-            },
-            {
               "name": "Julie B Eisengart",
               "count": 4
             },
@@ -29814,16 +29170,8 @@
               "count": 4
             },
             {
-              "name": "Rebekah L Hudock",
-              "count": 4
-            },
-            {
               "name": "Troy C Lund",
               "count": 4
-            },
-            {
-              "name": "Allison M H Foy",
-              "count": 3
             },
             {
               "name": "Amy E Roberts",
@@ -29831,6 +29179,18 @@
             },
             {
               "name": "Anton M Bennett",
+              "count": 3
+            },
+            {
+              "name": "Beth Stronach",
+              "count": 3
+            },
+            {
+              "name": "Bruce D Gelb",
+              "count": 3
+            },
+            {
+              "name": "Dante J Rogers",
               "count": 3
             }
           ]
@@ -30903,14 +30263,6 @@
           "url": "https://pubmed.ncbi.nlm.nih.gov/33105052/"
         },
         {
-          "id": "32770859",
-          "title": "Randomised clinical study: oral aspirin 325 mg daily vs placebo alters gut microbial composition and bacterial taxa associated with colorectal cancer risk.",
-          "journal": "Alimentary pharmacology & therapeutics",
-          "year": 2020,
-          "doi": "10.1111/apt.16013",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/32770859/"
-        },
-        {
           "id": "33315540",
           "title": "Sucrose Intakes and Incident Colorectal Cancer Risk among Women.",
           "journal": "Journal of the American Nutrition Association",
@@ -31242,7 +30594,7 @@
       "authorCounts": null,
       "signals": {
         "positive": {
-          "count": 125,
+          "count": 124,
           "yearRange": {
             "min": 2013,
             "max": 2026
@@ -31278,7 +30630,7 @@
             },
             {
               "year": 2020,
-              "count": 11
+              "count": 10
             },
             {
               "year": 2021,
@@ -31323,10 +30675,6 @@
               "count": 6
             },
             {
-              "name": "Alimentary pharmacology & therapeutics",
-              "count": 3
-            },
-            {
               "name": "Cancer prevention research (Philadelphia, Pa.)",
               "count": 3
             },
@@ -31345,20 +30693,24 @@
             {
               "name": "Maturitas",
               "count": 3
+            },
+            {
+              "name": "Nutrition and cancer",
+              "count": 3
             }
           ],
           "topKeywords": [
             {
               "name": "cancer",
-              "count": 100
+              "count": 99
             },
             {
               "name": "risk",
-              "count": 85
+              "count": 84
             },
             {
               "name": "study",
-              "count": 60
+              "count": 59
             },
             {
               "name": "women",
@@ -31378,7 +30730,7 @@
             },
             {
               "name": "colorectal",
-              "count": 23
+              "count": 22
             },
             {
               "name": "aric",
@@ -31408,7 +30760,7 @@
             },
             {
               "name": "Bharat Thyagarajan",
-              "count": 24
+              "count": 23
             },
             {
               "name": "Shuo Wang",
@@ -31475,46 +30827,6 @@
       ],
       "publications": [
         {
-          "id": "41160804",
-          "title": "Antibiotic risk score for acute graft-versus-host disease.",
-          "journal": "Blood advances",
-          "year": 2026,
-          "doi": "10.1182/bloodadvances.2025018317",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/41160804/"
-        },
-        {
-          "id": "41756883",
-          "title": "Differential effects of two common GVHD prophylaxis regimens on the gut microbiome: Results from the BMT CTN 1801 study.",
-          "journal": "bioRxiv : the preprint server for biology",
-          "year": 2026,
-          "doi": "10.64898/2026.02.19.706769",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/41756883/"
-        },
-        {
-          "id": "40867077",
-          "title": "Effect of fecal microbiota transplantation on gut microbiota functional profile in recipients of allogeneic hematopoietic cell transplantation.",
-          "journal": "Gut microbes",
-          "year": 2025,
-          "doi": "10.1080/19490976.2025.2551882",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/40867077/"
-        },
-        {
-          "id": "39863610",
-          "title": "Fecal microbiota transplantation to prevent acute graft-versus-host disease: pre-planned interim analysis of donor effect.",
-          "journal": "Nature communications",
-          "year": 2025,
-          "doi": "10.1038/s41467-025-56375-y",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/39863610/"
-        },
-        {
-          "id": "40569643",
-          "title": "Microbiota and chronic GVHD: a plasmablast link.",
-          "journal": "Blood",
-          "year": 2025,
-          "doi": "10.1182/blood.2025029521",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/40569643/"
-        },
-        {
           "id": "41187024",
           "title": "Successful Treatment of Steroid-refractory Acute Graft-versus-host Disease With Ruxolitinib in a Liver Transplant Recipient.",
           "journal": "Transplantation",
@@ -31547,14 +30859,6 @@
           "url": "https://pubmed.ncbi.nlm.nih.gov/38478462/"
         },
         {
-          "id": "38228614",
-          "title": "Multi-cohort shotgun metagenomic analysis of oral and gut microbiota overlap in healthy adults.",
-          "journal": "Scientific data",
-          "year": 2024,
-          "doi": "10.1038/s41597-024-02916-x",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/38228614/"
-        },
-        {
           "id": "38767452",
           "title": "Multi-omics Analysis of a Fecal Microbiota Transplantation Trial Identifies Novel Aspects of Acute GVHD Pathogenesis.",
           "journal": "Cancer research communications",
@@ -31563,36 +30867,12 @@
           "url": "https://pubmed.ncbi.nlm.nih.gov/38767452/"
         },
         {
-          "id": "39691239",
-          "title": "Oral acute graft-versus-host disease.",
-          "journal": "EJHaem",
-          "year": 2024,
-          "doi": "10.1002/jha2.1033",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/39691239/"
-        },
-        {
-          "id": "39017661",
-          "title": "Oral and Gut Microbiome Alterations in Oral Chronic GVHD Disease: Results from Close Assessment and Testing for Chronic GVHD (CATCH Study).",
-          "journal": "Clinical cancer research : an official journal of the American Association for Cancer Research",
-          "year": 2024,
-          "doi": "10.1158/1078-0432.CCR-24-0875",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/39017661/"
-        },
-        {
           "id": "36804933",
           "title": "A Multicenter Phase 2 Clinical Trial of 10-Day Decitabine, Dose-Escalated Donor Lymphocyte Infusion, and Ruxolitinib for Relapsed Acute Myeloid Leukemia and Myelodysplastic Syndromes after Allogeneic Hematopoietic Cell Transplantation.",
           "journal": "Transplantation and cellular therapy",
           "year": 2023,
           "doi": "10.1016/j.jtct.2023.02.010",
           "url": "https://pubmed.ncbi.nlm.nih.gov/36804933/"
-        },
-        {
-          "id": "36814251",
-          "title": "Colonization resistance is dispensable for segregation of oral and gut microbiota.",
-          "journal": "BMC medical genomics",
-          "year": 2023,
-          "doi": "10.1186/s12920-023-01449-3",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/36814251/"
         },
         {
           "id": "37311510",
@@ -31641,14 +30921,6 @@
           "year": 2023,
           "doi": "10.1200/JCO.22.02366",
           "url": "https://pubmed.ncbi.nlm.nih.gov/37235836/"
-        },
-        {
-          "id": "36370043",
-          "title": "Reply to de Mooij et al.",
-          "journal": "Clinical infectious diseases : an official publication of the Infectious Diseases Society of America",
-          "year": 2023,
-          "doi": "10.1093/cid/ciac888",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/36370043/"
         },
         {
           "id": "35700156",
@@ -31705,14 +30977,6 @@
           "year": 2022,
           "doi": "10.1038/s41409-022-01654-1",
           "url": "https://pubmed.ncbi.nlm.nih.gov/35461360/"
-        },
-        {
-          "id": "35192686",
-          "title": "Lasting shift in the gut microbiota in patients with acute myeloid leukemia.",
-          "journal": "Blood advances",
-          "year": 2022,
-          "doi": "10.1182/bloodadvances.2021006783",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/35192686/"
         },
         {
           "id": "35428797",
@@ -31870,10 +31134,10 @@
       "authorCounts": null,
       "signals": {
         "positive": {
-          "count": 49,
+          "count": 38,
           "yearRange": {
             "min": 2020,
-            "max": 2026
+            "max": 2025
           },
           "yearCounts": [
             {
@@ -31886,23 +31150,19 @@
             },
             {
               "year": 2022,
-              "count": 11
+              "count": 10
             },
             {
               "year": 2023,
-              "count": 9
-            },
-            {
-              "year": 2024,
               "count": 7
             },
             {
-              "year": 2025,
+              "year": 2024,
               "count": 4
             },
             {
-              "year": 2026,
-              "count": 2
+              "year": 2025,
+              "count": 1
             }
           ],
           "topJournals": [
@@ -31911,11 +31171,11 @@
               "count": 7
             },
             {
-              "name": "Gut microbes",
-              "count": 4
+              "name": "British journal of haematology",
+              "count": 3
             },
             {
-              "name": "British journal of haematology",
+              "name": "Gut microbes",
               "count": 3
             },
             {
@@ -31923,69 +31183,53 @@
               "count": 2
             },
             {
-              "name": "Blood",
-              "count": 2
-            },
-            {
-              "name": "Blood advances",
-              "count": 2
-            },
-            {
               "name": "Bone marrow transplantation",
-              "count": 2
-            },
-            {
-              "name": "Clinical cancer research : an official journal of the American Association for Cancer Research",
-              "count": 2
-            },
-            {
-              "name": "Clinical infectious diseases : an official publication of the Infectious Diseases Society of America",
               "count": 2
             },
             {
               "name": "Haematologica",
               "count": 2
+            },
+            {
+              "name": "Journal of oncology pharmacy practice : official publication of the International Society of Oncology Pharmacy Practitioners",
+              "count": 2
+            },
+            {
+              "name": "Blood",
+              "count": 1
+            },
+            {
+              "name": "Blood cancer journal",
+              "count": 1
+            },
+            {
+              "name": "Cancer research communications",
+              "count": 1
             }
           ],
           "topKeywords": [
             {
-              "name": "microbiota",
-              "count": 19
-            },
-            {
               "name": "transplantation",
-              "count": 19
-            },
-            {
-              "name": "acute",
-              "count": 15
-            },
-            {
-              "name": "versus",
-              "count": 15
+              "count": 16
             },
             {
               "name": "cell",
-              "count": 13
-            },
-            {
-              "name": "disease",
-              "count": 13
-            },
-            {
-              "name": "gut",
-              "count": 13
-            },
-            {
-              "name": "graft",
               "count": 12
+            },
+            {
+              "name": "microbiota",
+              "count": 12
+            },
+            {
+              "name": "versus",
+              "count": 12
+            },
+            {
+              "name": "acute",
+              "count": 11
             },
             {
               "name": "hematopoietic",
-              "count": 12
-            },
-            {
-              "name": "host",
               "count": 11
             },
             {
@@ -31995,28 +31239,44 @@
             {
               "name": "transplant",
               "count": 10
+            },
+            {
+              "name": "disease",
+              "count": 9
+            },
+            {
+              "name": "graft",
+              "count": 9
+            },
+            {
+              "name": "allogeneic",
+              "count": 8
+            },
+            {
+              "name": "host",
+              "count": 8
             }
           ],
           "topCoauthors": [
             {
               "name": "Daniel J Weisdorf",
-              "count": 26
+              "count": 25
             },
             {
               "name": "Shernan G Holtan",
-              "count": 23
+              "count": 21
             },
             {
               "name": "Alexander Khoruts",
-              "count": 18
-            },
-            {
-              "name": "Maryam Ebadi",
-              "count": 17
+              "count": 15
             },
             {
               "name": "Christopher Staley",
-              "count": 16
+              "count": 14
+            },
+            {
+              "name": "Maryam Ebadi",
+              "count": 14
             },
             {
               "name": "Najla El Jurdi",
@@ -32024,14 +31284,14 @@
             },
             {
               "name": "Heba Elhusseini",
-              "count": 11
-            },
-            {
-              "name": "Tauseef Ur Rehman",
               "count": 10
             },
             {
               "name": "Qing Cao",
+              "count": 9
+            },
+            {
+              "name": "Tauseef Ur Rehman",
               "count": 9
             },
             {
@@ -35074,14 +34334,6 @@
           "url": "https://pubmed.ncbi.nlm.nih.gov/38643971/"
         },
         {
-          "id": "39679540",
-          "title": "Service Utilization and Consumer-Reported Unmet Needs in Medicaid Home- and Community-Based Services for Older Adults.",
-          "journal": "Journal of aging & social policy",
-          "year": 2024,
-          "doi": "10.1080/08959420.2024.2422666",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/39679540/"
-        },
-        {
           "id": "37348486",
           "title": "\"Going Back in the Closet\": Addressing Discrimination Against Sexual and Gender Minority Residents in Long-Term Services and Supports by Providing Culturally Responsive Care.",
           "journal": "Journal of aging & social policy",
@@ -35693,7 +34945,7 @@
       "authorCounts": null,
       "signals": {
         "positive": {
-          "count": 104,
+          "count": 103,
           "yearRange": {
             "min": 2011,
             "max": 2026
@@ -35753,7 +35005,7 @@
             },
             {
               "year": 2024,
-              "count": 8
+              "count": 7
             },
             {
               "year": 2025,
@@ -35779,7 +35031,7 @@
             },
             {
               "name": "Journal of aging & social policy",
-              "count": 8
+              "count": 7
             },
             {
               "name": "Journal of aging and health",
@@ -35809,7 +35061,7 @@
           "topKeywords": [
             {
               "name": "home",
-              "count": 42
+              "count": 41
             },
             {
               "name": "nursing",
@@ -35828,11 +35080,11 @@
               "count": 26
             },
             {
-              "name": "services",
-              "count": 23
+              "name": "long",
+              "count": 22
             },
             {
-              "name": "long",
+              "name": "services",
               "count": 22
             },
             {
@@ -35840,26 +35092,26 @@
               "count": 21
             },
             {
-              "name": "community",
-              "count": 20
-            },
-            {
               "name": "among",
               "count": 19
             },
             {
-              "name": "older",
-              "count": 18
+              "name": "community",
+              "count": 19
             },
             {
               "name": "health",
+              "count": 17
+            },
+            {
+              "name": "older",
               "count": 17
             }
           ],
           "topCoauthors": [
             {
               "name": "Eric Jutkowitz",
-              "count": 19
+              "count": 18
             },
             {
               "name": "Joseph E Gaugler",
@@ -35867,10 +35119,6 @@
             },
             {
               "name": "John R Bowblis",
-              "count": 13
-            },
-            {
-              "name": "Romil R Parikh",
               "count": 13
             },
             {
@@ -35886,16 +35134,20 @@
               "count": 12
             },
             {
+              "name": "Romil R Parikh",
+              "count": 12
+            },
+            {
               "name": "Robert L Kane",
               "count": 11
             },
             {
-              "name": "Jack M Wolf",
+              "name": "Odichinma Akosionu",
               "count": 10
             },
             {
-              "name": "Odichinma Akosionu",
-              "count": 10
+              "name": "Jack M Wolf",
+              "count": 9
             },
             {
               "name": "Mark Woodhouse",
@@ -36431,14 +35683,6 @@
           "url": "https://pubmed.ncbi.nlm.nih.gov/31323699/"
         },
         {
-          "id": "30920262",
-          "title": "Youth self-reported health and their experience of parental incarceration.",
-          "journal": "Families, systems & health : the journal of collaborative family healthcare",
-          "year": 2019,
-          "doi": "10.1037/fsh0000394",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/30920262/"
-        },
-        {
           "id": "30012958",
           "title": "Adolescent Connectedness with Parents Promotes Resilience among Homeless Youth.",
           "journal": "Children (Basel, Switzerland)",
@@ -36626,7 +35870,7 @@
       "authorCounts": null,
       "signals": {
         "positive": {
-          "count": 85,
+          "count": 84,
           "yearRange": {
             "min": 2013,
             "max": 2026
@@ -36658,7 +35902,7 @@
             },
             {
               "year": 2019,
-              "count": 5
+              "count": 4
             },
             {
               "year": 2020,
@@ -36699,10 +35943,6 @@
               "count": 6
             },
             {
-              "name": "Families, systems & health : the journal of collaborative family healthcare",
-              "count": 3
-            },
-            {
               "name": "Pediatrics",
               "count": 3
             },
@@ -36712,6 +35952,10 @@
             },
             {
               "name": "BMC pregnancy and childbirth",
+              "count": 2
+            },
+            {
+              "name": "Families, systems & health : the journal of collaborative family healthcare",
               "count": 2
             },
             {
@@ -36734,7 +35978,7 @@
           "topKeywords": [
             {
               "name": "health",
-              "count": 32
+              "count": 31
             },
             {
               "name": "among",
@@ -36754,11 +35998,11 @@
             },
             {
               "name": "incarceration",
-              "count": 14
+              "count": 13
             },
             {
               "name": "youth",
-              "count": 14
+              "count": 13
             },
             {
               "name": "pregnant",
@@ -36769,16 +36013,16 @@
               "count": 10
             },
             {
-              "name": "parental",
-              "count": 10
-            },
-            {
               "name": "people",
               "count": 10
             },
             {
               "name": "study",
               "count": 10
+            },
+            {
+              "name": "parental",
+              "count": 9
             }
           ],
           "topCoauthors": [
@@ -38807,14 +38051,6 @@
           "url": "https://pubmed.ncbi.nlm.nih.gov/41668344/"
         },
         {
-          "id": "41544102",
-          "title": "Comprehensive Assessment of Direct and Passive Smoking Across the Pancreatitis Spectrum.",
-          "journal": "Pancreas",
-          "year": 2026,
-          "doi": "10.1097/MPA.0000000000002621",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/41544102/"
-        },
-        {
           "id": "40960980",
           "title": "Dana K. Andersen, MD: Leader, Visionary, Colleague, and Friend for the Pancreas Community.",
           "journal": "Pancreas",
@@ -40530,7 +39766,7 @@
       "authorCounts": null,
       "signals": {
         "positive": {
-          "count": 217,
+          "count": 216,
           "yearRange": {
             "min": 2014,
             "max": 2026
@@ -40586,13 +39822,13 @@
             },
             {
               "year": 2026,
-              "count": 19
+              "count": 18
             }
           ],
           "topJournals": [
             {
               "name": "Pancreas",
-              "count": 45
+              "count": 44
             },
             {
               "name": "Pancreatology : official journal of the International Association of Pancreatology (IAP) ... [et al.]",
@@ -40638,7 +39874,7 @@
             },
             {
               "name": "pancreatitis",
-              "count": 121
+              "count": 120
             },
             {
               "name": "diabetes",
@@ -40704,11 +39940,11 @@
             },
             {
               "name": "Dhiraj Yadav",
-              "count": 42
+              "count": 41
             },
             {
               "name": "Guru Trikudanathan",
-              "count": 41
+              "count": 40
             },
             {
               "name": "Maisam Abu-El-Haija",
@@ -40720,14 +39956,14 @@
             },
             {
               "name": "Darwin L Conwell",
-              "count": 28
-            },
-            {
-              "name": "Phil A Hart",
               "count": 27
             },
             {
               "name": "James S Hodges",
+              "count": 26
+            },
+            {
+              "name": "Phil A Hart",
               "count": 26
             }
           ]
@@ -44007,14 +43243,6 @@
           "url": "https://pubmed.ncbi.nlm.nih.gov/37535663/"
         },
         {
-          "id": "38558983",
-          "title": "Extreme Phenotype Sampling and Next Generation Sequencing to Identify Genetic Variants Associated with Tacrolimus in African American Kidney Transplant Recipients.",
-          "journal": "Research square",
-          "year": 2024,
-          "doi": "10.21203/rs.3.rs-4050136/v1",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/38558983/"
-        },
-        {
           "id": "39179559",
           "title": "Extreme phenotype sampling and next generation sequencing to identify genetic variants associated with tacrolimus in African American kidney transplant recipients.",
           "journal": "The pharmacogenomics journal",
@@ -44090,7 +43318,7 @@
       "authorCounts": null,
       "signals": {
         "positive": {
-          "count": 13,
+          "count": 12,
           "yearRange": {
             "min": 2023,
             "max": 2026
@@ -44102,7 +43330,7 @@
             },
             {
               "year": 2024,
-              "count": 9
+              "count": 8
             },
             {
               "year": 2025,
@@ -44147,34 +43375,30 @@
               "count": 1
             },
             {
-              "name": "Research square",
+              "name": "The pharmacogenomics journal",
               "count": 1
             },
             {
-              "name": "The pharmacogenomics journal",
+              "name": "Transplantation",
               "count": 1
             }
           ],
           "topKeywords": [
             {
               "name": "kidney",
-              "count": 6
+              "count": 5
             },
             {
               "name": "recipients",
-              "count": 6
+              "count": 5
             },
             {
               "name": "transplant",
-              "count": 6
+              "count": 5
             },
             {
               "name": "american",
-              "count": 4
-            },
-            {
-              "name": "tacrolimus",
-              "count": 4
+              "count": 3
             },
             {
               "name": "enterohepatic",
@@ -44185,7 +43409,7 @@
               "count": 3
             },
             {
-              "name": "sampling",
+              "name": "tacrolimus",
               "count": 3
             },
             {
@@ -44193,29 +43417,25 @@
               "count": 2
             },
             {
-              "name": "african",
-              "count": 2
-            },
-            {
               "name": "area",
               "count": 2
             },
             {
-              "name": "associated",
+              "name": "cessation",
+              "count": 2
+            },
+            {
+              "name": "drug",
+              "count": 2
+            },
+            {
+              "name": "indian",
               "count": 2
             }
           ],
           "topCoauthors": [
             {
-              "name": "Guillaume Onyeaghala",
-              "count": 9
-            },
-            {
               "name": "Pamala A Jacobson",
-              "count": 9
-            },
-            {
-              "name": "Weihua Guan",
               "count": 9
             },
             {
@@ -44223,12 +43443,16 @@
               "count": 8
             },
             {
-              "name": "William S Oetting",
+              "name": "Guillaume Onyeaghala",
               "count": 8
             },
             {
-              "name": "Abdelrahman Saqr",
-              "count": 7
+              "name": "Weihua Guan",
+              "count": 8
+            },
+            {
+              "name": "William S Oetting",
+              "count": 8
             },
             {
               "name": "Ajay K Israni",
@@ -44237,6 +43461,10 @@
             {
               "name": "Rory P Remmel",
               "count": 7
+            },
+            {
+              "name": "Abdelrahman Saqr",
+              "count": 6
             },
             {
               "name": "Moataz E Mohamed",
@@ -44251,7 +43479,7 @@
               "count": 4
             },
             {
-              "name": "Ajay Israni",
+              "name": "Duy Vo",
               "count": 3
             }
           ]
@@ -44947,14 +44175,6 @@
           "url": "https://pubmed.ncbi.nlm.nih.gov/30093455/"
         },
         {
-          "id": "29976600",
-          "title": "Variations in 24-Hour BP Profiles in Cohorts of Patients with Kidney Disease around the World: The I-DARE Study.",
-          "journal": "Clinical journal of the American Society of Nephrology : CJASN",
-          "year": 2018,
-          "doi": "10.2215/CJN.13181117",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/29976600/"
-        },
-        {
           "id": "28413612",
           "title": "Advances in understanding the renin-angiotensin-aldosterone system (RAAS) in blood pressure control and recent pivotal trials of RAAS blockade in heart failure and diabetic nephropathy.",
           "journal": "F1000Research",
@@ -45126,7 +44346,7 @@
       "authorCounts": null,
       "signals": {
         "positive": {
-          "count": 105,
+          "count": 104,
           "yearRange": {
             "min": 2014,
             "max": 2026
@@ -45150,7 +44370,7 @@
             },
             {
               "year": 2018,
-              "count": 7
+              "count": 6
             },
             {
               "year": 2019,
@@ -45188,7 +44408,7 @@
           "topJournals": [
             {
               "name": "Clinical journal of the American Society of Nephrology : CJASN",
-              "count": 13
+              "count": 12
             },
             {
               "name": "American journal of kidney diseases : the official journal of the National Kidney Foundation",
@@ -45230,7 +44450,7 @@
           "topKeywords": [
             {
               "name": "kidney",
-              "count": 52
+              "count": 51
             },
             {
               "name": "blood",
@@ -45242,7 +44462,7 @@
             },
             {
               "name": "disease",
-              "count": 33
+              "count": 32
             },
             {
               "name": "chronic",
@@ -45250,7 +44470,7 @@
             },
             {
               "name": "study",
-              "count": 21
+              "count": 20
             },
             {
               "name": "health",
@@ -45262,7 +44482,7 @@
             },
             {
               "name": "patients",
-              "count": 16
+              "count": 15
             },
             {
               "name": "ambulatory",
@@ -45280,7 +44500,7 @@
           "topCoauthors": [
             {
               "name": "Mahboob Rahman",
-              "count": 18
+              "count": 17
             },
             {
               "name": "Lama Ghazi",
@@ -45288,11 +44508,11 @@
             },
             {
               "name": "Raymond R Townsend",
-              "count": 13
+              "count": 12
             },
             {
               "name": "CRIC Study Investigators",
-              "count": 12
+              "count": 11
             },
             {
               "name": "Paul K Whelton",
@@ -45991,14 +45211,6 @@
           "url": "https://pubmed.ncbi.nlm.nih.gov/35796316/"
         },
         {
-          "id": "35737335",
-          "title": "Prevalence and Predictors of Radiographically Apparent Upper Urinary Tract Urolithiasis in Eight Dog Breeds Predisposed to Calcium Oxalate Urolithiasis and Mixed Breed Dogs.",
-          "journal": "Veterinary sciences",
-          "year": 2022,
-          "doi": "10.3390/vetsci9060283",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/35737335/"
-        },
-        {
           "id": "35815881",
           "title": "Targeted sequencing of candidate gene regions for myelofibrosis in dogs.",
           "journal": "Journal of veterinary internal medicine",
@@ -46010,7 +45222,7 @@
       "authorCounts": null,
       "signals": {
         "positive": {
-          "count": 25,
+          "count": 24,
           "yearRange": {
             "min": 2022,
             "max": 2026
@@ -46018,7 +45230,7 @@
           "yearCounts": [
             {
               "year": 2022,
-              "count": 3
+              "count": 2
             },
             {
               "year": 2023,
@@ -46047,10 +45259,6 @@
               "count": 3
             },
             {
-              "name": "Veterinary sciences",
-              "count": 2
-            },
-            {
               "name": "BMC microbiology",
               "count": 1
             },
@@ -46077,16 +45285,20 @@
             {
               "name": "Scientific reports",
               "count": 1
+            },
+            {
+              "name": "Veterinary sciences",
+              "count": 1
             }
           ],
           "topKeywords": [
             {
               "name": "dogs",
-              "count": 13
+              "count": 12
             },
             {
               "name": "calcium",
-              "count": 7
+              "count": 6
             },
             {
               "name": "gene",
@@ -46094,14 +45306,6 @@
             },
             {
               "name": "miniature",
-              "count": 5
-            },
-            {
-              "name": "urinary",
-              "count": 5
-            },
-            {
-              "name": "urolithiasis",
               "count": 5
             },
             {
@@ -46113,7 +45317,7 @@
               "count": 4
             },
             {
-              "name": "oxalate",
+              "name": "urinary",
               "count": 4
             },
             {
@@ -46121,18 +45325,26 @@
               "count": 3
             },
             {
-              "name": "breed",
+              "name": "cats",
               "count": 3
             },
             {
-              "name": "cats",
+              "name": "hypertriglyceridemia",
+              "count": 3
+            },
+            {
+              "name": "oxalate",
+              "count": 3
+            },
+            {
+              "name": "schnauzers",
               "count": 3
             }
           ],
           "topCoauthors": [
             {
               "name": "Jody P Lulich",
-              "count": 12
+              "count": 11
             },
             {
               "name": "Katie M Minor",
@@ -46171,11 +45383,11 @@
               "count": 2
             },
             {
-              "name": "Aaron K Rendahl",
+              "name": "Adam D Maxwell",
               "count": 2
             },
             {
-              "name": "Adam D Maxwell",
+              "name": "Ferenc Toth",
               "count": 2
             }
           ]
@@ -48387,46 +47599,6 @@
           "url": "https://pubmed.ncbi.nlm.nih.gov/37611037/"
         },
         {
-          "id": "36722731",
-          "title": "How many billions is enough? Prioritizing profits over patients with cystic fibrosis.",
-          "journal": "Pediatric pulmonology",
-          "year": 2023,
-          "doi": "10.1002/ppul.26335",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/36722731/"
-        },
-        {
-          "id": "37114844",
-          "title": "Predictors for invasive home mechanical ventilation duration in bronchopulmonary dysplasia.",
-          "journal": "Pediatric pulmonology",
-          "year": 2023,
-          "doi": "10.1002/ppul.26437",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/37114844/"
-        },
-        {
-          "id": "37159950",
-          "title": "Purposeful Podiums: Ensuring Speaker Diversity at the American Thoracic Society International Conference.",
-          "journal": "Annals of the American Thoracic Society",
-          "year": 2023,
-          "doi": "10.1513/AnnalsATS.202301-046RL",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/37159950/"
-        },
-        {
-          "id": "37222404",
-          "title": "The upper airway microbiome in Hispanic children with cystic fibrosis.",
-          "journal": "Pediatric pulmonology",
-          "year": 2023,
-          "doi": "10.1002/ppul.26484",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/37222404/"
-        },
-        {
-          "id": "35959530",
-          "title": "At-home end-tidal carbon dioxide measurement in children with invasive home mechanical ventilation.",
-          "journal": "Pediatric pulmonology",
-          "year": 2022,
-          "doi": "10.1002/ppul.26092",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/35959530/"
-        },
-        {
           "id": "35156887",
           "title": "Primary Ciliary Dyskinesia: A Rare and Often Underdiagnosed Disease.",
           "journal": "Pediatric annals",
@@ -48443,44 +47615,12 @@
           "url": "https://pubmed.ncbi.nlm.nih.gov/33938475/"
         },
         {
-          "id": "33369260",
-          "title": "Preferences for disclosing adverse childhood experiences for children and adults with cystic fibrosis.",
-          "journal": "Pediatric pulmonology",
-          "year": 2021,
-          "doi": "10.1002/ppul.25243",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/33369260/"
-        },
-        {
           "id": "33958427",
           "title": "SPLUNC1: a novel marker of cystic fibrosis exacerbations.",
           "journal": "The European respiratory journal",
           "year": 2021,
           "doi": "10.1183/13993003.00507-2020",
           "url": "https://pubmed.ncbi.nlm.nih.gov/33958427/"
-        },
-        {
-          "id": "33608380",
-          "title": "Transcript analysis for variant classification resolution in a child with primary ciliary dyskinesia.",
-          "journal": "Cold Spring Harbor molecular case studies",
-          "year": 2021,
-          "doi": "10.1101/mcs.a005363",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/33608380/"
-        },
-        {
-          "id": "32531116",
-          "title": "A proposal for the addressing the needs of the pediatric pulmonary work force.",
-          "journal": "Pediatric pulmonology",
-          "year": 2020,
-          "doi": "10.1002/ppul.24856",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/32531116/"
-        },
-        {
-          "id": "32670584",
-          "title": "Cystic fibrosis diagnosed by state newborn screening: Or is it?",
-          "journal": "SAGE open medical case reports",
-          "year": 2020,
-          "doi": "10.1177/2050313X20939421",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/32670584/"
         },
         {
           "id": "30956528",
@@ -48606,7 +47746,7 @@
       "authorCounts": null,
       "signals": {
         "positive": {
-          "count": 32,
+          "count": 23,
           "yearRange": {
             "min": 2013,
             "max": 2026
@@ -48641,20 +47781,16 @@
               "count": 1
             },
             {
-              "year": 2020,
-              "count": 2
-            },
-            {
               "year": 2021,
-              "count": 4
+              "count": 2
             },
             {
               "year": 2022,
-              "count": 2
+              "count": 1
             },
             {
               "year": 2023,
-              "count": 6
+              "count": 2
             },
             {
               "year": 2024,
@@ -48672,15 +47808,15 @@
           "topJournals": [
             {
               "name": "Pediatric pulmonology",
-              "count": 9
-            },
-            {
-              "name": "Annals of the American Thoracic Society",
               "count": 3
             },
             {
               "name": "PloS one",
               "count": 3
+            },
+            {
+              "name": "Annals of the American Thoracic Society",
+              "count": 2
             },
             {
               "name": "Clinical pediatrics",
@@ -48699,49 +47835,41 @@
               "count": 1
             },
             {
-              "name": "Cold Spring Harbor molecular case studies",
-              "count": 1
-            },
-            {
               "name": "Current opinion in pediatrics",
               "count": 1
             },
             {
               "name": "Current opinion in pulmonary medicine",
               "count": 1
+            },
+            {
+              "name": "Global pediatric health",
+              "count": 1
             }
           ],
           "topKeywords": [
             {
               "name": "cystic",
-              "count": 20
+              "count": 16
             },
             {
               "name": "fibrosis",
-              "count": 20
+              "count": 16
             },
             {
               "name": "pulmonary",
-              "count": 8
-            },
-            {
-              "name": "airway",
-              "count": 6
+              "count": 7
             },
             {
               "name": "disease",
               "count": 6
             },
             {
-              "name": "children",
-              "count": 4
+              "name": "airway",
+              "count": 5
             },
             {
               "name": "exacerbations",
-              "count": 3
-            },
-            {
-              "name": "home",
               "count": 3
             },
             {
@@ -48749,15 +47877,23 @@
               "count": 3
             },
             {
-              "name": "pediatric",
-              "count": 3
-            },
-            {
-              "name": "american",
+              "name": "associated",
               "count": 2
             },
             {
-              "name": "analysis",
+              "name": "biomarkers",
+              "count": 2
+            },
+            {
+              "name": "bronchoalveolar",
+              "count": 2
+            },
+            {
+              "name": "exacerbation",
+              "count": 2
+            },
+            {
+              "name": "girl",
               "count": 2
             }
           ],
@@ -48799,15 +47935,15 @@
               "count": 3
             },
             {
-              "name": "Angela Janus",
-              "count": 2
-            },
-            {
               "name": "Antoinette Moran",
               "count": 2
             },
             {
               "name": "Cole W Welchlin",
+              "count": 2
+            },
+            {
+              "name": "Cole Welchlin-Bradford",
               "count": 2
             }
           ]
@@ -49543,14 +48679,6 @@
           "url": "https://pubmed.ncbi.nlm.nih.gov/34798223/"
         },
         {
-          "id": "34855612",
-          "title": "Ecological Momentary Assessment of Weight-Related Behaviors in the Home Environment of Children From Low-Income and Racially and Ethnically Diverse Households: Development and Usability Study.",
-          "journal": "JMIR research protocols",
-          "year": 2021,
-          "doi": "10.2196/30525",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/34855612/"
-        },
-        {
           "id": "34535536",
           "title": "Expanding Family Medicine Scholarship to All Faculty: The Minnesota Model for Harmonizing Clinical Care, Education, and Research Missions.",
           "journal": "Journal of the American Board of Family Medicine : JABFM",
@@ -49674,7 +48802,7 @@
       "authorCounts": null,
       "signals": {
         "positive": {
-          "count": 55,
+          "count": 54,
           "yearRange": {
             "min": 2020,
             "max": 2025
@@ -49686,7 +48814,7 @@
             },
             {
               "year": 2021,
-              "count": 15
+              "count": 14
             },
             {
               "year": 2022,
@@ -49727,10 +48855,6 @@
               "count": 3
             },
             {
-              "name": "JMIR research protocols",
-              "count": 2
-            },
-            {
               "name": "Journal of eating disorders",
               "count": 2
             },
@@ -49745,6 +48869,10 @@
             {
               "name": "Annals of family medicine",
               "count": 1
+            },
+            {
+              "name": "BMC public health",
+              "count": 1
             }
           ],
           "topKeywords": [
@@ -49753,20 +48881,16 @@
               "count": 19
             },
             {
-              "name": "weight",
-              "count": 18
+              "name": "food",
+              "count": 17
             },
             {
-              "name": "food",
+              "name": "weight",
               "count": 17
             },
             {
               "name": "among",
               "count": 15
-            },
-            {
-              "name": "study",
-              "count": 14
             },
             {
               "name": "young",
@@ -49777,8 +48901,12 @@
               "count": 13
             },
             {
-              "name": "diverse",
+              "name": "study",
               "count": 13
+            },
+            {
+              "name": "diverse",
+              "count": 12
             },
             {
               "name": "family",
@@ -49794,7 +48922,7 @@
             },
             {
               "name": "racially",
-              "count": 10
+              "count": 9
             }
           ],
           "topCoauthors": [
@@ -49819,20 +48947,16 @@
               "count": 9
             },
             {
-              "name": "Allan Tate",
-              "count": 7
-            },
-            {
               "name": "Samantha L Hahn",
               "count": 7
             },
             {
-              "name": "Amanda Trofholz",
+              "name": "Allan Tate",
               "count": 6
             },
             {
-              "name": "Junia N de Brito",
-              "count": 6
+              "name": "Amanda Trofholz",
+              "count": 5
             },
             {
               "name": "Angela R Fertig",
@@ -49840,6 +48964,10 @@
             },
             {
               "name": "C Blair Burnette",
+              "count": 5
+            },
+            {
+              "name": "Junia N de Brito",
               "count": 5
             },
             {
@@ -51643,76 +50771,12 @@
       ],
       "publications": [
         {
-          "id": "40913471",
-          "title": "Fractures are highly correlated with bone density and inversely correlated with bone turnover markers in autosomal dominant osteopetrosis.",
-          "journal": "Journal of bone and mineral research : the official journal of the American Society for Bone and Mineral Research",
-          "year": 2026,
-          "doi": "10.1093/jbmr/zjaf123",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/40913471/"
-        },
-        {
-          "id": "38661205",
-          "title": "Patient-Reported Outcomes in Autosomal Dominant Osteopetrosis: Findings From the Osteopetrosis Registry Study.",
-          "journal": "The Journal of clinical endocrinology and metabolism",
-          "year": 2025,
-          "doi": "10.1210/clinem/dgae285",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/38661205/"
-        },
-        {
-          "id": "38907160",
-          "title": "Anakinra in Sanfilippo syndrome: a phase 1/2 trial.",
-          "journal": "Nature medicine",
-          "year": 2024,
-          "doi": "10.1038/s41591-024-03079-3",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/38907160/"
-        },
-        {
-          "id": "39075282",
-          "title": "Author Correction: Anakinra in Sanfilippo syndrome: a phase 1/2 trial.",
-          "journal": "Nature medicine",
-          "year": 2024,
-          "doi": "10.1038/s41591-024-03207-z",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/39075282/"
-        },
-        {
-          "id": "36840680",
-          "title": "Persistent bone and joint disease despite current treatments for mucopolysaccharidosis types I, II, and VI: Data from a 10-year prospective study.",
-          "journal": "Journal of inherited metabolic disease",
-          "year": 2023,
-          "doi": "10.1002/jimd.12598",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/36840680/"
-        },
-        {
-          "id": "35869927",
-          "title": "Growth in individuals with attenuated mucopolysaccharidosis type I during untreated and treated periods: Data from the MPS I registry.",
-          "journal": "American journal of medical genetics. Part A",
-          "year": 2022,
-          "doi": "10.1002/ajmg.a.62910",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/35869927/"
-        },
-        {
-          "id": "33728251",
-          "title": "Biomarkers for prediction of skeletal disease progression in mucopolysaccharidosis type I.",
-          "journal": "JIMD reports",
-          "year": 2020,
-          "doi": "10.1002/jmd2.12190",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/33728251/"
-        },
-        {
           "id": "31434105",
           "title": "Clinical trial of laronidase in Hurler syndrome after hematopoietic cell transplantation.",
           "journal": "Pediatric research",
           "year": 2019,
           "doi": "10.1038/s41390-019-0541-2",
           "url": "https://pubmed.ncbi.nlm.nih.gov/31434105/"
-        },
-        {
-          "id": "31019279",
-          "title": "Intrathecal enzyme replacement for Hurler syndrome: biomarker association with neurocognitive outcomes.",
-          "journal": "Genetics in medicine : official journal of the American College of Medical Genetics",
-          "year": 2019,
-          "doi": "10.1038/s41436-019-0522-1",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/31019279/"
         },
         {
           "id": "25556556",
@@ -51838,10 +50902,10 @@
       "authorCounts": null,
       "signals": {
         "positive": {
-          "count": 24,
+          "count": 16,
           "yearRange": {
             "min": 2012,
-            "max": 2026
+            "max": 2019
           },
           "yearCounts": [
             {
@@ -51862,30 +50926,6 @@
             },
             {
               "year": 2019,
-              "count": 2
-            },
-            {
-              "year": 2020,
-              "count": 1
-            },
-            {
-              "year": 2022,
-              "count": 1
-            },
-            {
-              "year": 2023,
-              "count": 1
-            },
-            {
-              "year": 2024,
-              "count": 2
-            },
-            {
-              "year": 2025,
-              "count": 1
-            },
-            {
-              "year": 2026,
               "count": 1
             }
           ],
@@ -51899,20 +50939,8 @@
               "count": 2
             },
             {
-              "name": "Nature medicine",
-              "count": 2
-            },
-            {
               "name": "Pediatric blood & cancer",
               "count": 2
-            },
-            {
-              "name": "The Journal of clinical endocrinology and metabolism",
-              "count": 2
-            },
-            {
-              "name": "American journal of medical genetics. Part A",
-              "count": 1
             },
             {
               "name": "Annals of the American Thoracic Society",
@@ -51927,22 +50955,30 @@
               "count": 1
             },
             {
-              "name": "Genetics in medicine : official journal of the American College of Medical Genetics",
+              "name": "JBJS case connector",
+              "count": 1
+            },
+            {
+              "name": "Journal of clinical densitometry : the official journal of the International Society for Clinical Densitometry",
+              "count": 1
+            },
+            {
+              "name": "Journal of clinical oncology : official journal of the American Society of Clinical Oncology",
+              "count": 1
+            },
+            {
+              "name": "Journal of pediatric orthopedics",
               "count": 1
             }
           ],
           "topKeywords": [
             {
               "name": "bone",
-              "count": 10
+              "count": 7
             },
             {
               "name": "mucopolysaccharidosis",
-              "count": 8
-            },
-            {
-              "name": "syndrome",
-              "count": 6
+              "count": 5
             },
             {
               "name": "cell",
@@ -51953,15 +50989,7 @@
               "count": 4
             },
             {
-              "name": "hurler",
-              "count": 4
-            },
-            {
               "name": "patients",
-              "count": 4
-            },
-            {
-              "name": "types",
               "count": 4
             },
             {
@@ -51969,29 +50997,33 @@
               "count": 3
             },
             {
-              "name": "association",
+              "name": "hormone",
               "count": 3
             },
             {
-              "name": "biomarkers",
+              "name": "hurler",
               "count": 3
             },
             {
-              "name": "density",
+              "name": "mineral",
+              "count": 3
+            },
+            {
+              "name": "syndrome",
+              "count": 3
+            },
+            {
+              "name": "treatment",
+              "count": 3
+            },
+            {
+              "name": "types",
               "count": 3
             }
           ],
           "topCoauthors": [
             {
-              "name": "Paul J Orchard",
-              "count": 8
-            },
-            {
               "name": "Chester B Whitley",
-              "count": 7
-            },
-            {
-              "name": "Bradley S Miller",
               "count": 5
             },
             {
@@ -51999,19 +51031,11 @@
               "count": 5
             },
             {
-              "name": "Julie B Eisengart",
+              "name": "Paul J Orchard",
               "count": 5
             },
             {
-              "name": "Troy C Lund",
-              "count": 5
-            },
-            {
-              "name": "Kyle D Rudser",
-              "count": 4
-            },
-            {
-              "name": "David Viskochil",
+              "name": "Bradley S Miller",
               "count": 3
             },
             {
@@ -52019,16 +51043,32 @@
               "count": 3
             },
             {
-              "name": "Ellen B Fung",
-              "count": 3
-            },
-            {
-              "name": "Jakub Tolar",
-              "count": 3
-            },
-            {
               "name": "William Thomas",
               "count": 3
+            },
+            {
+              "name": "Alan R Sinaiko",
+              "count": 2
+            },
+            {
+              "name": "Anna Petryk",
+              "count": 2
+            },
+            {
+              "name": "Antoinette Moran",
+              "count": 2
+            },
+            {
+              "name": "David A Stevenson",
+              "count": 2
+            },
+            {
+              "name": "David R Jacobs",
+              "count": 2
+            },
+            {
+              "name": "David Viskochil",
+              "count": 2
             }
           ]
         },
@@ -54499,14 +53539,6 @@
           "url": "https://pubmed.ncbi.nlm.nih.gov/37986958/"
         },
         {
-          "id": "35467977",
-          "title": "FAF1 blocks ferroptosis by inhibiting peroxidation of polyunsaturated fatty acids.",
-          "journal": "Proceedings of the National Academy of Sciences of the United States of America",
-          "year": 2022,
-          "doi": "10.1073/pnas.2107189119",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/35467977/"
-        },
-        {
           "id": "33802018",
           "title": "Bartonella henselae Detected in Malignant Melanoma, a Preliminary Study.",
           "journal": "Pathogens (Basel, Switzerland)",
@@ -54526,7 +53558,7 @@
       "authorCounts": null,
       "signals": {
         "positive": {
-          "count": 5,
+          "count": 4,
           "yearRange": {
             "min": 2020,
             "max": 2026
@@ -54538,10 +53570,6 @@
             },
             {
               "year": 2021,
-              "count": 1
-            },
-            {
-              "year": 2022,
               "count": 1
             },
             {
@@ -54569,10 +53597,6 @@
             {
               "name": "Pathogens (Basel, Switzerland)",
               "count": 1
-            },
-            {
-              "name": "Proceedings of the National Academy of Sciences of the United States of America",
-              "count": 1
             }
           ],
           "topKeywords": [
@@ -54581,19 +53605,11 @@
               "count": 2
             },
             {
-              "name": "fatty",
-              "count": 2
-            },
-            {
               "name": "health",
               "count": 2
             },
             {
               "name": "acid",
-              "count": 1
-            },
-            {
-              "name": "acids",
               "count": 1
             },
             {
@@ -54623,6 +53639,14 @@
             {
               "name": "automated",
               "count": 1
+            },
+            {
+              "name": "bartonella",
+              "count": 1
+            },
+            {
+              "name": "bioprinted",
+              "count": 1
             }
           ],
           "topCoauthors": [
@@ -54647,14 +53671,6 @@
               "count": 1
             },
             {
-              "name": "Goncalo Vale",
-              "count": 1
-            },
-            {
-              "name": "Hyeonwoo Kim",
-              "count": 1
-            },
-            {
               "name": "Jack Peterson",
               "count": 1
             },
@@ -54667,11 +53683,19 @@
               "count": 1
             },
             {
-              "name": "Jeffrey G McDonald",
+              "name": "Jennifer C Miller",
               "count": 1
             },
             {
-              "name": "Jennifer C Miller",
+              "name": "Jocelyn S Kim",
+              "count": 1
+            },
+            {
+              "name": "Julie M Bradley",
+              "count": 1
+            },
+            {
+              "name": "Kate Root",
               "count": 1
             }
           ]
@@ -58183,14 +57207,6 @@
           "url": "https://pubmed.ncbi.nlm.nih.gov/39846032/"
         },
         {
-          "id": "41172147",
-          "title": "Gastrointestinal Symptom Burden After Total Pancreatectomy With Islet Autotransplantation: A Prospective Observational Cohort Study.",
-          "journal": "Pancreas",
-          "year": 2025,
-          "doi": "10.1097/MPA.0000000000002587",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/41172147/"
-        },
-        {
           "id": "40229213",
           "title": "Metagenomic source tracking after microbiota transplant therapy.",
           "journal": "Gut microbes",
@@ -58786,7 +57802,7 @@
       "authorCounts": null,
       "signals": {
         "positive": {
-          "count": 82,
+          "count": 81,
           "yearRange": {
             "min": 2015,
             "max": 2026
@@ -58834,7 +57850,7 @@
             },
             {
               "year": 2025,
-              "count": 7
+              "count": 6
             },
             {
               "year": 2026,
