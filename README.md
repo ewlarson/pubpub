@@ -83,7 +83,9 @@ npm run audit:data
 The `Refresh data nightly` GitHub Actions workflow runs the full relational
 pipeline every day at 3:00 a.m. America/Chicago time, commits changed static
 exports to `main`, and triggers the existing GitHub Pages deployment workflow.
-It can also be run manually from the Actions tab.
+It restores and saves `data/pubpub.sqlite` with the Actions cache so publication
+history persists between hosted crawls. It can also be run manually from the
+Actions tab.
 
 Configure these repository Actions secrets before running it:
 
