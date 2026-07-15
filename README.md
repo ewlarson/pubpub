@@ -78,6 +78,18 @@ Quick data-quality report:
 npm run audit:data
 ```
 
+### Nightly data refresh
+
+The `Refresh data nightly` GitHub Actions workflow runs the full relational
+pipeline every day at 3:00 a.m. America/Chicago time, commits changed static
+exports to `main`, and triggers the existing GitHub Pages deployment workflow.
+It can also be run manually from the Actions tab.
+
+Configure these repository Actions secrets before running it:
+
+- `NCBI_EMAIL` (required): the contact email sent to NCBI E-utilities
+- `NCBI_API_KEY` (optional): an NCBI API key for higher request limits
+
 Optional environment variables (add to `.env.local` if desired):
 
 ```bash

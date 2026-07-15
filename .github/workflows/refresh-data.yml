@@ -1,0 +1,72 @@
+name: Refresh data nightly
+
+on:
+  schedule:
+    - cron: '0 3 * * *'
+      timezone: America/Chicago
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh-data
+  cancel-in-progress: false
+
+env:
+  NODE_VERSION: 20
+  NCBI_EMAIL: ${{ secrets.NCBI_EMAIL }}
+  NCBI_API_KEY: ${{ secrets.NCBI_API_KEY }}
+  NCBI_TOOL: ctsi_pubpub
+  PUB_VALIDATE_AFFILIATION: 'true'
+  PUB_USE_INITIALS: 'true'
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+          cache: npm
+
+      - name: Require NCBI contact email
+        run: |
+          if [ -z "$NCBI_EMAIL" ]; then
+            echo "Set the NCBI_EMAIL repository secret before running this workflow."
+            exit 1
+          fi
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Refresh relational and static data
+        run: npm run build:data:all
+
+      - name: Audit refreshed data
+        run: npm run audit:data
+
+      - name: Verify production build
+        run: npm run build
+
+      - name: Commit refreshed static data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add public/data/publications.json public/data/grants.json
+
+          if git diff --cached --quiet; then
+            echo "No data changes to commit."
+            exit 0
+          fi
+
+          git commit -m "Refresh publication and grant data"
+          git pull --rebase origin main
+          git push origin HEAD:main

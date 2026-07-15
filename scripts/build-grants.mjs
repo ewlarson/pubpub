@@ -404,6 +404,50 @@ const uniqueBy = (items, getKey) => {
   return output;
 };
 
+const isInvalidOrgNameError = (error) =>
+  /invalid org name/i.test(String(error?.message || ''));
+
+const fetchProjectsWithOrgFallback = async (person, options) => {
+  try {
+    return await fetchProjectsForPerson(person, options);
+  } catch (error) {
+    const orgNames = options.orgNames || [];
+    if (!isInvalidOrgNameError(error) || orgNames.length < 2) {
+      throw error;
+    }
+
+    console.warn(
+      `${person.name}: validating organization names individually after NIH RePORTER rejected the combined query.`
+    );
+    const results = [];
+    let searchUrl = '';
+    let validOrgCount = 0;
+
+    for (const orgName of orgNames) {
+      try {
+        const response = await fetchProjectsForPerson(person, {
+          ...options,
+          orgNames: [orgName]
+        });
+        validOrgCount += 1;
+        results.push(...response.results);
+        searchUrl ||= response.searchUrl;
+      } catch (orgError) {
+        if (!isInvalidOrgNameError(orgError)) {
+          throw orgError;
+        }
+        console.warn(`${person.name}: skipping invalid NIH organization name "${orgName}".`);
+      }
+    }
+
+    if (validOrgCount === 0) {
+      throw error;
+    }
+
+    return { results, searchUrl };
+  }
+};
+
 const mapGrants = (person, projects) => {
   const grants = projects.map((project) => {
     const parsedAmount = Number(project.award_amount);
@@ -502,6 +546,7 @@ const main = async () => {
   const fiscalYears = parseYearList(FISCAL_YEARS_OVERRIDE);
 
   const results = [];
+  const failures = [];
 
   for (const person of faculty) {
     const orgNames = (() => {
@@ -517,7 +562,7 @@ const main = async () => {
     console.log(`Searching NIH RePORTER for ${person.name}...`);
 
     try {
-      const { results: projects, searchUrl } = await fetchProjectsForPerson(person, {
+      const { results: projects, searchUrl } = await fetchProjectsWithOrgFallback(person, {
         fiscalYears,
         orgNames
       });
@@ -540,23 +585,17 @@ const main = async () => {
       });
     } catch (error) {
       console.error(`Failed to fetch grants for ${person.name}: ${error.message}`);
-      replaceFacultyGrants(db, person.id, [], 'nih_reporter');
-      const programAssociations = getProgramAssociationsForFaculty(db, person.id);
-      const programs = Array.from(
-        new Set(programAssociations.map((entry) => entry.program).filter(Boolean))
-      );
-      results.push({
-        id: person.id,
-        name: person.name,
-        department: person.department,
-        programs,
-        programAssociations,
-        reporterUrl: '',
-        grants: []
-      });
+      failures.push(`${person.name}: ${error.message}`);
     }
 
     await sleep(REQUEST_DELAY_MS);
+  }
+
+  if (failures.length > 0) {
+    db.close();
+    throw new Error(
+      `NIH RePORTER refresh failed for ${failures.length} faculty:\n${failures.join('\n')}`
+    );
   }
 
   const output = {
