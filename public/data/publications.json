@@ -5,6 +5,8 @@
     {
       "id": "haynes-david",
       "name": "David Haynes",
+      "foreName": "David",
+      "lastName": "Haynes",
       "department": "University of Minnesota",
       "orcid": "0000-0002-6858-428X",
       "areas": [],
@@ -548,6 +550,8 @@
     {
       "id": "monica-campo-patino-mcampo-umn-edu",
       "name": "Monica Campo Patino",
+      "foreName": "Monica",
+      "lastName": "Campo Patino",
       "department": "University of Minnesota",
       "orcid": "0000-0003-4336-0519",
       "areas": [],
@@ -756,6 +760,8 @@
     {
       "id": "ida-fonkoue-fonko001-umn-edu",
       "name": "Ida Fonkoue",
+      "foreName": "Ida",
+      "lastName": "Fonkoue",
       "department": "University of Minnesota",
       "orcid": "0000-0003-3282-5739",
       "areas": [],
@@ -1090,6 +1096,8 @@
     {
       "id": "arif-hamid-hamid008-umn-edu",
       "name": "Arif Hamid",
+      "foreName": "Arif",
+      "lastName": "Hamid",
       "department": "University of Minnesota",
       "orcid": "0000-0001-7403-0067",
       "areas": [],
@@ -1302,6 +1310,8 @@
     {
       "id": "asha-hassan-asha-umn-edu",
       "name": "Asha Hassan",
+      "foreName": "Asha",
+      "lastName": "Hassan",
       "department": "University of Minnesota",
       "orcid": "0000-0003-0097-3075",
       "areas": [],
@@ -1510,6 +1520,8 @@
     {
       "id": "kaja-sarah",
       "name": "Sarah Kaja (Espinoza)",
+      "foreName": "Sarah",
+      "lastName": "Kaja (Espinoza)",
       "department": "University of Minnesota",
       "orcid": "0000-0002-8719-077X",
       "areas": [],
@@ -1723,6 +1735,8 @@
     {
       "id": "jesse-kowalski-kowal225-umn-edu",
       "name": "Jesse Kowalski",
+      "foreName": "Jesse",
+      "lastName": "Kowalski",
       "department": "University of Minnesota",
       "orcid": "0000-0003-1745-3877",
       "areas": [],
@@ -1891,6 +1905,8 @@
     {
       "id": "nathan-mesfin-mesfin-umn-edu",
       "name": "Nathan Mesfin",
+      "foreName": "Nathan",
+      "lastName": "Mesfin",
       "department": "University of Minnesota",
       "orcid": "0000-0001-8419-0339",
       "areas": [],
@@ -2163,6 +2179,8 @@
     {
       "id": "jean-paul-noel-noelx071-umn-edu",
       "name": "Jean-Paul Noel",
+      "foreName": "Jean-Paul",
+      "lastName": "Noel",
       "department": "University of Minnesota",
       "orcid": "0000-0001-5297-3363",
       "areas": [],
@@ -2467,6 +2485,8 @@
     {
       "id": "oludare-odumade-oduma002-umn-edu",
       "name": "Oludare Odumade",
+      "foreName": "Oludare",
+      "lastName": "Odumade",
       "department": "University of Minnesota",
       "orcid": "0000-0002-8630-8510",
       "areas": [],
@@ -2711,6 +2731,8 @@
     {
       "id": "ebiere-okah-ebiere-umn-edu",
       "name": "Ebiere Okah",
+      "foreName": "Ebiere",
+      "lastName": "Okah",
       "department": "University of Minnesota",
       "orcid": "0000-0003-3784-439X",
       "areas": [],
@@ -3011,6 +3033,8 @@
     {
       "id": "edgar-pe-a-penax025-umn-edu",
       "name": "Edgar Peña",
+      "foreName": "Edgar",
+      "lastName": "Peña",
       "department": "University of Minnesota",
       "orcid": "0000-0003-3148-8355",
       "areas": [],
@@ -3143,6 +3167,8 @@
     {
       "id": "gianna-rea-sandin-reasa002-umn-edu",
       "name": "Gianna Rea-Sandin",
+      "foreName": "Gianna",
+      "lastName": "Rea-Sandin",
       "department": "University of Minnesota",
       "orcid": "0000-0002-3395-7277",
       "areas": [],
@@ -3339,6 +3365,8 @@
     {
       "id": "sabrina-scroggins-sscroggi-d-umn-edu",
       "name": "Sabrina Scroggins",
+      "foreName": "Sabrina",
+      "lastName": "Scroggins",
       "department": "University of Minnesota",
       "orcid": "0000-0001-5842-0575",
       "areas": [],
@@ -3621,6 +3649,8 @@
     {
       "id": "stefani-thomas-stefanit-umn-edu",
       "name": "Stefani Thomas",
+      "foreName": "Stefani",
+      "lastName": "Thomas",
       "department": "University of Minnesota",
       "orcid": "0000-0003-1679-5453",
       "areas": [],
@@ -4137,6 +4167,8 @@
     {
       "id": "cliff-whetung-cwhetung-d-umn-edu",
       "name": "Cliff Whetung",
+      "foreName": "Cliff",
+      "lastName": "Whetung",
       "department": "University of Minnesota",
       "orcid": "0009-0004-9678-0677",
       "areas": [],
@@ -4333,6 +4365,8 @@
     {
       "id": "serena-xiong-xiong455-umn-edu",
       "name": "Serena Xiong",
+      "foreName": "Serena",
+      "lastName": "Xiong",
       "department": "University of Minnesota",
       "orcid": "0000-0001-6399-4397",
       "areas": [],
@@ -4598,6 +4632,8 @@
     {
       "id": "terrence-adam-adamx004-umn-edu",
       "name": "Terrence Adam",
+      "foreName": "Terrence",
+      "lastName": "Adam",
       "department": "University of Minnesota",
       "orcid": "0000-0002-8666-2587",
       "areas": [],
@@ -5262,6 +5298,8 @@
     {
       "id": "c-sophia-albott-albot002-umn-edu",
       "name": "C. Sophia Albott",
+      "foreName": "C. Sophia",
+      "lastName": "Albott",
       "department": "University of Minnesota",
       "orcid": "0000-0002-6776-8837",
       "areas": [],
@@ -5546,6 +5584,8 @@
     {
       "id": "joshua-aman-aman0038-umn-edu",
       "name": "Joshua Aman",
+      "foreName": "Joshua",
+      "lastName": "Aman",
       "department": "University of Minnesota",
       "orcid": "0000-0003-1242-062X",
       "areas": [],
@@ -5814,6 +5854,8 @@
     {
       "id": "veronika-bachanova-bach0173-umn-edu",
       "name": "Veronika Bachanova",
+      "foreName": "Veronika",
+      "lastName": "Bachanova",
       "department": "University of Minnesota",
       "orcid": "0000-0002-9325-432X",
       "areas": [],
@@ -7398,6 +7440,8 @@
     {
       "id": "jason-baker-jason-baker-hcmed-org",
       "name": "Jason Baker",
+      "foreName": "Jason",
+      "lastName": "Baker",
       "department": "University of Minnesota",
       "orcid": "0000-0002-5542-1545",
       "areas": [],
@@ -8683,6 +8727,8 @@
     {
       "id": "arianne-baldomero-baldo004-umn-edu",
       "name": "Arianne Baldomero",
+      "foreName": "Arianne",
+      "lastName": "Baldomero",
       "department": "University of Minnesota",
       "orcid": "0000-0002-8309-0747",
       "areas": [],
@@ -9155,6 +9201,8 @@
     {
       "id": "anne-bantle-bant0015-umn-edu",
       "name": "Anne Bantle",
+      "foreName": "Anne",
+      "lastName": "Bantle",
       "department": "University of Minnesota",
       "orcid": "0000-0002-5006-5350",
       "areas": [],
@@ -9435,6 +9483,8 @@
     {
       "id": "andrew-barnes-drbarnes-umn-edu",
       "name": "Andrew Barnes",
+      "foreName": "Andrew",
+      "lastName": "Barnes",
       "department": "University of Minnesota",
       "orcid": "0000-0002-9205-5046",
       "areas": [],
@@ -10007,6 +10057,8 @@
     {
       "id": "maneesh-bhargava-bhargava-91-osu-edu",
       "name": "Maneesh Bhargava",
+      "foreName": "Maneesh",
+      "lastName": "Bhargava",
       "department": "University of Minnesota",
       "orcid": "0000-0002-1294-6181",
       "areas": [],
@@ -10563,6 +10615,8 @@
     {
       "id": "carolyn-bramante-bramante-umn-edu",
       "name": "Carolyn Bramante",
+      "foreName": "Carolyn",
+      "lastName": "Bramante",
       "department": "University of Minnesota",
       "orcid": "0000-0001-5858-2080",
       "areas": [],
@@ -11447,6 +11501,8 @@
     {
       "id": "y-jazmin-camchong-camch002-umn-edu",
       "name": "Jazmin Camchong",
+      "foreName": "Jazmin",
+      "lastName": "Camchong",
       "department": "University of Minnesota",
       "orcid": "0000-0001-8658-5780",
       "areas": [],
@@ -11828,6 +11884,8 @@
     {
       "id": "cari-clark-cari-j-clark-emory-edu",
       "name": "Cari Clark",
+      "foreName": "Cari",
+      "lastName": "Clark",
       "department": "University of Minnesota",
       "orcid": "0000-0002-9959-5221",
       "areas": [],
@@ -12793,6 +12851,8 @@
     {
       "id": "emily-coffey-coffe099-umn-edu",
       "name": "Emily Coffey",
+      "foreName": "Emily",
+      "lastName": "Coffey",
       "department": "University of Minnesota",
       "orcid": "0000-0002-1229-5104",
       "areas": [],
@@ -13025,6 +13085,8 @@
     {
       "id": "curtis-corum-curtcorum-champaign-gmail-com",
       "name": "Curtis Corum",
+      "foreName": "Curtis",
+      "lastName": "Corum",
       "department": "University of Minnesota",
       "orcid": "0000-0002-4994-6206",
       "areas": [],
@@ -13293,6 +13355,8 @@
     {
       "id": "dori-cross-dcross-umn-edu",
       "name": "Dori Cross",
+      "foreName": "Dori",
+      "lastName": "Cross",
       "department": "University of Minnesota",
       "orcid": "0000-0003-3489-3954",
       "areas": [],
@@ -13705,6 +13769,8 @@
     {
       "id": "sarah-cusick-scusick-umn-edu",
       "name": "Sarah Cusick",
+      "foreName": "Sarah",
+      "lastName": "Cusick",
       "department": "University of Minnesota",
       "orcid": "0000-0002-0592-1867",
       "areas": [],
@@ -14233,6 +14299,8 @@
     {
       "id": "sian-durward-akhurst-durwa004-umn-edu",
       "name": "Sian Durward-Akhurst",
+      "foreName": "Sian",
+      "lastName": "Durward-Akhurst",
       "department": "University of Minnesota",
       "orcid": "0000-0003-3034-1554",
       "areas": [],
@@ -14498,6 +14566,8 @@
     {
       "id": "christen-ebens-ebens012-umn-edu",
       "name": "Christen Ebens",
+      "foreName": "Christen",
+      "lastName": "Ebens",
       "department": "University of Minnesota",
       "orcid": "0000-0003-2430-911X",
       "areas": [],
@@ -15094,6 +15164,8 @@
     {
       "id": "kristin-elgersma-elger005-umn-edu",
       "name": "Kristin Elgersma",
+      "foreName": "Kristin",
+      "lastName": "Elgersma",
       "department": "University of Minnesota",
       "orcid": "0000-0001-6559-0812",
       "areas": [],
@@ -15318,6 +15390,8 @@
     {
       "id": "melanie-firestone-fire0018-umn-edu",
       "name": "Melanie Firestone",
+      "foreName": "Melanie",
+      "lastName": "Firestone",
       "department": "University of Minnesota",
       "orcid": "0000-0003-2244-3729",
       "areas": [],
@@ -15466,6 +15540,8 @@
     {
       "id": "steven-friedenberg-fried255-umn-edu",
       "name": "Steven Friedenberg",
+      "foreName": "Steven",
+      "lastName": "Friedenberg",
       "department": "University of Minnesota",
       "orcid": "0000-0002-7510-2322",
       "areas": [],
@@ -16078,6 +16154,8 @@
     {
       "id": "anne-frosch-park0587-umn-edu",
       "name": "Anne Frosch",
+      "foreName": "Anne",
+      "lastName": "Frosch",
       "department": "University of Minnesota",
       "orcid": "0000-0003-1850-8913",
       "areas": [],
@@ -16418,6 +16496,8 @@
     {
       "id": "bernadette-gillick-bgillick-wisc-edu",
       "name": "Bernadette Gillick",
+      "foreName": "Bernadette",
+      "lastName": "Gillick",
       "department": "University of Minnesota",
       "orcid": "0000-0002-6891-5587",
       "areas": [],
@@ -17187,6 +17267,8 @@
     {
       "id": "andrew-grande-grande-umn-edu",
       "name": "Andrew Grande",
+      "foreName": "Andrew",
+      "lastName": "Grande",
       "department": "University of Minnesota",
       "orcid": "0000-0002-6474-7969",
       "areas": [],
@@ -17899,6 +17981,8 @@
     {
       "id": "allyson-hart-hart1044-umn-edu",
       "name": "Allyson Hart",
+      "foreName": "Allyson",
+      "lastName": "Hart",
       "department": "University of Minnesota",
       "orcid": "0000-0003-3517-0141",
       "areas": [],
@@ -18596,6 +18680,8 @@
     {
       "id": "katherine-hendel-arlinghaus-karlingh-umn-edu",
       "name": "Katherine Hendel (Arlinghaus)",
+      "foreName": "Katherine",
+      "lastName": "Hendel (Arlinghaus)",
       "department": "University of Minnesota",
       "orcid": "0000-0002-7181-8315",
       "areas": [],
@@ -18796,6 +18882,8 @@
     {
       "id": "julia-heneghan-heneg013-umn-edu",
       "name": "Julia Heneghan",
+      "foreName": "Julia",
+      "lastName": "Heneghan",
       "department": "University of Minnesota",
       "orcid": "0000-0002-4855-3013",
       "areas": [],
@@ -19136,6 +19224,8 @@
     {
       "id": "jesse-hoffmeister-hoff0692-umn-edu",
       "name": "Jesse Hoffmeister",
+      "foreName": "Jesse",
+      "lastName": "Hoffmeister",
       "department": "University of Minnesota",
       "orcid": "0000-0001-8891-5907",
       "areas": [],
@@ -19304,6 +19394,8 @@
     {
       "id": "ellen-ingolfsland-eingolf-umn-edu",
       "name": "Ellen Ingolfsland",
+      "foreName": "Ellen",
+      "lastName": "Ingolfsland",
       "department": "University of Minnesota",
       "orcid": "0000-0002-0940-9940",
       "areas": [],
@@ -19492,6 +19584,8 @@
     {
       "id": "samir-khariwala-khari001-umn-edu",
       "name": "Samir Khariwala",
+      "foreName": "Samir",
+      "lastName": "Khariwala",
       "department": "University of Minnesota",
       "orcid": "0000-0002-5579-4990",
       "areas": [],
@@ -20328,6 +20422,8 @@
     {
       "id": "christopher-knapp-christopher-knapp-hcmed-org",
       "name": "Christopher Knapp",
+      "foreName": "Christopher",
+      "lastName": "Knapp",
       "department": "University of Minnesota",
       "orcid": "0000-0001-8789-8914",
       "areas": [],
@@ -20444,6 +20540,8 @@
     {
       "id": "christopher-larocca-clarocca-umn-edu",
       "name": "Christopher LaRocca",
+      "foreName": "Christopher",
+      "lastName": "LaRocca",
       "department": "University of Minnesota",
       "orcid": "0000-0002-9808-1405",
       "areas": [],
@@ -20772,6 +20870,8 @@
     {
       "id": "hee-yun-lee",
       "name": "Hee Yun Lee",
+      "foreName": "Hee Yun",
+      "lastName": "Lee",
       "department": "University of Minnesota",
       "orcid": "0000-0003-3499-6304",
       "areas": [],
@@ -21356,6 +21456,8 @@
     {
       "id": "jiwoo-lee-leex5222-umn-edu",
       "name": "Jiwoo Lee",
+      "foreName": "Jiwoo",
+      "lastName": "Lee",
       "department": "University of Minnesota",
       "orcid": "0000-0003-2539-1098",
       "areas": [],
@@ -21740,6 +21842,8 @@
     {
       "id": "xiufeng-li-lixx1607-umn-edu",
       "name": "Xiufeng Li",
+      "foreName": "Xiufeng",
+      "lastName": "Li",
       "department": "University of Minnesota",
       "orcid": "",
       "areas": [],
@@ -21776,6 +21880,8 @@
     {
       "id": "eric-lock-elock-umn-edu",
       "name": "Eric Lock",
+      "foreName": "Eric",
+      "lastName": "Lock",
       "department": "University of Minnesota",
       "orcid": "0000-0003-4663-2356",
       "areas": [],
@@ -22552,6 +22658,8 @@
     {
       "id": "emil-lou-emil-lou-umn-edu",
       "name": "Emil Lou",
+      "foreName": "Emil",
+      "lastName": "Lou",
       "department": "University of Minnesota",
       "orcid": "0000-0002-1607-1386",
       "areas": [],
@@ -24100,6 +24208,8 @@
     {
       "id": "silvia-mangia-mangia-umn-edu",
       "name": "Silvia Mangia",
+      "foreName": "Silvia",
+      "lastName": "Mangia",
       "department": "University of Minnesota",
       "orcid": "0000-0001-6341-4516",
       "areas": [],
@@ -25068,6 +25178,8 @@
     {
       "id": "corey-mcgee-mcge0062-umn-edu",
       "name": "Corey McGee",
+      "foreName": "Corey",
+      "lastName": "McGee",
       "department": "University of Minnesota",
       "orcid": "0000-0003-4103-711X",
       "areas": [],
@@ -25400,6 +25512,8 @@
     {
       "id": "siobhan-mcmahon-skmcmaho-umn-edu",
       "name": "Siobhan McMahon",
+      "foreName": "Siobhan",
+      "lastName": "McMahon",
       "department": "University of Minnesota",
       "orcid": "0000-0002-3036-9859",
       "areas": [],
@@ -25888,6 +26002,8 @@
     {
       "id": "stephanie-misono-smisono-umn-edu",
       "name": "Stephanie Misono",
+      "foreName": "Stephanie",
+      "lastName": "Misono",
       "department": "University of Minnesota",
       "orcid": "0000-0001-9000-6323",
       "areas": [],
@@ -26622,6 +26738,8 @@
     {
       "id": "amir-moheet-mohee002-umn-edu",
       "name": "Amir Moheet",
+      "foreName": "Amir",
+      "lastName": "Moheet",
       "department": "University of Minnesota",
       "orcid": "0000-0001-9909-6724",
       "areas": [],
@@ -27314,6 +27432,8 @@
     {
       "id": "hai-dang-nguyen-hdnguyen-umn-edu",
       "name": "Hai Dang Nguyen",
+      "foreName": "Hai Dang",
+      "lastName": "Nguyen",
       "department": "University of Minnesota",
       "orcid": "0000-0003-0125-9471",
       "areas": [],
@@ -27651,6 +27771,8 @@
     {
       "id": "mark-osborn-osbor026-umn-edu",
       "name": "Mark Osborn",
+      "foreName": "Mark",
+      "lastName": "Osborn",
       "department": "University of Minnesota",
       "orcid": "0000-0003-1790-0841",
       "areas": [],
@@ -28267,6 +28389,8 @@
     {
       "id": "ann-parr-amparr-umn-edu",
       "name": "Ann Parr",
+      "foreName": "Ann",
+      "lastName": "Parr",
       "department": "University of Minnesota",
       "orcid": "0000-0002-7228-2647",
       "areas": [],
@@ -28819,6 +28943,8 @@
     {
       "id": "elizabeth-rene-pierpont-pier0053-umn-edu",
       "name": "Elizabeth (Rene) Pierpont",
+      "foreName": "Elizabeth (Rene)",
+      "lastName": "Pierpont",
       "department": "University of Minnesota",
       "orcid": "0000-0001-7555-8613",
       "areas": [],
@@ -29208,6 +29334,8 @@
     {
       "id": "alexa-pragman-alexa-umn-edu",
       "name": "Alexa Pragman",
+      "foreName": "Alexa",
+      "lastName": "Pragman",
       "department": "University of Minnesota",
       "orcid": "0000-0001-8152-3951",
       "areas": [],
@@ -29585,6 +29713,8 @@
     {
       "id": "anna-prizment-prizm001-umn-edu",
       "name": "Anna Prizment",
+      "foreName": "Anna",
+      "lastName": "Prizment",
       "department": "University of Minnesota",
       "orcid": "0000-0001-5924-6871",
       "areas": [],
@@ -30813,6 +30943,8 @@
     {
       "id": "armin-rashidi-arashidi-fredhutch-org",
       "name": "Armin Rashidi",
+      "foreName": "Armin",
+      "lastName": "Rashidi",
       "department": "University of Minnesota",
       "orcid": "0000-0002-9384-272X",
       "areas": [],
@@ -31321,6 +31453,8 @@
     {
       "id": "elizabeth-rogers-earogers-umn-edu",
       "name": "Elizabeth Rogers",
+      "foreName": "Elizabeth",
+      "lastName": "Rogers",
       "department": "University of Minnesota",
       "orcid": "0000-0002-4819-7178",
       "areas": [],
@@ -31778,6 +31912,8 @@
     {
       "id": "zohar-sachs-sachs038-umn-edu",
       "name": "Zohar Sachs",
+      "foreName": "Zohar",
+      "lastName": "Sachs",
       "department": "University of Minnesota",
       "orcid": "0000-0001-9386-4163",
       "areas": [],
@@ -32207,6 +32343,8 @@
     {
       "id": "sandra-safo-ssafo-umn-edu",
       "name": "Sandra Safo",
+      "foreName": "Sandra",
+      "lastName": "Safo",
       "department": "University of Minnesota",
       "orcid": "0000-0001-9593-4778",
       "areas": [],
@@ -32739,6 +32877,8 @@
     {
       "id": "william-schmalstieg-wschmals-umn-edu",
       "name": "William Schmalstieg",
+      "foreName": "William",
+      "lastName": "Schmalstieg",
       "department": "University of Minnesota",
       "orcid": "0009-0009-3902-5647",
       "areas": [],
@@ -32935,6 +33075,8 @@
     {
       "id": "craig-schulz-schu1385-umn-edu",
       "name": "Craig Schulz",
+      "foreName": "Craig",
+      "lastName": "Schulz",
       "department": "University of Minnesota",
       "orcid": "0000-0002-4019-1521",
       "areas": [],
@@ -33235,6 +33377,8 @@
     {
       "id": "chetan-shenoy-cshenoy-umn-edu",
       "name": "Chetan Shenoy",
+      "foreName": "Chetan",
+      "lastName": "Shenoy",
       "department": "University of Minnesota",
       "orcid": "0000-0001-8877-4999",
       "areas": [],
@@ -34104,6 +34248,8 @@
     {
       "id": "tetyana-shippee-tshippee-umn-edu",
       "name": "Tetyana Shippee",
+      "foreName": "Tetyana",
+      "lastName": "Shippee",
       "department": "University of Minnesota",
       "orcid": "0000-0003-1804-2527",
       "areas": [],
@@ -35172,6 +35318,8 @@
     {
       "id": "rebecca-shlafer-shlaf002-umn-edu",
       "name": "Rebecca Shlafer",
+      "foreName": "Rebecca",
+      "lastName": "Shlafer",
       "department": "University of Minnesota",
       "orcid": "0000-0001-7833-9053",
       "areas": [],
@@ -36089,6 +36237,8 @@
     {
       "id": "caleb-skipper-skipp015-umn-edu",
       "name": "Caleb Skipper",
+      "foreName": "Caleb",
+      "lastName": "Skipper",
       "department": "University of Minnesota",
       "orcid": "0000-0002-0000-8876",
       "areas": [],
@@ -36521,6 +36671,8 @@
     {
       "id": "guisheng-song-gsong-umn-edu",
       "name": "Guisheng Song",
+      "foreName": "Guisheng",
+      "lastName": "Song",
       "department": "University of Minnesota",
       "orcid": "0000-0002-7309-4170",
       "areas": [],
@@ -36981,6 +37133,8 @@
     {
       "id": "levi-teigen-teige027-umn-edu",
       "name": "Levi Teigen",
+      "foreName": "Levi",
+      "lastName": "Teigen",
       "department": "University of Minnesota",
       "orcid": "0000-0002-6409-0485",
       "areas": [],
@@ -37169,6 +37323,8 @@
     {
       "id": "ajay-verma-akverma-umn-edu",
       "name": "Ajay Verma",
+      "foreName": "Ajay",
+      "lastName": "Verma",
       "department": "University of Minnesota",
       "orcid": "0000-0001-8006-8475",
       "areas": [],
@@ -37337,6 +37493,8 @@
     {
       "id": "katherine-vickery-katherine-vickery-hcmed-org",
       "name": "Katherine Vickery",
+      "foreName": "Katherine",
+      "lastName": "Vickery",
       "department": "University of Minnesota",
       "orcid": "0000-0002-1083-838X",
       "areas": [],
@@ -37853,6 +38011,8 @@
     {
       "id": "alexandra-armstrong-rolan048-umn-edu",
       "name": "Alexandra Armstrong",
+      "foreName": "Alexandra",
+      "lastName": "Armstrong",
       "department": "University of Minnesota",
       "orcid": "0000-0002-8498-2843",
       "areas": [],
@@ -38021,6 +38181,8 @@
     {
       "id": "melena-bellin-bell0130-umn-edu",
       "name": "Melena Bellin",
+      "foreName": "Melena",
+      "lastName": "Bellin",
       "department": "University of Minnesota",
       "orcid": "0000-0002-7324-4837",
       "areas": [],
@@ -39981,6 +40143,8 @@
     {
       "id": "antonella-borgatti-borgatti-umn-edu",
       "name": "Antonella Borgatti",
+      "foreName": "Antonella",
+      "lastName": "Borgatti",
       "department": "University of Minnesota",
       "orcid": "0000-0003-1939-0611",
       "areas": [],
@@ -40285,6 +40449,8 @@
     {
       "id": "kristina-burrack-kburrack-umn-edu",
       "name": "Kristina Burrack",
+      "foreName": "Kristina",
+      "lastName": "Burrack",
       "department": "University of Minnesota",
       "orcid": "0000-0002-6931-226X",
       "areas": [],
@@ -40477,6 +40643,8 @@
     {
       "id": "selma-carlson-dura0059-umn-edu",
       "name": "Selma Carlson",
+      "foreName": "Selma",
+      "lastName": "Carlson",
       "department": "University of Minnesota",
       "orcid": "0000-0002-8553-3097",
       "areas": [],
@@ -40725,6 +40893,8 @@
     {
       "id": "kathryn-cullen-rega0026-umn-edu",
       "name": "Kathryn Cullen",
+      "foreName": "Kathryn",
+      "lastName": "Cullen",
       "department": "University of Minnesota",
       "orcid": "0000-0001-9631-3770",
       "areas": [],
@@ -42077,6 +42247,8 @@
     {
       "id": "brooke-cunningham-brooke-cunningham-state-mn-us",
       "name": "Brooke Cunningham",
+      "foreName": "Brooke",
+      "lastName": "Cunningham",
       "department": "University of Minnesota",
       "orcid": "0000-0002-3205-5538",
       "areas": [],
@@ -42445,6 +42617,8 @@
     {
       "id": "michael-curtis-curtism-umn-edu",
       "name": "Michael Curtis",
+      "foreName": "Michael",
+      "lastName": "Curtis",
       "department": "University of Minnesota",
       "orcid": "0000-0002-1616-032x",
       "areas": [],
@@ -42641,6 +42815,8 @@
     {
       "id": "jose-debes-debes003-umn-edu",
       "name": "Jose Debes",
+      "foreName": "Jose",
+      "lastName": "Debes",
       "department": "University of Minnesota",
       "orcid": "",
       "areas": [],
@@ -43205,6 +43381,8 @@
     {
       "id": "casey-dorr-dorr0022-umn-edu",
       "name": "Casey Dorr",
+      "foreName": "Casey",
+      "lastName": "Dorr",
       "department": "University of Minnesota",
       "orcid": "0000-0002-6108-280X",
       "areas": [],
@@ -43497,6 +43675,8 @@
     {
       "id": "paul-drawz-draw0003-umn-edu",
       "name": "Paul Drawz",
+      "foreName": "Paul",
+      "lastName": "Drawz",
       "department": "University of Minnesota",
       "orcid": "0000-0001-7301-9253",
       "areas": [],
@@ -44561,6 +44741,8 @@
     {
       "id": "naomi-duke-naomi-duke-duke-edu",
       "name": "Naomi Duke",
+      "foreName": "Naomi",
+      "lastName": "Duke",
       "department": "University of Minnesota",
       "orcid": "0000-0002-6567-7376",
       "areas": [],
@@ -45013,6 +45195,8 @@
     {
       "id": "eva-furrow-furro004-umn-edu",
       "name": "Eva Furrow",
+      "foreName": "Eva",
+      "lastName": "Furrow",
       "department": "University of Minnesota",
       "orcid": "0000-0002-7339-2354",
       "areas": [],
@@ -45405,6 +45589,8 @@
     {
       "id": "sarah-hoffman-hoff0742-umn-edu",
       "name": "Sarah Hoffman",
+      "foreName": "Sarah",
+      "lastName": "Hoffman",
       "department": "University of Minnesota",
       "orcid": "0000-0002-7478-953X",
       "areas": [],
@@ -45825,6 +46011,8 @@
     {
       "id": "gautam-jha-jhaxx014-umn-edu",
       "name": "Gautam Jha",
+      "foreName": "Gautam",
+      "lastName": "Jha",
       "department": "University of Minnesota",
       "orcid": "0000-0003-2574-7074",
       "areas": [],
@@ -46165,6 +46353,8 @@
     {
       "id": "casey-johnson-john5037-umn-edu",
       "name": "Casey Johnson",
+      "foreName": "Casey",
+      "lastName": "Johnson",
       "department": "University of Minnesota",
       "orcid": "0000-0001-9826-7296",
       "areas": [],
@@ -46593,6 +46783,8 @@
     {
       "id": "j-mag-karbeah-karbe001-umn-edu",
       "name": "J'Mag Karbeah",
+      "foreName": "J'Mag",
+      "lastName": "Karbeah",
       "department": "University of Minnesota",
       "orcid": "0000-0003-3002-7776",
       "areas": [],
@@ -46825,6 +47017,8 @@
     {
       "id": "manda-keller-ross-kell0529-umn-edu",
       "name": "Manda Keller-Ross",
+      "foreName": "Manda",
+      "lastName": "Keller-Ross",
       "department": "University of Minnesota",
       "orcid": "0000-0001-9363-5379",
       "areas": [],
@@ -47037,6 +47231,8 @@
     {
       "id": "amanda-klein-ahklein2-buffalo-edu",
       "name": "Amanda Klein",
+      "foreName": "Amanda",
+      "lastName": "Klein",
       "department": "University of Minnesota",
       "orcid": "0000-0002-3433-2180",
       "areas": [],
@@ -47337,6 +47533,8 @@
     {
       "id": "emily-kringle-ekringle-umn-edu",
       "name": "Emily Kringle",
+      "foreName": "Emily",
+      "lastName": "Kringle",
       "department": "University of Minnesota",
       "orcid": "0000-0003-4958-9568",
       "areas": [],
@@ -47545,6 +47743,8 @@
     {
       "id": "theresa-laguna",
       "name": "Theresa Laguna",
+      "foreName": "Theresa",
+      "lastName": "Laguna",
       "department": "University of Minnesota",
       "orcid": "0000-0003-4255-0310",
       "areas": [],
@@ -47961,6 +48161,8 @@
     {
       "id": "brianna-leitzelar-leitz025-umn-edu",
       "name": "Brianna Leitzelar",
+      "foreName": "Brianna",
+      "lastName": "Leitzelar",
       "department": "University of Minnesota",
       "orcid": "0000-0003-0406-0118",
       "areas": [],
@@ -48141,6 +48343,8 @@
     {
       "id": "anne-marie-leuck-leuck002-umn-edu",
       "name": "Anne-Marie Leuck",
+      "foreName": "Anne-Marie",
+      "lastName": "Leuck",
       "department": "University of Minnesota",
       "orcid": "0009-0004-8885-9203",
       "areas": [],
@@ -48353,6 +48557,8 @@
     {
       "id": "katie-loth-kloth-umn-edu",
       "name": "Katie Loth",
+      "foreName": "Katie",
+      "lastName": "Loth",
       "department": "University of Minnesota",
       "orcid": "0000-0001-8934-2522",
       "areas": [],
@@ -48989,6 +49195,8 @@
     {
       "id": "nakita-natala-natal006-umn-edu",
       "name": "Nakita Natala",
+      "foreName": "Nakita",
+      "lastName": "Natala",
       "department": "University of Minnesota",
       "orcid": "0000-0001-5139-5071",
       "areas": [],
@@ -49173,6 +49381,8 @@
     {
       "id": "melanie-nicol-mrnicol-umn-edu",
       "name": "Melanie Nicol",
+      "foreName": "Melanie",
+      "lastName": "Nicol",
       "department": "University of Minnesota",
       "orcid": "0000-0001-5513-5509",
       "areas": [],
@@ -49721,6 +49931,8 @@
     {
       "id": "ronald-ordinola-zapata-rordinol-umn-edu",
       "name": "Ronald Ordinola Zapata",
+      "foreName": "Ronald",
+      "lastName": "Ordinola Zapata",
       "department": "University of Minnesota",
       "orcid": "0000-0001-9738-0828",
       "areas": [],
@@ -50353,6 +50565,8 @@
     {
       "id": "julie-ostrander-hans1354-umn-edu",
       "name": "Julie Ostrander",
+      "foreName": "Julie",
+      "lastName": "Ostrander",
       "department": "University of Minnesota",
       "orcid": "0000-0002-5038-6875",
       "areas": [],
@@ -50757,6 +50971,8 @@
     {
       "id": "lynda-polgreen-lpolgreen-labiomed-org",
       "name": "Lynda Polgreen",
+      "foreName": "Lynda",
+      "lastName": "Polgreen",
       "department": "University of Minnesota",
       "orcid": "0000-0002-2881-6138",
       "areas": [],
@@ -51085,6 +51301,8 @@
     {
       "id": "karina-quevedo-queve001-umn-edu",
       "name": "Karina Quevedo",
+      "foreName": "Karina",
+      "lastName": "Quevedo",
       "department": "University of Minnesota",
       "orcid": "0000-0002-5161-194X",
       "areas": [],
@@ -51525,6 +51743,8 @@
     {
       "id": "radha-rajasingham-radha-umn-edu",
       "name": "Radha Rajasingham",
+      "foreName": "Radha",
+      "lastName": "Rajasingham",
       "department": "University of Minnesota",
       "orcid": "0000-0001-5531-0231",
       "areas": [],
@@ -52505,6 +52725,8 @@
     {
       "id": "anita-randolph-rando149-umn-edu",
       "name": "Anita Randolph",
+      "foreName": "Anita",
+      "lastName": "Randolph",
       "department": "University of Minnesota",
       "orcid": "0009-0007-1578-015X",
       "areas": [],
@@ -52757,6 +52979,8 @@
     {
       "id": "scott-reule-reul0011-umn-edu",
       "name": "Scott Reule",
+      "foreName": "Scott",
+      "lastName": "Reule",
       "department": "University of Minnesota",
       "orcid": "0000-0002-8202-7148",
       "areas": [],
@@ -53085,6 +53309,8 @@
     {
       "id": "erica-schorr-scho0828-umn-edu",
       "name": "Erica Schorr",
+      "foreName": "Erica",
+      "lastName": "Schorr",
       "department": "University of Minnesota",
       "orcid": "0000-0003-3252-8208",
       "areas": [],
@@ -53509,6 +53735,8 @@
     {
       "id": "glenn-simmons-jr-ges246-cornell-edu",
       "name": "Glenn Simmons Jr.",
+      "foreName": "Glenn",
+      "lastName": "Simmons Jr.",
       "department": "University of Minnesota",
       "orcid": "0000-0003-2081-5672",
       "areas": [],
@@ -53713,6 +53941,8 @@
     {
       "id": "kristine-talley-carl0106-umn-edu",
       "name": "Kristine Talley",
+      "foreName": "Kristine",
+      "lastName": "Talley",
       "department": "University of Minnesota",
       "orcid": "0000-0002-3402-3222",
       "areas": [],
@@ -54293,6 +54523,8 @@
     {
       "id": "gillian-tarr-gtarr-umn-edu",
       "name": "Gillian Tarr",
+      "foreName": "Gillian",
+      "lastName": "Tarr",
       "department": "University of Minnesota",
       "orcid": "0000-0001-7372-1034",
       "areas": [],
@@ -54461,6 +54693,8 @@
     {
       "id": "deanna-teoh-dkteoh-umn-edu",
       "name": "Deanna Teoh",
+      "foreName": "Deanna",
+      "lastName": "Teoh",
       "department": "University of Minnesota",
       "orcid": "0000-0002-1931-1445",
       "areas": [],
@@ -55161,6 +55395,8 @@
     {
       "id": "ferenc-toth-ftoth-umn-edu",
       "name": "Ferenc Toth",
+      "foreName": "Ferenc",
+      "lastName": "Toth",
       "department": "University of Minnesota",
       "orcid": "0000-0002-6615-389X",
       "areas": [],
@@ -55461,6 +55697,8 @@
     {
       "id": "thu-truong-thtruong-umn-edu",
       "name": "Thu Truong",
+      "foreName": "Thu",
+      "lastName": "Truong",
       "department": "University of Minnesota",
       "orcid": "0000-0003-2394-551X",
       "areas": [],
@@ -55685,6 +55923,8 @@
     {
       "id": "lucie-turcotte-turc0023-umn-edu",
       "name": "Lucie Turcotte",
+      "foreName": "Lucie",
+      "lastName": "Turcotte",
       "department": "University of Minnesota",
       "orcid": "0000-0003-4106-6172",
       "areas": [],
@@ -56633,6 +56873,8 @@
     {
       "id": "michael-usher",
       "name": "Michael Usher",
+      "foreName": "Michael",
+      "lastName": "Usher",
       "department": "University of Minnesota",
       "orcid": "0000-0002-0205-987X",
       "areas": [],
@@ -57137,6 +57379,8 @@
     {
       "id": "byron-vaughn-bvaughn-umn-edu",
       "name": "Byron Vaughn",
+      "foreName": "Byron",
+      "lastName": "Vaughn",
       "department": "University of Minnesota",
       "orcid": "0000-0001-5081-3761",
       "areas": [],
@@ -58013,6 +58257,8 @@
     {
       "id": "saydra-wilson-wils2548-umn-edu",
       "name": "Saydra Wilson",
+      "foreName": "Saydra",
+      "lastName": "Wilson",
       "department": "University of Minnesota",
       "orcid": "0000-0002-2274-5244",
       "areas": [],
@@ -58245,6 +58491,8 @@
     {
       "id": "beshay-zordoky-zordo001-umn-edu",
       "name": "Beshay Zordoky",
+      "foreName": "Beshay",
+      "lastName": "Zordoky",
       "department": "University of Minnesota",
       "orcid": "0000-0002-9358-4185",
       "areas": [],

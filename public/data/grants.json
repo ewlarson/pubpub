@@ -5,6 +5,8 @@
     {
       "id": "haynes-david",
       "name": "David Haynes",
+      "foreName": "David",
+      "lastName": "Haynes",
       "department": "University of Minnesota",
       "programs": [
         "KAP"
@@ -44,6 +46,8 @@
     {
       "id": "monica-campo-patino-mcampo-umn-edu",
       "name": "Monica Campo Patino",
+      "foreName": "Monica",
+      "lastName": "Campo Patino",
       "department": "University of Minnesota",
       "programs": [
         "K-R01"
@@ -72,6 +76,8 @@
     {
       "id": "ida-fonkoue-fonko001-umn-edu",
       "name": "Ida Fonkoue",
+      "foreName": "Ida",
+      "lastName": "Fonkoue",
       "department": "University of Minnesota",
       "programs": [
         "K-R01",
@@ -169,6 +175,8 @@
     {
       "id": "arif-hamid-hamid008-umn-edu",
       "name": "Arif Hamid",
+      "foreName": "Arif",
+      "lastName": "Hamid",
       "department": "University of Minnesota",
       "programs": [
         "K-R01"
@@ -185,6 +193,8 @@
     {
       "id": "asha-hassan-asha-umn-edu",
       "name": "Asha Hassan",
+      "foreName": "Asha",
+      "lastName": "Hassan",
       "department": "University of Minnesota",
       "programs": [
         "KAP"
@@ -201,6 +211,8 @@
     {
       "id": "kaja-sarah",
       "name": "Sarah Kaja (Espinoza)",
+      "foreName": "Sarah",
+      "lastName": "Kaja (Espinoza)",
       "department": "University of Minnesota",
       "programs": [
         "K12 Career Development Program",
@@ -222,6 +234,8 @@
     {
       "id": "jesse-kowalski-kowal225-umn-edu",
       "name": "Jesse Kowalski",
+      "foreName": "Jesse",
+      "lastName": "Kowalski",
       "department": "University of Minnesota",
       "programs": [
         "KAP"
@@ -238,6 +252,8 @@
     {
       "id": "nathan-mesfin-mesfin-umn-edu",
       "name": "Nathan Mesfin",
+      "foreName": "Nathan",
+      "lastName": "Mesfin",
       "department": "University of Minnesota",
       "programs": [
         "KAP"
@@ -254,6 +270,8 @@
     {
       "id": "jean-paul-noel-noelx071-umn-edu",
       "name": "Jean-Paul Noel",
+      "foreName": "Jean-Paul",
+      "lastName": "Noel",
       "department": "University of Minnesota",
       "programs": [
         "K-R01"
@@ -270,6 +288,8 @@
     {
       "id": "oludare-odumade-oduma002-umn-edu",
       "name": "Oludare Odumade",
+      "foreName": "Oludare",
+      "lastName": "Odumade",
       "department": "University of Minnesota",
       "programs": [
         "KAP"
@@ -286,6 +306,8 @@
     {
       "id": "ebiere-okah-ebiere-umn-edu",
       "name": "Ebiere Okah",
+      "foreName": "Ebiere",
+      "lastName": "Okah",
       "department": "University of Minnesota",
       "programs": [
         "KAP"
@@ -302,6 +324,8 @@
     {
       "id": "edgar-pe-a-penax025-umn-edu",
       "name": "Edgar Peña",
+      "foreName": "Edgar",
+      "lastName": "Peña",
       "department": "University of Minnesota",
       "programs": [
         "KAP"
@@ -318,6 +342,8 @@
     {
       "id": "gianna-rea-sandin-reasa002-umn-edu",
       "name": "Gianna Rea-Sandin",
+      "foreName": "Gianna",
+      "lastName": "Rea-Sandin",
       "department": "University of Minnesota",
       "programs": [
         "KAP"
@@ -334,6 +360,8 @@
     {
       "id": "sabrina-scroggins-sscroggi-d-umn-edu",
       "name": "Sabrina Scroggins",
+      "foreName": "Sabrina",
+      "lastName": "Scroggins",
       "department": "University of Minnesota",
       "programs": [
         "K-R01",
@@ -364,6 +392,8 @@
     {
       "id": "stefani-thomas-stefanit-umn-edu",
       "name": "Stefani Thomas",
+      "foreName": "Stefani",
+      "lastName": "Thomas",
       "department": "University of Minnesota",
       "programs": [
         "KAP"
@@ -414,6 +444,8 @@
     {
       "id": "cliff-whetung-cwhetung-d-umn-edu",
       "name": "Cliff Whetung",
+      "foreName": "Cliff",
+      "lastName": "Whetung",
       "department": "University of Minnesota",
       "programs": [
         "KAP"
@@ -430,6 +462,8 @@
     {
       "id": "serena-xiong-xiong455-umn-edu",
       "name": "Serena Xiong",
+      "foreName": "Serena",
+      "lastName": "Xiong",
       "department": "University of Minnesota",
       "programs": [
         "KAP",
@@ -451,6 +485,8 @@
     {
       "id": "terrence-adam-adamx004-umn-edu",
       "name": "Terrence Adam",
+      "foreName": "Terrence",
+      "lastName": "Adam",
       "department": "University of Minnesota",
       "programs": [
         "KL2 Career Development Program"
@@ -467,6 +503,8 @@
     {
       "id": "c-sophia-albott-albot002-umn-edu",
       "name": "C. Sophia Albott",
+      "foreName": "C. Sophia",
+      "lastName": "Albott",
       "department": "University of Minnesota",
       "programs": [
         "KL2 Career Development Program"
@@ -483,6 +521,8 @@
     {
       "id": "joshua-aman-aman0038-umn-edu",
       "name": "Joshua Aman",
+      "foreName": "Joshua",
+      "lastName": "Aman",
       "department": "University of Minnesota",
       "programs": [
         "KL2 Career Development Program"
@@ -533,6 +573,8 @@
     {
       "id": "veronika-bachanova-bach0173-umn-edu",
       "name": "Veronika Bachanova",
+      "foreName": "Veronika",
+      "lastName": "Bachanova",
       "department": "University of Minnesota",
       "programs": [
         "KL2 Career Development Program"
@@ -572,6 +614,8 @@
     {
       "id": "jason-baker-jason-baker-hcmed-org",
       "name": "Jason Baker",
+      "foreName": "Jason",
+      "lastName": "Baker",
       "department": "University of Minnesota",
       "programs": [
         "K-R01",
@@ -829,6 +873,8 @@
     {
       "id": "arianne-baldomero-baldo004-umn-edu",
       "name": "Arianne Baldomero",
+      "foreName": "Arianne",
+      "lastName": "Baldomero",
       "department": "University of Minnesota",
       "programs": [
         "KL2 Career Development Program"
@@ -857,6 +903,8 @@
     {
       "id": "anne-bantle-bant0015-umn-edu",
       "name": "Anne Bantle",
+      "foreName": "Anne",
+      "lastName": "Bantle",
       "department": "University of Minnesota",
       "programs": [
         "KL2 Career Development Program"
@@ -951,6 +999,8 @@
     {
       "id": "andrew-barnes-drbarnes-umn-edu",
       "name": "Andrew Barnes",
+      "foreName": "Andrew",
+      "lastName": "Barnes",
       "department": "University of Minnesota",
       "programs": [
         "KL2 Career Development Program"
@@ -967,6 +1017,8 @@
     {
       "id": "maneesh-bhargava-bhargava-91-osu-edu",
       "name": "Maneesh Bhargava",
+      "foreName": "Maneesh",
+      "lastName": "Bhargava",
       "department": "University of Minnesota",
       "programs": [
         "KL2 Career Development Program"
@@ -1039,6 +1091,8 @@
     {
       "id": "carolyn-bramante-bramante-umn-edu",
       "name": "Carolyn Bramante",
+      "foreName": "Carolyn",
+      "lastName": "Bramante",
       "department": "University of Minnesota",
       "programs": [
         "KL2 Career Development Program"
@@ -1111,6 +1165,8 @@
     {
       "id": "y-jazmin-camchong-camch002-umn-edu",
       "name": "Jazmin Camchong",
+      "foreName": "Jazmin",
+      "lastName": "Camchong",
       "department": "University of Minnesota",
       "programs": [
         "K-R01",
@@ -1210,6 +1266,8 @@
     {
       "id": "cari-clark-cari-j-clark-emory-edu",
       "name": "Cari Clark",
+      "foreName": "Cari",
+      "lastName": "Clark",
       "department": "University of Minnesota",
       "programs": [
         "K-R01",
@@ -1291,6 +1349,8 @@
     {
       "id": "emily-coffey-coffe099-umn-edu",
       "name": "Emily Coffey",
+      "foreName": "Emily",
+      "lastName": "Coffey",
       "department": "University of Minnesota",
       "programs": [
         "K12 Career Development Program"
@@ -1319,6 +1379,8 @@
     {
       "id": "curtis-corum-curtcorum-champaign-gmail-com",
       "name": "Curtis Corum",
+      "foreName": "Curtis",
+      "lastName": "Corum",
       "department": "University of Minnesota",
       "programs": [
         "KL2 Career Development Program"
@@ -1335,6 +1397,8 @@
     {
       "id": "dori-cross-dcross-umn-edu",
       "name": "Dori Cross",
+      "foreName": "Dori",
+      "lastName": "Cross",
       "department": "University of Minnesota",
       "programs": [
         "KL2 Career Development Program"
@@ -1374,6 +1438,8 @@
     {
       "id": "sarah-cusick-scusick-umn-edu",
       "name": "Sarah Cusick",
+      "foreName": "Sarah",
+      "lastName": "Cusick",
       "department": "University of Minnesota",
       "programs": [
         "KL2 Career Development Program"
@@ -1490,6 +1556,8 @@
     {
       "id": "sian-durward-akhurst-durwa004-umn-edu",
       "name": "Sian Durward-Akhurst",
+      "foreName": "Sian",
+      "lastName": "Durward-Akhurst",
       "department": "University of Minnesota",
       "programs": [
         "K12 Career Development Program",
@@ -1515,6 +1583,8 @@
     {
       "id": "christen-ebens-ebens012-umn-edu",
       "name": "Christen Ebens",
+      "foreName": "Christen",
+      "lastName": "Ebens",
       "department": "University of Minnesota",
       "programs": [
         "KL2 Career Development Program"
@@ -1531,6 +1601,8 @@
     {
       "id": "kristin-elgersma-elger005-umn-edu",
       "name": "Kristin Elgersma",
+      "foreName": "Kristin",
+      "lastName": "Elgersma",
       "department": "University of Minnesota",
       "programs": [
         "K12 Career Development Program"
@@ -1547,6 +1619,8 @@
     {
       "id": "melanie-firestone-fire0018-umn-edu",
       "name": "Melanie Firestone",
+      "foreName": "Melanie",
+      "lastName": "Firestone",
       "department": "University of Minnesota",
       "programs": [
         "K12 Career Development Program"
@@ -1563,6 +1637,8 @@
     {
       "id": "steven-friedenberg-fried255-umn-edu",
       "name": "Steven Friedenberg",
+      "foreName": "Steven",
+      "lastName": "Friedenberg",
       "department": "University of Minnesota",
       "programs": [
         "KL2 Career Development Program"
@@ -1668,6 +1744,8 @@
     {
       "id": "anne-frosch-park0587-umn-edu",
       "name": "Anne Frosch",
+      "foreName": "Anne",
+      "lastName": "Frosch",
       "department": "University of Minnesota",
       "programs": [
         "KL2 Career Development Program"
@@ -1684,6 +1762,8 @@
     {
       "id": "bernadette-gillick-bgillick-wisc-edu",
       "name": "Bernadette Gillick",
+      "foreName": "Bernadette",
+      "lastName": "Gillick",
       "department": "University of Minnesota",
       "programs": [
         "KAP (formerly PreK)",
@@ -1875,6 +1955,8 @@
     {
       "id": "andrew-grande-grande-umn-edu",
       "name": "Andrew Grande",
+      "foreName": "Andrew",
+      "lastName": "Grande",
       "department": "University of Minnesota",
       "programs": [
         "KL2 Career Development Program"
@@ -1891,6 +1973,8 @@
     {
       "id": "allyson-hart-hart1044-umn-edu",
       "name": "Allyson Hart",
+      "foreName": "Allyson",
+      "lastName": "Hart",
       "department": "University of Minnesota",
       "programs": [
         "K-R01",
@@ -1972,6 +2056,8 @@
     {
       "id": "katherine-hendel-arlinghaus-karlingh-umn-edu",
       "name": "Katherine Hendel (Arlinghaus)",
+      "foreName": "Katherine",
+      "lastName": "Hendel (Arlinghaus)",
       "department": "University of Minnesota",
       "programs": [
         "KL2 Career Development Program"
@@ -1988,6 +2074,8 @@
     {
       "id": "julia-heneghan-heneg013-umn-edu",
       "name": "Julia Heneghan",
+      "foreName": "Julia",
+      "lastName": "Heneghan",
       "department": "University of Minnesota",
       "programs": [
         "K12 Career Development Program"
@@ -2004,6 +2092,8 @@
     {
       "id": "jesse-hoffmeister-hoff0692-umn-edu",
       "name": "Jesse Hoffmeister",
+      "foreName": "Jesse",
+      "lastName": "Hoffmeister",
       "department": "University of Minnesota",
       "programs": [
         "K12 Career Development Program"
@@ -2020,6 +2110,8 @@
     {
       "id": "ellen-ingolfsland-eingolf-umn-edu",
       "name": "Ellen Ingolfsland",
+      "foreName": "Ellen",
+      "lastName": "Ingolfsland",
       "department": "University of Minnesota",
       "programs": [
         "K12 Career Development Program"
@@ -2036,6 +2128,8 @@
     {
       "id": "samir-khariwala-khari001-umn-edu",
       "name": "Samir Khariwala",
+      "foreName": "Samir",
+      "lastName": "Khariwala",
       "department": "University of Minnesota",
       "programs": [
         "KL2 Career Development Program"
@@ -2229,6 +2323,8 @@
     {
       "id": "christopher-knapp-christopher-knapp-hcmed-org",
       "name": "Christopher Knapp",
+      "foreName": "Christopher",
+      "lastName": "Knapp",
       "department": "University of Minnesota",
       "programs": [
         "K12 Career Development Program"
@@ -2245,6 +2341,8 @@
     {
       "id": "christopher-larocca-clarocca-umn-edu",
       "name": "Christopher LaRocca",
+      "foreName": "Christopher",
+      "lastName": "LaRocca",
       "department": "University of Minnesota",
       "programs": [
         "KL2 Career Development Program"
@@ -2261,6 +2359,8 @@
     {
       "id": "hee-yun-lee",
       "name": "Hee Yun Lee",
+      "foreName": "Hee Yun",
+      "lastName": "Lee",
       "department": "University of Minnesota",
       "programs": [
         "KL2 Career Development Program"
@@ -2277,6 +2377,8 @@
     {
       "id": "jiwoo-lee-leex5222-umn-edu",
       "name": "Jiwoo Lee",
+      "foreName": "Jiwoo",
+      "lastName": "Lee",
       "department": "University of Minnesota",
       "programs": [
         "KL2 Career Development Program"
@@ -2338,6 +2440,8 @@
     {
       "id": "xiufeng-li-lixx1607-umn-edu",
       "name": "Xiufeng Li",
+      "foreName": "Xiufeng",
+      "lastName": "Li",
       "department": "University of Minnesota",
       "programs": [
         "KL2 Career Development Program"
@@ -2399,6 +2503,8 @@
     {
       "id": "eric-lock-elock-umn-edu",
       "name": "Eric Lock",
+      "foreName": "Eric",
+      "lastName": "Lock",
       "department": "University of Minnesota",
       "programs": [
         "KL2 Career Development Program"
@@ -2504,6 +2610,8 @@
     {
       "id": "emil-lou-emil-lou-umn-edu",
       "name": "Emil Lou",
+      "foreName": "Emil",
+      "lastName": "Lou",
       "department": "University of Minnesota",
       "programs": [
         "KL2 Career Development Program"
@@ -2520,6 +2628,8 @@
     {
       "id": "silvia-mangia-mangia-umn-edu",
       "name": "Silvia Mangia",
+      "foreName": "Silvia",
+      "lastName": "Mangia",
       "department": "University of Minnesota",
       "programs": [
         "KL2 Career Development Program"
@@ -2845,6 +2955,8 @@
     {
       "id": "corey-mcgee-mcge0062-umn-edu",
       "name": "Corey McGee",
+      "foreName": "Corey",
+      "lastName": "McGee",
       "department": "University of Minnesota",
       "programs": [
         "KL2 Career Development Program"
@@ -2861,6 +2973,8 @@
     {
       "id": "siobhan-mcmahon-skmcmaho-umn-edu",
       "name": "Siobhan McMahon",
+      "foreName": "Siobhan",
+      "lastName": "McMahon",
       "department": "University of Minnesota",
       "programs": [
         "KL2 Career Development Program"
@@ -2933,6 +3047,8 @@
     {
       "id": "stephanie-misono-smisono-umn-edu",
       "name": "Stephanie Misono",
+      "foreName": "Stephanie",
+      "lastName": "Misono",
       "department": "University of Minnesota",
       "programs": [
         "K-R01",
@@ -3056,6 +3172,8 @@
     {
       "id": "amir-moheet-mohee002-umn-edu",
       "name": "Amir Moheet",
+      "foreName": "Amir",
+      "lastName": "Moheet",
       "department": "University of Minnesota",
       "programs": [
         "KL2 Career Development Program"
@@ -3095,6 +3213,8 @@
     {
       "id": "hai-dang-nguyen-hdnguyen-umn-edu",
       "name": "Hai Dang Nguyen",
+      "foreName": "Hai Dang",
+      "lastName": "Nguyen",
       "department": "University of Minnesota",
       "programs": [
         "KAP (formerly PreK)",
@@ -3176,6 +3296,8 @@
     {
       "id": "mark-osborn-osbor026-umn-edu",
       "name": "Mark Osborn",
+      "foreName": "Mark",
+      "lastName": "Osborn",
       "department": "University of Minnesota",
       "programs": [
         "KL2 Career Development Program"
@@ -3226,6 +3348,8 @@
     {
       "id": "ann-parr-amparr-umn-edu",
       "name": "Ann Parr",
+      "foreName": "Ann",
+      "lastName": "Parr",
       "department": "University of Minnesota",
       "programs": [
         "KL2 Career Development Program"
@@ -3309,6 +3433,8 @@
     {
       "id": "elizabeth-rene-pierpont-pier0053-umn-edu",
       "name": "Elizabeth (Rene) Pierpont",
+      "foreName": "Elizabeth (Rene)",
+      "lastName": "Pierpont",
       "department": "University of Minnesota",
       "programs": [
         "K-R01",
@@ -3334,6 +3460,8 @@
     {
       "id": "alexa-pragman-alexa-umn-edu",
       "name": "Alexa Pragman",
+      "foreName": "Alexa",
+      "lastName": "Pragman",
       "department": "University of Minnesota",
       "programs": [
         "K-R01",
@@ -3470,6 +3598,8 @@
     {
       "id": "anna-prizment-prizm001-umn-edu",
       "name": "Anna Prizment",
+      "foreName": "Anna",
+      "lastName": "Prizment",
       "department": "University of Minnesota",
       "programs": [
         "KL2 Career Development Program"
@@ -3597,6 +3727,8 @@
     {
       "id": "armin-rashidi-arashidi-fredhutch-org",
       "name": "Armin Rashidi",
+      "foreName": "Armin",
+      "lastName": "Rashidi",
       "department": "University of Minnesota",
       "programs": [
         "KL2 Career Development Program"
@@ -3613,6 +3745,8 @@
     {
       "id": "elizabeth-rogers-earogers-umn-edu",
       "name": "Elizabeth Rogers",
+      "foreName": "Elizabeth",
+      "lastName": "Rogers",
       "department": "University of Minnesota",
       "programs": [
         "K-R01",
@@ -3727,6 +3861,8 @@
     {
       "id": "zohar-sachs-sachs038-umn-edu",
       "name": "Zohar Sachs",
+      "foreName": "Zohar",
+      "lastName": "Sachs",
       "department": "University of Minnesota",
       "programs": [
         "K-R01",
@@ -3752,6 +3888,8 @@
     {
       "id": "sandra-safo-ssafo-umn-edu",
       "name": "Sandra Safo",
+      "foreName": "Sandra",
+      "lastName": "Safo",
       "department": "University of Minnesota",
       "programs": [
         "KL2 Career Development Program"
@@ -3868,6 +4006,8 @@
     {
       "id": "william-schmalstieg-wschmals-umn-edu",
       "name": "William Schmalstieg",
+      "foreName": "William",
+      "lastName": "Schmalstieg",
       "department": "University of Minnesota",
       "programs": [
         "KL2 Career Development Program"
@@ -3884,6 +4024,8 @@
     {
       "id": "craig-schulz-schu1385-umn-edu",
       "name": "Craig Schulz",
+      "foreName": "Craig",
+      "lastName": "Schulz",
       "department": "University of Minnesota",
       "programs": [
         "KL2 Career Development Program"
@@ -3900,6 +4042,8 @@
     {
       "id": "chetan-shenoy-cshenoy-umn-edu",
       "name": "Chetan Shenoy",
+      "foreName": "Chetan",
+      "lastName": "Shenoy",
       "department": "University of Minnesota",
       "programs": [
         "K-R01",
@@ -4069,6 +4213,8 @@
     {
       "id": "tetyana-shippee-tshippee-umn-edu",
       "name": "Tetyana Shippee",
+      "foreName": "Tetyana",
+      "lastName": "Shippee",
       "department": "University of Minnesota",
       "programs": [
         "KL2 Career Development Program"
@@ -4306,6 +4452,8 @@
     {
       "id": "rebecca-shlafer-shlaf002-umn-edu",
       "name": "Rebecca Shlafer",
+      "foreName": "Rebecca",
+      "lastName": "Shlafer",
       "department": "University of Minnesota",
       "programs": [
         "KAP (formerly PreK)",
@@ -4453,6 +4601,8 @@
     {
       "id": "caleb-skipper-skipp015-umn-edu",
       "name": "Caleb Skipper",
+      "foreName": "Caleb",
+      "lastName": "Skipper",
       "department": "University of Minnesota",
       "programs": [
         "KL2 Career Development Program"
@@ -4514,6 +4664,8 @@
     {
       "id": "guisheng-song-gsong-umn-edu",
       "name": "Guisheng Song",
+      "foreName": "Guisheng",
+      "lastName": "Song",
       "department": "University of Minnesota",
       "programs": [
         "KL2 Career Development Program"
@@ -4652,6 +4804,8 @@
     {
       "id": "levi-teigen-teige027-umn-edu",
       "name": "Levi Teigen",
+      "foreName": "Levi",
+      "lastName": "Teigen",
       "department": "University of Minnesota",
       "programs": [
         "K12 Career Development Program"
@@ -4668,6 +4822,8 @@
     {
       "id": "ajay-verma-akverma-umn-edu",
       "name": "Ajay Verma",
+      "foreName": "Ajay",
+      "lastName": "Verma",
       "department": "University of Minnesota",
       "programs": [
         "K12 Career Development Program"
@@ -4684,6 +4840,8 @@
     {
       "id": "katherine-vickery-katherine-vickery-hcmed-org",
       "name": "Katherine Vickery",
+      "foreName": "Katherine",
+      "lastName": "Vickery",
       "department": "University of Minnesota",
       "programs": [
         "KL2 Career Development Program"
@@ -4833,6 +4991,8 @@
     {
       "id": "alexandra-armstrong-rolan048-umn-edu",
       "name": "Alexandra Armstrong",
+      "foreName": "Alexandra",
+      "lastName": "Armstrong",
       "department": "University of Minnesota",
       "programs": [
         "K-R01"
@@ -4849,6 +5009,8 @@
     {
       "id": "melena-bellin-bell0130-umn-edu",
       "name": "Melena Bellin",
+      "foreName": "Melena",
+      "lastName": "Bellin",
       "department": "University of Minnesota",
       "programs": [
         "K-R01"
@@ -5306,6 +5468,8 @@
     {
       "id": "antonella-borgatti-borgatti-umn-edu",
       "name": "Antonella Borgatti",
+      "foreName": "Antonella",
+      "lastName": "Borgatti",
       "department": "University of Minnesota",
       "programs": [
         "K-R01"
@@ -5356,6 +5520,8 @@
     {
       "id": "kristina-burrack-kburrack-umn-edu",
       "name": "Kristina Burrack",
+      "foreName": "Kristina",
+      "lastName": "Burrack",
       "department": "University of Minnesota",
       "programs": [
         "K-R01"
@@ -5372,6 +5538,8 @@
     {
       "id": "selma-carlson-dura0059-umn-edu",
       "name": "Selma Carlson",
+      "foreName": "Selma",
+      "lastName": "Carlson",
       "department": "University of Minnesota",
       "programs": [
         "KAP (formerly PreK)"
@@ -5411,6 +5579,8 @@
     {
       "id": "kathryn-cullen-rega0026-umn-edu",
       "name": "Kathryn Cullen",
+      "foreName": "Kathryn",
+      "lastName": "Cullen",
       "department": "University of Minnesota",
       "programs": [
         "K-R01"
@@ -5593,6 +5763,8 @@
     {
       "id": "brooke-cunningham-brooke-cunningham-state-mn-us",
       "name": "Brooke Cunningham",
+      "foreName": "Brooke",
+      "lastName": "Cunningham",
       "department": "University of Minnesota",
       "programs": [
         "KAP (formerly PreK)"
@@ -5654,6 +5826,8 @@
     {
       "id": "michael-curtis-curtism-umn-edu",
       "name": "Michael Curtis",
+      "foreName": "Michael",
+      "lastName": "Curtis",
       "department": "University of Minnesota",
       "programs": [
         "KAP (formerly PreK)"
@@ -5670,6 +5844,8 @@
     {
       "id": "jose-debes-debes003-umn-edu",
       "name": "Jose Debes",
+      "foreName": "Jose",
+      "lastName": "Debes",
       "department": "University of Minnesota",
       "programs": [
         "K-R01"
@@ -5764,6 +5940,8 @@
     {
       "id": "casey-dorr-dorr0022-umn-edu",
       "name": "Casey Dorr",
+      "foreName": "Casey",
+      "lastName": "Dorr",
       "department": "University of Minnesota",
       "programs": [
         "K-R01"
@@ -5780,6 +5958,8 @@
     {
       "id": "paul-drawz-draw0003-umn-edu",
       "name": "Paul Drawz",
+      "foreName": "Paul",
+      "lastName": "Drawz",
       "department": "University of Minnesota",
       "programs": [
         "K-R01"
@@ -5918,6 +6098,8 @@
     {
       "id": "naomi-duke-naomi-duke-duke-edu",
       "name": "Naomi Duke",
+      "foreName": "Naomi",
+      "lastName": "Duke",
       "department": "University of Minnesota",
       "programs": [
         "KAP (formerly PreK)"
@@ -5968,6 +6150,8 @@
     {
       "id": "eva-furrow-furro004-umn-edu",
       "name": "Eva Furrow",
+      "foreName": "Eva",
+      "lastName": "Furrow",
       "department": "University of Minnesota",
       "programs": [
         "K-R01"
@@ -5996,6 +6180,8 @@
     {
       "id": "sarah-hoffman-hoff0742-umn-edu",
       "name": "Sarah Hoffman",
+      "foreName": "Sarah",
+      "lastName": "Hoffman",
       "department": "University of Minnesota",
       "programs": [
         "K-R01"
@@ -6012,6 +6198,8 @@
     {
       "id": "gautam-jha-jhaxx014-umn-edu",
       "name": "Gautam Jha",
+      "foreName": "Gautam",
+      "lastName": "Jha",
       "department": "University of Minnesota",
       "programs": [
         "KAP (formerly PreK)"
@@ -6028,6 +6216,8 @@
     {
       "id": "casey-johnson-john5037-umn-edu",
       "name": "Casey Johnson",
+      "foreName": "Casey",
+      "lastName": "Johnson",
       "department": "University of Minnesota",
       "programs": [
         "K-R01"
@@ -6111,6 +6301,8 @@
     {
       "id": "j-mag-karbeah-karbe001-umn-edu",
       "name": "J'Mag Karbeah",
+      "foreName": "J'Mag",
+      "lastName": "Karbeah",
       "department": "University of Minnesota",
       "programs": [
         "KAP (formerly PreK)"
@@ -6127,6 +6319,8 @@
     {
       "id": "manda-keller-ross-kell0529-umn-edu",
       "name": "Manda Keller-Ross",
+      "foreName": "Manda",
+      "lastName": "Keller-Ross",
       "department": "University of Minnesota",
       "programs": [
         "K-R01"
@@ -6143,6 +6337,8 @@
     {
       "id": "amanda-klein-ahklein2-buffalo-edu",
       "name": "Amanda Klein",
+      "foreName": "Amanda",
+      "lastName": "Klein",
       "department": "University of Minnesota",
       "programs": [
         "K-R01"
@@ -6215,6 +6411,8 @@
     {
       "id": "emily-kringle-ekringle-umn-edu",
       "name": "Emily Kringle",
+      "foreName": "Emily",
+      "lastName": "Kringle",
       "department": "University of Minnesota",
       "programs": [
         "K-R01"
@@ -6231,6 +6429,8 @@
     {
       "id": "theresa-laguna",
       "name": "Theresa Laguna",
+      "foreName": "Theresa",
+      "lastName": "Laguna",
       "department": "University of Minnesota",
       "programs": [
         "K-R01"
@@ -6247,6 +6447,8 @@
     {
       "id": "brianna-leitzelar-leitz025-umn-edu",
       "name": "Brianna Leitzelar",
+      "foreName": "Brianna",
+      "lastName": "Leitzelar",
       "department": "University of Minnesota",
       "programs": [
         "KAP (formerly PreK)"
@@ -6263,6 +6465,8 @@
     {
       "id": "anne-marie-leuck-leuck002-umn-edu",
       "name": "Anne-Marie Leuck",
+      "foreName": "Anne-Marie",
+      "lastName": "Leuck",
       "department": "University of Minnesota",
       "programs": [
         "KAP (formerly PreK)"
@@ -6279,6 +6483,8 @@
     {
       "id": "katie-loth-kloth-umn-edu",
       "name": "Katie Loth",
+      "foreName": "Katie",
+      "lastName": "Loth",
       "department": "University of Minnesota",
       "programs": [
         "K-R01"
@@ -6340,6 +6546,8 @@
     {
       "id": "nakita-natala-natal006-umn-edu",
       "name": "Nakita Natala",
+      "foreName": "Nakita",
+      "lastName": "Natala",
       "department": "University of Minnesota",
       "programs": [
         "KAP (formerly PreK)"
@@ -6356,6 +6564,8 @@
     {
       "id": "melanie-nicol-mrnicol-umn-edu",
       "name": "Melanie Nicol",
+      "foreName": "Melanie",
+      "lastName": "Nicol",
       "department": "University of Minnesota",
       "programs": [
         "K-R01"
@@ -6428,6 +6638,8 @@
     {
       "id": "ronald-ordinola-zapata-rordinol-umn-edu",
       "name": "Ronald Ordinola Zapata",
+      "foreName": "Ronald",
+      "lastName": "Ordinola Zapata",
       "department": "University of Minnesota",
       "programs": [
         "KAP (formerly PreK)"
@@ -6444,6 +6656,8 @@
     {
       "id": "julie-ostrander-hans1354-umn-edu",
       "name": "Julie Ostrander",
+      "foreName": "Julie",
+      "lastName": "Ostrander",
       "department": "University of Minnesota",
       "programs": [
         "K-R01"
@@ -6516,6 +6730,8 @@
     {
       "id": "lynda-polgreen-lpolgreen-labiomed-org",
       "name": "Lynda Polgreen",
+      "foreName": "Lynda",
+      "lastName": "Polgreen",
       "department": "University of Minnesota",
       "programs": [
         "K-R01"
@@ -6632,6 +6848,8 @@
     {
       "id": "karina-quevedo-queve001-umn-edu",
       "name": "Karina Quevedo",
+      "foreName": "Karina",
+      "lastName": "Quevedo",
       "department": "University of Minnesota",
       "programs": [
         "K-R01"
@@ -6671,6 +6889,8 @@
     {
       "id": "radha-rajasingham-radha-umn-edu",
       "name": "Radha Rajasingham",
+      "foreName": "Radha",
+      "lastName": "Rajasingham",
       "department": "University of Minnesota",
       "programs": [
         "KAP (formerly PreK)"
@@ -6886,6 +7106,8 @@
     {
       "id": "anita-randolph-rando149-umn-edu",
       "name": "Anita Randolph",
+      "foreName": "Anita",
+      "lastName": "Randolph",
       "department": "University of Minnesota",
       "programs": [
         "KAP (formerly PreK)"
@@ -6902,6 +7124,8 @@
     {
       "id": "scott-reule-reul0011-umn-edu",
       "name": "Scott Reule",
+      "foreName": "Scott",
+      "lastName": "Reule",
       "department": "University of Minnesota",
       "programs": [
         "KAP (formerly PreK)"
@@ -6918,6 +7142,8 @@
     {
       "id": "erica-schorr-scho0828-umn-edu",
       "name": "Erica Schorr",
+      "foreName": "Erica",
+      "lastName": "Schorr",
       "department": "University of Minnesota",
       "programs": [
         "KAP (formerly PreK)"
@@ -6934,6 +7160,8 @@
     {
       "id": "glenn-simmons-jr-ges246-cornell-edu",
       "name": "Glenn Simmons Jr.",
+      "foreName": "Glenn",
+      "lastName": "Simmons Jr.",
       "department": "University of Minnesota",
       "programs": [
         "KAP (formerly PreK)"
@@ -6950,6 +7178,8 @@
     {
       "id": "kristine-talley-carl0106-umn-edu",
       "name": "Kristine Talley",
+      "foreName": "Kristine",
+      "lastName": "Talley",
       "department": "University of Minnesota",
       "programs": [
         "K-R01"
@@ -6966,6 +7196,8 @@
     {
       "id": "gillian-tarr-gtarr-umn-edu",
       "name": "Gillian Tarr",
+      "foreName": "Gillian",
+      "lastName": "Tarr",
       "department": "University of Minnesota",
       "programs": [
         "K-R01"
@@ -6982,6 +7214,8 @@
     {
       "id": "deanna-teoh-dkteoh-umn-edu",
       "name": "Deanna Teoh",
+      "foreName": "Deanna",
+      "lastName": "Teoh",
       "department": "University of Minnesota",
       "programs": [
         "K-R01"
@@ -7021,6 +7255,8 @@
     {
       "id": "ferenc-toth-ftoth-umn-edu",
       "name": "Ferenc Toth",
+      "foreName": "Ferenc",
+      "lastName": "Toth",
       "department": "University of Minnesota",
       "programs": [
         "K-R01"
@@ -7082,6 +7318,8 @@
     {
       "id": "thu-truong-thtruong-umn-edu",
       "name": "Thu Truong",
+      "foreName": "Thu",
+      "lastName": "Truong",
       "department": "University of Minnesota",
       "programs": [
         "K-R01"
@@ -7098,6 +7336,8 @@
     {
       "id": "lucie-turcotte-turc0023-umn-edu",
       "name": "Lucie Turcotte",
+      "foreName": "Lucie",
+      "lastName": "Turcotte",
       "department": "University of Minnesota",
       "programs": [
         "KAP (formerly PreK)"
@@ -7181,6 +7421,8 @@
     {
       "id": "michael-usher",
       "name": "Michael Usher",
+      "foreName": "Michael",
+      "lastName": "Usher",
       "department": "University of Minnesota",
       "programs": [
         "KAP (formerly PreK)"
@@ -7242,6 +7484,8 @@
     {
       "id": "byron-vaughn-bvaughn-umn-edu",
       "name": "Byron Vaughn",
+      "foreName": "Byron",
+      "lastName": "Vaughn",
       "department": "University of Minnesota",
       "programs": [
         "KAP (formerly PreK)"
@@ -7258,6 +7502,8 @@
     {
       "id": "saydra-wilson-wils2548-umn-edu",
       "name": "Saydra Wilson",
+      "foreName": "Saydra",
+      "lastName": "Wilson",
       "department": "University of Minnesota",
       "programs": [
         "KAP (formerly PreK)"
@@ -7286,6 +7532,8 @@
     {
       "id": "beshay-zordoky-zordo001-umn-edu",
       "name": "Beshay Zordoky",
+      "foreName": "Beshay",
+      "lastName": "Zordoky",
       "department": "University of Minnesota",
       "programs": [
         "K-R01",
