@@ -14,7 +14,7 @@ concurrency:
   cancel-in-progress: false
 
 env:
-  NODE_VERSION: 20
+  NODE_VERSION: 24
   NCBI_EMAIL: ${{ secrets.NCBI_EMAIL }}
   NCBI_API_KEY: ${{ secrets.NCBI_API_KEY }}
   NCBI_TOOL: ctsi_pubpub
@@ -27,15 +27,23 @@ jobs:
     timeout-minutes: 180
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
         with:
           ref: main
 
       - name: Setup Node
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v7
         with:
           node-version: ${{ env.NODE_VERSION }}
           cache: npm
+
+      - name: Restore relational database
+        uses: actions/cache/restore@v6
+        with:
+          path: data/pubpub.sqlite
+          key: pubpub-db-${{ runner.os }}-${{ github.run_id }}-${{ github.run_attempt }}
+          restore-keys: |
+            pubpub-db-${{ runner.os }}-
 
       - name: Require NCBI contact email
         run: |
@@ -55,6 +63,12 @@ jobs:
 
       - name: Verify production build
         run: npm run build
+
+      - name: Save relational database
+        uses: actions/cache/save@v6
+        with:
+          path: data/pubpub.sqlite
+          key: pubpub-db-${{ runner.os }}-${{ github.run_id }}-${{ github.run_attempt }}
 
       - name: Commit refreshed static data
         run: |
