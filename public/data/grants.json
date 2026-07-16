@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-15",
+  "updated": "2026-07-16",
   "source": "NIH RePORTER API",
   "faculty": [
     {
@@ -5726,17 +5726,6 @@
           "coreProjectNum": "R01MH107394"
         },
         {
-          "id": "5R01MH107394-02",
-          "title": "A Longitudinal Study Examining Three RDoC Constructs in Adolescents with Non-Suicidal Self-Injury",
-          "role": "Not listed",
-          "amount": 547473,
-          "startDate": "2016-08-01",
-          "endDate": "2021-05-31",
-          "fiscalYear": 2017,
-          "url": "https://reporter.nih.gov/project-details/9315221",
-          "coreProjectNum": "R01MH107394"
-        },
-        {
           "id": "3R01MH107394-02S1",
           "title": "A Longitudinal Study Examining Three RDoC Constructs in Adolescents with Non-Suicidal Self-Injury",
           "role": "Not listed",
@@ -5745,6 +5734,17 @@
           "endDate": "2021-05-31",
           "fiscalYear": 2017,
           "url": "https://reporter.nih.gov/project-details/9474891",
+          "coreProjectNum": "R01MH107394"
+        },
+        {
+          "id": "5R01MH107394-02",
+          "title": "A Longitudinal Study Examining Three RDoC Constructs in Adolescents with Non-Suicidal Self-Injury",
+          "role": "Not listed",
+          "amount": 547473,
+          "startDate": "2016-08-01",
+          "endDate": "2021-05-31",
+          "fiscalYear": 2017,
+          "url": "https://reporter.nih.gov/project-details/9315221",
           "coreProjectNum": "R01MH107394"
         },
         {
