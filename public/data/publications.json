@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-16",
+  "updated": "2026-07-17",
   "source": "PubMed E-utilities",
   "faculty": [
     {
@@ -15180,6 +15180,14 @@
       ],
       "publications": [
         {
+          "id": "42463152",
+          "title": "Death and Cardiac Disease in Pediatric Hospitals and the Role of Subspecialty Palliative Care.",
+          "journal": "Pediatrics",
+          "year": 2026,
+          "doi": "10.1542/peds.2025-074622",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42463152/"
+        },
+        {
           "id": "42438405",
           "title": "Feeding on flow: a survey of feeding practices for infants with CHD who require non-invasive ventilation.",
           "journal": "Cardiology in the young",
@@ -15239,7 +15247,7 @@
       "authorCounts": null,
       "signals": {
         "positive": {
-          "count": 7,
+          "count": 8,
           "yearRange": {
             "min": 2024,
             "max": 2026
@@ -15255,7 +15263,7 @@
             },
             {
               "year": 2026,
-              "count": 3
+              "count": 4
             }
           ],
           "topJournals": [
@@ -15273,6 +15281,10 @@
             },
             {
               "name": "mHealth",
+              "count": 1
+            },
+            {
+              "name": "Pediatrics",
               "count": 1
             }
           ],
@@ -15298,6 +15310,10 @@
               "count": 4
             },
             {
+              "name": "cardiac",
+              "count": 3
+            },
+            {
               "name": "chd",
               "count": 3
             },
@@ -15310,19 +15326,15 @@
               "count": 3
             },
             {
+              "name": "disease",
+              "count": 3
+            },
+            {
               "name": "feeding",
               "count": 3
             },
             {
-              "name": "cardiac",
-              "count": 2
-            },
-            {
-              "name": "disease",
-              "count": 2
-            },
-            {
-              "name": "neurodevelopmental",
+              "name": "care",
               "count": 2
             }
           ],
@@ -15364,15 +15376,15 @@
               "count": 1
             },
             {
+              "name": "Agnieszka Kulikowska",
+              "count": 1
+            },
+            {
+              "name": "Ahmed Asfari",
+              "count": 1
+            },
+            {
               "name": "Anna Trebilcock",
-              "count": 1
-            },
-            {
-              "name": "Anne C McKechnie",
-              "count": 1
-            },
-            {
-              "name": "Anne Chevalier McKechnie",
               "count": 1
             }
           ]
@@ -29769,6 +29781,14 @@
           "url": "https://pubmed.ncbi.nlm.nih.gov/41890985/"
         },
         {
+          "id": "42458815",
+          "title": "Plasma insulin-like growth Factor-Binding protein 7 predicts 20-Year Cancer-Specific and overall survival in ARIC.",
+          "journal": "Journal of the National Cancer Institute",
+          "year": 2026,
+          "doi": "10.1093/jnci/djag238",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42458815/"
+        },
+        {
           "id": "41032251",
           "title": "Proteomic aging clocks and the risk of mortality among long-term cancer survivors.",
           "journal": "Journal of the National Cancer Institute",
@@ -30724,7 +30744,7 @@
       "authorCounts": null,
       "signals": {
         "positive": {
-          "count": 124,
+          "count": 125,
           "yearRange": {
             "min": 2013,
             "max": 2026
@@ -30784,7 +30804,7 @@
             },
             {
               "year": 2026,
-              "count": 9
+              "count": 10
             }
           ],
           "topJournals": [
@@ -30798,7 +30818,7 @@
             },
             {
               "name": "Journal of the National Cancer Institute",
-              "count": 6
+              "count": 7
             },
             {
               "name": "medRxiv : the preprint server for health sciences",
@@ -30832,7 +30852,7 @@
           "topKeywords": [
             {
               "name": "cancer",
-              "count": 99
+              "count": 100
             },
             {
               "name": "risk",
@@ -30864,7 +30884,7 @@
             },
             {
               "name": "aric",
-              "count": 20
+              "count": 21
             },
             {
               "name": "mortality",
@@ -30882,11 +30902,11 @@
           "topCoauthors": [
             {
               "name": "Elizabeth A Platz",
-              "count": 40
+              "count": 41
             },
             {
               "name": "Corinne E Joshu",
-              "count": 36
+              "count": 37
             },
             {
               "name": "Bharat Thyagarajan",
