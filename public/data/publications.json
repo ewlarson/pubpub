@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-17",
+  "updated": "2026-07-18",
   "source": "PubMed E-utilities",
   "faculty": [
     {
@@ -1327,7 +1327,7 @@
       "publications": [
         {
           "id": "42331175",
-          "title": "Racial and Demographic Trends in Abortion Method Selection in Minnesota Among in-State Patients at or under 11 Weeks Gestational Duration, 2021-2024.",
+          "title": "Racial and demographic trends in abortion method selection in Minnesota among in-state patients at or under 11 weeks gestational duration, 2021-2024.",
           "journal": "Contraception",
           "year": 2026,
           "doi": "10.1016/j.contraception.2026.111542",
@@ -2747,6 +2747,14 @@
       ],
       "publications": [
         {
+          "id": "42464212",
+          "title": "Community black business ownership prevalence and self-reported stroke risk factors among black residents.",
+          "journal": "BMC public health",
+          "year": 2026,
+          "doi": "10.1186/s12889-026-28541-4",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42464212/"
+        },
+        {
           "id": "41578608",
           "title": "Social identity concordance and trust in healthcare providers: Insights across dental, medical, mental, and vision care.",
           "journal": "Journal of health psychology",
@@ -2854,7 +2862,7 @@
       "authorCounts": null,
       "signals": {
         "positive": {
-          "count": 13,
+          "count": 14,
           "yearRange": {
             "min": 2023,
             "max": 2026
@@ -2874,7 +2882,7 @@
             },
             {
               "year": 2026,
-              "count": 2
+              "count": 3
             }
           ],
           "topJournals": [
@@ -2892,6 +2900,10 @@
             },
             {
               "name": "BMC medical education",
+              "count": 1
+            },
+            {
+              "name": "BMC public health",
               "count": 1
             },
             {
@@ -2913,20 +2925,16 @@
             {
               "name": "Journal of the American Board of Family Medicine : JABFM",
               "count": 1
-            },
-            {
-              "name": "Patient education and counseling",
-              "count": 1
             }
           ],
           "topKeywords": [
             {
-              "name": "health",
-              "count": 4
+              "name": "black",
+              "count": 5
             },
             {
-              "name": "black",
-              "count": 3
+              "name": "health",
+              "count": 4
             },
             {
               "name": "care",
@@ -2942,6 +2950,10 @@
             },
             {
               "name": "race",
+              "count": 3
+            },
+            {
+              "name": "risk",
               "count": 3
             },
             {
@@ -2962,10 +2974,6 @@
             },
             {
               "name": "racial",
-              "count": 2
-            },
-            {
-              "name": "risk",
               "count": 2
             }
           ],
@@ -10655,6 +10663,14 @@
           "url": "https://pubmed.ncbi.nlm.nih.gov/41727612/"
         },
         {
+          "id": "42465874",
+          "title": "GLP Medications and Severe Post-COVID-19 Outcomes Among Individuals with Type 2 Diabetes Mellitus.",
+          "journal": "medRxiv : the preprint server for health sciences",
+          "year": 2026,
+          "doi": "10.64898/2026.07.03.26357246",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42465874/"
+        },
+        {
           "id": "42399316",
           "title": "Gut barrier integrity biomarkers are associated with increased inflammation and predict disease status in hospitalized COVID-19 patients.",
           "journal": "Scientific reports",
@@ -10677,6 +10693,14 @@
           "year": 2026,
           "doi": "10.1001/jamainternmed.2025.6796",
           "url": "https://pubmed.ncbi.nlm.nih.gov/41460522/"
+        },
+        {
+          "id": "42465953",
+          "title": "Metformin and Severe Post-COVID-19 Outcomes Among Individuals with Diabetes Mellitus.",
+          "journal": "medRxiv : the preprint server for health sciences",
+          "year": 2026,
+          "doi": "10.64898/2026.07.06.26357398",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42465953/"
         },
         {
           "id": "42240559",
@@ -11306,7 +11330,7 @@
       "authorCounts": null,
       "signals": {
         "positive": {
-          "count": 84,
+          "count": 86,
           "yearRange": {
             "min": 2019,
             "max": 2026
@@ -11342,13 +11366,13 @@
             },
             {
               "year": 2026,
-              "count": 9
+              "count": 11
             }
           ],
           "topJournals": [
             {
               "name": "medRxiv : the preprint server for health sciences",
-              "count": 12
+              "count": 14
             },
             {
               "name": "Diabetes care",
@@ -11390,7 +11414,7 @@
           "topKeywords": [
             {
               "name": "covid",
-              "count": 58
+              "count": 60
             },
             {
               "name": "trial",
@@ -11398,7 +11422,7 @@
             },
             {
               "name": "metformin",
-              "count": 19
+              "count": 20
             },
             {
               "name": "randomized",
@@ -11413,12 +11437,12 @@
               "count": 18
             },
             {
-              "name": "patients",
+              "name": "diabetes",
               "count": 15
             },
             {
-              "name": "diabetes",
-              "count": 13
+              "name": "patients",
+              "count": 15
             },
             {
               "name": "cov",
@@ -11444,7 +11468,7 @@
             },
             {
               "name": "John B Buse",
-              "count": 21
+              "count": 23
             },
             {
               "name": "Christopher J Tignanelli",
@@ -11455,12 +11479,12 @@
               "count": 14
             },
             {
-              "name": "Thomas A Murray",
-              "count": 13
+              "name": "Rachel Wong",
+              "count": 14
             },
             {
-              "name": "Rachel Wong",
-              "count": 12
+              "name": "Thomas A Murray",
+              "count": 13
             },
             {
               "name": "Stacey J Adam",
@@ -42859,6 +42883,14 @@
           "url": "https://pubmed.ncbi.nlm.nih.gov/41840965/"
         },
         {
+          "id": "42465613",
+          "title": "Hepatocellular Carcinoma in Africa: Epidemiology, Prevention and Outcomes.",
+          "journal": "Current hepatology reports",
+          "year": 2026,
+          "doi": "10.1007/s11901-026-00744-8",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42465613/"
+        },
+        {
           "id": "41915873",
           "title": "Lower Allele Frequency of TERT-rs2242652 in Sub-Saharan African Populations Compared With American Populations and Hepatocellular Carcinoma Risk.",
           "journal": "JCO global oncology",
@@ -43214,7 +43246,7 @@
       "authorCounts": null,
       "signals": {
         "positive": {
-          "count": 45,
+          "count": 46,
           "yearRange": {
             "min": 2021,
             "max": 2026
@@ -43242,7 +43274,7 @@
             },
             {
               "year": 2026,
-              "count": 4
+              "count": 5
             }
           ],
           "topJournals": [
@@ -43290,11 +43322,11 @@
           "topKeywords": [
             {
               "name": "carcinoma",
-              "count": 22
+              "count": 23
             },
             {
               "name": "hepatocellular",
-              "count": 22
+              "count": 23
             },
             {
               "name": "hepatitis",
@@ -43325,15 +43357,15 @@
               "count": 6
             },
             {
-              "name": "analysis",
-              "count": 5
-            },
-            {
-              "name": "assessment",
-              "count": 5
-            },
-            {
               "name": "epidemiology",
+              "count": 6
+            },
+            {
+              "name": "africa",
+              "count": 5
+            },
+            {
+              "name": "analysis",
               "count": 5
             }
           ],
