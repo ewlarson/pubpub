@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-19",
+  "updated": "2026-07-20",
   "source": "PubMed E-utilities",
   "faculty": [
     {
@@ -40203,6 +40203,14 @@
       ],
       "publications": [
         {
+          "id": "42472000",
+          "title": "Preclinical study of an optimized AAV cancer vaccine in a spontaneous canine model of oral melanoma.",
+          "journal": "Molecular therapy. Oncology",
+          "year": 2026,
+          "doi": "10.1016/j.omton.2026.201282",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42472000/"
+        },
+        {
           "id": "40908658",
           "title": "Investigating antineoplastic drug surface contamination in veterinary settings and on canine patients.",
           "journal": "Annals of work exposures and health",
@@ -40310,10 +40318,10 @@
       "authorCounts": null,
       "signals": {
         "positive": {
-          "count": 13,
+          "count": 14,
           "yearRange": {
             "min": 2021,
-            "max": 2025
+            "max": 2026
           },
           "yearCounts": [
             {
@@ -40335,6 +40343,10 @@
             {
               "year": 2025,
               "count": 2
+            },
+            {
+              "year": 2026,
+              "count": 1
             }
           ],
           "topJournals": [
@@ -40367,15 +40379,15 @@
               "count": 1
             },
             {
+              "name": "Molecular therapy. Oncology",
+              "count": 1
+            },
+            {
               "name": "Nature communications",
               "count": 1
             },
             {
               "name": "PloS one",
-              "count": 1
-            },
-            {
-              "name": "Research square",
               "count": 1
             }
           ],
@@ -40386,6 +40398,10 @@
             },
             {
               "name": "canine",
+              "count": 5
+            },
+            {
+              "name": "cancer",
               "count": 4
             },
             {
@@ -40397,15 +40413,15 @@
               "count": 4
             },
             {
-              "name": "cancer",
-              "count": 3
-            },
-            {
               "name": "expression",
               "count": 3
             },
             {
               "name": "osteosarcoma",
+              "count": 3
+            },
+            {
+              "name": "study",
               "count": 3
             },
             {
@@ -40422,10 +40438,6 @@
             },
             {
               "name": "detection",
-              "count": 2
-            },
-            {
-              "name": "doxorubicin",
               "count": 2
             }
           ],

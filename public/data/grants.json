@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-19",
+  "updated": "2026-07-20",
   "source": "NIH RePORTER API",
   "faculty": [
     {
@@ -2354,7 +2354,19 @@
         }
       ],
       "reporterUrl": "",
-      "grants": []
+      "grants": [
+        {
+          "id": "1K08CA301026-01A1",
+          "title": "Oncolytic Adenovirus Targeted to Colorectal Cancer",
+          "role": "Not listed",
+          "amount": 209717,
+          "startDate": "2026-07-13",
+          "endDate": "2030-06-30",
+          "fiscalYear": 2026,
+          "url": "https://reporter.nih.gov/project-details/11301463",
+          "coreProjectNum": "K08CA301026"
+        }
+      ]
     },
     {
       "id": "hee-yun-lee",
@@ -3947,17 +3959,6 @@
           "coreProjectNum": "R35GM142695"
         },
         {
-          "id": "3R35GM142695-03S2",
-          "title": "MultiViewPortal: Towards a Scalable Web Application for Multiview Learning",
-          "role": "Not listed",
-          "amount": 221970,
-          "startDate": "2021-09-23",
-          "endDate": "2026-06-30",
-          "fiscalYear": 2023,
-          "url": "https://reporter.nih.gov/project-details/10827749",
-          "coreProjectNum": "R35GM142695"
-        },
-        {
           "id": "3R35GM142695-03S1",
           "title": "Statistical and Machine Learning Methods to Address Biomedical Challenges for Integrating Multi-view Data",
           "role": "Not listed",
@@ -3966,6 +3967,17 @@
           "endDate": "2026-06-30",
           "fiscalYear": 2023,
           "url": "https://reporter.nih.gov/project-details/10711864",
+          "coreProjectNum": "R35GM142695"
+        },
+        {
+          "id": "3R35GM142695-03S2",
+          "title": "MultiViewPortal: Towards a Scalable Web Application for Multiview Learning",
+          "role": "Not listed",
+          "amount": 221970,
+          "startDate": "2021-09-23",
+          "endDate": "2026-06-30",
+          "fiscalYear": 2023,
+          "url": "https://reporter.nih.gov/project-details/10827749",
           "coreProjectNum": "R35GM142695"
         },
         {
@@ -4065,6 +4077,17 @@
       ],
       "reporterUrl": "",
       "grants": [
+        {
+          "id": "1R01HL179616-01A1",
+          "title": "Rapid Cardiac Magnetic Resonance Imaging for Heart Failure",
+          "role": "Contact PI",
+          "amount": 763046,
+          "startDate": "2026-07-15",
+          "endDate": "2030-03-31",
+          "fiscalYear": 2026,
+          "url": "https://reporter.nih.gov/project-details/11297647",
+          "coreProjectNum": "R01HL179616"
+        },
         {
           "id": "5R21HL172296-02",
           "title": "A Myocardial Approach to Identify the Cause of Cardiomyopathy",
@@ -4283,17 +4306,6 @@
           "coreProjectNum": "R01AG075734"
         },
         {
-          "id": "3R01AG075734-02S1",
-          "title": "Training the Long-Term Services and Supports Dementia Care Workforce in Provision of Care to Sexual and Gender Minority Residents",
-          "role": "Not listed",
-          "amount": 25096,
-          "startDate": "2022-09-15",
-          "endDate": "2026-05-31",
-          "fiscalYear": 2024,
-          "url": "https://reporter.nih.gov/project-details/11004546",
-          "coreProjectNum": "R01AG075734"
-        },
-        {
           "id": "3R01AG075734-03S1",
           "title": "Training the Long-Term Services and Supports Dementia Care Workforce in Provision of Care to Sexual and Gender Minority Residents",
           "role": "Not listed",
@@ -4302,6 +4314,17 @@
           "endDate": "2026-05-31",
           "fiscalYear": 2024,
           "url": "https://reporter.nih.gov/project-details/11090086",
+          "coreProjectNum": "R01AG075734"
+        },
+        {
+          "id": "3R01AG075734-02S1",
+          "title": "Training the Long-Term Services and Supports Dementia Care Workforce in Provision of Care to Sexual and Gender Minority Residents",
+          "role": "Not listed",
+          "amount": 25096,
+          "startDate": "2022-09-15",
+          "endDate": "2026-05-31",
+          "fiscalYear": 2024,
+          "url": "https://reporter.nih.gov/project-details/11004546",
           "coreProjectNum": "R01AG075734"
         },
         {
@@ -4371,17 +4394,6 @@
           "coreProjectNum": "RF1AG069771"
         },
         {
-          "id": "5R01MD010729-05",
-          "title": "System Factors and Racial Disparities in Nursing Home Quality of Life and Care",
-          "role": "Not listed",
-          "amount": 359473,
-          "startDate": "2016-08-15",
-          "endDate": "2022-04-30",
-          "fiscalYear": 2020,
-          "url": "https://reporter.nih.gov/project-details/9907866",
-          "coreProjectNum": "R01MD010729"
-        },
-        {
           "id": "3R01MD010729-05S1",
           "title": "System Factors and Racial Disparities in Nursing Home Quality of Life and Care",
           "role": "Not listed",
@@ -4390,6 +4402,17 @@
           "endDate": "2022-04-30",
           "fiscalYear": 2020,
           "url": "https://reporter.nih.gov/project-details/10180782",
+          "coreProjectNum": "R01MD010729"
+        },
+        {
+          "id": "5R01MD010729-05",
+          "title": "System Factors and Racial Disparities in Nursing Home Quality of Life and Care",
+          "role": "Not listed",
+          "amount": 359473,
+          "startDate": "2016-08-15",
+          "endDate": "2022-04-30",
+          "fiscalYear": 2020,
+          "url": "https://reporter.nih.gov/project-details/9907866",
           "coreProjectNum": "R01MD010729"
         },
         {
@@ -5255,17 +5278,6 @@
           "coreProjectNum": "U01DK126300"
         },
         {
-          "id": "5U01DK126300-03",
-          "title": "University of Minnesota Clinical Center for the Study of Pancreatic Disease",
-          "role": "Not listed",
-          "amount": 455667,
-          "startDate": "2020-09-03",
-          "endDate": "2025-06-30",
-          "fiscalYear": 2022,
-          "url": "https://reporter.nih.gov/project-details/10445078",
-          "coreProjectNum": "U01DK126300"
-        },
-        {
           "id": "3U01DK126300-03S1",
           "title": "University of Minnesota Clinical Center for the Study of Pancreatic Disease",
           "role": "Not listed",
@@ -5274,6 +5286,17 @@
           "endDate": "2025-06-30",
           "fiscalYear": 2022,
           "url": "https://reporter.nih.gov/project-details/10684392",
+          "coreProjectNum": "U01DK126300"
+        },
+        {
+          "id": "5U01DK126300-03",
+          "title": "University of Minnesota Clinical Center for the Study of Pancreatic Disease",
+          "role": "Not listed",
+          "amount": 455667,
+          "startDate": "2020-09-03",
+          "endDate": "2025-06-30",
+          "fiscalYear": 2022,
+          "url": "https://reporter.nih.gov/project-details/10445078",
           "coreProjectNum": "U01DK126300"
         },
         {
@@ -5726,17 +5749,6 @@
           "coreProjectNum": "R01MH107394"
         },
         {
-          "id": "3R01MH107394-02S1",
-          "title": "A Longitudinal Study Examining Three RDoC Constructs in Adolescents with Non-Suicidal Self-Injury",
-          "role": "Not listed",
-          "amount": 132353,
-          "startDate": "2016-08-01",
-          "endDate": "2021-05-31",
-          "fiscalYear": 2017,
-          "url": "https://reporter.nih.gov/project-details/9474891",
-          "coreProjectNum": "R01MH107394"
-        },
-        {
           "id": "5R01MH107394-02",
           "title": "A Longitudinal Study Examining Three RDoC Constructs in Adolescents with Non-Suicidal Self-Injury",
           "role": "Not listed",
@@ -5745,6 +5757,17 @@
           "endDate": "2021-05-31",
           "fiscalYear": 2017,
           "url": "https://reporter.nih.gov/project-details/9315221",
+          "coreProjectNum": "R01MH107394"
+        },
+        {
+          "id": "3R01MH107394-02S1",
+          "title": "A Longitudinal Study Examining Three RDoC Constructs in Adolescents with Non-Suicidal Self-Injury",
+          "role": "Not listed",
+          "amount": 132353,
+          "startDate": "2016-08-01",
+          "endDate": "2021-05-31",
+          "fiscalYear": 2017,
+          "url": "https://reporter.nih.gov/project-details/9474891",
           "coreProjectNum": "R01MH107394"
         },
         {
