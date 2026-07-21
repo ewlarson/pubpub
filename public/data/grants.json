@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-20",
+  "updated": "2026-07-21",
   "source": "NIH RePORTER API",
   "faculty": [
     {
@@ -5278,17 +5278,6 @@
           "coreProjectNum": "U01DK126300"
         },
         {
-          "id": "3U01DK126300-03S1",
-          "title": "University of Minnesota Clinical Center for the Study of Pancreatic Disease",
-          "role": "Not listed",
-          "amount": 100000,
-          "startDate": "2020-09-03",
-          "endDate": "2025-06-30",
-          "fiscalYear": 2022,
-          "url": "https://reporter.nih.gov/project-details/10684392",
-          "coreProjectNum": "U01DK126300"
-        },
-        {
           "id": "5U01DK126300-03",
           "title": "University of Minnesota Clinical Center for the Study of Pancreatic Disease",
           "role": "Not listed",
@@ -5297,6 +5286,17 @@
           "endDate": "2025-06-30",
           "fiscalYear": 2022,
           "url": "https://reporter.nih.gov/project-details/10445078",
+          "coreProjectNum": "U01DK126300"
+        },
+        {
+          "id": "3U01DK126300-03S1",
+          "title": "University of Minnesota Clinical Center for the Study of Pancreatic Disease",
+          "role": "Not listed",
+          "amount": 100000,
+          "startDate": "2020-09-03",
+          "endDate": "2025-06-30",
+          "fiscalYear": 2022,
+          "url": "https://reporter.nih.gov/project-details/10684392",
           "coreProjectNum": "U01DK126300"
         },
         {

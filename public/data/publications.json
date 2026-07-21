@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-20",
+  "updated": "2026-07-21",
   "source": "PubMed E-utilities",
   "faculty": [
     {
@@ -56003,6 +56003,14 @@
       ],
       "publications": [
         {
+          "id": "42474278",
+          "title": "Accelerated aging and risk of subsequent neoplasms in survivors of childhood cancer: a report from the Childhood Cancer Survivor Study.",
+          "journal": "Cancer epidemiology, biomarkers & prevention : a publication of the American Association for Cancer Research, cosponsored by the American Society of Preventive Oncology",
+          "year": 2026,
+          "doi": "10.1158/1055-9965.EPI-26-0609",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42474278/"
+        },
+        {
           "id": "41499441",
           "title": "Breast cancer recurrence and mortality among survivors of childhood cancer.",
           "journal": "Journal of the National Cancer Institute",
@@ -56726,7 +56734,7 @@
       "authorCounts": null,
       "signals": {
         "positive": {
-          "count": 90,
+          "count": 91,
           "yearRange": {
             "min": 2015,
             "max": 2026
@@ -56778,7 +56786,7 @@
             },
             {
               "year": 2026,
-              "count": 8
+              "count": 9
             }
           ],
           "topJournals": [
@@ -56795,15 +56803,15 @@
               "count": 5
             },
             {
+              "name": "Cancer epidemiology, biomarkers & prevention : a publication of the American Association for Cancer Research, cosponsored by the American Society of Preventive Oncology",
+              "count": 4
+            },
+            {
               "name": "JAMA oncology",
               "count": 4
             },
             {
               "name": "Cancer",
-              "count": 3
-            },
-            {
-              "name": "Cancer epidemiology, biomarkers & prevention : a publication of the American Association for Cancer Research, cosponsored by the American Society of Preventive Oncology",
               "count": 3
             },
             {
@@ -56826,35 +56834,35 @@
           "topKeywords": [
             {
               "name": "cancer",
-              "count": 89
+              "count": 91
             },
             {
               "name": "childhood",
-              "count": 71
+              "count": 73
             },
             {
               "name": "survivors",
-              "count": 41
+              "count": 42
             },
             {
               "name": "risk",
-              "count": 32
+              "count": 33
             },
             {
               "name": "study",
-              "count": 32
+              "count": 33
             },
             {
               "name": "subsequent",
-              "count": 28
+              "count": 29
             },
             {
               "name": "report",
-              "count": 26
+              "count": 27
             },
             {
               "name": "survivor",
-              "count": 26
+              "count": 27
             },
             {
               "name": "among",
@@ -56876,11 +56884,11 @@
           "topCoauthors": [
             {
               "name": "Gregory T Armstrong",
-              "count": 45
+              "count": 46
             },
             {
               "name": "Joseph P Neglia",
-              "count": 44
+              "count": 45
             },
             {
               "name": "Rebecca M Howell",
@@ -56900,7 +56908,7 @@
             },
             {
               "name": "Michael A Arnold",
-              "count": 22
+              "count": 23
             },
             {
               "name": "Tara O Henderson",
@@ -56908,11 +56916,11 @@
             },
             {
               "name": "Wendy M Leisenring",
-              "count": 16
+              "count": 17
             },
             {
               "name": "Kirsten K Ness",
-              "count": 15
+              "count": 16
             },
             {
               "name": "Susan A Smith",
