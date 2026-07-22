@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-21",
+  "updated": "2026-07-22",
   "source": "NIH RePORTER API",
   "faculty": [
     {
@@ -3825,17 +3825,6 @@
           "coreProjectNum": "K23DK118207"
         },
         {
-          "id": "3K23DK118207-03S1",
-          "title": "Optimizing Diabetes Care Quality for Low-Income Patients",
-          "role": "Not listed",
-          "amount": 53919,
-          "startDate": "2018-09-01",
-          "endDate": "2023-08-31",
-          "fiscalYear": 2020,
-          "url": "https://reporter.nih.gov/project-details/10220358",
-          "coreProjectNum": "K23DK118207"
-        },
-        {
           "id": "5K23DK118207-03",
           "title": "Optimizing Diabetes Care Quality for Low-Income Patients",
           "role": "Not listed",
@@ -3844,6 +3833,17 @@
           "endDate": "2023-08-31",
           "fiscalYear": 2020,
           "url": "https://reporter.nih.gov/project-details/10001066",
+          "coreProjectNum": "K23DK118207"
+        },
+        {
+          "id": "3K23DK118207-03S1",
+          "title": "Optimizing Diabetes Care Quality for Low-Income Patients",
+          "role": "Not listed",
+          "amount": 53919,
+          "startDate": "2018-09-01",
+          "endDate": "2023-08-31",
+          "fiscalYear": 2020,
+          "url": "https://reporter.nih.gov/project-details/10220358",
           "coreProjectNum": "K23DK118207"
         },
         {
@@ -4306,17 +4306,6 @@
           "coreProjectNum": "R01AG075734"
         },
         {
-          "id": "3R01AG075734-03S1",
-          "title": "Training the Long-Term Services and Supports Dementia Care Workforce in Provision of Care to Sexual and Gender Minority Residents",
-          "role": "Not listed",
-          "amount": 69606,
-          "startDate": "2022-09-15",
-          "endDate": "2026-05-31",
-          "fiscalYear": 2024,
-          "url": "https://reporter.nih.gov/project-details/11090086",
-          "coreProjectNum": "R01AG075734"
-        },
-        {
           "id": "3R01AG075734-02S1",
           "title": "Training the Long-Term Services and Supports Dementia Care Workforce in Provision of Care to Sexual and Gender Minority Residents",
           "role": "Not listed",
@@ -4325,6 +4314,17 @@
           "endDate": "2026-05-31",
           "fiscalYear": 2024,
           "url": "https://reporter.nih.gov/project-details/11004546",
+          "coreProjectNum": "R01AG075734"
+        },
+        {
+          "id": "3R01AG075734-03S1",
+          "title": "Training the Long-Term Services and Supports Dementia Care Workforce in Provision of Care to Sexual and Gender Minority Residents",
+          "role": "Not listed",
+          "amount": 69606,
+          "startDate": "2022-09-15",
+          "endDate": "2026-05-31",
+          "fiscalYear": 2024,
+          "url": "https://reporter.nih.gov/project-details/11090086",
           "coreProjectNum": "R01AG075734"
         },
         {
@@ -5278,17 +5278,6 @@
           "coreProjectNum": "U01DK126300"
         },
         {
-          "id": "5U01DK126300-03",
-          "title": "University of Minnesota Clinical Center for the Study of Pancreatic Disease",
-          "role": "Not listed",
-          "amount": 455667,
-          "startDate": "2020-09-03",
-          "endDate": "2025-06-30",
-          "fiscalYear": 2022,
-          "url": "https://reporter.nih.gov/project-details/10445078",
-          "coreProjectNum": "U01DK126300"
-        },
-        {
           "id": "3U01DK126300-03S1",
           "title": "University of Minnesota Clinical Center for the Study of Pancreatic Disease",
           "role": "Not listed",
@@ -5297,6 +5286,17 @@
           "endDate": "2025-06-30",
           "fiscalYear": 2022,
           "url": "https://reporter.nih.gov/project-details/10684392",
+          "coreProjectNum": "U01DK126300"
+        },
+        {
+          "id": "5U01DK126300-03",
+          "title": "University of Minnesota Clinical Center for the Study of Pancreatic Disease",
+          "role": "Not listed",
+          "amount": 455667,
+          "startDate": "2020-09-03",
+          "endDate": "2025-06-30",
+          "fiscalYear": 2022,
+          "url": "https://reporter.nih.gov/project-details/10445078",
           "coreProjectNum": "U01DK126300"
         },
         {
