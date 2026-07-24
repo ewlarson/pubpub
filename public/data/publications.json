@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-23",
+  "updated": "2026-07-24",
   "source": "PubMed E-utilities",
   "faculty": [
     {
@@ -7482,7 +7482,7 @@
         },
         {
           "id": "42017206",
-          "title": "Ensitrelvir for the treatment of hospitalized adults with COVID-19: an international phase 3 randomized placebo-controlled trial.",
+          "title": "Ensitrelvir for the Treatment of Hospitalized Adults With COVID-19: An International Phase 3 Randomized Placebo-controlled Trial.",
           "journal": "Clinical infectious diseases : an official publication of the Infectious Diseases Society of America",
           "year": 2026,
           "doi": "10.1093/cid/ciag272",
@@ -26806,6 +26806,14 @@
           "url": "https://pubmed.ncbi.nlm.nih.gov/42117734/"
         },
         {
+          "id": "42491754",
+          "title": "EnVision CF: Building the Next Generation of Leaders in Cystic Fibrosis Endocrinology. A Model for Physician-Scientist Workforce Development in Advanced Subspecialty Care.",
+          "journal": "AACE endocrinology and diabetes",
+          "year": 2026,
+          "doi": "10.1016/j.aed.2026.04.018",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42491754/"
+        },
+        {
           "id": "41932619",
           "title": "Obesity and Metabolic Complications in Cystic Fibrosis.",
           "journal": "Endocrine practice : official journal of the American College of Endocrinology and the American Association of Clinical Endocrinologists",
@@ -27249,7 +27257,7 @@
       "authorCounts": null,
       "signals": {
         "positive": {
-          "count": 57,
+          "count": 58,
           "yearRange": {
             "min": 2013,
             "max": 2026
@@ -27309,7 +27317,7 @@
             },
             {
               "year": 2026,
-              "count": 4
+              "count": 5
             }
           ],
           "topJournals": [
@@ -27361,11 +27369,11 @@
             },
             {
               "name": "cystic",
-              "count": 24
+              "count": 25
             },
             {
               "name": "fibrosis",
-              "count": 24
+              "count": 25
             },
             {
               "name": "hypoglycemia",
@@ -27415,7 +27423,7 @@
             },
             {
               "name": "Antoinette Moran",
-              "count": 11
+              "count": 12
             },
             {
               "name": "G&#xfc;lin &#xd6;z",
