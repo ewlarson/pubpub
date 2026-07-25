@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-24",
+  "updated": "2026-07-25",
   "source": "PubMed E-utilities",
   "faculty": [
     {
@@ -790,6 +790,14 @@
       ],
       "publications": [
         {
+          "id": "42495990",
+          "title": "Guidelines for rigor and reproducibility of heart rate variability within human cardiovascular research.",
+          "journal": "American journal of physiology. Heart and circulatory physiology",
+          "year": 2026,
+          "doi": "10.1152/ajpheart.00041.2026",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42495990/"
+        },
+        {
           "id": "42290883",
           "title": "Holistic approaches to trauma rehabilitation for forced migrants: assessing sleep as an associated factor for mental health, pain, and cardiovascular health.",
           "journal": "Journal of migration and health",
@@ -913,7 +921,7 @@
       "authorCounts": null,
       "signals": {
         "positive": {
-          "count": 15,
+          "count": 16,
           "yearRange": {
             "min": 2022,
             "max": 2026
@@ -937,13 +945,13 @@
             },
             {
               "year": 2026,
-              "count": 2
+              "count": 3
             }
           ],
           "topJournals": [
             {
               "name": "American journal of physiology. Heart and circulatory physiology",
-              "count": 3
+              "count": 4
             },
             {
               "name": "Clinical autonomic research : official journal of the Clinical Autonomic Research Society",
@@ -988,6 +996,10 @@
               "count": 10
             },
             {
+              "name": "cardiovascular",
+              "count": 6
+            },
+            {
               "name": "ptsd",
               "count": 6
             },
@@ -1000,11 +1012,11 @@
               "count": 6
             },
             {
-              "name": "cardiovascular",
+              "name": "exposed",
               "count": 5
             },
             {
-              "name": "exposed",
+              "name": "heart",
               "count": 5
             },
             {
@@ -1013,10 +1025,6 @@
             },
             {
               "name": "health",
-              "count": 4
-            },
-            {
-              "name": "heart",
               "count": 4
             },
             {
@@ -1070,16 +1078,16 @@
               "count": 3
             },
             {
+              "name": "Jason R Carter",
+              "count": 3
+            },
+            {
               "name": "Jeanie Park",
               "count": 3
             },
             {
               "name": "Susan B Racette",
               "count": 3
-            },
-            {
-              "name": "Jason R Carter",
-              "count": 2
             }
           ]
         },
@@ -29797,6 +29805,14 @@
           "url": "https://pubmed.ncbi.nlm.nih.gov/42348090/"
         },
         {
+          "id": "42496655",
+          "title": "Alcohol intake and risk of stomach cancer: a pooled analysis of 20 cohorts.",
+          "journal": "JNCI cancer spectrum",
+          "year": 2026,
+          "doi": "10.1093/jncics/pkag073",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42496655/"
+        },
+        {
           "id": "42373948",
           "title": "Associations of proteomic age clocks with lifestyle risk factors, incident chronic diseases and mortality in two European cohorts.",
           "journal": "Nature aging",
@@ -30776,7 +30792,7 @@
       "authorCounts": null,
       "signals": {
         "positive": {
-          "count": 125,
+          "count": 126,
           "yearRange": {
             "min": 2013,
             "max": 2026
@@ -30836,7 +30852,7 @@
             },
             {
               "year": 2026,
-              "count": 10
+              "count": 11
             }
           ],
           "topJournals": [
@@ -30873,22 +30889,22 @@
               "count": 3
             },
             {
-              "name": "Maturitas",
+              "name": "JNCI cancer spectrum",
               "count": 3
             },
             {
-              "name": "Nutrition and cancer",
+              "name": "Maturitas",
               "count": 3
             }
           ],
           "topKeywords": [
             {
               "name": "cancer",
-              "count": 100
+              "count": 101
             },
             {
               "name": "risk",
-              "count": 84
+              "count": 85
             },
             {
               "name": "study",
@@ -30919,12 +30935,12 @@
               "count": 21
             },
             {
-              "name": "mortality",
+              "name": "analysis",
               "count": 20
             },
             {
-              "name": "analysis",
-              "count": 19
+              "name": "mortality",
+              "count": 20
             },
             {
               "name": "between",
@@ -30973,11 +30989,11 @@
               "count": 11
             },
             {
-              "name": "Kala Visvanathan",
+              "name": "Alicja Wolk",
               "count": 10
             },
             {
-              "name": "Peter Ganz",
+              "name": "Kala Visvanathan",
               "count": 10
             }
           ]
@@ -41029,6 +41045,14 @@
           "url": "https://pubmed.ncbi.nlm.nih.gov/41917987/"
         },
         {
+          "id": "42494079",
+          "title": "Imagination Studio, an arts intervention for college students with depression: changes in mental health, well-being, creativity, and flexible thinking.",
+          "journal": "Arts & health",
+          "year": 2026,
+          "doi": "10.1080/17533015.2026.2706807",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42494079/"
+        },
+        {
           "id": "41803863",
           "title": "Promoting well-being through creativity: a mixed-methods study on integrating studio art into education for students in medical fields in Japan.",
           "journal": "BMC medical education",
@@ -42096,7 +42120,7 @@
       "authorCounts": null,
       "signals": {
         "positive": {
-          "count": 140,
+          "count": 141,
           "yearRange": {
             "min": 2014,
             "max": 2026
@@ -42152,7 +42176,7 @@
             },
             {
               "year": 2026,
-              "count": 10
+              "count": 11
             }
           ],
           "topJournals": [
@@ -42211,12 +42235,12 @@
               "count": 29
             },
             {
-              "name": "suicidal",
+              "name": "depression",
               "count": 28
             },
             {
-              "name": "depression",
-              "count": 27
+              "name": "suicidal",
+              "count": 28
             },
             {
               "name": "study",
@@ -42250,7 +42274,7 @@
           "topCoauthors": [
             {
               "name": "Bonnie Klimes-Dougan",
-              "count": 95
+              "count": 96
             },
             {
               "name": "Bryon A Mueller",
@@ -47113,6 +47137,14 @@
           "url": "https://pubmed.ncbi.nlm.nih.gov/41688122/"
         },
         {
+          "id": "42495990",
+          "title": "Guidelines for rigor and reproducibility of heart rate variability within human cardiovascular research.",
+          "journal": "American journal of physiology. Heart and circulatory physiology",
+          "year": 2026,
+          "doi": "10.1152/ajpheart.00041.2026",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42495990/"
+        },
+        {
           "id": "41717699",
           "title": "Heart Rate Variability Moderates the Association Between Trait Anxiety and Sympathetic Nerve Activity in Humans.",
           "journal": "Hypertension (Dallas, Tex. : 1979)",
@@ -47148,7 +47180,7 @@
       "authorCounts": null,
       "signals": {
         "positive": {
-          "count": 5,
+          "count": 6,
           "yearRange": {
             "min": 2024,
             "max": 2026
@@ -47164,13 +47196,13 @@
             },
             {
               "year": 2026,
-              "count": 2
+              "count": 3
             }
           ],
           "topJournals": [
             {
               "name": "American journal of physiology. Heart and circulatory physiology",
-              "count": 1
+              "count": 2
             },
             {
               "name": "American journal of physiology. Regulatory, integrative and comparative physiology",
@@ -47199,11 +47231,27 @@
               "count": 3
             },
             {
+              "name": "cardiovascular",
+              "count": 2
+            },
+            {
               "name": "females",
               "count": 2
             },
             {
+              "name": "heart",
+              "count": 2
+            },
+            {
               "name": "nerve",
+              "count": 2
+            },
+            {
+              "name": "rate",
+              "count": 2
+            },
+            {
+              "name": "variability",
               "count": 2
             },
             {
@@ -47221,25 +47269,13 @@
             {
               "name": "association",
               "count": 1
-            },
-            {
-              "name": "between",
-              "count": 1
-            },
-            {
-              "name": "blood",
-              "count": 1
-            },
-            {
-              "name": "bursts",
-              "count": 1
-            },
-            {
-              "name": "cardiovascular",
-              "count": 1
             }
           ],
           "topCoauthors": [
+            {
+              "name": "Jason R Carter",
+              "count": 3
+            },
             {
               "name": "Miguel Anselmo",
               "count": 3
@@ -47253,7 +47289,7 @@
               "count": 2
             },
             {
-              "name": "Jason R Carter",
+              "name": "Jeremy A Bigalke",
               "count": 2
             },
             {
@@ -47262,6 +47298,14 @@
             },
             {
               "name": "Annie T Ginty",
+              "count": 1
+            },
+            {
+              "name": "Austin T Robinson",
+              "count": 1
+            },
+            {
+              "name": "Benjamin D Levine",
               "count": 1
             },
             {
@@ -47274,18 +47318,6 @@
             },
             {
               "name": "Emma Lee",
-              "count": 1
-            },
-            {
-              "name": "Jeremy A Bigalke",
-              "count": 1
-            },
-            {
-              "name": "John J Durocher",
-              "count": 1
-            },
-            {
-              "name": "Marnie L Vanden Noven",
               "count": 1
             }
           ]
