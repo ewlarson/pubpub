@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-27",
+  "updated": "2026-07-28",
   "source": "PubMed E-utilities",
   "faculty": [
     {
@@ -35443,6 +35443,14 @@
           "url": "https://pubmed.ncbi.nlm.nih.gov/41631746/"
         },
         {
+          "id": "42507459",
+          "title": "Reorienting Pediatrics Around Relational Health.",
+          "journal": "JAMA pediatrics",
+          "year": 2026,
+          "doi": "10.1001/jamapediatrics.2026.2834",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42507459/"
+        },
+        {
           "id": "40892296",
           "title": "\"It's gotta be really hard to be a mom inside right now:\" a qualitative analysis on the impacts of COVID-19 on perinatal support programs for people in prison.",
           "journal": "Health & justice",
@@ -36086,7 +36094,7 @@
       "authorCounts": null,
       "signals": {
         "positive": {
-          "count": 84,
+          "count": 85,
           "yearRange": {
             "min": 2013,
             "max": 2026
@@ -36146,7 +36154,7 @@
             },
             {
               "year": 2026,
-              "count": 4
+              "count": 5
             }
           ],
           "topJournals": [
@@ -36194,7 +36202,7 @@
           "topKeywords": [
             {
               "name": "health",
-              "count": 31
+              "count": 32
             },
             {
               "name": "among",
