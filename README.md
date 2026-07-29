@@ -15,6 +15,15 @@ Build for production:
 npm run build
 ```
 
+Run the same code-quality checks used by CI:
+
+```bash
+npm run check
+```
+
+The combined check runs ESLint, the test suite, and a production build. You can
+also run `npm run lint`, `npm test`, or `npm run build` separately.
+
 Preview the production build locally:
 
 ```bash

@@ -605,15 +605,6 @@ const parsePubDateString = (value) => {
   return new Date(year, monthIndex, day);
 };
 
-const buildAffiliationClause = (terms) => {
-  const cleaned = terms.map((term) => term.replace(/\s+/g, ' ').trim());
-  if (!cleaned.length) {
-    return '';
-  }
-  const clauses = cleaned.map((term) => `"${term}"[ad]`);
-  return `(${clauses.join(' OR ')})`;
-};
-
 const buildAuthorClause = (nameVariants, orcid, includeInitials = true) => {
   const clauses = [];
 
@@ -762,8 +753,6 @@ const getAuthorMatchType = (author, person) => {
 
   return matchedByInitial ? 'initials' : 'none';
 };
-
-const authorMatchesPerson = (author, person) => getAuthorMatchType(author, person) !== 'none';
 
 const chunk = (arr, size) => {
   const chunks = [];
@@ -1068,6 +1057,7 @@ const parseFaculty = (rows) => {
         email: record.email,
         signatureTerms: new Set(),
         programs: new Set(),
+        programAssociations: new Map(),
         startDate: null,
         nameVariants: new Set()
       });
@@ -1077,10 +1067,15 @@ const parseFaculty = (rows) => {
     addNameVariant(person, record.fore_name, record.last_name);
     addInitialStrippedVariant(person, record.fore_name, record.last_name);
     parseSignatureTerms(record.signature_terms).forEach((term) => person.signatureTerms.add(term));
+    const startDate = parseStartDate(record['start date']);
     if (record['program']) {
       person.programs.add(record['program']);
+      const associationKey = `${record['program']}::${startDate?.toISOString() || ''}`;
+      person.programAssociations.set(associationKey, {
+        program: record['program'],
+        startDate
+      });
     }
-    const startDate = parseStartDate(record['start date']);
     if (startDate && (!person.startDate || startDate < person.startDate)) {
       person.startDate = startDate;
     }
@@ -1088,7 +1083,6 @@ const parseFaculty = (rows) => {
 
   return Array.from(facultyMap.values()).map((person) => {
     const signatureTerms = Array.from(person.signatureTerms);
-    const affiliationTerms = signatureTerms.filter((term) => !isEmail(term));
 
     const nameVariants = Array.from(person.nameVariants).map(parseNameKey);
 
@@ -1105,6 +1099,7 @@ const parseFaculty = (rows) => {
         : [{ foreName: person.foreName, lastName: person.lastName }],
       signatureTerms,
       programs: Array.from(person.programs),
+      programAssociations: Array.from(person.programAssociations.values()),
       startDate: person.startDate,
       startYear: person.startDate ? person.startDate.getFullYear() : null
     };

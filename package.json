@@ -11,7 +11,11 @@
     "export:data": "node scripts/export-static-data.mjs",
     "audit:data": "node scripts/audit-data.mjs",
     "build:data:all": "npm run ingest:faculty && npm run build:data && npm run build:grants && npm run export:data",
+    "lint": "eslint . --max-warnings 0",
+    "lint:fix": "npm run lint -- --fix",
+    "test": "node --test test/*.test.mjs",
     "build": "vite build",
+    "check": "npm run lint && npm test && npm run build",
     "preview": "vite preview"
   },
   "dependencies": {
@@ -20,9 +24,14 @@
     "react-dom": "^18.3.1"
   },
   "devDependencies": {
+    "@eslint/js": "^10.0.1",
     "@vitejs/plugin-react": "^4.3.1",
     "dotenv": "^16.4.5",
+    "eslint": "^10.8.0",
+    "eslint-plugin-react-hooks": "^7.1.1",
+    "eslint-plugin-react-refresh": "^0.5.3",
     "fast-xml-parser": "^4.4.1",
+    "globals": "^17.8.0",
     "vite": "^5.4.2"
   }
 }
