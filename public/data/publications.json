@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-28",
+  "updated": "2026-07-29",
   "source": "PubMed E-utilities",
   "faculty": [
     {
@@ -18740,6 +18740,14 @@
       ],
       "publications": [
         {
+          "id": "42522283",
+          "title": "Addressing Weight Stigma in WIC: A Qualitative Study Exploring Advice and Training Needs of Minnesota WIC Staff.",
+          "journal": "Childhood obesity (Print)",
+          "year": 2026,
+          "doi": "10.1177/21532176261473766",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42522283/"
+        },
+        {
           "id": "40806833",
           "title": "Negative Weight Attitudes and Disordered Eating Behaviors in Hispanic Adolescents: A Descriptive Study of Gender and Weight Status Associations.",
           "journal": "Journal of clinical medicine",
@@ -18775,10 +18783,10 @@
       "authorCounts": null,
       "signals": {
         "positive": {
-          "count": 4,
+          "count": 5,
           "yearRange": {
             "min": 2022,
-            "max": 2025
+            "max": 2026
           },
           "yearCounts": [
             {
@@ -18792,11 +18800,19 @@
             {
               "year": 2025,
               "count": 2
+            },
+            {
+              "year": 2026,
+              "count": 1
             }
           ],
           "topJournals": [
             {
               "name": "American journal of health promotion : AJHP",
+              "count": 1
+            },
+            {
+              "name": "Childhood obesity (Print)",
               "count": 1
             },
             {
@@ -18815,7 +18831,7 @@
           "topKeywords": [
             {
               "name": "weight",
-              "count": 4
+              "count": 5
             },
             {
               "name": "associations",
@@ -18834,7 +18850,19 @@
               "count": 2
             },
             {
+              "name": "study",
+              "count": 2
+            },
+            {
+              "name": "wic",
+              "count": 2
+            },
+            {
               "name": "activity",
+              "count": 1
+            },
+            {
+              "name": "addressing",
               "count": 1
             },
             {
@@ -18846,19 +18874,7 @@
               "count": 1
             },
             {
-              "name": "among",
-              "count": 1
-            },
-            {
-              "name": "attitudes",
-              "count": 1
-            },
-            {
-              "name": "based",
-              "count": 1
-            },
-            {
-              "name": "class",
+              "name": "advice",
               "count": 1
             }
           ],
@@ -18880,6 +18896,10 @@
               "count": 2
             },
             {
+              "name": "Carolyn Bresnahan",
+              "count": 1
+            },
+            {
               "name": "Dianne Neumark-Sztainer",
               "count": 1
             },
@@ -18896,19 +18916,15 @@
               "count": 1
             },
             {
+              "name": "Laura Hooper",
+              "count": 1
+            },
+            {
               "name": "Margit Wiesner",
               "count": 1
             },
             {
               "name": "Marla E Eisenberg",
-              "count": 1
-            },
-            {
-              "name": "Nicole Larson",
-              "count": 1
-            },
-            {
-              "name": "Rachel R Helbing",
               "count": 1
             }
           ]
@@ -20608,6 +20624,14 @@
           "url": "https://pubmed.ncbi.nlm.nih.gov/41973323/"
         },
         {
+          "id": "42521522",
+          "title": "Regrowth of disappearing liver lesions is rare and is not associated with diminished overall survival.",
+          "journal": "HPB : the official journal of the International Hepato Pancreato Biliary Association",
+          "year": 2026,
+          "doi": "10.1016/j.hpb.2026.06.019",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42521522/"
+        },
+        {
           "id": "42010944",
           "title": "Trajectories of health care contact days experienced by decedents who underwent curative-intent surgery for pancreatic cancer.",
           "journal": "The oncologist",
@@ -20731,7 +20755,7 @@
       "authorCounts": null,
       "signals": {
         "positive": {
-          "count": 16,
+          "count": 17,
           "yearRange": {
             "min": 2022,
             "max": 2026
@@ -20755,12 +20779,16 @@
             },
             {
               "year": 2026,
-              "count": 2
+              "count": 3
             }
           ],
           "topJournals": [
             {
               "name": "Breast cancer research and treatment",
+              "count": 2
+            },
+            {
+              "name": "HPB : the official journal of the International Hepato Pancreato Biliary Association",
               "count": 2
             },
             {
@@ -20777,10 +20805,6 @@
             },
             {
               "name": "Gastroenterology",
-              "count": 1
-            },
-            {
-              "name": "HPB : the official journal of the International Hepato Pancreato Biliary Association",
               "count": 1
             },
             {
@@ -20818,6 +20842,10 @@
               "count": 3
             },
             {
+              "name": "survival",
+              "count": 3
+            },
+            {
               "name": "therapy",
               "count": 3
             },
@@ -20844,27 +20872,23 @@
             {
               "name": "pancreatic",
               "count": 2
-            },
-            {
-              "name": "positive",
-              "count": 2
             }
           ],
           "topCoauthors": [
             {
               "name": "Eric H Jensen",
-              "count": 8
+              "count": 9
             },
             {
               "name": "Jacob S Ankeny",
-              "count": 5
-            },
-            {
-              "name": "Saranya Prathibha",
-              "count": 5
+              "count": 6
             },
             {
               "name": "Schelomo Marmor",
+              "count": 6
+            },
+            {
+              "name": "Saranya Prathibha",
               "count": 5
             },
             {
@@ -20876,12 +20900,12 @@
               "count": 4
             },
             {
-              "name": "Julia Davydova",
+              "name": "David G Brauer",
               "count": 4
             },
             {
-              "name": "David G Brauer",
-              "count": 3
+              "name": "Julia Davydova",
+              "count": 4
             },
             {
               "name": "Jane Y C Hui",
@@ -20892,11 +20916,11 @@
               "count": 3
             },
             {
-              "name": "Amy A Gravely",
-              "count": 2
+              "name": "Qianyun Luo",
+              "count": 3
             },
             {
-              "name": "Anders D Westanmo",
+              "name": "Amy A Gravely",
               "count": 2
             }
           ]
@@ -50155,6 +50179,14 @@
           "url": "https://pubmed.ncbi.nlm.nih.gov/42128278/"
         },
         {
+          "id": "42521142",
+          "title": "THE EFFECT OF ENDODONTIC DISINFECTION ON MICROBIAL REDUCTION AND BIODIVERSITY OF ROOT CANAL SYSTEMS WITH NECROTIC PULPS.",
+          "journal": "Journal of endodontics",
+          "year": 2026,
+          "doi": "10.1016/j.joen.2026.07.016",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42521142/"
+        },
+        {
           "id": "41765175",
           "title": "Taxonomy and Virulence Factors in the Root Canal Microbiome: Metagenomic Insights by Lesion Size and Clinical Factors in Primary Endodontic Infections.",
           "journal": "Journal of endodontics",
@@ -50494,7 +50526,7 @@
       "authorCounts": null,
       "signals": {
         "positive": {
-          "count": 54,
+          "count": 55,
           "yearRange": {
             "min": 2021,
             "max": 2026
@@ -50522,13 +50554,13 @@
             },
             {
               "year": 2026,
-              "count": 13
+              "count": 14
             }
           ],
           "topJournals": [
             {
               "name": "Journal of endodontics",
-              "count": 23
+              "count": 24
             },
             {
               "name": "International endodontic journal",
@@ -50566,7 +50598,11 @@
           "topKeywords": [
             {
               "name": "root",
-              "count": 15
+              "count": 16
+            },
+            {
+              "name": "canal",
+              "count": 12
             },
             {
               "name": "insights",
@@ -50577,10 +50613,6 @@
               "count": 12
             },
             {
-              "name": "canal",
-              "count": 11
-            },
-            {
               "name": "joe",
               "count": 10
             },
@@ -50589,12 +50621,12 @@
               "count": 10
             },
             {
-              "name": "teeth",
+              "name": "endodontic",
               "count": 9
             },
             {
-              "name": "endodontic",
-              "count": 8
+              "name": "teeth",
+              "count": 9
             },
             {
               "name": "2026",
@@ -50660,7 +50692,7 @@
             },
             {
               "name": "Christopher Staley",
-              "count": 9
+              "count": 10
             }
           ]
         },
@@ -53437,6 +53469,14 @@
       ],
       "publications": [
         {
+          "id": "42522353",
+          "title": "Caregiving for Older Adults with Hypertension: A Scoping Review.",
+          "journal": "Journal of applied gerontology : the official journal of the Southern Gerontological Society",
+          "year": 2026,
+          "doi": "10.1177/07334648261472538",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42522353/"
+        },
+        {
           "id": "39982623",
           "title": "Impact of chemotherapy-induced peripheral neuropathy on physical function in pediatric cancer survivors: a systematic review.",
           "journal": "Journal of cancer survivorship : research and practice",
@@ -53640,10 +53680,10 @@
       "authorCounts": null,
       "signals": {
         "positive": {
-          "count": 25,
+          "count": 26,
           "yearRange": {
             "min": 2015,
-            "max": 2025
+            "max": 2026
           },
           "yearCounts": [
             {
@@ -53688,6 +53728,10 @@
             },
             {
               "year": 2025,
+              "count": 1
+            },
+            {
+              "year": 2026,
               "count": 1
             }
           ],
@@ -53763,6 +53807,10 @@
               "count": 5
             },
             {
+              "name": "adults",
+              "count": 5
+            },
+            {
               "name": "association",
               "count": 5
             },
@@ -53773,10 +53821,6 @@
             {
               "name": "therapy",
               "count": 5
-            },
-            {
-              "name": "adults",
-              "count": 4
             },
             {
               "name": "african",
