@@ -188,6 +188,7 @@ const parseFaculty = (rows) => {
         email: record.email,
         signatureTerms: new Set(),
         programs: new Set(),
+        programAssociations: new Map(),
         startDate: null
       });
     }
@@ -196,10 +197,15 @@ const parseFaculty = (rows) => {
     parseSignatureTerms(record.signature_terms).forEach((term) =>
       person.signatureTerms.add(term)
     );
+    const startDate = parseStartDate(record['start date']);
     if (record['program']) {
       person.programs.add(record['program']);
+      const associationKey = `${record['program']}::${startDate?.toISOString() || ''}`;
+      person.programAssociations.set(associationKey, {
+        program: record['program'],
+        startDate
+      });
     }
-    const startDate = parseStartDate(record['start date']);
     if (startDate && (!person.startDate || startDate < person.startDate)) {
       person.startDate = startDate;
     }
@@ -219,6 +225,7 @@ const parseFaculty = (rows) => {
       email: person.email || '',
       signatureTerms,
       programs: Array.from(person.programs),
+      programAssociations: Array.from(person.programAssociations.values()),
       orgNames,
       startDate: person.startDate
     };

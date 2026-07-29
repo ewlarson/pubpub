@@ -244,17 +244,49 @@ export const upsertCanonicalFaculty = (db, person, options = {}) => {
     VALUES (?, ?, ?, ?, ?)
   `).run(canonicalId, displayName, email, orcid, source);
 
-  const programs = Array.isArray(person.programs) ? person.programs : [];
-  programs.forEach((program) => {
-    const cleanProgram = String(program || '').trim();
-    if (!cleanProgram) {
-      return;
+  const hasExplicitProgramAssociations = Array.isArray(person.programAssociations);
+  const programAssociations = hasExplicitProgramAssociations
+    ? person.programAssociations
+    : (Array.isArray(person.programs) ? person.programs : []).map((program) => ({
+        program,
+        startDate: person.startDate,
+        endDate: person.endDate
+      }));
+  const syncProgramAssociations = db.transaction(() => {
+    if (hasExplicitProgramAssociations) {
+      const removeProgram = db.prepare(
+        'DELETE FROM faculty_programs WHERE faculty_id = ? AND program = ?'
+      );
+      const programs = new Set(
+        programAssociations.map((association) =>
+          String(association?.program || '').trim()
+        )
+      );
+      programs.forEach((program) => {
+        if (program) {
+          removeProgram.run(canonicalId, program);
+        }
+      });
     }
-    db.prepare(`
+
+    const insertProgram = db.prepare(`
       INSERT OR IGNORE INTO faculty_programs (faculty_id, program, start_date, end_date)
-      VALUES (?, ?, ?, '')
-    `).run(canonicalId, cleanProgram, toIsoDate(person.startDate));
+      VALUES (?, ?, ?, ?)
+    `);
+    programAssociations.forEach((association) => {
+      const cleanProgram = String(association?.program || '').trim();
+      if (!cleanProgram) {
+        return;
+      }
+      insertProgram.run(
+        canonicalId,
+        cleanProgram,
+        toIsoDate(association?.startDate),
+        toIsoDate(association?.endDate)
+      );
+    });
   });
+  syncProgramAssociations();
 
   const signatureTerms = Array.isArray(person.signatureTerms) ? person.signatureTerms : [];
   signatureTerms.forEach((term) => {
@@ -273,6 +305,31 @@ export const upsertCanonicalFaculty = (db, person, options = {}) => {
   });
 
   return canonicalId;
+};
+
+export const replaceAllFacultyProgramAssociations = (db, associations = []) => {
+  const replace = db.transaction((entries) => {
+    db.prepare('DELETE FROM faculty_programs').run();
+    const insert = db.prepare(`
+      INSERT OR IGNORE INTO faculty_programs (faculty_id, program, start_date, end_date)
+      VALUES (?, ?, ?, ?)
+    `);
+    entries.forEach((association) => {
+      const facultyId = String(association?.facultyId || '').trim();
+      const program = String(association?.program || '').trim();
+      if (!facultyId || !program) {
+        return;
+      }
+      insert.run(
+        facultyId,
+        program,
+        toIsoDate(association?.startDate),
+        toIsoDate(association?.endDate)
+      );
+    });
+  });
+
+  replace(Array.isArray(associations) ? associations : []);
 };
 
 export const getFacultySignatureTerms = (db, facultyId) =>

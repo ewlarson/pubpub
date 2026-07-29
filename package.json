@@ -11,6 +11,7 @@
     "export:data": "node scripts/export-static-data.mjs",
     "audit:data": "node scripts/audit-data.mjs",
     "build:data:all": "npm run ingest:faculty && npm run build:data && npm run build:grants && npm run export:data",
+    "test": "node --test test/*.test.mjs",
     "build": "vite build",
     "preview": "vite preview"
   },

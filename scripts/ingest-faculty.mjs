@@ -2,7 +2,13 @@ import { existsSync } from 'node:fs';
 import { readFile } from 'node:fs/promises';
 import path from 'node:path';
 import dotenv from 'dotenv';
-import { initDb, remapFacultyIdReferences, toSlug, upsertCanonicalFaculty } from './db.mjs';
+import {
+  initDb,
+  remapFacultyIdReferences,
+  replaceAllFacultyProgramAssociations,
+  toSlug,
+  upsertCanonicalFaculty
+} from './db.mjs';
 
 const envLocal = path.resolve('.env.local');
 if (existsSync(envLocal)) {
@@ -120,6 +126,8 @@ const parseFacultyRecords = (rows) => {
       const email = record.email || '';
       const orcid = record.orcid || record.orcid_id || '';
       const legacySlug = toSlug(record.person_id || `${foreName}-${lastName}-${email}`);
+      const programs = parsePrograms(record.program);
+      const startDate = parseStartDate(record.start_date || record.funding_start_date);
       return {
         id: legacySlug,
         legacySlug,
@@ -129,8 +137,9 @@ const parseFacultyRecords = (rows) => {
         email,
         orcid: /^none$/i.test(orcid) ? '' : orcid,
         signatureTerms: parseSignatureTerms(record.signature_terms),
-        programs: parsePrograms(record.program),
-        startDate: parseStartDate(record.start_date || record.funding_start_date)
+        programs,
+        programAssociations: programs.map((program) => ({ program, startDate })),
+        startDate
       };
     });
 };
@@ -167,6 +176,7 @@ const main = async () => {
 
   let mergedCount = 0;
   const canonicalIds = new Set();
+  const programAssociations = [];
   for (const person of facultyRecords) {
     const overrideCanonicalId = resolveOverrideCanonicalId(person, overrides);
     const canonicalId = upsertCanonicalFaculty(db, person, {
@@ -182,7 +192,14 @@ const main = async () => {
       mergedCount += 1;
     }
     canonicalIds.add(resolvedCanonicalId);
+    person.programAssociations.forEach((association) => {
+      programAssociations.push({
+        facultyId: resolvedCanonicalId,
+        ...association
+      });
+    });
   }
+  replaceAllFacultyProgramAssociations(db, programAssociations);
 
   const activeCount =
     db.prepare('SELECT COUNT(*) AS count FROM faculty WHERE active = 1').get()?.count || 0;

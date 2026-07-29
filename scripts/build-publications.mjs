@@ -1068,6 +1068,7 @@ const parseFaculty = (rows) => {
         email: record.email,
         signatureTerms: new Set(),
         programs: new Set(),
+        programAssociations: new Map(),
         startDate: null,
         nameVariants: new Set()
       });
@@ -1077,10 +1078,15 @@ const parseFaculty = (rows) => {
     addNameVariant(person, record.fore_name, record.last_name);
     addInitialStrippedVariant(person, record.fore_name, record.last_name);
     parseSignatureTerms(record.signature_terms).forEach((term) => person.signatureTerms.add(term));
+    const startDate = parseStartDate(record['start date']);
     if (record['program']) {
       person.programs.add(record['program']);
+      const associationKey = `${record['program']}::${startDate?.toISOString() || ''}`;
+      person.programAssociations.set(associationKey, {
+        program: record['program'],
+        startDate
+      });
     }
-    const startDate = parseStartDate(record['start date']);
     if (startDate && (!person.startDate || startDate < person.startDate)) {
       person.startDate = startDate;
     }
@@ -1105,6 +1111,7 @@ const parseFaculty = (rows) => {
         : [{ foreName: person.foreName, lastName: person.lastName }],
       signatureTerms,
       programs: Array.from(person.programs),
+      programAssociations: Array.from(person.programAssociations.values()),
       startDate: person.startDate,
       startYear: person.startDate ? person.startDate.getFullYear() : null
     };

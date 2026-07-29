@@ -87,10 +87,6 @@
       "programAssociations": [
         {
           "program": "K-R01",
-          "startDate": "2021-10-07"
-        },
-        {
-          "program": "K-R01",
           "startDate": "2024-01-01"
         },
         {
@@ -371,10 +367,6 @@
       "programAssociations": [
         {
           "program": "K-R01",
-          "startDate": "2022-08-01"
-        },
-        {
-          "program": "K-R01",
           "startDate": "2024-01-01"
         },
         {
@@ -622,10 +614,6 @@
         "KL2 Career Development Program"
       ],
       "programAssociations": [
-        {
-          "program": "K-R01",
-          "startDate": "2011-10-01"
-        },
         {
           "program": "K-R01",
           "startDate": "2012-03-01"
@@ -1276,10 +1264,6 @@
       "programAssociations": [
         {
           "program": "K-R01",
-          "startDate": "2011-09-01"
-        },
-        {
-          "program": "K-R01",
           "startDate": "2013-03-01"
         },
         {
@@ -1566,10 +1550,6 @@
       "programAssociations": [
         {
           "program": "K12 Career Development Program",
-          "startDate": "2022-09-01"
-        },
-        {
-          "program": "K12 Career Development Program",
           "startDate": "2024-02-01"
         },
         {
@@ -1776,10 +1756,6 @@
         },
         {
           "program": "KL2 Career Development Program",
-          "startDate": "2012-03-01"
-        },
-        {
-          "program": "KL2 Career Development Program",
           "startDate": "2013-09-01"
         }
       ],
@@ -1981,10 +1957,6 @@
         "KL2 Career Development Program"
       ],
       "programAssociations": [
-        {
-          "program": "K-R01",
-          "startDate": "2015-10-01"
-        },
         {
           "program": "K-R01",
           "startDate": "2018-11-01"
@@ -3070,18 +3042,10 @@
       "programAssociations": [
         {
           "program": "K-R01",
-          "startDate": "2013-03-01"
-        },
-        {
-          "program": "K-R01",
           "startDate": "2022-03-01"
         },
         {
           "program": "KAP (formerly PreK)",
-          "startDate": "2013-03-01"
-        },
-        {
-          "program": "KL2 Career Development Program",
           "startDate": "2013-03-01"
         },
         {
@@ -3235,10 +3199,6 @@
       "programAssociations": [
         {
           "program": "KAP (formerly PreK)",
-          "startDate": "2020-09-01"
-        },
-        {
-          "program": "KL2 Career Development Program",
           "startDate": "2020-09-01"
         },
         {
@@ -3455,10 +3415,6 @@
       "programAssociations": [
         {
           "program": "K-R01",
-          "startDate": "2019-07-01"
-        },
-        {
-          "program": "K-R01",
           "startDate": "2024-07-01"
         },
         {
@@ -3480,10 +3436,6 @@
         "KL2 Career Development Program"
       ],
       "programAssociations": [
-        {
-          "program": "K-R01",
-          "startDate": "2014-09-01"
-        },
         {
           "program": "K-R01",
           "startDate": "2019-11-01"
@@ -3767,10 +3719,6 @@
       "programAssociations": [
         {
           "program": "K-R01",
-          "startDate": "2016-06-01"
-        },
-        {
-          "program": "K-R01",
           "startDate": "2021-03-01"
         },
         {
@@ -3881,10 +3829,6 @@
         "KL2 Career Development Program"
       ],
       "programAssociations": [
-        {
-          "program": "K-R01",
-          "startDate": "2015-03-01"
-        },
         {
           "program": "K-R01",
           "startDate": "2018-11-01"
@@ -4062,10 +4006,6 @@
         "KL2 Career Development Program"
       ],
       "programAssociations": [
-        {
-          "program": "K-R01",
-          "startDate": "2015-09-01"
-        },
         {
           "program": "K-R01",
           "startDate": "2021-03-01"
@@ -4485,10 +4425,6 @@
       "programAssociations": [
         {
           "program": "KAP (formerly PreK)",
-          "startDate": "2013-03-01"
-        },
-        {
-          "program": "KL2 Career Development Program",
           "startDate": "2013-03-01"
         },
         {
@@ -7563,10 +7499,6 @@
         "KAP (formerly PreK)"
       ],
       "programAssociations": [
-        {
-          "program": "K-R01",
-          "startDate": "2015-09-01"
-        },
         {
           "program": "K-R01",
           "startDate": "2019-11-01"
