@@ -1386,8 +1386,10 @@ const main = async () => {
     await sleep(350);
   }
 
+  const updatedAt = new Date().toISOString();
   const output = {
-    updated: new Date().toISOString().slice(0, 10),
+    updated: updatedAt.slice(0, 10),
+    updatedAt,
     source: 'PubMed E-utilities',
     faculty: results
   };

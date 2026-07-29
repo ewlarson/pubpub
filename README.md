@@ -165,6 +165,7 @@ Minimal schema:
 ```json
 {
   "updated": "YYYY-MM-DD",
+  "updatedAt": "YYYY-MM-DDTHH:mm:ss.sssZ",
   "source": "optional string",
   "faculty": [
     {
@@ -193,6 +194,7 @@ Grant schema (for `public/data/grants.json`):
 ```json
 {
   "updated": "YYYY-MM-DD",
+  "updatedAt": "YYYY-MM-DDTHH:mm:ss.sssZ",
   "source": "optional string",
   "faculty": [
     {

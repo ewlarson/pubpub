@@ -1,5 +1,9 @@
 import { Fragment, useEffect, useMemo, useRef, useState } from 'react';
 import { buildCollaborationGraph, getPublicationKey } from './collaboration.js';
+import {
+  formatDatasetUpdatedAt,
+  watchForDatasetUpdates
+} from './data-refresh.js';
 
 const PUBLICATIONS_URL = `${import.meta.env.BASE_URL}data/publications.json`;
 const GRANTS_URL = `${import.meta.env.BASE_URL}data/grants.json`;
@@ -1440,8 +1444,18 @@ const NetworkGraph = ({
 };
 
 export default function App() {
-  const [pubData, setPubData] = useState({ updated: '', source: '', faculty: [] });
-  const [grantData, setGrantData] = useState({ updated: '', source: '', faculty: [] });
+  const [pubData, setPubData] = useState({
+    updated: '',
+    updatedAt: '',
+    source: '',
+    faculty: []
+  });
+  const [grantData, setGrantData] = useState({
+    updated: '',
+    updatedAt: '',
+    source: '',
+    faculty: []
+  });
   const [pubStatus, setPubStatus] = useState('loading');
   const [grantStatus, setGrantStatus] = useState('loading');
   const [tab, setTab] = useState(() => {
@@ -1540,8 +1554,9 @@ export default function App() {
 
   useEffect(() => {
     let active = true;
+    let refreshing = false;
 
-    const loadDataset = async (url, setPayload, setState) => {
+    const loadDataset = async (url, setPayload, setState, background) => {
       try {
         const response = await fetch(url, { cache: 'no-store' });
         if (!response.ok) {
@@ -1557,17 +1572,35 @@ export default function App() {
         }
       } catch (error) {
         console.error(error);
-        if (active) {
+        if (active && !background) {
           setState(error.message === 'missing' ? 'missing' : 'error');
         }
       }
     };
 
-    loadDataset(PUBLICATIONS_URL, setPubData, setPubStatus);
-    loadDataset(GRANTS_URL, setGrantData, setGrantStatus);
+    const refreshDatasets = async ({ background = false } = {}) => {
+      if (refreshing) {
+        return;
+      }
+      refreshing = true;
+      try {
+        await Promise.all([
+          loadDataset(PUBLICATIONS_URL, setPubData, setPubStatus, background),
+          loadDataset(GRANTS_URL, setGrantData, setGrantStatus, background)
+        ]);
+      } finally {
+        refreshing = false;
+      }
+    };
+
+    void refreshDatasets();
+    const stopWatchingForUpdates = watchForDatasetUpdates(() => {
+      void refreshDatasets({ background: true });
+    });
 
     return () => {
       active = false;
+      stopWatchingForUpdates();
     };
   }, []);
 
@@ -2835,6 +2868,7 @@ export default function App() {
 
   const activeStatus = isGrants ? grantStatus : pubStatus;
   const activeData = isGrants ? grantData : pubData;
+  const activeUpdatedAt = formatDatasetUpdatedAt(activeData.updatedAt);
   const activeLabel = isGrants ? 'grants' : isCollaboration ? 'collaboration' : 'publications';
   const activeFile = isGrants
     ? 'public/data/grants.json'
@@ -3213,7 +3247,26 @@ export default function App() {
             </>
           )}
           <div>
-            <span className="label">Last updated</span>
+            <span className="label updated-label">
+              Last updated
+              {activeUpdatedAt ? (
+                <span
+                  className="updated-info"
+                  tabIndex={0}
+                  aria-label={`Last refreshed ${activeUpdatedAt}`}
+                  aria-describedby="last-updated-tooltip"
+                >
+                  <span aria-hidden="true">i</span>
+                  <span
+                    id="last-updated-tooltip"
+                    className="updated-tooltip"
+                    role="tooltip"
+                  >
+                    Refreshed {activeUpdatedAt}
+                  </span>
+                </span>
+              ) : null}
+            </span>
             <strong>{activeData.updated || 'Unknown'}</strong>
           </div>
         </div>

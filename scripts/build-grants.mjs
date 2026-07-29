@@ -607,8 +607,10 @@ const main = async () => {
     );
   }
 
+  const updatedAt = new Date().toISOString();
   const output = {
-    updated: new Date().toISOString().slice(0, 10),
+    updated: updatedAt.slice(0, 10),
+    updatedAt,
     source: 'NIH RePORTER API',
     faculty: results
   };

@@ -179,7 +179,7 @@ const getGrantRows = (db, facultyId) =>
     )
     .all(facultyId);
 
-const buildPublicationsOutput = (db) => {
+const buildPublicationsOutput = (db, updatedAt) => {
   const faculty = getFacultyRows(db).map((facultyRow) => {
     const id = facultyRow.id;
     const programAssociations = db
@@ -218,13 +218,14 @@ const buildPublicationsOutput = (db) => {
   });
 
   return {
-    updated: new Date().toISOString().slice(0, 10),
+    updated: updatedAt.slice(0, 10),
+    updatedAt,
     source: 'PubMed E-utilities',
     faculty
   };
 };
 
-const buildGrantsOutput = (db) => {
+const buildGrantsOutput = (db, updatedAt) => {
   const faculty = getFacultyRows(db).map((facultyRow) => {
     const id = facultyRow.id;
     const programAssociations = db
@@ -253,7 +254,8 @@ const buildGrantsOutput = (db) => {
   });
 
   return {
-    updated: new Date().toISOString().slice(0, 10),
+    updated: updatedAt.slice(0, 10),
+    updatedAt,
     source: 'NIH RePORTER API',
     faculty
   };
@@ -261,8 +263,9 @@ const buildGrantsOutput = (db) => {
 
 const main = async () => {
   const db = initDb();
-  const publicationsOutput = buildPublicationsOutput(db);
-  const grantsOutput = buildGrantsOutput(db);
+  const updatedAt = new Date().toISOString();
+  const publicationsOutput = buildPublicationsOutput(db, updatedAt);
+  const grantsOutput = buildGrantsOutput(db, updatedAt);
   db.close();
 
   await writeFile(PUBLICATIONS_OUTPUT_PATH, `${JSON.stringify(publicationsOutput, null, 2)}\n`, 'utf8');
