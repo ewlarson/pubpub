@@ -588,7 +588,12 @@ const buildNetworkLayout = (
     });
   }
 
-  return positions.map(({ vx, vy, ...node }) => node);
+  return positions.map((node) => {
+    const settledNode = { ...node };
+    delete settledNode.vx;
+    delete settledNode.vy;
+    return settledNode;
+  });
 };
 
 const buildCollaborationGraph = (members) => {
@@ -779,12 +784,12 @@ const LineChart = ({
   onSelect,
   selectedLabel
 }) => {
-  if (!data || data.length === 0) {
-    return null;
-  }
   const containerRef = useRef(null);
   const [tooltip, setTooltip] = useState(null);
   const [hoveredLabel, setHoveredLabel] = useState(null);
+  if (!data || data.length === 0) {
+    return null;
+  }
   const padding = { top: 28, right: 24, bottom: 36, left: 40 };
   const plotWidth = width - padding.left - padding.right;
   const plotHeight = height - padding.top - padding.bottom;
@@ -973,12 +978,12 @@ const BarChart = ({
   onSelect,
   selectedLabel
 }) => {
-  if (!data || data.length === 0) {
-    return null;
-  }
   const containerRef = useRef(null);
   const [tooltip, setTooltip] = useState(null);
   const [hoveredLabel, setHoveredLabel] = useState(null);
+  if (!data || data.length === 0) {
+    return null;
+  }
   const padding = { top: 28, right: 20, bottom: 44, left: 42 };
   const plotWidth = width - padding.left - padding.right;
   const plotHeight = height - padding.top - padding.bottom;
@@ -1139,6 +1144,9 @@ const DonutChart = ({
   onSelect,
   selectedLabel
 }) => {
+  const containerRef = useRef(null);
+  const [tooltip, setTooltip] = useState(null);
+  const [hoveredLabel, setHoveredLabel] = useState(null);
   if (!segments || segments.length === 0) {
     return null;
   }
@@ -1146,9 +1154,6 @@ const DonutChart = ({
   if (!total) {
     return null;
   }
-  const containerRef = useRef(null);
-  const [tooltip, setTooltip] = useState(null);
-  const [hoveredLabel, setHoveredLabel] = useState(null);
   const centerX = width / 2;
   const centerY = height / 2;
   const outerRadius = Math.min(width, height) / 2 - 24;
@@ -1654,7 +1659,15 @@ export default function App() {
       setOpenId(match.id);
       setSelectedFacultyId(match.id);
     }
-  }, [tab, pubStatus, grantStatus, pubData.faculty, grantData.faculty]);
+  }, [
+    tab,
+    pubStatus,
+    grantStatus,
+    pubData.faculty,
+    grantData.faculty,
+    isGrants,
+    isCollaboration
+  ]);
 
   const handleCopyLink = async (member) => {
     const url = new URL(window.location.href);
@@ -2834,7 +2847,7 @@ export default function App() {
       window.removeEventListener('scroll', handlePosition);
       window.removeEventListener('resize', handlePosition);
     };
-  }, [openId, tab]);
+  }, [openId, tab, isGrants, isCollaboration]);
 
   const activeStatus = isGrants ? grantStatus : pubStatus;
   const activeData = isGrants ? grantData : pubData;

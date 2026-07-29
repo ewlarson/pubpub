@@ -605,15 +605,6 @@ const parsePubDateString = (value) => {
   return new Date(year, monthIndex, day);
 };
 
-const buildAffiliationClause = (terms) => {
-  const cleaned = terms.map((term) => term.replace(/\s+/g, ' ').trim());
-  if (!cleaned.length) {
-    return '';
-  }
-  const clauses = cleaned.map((term) => `"${term}"[ad]`);
-  return `(${clauses.join(' OR ')})`;
-};
-
 const buildAuthorClause = (nameVariants, orcid, includeInitials = true) => {
   const clauses = [];
 
@@ -762,8 +753,6 @@ const getAuthorMatchType = (author, person) => {
 
   return matchedByInitial ? 'initials' : 'none';
 };
-
-const authorMatchesPerson = (author, person) => getAuthorMatchType(author, person) !== 'none';
 
 const chunk = (arr, size) => {
   const chunks = [];
@@ -1094,7 +1083,6 @@ const parseFaculty = (rows) => {
 
   return Array.from(facultyMap.values()).map((person) => {
     const signatureTerms = Array.from(person.signatureTerms);
-    const affiliationTerms = signatureTerms.filter((term) => !isEmail(term));
 
     const nameVariants = Array.from(person.nameVariants).map(parseNameKey);
 
