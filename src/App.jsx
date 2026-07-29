@@ -1,4 +1,5 @@
 import { Fragment, useEffect, useMemo, useRef, useState } from 'react';
+import { buildCollaborationGraph, getPublicationKey } from './collaboration.js';
 
 const PUBLICATIONS_URL = `${import.meta.env.BASE_URL}data/publications.json`;
 const GRANTS_URL = `${import.meta.env.BASE_URL}data/grants.json`;
@@ -479,13 +480,6 @@ const getAuthorshipCategory = (authorship) => {
   return 'Middle';
 };
 
-const getPublicationKey = (pub) => {
-  if (!pub) {
-    return '';
-  }
-  return pub.id || pub.doi || pub.title || '';
-};
-
 const hashString = (value) => {
   const text = String(value || '');
   let hash = 0;
@@ -594,59 +588,6 @@ const buildNetworkLayout = (
     delete settledNode.vy;
     return settledNode;
   });
-};
-
-const buildCollaborationGraph = (members) => {
-  const publicationToAuthors = new Map();
-  const nodeMap = new Map();
-
-  members.forEach((member) => {
-    nodeMap.set(member.id, {
-      id: member.id,
-      name: member.name,
-      department: member.department,
-      programs: member.programs || [],
-      publicationCount: member.filteredPublications.length
-    });
-
-    member.filteredPublications.forEach((pub) => {
-      const key = getPublicationKey(pub);
-      if (!key) {
-        return;
-      }
-      if (!publicationToAuthors.has(key)) {
-        publicationToAuthors.set(key, new Set());
-      }
-      publicationToAuthors.get(key).add(member.id);
-    });
-  });
-
-  const edgeMap = new Map();
-  let sharedPublicationCount = 0;
-
-  publicationToAuthors.forEach((authors) => {
-    if (authors.size < 2) {
-      return;
-    }
-    sharedPublicationCount += 1;
-    const list = Array.from(authors);
-    for (let i = 0; i < list.length; i += 1) {
-      for (let j = i + 1; j < list.length; j += 1) {
-        const source = list[i];
-        const target = list[j];
-        const key = source < target ? `${source}__${target}` : `${target}__${source}`;
-        const edge = edgeMap.get(key) || { source, target, weight: 0 };
-        edge.weight += 1;
-        edgeMap.set(key, edge);
-      }
-    }
-  });
-
-  return {
-    nodes: Array.from(nodeMap.values()),
-    edges: Array.from(edgeMap.values()),
-    sharedPublicationCount
-  };
 };
 
 const CHART_COLORS = [
@@ -1551,8 +1492,11 @@ export default function App() {
   const [hiddenAuthorship, setHiddenAuthorship] = useState({});
   const [hiddenGrantTypes, setHiddenGrantTypes] = useState({});
   const [collabSelection, setCollabSelection] = useState(null);
+  const [collabPairSelection, setCollabPairSelection] = useState(null);
+  const [showAllCollaborations, setShowAllCollaborations] = useState(false);
   const [collabMinShared, setCollabMinShared] = useState(1);
   const collaborationRef = useRef(null);
+  const collaborationHighlightsRef = useRef(null);
 
   const isPublications = tab === 'publications';
   const isGrants = tab === 'grants';
@@ -1812,6 +1756,8 @@ export default function App() {
     setOpenId(null);
     setSelectedFacultyId('');
     setCollabSelection(null);
+    setCollabPairSelection(null);
+    setShowAllCollaborations(false);
     setCollabMinShared(1);
     const url = new URL(window.location.href);
     url.searchParams.delete('faculty');
@@ -2195,6 +2141,8 @@ export default function App() {
     setOpenId(null);
     setStickyActive(false);
     setCollabSelection(null);
+    setCollabPairSelection(null);
+    setShowAllCollaborations(false);
   }, [tab]);
 
   useEffect(() => {
@@ -2309,19 +2257,34 @@ export default function App() {
     [collaborationNodes.length, collaborationEdges.length, collaborationGraph.sharedPublicationCount]
   );
 
-  const topCollaborations = useMemo(() => {
+  const sortedCollaborations = useMemo(() => {
     if (!collaborationEdges.length) {
       return [];
     }
     return [...collaborationEdges]
-      .sort((a, b) => b.weight - a.weight)
-      .slice(0, 6)
       .map((edge) => ({
         ...edge,
         sourceName: collaborationNodeById.get(edge.source)?.name || edge.source,
         targetName: collaborationNodeById.get(edge.target)?.name || edge.target
-      }));
+      }))
+      .sort(
+        (a, b) =>
+          b.weight - a.weight ||
+          facultyNameCollator.compare(a.sourceName, b.sourceName) ||
+          facultyNameCollator.compare(a.targetName, b.targetName)
+      );
   }, [collaborationEdges, collaborationNodeById]);
+
+  const displayedCollaborations = showAllCollaborations
+    ? sortedCollaborations
+    : sortedCollaborations.slice(0, 6);
+
+  const selectedCollaborationPair = useMemo(() => {
+    if (!collabPairSelection) {
+      return null;
+    }
+    return sortedCollaborations.find((edge) => edge.id === collabPairSelection) || null;
+  }, [collabPairSelection, sortedCollaborations]);
 
   const selectedCollaborationNode = useMemo(() => {
     if (!collabSelection) {
@@ -2344,14 +2307,23 @@ export default function App() {
         const otherId =
           edge.source === selectedCollaborationNode.id ? edge.target : edge.source;
         return {
+          edgeId: edge.id,
           id: otherId,
           name: collaborationNodeById.get(otherId)?.name || otherId,
           weight: edge.weight
         };
       })
-      .sort((a, b) => b.weight - a.weight)
-      .slice(0, 6);
+      .sort(
+        (a, b) =>
+          b.weight - a.weight || facultyNameCollator.compare(a.name, b.name)
+      );
   }, [selectedCollaborationNode, collaborationEdges, collaborationNodeById]);
+
+  useEffect(() => {
+    if (collabPairSelection && !selectedCollaborationPair) {
+      setCollabPairSelection(null);
+    }
+  }, [collabPairSelection, selectedCollaborationPair]);
 
   useEffect(() => {
     if (!collabSelection) {
@@ -2364,6 +2336,18 @@ export default function App() {
       setCollabSelection(null);
     }
   }, [collaborationNodes, collabSelection]);
+
+  const openAllCollaborations = () => {
+    setShowAllCollaborations(true);
+    setCollabSelection(null);
+    setCollabPairSelection(null);
+    window.requestAnimationFrame(() => {
+      collaborationHighlightsRef.current?.scrollIntoView({
+        behavior: 'smooth',
+        block: 'start'
+      });
+    });
+  };
 
   const publicationSeries = useMemo(
     () => trimSeries(buildYearSeries(allPublications, activeYearRange), 12),
@@ -3183,7 +3167,14 @@ export default function App() {
             <>
               <div>
                 <span className="label">Co-authorship pairs</span>
-                <strong>{collaborationStats.edgeCount}</strong>
+                <button
+                  type="button"
+                  className="hero-metric-button"
+                  onClick={openAllCollaborations}
+                  aria-label={`View all ${collaborationStats.edgeCount} co-authorship pairs`}
+                >
+                  {collaborationStats.edgeCount}
+                </button>
               </div>
               <div>
                 <span className="label">Collaborating faculty</span>
@@ -3769,9 +3760,11 @@ export default function App() {
                 edges={collaborationEdges}
                 ariaLabel="Co-authorship network of CTSI faculty"
                 selectedNodeId={collabSelection}
-                onSelectNode={(id) =>
-                  setCollabSelection((current) => (current === id ? null : id))
-                }
+                onSelectNode={(id) => {
+                  setCollabPairSelection(null);
+                  setShowAllCollaborations(false);
+                  setCollabSelection((current) => (current === id ? null : id));
+                }}
               />
               <div className="network-legend">
                 <span className="network-key">
@@ -3782,7 +3775,10 @@ export default function App() {
                 </span>
               </div>
             </article>
-            <article className="chart-card collaboration-card">
+            <article
+              className="chart-card collaboration-card"
+              ref={collaborationHighlightsRef}
+            >
               <header className="collaboration-card-head">
                 <div>
                   <p className="chart-title">Collaboration highlights</p>
@@ -3790,11 +3786,22 @@ export default function App() {
                     Shared publication activity in this view
                   </p>
                 </div>
-                {selectedCollaborationNode ? (
+                {selectedCollaborationPair ? (
                   <button
                     type="button"
                     className="chart-button"
-                    onClick={() => setCollabSelection(null)}
+                    onClick={() => setCollabPairSelection(null)}
+                  >
+                    Back
+                  </button>
+                ) : selectedCollaborationNode || showAllCollaborations ? (
+                  <button
+                    type="button"
+                    className="chart-button"
+                    onClick={() => {
+                      setCollabSelection(null);
+                      setShowAllCollaborations(false);
+                    }}
                   >
                     Clear
                   </button>
@@ -3805,16 +3812,73 @@ export default function App() {
                   <span className="label">Collaborating faculty</span>
                   <strong>{collaborationStats.nodeCount}</strong>
                 </div>
-                <div className="collaboration-metric">
+                <button
+                  type="button"
+                  className="collaboration-metric collaboration-metric-button"
+                  onClick={openAllCollaborations}
+                  aria-label={`View all ${collaborationStats.edgeCount} co-authorship pairs`}
+                >
                   <span className="label">Co-authorship pairs</span>
                   <strong>{collaborationStats.edgeCount}</strong>
-                </div>
+                  <span className="collaboration-metric-action">View all</span>
+                </button>
                 <div className="collaboration-metric">
                   <span className="label">Shared publications</span>
                   <strong>{collaborationStats.sharedPublicationCount}</strong>
                 </div>
               </div>
-              {selectedCollaborationNode ? (
+              {selectedCollaborationPair ? (
+                <div className="collaboration-section">
+                  <div className="collaboration-section-title">Shared publications</div>
+                  <div className="collaboration-selected">
+                    <div className="collaboration-selected-name">
+                      {selectedCollaborationPair.sourceName} ×{' '}
+                      {selectedCollaborationPair.targetName}
+                    </div>
+                    <div className="muted small">
+                      {selectedCollaborationPair.weight} shared publication
+                      {selectedCollaborationPair.weight === 1 ? '' : 's'}
+                    </div>
+                  </div>
+                  <ul className="collaboration-publications">
+                    {selectedCollaborationPair.publications.map((publication) => {
+                      const publicationUrl =
+                        publication.url ||
+                        (publication.doi
+                          ? `https://doi.org/${publication.doi}`
+                          : '');
+                      const publicationTitle =
+                        publication.title || 'Untitled publication';
+                      return (
+                        <li
+                          key={`${selectedCollaborationPair.id}-${getPublicationKey(
+                            publication
+                          )}`}
+                        >
+                          <div className="pub-title">
+                            {publicationUrl ? (
+                              <a
+                                href={publicationUrl}
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                {publicationTitle}
+                              </a>
+                            ) : (
+                              publicationTitle
+                            )}
+                          </div>
+                          <div className="pub-meta">
+                            <span>{publication.journal || '—'}</span>
+                            <span className="dot" />
+                            <span>{publication.year || '—'}</span>
+                          </div>
+                        </li>
+                      );
+                    })}
+                  </ul>
+                </div>
+              ) : selectedCollaborationNode ? (
                 <div className="collaboration-section">
                   <div className="collaboration-section-title">Selected faculty</div>
                   <div className="collaboration-selected">
@@ -3836,19 +3900,27 @@ export default function App() {
                       </span>
                     </div>
                   </div>
-                  <div className="collaboration-list">
+                  <div
+                    className={`collaboration-list ${
+                      selectedCollaborators.length > 6
+                        ? 'collaboration-list-all'
+                        : ''
+                    }`}
+                  >
                     {selectedCollaborators.length ? (
                       selectedCollaborators.map((collaborator) => (
-                        <div
+                        <button
+                          type="button"
                           key={collaborator.id}
-                          className="collaboration-row"
+                          className="collaboration-row collaboration-row-button"
+                          onClick={() => setCollabPairSelection(collaborator.edgeId)}
                         >
                           <span>{collaborator.name}</span>
                           <strong>
                             {collaborator.weight} shared publication
                             {collaborator.weight === 1 ? '' : 's'}
                           </strong>
-                        </div>
+                        </button>
                       ))
                     ) : (
                       <div className="muted small">
@@ -3859,13 +3931,23 @@ export default function App() {
                 </div>
               ) : (
                 <div className="collaboration-section">
-                  <div className="collaboration-section-title">Top co-authorships</div>
-                  <div className="collaboration-list">
-                    {topCollaborations.length ? (
-                      topCollaborations.map((edge) => (
-                        <div
-                          key={`${edge.source}-${edge.target}`}
-                          className="collaboration-row"
+                  <div className="collaboration-section-title">
+                    {showAllCollaborations
+                      ? `All co-authorships (${sortedCollaborations.length})`
+                      : 'Top co-authorships'}
+                  </div>
+                  <div
+                    className={`collaboration-list ${
+                      showAllCollaborations ? 'collaboration-list-all' : ''
+                    }`}
+                  >
+                    {displayedCollaborations.length ? (
+                      displayedCollaborations.map((edge) => (
+                        <button
+                          type="button"
+                          key={edge.id}
+                          className="collaboration-row collaboration-row-button"
+                          onClick={() => setCollabPairSelection(edge.id)}
                         >
                           <span>
                             {edge.sourceName} × {edge.targetName}
@@ -3873,7 +3955,7 @@ export default function App() {
                           <strong>
                             {edge.weight} shared publication{edge.weight === 1 ? '' : 's'}
                           </strong>
-                        </div>
+                        </button>
                       ))
                     ) : (
                       <div className="muted small">
