@@ -6,6 +6,17 @@ const RETRYABLE_STATUSES = new Set([429, 500, 502, 503, 504]);
 
 const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 
+export const isPlaceholderNcbiEmail = (value) => {
+  const email = String(value || '').trim().toLowerCase();
+  const separatorIndex = email.lastIndexOf('@');
+
+  if (separatorIndex <= 0 || separatorIndex === email.length - 1) {
+    return true;
+  }
+
+  return email.slice(separatorIndex + 1) === 'example.com';
+};
+
 const buildQueryString = (params) => {
   const query = new URLSearchParams();
   Object.entries(params).forEach(([key, value]) => {

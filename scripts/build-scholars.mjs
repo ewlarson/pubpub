@@ -3,7 +3,12 @@ import { existsSync } from 'node:fs';
 import { readFile, writeFile } from 'node:fs/promises';
 import path from 'node:path';
 import { XMLParser } from 'fast-xml-parser';
-import { fetchArticleXml, fetchPmids, fetchSummaries } from './pubmed.mjs';
+import {
+  fetchArticleXml,
+  fetchPmids,
+  fetchSummaries,
+  isPlaceholderNcbiEmail
+} from './pubmed.mjs';
 import {
   buildScholarQuery,
   formatScholarProgramAssociation,
@@ -268,7 +273,7 @@ const buildAuthorCounts = (publications) => {
 };
 
 const main = async () => {
-  if (!EMAIL || EMAIL.includes('example.com')) {
+  if (isPlaceholderNcbiEmail(EMAIL)) {
     console.warn('NCBI_EMAIL is not set. Using a placeholder email may be rate-limited.');
   }
 
@@ -364,4 +369,3 @@ main().catch((error) => {
   console.error(error);
   process.exit(1);
 });
-

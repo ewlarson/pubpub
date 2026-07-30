@@ -3,7 +3,12 @@ import { existsSync } from 'node:fs';
 import { readFile, writeFile } from 'node:fs/promises';
 import path from 'node:path';
 import { XMLParser } from 'fast-xml-parser';
-import { fetchArticleXml, fetchPmids, fetchSummaries } from './pubmed.mjs';
+import {
+  fetchArticleXml,
+  fetchPmids,
+  fetchSummaries,
+  isPlaceholderNcbiEmail
+} from './pubmed.mjs';
 import {
   getFacultySignatureTerms,
   getStoredAuthorship,
@@ -1222,7 +1227,7 @@ const shouldIncludePublication = ({ pubDate, pubYear, startDate, endDate }) => {
 };
 
 const main = async () => {
-  if (!EMAIL || EMAIL.includes('example.com')) {
+  if (isPlaceholderNcbiEmail(EMAIL)) {
     console.warn('NCBI_EMAIL is not set. Using a placeholder email may be rate-limited.');
   }
 
