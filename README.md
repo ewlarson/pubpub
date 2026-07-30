@@ -34,6 +34,7 @@ npm run preview
 
 This project is hosted on GitHub Pages, so runtime data must remain static JSON files:
 - `public/data/publications.json`
+- `public/data/scholars.json`
 - `public/data/grants.json`
 
 Canonical data now lives in SQLite (`data/pubpub.sqlite`) and build scripts export those
@@ -59,6 +60,20 @@ PUB_VALIDATE_AFFILIATION=true
 PUB_USE_INITIALS=true
 ```
 
+### Building T scholar publications
+
+The T scholar dashboard is generated from
+`data/CTSI T Scholars - TRDP TL1 T32.csv`. The build uses each valid ORCID as
+the sole author identity and includes publications from the scholar's funding
+start date through the refresh date:
+
+```bash
+NCBI_EMAIL="you@umn.edu" NCBI_TOOL="ctsi_pubpub" NCBI_API_KEY="..." npm run build:scholars
+```
+
+Rows without both a valid ORCID and funding start date are reported and
+skipped. No institution or affiliation term is used in scholar PubMed queries.
+
 ### Building data from NIH RePORTER
 
 There is a Node script that reads `data/CTSI Faculty - Sheet1.csv`, queries the NIH RePORTER API, and writes `public/data/grants.json`:
@@ -78,8 +93,9 @@ npm run build:data:all
 This runs:
 1. `npm run ingest:faculty` (upsert canonical faculty identities/programs)
 2. `npm run build:data` (PubMed harvest into relational tables)
-3. `npm run build:grants` (NIH RePORTER harvest into relational tables)
-4. `npm run export:data` (emit `public/data/publications.json` + `public/data/grants.json`)
+3. `npm run build:scholars` (ORCID-only PubMed harvest for TRDP, TL1, and T32 scholars)
+4. `npm run build:grants` (NIH RePORTER harvest into relational tables)
+5. `npm run export:data` (emit the faculty publication and grant JSON files)
 
 Quick data-quality report:
 
@@ -89,9 +105,10 @@ npm run audit:data
 
 ### Nightly data refresh
 
-The `Refresh data nightly` GitHub Actions workflow runs the full relational
-pipeline every day at 3:00 a.m. America/Chicago time, commits changed static
-exports to `main`, and triggers the existing GitHub Pages deployment workflow.
+The `Refresh data nightly` GitHub Actions workflow runs the full data pipeline
+every day at 3:00 a.m. America/Chicago time, commits changed static exports
+(including `public/data/scholars.json`) to `main`, and triggers the existing
+GitHub Pages deployment workflow.
 It restores and saves `data/pubpub.sqlite` with the Actions cache so publication
 history persists between hosted crawls. It can also be run manually from the
 Actions tab.

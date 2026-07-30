@@ -74,13 +74,13 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add public/data/publications.json public/data/grants.json
+          git add public/data/publications.json public/data/scholars.json public/data/grants.json
 
           if git diff --cached --quiet; then
             echo "No data changes to commit."
             exit 0
           fi
 
-          git commit -m "Refresh publication and grant data"
+          git commit -m "Refresh publication, scholar, and grant data"
           git pull --rebase origin main
           git push origin HEAD:main
