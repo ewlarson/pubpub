@@ -6,6 +6,7 @@ import {
 } from './data-refresh.js';
 
 const PUBLICATIONS_URL = `${import.meta.env.BASE_URL}data/publications.json`;
+const SCHOLARS_URL = `${import.meta.env.BASE_URL}data/scholars.json`;
 const GRANTS_URL = `${import.meta.env.BASE_URL}data/grants.json`;
 
 const normalize = (value) => value.toLowerCase();
@@ -1456,7 +1457,14 @@ export default function App() {
     source: '',
     faculty: []
   });
+  const [scholarData, setScholarData] = useState({
+    updated: '',
+    updatedAt: '',
+    source: '',
+    faculty: []
+  });
   const [pubStatus, setPubStatus] = useState('loading');
+  const [scholarStatus, setScholarStatus] = useState('loading');
   const [grantStatus, setGrantStatus] = useState('loading');
   const [tab, setTab] = useState(() => {
     const params = new URLSearchParams(window.location.search);
@@ -1466,6 +1474,9 @@ export default function App() {
     }
     if (tabParam === 'collaboration') {
       return 'collaboration';
+    }
+    if (tabParam === 'scholars') {
+      return 'scholars';
     }
     return 'publications';
   });
@@ -1513,9 +1524,14 @@ export default function App() {
   const collaborationHighlightsRef = useRef(null);
 
   const isPublications = tab === 'publications';
+  const isScholars = tab === 'scholars';
   const isGrants = tab === 'grants';
   const isCollaboration = tab === 'collaboration';
-  const isPublicationView = isPublications || isCollaboration;
+  const isPublicationDashboard = isPublications || isScholars;
+  const isPublicationView = isPublicationDashboard || isCollaboration;
+  const publicationData = isScholars ? scholarData : pubData;
+  const publicationStatus = isScholars ? scholarStatus : pubStatus;
+  const participantLabel = isScholars ? 'Scholar' : 'Faculty';
 
   const setSelection = (key, value) => {
     setChartSelections((current) => ({ ...current, [key]: value }));
@@ -1540,12 +1556,35 @@ export default function App() {
   };
 
   const handleTabChange = (nextTab) => {
+    const crossingScholarBoundary =
+      (nextTab === 'scholars') !== isScholars;
+    if (crossingScholarBoundary) {
+      setQuery('');
+      setProgramFilters([]);
+      setOpenId(null);
+      setSelectedFacultyId('');
+      setChartSelections({
+        pubTrend: null,
+        pubProgram: null,
+        pubAuthorship: null,
+        grantYear: null,
+        grantType: null,
+        grantTop: null
+      });
+    }
     setTab(nextTab);
     const url = new URL(window.location.href);
+    if (crossingScholarBoundary) {
+      url.searchParams.delete('faculty');
+      url.searchParams.delete('name');
+      url.searchParams.delete('researcher');
+    }
     if (nextTab === 'grants') {
       url.searchParams.set('tab', 'grants');
     } else if (nextTab === 'collaboration') {
       url.searchParams.set('tab', 'collaboration');
+    } else if (nextTab === 'scholars') {
+      url.searchParams.set('tab', 'scholars');
     } else {
       url.searchParams.delete('tab');
     }
@@ -1586,6 +1625,7 @@ export default function App() {
       try {
         await Promise.all([
           loadDataset(PUBLICATIONS_URL, setPubData, setPubStatus, background),
+          loadDataset(SCHOLARS_URL, setScholarData, setScholarStatus, background),
           loadDataset(GRANTS_URL, setGrantData, setGrantStatus, background)
         ]);
       } finally {
@@ -1605,7 +1645,7 @@ export default function App() {
   }, []);
 
   useEffect(() => {
-    const currentStatus = isGrants ? grantStatus : pubStatus;
+    const currentStatus = isGrants ? grantStatus : publicationStatus;
     if (currentStatus !== 'ready') {
       return;
     }
@@ -1620,7 +1660,7 @@ export default function App() {
     }
     const key = normalizeKey(facultyParam);
     const slug = normalizeSlug(facultyParam);
-    const facultyList = isGrants ? grantData.faculty : pubData.faculty;
+    const facultyList = isGrants ? grantData.faculty : publicationData.faculty;
     const match = facultyList.find((member) => {
       const idKey = normalizeKey(member.id);
       const nameKey = normalizeKey(member.name);
@@ -1639,11 +1679,15 @@ export default function App() {
   }, [
     tab,
     pubStatus,
+    scholarStatus,
     grantStatus,
     pubData.faculty,
+    scholarData.faculty,
     grantData.faculty,
     isGrants,
-    isCollaboration
+    isCollaboration,
+    publicationData.faculty,
+    publicationStatus
   ]);
 
   const handleCopyLink = async (member) => {
@@ -1653,6 +1697,8 @@ export default function App() {
       url.searchParams.set('tab', 'grants');
     } else if (tab === 'collaboration') {
       url.searchParams.set('tab', 'collaboration');
+    } else if (tab === 'scholars') {
+      url.searchParams.set('tab', 'scholars');
     } else {
       url.searchParams.delete('tab');
     }
@@ -1689,6 +1735,8 @@ export default function App() {
       url.searchParams.set('tab', 'grants');
     } else if (tab === 'collaboration') {
       url.searchParams.set('tab', 'collaboration');
+    } else if (tab === 'scholars') {
+      url.searchParams.set('tab', 'scholars');
     } else {
       url.searchParams.delete('tab');
     }
@@ -1706,6 +1754,8 @@ export default function App() {
       url.searchParams.set('tab', 'grants');
     } else if (tab === 'collaboration') {
       url.searchParams.set('tab', 'collaboration');
+    } else if (tab === 'scholars') {
+      url.searchParams.set('tab', 'scholars');
     } else {
       url.searchParams.delete('tab');
     }
@@ -1713,14 +1763,14 @@ export default function App() {
   };
 
   const yearBounds = useMemo(() => {
-    const years = pubData.faculty.flatMap((member) =>
+    const years = publicationData.faculty.flatMap((member) =>
       member.publications.map((pub) => pub.year)
     );
     if (!years.length) {
       return { min: '', max: '' };
     }
     return { min: Math.min(...years), max: Math.max(...years) };
-  }, [pubData]);
+  }, [publicationData]);
 
   useEffect(() => {
     if (yearBounds.min && yearBounds.max) {
@@ -1800,6 +1850,8 @@ export default function App() {
       url.searchParams.set('tab', 'grants');
     } else if (tab === 'collaboration') {
       url.searchParams.set('tab', 'collaboration');
+    } else if (tab === 'scholars') {
+      url.searchParams.set('tab', 'scholars');
     } else {
       url.searchParams.delete('tab');
     }
@@ -1862,7 +1914,7 @@ export default function App() {
   const filteredPublications = useMemo(() => {
     const needle = normalize(query.trim());
 
-    const facultyWithFilteredPubs = pubData.faculty.map((member) => {
+    const facultyWithFilteredPubs = publicationData.faculty.map((member) => {
       const pubsInRange = member.publications.filter((pub) => {
         const inMin = yearMin ? pub.year >= Number(yearMin) : true;
         const inMax = yearMax ? pub.year <= Number(yearMax) : true;
@@ -1916,7 +1968,7 @@ export default function App() {
     });
 
     return sorted;
-  }, [pubData, query, pubSortBy, yearMin, yearMax, programFilters]);
+  }, [publicationData, query, pubSortBy, yearMin, yearMax, programFilters]);
 
   const filteredGrants = useMemo(() => {
     const needle = normalize(query.trim());
@@ -2059,11 +2111,12 @@ export default function App() {
       );
     };
 
-    pubData.faculty.forEach((member) => {
+    publicationData.faculty.forEach((member) => {
       map.set(member.id, {
         id: member.id,
         name: member.name,
         department: member.department,
+        projectTitle: member.projectTitle || '',
         orcid: member.orcid || '',
         publications: member.publications || [],
         grants: [],
@@ -2071,29 +2124,32 @@ export default function App() {
       });
     });
 
-    grantData.faculty.forEach((member) => {
-      const existing = map.get(member.id) || {
-        id: member.id,
-        name: member.name,
-        department: member.department,
-        orcid: '',
-        publications: [],
-        grants: [],
-        programAssociations: []
-      };
-      existing.name = existing.name || member.name;
-      existing.department = existing.department || member.department;
-      existing.grants = member.grants || [];
-      const associations = [
-        ...(existing.programAssociations || []),
-        ...(member.programAssociations || [])
-      ];
-      existing.programAssociations = dedupeAssociations(associations);
-      map.set(member.id, existing);
-    });
+    if (!isScholars) {
+      grantData.faculty.forEach((member) => {
+        const existing = map.get(member.id) || {
+          id: member.id,
+          name: member.name,
+          department: member.department,
+          projectTitle: '',
+          orcid: '',
+          publications: [],
+          grants: [],
+          programAssociations: []
+        };
+        existing.name = existing.name || member.name;
+        existing.department = existing.department || member.department;
+        existing.grants = member.grants || [];
+        const associations = [
+          ...(existing.programAssociations || []),
+          ...(member.programAssociations || [])
+        ];
+        existing.programAssociations = dedupeAssociations(associations);
+        map.set(member.id, existing);
+      });
+    }
 
     return map;
-  }, [pubData.faculty, grantData.faculty]);
+  }, [publicationData.faculty, grantData.faculty, isScholars]);
 
   const selectedFacultyProfile = useMemo(() => {
     if (!selectedFacultyId) {
@@ -2625,11 +2681,11 @@ export default function App() {
       title: `Year ${year}`,
       lines: [
         `Total publications: ${formatCompactNumber(total)}`,
-        `Top faculty: ${joinComma(facultyCounts)}`,
+        `Top ${isScholars ? 'scholars' : 'faculty'}: ${joinComma(facultyCounts)}`,
         `Top journals: ${joinComma(topJournals)}`
       ]
     };
-  }, [chartSelections.pubTrend, allPublications, filteredPublications]);
+  }, [chartSelections.pubTrend, allPublications, filteredPublications, isScholars]);
 
   const programSpotlightDetail = useMemo(() => {
     const selection = chartSelections.pubProgram;
@@ -2661,16 +2717,16 @@ export default function App() {
       ? `Programs grouped: ${joinComma(otherPrograms.slice(0, 4))}${
           otherPrograms.length > 4 ? ` (+${otherPrograms.length - 4} more)` : ''
         }`
-      : `Faculty in program: ${members.length}`;
+      : `${isScholars ? 'Scholars' : 'Faculty'} in program: ${members.length}`;
     return {
       title: `Program ${programLabel}`,
       lines: [
         `Publications tagged ${programLabel}: ${formatCompactNumber(total)}`,
-        `Top faculty: ${joinComma(topFaculty)}`,
+        `Top ${isScholars ? 'scholars' : 'faculty'}: ${joinComma(topFaculty)}`,
         otherNote
       ]
     };
-  }, [chartSelections.pubProgram, filteredPublications, programSeries]);
+  }, [chartSelections.pubProgram, filteredPublications, programSeries, isScholars]);
 
   const authorshipDetail = useMemo(() => {
     const selection = chartSelections.pubAuthorship;
@@ -2701,11 +2757,17 @@ export default function App() {
       lines: [
         `Publications: ${formatCompactNumber(count)}`,
         `Share of total: ${formatPercent(count / authorshipTotal)}`,
-        `Top faculty: ${joinComma(topFaculty)}`,
+        `Top ${isScholars ? 'scholars' : 'faculty'}: ${joinComma(topFaculty)}`,
         `Latest year: ${latestYear || '—'}`
       ]
     };
-  }, [chartSelections.pubAuthorship, allPublications, filteredPublications, authorshipTotal]);
+  }, [
+    chartSelections.pubAuthorship,
+    allPublications,
+    filteredPublications,
+    authorshipTotal,
+    isScholars
+  ]);
 
   const grantYearDetail = useMemo(() => {
     const selection = chartSelections.grantYear;
@@ -2866,23 +2928,35 @@ export default function App() {
     };
   }, [openId, tab, isGrants, isCollaboration]);
 
-  const activeStatus = isGrants ? grantStatus : pubStatus;
-  const activeData = isGrants ? grantData : pubData;
+  const activeStatus = isGrants ? grantStatus : publicationStatus;
+  const activeData = isGrants ? grantData : publicationData;
   const activeUpdatedAt = formatDatasetUpdatedAt(activeData.updatedAt);
-  const activeLabel = isGrants ? 'grants' : isCollaboration ? 'collaboration' : 'publications';
+  const activeLabel = isGrants
+    ? 'grants'
+    : isCollaboration
+      ? 'collaboration'
+      : isScholars
+        ? 'scholar publications'
+        : 'publications';
   const activeFile = isGrants
     ? 'public/data/grants.json'
-    : 'public/data/publications.json';
+    : isScholars
+      ? 'public/data/scholars.json'
+      : 'public/data/publications.json';
   const heroTitle = isGrants
     ? 'Faculty Grant Dashboard'
     : isCollaboration
       ? 'Faculty Collaboration Dashboard'
-      : 'Faculty Publication Dashboard';
+      : isScholars
+        ? 'T Scholar Publication Dashboard'
+        : 'Faculty Publication Dashboard';
   const heroLead = isGrants
     ? 'Review NIH RePORTER grants tied to CTSI faculty and track award amounts across the program.'
     : isCollaboration
       ? 'Map co-authorship ties between CTSI faculty and surface shared publication activity.'
-      : 'Explore recent publications, filter by year, and highlight CTSI faculty output for grants, reports, and public engagement.';
+      : isScholars
+        ? 'Explore publications by TRDP, TL1, and T32 scholars from each scholar’s funding start date, matched through ORCID.'
+        : 'Explore recent publications, filter by year, and highlight CTSI faculty output for grants, reports, and public engagement.';
 
   const getPublicationFilterValues = () => [
     query.trim() || 'All',
@@ -2907,9 +2981,9 @@ export default function App() {
       ];
       const filterValues = getPublicationFilterValues();
       const headers = [
-        'Faculty',
+        participantLabel,
         'ORCID',
-        'Affiliation',
+        isScholars ? 'Research Topic' : 'Affiliation',
         'Programs',
         'Publications',
         'Latest Year',
@@ -2929,7 +3003,7 @@ export default function App() {
         return [
           member.name || '',
           member.orcid || '—',
-          member.department || '',
+          isScholars ? member.projectTitle || '' : member.department || '',
           joinList(member.programs || []),
           member.filteredPublications.length || 0,
           latestYear,
@@ -2939,7 +3013,10 @@ export default function App() {
         ];
       });
       downloadCsv(
-        buildExportFilename('publications', pubData.updated),
+        buildExportFilename(
+          isScholars ? 't-scholar-publications' : 'publications',
+          publicationData.updated
+        ),
         headers,
         rows
       );
@@ -2991,9 +3068,9 @@ export default function App() {
       ];
       const filterValues = getPublicationFilterValues();
       const headers = [
-        'Faculty',
+        participantLabel,
         'ORCID',
-        'Affiliation',
+        isScholars ? 'Research Topic' : 'Affiliation',
         'Programs',
         'PMID',
         'Year',
@@ -3018,7 +3095,7 @@ export default function App() {
           return [
             member.name || '',
             member.orcid || '—',
-            member.department || '',
+            isScholars ? member.projectTitle || '' : member.department || '',
             joinList(member.programs || []),
             pub.id || '—',
             Number.isFinite(pub.year) ? pub.year : '—',
@@ -3034,7 +3111,10 @@ export default function App() {
         })
       );
       downloadCsv(
-        buildExportFilename('publications-detailed', pubData.updated),
+        buildExportFilename(
+          isScholars ? 't-scholar-publications-detailed' : 'publications-detailed',
+          publicationData.updated
+        ),
         headers,
         rows
       );
@@ -3171,6 +3251,17 @@ export default function App() {
           <button
             type="button"
             role="tab"
+            aria-selected={isScholars}
+            aria-controls="tab-panel-scholars"
+            id="tab-scholars"
+            className={`tab ${isScholars ? 'is-active' : ''}`}
+            onClick={() => handleTabChange('scholars')}
+          >
+            T Scholars
+          </button>
+          <button
+            type="button"
+            role="tab"
             aria-selected={isCollaboration}
             aria-controls="tab-panel-collaboration"
             id="tab-collaboration"
@@ -3222,10 +3313,12 @@ export default function App() {
           ) : (
             <>
               <div>
-                <span className="label">Faculty in view</span>
+                <span className="label">
+                  {isScholars ? 'Scholars in view' : 'Faculty in view'}
+                </span>
                 <strong>{activeFaculty.length}</strong>
               </div>
-              {isPublications ? (
+              {isPublicationDashboard ? (
                 <div>
                   <span className="label">Publications in view</span>
                   <strong>{totalPublications}</strong>
@@ -3273,7 +3366,7 @@ export default function App() {
         <div className="hero-actions">
           <a
             className="button"
-            href={isGrants ? GRANTS_URL : PUBLICATIONS_URL}
+            href={isGrants ? GRANTS_URL : isScholars ? SCHOLARS_URL : PUBLICATIONS_URL}
             target="_blank"
             rel="noreferrer"
           >
@@ -3321,7 +3414,9 @@ export default function App() {
             <input
               type="search"
               placeholder={
-                isPublicationView
+                isScholars
+                  ? 'Name, program, research topic'
+                  : isPublicationView
                   ? 'Name, department, title'
                   : 'Name, department, project'
               }
@@ -3351,7 +3446,7 @@ export default function App() {
                   onChange={(event) => setYearMax(event.target.value)}
                 />
               </label>
-              {isPublications ? (
+              {isPublicationDashboard ? (
                 <label className="field">
                   <span>Sort by</span>
                   <select
@@ -3457,10 +3552,14 @@ export default function App() {
         <section className="panel faculty-profile" ref={profileRef}>
           <div className="faculty-profile-head">
             <div>
-              <p className="eyebrow">Faculty Show Page</p>
+              <p className="eyebrow">
+                {isScholars ? 'T Scholar Profile' : 'Faculty Show Page'}
+              </p>
               <h2>{selectedFacultyProfile.name}</h2>
               <p className="muted">
-                {selectedFacultyProfile.department || 'University of Minnesota'}
+                {isScholars
+                  ? selectedFacultyProfile.projectTitle || 'Research topic not listed'
+                  : selectedFacultyProfile.department || 'University of Minnesota'}
               </p>
               {selectedFacultyProfile.orcid ? (
                 <p className="muted small">
@@ -3485,13 +3584,30 @@ export default function App() {
               <span className="label">Publications</span>
               <strong>{selectedFacultyProfile.publications.length}</strong>
             </div>
+            {isScholars ? (
+              <div>
+                <span className="label">Program</span>
+                <strong>
+                  {selectedFacultyProfile.programAssociations[0]?.program || '—'}
+                </strong>
+              </div>
+            ) : (
+              <div>
+                <span className="label">Grant Awards</span>
+                <strong>{selectedFacultyProfile.grants.length}</strong>
+              </div>
+            )}
             <div>
-              <span className="label">Grant Awards</span>
-              <strong>{selectedFacultyProfile.grants.length}</strong>
-            </div>
-            <div>
-              <span className="label">Program Associations</span>
-              <strong>{selectedFacultyProfile.programAssociations.length}</strong>
+              <span className="label">
+                {isScholars ? 'Funding start' : 'Program Associations'}
+              </span>
+              <strong>
+                {isScholars
+                  ? formatDate(
+                      selectedFacultyProfile.programAssociations[0]?.startDate
+                    )
+                  : selectedFacultyProfile.programAssociations.length}
+              </strong>
             </div>
           </div>
           <div className="faculty-profile-programs">
@@ -3547,86 +3663,99 @@ export default function App() {
                 <div className="chart-empty">No publication trend data.</div>
               )}
             </ChartCard>
-            <ChartCard
-              title="Grant Timeline"
-              subtitle="Grant awards by year"
-              onDownloadSvg={() =>
-                downloadSvg(
-                  profileGrantYearRef.current,
-                  buildChartFilename(
-                    `${selectedFacultyProfile.id}-grant-timeline`,
-                    activeData.updated,
-                    'svg'
-                  )
-                )
-              }
-              onDownloadPng={() =>
-                downloadPng(
-                  profileGrantYearRef.current,
-                  buildChartFilename(
-                    `${selectedFacultyProfile.id}-grant-timeline`,
-                    activeData.updated,
-                    'png'
-                  )
-                )
-              }
-              actionsDisabled={!profileGrantYearData.length}
-            >
-              {profileGrantYearData.length ? (
-                <BarChart
-                  id={{ name: `${selectedFacultyProfile.id}-grant-year`, ref: profileGrantYearRef }}
-                  data={profileGrantYearData}
-                  ariaLabel={`Grant timeline for ${selectedFacultyProfile.name}`}
-                />
-              ) : (
-                <div className="chart-empty">No grant timeline data.</div>
-              )}
-            </ChartCard>
-            <ChartCard
-              title="Grant Type Mix"
-              subtitle="Distribution of grant activity types"
-              onDownloadSvg={() =>
-                downloadSvg(
-                  profileGrantTypeRef.current,
-                  buildChartFilename(
-                    `${selectedFacultyProfile.id}-grant-types`,
-                    activeData.updated,
-                    'svg'
-                  )
-                )
-              }
-              onDownloadPng={() =>
-                downloadPng(
-                  profileGrantTypeRef.current,
-                  buildChartFilename(
-                    `${selectedFacultyProfile.id}-grant-types`,
-                    activeData.updated,
-                    'png'
-                  )
-                )
-              }
-              actionsDisabled={!profileGrantTypeSegments.length}
-              legend={
-                profileGrantTypeSegments.length ? (
-                  <ChartLegend
-                    segments={profileGrantTypeSegments}
-                    total={profileGrantTypeSegments.reduce((sum, segment) => sum + segment.value, 0)}
-                  />
-                ) : null
-              }
-            >
-              {profileGrantTypeSegments.length ? (
-                <DonutChart
-                  id={{ name: `${selectedFacultyProfile.id}-grant-type`, ref: profileGrantTypeRef }}
-                  segments={profileGrantTypeSegments}
-                  ariaLabel={`Grant type mix for ${selectedFacultyProfile.name}`}
-                  centerLabel="Types"
-                  centerValue={String(profileGrantTypeSegments.length)}
-                />
-              ) : (
-                <div className="chart-empty">No grant type data.</div>
-              )}
-            </ChartCard>
+            {!isScholars ? (
+              <>
+                <ChartCard
+                  title="Grant Timeline"
+                  subtitle="Grant awards by year"
+                  onDownloadSvg={() =>
+                    downloadSvg(
+                      profileGrantYearRef.current,
+                      buildChartFilename(
+                        `${selectedFacultyProfile.id}-grant-timeline`,
+                        activeData.updated,
+                        'svg'
+                      )
+                    )
+                  }
+                  onDownloadPng={() =>
+                    downloadPng(
+                      profileGrantYearRef.current,
+                      buildChartFilename(
+                        `${selectedFacultyProfile.id}-grant-timeline`,
+                        activeData.updated,
+                        'png'
+                      )
+                    )
+                  }
+                  actionsDisabled={!profileGrantYearData.length}
+                >
+                  {profileGrantYearData.length ? (
+                    <BarChart
+                      id={{
+                        name: `${selectedFacultyProfile.id}-grant-year`,
+                        ref: profileGrantYearRef
+                      }}
+                      data={profileGrantYearData}
+                      ariaLabel={`Grant timeline for ${selectedFacultyProfile.name}`}
+                    />
+                  ) : (
+                    <div className="chart-empty">No grant timeline data.</div>
+                  )}
+                </ChartCard>
+                <ChartCard
+                  title="Grant Type Mix"
+                  subtitle="Distribution of grant activity types"
+                  onDownloadSvg={() =>
+                    downloadSvg(
+                      profileGrantTypeRef.current,
+                      buildChartFilename(
+                        `${selectedFacultyProfile.id}-grant-types`,
+                        activeData.updated,
+                        'svg'
+                      )
+                    )
+                  }
+                  onDownloadPng={() =>
+                    downloadPng(
+                      profileGrantTypeRef.current,
+                      buildChartFilename(
+                        `${selectedFacultyProfile.id}-grant-types`,
+                        activeData.updated,
+                        'png'
+                      )
+                    )
+                  }
+                  actionsDisabled={!profileGrantTypeSegments.length}
+                  legend={
+                    profileGrantTypeSegments.length ? (
+                      <ChartLegend
+                        segments={profileGrantTypeSegments}
+                        total={profileGrantTypeSegments.reduce(
+                          (sum, segment) => sum + segment.value,
+                          0
+                        )}
+                      />
+                    ) : null
+                  }
+                >
+                  {profileGrantTypeSegments.length ? (
+                    <DonutChart
+                      id={{
+                        name: `${selectedFacultyProfile.id}-grant-type`,
+                        ref: profileGrantTypeRef
+                      }}
+                      segments={profileGrantTypeSegments}
+                      ariaLabel={`Grant type mix for ${selectedFacultyProfile.name}`}
+                      centerLabel="Types"
+                      centerValue={String(profileGrantTypeSegments.length)}
+                    />
+                  ) : (
+                    <div className="chart-empty">No grant type data.</div>
+                  )}
+                </ChartCard>
+              </>
+            ) : null}
             <ChartCard
               title="Program Start Timeline"
               subtitle="Program associations by start year"
@@ -3699,41 +3828,43 @@ export default function App() {
                 <p className="muted">No publications available.</p>
               )}
             </div>
-            <div className="faculty-profile-block">
-              <h3>Grant Awards</h3>
-              {selectedFacultyProfile.grants.length ? (
-                <ul className="pub-list">
-                  {selectedFacultyProfile.grants.map((grant) => (
-                    <li
-                      key={`profile-grant-${selectedFacultyProfile.id}-${grant.id}-${grant.fiscalYear || ''}`}
-                    >
-                      <div className="pub-title">
-                        {grant.url ? (
-                          <a href={grant.url} target="_blank" rel="noreferrer">
-                            {grant.title || grant.id}
-                          </a>
-                        ) : (
-                          grant.title || grant.id
-                        )}
-                      </div>
-                      <div className="pub-meta">
-                        <span className="mono">{grant.id || '—'}</span>
-                        <span className="dot" />
-                        <span>{grant.role || '—'}</span>
-                        <span className="dot" />
-                        <span>{formatCurrency(grant.amount)}</span>
-                        <span className="dot" />
-                        <span>
-                          {formatDate(grant.startDate)} to {formatDate(grant.endDate)}
-                        </span>
-                      </div>
-                    </li>
-                  ))}
-                </ul>
-              ) : (
-                <p className="muted">No grants available.</p>
-              )}
-            </div>
+            {!isScholars ? (
+              <div className="faculty-profile-block">
+                <h3>Grant Awards</h3>
+                {selectedFacultyProfile.grants.length ? (
+                  <ul className="pub-list">
+                    {selectedFacultyProfile.grants.map((grant) => (
+                      <li
+                        key={`profile-grant-${selectedFacultyProfile.id}-${grant.id}-${grant.fiscalYear || ''}`}
+                      >
+                        <div className="pub-title">
+                          {grant.url ? (
+                            <a href={grant.url} target="_blank" rel="noreferrer">
+                              {grant.title || grant.id}
+                            </a>
+                          ) : (
+                            grant.title || grant.id
+                          )}
+                        </div>
+                        <div className="pub-meta">
+                          <span className="mono">{grant.id || '—'}</span>
+                          <span className="dot" />
+                          <span>{grant.role || '—'}</span>
+                          <span className="dot" />
+                          <span>{formatCurrency(grant.amount)}</span>
+                          <span className="dot" />
+                          <span>
+                            {formatDate(grant.startDate)} to {formatDate(grant.endDate)}
+                          </span>
+                        </div>
+                      </li>
+                    ))}
+                  </ul>
+                ) : (
+                  <p className="muted">No grants available.</p>
+                )}
+              </div>
+            ) : null}
           </div>
         </section>
       ) : null}
@@ -4037,7 +4168,7 @@ export default function App() {
           </div>
         </div>
         <div className="insights-grid">
-          {isPublications ? (
+          {isPublicationDashboard ? (
             <>
               <ChartCard
                 title="Publication Pulse"
@@ -4119,7 +4250,7 @@ export default function App() {
               </ChartCard>
               <ChartCard
                 title="Authorship Mix"
-                subtitle="Where CTSI faculty land on author lists"
+                subtitle={`Where CTSI ${isScholars ? 'scholars' : 'faculty'} land on author lists`}
                 onDownloadSvg={() =>
                   downloadSvg(
                     pubAuthorshipRef.current,
@@ -4324,7 +4455,7 @@ export default function App() {
               <span className="sticky-author-meta">{openMember.department}</span>
             </div>
             <span className="sticky-author-count">
-              {isPublications
+              {isPublicationDashboard
                 ? `${openMember.filteredPublications.length} publications`
                 : `${openMember.grantCount} grants`}
             </span>
@@ -4332,19 +4463,19 @@ export default function App() {
         </div>
       ) : null}
 
-      {isPublications ? (
+      {isPublicationDashboard ? (
         <>
           <section
             className="table-wrap"
-            id="tab-panel-publications"
+            id={isScholars ? 'tab-panel-scholars' : 'tab-panel-publications'}
             role="tabpanel"
-            aria-labelledby="tab-publications"
+            aria-labelledby={isScholars ? 'tab-scholars' : 'tab-publications'}
           >
             <table className="table">
               <thead>
                 <tr>
-                  <th>Faculty (Last, First)</th>
-                  <th>Affiliation</th>
+                  <th>{participantLabel} (Last, First)</th>
+                  <th>{isScholars ? 'Research topic' : 'Affiliation'}</th>
                   <th>Programs</th>
                   <th>Trend</th>
                   <th className="num">Publications</th>
@@ -4426,7 +4557,11 @@ export default function App() {
                             )}
                           </div>
                         </td>
-                        <td>{member.department}</td>
+                        <td>
+                          {isScholars
+                            ? member.projectTitle || '—'
+                            : member.department}
+                        </td>
                         <td>
                           {member.programs?.length ? (
                             <div className="program-list">
@@ -4850,7 +4985,7 @@ export default function App() {
 
       <footer className="footer">
         <p>
-          Built for CTSI faculty reporting. Update the dataset in
+          Built for CTSI reporting. Update the dataset in
           <span className="mono"> {activeFile}</span> to refresh the dashboard.
         </p>
       </footer>

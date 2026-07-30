@@ -6,8 +6,11 @@ import { XMLParser } from 'fast-xml-parser';
 import { fetchArticleXml, fetchPmids, fetchSummaries } from './pubmed.mjs';
 import {
   getFacultySignatureTerms,
+  getStoredAuthorship,
   initDb,
   remapFacultyIdReferences,
+  updateFacultyPublicationAuthorship,
+  upsertFacultyPublication,
   upsertCanonicalFaculty
 } from './db.mjs';
 
@@ -231,17 +234,6 @@ const upsertPublication = (db, publication) => {
   });
 };
 
-const upsertFacultyPublication = (db, facultyId, pmid) => {
-  const stmt = db.prepare(`
-    INSERT INTO faculty_publications (faculty_id, pmid, first_seen_at, last_seen_at)
-    VALUES (?, ?, ?, ?)
-    ON CONFLICT(faculty_id, pmid)
-    DO UPDATE SET last_seen_at = excluded.last_seen_at
-  `);
-  const timestamp = nowIso();
-  stmt.run(facultyId, String(pmid), timestamp, timestamp);
-};
-
 const replaceCoauthors = (db, facultyId, pmid, coauthors) => {
   const deleteStmt = db.prepare(
     'DELETE FROM faculty_publication_coauthors WHERE faculty_id = ? AND pmid = ?'
@@ -264,7 +256,15 @@ const getPublicationsForFaculty = (db, facultyId) => {
   const rows = db
     .prepare(
       `
-      SELECT p.pmid AS id, p.title, p.journal, p.year, p.doi, p.url
+      SELECT
+        p.pmid AS id,
+        p.title,
+        p.journal,
+        p.year,
+        p.doi,
+        p.url,
+        fp.author_position AS authorPosition,
+        fp.author_count AS authorCount
       FROM publications p
       INNER JOIN faculty_publications fp ON fp.pmid = p.pmid
       LEFT JOIN curation c
@@ -1338,9 +1338,17 @@ const main = async () => {
     });
 
     publicationsToPersist.forEach((publication) => upsertPublication(db, publication));
-    publicationsToUpsert.forEach((publication) =>
-      upsertFacultyPublication(db, person.id, publication.id)
-    );
+    publicationsToUpsert.forEach((publication) => {
+      upsertFacultyPublication(
+        db,
+        person.id,
+        publication.id,
+        authorshipByPmid.get(String(publication.id))
+      );
+    });
+    authorshipByPmid.forEach((authorship, pmid) => {
+      updateFacultyPublicationAuthorship(db, person.id, pmid, authorship);
+    });
 
     coauthorsByPmid.forEach((coauthors, pmid) => {
       if (publicationsToPersist.has(String(pmid))) {
@@ -1352,8 +1360,15 @@ const main = async () => {
       (a, b) => (b.year || 0) - (a.year || 0) || a.title.localeCompare(b.title)
     );
     const publicationsWithAuthorship = dbPublications.map((publication) => {
-      const authorship = authorshipByPmid.get(String(publication.id));
-      return authorship ? { ...publication, authorship } : publication;
+      const publicationMetadata = { ...publication };
+      delete publicationMetadata.authorPosition;
+      delete publicationMetadata.authorCount;
+      const authorship =
+        authorshipByPmid.get(String(publication.id)) ||
+        getStoredAuthorship(publication);
+      return authorship
+        ? { ...publicationMetadata, authorship }
+        : publicationMetadata;
     });
     const dbFalsePositivePublications = getFalsePositivePublications(db, person.id);
     const coauthorsFromDb = getCoauthorsForFaculty(db, person.id);

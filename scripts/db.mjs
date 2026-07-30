@@ -102,6 +102,8 @@ export const initDb = (dbPath = DEFAULT_DB_PATH) => {
       first_seen_at TEXT NOT NULL,
       last_seen_at TEXT NOT NULL,
       source TEXT NOT NULL DEFAULT 'pubmed',
+      author_position INTEGER,
+      author_count INTEGER,
       PRIMARY KEY (faculty_id, pmid)
     );
     CREATE TABLE IF NOT EXISTS curation (
@@ -146,10 +148,106 @@ export const initDb = (dbPath = DEFAULT_DB_PATH) => {
   `);
 
   const currentVersion = db.pragma('user_version', { simple: true });
-  if (currentVersion < 1) {
-    db.pragma('user_version = 1');
+  const facultyPublicationColumns = new Set(
+    db.pragma('table_info(faculty_publications)').map((column) => column.name)
+  );
+  if (!facultyPublicationColumns.has('author_position')) {
+    db.exec('ALTER TABLE faculty_publications ADD COLUMN author_position INTEGER');
+  }
+  if (!facultyPublicationColumns.has('author_count')) {
+    db.exec('ALTER TABLE faculty_publications ADD COLUMN author_count INTEGER');
+  }
+  if (currentVersion < 2) {
+    db.pragma('user_version = 2');
   }
   return db;
+};
+
+export const upsertFacultyPublication = (
+  db,
+  facultyId,
+  pmid,
+  authorship = null
+) => {
+  const authorPosition = Number.isInteger(authorship?.position)
+    ? authorship.position
+    : null;
+  const authorCount = Number.isInteger(authorship?.total)
+    ? authorship.total
+    : null;
+  const timestamp = new Date().toISOString();
+  db.prepare(`
+    INSERT INTO faculty_publications (
+      faculty_id,
+      pmid,
+      first_seen_at,
+      last_seen_at,
+      author_position,
+      author_count
+    )
+    VALUES (?, ?, ?, ?, ?, ?)
+    ON CONFLICT(faculty_id, pmid)
+    DO UPDATE SET
+      last_seen_at = excluded.last_seen_at,
+      author_position = COALESCE(excluded.author_position, faculty_publications.author_position),
+      author_count = COALESCE(excluded.author_count, faculty_publications.author_count)
+  `).run(
+    String(facultyId || '').trim(),
+    String(pmid || '').trim(),
+    timestamp,
+    timestamp,
+    authorPosition,
+    authorCount
+  );
+};
+
+export const updateFacultyPublicationAuthorship = (
+  db,
+  facultyId,
+  pmid,
+  authorship
+) => {
+  const authorPosition = Number.isInteger(authorship?.position)
+    ? authorship.position
+    : null;
+  const authorCount = Number.isInteger(authorship?.total)
+    ? authorship.total
+    : null;
+  if (authorPosition === null || authorCount === null) {
+    return 0;
+  }
+  return db
+    .prepare(`
+      UPDATE faculty_publications
+      SET author_position = ?, author_count = ?
+      WHERE faculty_id = ? AND pmid = ?
+    `)
+    .run(
+      authorPosition,
+      authorCount,
+      String(facultyId || '').trim(),
+      String(pmid || '').trim()
+    ).changes;
+};
+
+export const getStoredAuthorship = (row) => {
+  const position = Number(row?.authorPosition ?? row?.author_position);
+  const total = Number(row?.authorCount ?? row?.author_count);
+  if (
+    !Number.isInteger(position) ||
+    !Number.isInteger(total) ||
+    position < 0 ||
+    total < 1 ||
+    position >= total
+  ) {
+    return null;
+  }
+  return {
+    position,
+    total,
+    isFirst: position === 0,
+    isLast: position === total - 1
+  };
 };
 
 const findFacultyByIdentity = (db, { orcid, email, legacySlug }) => {
@@ -370,7 +468,9 @@ export const remapFacultyIdReferences = (db, legacyId, canonicalId) => {
     remapPairTable(db, 'faculty_publications', fromId, toId, [
       'first_seen_at',
       'last_seen_at',
-      'source'
+      'source',
+      'author_position',
+      'author_count'
     ]);
     remapPairTable(db, 'faculty_publication_coauthors', fromId, toId, ['name']);
 

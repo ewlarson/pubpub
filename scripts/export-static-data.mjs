@@ -1,6 +1,6 @@
 import { writeFile } from 'node:fs/promises';
 import path from 'node:path';
-import { initDb } from './db.mjs';
+import { getStoredAuthorship, initDb } from './db.mjs';
 
 const PUBLICATIONS_OUTPUT_PATH = path.resolve('public', 'data', 'publications.json');
 const GRANTS_OUTPUT_PATH = path.resolve('public', 'data', 'grants.json');
@@ -117,7 +117,15 @@ const getPublicationRows = (db, facultyId) =>
   db
     .prepare(
       `
-      SELECT p.pmid AS id, p.title, p.journal, p.year, p.doi, p.url
+      SELECT
+        p.pmid AS id,
+        p.title,
+        p.journal,
+        p.year,
+        p.doi,
+        p.url,
+        fp.author_position AS authorPosition,
+        fp.author_count AS authorCount
       FROM publications p
       INNER JOIN faculty_publications fp ON fp.pmid = p.pmid
       LEFT JOIN curation c
@@ -128,7 +136,16 @@ const getPublicationRows = (db, facultyId) =>
       ORDER BY p.year DESC, p.title ASC
     `
     )
-    .all(facultyId);
+    .all(facultyId)
+    .map((publication) => {
+      const publicationMetadata = { ...publication };
+      delete publicationMetadata.authorPosition;
+      delete publicationMetadata.authorCount;
+      const authorship = getStoredAuthorship(publication);
+      return authorship
+        ? { ...publicationMetadata, authorship }
+        : publicationMetadata;
+    });
 
 const getFalsePositivePublicationRows = (db, facultyId) =>
   db
