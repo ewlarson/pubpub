@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-29",
-  "updatedAt": "2026-07-29T21:58:39Z",
+  "updated": "2026-07-30",
+  "updatedAt": "2026-07-30T10:29:03.788Z",
   "source": "PubMed E-utilities",
   "faculty": [
     {
@@ -1651,6 +1651,20 @@
           }
         },
         {
+          "id": "42526679",
+          "title": "Society of Family Planning Research Practice Support: Key considerations for contraceptive misinformation research.",
+          "journal": "Contraception",
+          "year": 2026,
+          "doi": "10.1016/j.contraception.2026.111570",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42526679/",
+          "authorship": {
+            "position": 3,
+            "total": 7,
+            "isFirst": false,
+            "isLast": false
+          }
+        },
+        {
           "id": "41115244",
           "title": "Fetal Personhood and Reproductive Criminalization - Implications for Patients, Clinicians, and Public Health.",
           "journal": "The New England journal of medicine",
@@ -1710,7 +1724,7 @@
       "authorCounts": null,
       "signals": {
         "positive": {
-          "count": 5,
+          "count": 6,
           "yearRange": {
             "min": 2024,
             "max": 2026
@@ -1726,13 +1740,13 @@
             },
             {
               "year": 2026,
-              "count": 1
+              "count": 2
             }
           ],
           "topJournals": [
             {
               "name": "Contraception",
-              "count": 2
+              "count": 3
             },
             {
               "name": "American journal of public health",
@@ -1749,7 +1763,23 @@
           ],
           "topKeywords": [
             {
+              "name": "research",
+              "count": 4
+            },
+            {
+              "name": "family",
+              "count": 3
+            },
+            {
               "name": "health",
+              "count": 3
+            },
+            {
+              "name": "planning",
+              "count": 3
+            },
+            {
+              "name": "practice",
               "count": 3
             },
             {
@@ -1757,23 +1787,15 @@
               "count": 2
             },
             {
+              "name": "considerations",
+              "count": 2
+            },
+            {
               "name": "contraception",
               "count": 2
             },
             {
-              "name": "family",
-              "count": 2
-            },
-            {
               "name": "patients",
-              "count": 2
-            },
-            {
-              "name": "planning",
-              "count": 2
-            },
-            {
-              "name": "practice",
               "count": 2
             },
             {
@@ -1785,16 +1807,8 @@
               "count": 2
             },
             {
-              "name": "research",
+              "name": "society",
               "count": 2
-            },
-            {
-              "name": "110534",
-              "count": 1
-            },
-            {
-              "name": "139",
-              "count": 1
             }
           ],
           "topCoauthors": [
@@ -1823,6 +1837,18 @@
               "count": 1
             },
             {
+              "name": "Anu Manchikanti Gomez",
+              "count": 1
+            },
+            {
+              "name": "David Scales",
+              "count": 1
+            },
+            {
+              "name": "Elizabeth Pleasants",
+              "count": 1
+            },
+            {
               "name": "Goleen Samari",
               "count": 1
             },
@@ -1831,19 +1857,7 @@
               "count": 1
             },
             {
-              "name": "Liza Fuentes",
-              "count": 1
-            },
-            {
-              "name": "Marissa Velarde",
-              "count": 1
-            },
-            {
-              "name": "Monica McLemore",
-              "count": 1
-            },
-            {
-              "name": "Taylor Riley",
+              "name": "Jessica Danaux",
               "count": 1
             }
           ]
@@ -18373,7 +18387,13 @@
           "journal": "Magnetic resonance in medicine",
           "year": 2015,
           "doi": "10.1002/mrm.25595",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/25800547/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/25800547/",
+          "authorship": {
+            "position": 2,
+            "total": 5,
+            "isFirst": false,
+            "isLast": false
+          }
         },
         {
           "id": "25625826",
@@ -18381,7 +18401,13 @@
           "journal": "Journal of magnetic resonance (San Diego, Calif. : 1997)",
           "year": 2015,
           "doi": "10.1016/j.jmr.2014.12.005",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/25625826/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/25625826/",
+          "authorship": {
+            "position": 3,
+            "total": 4,
+            "isFirst": false,
+            "isLast": true
+          }
         },
         {
           "id": "24604286",
@@ -18389,7 +18415,13 @@
           "journal": "Magnetic resonance in medicine",
           "year": 2014,
           "doi": "10.1002/mrm.25141",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/24604286/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/24604286/",
+          "authorship": {
+            "position": 0,
+            "total": 4,
+            "isFirst": true,
+            "isLast": false
+          }
         },
         {
           "id": "25247405",
@@ -18397,7 +18429,13 @@
           "journal": "Radiology",
           "year": 2014,
           "doi": "10.1148/radiol.14131273",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/25247405/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/25247405/",
+          "authorship": {
+            "position": 0,
+            "total": 10,
+            "isFirst": true,
+            "isLast": false
+          }
         },
         {
           "id": "25111731",
@@ -18405,7 +18443,13 @@
           "journal": "Magnetic resonance in medicine",
           "year": 2014,
           "doi": "10.1002/mrm.25398",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/25111731/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/25111731/",
+          "authorship": {
+            "position": 2,
+            "total": 7,
+            "isFirst": false,
+            "isLast": false
+          }
         },
         {
           "id": "25557859",
@@ -18413,7 +18457,13 @@
           "journal": "Journal of magnetic resonance (San Diego, Calif. : 1997)",
           "year": 2014,
           "doi": "10.1016/j.jmr.2014.11.014",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/25557859/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/25557859/",
+          "authorship": {
+            "position": 1,
+            "total": 3,
+            "isFirst": false,
+            "isLast": false
+          }
         },
         {
           "id": "24664527",
@@ -18421,7 +18471,13 @@
           "journal": "Magnetic resonance in medicine",
           "year": 2014,
           "doi": "10.1002/mrm.25181",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/24664527/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/24664527/",
+          "authorship": {
+            "position": 4,
+            "total": 7,
+            "isFirst": false,
+            "isLast": false
+          }
         },
         {
           "id": "23900995",
@@ -18429,7 +18485,13 @@
           "journal": "Magnetic resonance in medicine",
           "year": 2013,
           "doi": "10.1002/mrm.24893",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/23900995/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/23900995/",
+          "authorship": {
+            "position": 1,
+            "total": 4,
+            "isFirst": false,
+            "isLast": false
+          }
         },
         {
           "id": "23913527",
@@ -18437,7 +18499,13 @@
           "journal": "Magnetic resonance in medicine",
           "year": 2013,
           "doi": "10.1002/mrm.24888",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/23913527/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/23913527/",
+          "authorship": {
+            "position": 1,
+            "total": 5,
+            "isFirst": false,
+            "isLast": false
+          }
         },
         {
           "id": "23813886",
@@ -18445,7 +18513,13 @@
           "journal": "Magnetic resonance in medicine",
           "year": 2013,
           "doi": "10.1002/mrm.24831",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/23813886/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/23813886/",
+          "authorship": {
+            "position": 1,
+            "total": 5,
+            "isFirst": false,
+            "isLast": false
+          }
         },
         {
           "id": "22683578",
@@ -18453,7 +18527,13 @@
           "journal": "Journal of magnetic resonance (San Diego, Calif. : 1997)",
           "year": 2012,
           "doi": "10.1016/j.jmr.2012.04.016",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/22683578/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/22683578/",
+          "authorship": {
+            "position": 2,
+            "total": 5,
+            "isFirst": false,
+            "isLast": false
+          }
         },
         {
           "id": "22425671",
@@ -18461,7 +18541,13 @@
           "journal": "NeuroImage",
           "year": 2012,
           "doi": "10.1016/j.neuroimage.2012.03.002",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/22425671/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/22425671/",
+          "authorship": {
+            "position": 2,
+            "total": 8,
+            "isFirst": false,
+            "isLast": false
+          }
         }
       ],
       "authorCounts": null,
@@ -21454,7 +21540,13 @@
           "journal": "Journal of food protection",
           "year": 2026,
           "doi": "10.1016/j.jfp.2026.100809",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42106123/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42106123/",
+          "authorship": {
+            "position": 2,
+            "total": 4,
+            "isFirst": false,
+            "isLast": false
+          }
         },
         {
           "id": "42276445",
@@ -21462,7 +21554,13 @@
           "journal": "Journal of food protection",
           "year": 2026,
           "doi": "10.1016/j.jfp.2026.100834",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42276445/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42276445/",
+          "authorship": {
+            "position": 0,
+            "total": 3,
+            "isFirst": true,
+            "isLast": false
+          }
         },
         {
           "id": "41672278",
@@ -21470,7 +21568,13 @@
           "journal": "Journal of food protection",
           "year": 2026,
           "doi": "10.1016/j.jfp.2026.100717",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/41672278/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41672278/",
+          "authorship": {
+            "position": 0,
+            "total": 5,
+            "isFirst": true,
+            "isLast": false
+          }
         }
       ],
       "authorCounts": null,
@@ -60059,7 +60163,13 @@
           "journal": "Brain imaging and behavior",
           "year": 2020,
           "doi": "10.1007/s11682-019-00078-8",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/30887416/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/30887416/",
+          "authorship": {
+            "position": 0,
+            "total": 9,
+            "isFirst": true,
+            "isLast": false
+          }
         },
         {
           "id": "30780118",
@@ -60067,7 +60177,13 @@
           "journal": "Journal of affective disorders",
           "year": 2019,
           "doi": "10.1016/j.jad.2019.02.038",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/30780118/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/30780118/",
+          "authorship": {
+            "position": 6,
+            "total": 7,
+            "isFirst": false,
+            "isLast": true
+          }
         },
         {
           "id": "31946635",
@@ -60187,7 +60303,13 @@
           "journal": "International journal of molecular sciences",
           "year": 2018,
           "doi": "10.3390/ijms19020361",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/29370111/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/29370111/",
+          "authorship": {
+            "position": 3,
+            "total": 6,
+            "isFirst": false,
+            "isLast": false
+          }
         },
         {
           "id": "30440968",
@@ -60195,7 +60317,13 @@
           "journal": "Annual International Conference of the IEEE Engineering in Medicine and Biology Society. IEEE Engineering in Medicine and Biology Society. Annual International Conference",
           "year": 2018,
           "doi": "10.1109/EMBC.2018.8512852",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/30440968/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/30440968/",
+          "authorship": {
+            "position": 4,
+            "total": 6,
+            "isFirst": false,
+            "isLast": false
+          }
         },
         {
           "id": "30440595",
@@ -60203,7 +60331,13 @@
           "journal": "Annual International Conference of the IEEE Engineering in Medicine and Biology Society. IEEE Engineering in Medicine and Biology Society. Annual International Conference",
           "year": 2018,
           "doi": "10.1109/EMBC.2018.8512505",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/30440595/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/30440595/",
+          "authorship": {
+            "position": 4,
+            "total": 6,
+            "isFirst": false,
+            "isLast": false
+          }
         },
         {
           "id": "30081289",
@@ -60211,7 +60345,13 @@
           "journal": "Psychiatry research. Neuroimaging",
           "year": 2018,
           "doi": "10.1016/j.pscychresns.2018.06.015",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/30081289/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/30081289/",
+          "authorship": {
+            "position": 1,
+            "total": 4,
+            "isFirst": false,
+            "isLast": false
+          }
         },
         {
           "id": "29939340",
@@ -60219,7 +60359,13 @@
           "journal": "Social cognitive and affective neuroscience",
           "year": 2018,
           "doi": "10.1093/scan/nsy046",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/29939340/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/29939340/",
+          "authorship": {
+            "position": 6,
+            "total": 7,
+            "isFirst": false,
+            "isLast": true
+          }
         },
         {
           "id": "30440303",
@@ -60227,7 +60373,13 @@
           "journal": "Annual International Conference of the IEEE Engineering in Medicine and Biology Society. IEEE Engineering in Medicine and Biology Society. Annual International Conference",
           "year": 2018,
           "doi": "10.1109/EMBC.2018.8513168",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/30440303/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/30440303/",
+          "authorship": {
+            "position": 4,
+            "total": 6,
+            "isFirst": false,
+            "isLast": false
+          }
         },
         {
           "id": "30577943",
@@ -60235,7 +60387,13 @@
           "journal": "Journal of the American Academy of Child and Adolescent Psychiatry",
           "year": 2018,
           "doi": "10.1016/j.jaac.2018.06.032",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/30577943/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/30577943/",
+          "authorship": {
+            "position": 6,
+            "total": 9,
+            "isFirst": false,
+            "isLast": false
+          }
         },
         {
           "id": "30590339",
@@ -60243,7 +60401,13 @@
           "journal": "Psychoneuroendocrinology",
           "year": 2018,
           "doi": "10.1016/j.psyneuen.2018.11.004",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/30590339/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/30590339/",
+          "authorship": {
+            "position": 5,
+            "total": 6,
+            "isFirst": false,
+            "isLast": true
+          }
         },
         {
           "id": "30216863",
@@ -60251,7 +60415,13 @@
           "journal": "Psychiatry research. Neuroimaging",
           "year": 2018,
           "doi": "10.1016/j.pscychresns.2018.08.013",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/30216863/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/30216863/",
+          "authorship": {
+            "position": 7,
+            "total": 8,
+            "isFirst": false,
+            "isLast": true
+          }
         },
         {
           "id": "30004254",
@@ -60259,7 +60429,13 @@
           "journal": "Journal of child and adolescent psychopharmacology",
           "year": 2018,
           "doi": "10.1089/cap.2018.0030",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/30004254/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/30004254/",
+          "authorship": {
+            "position": 0,
+            "total": 15,
+            "isFirst": true,
+            "isLast": false
+          }
         },
         {
           "id": "29756354",
@@ -60267,7 +60443,13 @@
           "journal": "Suicide & life-threatening behavior",
           "year": 2018,
           "doi": "10.1111/sltb.12471",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/29756354/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/29756354/",
+          "authorship": {
+            "position": 2,
+            "total": 3,
+            "isFirst": false,
+            "isLast": true
+          }
         },
         {
           "id": "30173551",
@@ -60275,7 +60457,13 @@
           "journal": "The American journal of psychiatry",
           "year": 2018,
           "doi": "10.1176/appi.ajp.2018.18050572",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/30173551/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/30173551/",
+          "authorship": {
+            "position": 0,
+            "total": 1,
+            "isFirst": true,
+            "isLast": true
+          }
         },
         {
           "id": "30251758",
@@ -60283,7 +60471,13 @@
           "journal": "Human brain mapping",
           "year": 2018,
           "doi": "10.1002/hbm.24402",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/30251758/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/30251758/",
+          "authorship": {
+            "position": 6,
+            "total": 9,
+            "isFirst": false,
+            "isLast": false
+          }
         },
         {
           "id": "30768407",
@@ -60291,7 +60485,13 @@
           "journal": "Journal of the American Academy of Child and Adolescent Psychiatry",
           "year": 2018,
           "doi": "10.1016/j.jaac.2018.07.897",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/30768407/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/30768407/",
+          "authorship": {
+            "position": 1,
+            "total": 8,
+            "isFirst": false,
+            "isLast": false
+          }
         },
         {
           "id": "30196866",
@@ -60299,7 +60499,13 @@
           "journal": "Journal of the American Academy of Child and Adolescent Psychiatry",
           "year": 2018,
           "doi": "10.1016/j.jaac.2018.06.008",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/30196866/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/30196866/",
+          "authorship": {
+            "position": 0,
+            "total": 1,
+            "isFirst": true,
+            "isLast": true
+          }
         },
         {
           "id": "29186884",
@@ -60307,7 +60513,13 @@
           "journal": "International journal of molecular sciences",
           "year": 2017,
           "doi": "10.3390/ijms18122501",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/29186884/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/29186884/",
+          "authorship": {
+            "position": 2,
+            "total": 5,
+            "isFirst": false,
+            "isLast": false
+          }
         },
         {
           "id": "28628767",
@@ -60315,7 +60527,13 @@
           "journal": "Journal of affective disorders",
           "year": 2017,
           "doi": "10.1016/j.jad.2017.06.004",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/28628767/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/28628767/",
+          "authorship": {
+            "position": 9,
+            "total": 10,
+            "isFirst": false,
+            "isLast": true
+          }
         },
         {
           "id": "29053023",
@@ -60323,7 +60541,13 @@
           "journal": "Journal of child and adolescent psychopharmacology",
           "year": 2017,
           "doi": "10.1089/cap.2017.0032",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/29053023/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/29053023/",
+          "authorship": {
+            "position": 0,
+            "total": 11,
+            "isFirst": true,
+            "isLast": false
+          }
         },
         {
           "id": "29100972",
@@ -60331,7 +60555,13 @@
           "journal": "Progress in neuro-psychopharmacology & biological psychiatry",
           "year": 2017,
           "doi": "10.1016/j.pnpbp.2017.10.015",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/29100972/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/29100972/",
+          "authorship": {
+            "position": 5,
+            "total": 6,
+            "isFirst": false,
+            "isLast": true
+          }
         },
         {
           "id": "28394513",
@@ -60339,7 +60569,13 @@
           "journal": "The Journal of clinical psychiatry",
           "year": 2017,
           "doi": "10.4088/JCP.16l11277",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/28394513/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/28394513/",
+          "authorship": {
+            "position": 2,
+            "total": 7,
+            "isFirst": false,
+            "isLast": false
+          }
         },
         {
           "id": "26007149",
@@ -60347,7 +60583,13 @@
           "journal": "Brain imaging and behavior",
           "year": 2016,
           "doi": "10.1007/s11682-015-9406-4",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/26007149/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/26007149/",
+          "authorship": {
+            "position": 0,
+            "total": 8,
+            "isFirst": true,
+            "isLast": false
+          }
         },
         {
           "id": "28269076",
@@ -60355,7 +60597,13 @@
           "journal": "Annual International Conference of the IEEE Engineering in Medicine and Biology Society. IEEE Engineering in Medicine and Biology Society. Annual International Conference",
           "year": 2016,
           "doi": "10.1109/EMBC.2016.7591508",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/28269076/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/28269076/",
+          "authorship": {
+            "position": 5,
+            "total": 7,
+            "isFirst": false,
+            "isLast": false
+          }
         },
         {
           "id": "26977400",
@@ -60363,7 +60611,13 @@
           "journal": "NeuroImage. Clinical",
           "year": 2016,
           "doi": "10.1016/j.nicl.2016.02.006",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/26977400/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/26977400/",
+          "authorship": {
+            "position": 1,
+            "total": 7,
+            "isFirst": false,
+            "isLast": false
+          }
         },
         {
           "id": "27159204",
@@ -60371,7 +60625,13 @@
           "journal": "Journal of child and adolescent psychopharmacology",
           "year": 2016,
           "doi": "10.1089/cap.2015.0232",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/27159204/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/27159204/",
+          "authorship": {
+            "position": 0,
+            "total": 9,
+            "isFirst": true,
+            "isLast": false
+          }
         },
         {
           "id": "27447245",
@@ -60379,7 +60639,13 @@
           "journal": "Journal of child and adolescent psychopharmacology",
           "year": 2016,
           "doi": "10.1089/cap.2016.0070",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/27447245/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/27447245/",
+          "authorship": {
+            "position": 0,
+            "total": 6,
+            "isFirst": true,
+            "isLast": false
+          }
         },
         {
           "id": "27830935",
@@ -60387,7 +60653,13 @@
           "journal": "Journal of child and adolescent psychopharmacology",
           "year": 2016,
           "doi": "10.1089/cap.2016.0067",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/27830935/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/27830935/",
+          "authorship": {
+            "position": 2,
+            "total": 11,
+            "isFirst": false,
+            "isLast": false
+          }
         },
         {
           "id": "26674413",
@@ -60395,7 +60667,13 @@
           "journal": "Psychiatry research. Neuroimaging",
           "year": 2015,
           "doi": "10.1016/j.pscychresns.2015.11.002",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/26674413/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/26674413/",
+          "authorship": {
+            "position": 11,
+            "total": 12,
+            "isFirst": false,
+            "isLast": true
+          }
         },
         {
           "id": "26424412",
@@ -60403,7 +60681,13 @@
           "journal": "Neuroscience and biobehavioral reviews",
           "year": 2015,
           "doi": "10.1016/j.neubiorev.2015.09.011",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/26424412/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/26424412/",
+          "authorship": {
+            "position": 3,
+            "total": 4,
+            "isFirst": false,
+            "isLast": true
+          }
         },
         {
           "id": "26566871",
@@ -60411,7 +60695,13 @@
           "journal": "Journal of clinical child and adolescent psychology : the official journal for the Society of Clinical Child and Adolescent Psychology, American Psychological Association, Division 53",
           "year": 2015,
           "doi": "10.1080/15374416.2015.1072823",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/26566871/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/26566871/",
+          "authorship": {
+            "position": 1,
+            "total": 6,
+            "isFirst": false,
+            "isLast": false
+          }
         },
         {
           "id": "26050933",
@@ -60419,7 +60709,13 @@
           "journal": "Brain connectivity",
           "year": 2015,
           "doi": "10.1089/brain.2014.0312",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/26050933/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/26050933/",
+          "authorship": {
+            "position": 8,
+            "total": 9,
+            "isFirst": false,
+            "isLast": true
+          }
         },
         {
           "id": "26735329",
@@ -60427,7 +60723,13 @@
           "journal": "Journal of affective disorders",
           "year": 2015,
           "doi": "10.1016/j.jad.2015.12.020",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/26735329/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/26735329/",
+          "authorship": {
+            "position": 4,
+            "total": 10,
+            "isFirst": false,
+            "isLast": false
+          }
         },
         {
           "id": "26057335",
@@ -60435,7 +60737,13 @@
           "journal": "Journal of affective disorders",
           "year": 2015,
           "doi": "10.1016/j.jad.2015.05.017",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/26057335/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/26057335/",
+          "authorship": {
+            "position": 1,
+            "total": 4,
+            "isFirst": false,
+            "isLast": false
+          }
         },
         {
           "id": "25133665",
@@ -60443,7 +60751,13 @@
           "journal": "JAMA psychiatry",
           "year": 2014,
           "doi": "10.1001/jamapsychiatry.2014.1087",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/25133665/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/25133665/",
+          "authorship": {
+            "position": 0,
+            "total": 7,
+            "isFirst": true,
+            "isLast": false
+          }
         },
         {
           "id": "25036008",
@@ -60451,7 +60765,13 @@
           "journal": "Journal of affective disorders",
           "year": 2014,
           "doi": "10.1016/j.jad.2014.06.037",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/25036008/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/25036008/",
+          "authorship": {
+            "position": 8,
+            "total": 9,
+            "isFirst": false,
+            "isLast": true
+          }
         },
         {
           "id": "25328859",
@@ -60459,7 +60779,13 @@
           "journal": "Current behavioral neuroscience reports",
           "year": 2014,
           "doi": "10.1007/s40473-014-0020-3",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/25328859/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/25328859/",
+          "authorship": {
+            "position": 1,
+            "total": 4,
+            "isFirst": false,
+            "isLast": false
+          }
         },
         {
           "id": "25157535",
@@ -60467,7 +60793,13 @@
           "journal": "Research in gerontological nursing",
           "year": 2014,
           "doi": "10.3928/19404921-20140820-01",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/25157535/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/25157535/",
+          "authorship": {
+            "position": 1,
+            "total": 6,
+            "isFirst": false,
+            "isLast": false
+          }
         },
         {
           "id": "25422964",
@@ -60475,7 +60807,13 @@
           "journal": "Development and psychopathology",
           "year": 2014,
           "doi": "10.1017/S0954579414001059",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/25422964/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/25422964/",
+          "authorship": {
+            "position": 9,
+            "total": 10,
+            "isFirst": false,
+            "isLast": true
+          }
         },
         {
           "id": "24844978",
@@ -60483,7 +60821,13 @@
           "journal": "Psychiatry research",
           "year": 2014,
           "doi": "10.1016/j.psychres.2014.04.044",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/24844978/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/24844978/",
+          "authorship": {
+            "position": 0,
+            "total": 7,
+            "isFirst": true,
+            "isLast": false
+          }
         },
         {
           "id": "24522794",
@@ -60491,7 +60835,13 @@
           "journal": "JAMA psychiatry",
           "year": 2014,
           "doi": "10.1001/jamapsychiatry.2013.4638",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/24522794/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/24522794/",
+          "authorship": {
+            "position": 0,
+            "total": 2,
+            "isFirst": true,
+            "isLast": false
+          }
         }
       ],
       "authorCounts": null,
@@ -79641,7 +79991,13 @@
           "journal": "Cancer epidemiology, biomarkers & prevention : a publication of the American Association for Cancer Research, cosponsored by the American Society of Preventive Oncology",
           "year": 2026,
           "doi": "10.1158/1055-9965.EPI-26-0609",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42474278/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42474278/",
+          "authorship": {
+            "position": 10,
+            "total": 18,
+            "isFirst": false,
+            "isLast": false
+          }
         },
         {
           "id": "41499441",
