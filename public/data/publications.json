@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-30",
-  "updatedAt": "2026-07-30T10:29:03.788Z",
+  "updated": "2026-07-31",
+  "updatedAt": "2026-07-31T10:44:06.163Z",
   "source": "PubMed E-utilities",
   "faculty": [
     {
@@ -20391,6 +20391,20 @@
           }
         },
         {
+          "id": "42533591",
+          "title": "Evaluating the Readability of Patient-Facing Online Educational Materials for Pediatric Leukemia and Lymphoma.",
+          "journal": "Pediatric blood & cancer",
+          "year": 2026,
+          "doi": "10.1002/1545-5017.70602",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42533591/",
+          "authorship": {
+            "position": 5,
+            "total": 7,
+            "isFirst": false,
+            "isLast": false
+          }
+        },
+        {
           "id": "41346295",
           "title": "Hematopoietic cell transplantation for Wiskott-Aldrich syndrome: a PIDTC report.",
           "journal": "Blood advances",
@@ -21038,7 +21052,7 @@
       "authorCounts": null,
       "signals": {
         "positive": {
-          "count": 48,
+          "count": 49,
           "yearRange": {
             "min": 2019,
             "max": 2026
@@ -21074,7 +21088,7 @@
             },
             {
               "year": 2026,
-              "count": 8
+              "count": 9
             }
           ],
           "topJournals": [
@@ -21172,7 +21186,7 @@
           "topCoauthors": [
             {
               "name": "Jakub Tolar",
-              "count": 13
+              "count": 14
             },
             {
               "name": "Christopher C Dvorak",
@@ -46316,6 +46330,20 @@
           }
         },
         {
+          "id": "42528381",
+          "title": "Multivariate functional linear discriminant analysis with feature selection: an application to inflammatory bowel disease classification.",
+          "journal": "Biostatistics (Oxford, England)",
+          "year": 2026,
+          "doi": "10.1093/biostatistics/kxag027",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42528381/",
+          "authorship": {
+            "position": 2,
+            "total": 3,
+            "isFirst": false,
+            "isLast": true
+          }
+        },
+        {
           "id": "41684849",
           "title": "Proteomic and genetic predictors and risk scores of cardiovascular diseases in persons living with HIV.",
           "journal": "Frontiers in cardiovascular medicine",
@@ -46851,7 +46879,7 @@
       "authorCounts": null,
       "signals": {
         "positive": {
-          "count": 40,
+          "count": 41,
           "yearRange": {
             "min": 2019,
             "max": 2026
@@ -46887,10 +46915,14 @@
             },
             {
               "year": 2026,
-              "count": 4
+              "count": 5
             }
           ],
           "topJournals": [
+            {
+              "name": "Biostatistics (Oxford, England)",
+              "count": 3
+            },
             {
               "name": "BMC bioinformatics",
               "count": 3
@@ -46905,10 +46937,6 @@
             },
             {
               "name": "bioRxiv : the preprint server for biology",
-              "count": 2
-            },
-            {
-              "name": "Biostatistics (Oxford, England)",
               "count": 2
             },
             {
@@ -46942,16 +46970,16 @@
               "count": 13
             },
             {
+              "name": "analysis",
+              "count": 12
+            },
+            {
               "name": "hiv",
               "count": 12
             },
             {
-              "name": "analysis",
-              "count": 11
-            },
-            {
               "name": "disease",
-              "count": 7
+              "count": 8
             },
             {
               "name": "integrative",
@@ -46966,6 +46994,10 @@
               "count": 7
             },
             {
+              "name": "application",
+              "count": 6
+            },
+            {
               "name": "cardiovascular",
               "count": 6
             },
@@ -46975,10 +47007,6 @@
             },
             {
               "name": "deep",
-              "count": 6
-            },
-            {
-              "name": "health",
               "count": 6
             }
           ],
@@ -53412,6 +53440,20 @@
           }
         },
         {
+          "id": "42529077",
+          "title": "Shotgun metagenomic analysis reveals taxonomic and functional alterations in the gut microbiome across prodromal and symptomatic Lewy body disease.",
+          "journal": "Frontiers in microbiomes",
+          "year": 2026,
+          "doi": "10.3389/frmbi.2026.1834726",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42529077/",
+          "authorship": {
+            "position": 12,
+            "total": 14,
+            "isFirst": false,
+            "isLast": false
+          }
+        },
+        {
           "id": "42145945",
           "title": "The food matrix as a confounder in diet‒microbiome studies: methodological challenges and research gaps.",
           "journal": "Gut microbes reports",
@@ -53429,7 +53471,7 @@
       "authorCounts": null,
       "signals": {
         "positive": {
-          "count": 4,
+          "count": 5,
           "yearRange": {
             "min": 2026,
             "max": 2026
@@ -53437,7 +53479,7 @@
           "yearCounts": [
             {
               "year": 2026,
-              "count": 4
+              "count": 5
             }
           ],
           "topJournals": [
@@ -53452,11 +53494,19 @@
             {
               "name": "Clinical pharmacokinetics",
               "count": 1
+            },
+            {
+              "name": "Frontiers in microbiomes",
+              "count": 1
             }
           ],
           "topKeywords": [
             {
               "name": "microbiome",
+              "count": 3
+            },
+            {
+              "name": "gut",
               "count": 2
             },
             {
@@ -53472,7 +53522,23 @@
               "count": 2
             },
             {
+              "name": "across",
+              "count": 1
+            },
+            {
               "name": "adult",
+              "count": 1
+            },
+            {
+              "name": "alterations",
+              "count": 1
+            },
+            {
+              "name": "analysis",
+              "count": 1
+            },
+            {
+              "name": "body",
               "count": 1
             },
             {
@@ -53482,31 +53548,15 @@
             {
               "name": "challenges",
               "count": 1
-            },
-            {
-              "name": "computed",
-              "count": 1
-            },
-            {
-              "name": "conceptual",
-              "count": 1
-            },
-            {
-              "name": "confounder",
-              "count": 1
-            },
-            {
-              "name": "criteria",
-              "count": 1
-            },
-            {
-              "name": "diet",
-              "count": 1
             }
           ],
           "topCoauthors": [
             {
               "name": "Annie W Lin",
+              "count": 2
+            },
+            {
+              "name": "Christopher Staley",
               "count": 2
             },
             {
@@ -53530,6 +53580,10 @@
               "count": 1
             },
             {
+              "name": "Bradley F Boeve",
+              "count": 1
+            },
+            {
               "name": "Carrie P Earthman",
               "count": 1
             },
@@ -53538,19 +53592,11 @@
               "count": 1
             },
             {
-              "name": "Christopher Staley",
-              "count": 1
-            },
-            {
               "name": "Cyrus Jahansouz",
               "count": 1
             },
             {
               "name": "Duy Vo",
-              "count": 1
-            },
-            {
-              "name": "Elizabeth Kaul",
               "count": 1
             }
           ]
