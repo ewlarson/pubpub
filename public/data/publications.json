@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-31",
-  "updatedAt": "2026-07-31T10:44:06.163Z",
+  "updated": "2026-08-01",
+  "updatedAt": "2026-08-01T10:04:41.591Z",
   "source": "PubMed E-utilities",
   "faculty": [
     {
@@ -34475,6 +34475,20 @@
           }
         },
         {
+          "id": "42324687",
+          "title": "Task-Evoked Functional Activation and Coupling With CSF Flow Detected in the Human Brain With Ultrashort Echo Time fMRI at 7 T.",
+          "journal": "NMR in biomedicine",
+          "year": 2026,
+          "doi": "10.1002/nbm.70342",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42324687/",
+          "authorship": {
+            "position": 7,
+            "total": 8,
+            "isFirst": false,
+            "isLast": true
+          }
+        },
+        {
           "id": "41895548",
           "title": "Technical considerations of functional MRI in deep brain stimulation: recent advances and future perspectives.",
           "journal": "NeuroImage",
@@ -35710,7 +35724,7 @@
       "authorCounts": null,
       "signals": {
         "positive": {
-          "count": 91,
+          "count": 92,
           "yearRange": {
             "min": 2012,
             "max": 2026
@@ -35774,7 +35788,7 @@
             },
             {
               "year": 2026,
-              "count": 4
+              "count": 5
             }
           ],
           "topJournals": [
@@ -35811,18 +35825,18 @@
               "count": 3
             },
             {
-              "name": "bioRxiv : the preprint server for biology",
-              "count": 2
+              "name": "NMR in biomedicine",
+              "count": 3
             },
             {
-              "name": "Frontiers in physics",
+              "name": "bioRxiv : the preprint server for biology",
               "count": 2
             }
           ],
           "topKeywords": [
             {
               "name": "brain",
-              "count": 38
+              "count": 39
             },
             {
               "name": "mri",
@@ -35834,15 +35848,15 @@
             },
             {
               "name": "functional",
-              "count": 14
+              "count": 15
             },
             {
               "name": "fmri",
-              "count": 10
+              "count": 11
             },
             {
               "name": "human",
-              "count": 10
+              "count": 11
             },
             {
               "name": "rat",
@@ -35865,18 +35879,18 @@
               "count": 8
             },
             {
-              "name": "hypoglycemia",
+              "name": "echo",
               "count": 8
             }
           ],
           "topCoauthors": [
             {
               "name": "Shalom Michaeli",
-              "count": 56
+              "count": 57
             },
             {
               "name": "Olli Gr&#xf6;hn",
-              "count": 26
+              "count": 27
             },
             {
               "name": "Federico Giove",
@@ -35884,7 +35898,7 @@
             },
             {
               "name": "Pavel Filip",
-              "count": 22
+              "count": 23
             },
             {
               "name": "Lynn E Eberly",
@@ -35907,16 +35921,16 @@
               "count": 13
             },
             {
+              "name": "Ekaterina Paasonen",
+              "count": 12
+            },
+            {
               "name": "Heikki Tanila",
               "count": 12
             },
             {
               "name": "Lauri J Lehto",
               "count": 12
-            },
-            {
-              "name": "Djaudat Idiyatullin",
-              "count": 11
             }
           ]
         },
@@ -54740,6 +54754,20 @@
       ],
       "publications": [
         {
+          "id": "42348838",
+          "title": "Adult Chronic Pancreatitis Working Group: Goals, Accomplishments and the Path Ahead. A Report From the Consortium for the Study of Chronic Pancreatitis, Diabetes, and Pancreatic Cancer.",
+          "journal": "Pancreas",
+          "year": 2026,
+          "doi": "10.1097/MPA.0000000000002657",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42348838/",
+          "authorship": {
+            "position": 3,
+            "total": 21,
+            "isFirst": false,
+            "isLast": false
+          }
+        },
+        {
           "id": "41896854",
           "title": "Associations between dietary patterns and diabetes in patients with acute pancreatitis: a cross-sectional analysis from the DREAM study.",
           "journal": "Nutrition journal",
@@ -57767,7 +57795,7 @@
       "authorCounts": null,
       "signals": {
         "positive": {
-          "count": 216,
+          "count": 217,
           "yearRange": {
             "min": 2014,
             "max": 2026
@@ -57823,13 +57851,13 @@
             },
             {
               "year": 2026,
-              "count": 18
+              "count": 19
             }
           ],
           "topJournals": [
             {
               "name": "Pancreas",
-              "count": 44
+              "count": 45
             },
             {
               "name": "Pancreatology : official journal of the International Association of Pancreatology (IAP) ... [et al.]",
@@ -57870,16 +57898,16 @@
           ],
           "topKeywords": [
             {
+              "name": "pancreatitis",
+              "count": 122
+            },
+            {
               "name": "islet",
               "count": 121
             },
             {
-              "name": "pancreatitis",
-              "count": 120
-            },
-            {
               "name": "diabetes",
-              "count": 81
+              "count": 82
             },
             {
               "name": "pancreatectomy",
@@ -57891,7 +57919,7 @@
             },
             {
               "name": "chronic",
-              "count": 74
+              "count": 76
             },
             {
               "name": "autotransplantation",
@@ -57903,18 +57931,18 @@
             },
             {
               "name": "study",
-              "count": 38
+              "count": 39
             },
             {
               "name": "after",
               "count": 35
             },
             {
-              "name": "patients",
+              "name": "pancreatic",
               "count": 28
             },
             {
-              "name": "type",
+              "name": "patients",
               "count": 28
             }
           ],
@@ -57941,7 +57969,7 @@
             },
             {
               "name": "Dhiraj Yadav",
-              "count": 41
+              "count": 42
             },
             {
               "name": "Guru Trikudanathan",
@@ -57957,14 +57985,14 @@
             },
             {
               "name": "Darwin L Conwell",
-              "count": 27
-            },
-            {
-              "name": "James S Hodges",
-              "count": 26
+              "count": 28
             },
             {
               "name": "Phil A Hart",
+              "count": 27
+            },
+            {
+              "name": "Dana K Andersen",
               "count": 26
             }
           ]
@@ -71750,6 +71778,20 @@
           }
         },
         {
+          "id": "42493192",
+          "title": "Insights into the August 2026 Issue of the JOE.",
+          "journal": "Journal of endodontics",
+          "year": 2026,
+          "doi": "10.1016/j.joen.2026.06.011",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42493192/",
+          "authorship": {
+            "position": 8,
+            "total": 12,
+            "isFirst": false,
+            "isLast": false
+          }
+        },
+        {
           "id": "42331504",
           "title": "Insights into the July 2026 Issue of the JOE.",
           "journal": "Journal of endodontics",
@@ -72411,7 +72453,7 @@
       "authorCounts": null,
       "signals": {
         "positive": {
-          "count": 55,
+          "count": 56,
           "yearRange": {
             "min": 2021,
             "max": 2026
@@ -72439,13 +72481,13 @@
             },
             {
               "year": 2026,
-              "count": 14
+              "count": 15
             }
           ],
           "topJournals": [
             {
               "name": "Journal of endodontics",
-              "count": 24
+              "count": 25
             },
             {
               "name": "International endodontic journal",
@@ -72486,20 +72528,20 @@
               "count": 16
             },
             {
+              "name": "insights",
+              "count": 13
+            },
+            {
+              "name": "issue",
+              "count": 13
+            },
+            {
               "name": "canal",
               "count": 12
             },
             {
-              "name": "insights",
-              "count": 12
-            },
-            {
-              "name": "issue",
-              "count": 12
-            },
-            {
               "name": "joe",
-              "count": 10
+              "count": 11
             },
             {
               "name": "study",
@@ -72515,7 +72557,7 @@
             },
             {
               "name": "2026",
-              "count": 7
+              "count": 8
             },
             {
               "name": "analysis",
@@ -72533,47 +72575,47 @@
           "topCoauthors": [
             {
               "name": "Amir Azarpazhooh",
-              "count": 11
+              "count": 12
             },
             {
               "name": "Anil Kishen",
-              "count": 11
+              "count": 12
             },
             {
               "name": "Anita Aminoshariae",
-              "count": 11
+              "count": 12
             },
             {
               "name": "Ariadne M Letra",
-              "count": 11
+              "count": 12
             },
             {
               "name": "Frank C Setzer",
-              "count": 11
+              "count": 12
             },
             {
               "name": "Franklin R Tay",
-              "count": 11
+              "count": 12
             },
             {
               "name": "Gerald N Glickman",
-              "count": 11
+              "count": 12
             },
             {
               "name": "Jianing He",
-              "count": 11
+              "count": 12
             },
             {
               "name": "Kenneth M Hargreaves",
-              "count": 11
+              "count": 12
             },
             {
               "name": "Linda Levin",
-              "count": 11
+              "count": 12
             },
             {
               "name": "Sahng G Kim",
-              "count": 11
+              "count": 12
             },
             {
               "name": "Christopher Staley",
@@ -82277,7 +82319,13 @@
           "journal": "Inflammatory bowel diseases",
           "year": 2026,
           "doi": "10.1093/ibd/izag096",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42334201/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42334201/",
+          "authorship": {
+            "position": 4,
+            "total": 5,
+            "isFirst": false,
+            "isLast": true
+          }
         },
         {
           "id": "42274997",
@@ -82333,6 +82381,20 @@
             "total": 10,
             "isFirst": false,
             "isLast": false
+          }
+        },
+        {
+          "id": "42538086",
+          "title": "Understanding the Pathophysiology of Clostridioides difficile Infection, Colonization, and Making an Accurate Diagnosis.",
+          "journal": "Gastroenterology clinics of North America",
+          "year": 2026,
+          "doi": "10.1016/j.gtc.2026.05.003",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42538086/",
+          "authorship": {
+            "position": 1,
+            "total": 2,
+            "isFirst": false,
+            "isLast": true
           }
         },
         {
@@ -83389,7 +83451,7 @@
       "authorCounts": null,
       "signals": {
         "positive": {
-          "count": 81,
+          "count": 82,
           "yearRange": {
             "min": 2015,
             "max": 2026
@@ -83441,7 +83503,7 @@
             },
             {
               "year": 2026,
-              "count": 6
+              "count": 7
             }
           ],
           "topJournals": [
@@ -83505,7 +83567,7 @@
             },
             {
               "name": "difficile",
-              "count": 20
+              "count": 21
             },
             {
               "name": "fecal",
@@ -83513,7 +83575,7 @@
             },
             {
               "name": "infection",
-              "count": 17
+              "count": 18
             },
             {
               "name": "transplantation",
@@ -83521,7 +83583,7 @@
             },
             {
               "name": "clostridioides",
-              "count": 13
+              "count": 14
             },
             {
               "name": "patients",
