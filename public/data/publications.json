@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-01",
-  "updatedAt": "2026-08-01T10:04:41.591Z",
+  "updated": "2026-08-02",
+  "updatedAt": "2026-08-02T10:01:48.474Z",
   "source": "PubMed E-utilities",
   "faculty": [
     {
@@ -27261,6 +27261,20 @@
           }
         },
         {
+          "id": "42541595",
+          "title": "Semi-automated quantification of total and avascular retinal area in the rat model of oxygen-induced retinopathy.",
+          "journal": "Angiogenesis",
+          "year": 2026,
+          "doi": "10.1007/s10456-026-10070-8",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42541595/",
+          "authorship": {
+            "position": 4,
+            "total": 5,
+            "isFirst": false,
+            "isLast": true
+          }
+        },
+        {
           "id": "40539013",
           "title": "Anemia and retinopathy of prematurity: A narrative review.",
           "journal": "Pediatric investigation",
@@ -27292,7 +27306,7 @@
       "authorCounts": null,
       "signals": {
         "positive": {
-          "count": 3,
+          "count": 4,
           "yearRange": {
             "min": 2024,
             "max": 2026
@@ -27308,10 +27322,14 @@
             },
             {
               "year": 2026,
-              "count": 1
+              "count": 2
             }
           ],
           "topJournals": [
+            {
+              "name": "Angiogenesis",
+              "count": 1
+            },
             {
               "name": "Pediatric investigation",
               "count": 1
@@ -27328,6 +27346,10 @@
           "topKeywords": [
             {
               "name": "retinopathy",
+              "count": 4
+            },
+            {
+              "name": "induced",
               "count": 3
             },
             {
@@ -27339,7 +27361,7 @@
               "count": 2
             },
             {
-              "name": "induced",
+              "name": "oxygen",
               "count": 2
             },
             {
@@ -27351,38 +27373,38 @@
               "count": 2
             },
             {
+              "name": "retinal",
+              "count": 2
+            },
+            {
               "name": "analysis",
               "count": 1
             },
             {
-              "name": "brain",
+              "name": "area",
               "count": 1
             },
             {
-              "name": "dampens",
+              "name": "automated",
               "count": 1
             },
             {
-              "name": "developmental",
-              "count": 1
-            },
-            {
-              "name": "extremely",
-              "count": 1
-            },
-            {
-              "name": "hoc",
+              "name": "avascular",
               "count": 1
             }
           ],
           "topCoauthors": [
             {
-              "name": "Michael K Georgieff",
+              "name": "Amelia Morikuni",
               "count": 2
             },
             {
-              "name": "Amelia Morikuni",
-              "count": 1
+              "name": "Husaam Qureishy",
+              "count": 2
+            },
+            {
+              "name": "Michael K Georgieff",
+              "count": 2
             },
             {
               "name": "Ann Foster",
@@ -27401,10 +27423,6 @@
               "count": 1
             },
             {
-              "name": "Husaam Qureishy",
-              "count": 1
-            },
-            {
               "name": "Linda K McLoon",
               "count": 1
             },
@@ -27413,15 +27431,15 @@
               "count": 1
             },
             {
+              "name": "Michael D Evans",
+              "count": 1
+            },
+            {
               "name": "Minali Prasad",
               "count": 1
             },
             {
               "name": "Nancy M Fahim",
-              "count": 1
-            },
-            {
-              "name": "Phu V Tran",
               "count": 1
             }
           ]
@@ -46316,6 +46334,20 @@
       ],
       "publications": [
         {
+          "id": "42541425",
+          "title": "A score based on MRI imaging variables can predict time to moderate progression in mild cognitive impairment: Multimodal data integration study.",
+          "journal": "Journal of Alzheimer's disease : JAD",
+          "year": 2026,
+          "doi": "10.1177/13872877261469162",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42541425/",
+          "authorship": {
+            "position": 6,
+            "total": 8,
+            "isFirst": false,
+            "isLast": false
+          }
+        },
+        {
           "id": "42051257",
           "title": "CYP2B6 polymorphisms and suicidal behaviour in people living with HIV treated with efavirenz-containing combination antiretroviral therapy: a global case-control study.",
           "journal": "Frontiers in pharmacology",
@@ -46893,7 +46925,7 @@
       "authorCounts": null,
       "signals": {
         "positive": {
-          "count": 41,
+          "count": 42,
           "yearRange": {
             "min": 2019,
             "max": 2026
@@ -46929,7 +46961,7 @@
             },
             {
               "year": 2026,
-              "count": 5
+              "count": 6
             }
           ],
           "topJournals": [
@@ -46981,7 +47013,7 @@
             },
             {
               "name": "data",
-              "count": 13
+              "count": 14
             },
             {
               "name": "analysis",
@@ -47058,6 +47090,10 @@
               "count": 5
             },
             {
+              "name": "Thierry Chekouo",
+              "count": 5
+            },
+            {
               "name": "Brian T Steffen",
               "count": 4
             },
@@ -47067,10 +47103,6 @@
             },
             {
               "name": "Cavan Reilly",
-              "count": 4
-            },
-            {
-              "name": "Christopher J Tignanelli",
               "count": 4
             }
           ]
@@ -68458,6 +68490,20 @@
       ],
       "publications": [
         {
+          "id": "42539446",
+          "title": "Adapting a Poststroke Sedentary Behavior Intervention for Remote Delivery: Lessons from a Formative Descriptive Case Series.",
+          "journal": "Telemedicine reports",
+          "year": 2026,
+          "doi": "10.1177/26924366261447903",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42539446/",
+          "authorship": {
+            "position": 0,
+            "total": 8,
+            "isFirst": true,
+            "isLast": false
+          }
+        },
+        {
           "id": "41173735",
           "title": "Promoting community and social participation in chronic stroke: A pilot study of the ENGAGE intervention.",
           "journal": "Disability and health journal",
@@ -68531,10 +68577,10 @@
       "authorCounts": null,
       "signals": {
         "positive": {
-          "count": 5,
+          "count": 6,
           "yearRange": {
             "min": 2024,
-            "max": 2025
+            "max": 2026
           },
           "yearCounts": [
             {
@@ -68544,6 +68590,10 @@
             {
               "year": 2025,
               "count": 2
+            },
+            {
+              "year": 2026,
+              "count": 1
             }
           ],
           "topJournals": [
@@ -68566,6 +68616,10 @@
             {
               "name": "Nephrology nursing journal : journal of the American Nephrology Nurses' Association",
               "count": 1
+            },
+            {
+              "name": "Telemedicine reports",
+              "count": 1
             }
           ],
           "topKeywords": [
@@ -68586,11 +68640,19 @@
               "count": 2
             },
             {
+              "name": "intervention",
+              "count": 2
+            },
+            {
               "name": "participation",
               "count": 2
             },
             {
               "name": "promoting",
+              "count": 2
+            },
+            {
+              "name": "sedentary",
               "count": 2
             },
             {
@@ -68602,19 +68664,11 @@
               "count": 1
             },
             {
+              "name": "adapting",
+              "count": 1
+            },
+            {
               "name": "adults",
-              "count": 1
-            },
-            {
-              "name": "affect",
-              "count": 1
-            },
-            {
-              "name": "after",
-              "count": 1
-            },
-            {
-              "name": "among",
               "count": 1
             }
           ],
@@ -68632,6 +68686,10 @@
               "count": 1
             },
             {
+              "name": "Amos Badu",
+              "count": 1
+            },
+            {
               "name": "Ardith Z Doorenbos",
               "count": 1
             },
@@ -68644,6 +68702,14 @@
               "count": 1
             },
             {
+              "name": "Beth Lewis",
+              "count": 1
+            },
+            {
+              "name": "Bethany Barone Gibbs",
+              "count": 1
+            },
+            {
               "name": "Carolyn Baum",
               "count": 1
             },
@@ -68653,18 +68719,6 @@
             },
             {
               "name": "Eleanor Rivera",
-              "count": 1
-            },
-            {
-              "name": "Elena Donoso Brown",
-              "count": 1
-            },
-            {
-              "name": "Elizabeth Skidmore",
-              "count": 1
-            },
-            {
-              "name": "Elnaz Alimi",
               "count": 1
             }
           ]
