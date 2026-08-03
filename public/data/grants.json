@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-02",
-  "updatedAt": "2026-08-02T10:01:48.474Z",
+  "updated": "2026-08-03",
+  "updatedAt": "2026-08-03T11:26:59.202Z",
   "source": "NIH RePORTER API",
   "faculty": [
     {
@@ -1768,7 +1768,7 @@
           "role": "Not listed",
           "amount": 603462,
           "startDate": "2022-09-20",
-          "endDate": "2026-08-31",
+          "endDate": "2027-08-31",
           "fiscalYear": 2025,
           "url": "https://reporter.nih.gov/project-details/11175296",
           "coreProjectNum": "R01HD108868"
@@ -3358,17 +3358,6 @@
           "coreProjectNum": "R01NS119297"
         },
         {
-          "id": "3R01NS119297-03S1",
-          "title": "3D Bioprinted Spinal Cord Organoids as a Relay System for Spinal Cord Injury",
-          "role": "Not listed",
-          "amount": 74284,
-          "startDate": "2021-09-02",
-          "endDate": "2026-06-30",
-          "fiscalYear": 2023,
-          "url": "https://reporter.nih.gov/project-details/10840561",
-          "coreProjectNum": "R01NS119297"
-        },
-        {
           "id": "5R01NS119297-03",
           "title": "3D Bioprinted Spinal Cord Organoids as a Relay System for Spinal Cord Injury",
           "role": "Not listed",
@@ -3377,6 +3366,17 @@
           "endDate": "2026-06-30",
           "fiscalYear": 2023,
           "url": "https://reporter.nih.gov/project-details/10677016",
+          "coreProjectNum": "R01NS119297"
+        },
+        {
+          "id": "3R01NS119297-03S1",
+          "title": "3D Bioprinted Spinal Cord Organoids as a Relay System for Spinal Cord Injury",
+          "role": "Not listed",
+          "amount": 74284,
+          "startDate": "2021-09-02",
+          "endDate": "2026-06-30",
+          "fiscalYear": 2023,
+          "url": "https://reporter.nih.gov/project-details/10840561",
           "coreProjectNum": "R01NS119297"
         },
         {
@@ -4335,17 +4335,6 @@
           "coreProjectNum": "RF1AG069771"
         },
         {
-          "id": "5R01MD010729-05",
-          "title": "System Factors and Racial Disparities in Nursing Home Quality of Life and Care",
-          "role": "Not listed",
-          "amount": 359473,
-          "startDate": "2016-08-15",
-          "endDate": "2022-04-30",
-          "fiscalYear": 2020,
-          "url": "https://reporter.nih.gov/project-details/9907866",
-          "coreProjectNum": "R01MD010729"
-        },
-        {
           "id": "3R01MD010729-05S1",
           "title": "System Factors and Racial Disparities in Nursing Home Quality of Life and Care",
           "role": "Not listed",
@@ -4354,6 +4343,17 @@
           "endDate": "2022-04-30",
           "fiscalYear": 2020,
           "url": "https://reporter.nih.gov/project-details/10180782",
+          "coreProjectNum": "R01MD010729"
+        },
+        {
+          "id": "5R01MD010729-05",
+          "title": "System Factors and Racial Disparities in Nursing Home Quality of Life and Care",
+          "role": "Not listed",
+          "amount": 359473,
+          "startDate": "2016-08-15",
+          "endDate": "2022-04-30",
+          "fiscalYear": 2020,
+          "url": "https://reporter.nih.gov/project-details/9907866",
           "coreProjectNum": "R01MD010729"
         },
         {
@@ -5215,17 +5215,6 @@
           "coreProjectNum": "U01DK126300"
         },
         {
-          "id": "3U01DK126300-03S1",
-          "title": "University of Minnesota Clinical Center for the Study of Pancreatic Disease",
-          "role": "Not listed",
-          "amount": 100000,
-          "startDate": "2020-09-03",
-          "endDate": "2025-06-30",
-          "fiscalYear": 2022,
-          "url": "https://reporter.nih.gov/project-details/10684392",
-          "coreProjectNum": "U01DK126300"
-        },
-        {
           "id": "5U01DK126300-03",
           "title": "University of Minnesota Clinical Center for the Study of Pancreatic Disease",
           "role": "Not listed",
@@ -5234,6 +5223,17 @@
           "endDate": "2025-06-30",
           "fiscalYear": 2022,
           "url": "https://reporter.nih.gov/project-details/10445078",
+          "coreProjectNum": "U01DK126300"
+        },
+        {
+          "id": "3U01DK126300-03S1",
+          "title": "University of Minnesota Clinical Center for the Study of Pancreatic Disease",
+          "role": "Not listed",
+          "amount": 100000,
+          "startDate": "2020-09-03",
+          "endDate": "2025-06-30",
+          "fiscalYear": 2022,
+          "url": "https://reporter.nih.gov/project-details/10684392",
           "coreProjectNum": "U01DK126300"
         },
         {
@@ -5686,17 +5686,6 @@
           "coreProjectNum": "R01MH107394"
         },
         {
-          "id": "5R01MH107394-02",
-          "title": "A Longitudinal Study Examining Three RDoC Constructs in Adolescents with Non-Suicidal Self-Injury",
-          "role": "Not listed",
-          "amount": 547473,
-          "startDate": "2016-08-01",
-          "endDate": "2021-05-31",
-          "fiscalYear": 2017,
-          "url": "https://reporter.nih.gov/project-details/9315221",
-          "coreProjectNum": "R01MH107394"
-        },
-        {
           "id": "3R01MH107394-02S1",
           "title": "A Longitudinal Study Examining Three RDoC Constructs in Adolescents with Non-Suicidal Self-Injury",
           "role": "Not listed",
@@ -5705,6 +5694,17 @@
           "endDate": "2021-05-31",
           "fiscalYear": 2017,
           "url": "https://reporter.nih.gov/project-details/9474891",
+          "coreProjectNum": "R01MH107394"
+        },
+        {
+          "id": "5R01MH107394-02",
+          "title": "A Longitudinal Study Examining Three RDoC Constructs in Adolescents with Non-Suicidal Self-Injury",
+          "role": "Not listed",
+          "amount": 547473,
+          "startDate": "2016-08-01",
+          "endDate": "2021-05-31",
+          "fiscalYear": 2017,
+          "url": "https://reporter.nih.gov/project-details/9315221",
           "coreProjectNum": "R01MH107394"
         },
         {
@@ -6946,7 +6946,7 @@
           "role": "Contact PI",
           "amount": 384686,
           "startDate": "2021-08-23",
-          "endDate": "2026-07-31",
+          "endDate": "2027-07-31",
           "fiscalYear": 2025,
           "url": "https://reporter.nih.gov/project-details/11146713",
           "coreProjectNum": "R01AI162181"
@@ -6957,7 +6957,7 @@
           "role": "Contact PI",
           "amount": 256919,
           "startDate": "2021-08-23",
-          "endDate": "2026-07-31",
+          "endDate": "2027-07-31",
           "fiscalYear": 2025,
           "url": "https://reporter.nih.gov/project-details/11399642",
           "coreProjectNum": "R01AI162181"
