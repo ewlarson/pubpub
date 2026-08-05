@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-04",
-  "updatedAt": "2026-08-04T10:41:26.628Z",
+  "updated": "2026-08-05",
+  "updatedAt": "2026-08-05T10:41:09.728Z",
   "source": "PubMed E-utilities",
   "faculty": [
     {
@@ -101,6 +101,20 @@
           "authorship": {
             "position": 1,
             "total": 10,
+            "isFirst": false,
+            "isLast": false
+          }
+        },
+        {
+          "id": "42548473",
+          "title": "Association of Patient and Neighborhood Factors With Lung Cancer Screening Rates in Minnesota.",
+          "journal": "CHEST pulmonary",
+          "year": 2025,
+          "doi": "10.1016/j.chpulm.2025.100228",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42548473/",
+          "authorship": {
+            "position": 2,
+            "total": 4,
             "isFirst": false,
             "isLast": false
           }
@@ -389,7 +403,7 @@
       "authorCounts": null,
       "signals": {
         "positive": {
-          "count": 26,
+          "count": 27,
           "yearRange": {
             "min": 2020,
             "max": 2026
@@ -417,7 +431,7 @@
             },
             {
               "year": 2025,
-              "count": 4
+              "count": 5
             },
             {
               "year": 2026,
@@ -446,6 +460,10 @@
               "count": 1
             },
             {
+              "name": "CHEST pulmonary",
+              "count": 1
+            },
+            {
               "name": "Diabetes care",
               "count": 1
             },
@@ -460,20 +478,20 @@
             {
               "name": "JMIR public health and surveillance",
               "count": 1
-            },
-            {
-              "name": "Journal of clinical and translational science",
-              "count": 1
             }
           ],
           "topKeywords": [
             {
               "name": "cancer",
-              "count": 13
+              "count": 14
             },
             {
               "name": "health",
               "count": 9
+            },
+            {
+              "name": "screening",
+              "count": 7
             },
             {
               "name": "social",
@@ -484,8 +502,8 @@
               "count": 6
             },
             {
-              "name": "screening",
-              "count": 6
+              "name": "minnesota",
+              "count": 5
             },
             {
               "name": "study",
@@ -497,10 +515,6 @@
             },
             {
               "name": "community",
-              "count": 4
-            },
-            {
-              "name": "minnesota",
               "count": 4
             },
             {
@@ -524,6 +538,10 @@
             {
               "name": "Pinar Karaca Mandic",
               "count": 4
+            },
+            {
+              "name": "Abbie Begnaud",
+              "count": 3
             },
             {
               "name": "Anne Blaes",
@@ -552,10 +570,6 @@
             {
               "name": "Thanh T Hoang",
               "count": 3
-            },
-            {
-              "name": "Abbie Begnaud",
-              "count": 2
             },
             {
               "name": "Daniel S Hsia",
@@ -2456,12 +2470,26 @@
             "isFirst": true,
             "isLast": false
           }
+        },
+        {
+          "id": "42548416",
+          "title": "Variation in Incidence of Pneumothorax Complications After Percutaneous Lung Biopsies Among Veterans Health Administration Hospitals.",
+          "journal": "CHEST pulmonary",
+          "year": 2023,
+          "doi": "10.1016/j.chpulm.2023.100005",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42548416/",
+          "authorship": {
+            "position": 1,
+            "total": 7,
+            "isFirst": false,
+            "isLast": false
+          }
         }
       ],
       "authorCounts": null,
       "signals": {
         "positive": {
-          "count": 10,
+          "count": 11,
           "yearRange": {
             "min": 2023,
             "max": 2026
@@ -2469,7 +2497,7 @@
           "yearCounts": [
             {
               "year": 2023,
-              "count": 3
+              "count": 4
             },
             {
               "year": 2024,
@@ -2495,6 +2523,10 @@
             },
             {
               "name": "Annals of the American Thoracic Society",
+              "count": 1
+            },
+            {
+              "name": "CHEST pulmonary",
               "count": 1
             },
             {
@@ -2525,11 +2557,15 @@
           "topKeywords": [
             {
               "name": "health",
-              "count": 5
+              "count": 6
             },
             {
               "name": "lung",
-              "count": 4
+              "count": 5
+            },
+            {
+              "name": "administration",
+              "count": 3
             },
             {
               "name": "care",
@@ -2552,7 +2588,11 @@
               "count": 3
             },
             {
-              "name": "administration",
+              "name": "veterans",
+              "count": 3
+            },
+            {
+              "name": "among",
               "count": 2
             },
             {
@@ -2561,14 +2601,6 @@
             },
             {
               "name": "cohort",
-              "count": 2
-            },
-            {
-              "name": "new",
-              "count": 2
-            },
-            {
-              "name": "prevalence",
               "count": 2
             }
           ],
@@ -2594,7 +2626,19 @@
               "count": 2
             },
             {
+              "name": "Daniel J Sturgeon",
+              "count": 2
+            },
+            {
+              "name": "Hillary J Mull",
+              "count": 2
+            },
+            {
               "name": "Jolie Wormwood",
+              "count": 2
+            },
+            {
+              "name": "Marva V Foster",
               "count": 2
             },
             {
@@ -2607,18 +2651,6 @@
             },
             {
               "name": "Abbas B Jama",
-              "count": 1
-            },
-            {
-              "name": "Abigail La Nou",
-              "count": 1
-            },
-            {
-              "name": "Alicia Woodward-Abel",
-              "count": 1
-            },
-            {
-              "name": "Allan J Walkey",
               "count": 1
             }
           ]
