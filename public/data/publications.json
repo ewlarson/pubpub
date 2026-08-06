@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-05",
-  "updatedAt": "2026-08-05T10:41:09.728Z",
+  "updated": "2026-08-06",
+  "updatedAt": "2026-08-06T10:44:47.578Z",
   "source": "PubMed E-utilities",
   "faculty": [
     {
@@ -26393,6 +26393,20 @@
       ],
       "publications": [
         {
+          "id": "42555816",
+          "title": "\"DiscoverU\": Formative Development and Mixed-Methods Evaluation of an Afterschool Health and Well-Being Mentoring Program for Adolescents.",
+          "journal": "Journal of community psychology",
+          "year": 2026,
+          "doi": "10.1002/jcop.70137",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42555816/",
+          "authorship": {
+            "position": 0,
+            "total": 7,
+            "isFirst": true,
+            "isLast": false
+          }
+        },
+        {
           "id": "42522283",
           "title": "Addressing Weight Stigma in WIC: A Qualitative Study Exploring Advice and Training Needs of Minnesota WIC Staff.",
           "journal": "Childhood obesity (Print)",
@@ -26466,7 +26480,7 @@
       "authorCounts": null,
       "signals": {
         "positive": {
-          "count": 5,
+          "count": 6,
           "yearRange": {
             "min": 2022,
             "max": 2026
@@ -26486,7 +26500,7 @@
             },
             {
               "year": 2026,
-              "count": 1
+              "count": 2
             }
           ],
           "topJournals": [
@@ -26509,12 +26523,20 @@
             {
               "name": "Journal of clinical medicine",
               "count": 1
+            },
+            {
+              "name": "Journal of community psychology",
+              "count": 1
             }
           ],
           "topKeywords": [
             {
               "name": "weight",
               "count": 5
+            },
+            {
+              "name": "adolescents",
+              "count": 2
             },
             {
               "name": "associations",
@@ -26549,10 +26571,6 @@
               "count": 1
             },
             {
-              "name": "adolescents",
-              "count": 1
-            },
-            {
               "name": "adults",
               "count": 1
             },
@@ -26567,16 +26585,24 @@
               "count": 3
             },
             {
-              "name": "Aliye B Cepni",
-              "count": 2
+              "name": "Lenora P Goodman",
+              "count": 3
             },
             {
-              "name": "Lenora P Goodman",
+              "name": "Aliye B Cepni",
               "count": 2
             },
             {
               "name": "Tracey A Ledoux",
               "count": 2
+            },
+            {
+              "name": "Adrianna N Bell",
+              "count": 1
+            },
+            {
+              "name": "Barbara J McMorris",
+              "count": 1
             },
             {
               "name": "Carolyn Bresnahan",
@@ -26591,23 +26617,15 @@
               "count": 1
             },
             {
+              "name": "Jodi Gadient",
+              "count": 1
+            },
+            {
               "name": "Joseph S Lightner",
               "count": 1
             },
             {
               "name": "Kevin Haubrick",
-              "count": 1
-            },
-            {
-              "name": "Laura Hooper",
-              "count": 1
-            },
-            {
-              "name": "Margit Wiesner",
-              "count": 1
-            },
-            {
-              "name": "Marla E Eisenberg",
               "count": 1
             }
           ]
