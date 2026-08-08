@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-06",
-  "updatedAt": "2026-08-06T10:44:47.578Z",
+  "updated": "2026-08-08",
+  "updatedAt": "2026-08-08T08:44:28.621Z",
   "source": "PubMed E-utilities",
   "faculty": [
     {
@@ -7454,7 +7454,7 @@
         },
         {
           "id": "42154904",
-          "title": "Consensus Recommendations for CAR T-Cell Administration in Adult Acute Lymphoblastic Leukemia: a Modified Delphi Study.",
+          "title": "Consensus recommendations for CAR T-cell administration in adult acute lymphoblastic leukemia: a modified Delphi study.",
           "journal": "Blood",
           "year": 2026,
           "doi": "10.1182/blood.2026033559",
@@ -19340,6 +19340,20 @@
           }
         },
         {
+          "id": "42560707",
+          "title": "Iron Delivery Amid Nutritional and Infectious Adversity.",
+          "journal": "JAMA",
+          "year": 2026,
+          "doi": "10.1001/jama.2026.14187",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42560707/",
+          "authorship": {
+            "position": 0,
+            "total": 3,
+            "isFirst": true,
+            "isLast": false
+          }
+        },
+        {
           "id": "41257751",
           "title": "Supplemental choline to prevent and treat learning and memory deficits of early-life iron deficiency (The SupCHO Study): study protocol for a randomized, placebo-controlled trial in Ugandan infants with iron deficiency anemia.",
           "journal": "Trials",
@@ -19847,7 +19861,7 @@
       "authorCounts": null,
       "signals": {
         "positive": {
-          "count": 37,
+          "count": 38,
           "yearRange": {
             "min": 2012,
             "max": 2026
@@ -19903,7 +19917,7 @@
             },
             {
               "year": 2026,
-              "count": 1
+              "count": 2
             }
           ],
           "topJournals": [
@@ -19955,7 +19969,7 @@
             },
             {
               "name": "iron",
-              "count": 19
+              "count": 20
             },
             {
               "name": "malaria",
@@ -20012,12 +20026,12 @@
               "count": 10
             },
             {
-              "name": "Paul Bangirana",
+              "name": "Andrea L Conroy",
               "count": 8
             },
             {
-              "name": "Andrea L Conroy",
-              "count": 7
+              "name": "Paul Bangirana",
+              "count": 8
             },
             {
               "name": "Ezekiel Mupere",
@@ -20153,6 +20167,20 @@
           }
         },
         {
+          "id": "42561953",
+          "title": "Phased T2T horse and donkey assemblies from a mule reveal peculiar equid centromere evolution.",
+          "journal": "Cell genomics",
+          "year": 2026,
+          "doi": "10.1016/j.xgen.2026.101307",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42561953/",
+          "authorship": {
+            "position": 27,
+            "total": 31,
+            "isFirst": false,
+            "isLast": false
+          }
+        },
+        {
           "id": "42386222",
           "title": "Using a wearable electrocardiogram (ECG) patch adapted for 7-day monitoring in the horse.",
           "journal": "Equine veterinary journal",
@@ -20212,7 +20240,7 @@
       "authorCounts": null,
       "signals": {
         "positive": {
-          "count": 9,
+          "count": 10,
           "yearRange": {
             "min": 2023,
             "max": 2026
@@ -20228,7 +20256,7 @@
             },
             {
               "year": 2026,
-              "count": 6
+              "count": 7
             }
           ],
           "topJournals": [
@@ -20246,6 +20274,10 @@
             },
             {
               "name": "Case reports in veterinary medicine",
+              "count": 1
+            },
+            {
+              "name": "Cell genomics",
               "count": 1
             },
             {
@@ -20267,6 +20299,10 @@
           ],
           "topKeywords": [
             {
+              "name": "horse",
+              "count": 3
+            },
+            {
               "name": "thoroughbred",
               "count": 3
             },
@@ -20275,7 +20311,15 @@
               "count": 2
             },
             {
+              "name": "assemblies",
+              "count": 2
+            },
+            {
               "name": "associated",
+              "count": 2
+            },
+            {
+              "name": "donkey",
               "count": 2
             },
             {
@@ -20283,7 +20327,15 @@
               "count": 2
             },
             {
+              "name": "equid",
+              "count": 2
+            },
+            {
               "name": "equine",
+              "count": 2
+            },
+            {
+              "name": "evolution",
               "count": 2
             },
             {
@@ -20293,76 +20345,56 @@
             {
               "name": "exercising",
               "count": 2
-            },
-            {
-              "name": "gene",
-              "count": 2
-            },
-            {
-              "name": "horse",
-              "count": 2
-            },
-            {
-              "name": "telomere",
-              "count": 2
-            },
-            {
-              "name": "using",
-              "count": 2
-            },
-            {
-              "name": "variant",
-              "count": 2
             }
           ],
           "topCoauthors": [
             {
               "name": "Elena Giulotto",
-              "count": 2
+              "count": 3
             },
             {
               "name": "Jessica L Petersen",
-              "count": 2
-            },
-            {
-              "name": "Jillian L Marlowe",
-              "count": 2
-            },
-            {
-              "name": "Lauren Hughes",
-              "count": 2
-            },
-            {
-              "name": "Molly E McCue",
-              "count": 2
+              "count": 3
             },
             {
               "name": "Molly McCue",
-              "count": 2
+              "count": 3
             },
             {
               "name": "Terje Raudsepp",
-              "count": 2
+              "count": 3
             },
             {
               "name": "Adam M Phillippy",
-              "count": 1
+              "count": 2
             },
             {
-              "name": "Amy C Ross",
-              "count": 1
+              "name": "Brandon D Pickett",
+              "count": 2
             },
             {
-              "name": "Arabella Baird",
-              "count": 1
+              "name": "Brian P Walenz",
+              "count": 2
             },
             {
-              "name": "Barbara A Murphy",
-              "count": 1
+              "name": "Carey Dessaix",
+              "count": 2
             },
             {
-              "name": "Bianca Waud",
-              "count": 1
+              "name": "Christina Sison",
+              "count": 2
+            },
+            {
+              "name": "David L Adelson",
+              "count": 2
+            },
+            {
+              "name": "Donald Miller",
+              "count": 2
+            },
+            {
+              "name": "Douglas F Antczak",
+              "count": 2
             }
           ]
         },
@@ -49144,7 +49176,7 @@
         },
         {
           "id": "42406418",
-          "title": "Consumer-Reported Quality Indicators for Publicly-Funded Home and Community-Based Services: Development and Validation.",
+          "title": "Consumer-reported quality indicators for publicly funded home- and community-based services: development and validation.",
           "journal": "The Gerontologist",
           "year": 2026,
           "doi": "10.1093/geront/gnag145",
@@ -50864,6 +50896,20 @@
           }
         },
         {
+          "id": "42567405",
+          "title": "Housing Insecurity Among Children of Incarcerated Parents in the United States.",
+          "journal": "The Journal of pediatrics",
+          "year": 2026,
+          "doi": "10.1016/j.jpeds.2026.115276",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42567405/",
+          "authorship": {
+            "position": 4,
+            "total": 6,
+            "isFirst": false,
+            "isLast": false
+          }
+        },
+        {
           "id": "41631746",
           "title": "Pregnancy and Postpartum-Related Accommodations During Incarceration: A Review of Policies in the United States.",
           "journal": "Journal of correctional health care : the official journal of the National Commission on Correctional Health Care",
@@ -52015,7 +52061,7 @@
       "authorCounts": null,
       "signals": {
         "positive": {
-          "count": 85,
+          "count": 86,
           "yearRange": {
             "min": 2013,
             "max": 2026
@@ -52075,7 +52121,7 @@
             },
             {
               "year": 2026,
-              "count": 5
+              "count": 6
             }
           ],
           "topJournals": [
@@ -52093,6 +52139,10 @@
             },
             {
               "name": "Prevention science : the official journal of the Society for Prevention Research",
+              "count": 3
+            },
+            {
+              "name": "The Journal of pediatrics",
               "count": 3
             },
             {
@@ -52114,10 +52164,6 @@
             {
               "name": "Infant mental health journal",
               "count": 2
-            },
-            {
-              "name": "Journal of adolescence",
-              "count": 2
             }
           ],
           "topKeywords": [
@@ -52127,11 +52173,11 @@
             },
             {
               "name": "among",
-              "count": 27
+              "count": 28
             },
             {
               "name": "incarcerated",
-              "count": 25
+              "count": 26
             },
             {
               "name": "women",
@@ -52155,6 +52201,10 @@
             },
             {
               "name": "children",
+              "count": 11
+            },
+            {
+              "name": "parents",
               "count": 10
             },
             {
@@ -52164,10 +52214,6 @@
             {
               "name": "study",
               "count": 10
-            },
-            {
-              "name": "parental",
-              "count": 9
             }
           ],
           "topCoauthors": [
@@ -52177,7 +52223,7 @@
             },
             {
               "name": "Luke Muentner",
-              "count": 10
+              "count": 11
             },
             {
               "name": "Carolyn Sufrin",
@@ -52189,6 +52235,10 @@
             },
             {
               "name": "Barbara J McMorris",
+              "count": 5
+            },
+            {
+              "name": "Dylan B Jackson",
               "count": 5
             },
             {
@@ -52209,10 +52259,6 @@
             },
             {
               "name": "Bethany Kotlar",
-              "count": 4
-            },
-            {
-              "name": "Dylan B Jackson",
               "count": 4
             },
             {

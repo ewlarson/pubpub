@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-06",
-  "updatedAt": "2026-08-06T10:41:05.482Z",
+  "updated": "2026-08-08",
+  "updatedAt": "2026-08-08T08:40:42.598Z",
   "source": "PubMed E-utilities (ORCID)",
   "faculty": [
     {
@@ -3838,16 +3838,119 @@
         }
       ],
       "projectTitle": "Development of Cortical Excitation and Inhibition Balance and its Role in Executive Functioning during Adolescence",
-      "publications": [],
-      "authorCounts": null,
+      "publications": [
+        {
+          "id": "42566098",
+          "title": "Differential glutamate modulation in the anterior mid-cingulate cortex of healthy adults during inhibitory motor control utilizing a novel interleaved baseline control condition: a ¹H fMRS study.",
+          "journal": "Brain structure & function",
+          "year": 2026,
+          "doi": "10.1007/s00429-026-03170-0",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42566098/",
+          "authorship": {
+            "position": 1,
+            "total": 6,
+            "isFirst": false,
+            "isLast": false
+          }
+        }
+      ],
+      "authorCounts": {
+        "first": 0,
+        "last": 0,
+        "total": 1,
+        "known": 1
+      },
       "signals": {
         "positive": {
-          "count": 0,
-          "yearRange": null,
-          "yearCounts": [],
-          "topJournals": [],
-          "topKeywords": [],
-          "topCoauthors": []
+          "count": 1,
+          "yearRange": {
+            "min": 2026,
+            "max": 2026
+          },
+          "yearCounts": [
+            {
+              "year": 2026,
+              "count": 1
+            }
+          ],
+          "topJournals": [
+            {
+              "name": "Brain structure & function",
+              "count": 1
+            }
+          ],
+          "topKeywords": [
+            {
+              "name": "control",
+              "count": 2
+            },
+            {
+              "name": "adults",
+              "count": 1
+            },
+            {
+              "name": "anterior",
+              "count": 1
+            },
+            {
+              "name": "baseline",
+              "count": 1
+            },
+            {
+              "name": "cingulate",
+              "count": 1
+            },
+            {
+              "name": "condition",
+              "count": 1
+            },
+            {
+              "name": "cortex",
+              "count": 1
+            },
+            {
+              "name": "differential",
+              "count": 1
+            },
+            {
+              "name": "during",
+              "count": 1
+            },
+            {
+              "name": "fmrs",
+              "count": 1
+            },
+            {
+              "name": "glutamate",
+              "count": 1
+            },
+            {
+              "name": "healthy",
+              "count": 1
+            }
+          ],
+          "topCoauthors": [
+            {
+              "name": "Dalal Khatib",
+              "count": 1
+            },
+            {
+              "name": "Eric Woodcock",
+              "count": 1
+            },
+            {
+              "name": "Jeffrey A Stanley",
+              "count": 1
+            },
+            {
+              "name": "Jillian M Eichstaedt",
+              "count": 1
+            },
+            {
+              "name": "Vaibhav A Diwadkar",
+              "count": 1
+            }
+          ]
         },
         "negative": {
           "count": 0,
@@ -14415,20 +14518,6 @@
       "projectTitle": "Bacterial bile acid metabolism in fecal transplantation of Clostridium difficile infection",
       "publications": [
         {
-          "id": "42090570",
-          "title": "Potential Celiac Disease as a Window Into Gluten-Mediated Enteropathy.",
-          "journal": "Journal of clinical gastroenterology",
-          "year": 2026,
-          "doi": "10.1097/MCG.0000000000002389",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42090570/",
-          "authorship": {
-            "position": 0,
-            "total": 2,
-            "isFirst": true,
-            "isLast": false
-          }
-        },
-        {
           "id": "41279619",
           "title": "Gut microbial composition modulates food-specific CD4 (+) T cells in food allergy.",
           "journal": "bioRxiv : the preprint server for biology",
@@ -14458,17 +14547,17 @@
         }
       ],
       "authorCounts": {
-        "first": 3,
+        "first": 2,
         "last": 0,
-        "total": 3,
-        "known": 3
+        "total": 2,
+        "known": 2
       },
       "signals": {
         "positive": {
-          "count": 3,
+          "count": 2,
           "yearRange": {
             "min": 2022,
-            "max": 2026
+            "max": 2025
           },
           "yearCounts": [
             {
@@ -14477,10 +14566,6 @@
             },
             {
               "year": 2025,
-              "count": 1
-            },
-            {
-              "year": 2026,
               "count": 1
             }
           ],
@@ -14491,10 +14576,6 @@
             },
             {
               "name": "Digestive diseases and sciences",
-              "count": 1
-            },
-            {
-              "name": "Journal of clinical gastroenterology",
               "count": 1
             }
           ],
@@ -14520,10 +14601,6 @@
               "count": 1
             },
             {
-              "name": "celiac",
-              "count": 1
-            },
-            {
               "name": "cells",
               "count": 1
             },
@@ -14536,15 +14613,19 @@
               "count": 1
             },
             {
-              "name": "disease",
+              "name": "gut",
               "count": 1
             },
             {
-              "name": "enteropathy",
+              "name": "ileum",
               "count": 1
             },
             {
-              "name": "gluten",
+              "name": "long",
+              "count": 1
+            },
+            {
+              "name": "material",
               "count": 1
             }
           ],
