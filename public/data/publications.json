@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-08",
-  "updatedAt": "2026-08-08T08:44:28.621Z",
+  "updated": "2026-08-09",
+  "updatedAt": "2026-08-09T08:45:12.629Z",
   "source": "PubMed E-utilities",
   "faculty": [
     {
@@ -2614,11 +2614,11 @@
               "count": 4
             },
             {
-              "name": "Benjamin Langworthy",
-              "count": 3
+              "name": "Amy M Linsky",
+              "count": 2
             },
             {
-              "name": "Amy M Linsky",
+              "name": "Benjamin Langworthy",
               "count": 2
             },
             {
@@ -58774,6 +58774,20 @@
       ],
       "publications": [
         {
+          "id": "42568675",
+          "title": "Five-year cardiovascular outcomes across hypertensive disorders of pregnancy subtypes: a propensity-matched analysis.",
+          "journal": "Frontiers in cardiovascular medicine",
+          "year": 2026,
+          "doi": "10.3389/fcvm.2026.1875409",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42568675/",
+          "authorship": {
+            "position": 11,
+            "total": 12,
+            "isFirst": false,
+            "isLast": true
+          }
+        },
+        {
           "id": "40343146",
           "title": "Examining maternal and fetal outcomes across various subtypes of hypertension during pregnancy.",
           "journal": "International journal of cardiology. Cardiovascular risk and prevention",
@@ -58889,10 +58903,10 @@
       "authorCounts": null,
       "signals": {
         "positive": {
-          "count": 8,
+          "count": 9,
           "yearRange": {
             "min": 2021,
-            "max": 2025
+            "max": 2026
           },
           "yearCounts": [
             {
@@ -58910,12 +58924,20 @@
             {
               "year": 2025,
               "count": 2
+            },
+            {
+              "year": 2026,
+              "count": 1
             }
           ],
           "topJournals": [
             {
               "name": "International journal of cardiology. Cardiovascular risk and prevention",
               "count": 2
+            },
+            {
+              "name": "Frontiers in cardiovascular medicine",
+              "count": 1
             },
             {
               "name": "Heart (British Cardiac Society)",
@@ -58944,16 +58966,28 @@
           ],
           "topKeywords": [
             {
+              "name": "across",
+              "count": 3
+            },
+            {
               "name": "left",
+              "count": 3
+            },
+            {
+              "name": "outcomes",
+              "count": 3
+            },
+            {
+              "name": "pregnancy",
+              "count": 3
+            },
+            {
+              "name": "subtypes",
               "count": 3
             },
             {
               "name": "ventricular",
               "count": 3
-            },
-            {
-              "name": "across",
-              "count": 2
             },
             {
               "name": "cardioverter",
@@ -58976,42 +59010,34 @@
               "count": 2
             },
             {
-              "name": "implantable",
-              "count": 2
-            },
-            {
-              "name": "maternal",
-              "count": 2
-            },
-            {
-              "name": "outcomes",
-              "count": 2
-            },
-            {
-              "name": "pregnancy",
+              "name": "hypertensive",
               "count": 2
             }
           ],
           "topCoauthors": [
             {
+              "name": "Bhavadharini Ramu",
+              "count": 4
+            },
+            {
+              "name": "Jessica Schultz",
+              "count": 4
+            },
+            {
+              "name": "Ahmad Jabri",
+              "count": 3
+            },
+            {
               "name": "Amy Gravely",
               "count": 3
             },
             {
-              "name": "Bhavadharini Ramu",
-              "count": 3
-            },
-            {
-              "name": "Jessica Schultz",
+              "name": "Laith Alhuneafat",
               "count": 3
             },
             {
               "name": "Sel&#xe7;uk Adabag",
               "count": 3
-            },
-            {
-              "name": "Ahmad Jabri",
-              "count": 2
             },
             {
               "name": "Alaq Haddad",
@@ -59027,10 +59053,6 @@
             },
             {
               "name": "Fares Ghanem",
-              "count": 2
-            },
-            {
-              "name": "Laith Alhuneafat",
               "count": 2
             },
             {
@@ -82478,6 +82500,20 @@
           }
         },
         {
+          "id": "42569219",
+          "title": "Colonoscopic or Capsule Fecal Microbiota Transplantation for Recurrent Clostridioides difficile Infection: A Prospective Cohort.",
+          "journal": "Gastro hep advances",
+          "year": 2026,
+          "doi": "10.1016/j.gastha.2026.101051",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42569219/",
+          "authorship": {
+            "position": 6,
+            "total": 7,
+            "isFirst": false,
+            "isLast": true
+          }
+        },
+        {
           "id": "42274997",
           "title": "Cost-effectiveness of Commercial or Traditional Fecal Microbiota Transplantation for Recurrent Clostridioides difficile Infection.",
           "journal": "Clinical infectious diseases : an official publication of the Infectious Diseases Society of America",
@@ -83601,7 +83637,7 @@
       "authorCounts": null,
       "signals": {
         "positive": {
-          "count": 82,
+          "count": 83,
           "yearRange": {
             "min": 2015,
             "max": 2026
@@ -83653,7 +83689,7 @@
             },
             {
               "year": 2026,
-              "count": 7
+              "count": 8
             }
           ],
           "topJournals": [
@@ -83694,7 +83730,7 @@
               "count": 3
             },
             {
-              "name": "Gastroenterology",
+              "name": "Gastro hep advances",
               "count": 3
             }
           ],
@@ -83704,11 +83740,11 @@
               "count": 34
             },
             {
-              "name": "bowel",
-              "count": 28
+              "name": "microbiota",
+              "count": 29
             },
             {
-              "name": "microbiota",
+              "name": "bowel",
               "count": 28
             },
             {
@@ -83717,23 +83753,23 @@
             },
             {
               "name": "difficile",
-              "count": 21
+              "count": 22
             },
             {
               "name": "fecal",
-              "count": 20
+              "count": 21
             },
             {
               "name": "infection",
-              "count": 18
+              "count": 19
             },
             {
               "name": "transplantation",
-              "count": 17
+              "count": 18
             },
             {
               "name": "clostridioides",
-              "count": 14
+              "count": 15
             },
             {
               "name": "patients",
@@ -83751,7 +83787,7 @@
           "topCoauthors": [
             {
               "name": "Alexander Khoruts",
-              "count": 29
+              "count": 30
             },
             {
               "name": "Michael J Sadowsky",
@@ -83786,16 +83822,16 @@
               "count": 7
             },
             {
+              "name": "Monika Fischer",
+              "count": 7
+            },
+            {
+              "name": "Colleen R Kelly",
+              "count": 6
+            },
+            {
               "name": "Eva A Enns",
               "count": 6
-            },
-            {
-              "name": "Monika Fischer",
-              "count": 6
-            },
-            {
-              "name": "Carolyn Graiziger",
-              "count": 5
             }
           ]
         },
