@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-09",
-  "updatedAt": "2026-08-09T08:45:12.629Z",
+  "updated": "2026-08-10",
+  "updatedAt": "2026-08-10T09:24:32.485Z",
   "source": "NIH RePORTER API",
   "faculty": [
     {
@@ -3057,6 +3057,17 @@
       "reporterUrl": "",
       "grants": [
         {
+          "id": "5R34HL174877-03",
+          "title": "Vibrotactile stimulation of the larynx for refractory chronic cough",
+          "role": "Contact PI",
+          "amount": 189904,
+          "startDate": "2024-08-15",
+          "endDate": "2027-07-31",
+          "fiscalYear": 2026,
+          "url": "https://reporter.nih.gov/project-details/11395500",
+          "coreProjectNum": "R34HL174877"
+        },
+        {
           "id": "5R34HL174877-02",
           "title": "Vibrotactile stimulation of the larynx for refractory chronic cough",
           "role": "Contact PI",
@@ -3774,17 +3785,6 @@
           "coreProjectNum": "K23DK118207"
         },
         {
-          "id": "5K23DK118207-03",
-          "title": "Optimizing Diabetes Care Quality for Low-Income Patients",
-          "role": "Not listed",
-          "amount": 198936,
-          "startDate": "2018-09-01",
-          "endDate": "2023-08-31",
-          "fiscalYear": 2020,
-          "url": "https://reporter.nih.gov/project-details/10001066",
-          "coreProjectNum": "K23DK118207"
-        },
-        {
           "id": "3K23DK118207-03S1",
           "title": "Optimizing Diabetes Care Quality for Low-Income Patients",
           "role": "Not listed",
@@ -3793,6 +3793,17 @@
           "endDate": "2023-08-31",
           "fiscalYear": 2020,
           "url": "https://reporter.nih.gov/project-details/10220358",
+          "coreProjectNum": "K23DK118207"
+        },
+        {
+          "id": "5K23DK118207-03",
+          "title": "Optimizing Diabetes Care Quality for Low-Income Patients",
+          "role": "Not listed",
+          "amount": 198936,
+          "startDate": "2018-09-01",
+          "endDate": "2023-08-31",
+          "fiscalYear": 2020,
+          "url": "https://reporter.nih.gov/project-details/10001066",
           "coreProjectNum": "K23DK118207"
         },
         {
@@ -4335,17 +4346,6 @@
           "coreProjectNum": "RF1AG069771"
         },
         {
-          "id": "3R01MD010729-05S1",
-          "title": "System Factors and Racial Disparities in Nursing Home Quality of Life and Care",
-          "role": "Not listed",
-          "amount": 352479,
-          "startDate": "2016-08-15",
-          "endDate": "2022-04-30",
-          "fiscalYear": 2020,
-          "url": "https://reporter.nih.gov/project-details/10180782",
-          "coreProjectNum": "R01MD010729"
-        },
-        {
           "id": "5R01MD010729-05",
           "title": "System Factors and Racial Disparities in Nursing Home Quality of Life and Care",
           "role": "Not listed",
@@ -4354,6 +4354,17 @@
           "endDate": "2022-04-30",
           "fiscalYear": 2020,
           "url": "https://reporter.nih.gov/project-details/9907866",
+          "coreProjectNum": "R01MD010729"
+        },
+        {
+          "id": "3R01MD010729-05S1",
+          "title": "System Factors and Racial Disparities in Nursing Home Quality of Life and Care",
+          "role": "Not listed",
+          "amount": 352479,
+          "startDate": "2016-08-15",
+          "endDate": "2022-04-30",
+          "fiscalYear": 2020,
+          "url": "https://reporter.nih.gov/project-details/10180782",
           "coreProjectNum": "R01MD010729"
         },
         {
@@ -5094,6 +5105,17 @@
           "coreProjectNum": "R01DK126728"
         },
         {
+          "id": "5U01DK127367-07",
+          "title": "University of Minnesota Clinical Center for the Study of Acute Pancreatitis and Diabetes",
+          "role": "Not listed",
+          "amount": 492800,
+          "startDate": "2020-09-17",
+          "endDate": "2030-07-31",
+          "fiscalYear": 2026,
+          "url": "https://reporter.nih.gov/project-details/11413733",
+          "coreProjectNum": "U01DK127367"
+        },
+        {
           "id": "2U01DK127367-06",
           "title": "University of Minnesota Clinical Center for the Study of Acute Pancreatitis and Diabetes",
           "role": "Not listed",
@@ -5215,17 +5237,6 @@
           "coreProjectNum": "U01DK126300"
         },
         {
-          "id": "5U01DK126300-03",
-          "title": "University of Minnesota Clinical Center for the Study of Pancreatic Disease",
-          "role": "Not listed",
-          "amount": 455667,
-          "startDate": "2020-09-03",
-          "endDate": "2025-06-30",
-          "fiscalYear": 2022,
-          "url": "https://reporter.nih.gov/project-details/10445078",
-          "coreProjectNum": "U01DK126300"
-        },
-        {
           "id": "3U01DK126300-03S1",
           "title": "University of Minnesota Clinical Center for the Study of Pancreatic Disease",
           "role": "Not listed",
@@ -5234,6 +5245,17 @@
           "endDate": "2025-06-30",
           "fiscalYear": 2022,
           "url": "https://reporter.nih.gov/project-details/10684392",
+          "coreProjectNum": "U01DK126300"
+        },
+        {
+          "id": "5U01DK126300-03",
+          "title": "University of Minnesota Clinical Center for the Study of Pancreatic Disease",
+          "role": "Not listed",
+          "amount": 455667,
+          "startDate": "2020-09-03",
+          "endDate": "2025-06-30",
+          "fiscalYear": 2022,
+          "url": "https://reporter.nih.gov/project-details/10445078",
           "coreProjectNum": "U01DK126300"
         },
         {
@@ -5686,17 +5708,6 @@
           "coreProjectNum": "R01MH107394"
         },
         {
-          "id": "3R01MH107394-02S1",
-          "title": "A Longitudinal Study Examining Three RDoC Constructs in Adolescents with Non-Suicidal Self-Injury",
-          "role": "Not listed",
-          "amount": 132353,
-          "startDate": "2016-08-01",
-          "endDate": "2021-05-31",
-          "fiscalYear": 2017,
-          "url": "https://reporter.nih.gov/project-details/9474891",
-          "coreProjectNum": "R01MH107394"
-        },
-        {
           "id": "5R01MH107394-02",
           "title": "A Longitudinal Study Examining Three RDoC Constructs in Adolescents with Non-Suicidal Self-Injury",
           "role": "Not listed",
@@ -5705,6 +5716,17 @@
           "endDate": "2021-05-31",
           "fiscalYear": 2017,
           "url": "https://reporter.nih.gov/project-details/9315221",
+          "coreProjectNum": "R01MH107394"
+        },
+        {
+          "id": "3R01MH107394-02S1",
+          "title": "A Longitudinal Study Examining Three RDoC Constructs in Adolescents with Non-Suicidal Self-Injury",
+          "role": "Not listed",
+          "amount": 132353,
+          "startDate": "2016-08-01",
+          "endDate": "2021-05-31",
+          "fiscalYear": 2017,
+          "url": "https://reporter.nih.gov/project-details/9474891",
           "coreProjectNum": "R01MH107394"
         },
         {
