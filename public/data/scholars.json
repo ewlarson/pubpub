@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-10",
-  "updatedAt": "2026-08-10T09:20:46.836Z",
+  "updated": "2026-08-11",
+  "updatedAt": "2026-08-11T08:55:17.566Z",
   "source": "PubMed E-utilities (ORCID)",
   "faculty": [
     {
@@ -14474,16 +14474,107 @@
         }
       ],
       "projectTitle": "Affective Symptoms and QoL in Persons with Subjective Cognitive Decline and The Impact of Aerobic Exercise: A Mixed Methods Study",
-      "publications": [],
-      "authorCounts": null,
+      "publications": [
+        {
+          "id": "42574716",
+          "title": "Exercise Impact on Affective/Cognitive Symptoms and QoL in Subjective Cognitive Decline: An RCT.",
+          "journal": "American journal of Alzheimer's disease and other dementias",
+          "year": 2026,
+          "doi": "10.1177/15333175261476974",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42574716/",
+          "authorship": {
+            "position": 0,
+            "total": 6,
+            "isFirst": true,
+            "isLast": false
+          }
+        }
+      ],
+      "authorCounts": {
+        "first": 1,
+        "last": 0,
+        "total": 1,
+        "known": 1
+      },
       "signals": {
         "positive": {
-          "count": 0,
-          "yearRange": null,
-          "yearCounts": [],
-          "topJournals": [],
-          "topKeywords": [],
-          "topCoauthors": []
+          "count": 1,
+          "yearRange": {
+            "min": 2026,
+            "max": 2026
+          },
+          "yearCounts": [
+            {
+              "year": 2026,
+              "count": 1
+            }
+          ],
+          "topJournals": [
+            {
+              "name": "American journal of Alzheimer's disease and other dementias",
+              "count": 1
+            }
+          ],
+          "topKeywords": [
+            {
+              "name": "cognitive",
+              "count": 2
+            },
+            {
+              "name": "affective",
+              "count": 1
+            },
+            {
+              "name": "decline",
+              "count": 1
+            },
+            {
+              "name": "exercise",
+              "count": 1
+            },
+            {
+              "name": "impact",
+              "count": 1
+            },
+            {
+              "name": "qol",
+              "count": 1
+            },
+            {
+              "name": "rct",
+              "count": 1
+            },
+            {
+              "name": "subjective",
+              "count": 1
+            },
+            {
+              "name": "symptoms",
+              "count": 1
+            }
+          ],
+          "topCoauthors": [
+            {
+              "name": "Dereck L Salisbury",
+              "count": 1
+            },
+            {
+              "name": "Fang Yu",
+              "count": 1
+            },
+            {
+              "name": "Mary Jo Kreitzer",
+              "count": 1
+            },
+            {
+              "name": "Niloufar Niakosari Hadidi",
+              "count": 1
+            },
+            {
+              "name": "Rozina Bhimani",
+              "count": 1
+            }
+          ]
         },
         "negative": {
           "count": 0,

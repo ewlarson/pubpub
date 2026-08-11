@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-10",
-  "updatedAt": "2026-08-10T09:24:32.485Z",
+  "updated": "2026-08-11",
+  "updatedAt": "2026-08-11T08:59:12.614Z",
   "source": "PubMed E-utilities",
   "faculty": [
     {
@@ -76252,6 +76252,20 @@
       ],
       "publications": [
         {
+          "id": "42574024",
+          "title": "Twenty Years of CKD Surveillance: From Awareness to Action.",
+          "journal": "Clinical journal of the American Society of Nephrology : CJASN",
+          "year": 2026,
+          "doi": "10.2215/CJN.0000001157",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42574024/",
+          "authorship": {
+            "position": 0,
+            "total": 2,
+            "isFirst": true,
+            "isLast": false
+          }
+        },
+        {
           "id": "42138988",
           "title": "Veterans Health Administration Peritoneal Dialysis Program Infrastructure and Clinical Practices: Findings from a Nationwide Questionnaire.",
           "journal": "Clinical journal of the American Society of Nephrology : CJASN",
@@ -76465,7 +76479,7 @@
       "authorCounts": null,
       "signals": {
         "positive": {
-          "count": 15,
+          "count": 16,
           "yearRange": {
             "min": 2017,
             "max": 2026
@@ -76497,13 +76511,13 @@
             },
             {
               "year": 2026,
-              "count": 1
+              "count": 2
             }
           ],
           "topJournals": [
             {
               "name": "Clinical journal of the American Society of Nephrology : CJASN",
-              "count": 3
+              "count": 4
             },
             {
               "name": "AACE endocrinology and diabetes",
@@ -76595,7 +76609,7 @@
           "topCoauthors": [
             {
               "name": "Areef Ishani",
-              "count": 6
+              "count": 7
             },
             {
               "name": "Daniel P Murphy",
