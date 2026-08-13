@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-11",
-  "updatedAt": "2026-08-11T08:55:17.566Z",
+  "updated": "2026-08-13",
+  "updatedAt": "2026-08-13T09:12:50.411Z",
   "source": "PubMed E-utilities (ORCID)",
   "faculty": [
     {
@@ -15135,6 +15135,20 @@
           }
         },
         {
+          "id": "42584493",
+          "title": "Self-assembling peptides as bioactive coatings.",
+          "journal": "Biomaterials science",
+          "year": 2026,
+          "doi": "10.1039/d6bm00866f",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42584493/",
+          "authorship": {
+            "position": 3,
+            "total": 4,
+            "isFirst": false,
+            "isLast": true
+          }
+        },
+        {
           "id": "42200224",
           "title": "Sustained-Release RANKL Microneedles for Safe Orthodontic Acceleration.",
           "journal": "Journal of dental research",
@@ -15403,13 +15417,13 @@
       ],
       "authorCounts": {
         "first": 3,
-        "last": 2,
-        "total": 20,
-        "known": 20
+        "last": 3,
+        "total": 21,
+        "known": 21
       },
       "signals": {
         "positive": {
-          "count": 20,
+          "count": 21,
           "yearRange": {
             "min": 2019,
             "max": 2026
@@ -15445,7 +15459,7 @@
             },
             {
               "year": 2026,
-              "count": 2
+              "count": 3
             }
           ],
           "topJournals": [
@@ -15486,7 +15500,7 @@
               "count": 1
             },
             {
-              "name": "Journal of peptide science : an official publication of the European Peptide Society",
+              "name": "Biomaterials science",
               "count": 1
             }
           ],
@@ -15494,6 +15508,10 @@
             {
               "name": "antimicrobial",
               "count": 5
+            },
+            {
+              "name": "peptides",
+              "count": 4
             },
             {
               "name": "delivery",
@@ -15505,10 +15523,6 @@
             },
             {
               "name": "peptide",
-              "count": 3
-            },
-            {
-              "name": "peptides",
               "count": 3
             },
             {
@@ -15550,6 +15564,10 @@
               "count": 3
             },
             {
+              "name": "Ting Sang",
+              "count": 3
+            },
+            {
               "name": "Bolei Cai",
               "count": 2
             },
@@ -15571,10 +15589,6 @@
             },
             {
               "name": "Teng Chi",
-              "count": 2
-            },
-            {
-              "name": "Ting Sang",
               "count": 2
             },
             {
