@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-13",
-  "updatedAt": "2026-08-13T09:16:33.947Z",
+  "updated": "2026-08-14",
+  "updatedAt": "2026-08-14T09:13:11.107Z",
   "source": "NIH RePORTER API",
   "faculty": [
     {
@@ -4258,17 +4258,6 @@
           "coreProjectNum": "R01AG075734"
         },
         {
-          "id": "3R01AG075734-03S1",
-          "title": "Training the Long-Term Services and Supports Dementia Care Workforce in Provision of Care to Sexual and Gender Minority Residents",
-          "role": "Not listed",
-          "amount": 69606,
-          "startDate": "2022-09-15",
-          "endDate": "2026-05-31",
-          "fiscalYear": 2024,
-          "url": "https://reporter.nih.gov/project-details/11090086",
-          "coreProjectNum": "R01AG075734"
-        },
-        {
           "id": "3R01AG075734-02S1",
           "title": "Training the Long-Term Services and Supports Dementia Care Workforce in Provision of Care to Sexual and Gender Minority Residents",
           "role": "Not listed",
@@ -4277,6 +4266,17 @@
           "endDate": "2026-05-31",
           "fiscalYear": 2024,
           "url": "https://reporter.nih.gov/project-details/11004546",
+          "coreProjectNum": "R01AG075734"
+        },
+        {
+          "id": "3R01AG075734-03S1",
+          "title": "Training the Long-Term Services and Supports Dementia Care Workforce in Provision of Care to Sexual and Gender Minority Residents",
+          "role": "Not listed",
+          "amount": 69606,
+          "startDate": "2022-09-15",
+          "endDate": "2026-05-31",
+          "fiscalYear": 2024,
+          "url": "https://reporter.nih.gov/project-details/11090086",
           "coreProjectNum": "R01AG075734"
         },
         {
@@ -4346,17 +4346,6 @@
           "coreProjectNum": "RF1AG069771"
         },
         {
-          "id": "3R01MD010729-05S1",
-          "title": "System Factors and Racial Disparities in Nursing Home Quality of Life and Care",
-          "role": "Not listed",
-          "amount": 352479,
-          "startDate": "2016-08-15",
-          "endDate": "2022-04-30",
-          "fiscalYear": 2020,
-          "url": "https://reporter.nih.gov/project-details/10180782",
-          "coreProjectNum": "R01MD010729"
-        },
-        {
           "id": "5R01MD010729-05",
           "title": "System Factors and Racial Disparities in Nursing Home Quality of Life and Care",
           "role": "Not listed",
@@ -4365,6 +4354,17 @@
           "endDate": "2022-04-30",
           "fiscalYear": 2020,
           "url": "https://reporter.nih.gov/project-details/9907866",
+          "coreProjectNum": "R01MD010729"
+        },
+        {
+          "id": "3R01MD010729-05S1",
+          "title": "System Factors and Racial Disparities in Nursing Home Quality of Life and Care",
+          "role": "Not listed",
+          "amount": 352479,
+          "startDate": "2016-08-15",
+          "endDate": "2022-04-30",
+          "fiscalYear": 2020,
+          "url": "https://reporter.nih.gov/project-details/10180782",
           "coreProjectNum": "R01MD010729"
         },
         {

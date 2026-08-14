@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-13",
-  "updatedAt": "2026-08-13T09:16:33.947Z",
+  "updated": "2026-08-14",
+  "updatedAt": "2026-08-14T09:13:11.107Z",
   "source": "PubMed E-utilities",
   "faculty": [
     {
@@ -20497,6 +20497,20 @@
           }
         },
         {
+          "id": "42591180",
+          "title": "Impact of pre-transplant chemotherapy cycles on allogeneic hematopoietic cell transplant outcomes in pediatric acute myeloid leukemia in first complete remission.",
+          "journal": "Frontiers in oncology",
+          "year": 2026,
+          "doi": "10.3389/fonc.2026.1881569",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42591180/",
+          "authorship": {
+            "position": 1,
+            "total": 9,
+            "isFirst": false,
+            "isLast": false
+          }
+        },
+        {
           "id": "42364732",
           "title": "Infections Within 100 Days of Idecabtagene Vicleucel and Impact on Survival for Relapsed/Refractory Multiple Myeloma: A CIBMTR Analysis.",
           "journal": "Transplantation and cellular therapy",
@@ -21116,7 +21130,7 @@
       "authorCounts": null,
       "signals": {
         "positive": {
-          "count": 49,
+          "count": 50,
           "yearRange": {
             "min": 2019,
             "max": 2026
@@ -21152,7 +21166,7 @@
             },
             {
               "year": 2026,
-              "count": 9
+              "count": 10
             }
           ],
           "topJournals": [
@@ -21177,6 +21191,10 @@
               "count": 3
             },
             {
+              "name": "Frontiers in oncology",
+              "count": 2
+            },
+            {
               "name": "Lancet (London, England)",
               "count": 2
             },
@@ -21191,28 +21209,28 @@
             {
               "name": "Biomedicines",
               "count": 1
-            },
-            {
-              "name": "bioRxiv : the preprint server for biology",
-              "count": 1
             }
           ],
           "topKeywords": [
             {
               "name": "cell",
-              "count": 24
+              "count": 25
+            },
+            {
+              "name": "transplant",
+              "count": 16
+            },
+            {
+              "name": "hematopoietic",
+              "count": 15
             },
             {
               "name": "transplantation",
               "count": 15
             },
             {
-              "name": "hematopoietic",
-              "count": 14
-            },
-            {
-              "name": "transplant",
-              "count": 14
+              "name": "allogeneic",
+              "count": 12
             },
             {
               "name": "bullosa",
@@ -21221,10 +21239,6 @@
             {
               "name": "epidermolysis",
               "count": 12
-            },
-            {
-              "name": "allogeneic",
-              "count": 11
             },
             {
               "name": "dystrophic",
@@ -21243,8 +21257,8 @@
               "count": 9
             },
             {
-              "name": "immune",
-              "count": 7
+              "name": "outcomes",
+              "count": 8
             }
           ],
           "topCoauthors": [
@@ -39852,6 +39866,20 @@
           }
         },
         {
+          "id": "42587136",
+          "title": "Mechanistic machine learning for prediction of prime editing outcomes.",
+          "journal": "Nature biotechnology",
+          "year": 2026,
+          "doi": "10.1038/s41587-026-03261-7",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42587136/",
+          "authorship": {
+            "position": 25,
+            "total": 27,
+            "isFirst": false,
+            "isLast": false
+          }
+        },
+        {
           "id": "41261131",
           "title": "Prime editing-installed suppressor tRNAs for disease-agnostic genome editing.",
           "journal": "Nature",
@@ -40499,7 +40527,7 @@
       "authorCounts": null,
       "signals": {
         "positive": {
-          "count": 49,
+          "count": 50,
           "yearRange": {
             "min": 2015,
             "max": 2026
@@ -40547,7 +40575,7 @@
             },
             {
               "year": 2026,
-              "count": 3
+              "count": 4
             }
           ],
           "topJournals": [
@@ -40572,6 +40600,10 @@
               "count": 2
             },
             {
+              "name": "Nature biotechnology",
+              "count": 2
+            },
+            {
               "name": "Nature communications",
               "count": 2
             },
@@ -40586,10 +40618,6 @@
             {
               "name": "The Journal of investigative dermatology",
               "count": 2
-            },
-            {
-              "name": "American journal of transplantation : official journal of the American Society of Transplantation and the American Society of Transplant Surgeons",
-              "count": 1
             }
           ],
           "topKeywords": [
@@ -40599,7 +40627,7 @@
             },
             {
               "name": "editing",
-              "count": 13
+              "count": 14
             },
             {
               "name": "human",
@@ -40630,30 +40658,30 @@
               "count": 7
             },
             {
+              "name": "prime",
+              "count": 7
+            },
+            {
               "name": "base",
               "count": 6
             },
             {
               "name": "cell",
               "count": 6
-            },
-            {
-              "name": "disease",
-              "count": 6
             }
           ],
           "topCoauthors": [
             {
               "name": "Jakub Tolar",
-              "count": 29
+              "count": 30
             },
             {
               "name": "Bruce R Blazar",
-              "count": 19
+              "count": 20
             },
             {
               "name": "Amber N McElroy",
-              "count": 16
+              "count": 17
             },
             {
               "name": "Beau R Webber",
@@ -40661,7 +40689,7 @@
             },
             {
               "name": "David R Liu",
-              "count": 11
+              "count": 12
             },
             {
               "name": "Angela Panoskaltsis-Mortari",
@@ -40688,8 +40716,8 @@
               "count": 6
             },
             {
-              "name": "Cara-Lin Lonetree",
-              "count": 5
+              "name": "Smriti Pandey",
+              "count": 6
             }
           ]
         },
