@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-14",
-  "updatedAt": "2026-08-14T09:13:11.107Z",
+  "updated": "2026-08-15",
+  "updatedAt": "2026-08-15T15:25:13.003Z",
   "source": "PubMed E-utilities",
   "faculty": [
     {
@@ -68980,6 +68980,20 @@
       ],
       "publications": [
         {
+          "id": "42598879",
+          "title": "Cathepsin B, Airway Pathogens, and Inflammation in the Lower Airways of Children With Cystic Fibrosis.",
+          "journal": "Pediatric pulmonology",
+          "year": 2026,
+          "doi": "10.1002/ppul.71793",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42598879/",
+          "authorship": {
+            "position": 5,
+            "total": 6,
+            "isFirst": false,
+            "isLast": true
+          }
+        },
+        {
           "id": "41918282",
           "title": "Molecular Methods to Detect and Quantify Fungal Communities in Cystic Fibrosis Airway Specimens.",
           "journal": "Pediatric pulmonology",
@@ -69305,7 +69319,7 @@
       "authorCounts": null,
       "signals": {
         "positive": {
-          "count": 23,
+          "count": 24,
           "yearRange": {
             "min": 2013,
             "max": 2026
@@ -69361,13 +69375,13 @@
             },
             {
               "year": 2026,
-              "count": 1
+              "count": 2
             }
           ],
           "topJournals": [
             {
               "name": "Pediatric pulmonology",
-              "count": 3
+              "count": 4
             },
             {
               "name": "PloS one",
@@ -69409,26 +69423,30 @@
           "topKeywords": [
             {
               "name": "cystic",
-              "count": 16
+              "count": 17
             },
             {
               "name": "fibrosis",
-              "count": 16
+              "count": 17
             },
             {
               "name": "pulmonary",
               "count": 7
             },
             {
+              "name": "airway",
+              "count": 6
+            },
+            {
               "name": "disease",
               "count": 6
             },
             {
-              "name": "airway",
-              "count": 5
+              "name": "exacerbations",
+              "count": 3
             },
             {
-              "name": "exacerbations",
+              "name": "inflammation",
               "count": 3
             },
             {
@@ -69448,18 +69466,18 @@
               "count": 2
             },
             {
-              "name": "exacerbation",
-              "count": 2
-            },
-            {
-              "name": "girl",
+              "name": "children",
               "count": 2
             }
           ],
           "topCoauthors": [
             {
               "name": "Brandie D Wagner",
-              "count": 4
+              "count": 5
+            },
+            {
+              "name": "J Kirk Harris",
+              "count": 5
             },
             {
               "name": "Charles E Robertson",
@@ -69471,10 +69489,6 @@
             },
             {
               "name": "Edith T Zemanick",
-              "count": 4
-            },
-            {
-              "name": "J Kirk Harris",
               "count": 4
             },
             {
@@ -69494,15 +69508,15 @@
               "count": 3
             },
             {
+              "name": "Alexandra C Quinn",
+              "count": 2
+            },
+            {
               "name": "Antoinette Moran",
               "count": 2
             },
             {
               "name": "Cole W Welchlin",
-              "count": 2
-            },
-            {
-              "name": "Cole Welchlin-Bradford",
               "count": 2
             }
           ]
@@ -71174,6 +71188,20 @@
           }
         },
         {
+          "id": "42597883",
+          "title": "Once-Daily Dolutegravir-Based Antiretroviral Therapy Among Adults With Advanced HIV Disease Receiving 1 Month of Daily Rifapentine and Isoniazid for Tuberculosis-Preventive Therapy and Fluconazole for Treatment of Cryptococcal Meningitis: Results of a Pharmacokinetic Study.",
+          "journal": "Open forum infectious diseases",
+          "year": 2026,
+          "doi": "10.1093/ofid/ofag415",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42597883/",
+          "authorship": {
+            "position": 21,
+            "total": 22,
+            "isFirst": false,
+            "isLast": true
+          }
+        },
+        {
           "id": "41873439",
           "title": "Pharmacological evaluation of an ex vivo cervicovaginal HIV prevention model.",
           "journal": "The Journal of antimicrobial chemotherapy",
@@ -71737,7 +71765,7 @@
       "authorCounts": null,
       "signals": {
         "positive": {
-          "count": 42,
+          "count": 43,
           "yearRange": {
             "min": 2019,
             "max": 2026
@@ -71773,13 +71801,13 @@
             },
             {
               "year": 2026,
-              "count": 4
+              "count": 5
             }
           ],
           "topJournals": [
             {
               "name": "Open forum infectious diseases",
-              "count": 6
+              "count": 7
             },
             {
               "name": "Clinical infectious diseases : an official publication of the Infectious Diseases Society of America",
@@ -71821,7 +71849,7 @@
           "topKeywords": [
             {
               "name": "hiv",
-              "count": 15
+              "count": 16
             },
             {
               "name": "covid",
@@ -71841,6 +71869,10 @@
             },
             {
               "name": "antiretroviral",
+              "count": 7
+            },
+            {
+              "name": "among",
               "count": 6
             },
             {
@@ -71848,8 +71880,8 @@
               "count": 6
             },
             {
-              "name": "among",
-              "count": 5
+              "name": "treatment",
+              "count": 6
             },
             {
               "name": "genital",
@@ -71860,18 +71892,14 @@
               "count": 5
             },
             {
-              "name": "prevention",
-              "count": 5
-            },
-            {
-              "name": "tenofovir",
+              "name": "meningitis",
               "count": 5
             }
           ],
           "topCoauthors": [
             {
               "name": "David R Boulware",
-              "count": 20
+              "count": 21
             },
             {
               "name": "Katelyn A Pastick",
@@ -71891,7 +71919,7 @@
             },
             {
               "name": "David B Meya",
-              "count": 9
+              "count": 10
             },
             {
               "name": "Sarah M Lofgren",
