@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-18",
-  "updatedAt": "2026-08-18T08:39:39.000Z",
+  "updated": "2026-08-19",
+  "updatedAt": "2026-08-19T08:40:15.451Z",
   "source": "PubMed E-utilities",
   "faculty": [
     {
@@ -30875,6 +30875,20 @@
           }
         },
         {
+          "id": "42610250",
+          "title": "Evaluating Bayesian Variable Selection Approaches for Nonlinear Random Effects Models.",
+          "journal": "Multivariate behavioral research",
+          "year": 2026,
+          "doi": "10.1080/00273171.2026.2716743",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42610250/",
+          "authorship": {
+            "position": 2,
+            "total": 3,
+            "isFirst": false,
+            "isLast": true
+          }
+        },
+        {
           "id": "42248248",
           "title": "Novel Erythroid Indices Have Better Prognostic Accuracy than Conventional Erythroid Indices for Early Diagnosis of Iron Deficiency and Associated Brain Metabolomic Changes in Nonhuman Primate Infants.",
           "journal": "The Journal of nutrition",
@@ -31830,7 +31844,7 @@
       "authorCounts": null,
       "signals": {
         "positive": {
-          "count": 69,
+          "count": 70,
           "yearRange": {
             "min": 2016,
             "max": 2026
@@ -31878,7 +31892,7 @@
             },
             {
               "year": 2026,
-              "count": 2
+              "count": 3
             }
           ],
           "topJournals": [
@@ -31926,7 +31940,7 @@
           "topKeywords": [
             {
               "name": "bayesian",
-              "count": 15
+              "count": 16
             },
             {
               "name": "iron",
@@ -31965,12 +31979,12 @@
               "count": 8
             },
             {
-              "name": "multi",
+              "name": "models",
               "count": 8
             },
             {
-              "name": "human",
-              "count": 7
+              "name": "multi",
+              "count": 8
             }
           ],
           "topCoauthors": [
@@ -63360,6 +63374,20 @@
           }
         },
         {
+          "id": "42612330",
+          "title": "Comparison of statewide substance use disorder prevalence estimates from survey data vs electronic health record data.",
+          "journal": "Drug and alcohol dependence",
+          "year": 2026,
+          "doi": "10.1016/j.drugalcdep.2026.113313",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42612330/",
+          "authorship": {
+            "position": 7,
+            "total": 11,
+            "isFirst": false,
+            "isLast": false
+          }
+        },
+        {
           "id": "41743490",
           "title": "Design and Implementation of a State-Wide Network for Near Real-Time Public Health Surveillance and Research: The Minnesota Electronic Health Record Consortium Experience.",
           "journal": "Learning health systems",
@@ -64805,7 +64833,7 @@
       "authorCounts": null,
       "signals": {
         "positive": {
-          "count": 104,
+          "count": 105,
           "yearRange": {
             "min": 2014,
             "max": 2026
@@ -64861,7 +64889,7 @@
             },
             {
               "year": 2026,
-              "count": 6
+              "count": 7
             }
           ],
           "topJournals": [
@@ -64933,7 +64961,7 @@
             },
             {
               "name": "health",
-              "count": 17
+              "count": 18
             },
             {
               "name": "hypertension",
@@ -64982,16 +65010,16 @@
               "count": 11
             },
             {
+              "name": "Alanna M Chamberlain",
+              "count": 10
+            },
+            {
               "name": "Areef Ishani",
               "count": 10
             },
             {
               "name": "Matthew R Weir",
               "count": 10
-            },
-            {
-              "name": "Alanna M Chamberlain",
-              "count": 9
             },
             {
               "name": "Nicholas M Pajewski",
