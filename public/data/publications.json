@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-19",
-  "updatedAt": "2026-08-19T08:40:15.451Z",
+  "updated": "2026-08-20",
+  "updatedAt": "2026-08-20T08:41:03.744Z",
   "source": "PubMed E-utilities",
   "faculty": [
     {
@@ -19326,6 +19326,20 @@
       ],
       "publications": [
         {
+          "id": "42616536",
+          "title": "Daily Zinc Supplementation for Infection Prevention in Children With Sickle Cell Anemia: The ZIPS-2 Randomized Clinical Trial.",
+          "journal": "JAMA",
+          "year": 2026,
+          "doi": "10.1001/jama.2026.14190",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42616536/",
+          "authorship": {
+            "position": 11,
+            "total": 13,
+            "isFirst": false,
+            "isLast": false
+          }
+        },
+        {
           "id": "42061719",
           "title": "Iron Deficiency and Neurobehavioral Outcomes in Ugandan Children Exposed to HIV.",
           "journal": "The Journal of nutrition",
@@ -19861,7 +19875,7 @@
       "authorCounts": null,
       "signals": {
         "positive": {
-          "count": 38,
+          "count": 39,
           "yearRange": {
             "min": 2012,
             "max": 2026
@@ -19917,7 +19931,7 @@
             },
             {
               "year": 2026,
-              "count": 2
+              "count": 3
             }
           ],
           "topJournals": [
@@ -19935,6 +19949,10 @@
             },
             {
               "name": "BMC public health",
+              "count": 2
+            },
+            {
+              "name": "JAMA",
               "count": 2
             },
             {
@@ -19956,16 +19974,12 @@
             {
               "name": "Adolescent medicine: state of the art reviews",
               "count": 1
-            },
-            {
-              "name": "AIDS (London, England)",
-              "count": 1
             }
           ],
           "topKeywords": [
             {
               "name": "children",
-              "count": 22
+              "count": 23
             },
             {
               "name": "iron",
@@ -19992,6 +20006,10 @@
               "count": 8
             },
             {
+              "name": "anemia",
+              "count": 6
+            },
+            {
               "name": "associated",
               "count": 6
             },
@@ -20000,26 +20018,22 @@
               "count": 6
             },
             {
+              "name": "trial",
+              "count": 6
+            },
+            {
               "name": "african",
-              "count": 5
-            },
-            {
-              "name": "among",
-              "count": 5
-            },
-            {
-              "name": "anemia",
               "count": 5
             }
           ],
           "topCoauthors": [
             {
-              "name": "Michael K Georgieff",
+              "name": "Chandy C John",
               "count": 14
             },
             {
-              "name": "Chandy C John",
-              "count": 13
+              "name": "Michael K Georgieff",
+              "count": 14
             },
             {
               "name": "Robert O Opoka",
@@ -20027,7 +20041,7 @@
             },
             {
               "name": "Andrea L Conroy",
-              "count": 8
+              "count": 9
             },
             {
               "name": "Paul Bangirana",
@@ -20036,6 +20050,10 @@
             {
               "name": "Ezekiel Mupere",
               "count": 7
+            },
+            {
+              "name": "Ruth Namazzi",
+              "count": 5
             },
             {
               "name": "Troy C Lund",
@@ -20055,10 +20073,6 @@
             },
             {
               "name": "Emily C Moody",
-              "count": 4
-            },
-            {
-              "name": "John M Ssenkusu",
               "count": 4
             }
           ]
