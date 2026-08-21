@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-20",
-  "updatedAt": "2026-08-20T08:41:03.744Z",
+  "updated": "2026-08-21",
+  "updatedAt": "2026-08-21T08:43:08.740Z",
   "source": "PubMed E-utilities",
   "faculty": [
     {
@@ -1415,6 +1415,20 @@
           }
         },
         {
+          "id": "42620195",
+          "title": "HSF1 controls transcriptional programs that establish thalamostriatal shaft synaptic architecture and preserve cognitive flexibility.",
+          "journal": "bioRxiv : the preprint server for biology",
+          "year": 2026,
+          "doi": "10.64898/2026.08.03.742053",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42620195/",
+          "authorship": {
+            "position": 8,
+            "total": 11,
+            "isFirst": false,
+            "isLast": false
+          }
+        },
+        {
           "id": "41415464",
           "title": "Behavioral Opportunism and Altered Dopamine Dynamics in Mice Exposed to Early Life Adversity.",
           "journal": "bioRxiv : the preprint server for biology",
@@ -1488,7 +1502,7 @@
       "authorCounts": null,
       "signals": {
         "positive": {
-          "count": 6,
+          "count": 7,
           "yearRange": {
             "min": 2024,
             "max": 2026
@@ -1504,13 +1518,13 @@
             },
             {
               "year": 2026,
-              "count": 1
+              "count": 2
             }
           ],
           "topJournals": [
             {
               "name": "bioRxiv : the preprint server for biology",
-              "count": 3
+              "count": 4
             },
             {
               "name": "Neuroscience and biobehavioral reviews",
@@ -1585,6 +1599,10 @@
               "count": 1
             },
             {
+              "name": "Aishwarya Bhowmik",
+              "count": 1
+            },
+            {
               "name": "Alana Jaskir",
               "count": 1
             },
@@ -1614,10 +1632,6 @@
             },
             {
               "name": "Dayshalis Ofray",
-              "count": 1
-            },
-            {
-              "name": "Dylan Flink",
               "count": 1
             }
           ]
@@ -14133,7 +14147,7 @@
         },
         {
           "id": "33771904",
-          "title": "COMPARISON OF THE EFFECT OF THREE DIFFERENT DIETARY MODIFICATIONS ON MYOCARDIAL SUPPRESSION IN (18)F-FDG PET/CT EVALUATION OF PATIENTS FOR SUSPECTED CARDIAC SARCOIDOSIS.",
+          "title": "Comparison of the Effect of Three Different Dietary Modifications on Myocardial Suppression in (18)F-FDG PET/CT Evaluation of Patients for Suspected Cardiac Sarcoidosis.",
           "journal": "Journal of nuclear medicine : official publication, Society of Nuclear Medicine",
           "year": 2021,
           "doi": "10.2967/jnumed.121.261981",
@@ -14650,11 +14664,11 @@
               "count": 8
             },
             {
-              "name": "David Perlman",
-              "count": 6
+              "name": "Henri Roukoz",
+              "count": 7
             },
             {
-              "name": "Henri Roukoz",
+              "name": "David Perlman",
               "count": 6
             },
             {
@@ -47957,6 +47971,20 @@
           }
         },
         {
+          "id": "42622598",
+          "title": "Stress Perfusion CMR to Prognosticate for Left Main and High Risk Multivessel Coronary Artery Disease and Major Cardiovascular Adverse Events: Outcomes From a 4,144-Patient Multicenter Cohort.",
+          "journal": "JACC. Cardiovascular imaging",
+          "year": 2026,
+          "doi": "10.1016/j.jcmg.2026.06.010",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42622598/",
+          "authorship": {
+            "position": 17,
+            "total": 28,
+            "isFirst": false,
+            "isLast": false
+          }
+        },
+        {
           "id": "40568232",
           "title": "Associations Between Cancer and Atrial Fibrillation: The Atherosclerosis Risk in Communities Study.",
           "journal": "Mayo Clinic proceedings. Innovations, quality & outcomes",
@@ -49052,7 +49080,7 @@
       "authorCounts": null,
       "signals": {
         "positive": {
-          "count": 80,
+          "count": 81,
           "yearRange": {
             "min": 2017,
             "max": 2026
@@ -49096,13 +49124,13 @@
             },
             {
               "year": 2026,
-              "count": 2
+              "count": 3
             }
           ],
           "topJournals": [
             {
               "name": "JACC. Cardiovascular imaging",
-              "count": 15
+              "count": 16
             },
             {
               "name": "European heart journal. Cardiovascular Imaging",
@@ -49156,7 +49184,7 @@
             },
             {
               "name": "cardiovascular",
-              "count": 34
+              "count": 35
             },
             {
               "name": "cardiac",
@@ -49168,7 +49196,7 @@
             },
             {
               "name": "stress",
-              "count": 17
+              "count": 18
             },
             {
               "name": "ventricular",
@@ -49179,30 +49207,30 @@
               "count": 12
             },
             {
+              "name": "left",
+              "count": 11
+            },
+            {
               "name": "cancer",
               "count": 10
             },
             {
               "name": "cardiomyopathy",
               "count": 10
-            },
-            {
-              "name": "left",
-              "count": 10
             }
           ],
           "topCoauthors": [
             {
               "name": "Afshin Farzaneh-Far",
-              "count": 29
+              "count": 30
             },
             {
               "name": "Dipan J Shah",
-              "count": 16
+              "count": 17
             },
             {
               "name": "John F Heitner",
-              "count": 14
+              "count": 15
             },
             {
               "name": "Prabhjot S Nijjar",
@@ -49210,10 +49238,14 @@
             },
             {
               "name": "Raymond Y Kwong",
-              "count": 13
+              "count": 14
             },
             {
               "name": "Jeanette Schulz-Menger",
+              "count": 13
+            },
+            {
+              "name": "Matthias Stuber",
               "count": 12
             },
             {
@@ -49221,24 +49253,20 @@
               "count": 12
             },
             {
-              "name": "Matthias Stuber",
-              "count": 11
-            },
-            {
               "name": "Orlando P Simonetti",
-              "count": 11
+              "count": 12
             },
             {
               "name": "Amit R Patel",
-              "count": 10
+              "count": 11
             },
             {
               "name": "Andrew E Arai",
-              "count": 10
+              "count": 11
             },
             {
-              "name": "Felipe Kazmirczak",
-              "count": 10
+              "name": "J Ronald Mikolich",
+              "count": 11
             }
           ]
         },
@@ -61922,6 +61950,20 @@
       ],
       "publications": [
         {
+          "id": "42619795",
+          "title": "Defining strain variation in the maintenance of Borrelia turicatae during hyperparasitism and transovarial transmission in the tick vector.",
+          "journal": "bioRxiv : the preprint server for biology",
+          "year": 2026,
+          "doi": "10.64898/2026.07.30.741854",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42619795/",
+          "authorship": {
+            "position": 1,
+            "total": 8,
+            "isFirst": false,
+            "isLast": false
+          }
+        },
+        {
           "id": "41986946",
           "title": "Geographically Distinct Circulation of Genotype II and III St. Louis Encephalitis Virus, Texas, USA, 2009-2024.",
           "journal": "Emerging infectious diseases",
@@ -61981,7 +62023,7 @@
       "authorCounts": null,
       "signals": {
         "positive": {
-          "count": 4,
+          "count": 5,
           "yearRange": {
             "min": 2025,
             "max": 2026
@@ -61993,7 +62035,7 @@
             },
             {
               "year": 2026,
-              "count": 3
+              "count": 4
             }
           ],
           "topJournals": [
@@ -62003,6 +62045,10 @@
             },
             {
               "name": "Archives of suicide research : official journal of the International Academy for Suicide Research",
+              "count": 1
+            },
+            {
+              "name": "bioRxiv : the preprint server for biology",
               "count": 1
             },
             {
@@ -62052,22 +62098,26 @@
               "count": 1
             },
             {
+              "name": "borrelia",
+              "count": 1
+            },
+            {
               "name": "circulation",
               "count": 1
             },
             {
               "name": "color",
               "count": 1
-            },
-            {
-              "name": "discrimination",
-              "count": 1
             }
           ],
           "topCoauthors": [
             {
               "name": "Alexander R Kneubehl",
-              "count": 1
+              "count": 2
+            },
+            {
+              "name": "Job E Lopez",
+              "count": 2
             },
             {
               "name": "Angie Broussard",
@@ -62079,6 +62129,10 @@
             },
             {
               "name": "Bianca M Wimmer",
+              "count": 1
+            },
+            {
+              "name": "Brandon A Hogland",
               "count": 1
             },
             {
@@ -62103,14 +62157,6 @@
             },
             {
               "name": "Haiden Hice",
-              "count": 1
-            },
-            {
-              "name": "Jennifer Rocha",
-              "count": 1
-            },
-            {
-              "name": "Jeremy Vela",
               "count": 1
             }
           ]
