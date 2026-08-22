@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-21",
-  "updatedAt": "2026-08-21T08:43:08.740Z",
+  "updated": "2026-08-22",
+  "updatedAt": "2026-08-22T08:30:35.704Z",
   "source": "PubMed E-utilities",
   "faculty": [
     {
@@ -2768,6 +2768,20 @@
           }
         },
         {
+          "id": "42628959",
+          "title": "Viewpoint on Multisensory Integration in Psychiatric Disorders.",
+          "journal": "Multisensory research",
+          "year": 2026,
+          "doi": "10.1163/22134808-bja10207",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42628959/",
+          "authorship": {
+            "position": 1,
+            "total": 3,
+            "isFirst": false,
+            "isLast": false
+          }
+        },
+        {
           "id": "40903598",
           "title": "A brain-wide map of neural activity during complex behaviour.",
           "journal": "Nature",
@@ -2897,7 +2911,7 @@
       "authorCounts": null,
       "signals": {
         "positive": {
-          "count": 14,
+          "count": 15,
           "yearRange": {
             "min": 2024,
             "max": 2026
@@ -2913,7 +2927,7 @@
             },
             {
               "year": 2026,
-              "count": 5
+              "count": 6
             }
           ],
           "topJournals": [
@@ -2942,6 +2956,10 @@
               "count": 1
             },
             {
+              "name": "Multisensory research",
+              "count": 1
+            },
+            {
               "name": "Neuron",
               "count": 1
             },
@@ -2951,10 +2969,6 @@
             },
             {
               "name": "PLoS biology",
-              "count": 1
-            },
-            {
-              "name": "Progress in neurobiology",
               "count": 1
             }
           ],
@@ -2996,15 +3010,15 @@
               "count": 2
             },
             {
+              "name": "disorders",
+              "count": 2
+            },
+            {
               "name": "dorsolateral",
               "count": 2
             },
             {
               "name": "head",
-              "count": 2
-            },
-            {
-              "name": "long",
               "count": 2
             }
           ],
@@ -25583,6 +25597,20 @@
           }
         },
         {
+          "id": "42625262",
+          "title": "Survival Benefit Tradeoff: When a Lower KDPI Kidney Does Not Outweigh the Risks of Waiting.",
+          "journal": "Transplantation",
+          "year": 2026,
+          "doi": "10.1097/TP.0000000000005882",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42625262/",
+          "authorship": {
+            "position": 2,
+            "total": 5,
+            "isFirst": false,
+            "isLast": false
+          }
+        },
+        {
           "id": "41563792",
           "title": "Peritoneal Dialysis Initiation Patterns by Health Service Area during an Era of Expansion.",
           "journal": "Journal of the American Society of Nephrology : JASN",
@@ -26244,7 +26272,7 @@
       "authorCounts": null,
       "signals": {
         "positive": {
-          "count": 58,
+          "count": 59,
           "yearRange": {
             "min": 2016,
             "max": 2026
@@ -26292,7 +26320,7 @@
             },
             {
               "year": 2026,
-              "count": 11
+              "count": 12
             }
           ],
           "topJournals": [
@@ -26313,11 +26341,11 @@
               "count": 4
             },
             {
-              "name": "Progress in transplantation (Aliso Viejo, Calif.)",
-              "count": 3
+              "name": "Transplantation",
+              "count": 4
             },
             {
-              "name": "Transplantation",
+              "name": "Progress in transplantation (Aliso Viejo, Calif.)",
               "count": 3
             },
             {
@@ -26340,7 +26368,7 @@
           "topKeywords": [
             {
               "name": "kidney",
-              "count": 26
+              "count": 27
             },
             {
               "name": "transplant",
@@ -26409,20 +26437,20 @@
               "count": 7
             },
             {
+              "name": "Jonathan M Miller",
+              "count": 7
+            },
+            {
               "name": "Ryutaro Hirose",
               "count": 7
             },
             {
-              "name": "Jonathan M Miller",
+              "name": "Cory R Schaffhausen",
               "count": 6
             },
             {
               "name": "Yoon Son Ahn",
               "count": 6
-            },
-            {
-              "name": "Cory R Schaffhausen",
-              "count": 5
             },
             {
               "name": "David T Gilbertson",
