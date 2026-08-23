@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-22",
-  "updatedAt": "2026-08-22T08:26:56.316Z",
+  "updated": "2026-08-23",
+  "updatedAt": "2026-08-23T08:27:57.021Z",
   "source": "PubMed E-utilities (ORCID)",
   "faculty": [
     {
@@ -7385,6 +7385,20 @@
           }
         },
         {
+          "id": "42629491",
+          "title": "Innovations in transcatheter interventions for hypoplastic left heart syndrome and borderline left heart structures from fetal to neonatal life: current evidence and systematic review of recent advances (2016-2025).",
+          "journal": "European journal of pediatrics",
+          "year": 2026,
+          "doi": "10.1007/s00431-026-07338-y",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42629491/",
+          "authorship": {
+            "position": 2,
+            "total": 8,
+            "isFirst": false,
+            "isLast": false
+          }
+        },
+        {
           "id": "37580629",
           "title": "Transcatheter Pulmonary Artery Banding in High-Risk Neonates: In-Vitro Study Provoked by Initial Clinical Experience.",
           "journal": "Cardiovascular engineering and technology",
@@ -7416,12 +7430,12 @@
       "authorCounts": {
         "first": 2,
         "last": 0,
-        "total": 3,
-        "known": 3
+        "total": 4,
+        "known": 4
       },
       "signals": {
         "positive": {
-          "count": 3,
+          "count": 4,
           "yearRange": {
             "min": 2022,
             "max": 2026
@@ -7437,7 +7451,7 @@
             },
             {
               "year": 2026,
-              "count": 1
+              "count": 2
             }
           ],
           "topJournals": [
@@ -7446,13 +7460,29 @@
               "count": 2
             },
             {
+              "name": "European journal of pediatrics",
+              "count": 1
+            },
+            {
               "name": "Science advances",
               "count": 1
             }
           ],
           "topKeywords": [
             {
+              "name": "heart",
+              "count": 3
+            },
+            {
+              "name": "left",
+              "count": 2
+            },
+            {
               "name": "pediatric",
+              "count": 2
+            },
+            {
+              "name": "transcatheter",
               "count": 2
             },
             {
@@ -7464,7 +7494,19 @@
               "count": 2
             },
             {
+              "name": "2016",
+              "count": 1
+            },
+            {
+              "name": "2025",
+              "count": 1
+            },
+            {
               "name": "adapts",
+              "count": 1
+            },
+            {
+              "name": "advances",
               "count": 1
             },
             {
@@ -7473,30 +7515,6 @@
             },
             {
               "name": "banding",
-              "count": 1
-            },
-            {
-              "name": "circulatory",
-              "count": 1
-            },
-            {
-              "name": "clinical",
-              "count": 1
-            },
-            {
-              "name": "design",
-              "count": 1
-            },
-            {
-              "name": "evaluation",
-              "count": 1
-            },
-            {
-              "name": "experience",
-              "count": 1
-            },
-            {
-              "name": "feasibility",
               "count": 1
             }
           ],
@@ -7510,7 +7528,23 @@
               "count": 2
             },
             {
+              "name": "Dominic P Recco",
+              "count": 2
+            },
+            {
+              "name": "Francesca Sperotto",
+              "count": 2
+            },
+            {
+              "name": "Nicola Maschietto",
+              "count": 2
+            },
+            {
               "name": "Baturalp Arslan",
+              "count": 1
+            },
+            {
+              "name": "Brian P Quinn",
               "count": 1
             },
             {
@@ -7531,22 +7565,6 @@
             },
             {
               "name": "David W Sutherland",
-              "count": 1
-            },
-            {
-              "name": "Dominic P Recco",
-              "count": 1
-            },
-            {
-              "name": "Francesca Sperotto",
-              "count": 1
-            },
-            {
-              "name": "Gianna Dafflisio",
-              "count": 1
-            },
-            {
-              "name": "Giselle Ventura",
               "count": 1
             }
           ]

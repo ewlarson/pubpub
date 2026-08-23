@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-22",
-  "updatedAt": "2026-08-22T08:30:35.704Z",
+  "updated": "2026-08-23",
+  "updatedAt": "2026-08-23T08:31:31.364Z",
   "source": "PubMed E-utilities",
   "faculty": [
     {
@@ -72274,20 +72274,6 @@
           }
         },
         {
-          "id": "42521142",
-          "title": "THE EFFECT OF ENDODONTIC DISINFECTION ON MICROBIAL REDUCTION AND BIODIVERSITY OF ROOT CANAL SYSTEMS WITH NECROTIC PULPS.",
-          "journal": "Journal of endodontics",
-          "year": 2026,
-          "doi": "10.1016/j.joen.2026.07.016",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42521142/",
-          "authorship": {
-            "position": 1,
-            "total": 7,
-            "isFirst": false,
-            "isLast": false
-          }
-        },
-        {
           "id": "41765175",
           "title": "Taxonomy and Virulence Factors in the Root Canal Microbiome: Metagenomic Insights by Lesion Size and Clinical Factors in Primary Endodontic Infections.",
           "journal": "Journal of endodontics",
@@ -72297,6 +72283,20 @@
           "authorship": {
             "position": 1,
             "total": 5,
+            "isFirst": false,
+            "isLast": false
+          }
+        },
+        {
+          "id": "42521142",
+          "title": "The Effect of Endodontic Disinfection on Microbial Reduction and Biodiversity of Root Canal Systems with Necrotic Pulps.",
+          "journal": "Journal of endodontics",
+          "year": 2026,
+          "doi": "10.1016/j.joen.2026.07.016",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42521142/",
+          "authorship": {
+            "position": 1,
+            "total": 7,
             "isFirst": false,
             "isLast": false
           }
