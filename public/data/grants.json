@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-23",
-  "updatedAt": "2026-08-23T08:31:31.364Z",
+  "updated": "2026-08-24",
+  "updatedAt": "2026-08-24T08:51:05.261Z",
   "source": "NIH RePORTER API",
   "faculty": [
     {
@@ -1970,6 +1970,17 @@
       "reporterUrl": "",
       "grants": [
         {
+          "id": "5R01DK140270-03",
+          "title": "A clinical decision support tool to understand the survival benefit of kidney transplantation in candidates with a history of cancer",
+          "role": "Contact PI",
+          "amount": 336491,
+          "startDate": "2024-09-05",
+          "endDate": "2029-07-31",
+          "fiscalYear": 2026,
+          "url": "https://reporter.nih.gov/project-details/11381076",
+          "coreProjectNum": "R01DK140270"
+        },
+        {
           "id": "5R01DK140270-02",
           "title": "A clinical decision support tool to understand the survival benefit of kidney transplantation in candidates with a history of cancer",
           "role": "Contact PI",
@@ -3369,17 +3380,6 @@
           "coreProjectNum": "R01NS119297"
         },
         {
-          "id": "3R01NS119297-03S1",
-          "title": "3D Bioprinted Spinal Cord Organoids as a Relay System for Spinal Cord Injury",
-          "role": "Not listed",
-          "amount": 74284,
-          "startDate": "2021-09-02",
-          "endDate": "2026-06-30",
-          "fiscalYear": 2023,
-          "url": "https://reporter.nih.gov/project-details/10840561",
-          "coreProjectNum": "R01NS119297"
-        },
-        {
           "id": "5R01NS119297-03",
           "title": "3D Bioprinted Spinal Cord Organoids as a Relay System for Spinal Cord Injury",
           "role": "Not listed",
@@ -3388,6 +3388,17 @@
           "endDate": "2026-06-30",
           "fiscalYear": 2023,
           "url": "https://reporter.nih.gov/project-details/10677016",
+          "coreProjectNum": "R01NS119297"
+        },
+        {
+          "id": "3R01NS119297-03S1",
+          "title": "3D Bioprinted Spinal Cord Organoids as a Relay System for Spinal Cord Injury",
+          "role": "Not listed",
+          "amount": 74284,
+          "startDate": "2021-09-02",
+          "endDate": "2026-06-30",
+          "fiscalYear": 2023,
+          "url": "https://reporter.nih.gov/project-details/10840561",
           "coreProjectNum": "R01NS119297"
         },
         {
@@ -3785,17 +3796,6 @@
           "coreProjectNum": "K23DK118207"
         },
         {
-          "id": "5K23DK118207-03",
-          "title": "Optimizing Diabetes Care Quality for Low-Income Patients",
-          "role": "Not listed",
-          "amount": 198936,
-          "startDate": "2018-09-01",
-          "endDate": "2023-08-31",
-          "fiscalYear": 2020,
-          "url": "https://reporter.nih.gov/project-details/10001066",
-          "coreProjectNum": "K23DK118207"
-        },
-        {
           "id": "3K23DK118207-03S1",
           "title": "Optimizing Diabetes Care Quality for Low-Income Patients",
           "role": "Not listed",
@@ -3804,6 +3804,17 @@
           "endDate": "2023-08-31",
           "fiscalYear": 2020,
           "url": "https://reporter.nih.gov/project-details/10220358",
+          "coreProjectNum": "K23DK118207"
+        },
+        {
+          "id": "5K23DK118207-03",
+          "title": "Optimizing Diabetes Care Quality for Low-Income Patients",
+          "role": "Not listed",
+          "amount": 198936,
+          "startDate": "2018-09-01",
+          "endDate": "2023-08-31",
+          "fiscalYear": 2020,
+          "url": "https://reporter.nih.gov/project-details/10001066",
           "coreProjectNum": "K23DK118207"
         },
         {
@@ -4269,17 +4280,6 @@
           "coreProjectNum": "R01AG075734"
         },
         {
-          "id": "3R01AG075734-02S1",
-          "title": "Training the Long-Term Services and Supports Dementia Care Workforce in Provision of Care to Sexual and Gender Minority Residents",
-          "role": "Not listed",
-          "amount": 25096,
-          "startDate": "2022-09-15",
-          "endDate": "2026-05-31",
-          "fiscalYear": 2024,
-          "url": "https://reporter.nih.gov/project-details/11004546",
-          "coreProjectNum": "R01AG075734"
-        },
-        {
           "id": "3R01AG075734-03S1",
           "title": "Training the Long-Term Services and Supports Dementia Care Workforce in Provision of Care to Sexual and Gender Minority Residents",
           "role": "Not listed",
@@ -4288,6 +4288,17 @@
           "endDate": "2026-05-31",
           "fiscalYear": 2024,
           "url": "https://reporter.nih.gov/project-details/11090086",
+          "coreProjectNum": "R01AG075734"
+        },
+        {
+          "id": "3R01AG075734-02S1",
+          "title": "Training the Long-Term Services and Supports Dementia Care Workforce in Provision of Care to Sexual and Gender Minority Residents",
+          "role": "Not listed",
+          "amount": 25096,
+          "startDate": "2022-09-15",
+          "endDate": "2026-05-31",
+          "fiscalYear": 2024,
+          "url": "https://reporter.nih.gov/project-details/11004546",
           "coreProjectNum": "R01AG075734"
         },
         {
@@ -4683,6 +4694,17 @@
           "coreProjectNum": "R56DK136596"
         },
         {
+          "id": "5R01CA266128-05",
+          "title": "MicroRNA-15a/16-mediated cytokine/chemokine reprogramming in Kupffer cells prevents the development of hepatocellular carcinoma",
+          "role": "Contact PI",
+          "amount": 372485,
+          "startDate": "2022-08-22",
+          "endDate": "2027-07-31",
+          "fiscalYear": 2026,
+          "url": "https://reporter.nih.gov/project-details/11374961",
+          "coreProjectNum": "R01CA266128"
+        },
+        {
           "id": "5R01CA266128-04",
           "title": "MicroRNA-15a/16-mediated cytokine/chemokine reprogramming in Kupffer cells prevents the development of hepatocellular carcinoma",
           "role": "Contact PI",
@@ -5026,6 +5048,17 @@
           "fiscalYear": 2026,
           "url": "https://reporter.nih.gov/project-details/11309699",
           "coreProjectNum": "R01DK146358"
+        },
+        {
+          "id": "5R01DK138809-04",
+          "title": "Protein biomarkers to predict pain outcomes after total pancreatectomy with islet autotransplant",
+          "role": "Not listed",
+          "amount": 726035,
+          "startDate": "2023-09-22",
+          "endDate": "2027-07-31",
+          "fiscalYear": 2026,
+          "url": "https://reporter.nih.gov/project-details/11393734",
+          "coreProjectNum": "R01DK138809"
         },
         {
           "id": "5R01DK138809-03",
@@ -5586,6 +5619,17 @@
       ],
       "reporterUrl": "",
       "grants": [
+        {
+          "id": "1R21MH145210-01",
+          "title": "Choose your own adventure: A novel intervention to regulate social media use in adolescents with depression",
+          "role": "Not listed",
+          "amount": 410800,
+          "startDate": "2026-08-17",
+          "endDate": "2028-08-16",
+          "fiscalYear": 2026,
+          "url": "https://reporter.nih.gov/project-details/11442429",
+          "coreProjectNum": "R21MH145210"
+        },
         {
           "id": "5R01MH122473-04",
           "title": "Developmental Trajectories of Brain Network Strength and Flexibility: Relationship to Risk, Onset and Course of Depression and Self-Harm in Youth",
@@ -6896,6 +6940,17 @@
       ],
       "reporterUrl": "",
       "grants": [
+        {
+          "id": "3R01AI194900-01A1S1",
+          "title": "A randomized trial to evaluate the optimal timing of antiretroviral therapy initiation in persons with early disseminated cryptococcal infection",
+          "role": "Contact PI",
+          "amount": 247291,
+          "startDate": "2026-08-19",
+          "endDate": "2031-07-31",
+          "fiscalYear": 2026,
+          "url": "https://reporter.nih.gov/project-details/11579223",
+          "coreProjectNum": "R01AI194900"
+        },
         {
           "id": "1R01AI194900-01A1",
           "title": "A randomized trial to evaluate the optimal timing of antiretroviral therapy initiation in persons with early disseminated cryptococcal infection",
