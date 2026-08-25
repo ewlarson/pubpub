@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-24",
-  "updatedAt": "2026-08-24T08:51:05.261Z",
+  "updated": "2026-08-25",
+  "updatedAt": "2026-08-25T08:44:48.969Z",
   "source": "PubMed E-utilities",
   "faculty": [
     {
@@ -23214,6 +23214,20 @@
           }
         },
         {
+          "id": "42637119",
+          "title": "Preliminary safety, tolerability and feasibility of remotely supervised transcranial direct current stimulation in children with cerebral palsy: an exploratory, open label clinical trial.",
+          "journal": "Brain stimulation",
+          "year": 2026,
+          "doi": "10.1016/j.brs.2026.103195",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42637119/",
+          "authorship": {
+            "position": 9,
+            "total": 10,
+            "isFirst": false,
+            "isLast": true
+          }
+        },
+        {
           "id": "41356330",
           "title": "Correction: TOPSS: TOlerability of transcranial direct current stimulation in Pediatric Stroke Survivors.",
           "journal": "Frontiers in human neuroscience",
@@ -24113,7 +24127,7 @@
       "authorCounts": null,
       "signals": {
         "positive": {
-          "count": 65,
+          "count": 66,
           "yearRange": {
             "min": 2012,
             "max": 2026
@@ -24177,13 +24191,13 @@
             },
             {
               "year": 2026,
-              "count": 1
+              "count": 2
             }
           ],
           "topJournals": [
             {
               "name": "Brain stimulation",
-              "count": 10
+              "count": 11
             },
             {
               "name": "Frontiers in human neuroscience",
@@ -24225,31 +24239,31 @@
           "topKeywords": [
             {
               "name": "stimulation",
-              "count": 34
+              "count": 35
             },
             {
               "name": "transcranial",
-              "count": 31
+              "count": 32
             },
             {
               "name": "current",
-              "count": 19
+              "count": 20
             },
             {
               "name": "direct",
-              "count": 19
+              "count": 20
             },
             {
               "name": "cerebral",
-              "count": 16
+              "count": 17
             },
             {
               "name": "palsy",
-              "count": 16
+              "count": 17
             },
             {
               "name": "children",
-              "count": 14
+              "count": 15
             },
             {
               "name": "pediatric",
@@ -24261,7 +24275,7 @@
             },
             {
               "name": "safety",
-              "count": 11
+              "count": 12
             },
             {
               "name": "magnetic",
@@ -74680,6 +74694,20 @@
           }
         },
         {
+          "id": "42636100",
+          "title": "Concordance Between Fingerprick and Venous Whole Blood CD4 Counts Using the Visitect CD4 Advanced disease platform.",
+          "journal": "The Journal of infectious diseases",
+          "year": 2026,
+          "doi": "10.1093/infdis/jiag437",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42636100/",
+          "authorship": {
+            "position": 8,
+            "total": 9,
+            "isFirst": false,
+            "isLast": true
+          }
+        },
+        {
           "id": "42263199",
           "title": "Cost-effectiveness Analysis of Xpert MTB/RIF Ultra for the Diagnosis of HIV-Associated Tuberculous Meningitis.",
           "journal": "Clinical infectious diseases : an official publication of the Infectious Diseases Society of America",
@@ -75971,7 +75999,7 @@
       "authorCounts": null,
       "signals": {
         "positive": {
-          "count": 94,
+          "count": 95,
           "yearRange": {
             "min": 2015,
             "max": 2026
@@ -76023,7 +76051,7 @@
             },
             {
               "year": 2026,
-              "count": 8
+              "count": 9
             }
           ],
           "topJournals": [
@@ -76086,12 +76114,12 @@
               "count": 16
             },
             {
-              "name": "uganda",
+              "name": "disease",
               "count": 16
             },
             {
-              "name": "disease",
-              "count": 15
+              "name": "uganda",
+              "count": 16
             },
             {
               "name": "among",
@@ -76107,7 +76135,7 @@
             },
             {
               "name": "advanced",
-              "count": 12
+              "count": 13
             },
             {
               "name": "covid",
@@ -76121,15 +76149,15 @@
           "topCoauthors": [
             {
               "name": "David R Boulware",
-              "count": 72
+              "count": 73
             },
             {
               "name": "David B Meya",
-              "count": 48
+              "count": 49
             },
             {
               "name": "Elizabeth Nalintya",
-              "count": 27
+              "count": 28
             },
             {
               "name": "Caleb P Skipper",

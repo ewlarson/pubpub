@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-24",
-  "updatedAt": "2026-08-24T08:47:22.817Z",
+  "updated": "2026-08-25",
+  "updatedAt": "2026-08-25T08:40:58.999Z",
   "source": "PubMed E-utilities (ORCID)",
   "faculty": [
     {
@@ -541,6 +541,20 @@
       "projectTitle": "Gentrification and the Health of Black Older Adults: Quantifying the Role of Social Cohesion",
       "publications": [
         {
+          "id": "42634403",
+          "title": "Correlates of Homebound Status by Rural/Urban Location, Socio-Demographic Characteristics, and Health Status.",
+          "journal": "Journal of applied gerontology : the official journal of the Southern Gerontological Society",
+          "year": 2026,
+          "doi": "10.1177/07334648261480759",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42634403/",
+          "authorship": {
+            "position": 0,
+            "total": 4,
+            "isFirst": true,
+            "isLast": false
+          }
+        },
+        {
           "id": "40568778",
           "title": "Gentrification and Aging: A Narrative Review.",
           "journal": "Journal of gerontological social work",
@@ -570,28 +584,32 @@
         }
       ],
       "authorCounts": {
-        "first": 1,
+        "first": 2,
         "last": 0,
-        "total": 2,
-        "known": 2
+        "total": 3,
+        "known": 3
       },
       "signals": {
         "positive": {
-          "count": 2,
+          "count": 3,
           "yearRange": {
             "min": 2025,
-            "max": 2025
+            "max": 2026
           },
           "yearCounts": [
             {
               "year": 2025,
               "count": 2
+            },
+            {
+              "year": 2026,
+              "count": 1
             }
           ],
           "topJournals": [
             {
               "name": "Journal of applied gerontology : the official journal of the Southern Gerontological Society",
-              "count": 1
+              "count": 2
             },
             {
               "name": "Journal of gerontological social work",
@@ -600,11 +618,31 @@
           ],
           "topKeywords": [
             {
+              "name": "correlates",
+              "count": 2
+            },
+            {
+              "name": "rural",
+              "count": 2
+            },
+            {
+              "name": "status",
+              "count": 2
+            },
+            {
+              "name": "urban",
+              "count": 2
+            },
+            {
               "name": "aging",
               "count": 1
             },
             {
-              "name": "correlates",
+              "name": "characteristics",
+              "count": 1
+            },
+            {
+              "name": "demographic",
               "count": 1
             },
             {
@@ -620,37 +658,25 @@
               "count": 1
             },
             {
-              "name": "mistreatment",
+              "name": "health",
               "count": 1
             },
             {
-              "name": "narrative",
-              "count": 1
-            },
-            {
-              "name": "prevalence",
-              "count": 1
-            },
-            {
-              "name": "review",
-              "count": 1
-            },
-            {
-              "name": "rural",
-              "count": 1
-            },
-            {
-              "name": "urban",
+              "name": "homebound",
               "count": 1
             }
           ],
           "topCoauthors": [
             {
-              "name": "Alexis Swendener",
-              "count": 1
+              "name": "Carrie Henning-Smith",
+              "count": 2
             },
             {
-              "name": "Carrie Henning-Smith",
+              "name": "Megan Lahr",
+              "count": 2
+            },
+            {
+              "name": "Alexis Swendener",
               "count": 1
             },
             {
@@ -662,11 +688,11 @@
               "count": 1
             },
             {
-              "name": "Marguerite DeLiema",
+              "name": "Katie Rydberg",
               "count": 1
             },
             {
-              "name": "Megan Lahr",
+              "name": "Marguerite DeLiema",
               "count": 1
             }
           ]
