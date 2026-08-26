@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-25",
-  "updatedAt": "2026-08-25T08:44:48.969Z",
+  "updated": "2026-08-26",
+  "updatedAt": "2026-08-26T08:46:44.843Z",
   "source": "NIH RePORTER API",
   "faculty": [
     {
@@ -3926,17 +3926,6 @@
           "coreProjectNum": "R35GM142695"
         },
         {
-          "id": "3R35GM142695-03S1",
-          "title": "Statistical and Machine Learning Methods to Address Biomedical Challenges for Integrating Multi-view Data",
-          "role": "Not listed",
-          "amount": 351514,
-          "startDate": "2021-09-23",
-          "endDate": "2026-06-30",
-          "fiscalYear": 2023,
-          "url": "https://reporter.nih.gov/project-details/10711864",
-          "coreProjectNum": "R35GM142695"
-        },
-        {
           "id": "3R35GM142695-03S2",
           "title": "MultiViewPortal: Towards a Scalable Web Application for Multiview Learning",
           "role": "Not listed",
@@ -3945,6 +3934,17 @@
           "endDate": "2026-06-30",
           "fiscalYear": 2023,
           "url": "https://reporter.nih.gov/project-details/10827749",
+          "coreProjectNum": "R35GM142695"
+        },
+        {
+          "id": "3R35GM142695-03S1",
+          "title": "Statistical and Machine Learning Methods to Address Biomedical Challenges for Integrating Multi-view Data",
+          "role": "Not listed",
+          "amount": 351514,
+          "startDate": "2021-09-23",
+          "endDate": "2026-06-30",
+          "fiscalYear": 2023,
+          "url": "https://reporter.nih.gov/project-details/10711864",
           "coreProjectNum": "R35GM142695"
         },
         {

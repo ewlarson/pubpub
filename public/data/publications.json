@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-25",
-  "updatedAt": "2026-08-25T08:44:48.969Z",
+  "updated": "2026-08-26",
+  "updatedAt": "2026-08-26T08:46:44.843Z",
   "source": "PubMed E-utilities",
   "faculty": [
     {
@@ -52588,6 +52588,20 @@
           }
         },
         {
+          "id": "42639513",
+          "title": "Review of Risk Factors and Factors Influencing Outcomes of Cryptococcal Meningitis in Persons Living with HIV.",
+          "journal": "Infection and drug resistance",
+          "year": 2026,
+          "doi": "10.2147/IDR.S546344",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42639513/",
+          "authorship": {
+            "position": 1,
+            "total": 3,
+            "isFirst": false,
+            "isLast": false
+          }
+        },
+        {
           "id": "39044381",
           "title": "Adjunctive Single-Dose Liposomal Amphotericin to Prevent Cryptococcal Meningitis in People With HIV-Associated Cryptococcal Antigenemia and Low Plasma Cryptococcal Antigen Titers.",
           "journal": "Clinical infectious diseases : an official publication of the Infectious Diseases Society of America",
@@ -52899,7 +52913,7 @@
       "authorCounts": null,
       "signals": {
         "positive": {
-          "count": 29,
+          "count": 30,
           "yearRange": {
             "min": 2022,
             "max": 2026
@@ -52923,7 +52937,7 @@
             },
             {
               "year": 2026,
-              "count": 7
+              "count": 8
             }
           ],
           "topJournals": [
@@ -52960,26 +52974,26 @@
               "count": 1
             },
             {
-              "name": "International journal of infectious diseases : IJID : official publication of the International Society for Infectious Diseases",
+              "name": "Infection and drug resistance",
               "count": 1
             },
             {
-              "name": "Journal of acquired immune deficiency syndromes (1999)",
+              "name": "International journal of infectious diseases : IJID : official publication of the International Society for Infectious Diseases",
               "count": 1
             }
           ],
           "topKeywords": [
             {
               "name": "cryptococcal",
-              "count": 28
+              "count": 29
             },
             {
               "name": "meningitis",
-              "count": 19
+              "count": 20
             },
             {
               "name": "hiv",
-              "count": 17
+              "count": 18
             },
             {
               "name": "associated",
@@ -53025,7 +53039,7 @@
             },
             {
               "name": "David B Meya",
-              "count": 23
+              "count": 24
             },
             {
               "name": "Biyue Dai",
@@ -53060,12 +53074,12 @@
               "count": 6
             },
             {
-              "name": "Paul Kirumira",
+              "name": "Morris K Rutakingirwa",
               "count": 6
             },
             {
-              "name": "Darlisha A Williams",
-              "count": 5
+              "name": "Paul Kirumira",
+              "count": 6
             }
           ]
         },
