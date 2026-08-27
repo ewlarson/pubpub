@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-26",
-  "updatedAt": "2026-08-26T08:46:44.843Z",
+  "updated": "2026-08-27",
+  "updatedAt": "2026-08-27T18:54:23.445Z",
   "source": "PubMed E-utilities",
   "faculty": [
     {
@@ -14832,6 +14832,20 @@
           }
         },
         {
+          "id": "42656834",
+          "title": "Metabolic, viral, and immune phenotypes in long COVID.",
+          "journal": "Frontiers in endocrinology",
+          "year": 2026,
+          "doi": "10.3389/fendo.2026.1899115",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42656834/",
+          "authorship": {
+            "position": 19,
+            "total": 32,
+            "isFirst": false,
+            "isLast": false
+          }
+        },
+        {
           "id": "41460522",
           "title": "Metformin Therapy for Patients With COVID-19 Without Obesity-Reply.",
           "journal": "JAMA internal medicine",
@@ -15955,7 +15969,7 @@
       "authorCounts": null,
       "signals": {
         "positive": {
-          "count": 86,
+          "count": 87,
           "yearRange": {
             "min": 2019,
             "max": 2026
@@ -15991,7 +16005,7 @@
             },
             {
               "year": 2026,
-              "count": 11
+              "count": 12
             }
           ],
           "topJournals": [
@@ -16012,6 +16026,10 @@
               "count": 4
             },
             {
+              "name": "Frontiers in endocrinology",
+              "count": 3
+            },
+            {
               "name": "Scientific reports",
               "count": 3
             },
@@ -16030,16 +16048,12 @@
             {
               "name": "Current obesity reports",
               "count": 2
-            },
-            {
-              "name": "Frontiers in endocrinology",
-              "count": 2
             }
           ],
           "topKeywords": [
             {
               "name": "covid",
-              "count": 60
+              "count": 61
             },
             {
               "name": "trial",
@@ -21851,6 +21865,20 @@
           }
         },
         {
+          "id": "42650767",
+          "title": "Congenital Myasthenic Syndrome in Doberman Pinscher Dogs Is Associated with a Homozygous Missense Variant in AGRN.",
+          "journal": "Biomolecules",
+          "year": 2026,
+          "doi": "10.3390/biom16081099",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42650767/",
+          "authorship": {
+            "position": 6,
+            "total": 12,
+            "isFirst": false,
+            "isLast": false
+          }
+        },
+        {
           "id": "41889014",
           "title": "Establishment of a canine urothelial carcinoma-derived organoid biobank: A platform for comparative and translational research.",
           "journal": "Clinical and translational medicine",
@@ -22540,7 +22568,7 @@
       "authorCounts": null,
       "signals": {
         "positive": {
-          "count": 50,
+          "count": 51,
           "yearRange": {
             "min": 2019,
             "max": 2026
@@ -22576,7 +22604,7 @@
             },
             {
               "year": 2026,
-              "count": 4
+              "count": 5
             }
           ],
           "topJournals": [
@@ -22624,7 +22652,7 @@
           "topKeywords": [
             {
               "name": "dogs",
-              "count": 20
+              "count": 21
             },
             {
               "name": "mutation",
@@ -22640,19 +22668,23 @@
             },
             {
               "name": "associated",
-              "count": 8
+              "count": 9
             },
             {
               "name": "novel",
               "count": 8
             },
             {
+              "name": "congenital",
+              "count": 7
+            },
+            {
               "name": "muscular",
               "count": 7
             },
             {
-              "name": "congenital",
-              "count": 6
+              "name": "variant",
+              "count": 7
             },
             {
               "name": "dystrophy",
@@ -22663,10 +22695,6 @@
               "count": 6
             },
             {
-              "name": "variant",
-              "count": 6
-            },
-            {
               "name": "variants",
               "count": 6
             }
@@ -22674,19 +22702,19 @@
           "topCoauthors": [
             {
               "name": "Jonah N Cullen",
-              "count": 23
+              "count": 24
             },
             {
               "name": "Katie M Minor",
-              "count": 21
+              "count": 22
             },
             {
               "name": "G Diane Shelton",
-              "count": 18
+              "count": 19
             },
             {
               "name": "Ling T Guo",
-              "count": 14
+              "count": 15
             },
             {
               "name": "James R Mickelson",
@@ -24422,6 +24450,20 @@
           }
         },
         {
+          "id": "42651785",
+          "title": "Titer- and Intervention Timing-Dependent Functional Effects of AAV9-NeuroD1 Gene Therapy on Spinal Cord Injury.",
+          "journal": "Current issues in molecular biology",
+          "year": 2026,
+          "doi": "10.3390/cimb48080786",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42651785/",
+          "authorship": {
+            "position": 4,
+            "total": 6,
+            "isFirst": false,
+            "isLast": false
+          }
+        },
+        {
           "id": "41541863",
           "title": "Astrocyte to neuron reprogramming with NeuroD1 for repair in canine stroke.",
           "journal": "Frontiers in stroke",
@@ -25237,7 +25279,7 @@
       "authorCounts": null,
       "signals": {
         "positive": {
-          "count": 62,
+          "count": 63,
           "yearRange": {
             "min": 2018,
             "max": 2026
@@ -25277,7 +25319,7 @@
             },
             {
               "year": 2026,
-              "count": 4
+              "count": 5
             }
           ],
           "topJournals": [
@@ -25375,7 +25417,7 @@
           "topCoauthors": [
             {
               "name": "Walter C Low",
-              "count": 15
+              "count": 16
             },
             {
               "name": "Tapan Mehta",
@@ -40848,6 +40890,20 @@
           }
         },
         {
+          "id": "42651785",
+          "title": "Titer- and Intervention Timing-Dependent Functional Effects of AAV9-NeuroD1 Gene Therapy on Spinal Cord Injury.",
+          "journal": "Current issues in molecular biology",
+          "year": 2026,
+          "doi": "10.3390/cimb48080786",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42651785/",
+          "authorship": {
+            "position": 3,
+            "total": 6,
+            "isFirst": false,
+            "isLast": false
+          }
+        },
+        {
           "id": "40702833",
           "title": "3D-Printed Scaffolds Promote Enhanced Spinal Organoid Formation for Use in Spinal Cord Injury.",
           "journal": "Advanced healthcare materials",
@@ -41411,7 +41467,7 @@
       "authorCounts": null,
       "signals": {
         "positive": {
-          "count": 41,
+          "count": 42,
           "yearRange": {
             "min": 2015,
             "max": 2026
@@ -41459,7 +41515,7 @@
             },
             {
               "year": 2026,
-              "count": 1
+              "count": 2
             }
           ],
           "topJournals": [
@@ -41507,15 +41563,15 @@
           "topKeywords": [
             {
               "name": "spinal",
-              "count": 30
+              "count": 31
             },
             {
               "name": "cord",
-              "count": 27
+              "count": 28
             },
             {
               "name": "injury",
-              "count": 16
+              "count": 17
             },
             {
               "name": "after",
@@ -41565,7 +41621,7 @@
             },
             {
               "name": "Walter C Low",
-              "count": 8
+              "count": 9
             },
             {
               "name": "Nandadevi Patil",
@@ -55300,6 +55356,20 @@
           }
         },
         {
+          "id": "42649421",
+          "title": "Rates of hospitalization pre- and post-total pancreatectomy with islet autotransplantation for patients with pancreatitis.",
+          "journal": "Surgical endoscopy",
+          "year": 2026,
+          "doi": "10.1007/s00464-026-13228-z",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42649421/",
+          "authorship": {
+            "position": 19,
+            "total": 20,
+            "isFirst": false,
+            "isLast": true
+          }
+        },
+        {
           "id": "41617056",
           "title": "Reply.",
           "journal": "Gastroenterology",
@@ -58131,7 +58201,7 @@
       "authorCounts": null,
       "signals": {
         "positive": {
-          "count": 217,
+          "count": 218,
           "yearRange": {
             "min": 2014,
             "max": 2026
@@ -58187,7 +58257,7 @@
             },
             {
               "year": 2026,
-              "count": 19
+              "count": 20
             }
           ],
           "topJournals": [
@@ -58235,11 +58305,11 @@
           "topKeywords": [
             {
               "name": "pancreatitis",
-              "count": 122
+              "count": 123
             },
             {
               "name": "islet",
-              "count": 121
+              "count": 122
             },
             {
               "name": "diabetes",
@@ -58247,11 +58317,11 @@
             },
             {
               "name": "pancreatectomy",
-              "count": 78
+              "count": 79
             },
             {
               "name": "total",
-              "count": 77
+              "count": 78
             },
             {
               "name": "chronic",
@@ -58259,7 +58329,7 @@
             },
             {
               "name": "autotransplantation",
-              "count": 64
+              "count": 65
             },
             {
               "name": "acute",
@@ -58274,11 +58344,11 @@
               "count": 35
             },
             {
-              "name": "pancreatic",
-              "count": 28
+              "name": "patients",
+              "count": 29
             },
             {
-              "name": "patients",
+              "name": "pancreatic",
               "count": 28
             }
           ],
@@ -58289,7 +58359,7 @@
             },
             {
               "name": "Srinath Chinnakotla",
-              "count": 54
+              "count": 55
             },
             {
               "name": "Timothy L Pruett",
@@ -58309,11 +58379,11 @@
             },
             {
               "name": "Guru Trikudanathan",
-              "count": 40
+              "count": 41
             },
             {
               "name": "Maisam Abu-El-Haija",
-              "count": 31
+              "count": 32
             },
             {
               "name": "Ty B Dunn",
@@ -62246,6 +62316,20 @@
       ],
       "publications": [
         {
+          "id": "42646087",
+          "title": "Aflatoxin B(1) Exposure and Hepatocellular Carcinoma in South America: A Multinational Cross-Sectional Analysis.",
+          "journal": "Journal of fungi (Basel, Switzerland)",
+          "year": 2026,
+          "doi": "10.3390/jof12080560",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42646087/",
+          "authorship": {
+            "position": 3,
+            "total": 8,
+            "isFirst": false,
+            "isLast": false
+          }
+        },
+        {
           "id": "41840965",
           "title": "Assessing Knowledge of Primary Liver Cancer Risk Factors and Health Communication Campaign Preferences Among Adults Attending the Minnesota State Fair.",
           "journal": "Health promotion practice",
@@ -62907,7 +62991,7 @@
       "authorCounts": null,
       "signals": {
         "positive": {
-          "count": 47,
+          "count": 48,
           "yearRange": {
             "min": 2021,
             "max": 2026
@@ -62935,7 +63019,7 @@
             },
             {
               "year": 2026,
-              "count": 6
+              "count": 7
             }
           ],
           "topJournals": [
@@ -62983,11 +63067,11 @@
           "topKeywords": [
             {
               "name": "carcinoma",
-              "count": 23
+              "count": 24
             },
             {
               "name": "hepatocellular",
-              "count": 23
+              "count": 24
             },
             {
               "name": "hepatitis",
@@ -63002,11 +63086,15 @@
               "count": 8
             },
             {
+              "name": "america",
+              "count": 7
+            },
+            {
               "name": "care",
               "count": 7
             },
             {
-              "name": "america",
+              "name": "analysis",
               "count": 6
             },
             {
@@ -63022,18 +63110,14 @@
               "count": 6
             },
             {
-              "name": "africa",
-              "count": 5
-            },
-            {
-              "name": "analysis",
-              "count": 5
+              "name": "south",
+              "count": 6
             }
           ],
           "topCoauthors": [
             {
               "name": "Andre Boonstra",
-              "count": 11
+              "count": 12
             },
             {
               "name": "Angelo Z Mattos",
@@ -63056,11 +63140,11 @@
               "count": 7
             },
             {
-              "name": "Javier Diaz Ferrer",
-              "count": 5
+              "name": "Jhon Prieto",
+              "count": 6
             },
             {
-              "name": "Jhon Prieto",
+              "name": "Javier Diaz Ferrer",
               "count": 5
             },
             {
@@ -67954,6 +68038,20 @@
       ],
       "publications": [
         {
+          "id": "42656661",
+          "title": "Ethnic racial socialization within and across black immigrant and nonimmigrant families.",
+          "journal": "Frontiers in public health",
+          "year": 2026,
+          "doi": "10.3389/fpubh.2026.1877193",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42656661/",
+          "authorship": {
+            "position": 0,
+            "total": 8,
+            "isFirst": true,
+            "isLast": false
+          }
+        },
+        {
           "id": "41772513",
           "title": "Factors associated with healthcare professionals' use of stigmatizing language in individuals with diabetes in pregnancy.",
           "journal": "BMC pregnancy and childbirth",
@@ -68055,7 +68153,7 @@
       "authorCounts": null,
       "signals": {
         "positive": {
-          "count": 7,
+          "count": 8,
           "yearRange": {
             "min": 2024,
             "max": 2026
@@ -68071,7 +68169,7 @@
             },
             {
               "year": 2026,
-              "count": 3
+              "count": 4
             }
           ],
           "topJournals": [
@@ -68085,6 +68183,10 @@
             },
             {
               "name": "BMJ open diabetes research & care",
+              "count": 1
+            },
+            {
+              "name": "Frontiers in public health",
               "count": 1
             },
             {
@@ -68103,7 +68205,7 @@
           "topKeywords": [
             {
               "name": "black",
-              "count": 3
+              "count": 4
             },
             {
               "name": "healthcare",
@@ -68112,6 +68214,10 @@
             {
               "name": "mental",
               "count": 3
+            },
+            {
+              "name": "across",
+              "count": 2
             },
             {
               "name": "care",
@@ -68142,10 +68248,6 @@
               "count": 1
             },
             {
-              "name": "across",
-              "count": 1
-            },
-            {
               "name": "analysis",
               "count": 1
             }
@@ -68157,6 +68259,10 @@
             },
             {
               "name": "Anwei Gwan",
+              "count": 2
+            },
+            {
+              "name": "Elizabeth Al",
               "count": 2
             },
             {
@@ -68188,15 +68294,11 @@
               "count": 1
             },
             {
+              "name": "Ariam Aman",
+              "count": 1
+            },
+            {
               "name": "Camille R Murray",
-              "count": 1
-            },
-            {
-              "name": "CeRon O Ford",
-              "count": 1
-            },
-            {
-              "name": "Chloe Gansen",
               "count": 1
             }
           ]
