@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-27",
-  "updatedAt": "2026-08-27T18:54:23.445Z",
+  "updated": "2026-08-28",
+  "updatedAt": "2026-08-28T19:59:29.501Z",
   "source": "PubMed E-utilities",
   "faculty": [
     {
@@ -1003,6 +1003,20 @@
           }
         },
         {
+          "id": "42662811",
+          "title": "Positive association between sex hormones and inflammatory cytokines in trauma-exposed premenopausal women.",
+          "journal": "Brain, behavior, & immunity - health",
+          "year": 2026,
+          "doi": "10.1016/j.bbih.2026.101324",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42662811/",
+          "authorship": {
+            "position": 6,
+            "total": 7,
+            "isFirst": false,
+            "isLast": true
+          }
+        },
+        {
           "id": "42246421",
           "title": "Sleep restriction and cardiovascular disease risk: insights into potential mechanisms and sex differences.",
           "journal": "American journal of physiology. Heart and circulatory physiology",
@@ -1202,7 +1216,7 @@
       "authorCounts": null,
       "signals": {
         "positive": {
-          "count": 16,
+          "count": 17,
           "yearRange": {
             "min": 2022,
             "max": 2026
@@ -1226,13 +1240,17 @@
             },
             {
               "year": 2026,
-              "count": 3
+              "count": 4
             }
           ],
           "topJournals": [
             {
               "name": "American journal of physiology. Heart and circulatory physiology",
               "count": 4
+            },
+            {
+              "name": "Brain, behavior, & immunity - health",
+              "count": 2
             },
             {
               "name": "Clinical autonomic research : official journal of the Clinical Autonomic Research Society",
@@ -1248,10 +1266,6 @@
             },
             {
               "name": "American journal of physiology. Regulatory, integrative and comparative physiology",
-              "count": 1
-            },
-            {
-              "name": "Brain, behavior, & immunity - health",
               "count": 1
             },
             {
@@ -1274,10 +1288,18 @@
           "topKeywords": [
             {
               "name": "women",
-              "count": 10
+              "count": 11
+            },
+            {
+              "name": "trauma",
+              "count": 7
             },
             {
               "name": "cardiovascular",
+              "count": 6
+            },
+            {
+              "name": "exposed",
               "count": 6
             },
             {
@@ -1289,11 +1311,7 @@
               "count": 6
             },
             {
-              "name": "trauma",
-              "count": 6
-            },
-            {
-              "name": "exposed",
+              "name": "association",
               "count": 5
             },
             {
@@ -1301,7 +1319,7 @@
               "count": 5
             },
             {
-              "name": "association",
+              "name": "between",
               "count": 4
             },
             {
@@ -1309,15 +1327,11 @@
               "count": 4
             },
             {
+              "name": "premenopausal",
+              "count": 4
+            },
+            {
               "name": "associated",
-              "count": 3
-            },
-            {
-              "name": "between",
-              "count": 3
-            },
-            {
-              "name": "blunted",
               "count": 3
             }
           ],
@@ -1328,7 +1342,7 @@
             },
             {
               "name": "Chowdhury Ibtida Tahmin",
-              "count": 6
+              "count": 7
             },
             {
               "name": "Zynab Ahmed",
@@ -1337,6 +1351,10 @@
             {
               "name": "Redeat Wattero",
               "count": 5
+            },
+            {
+              "name": "Chasity Corbin",
+              "count": 4
             },
             {
               "name": "Vasiliki Michopoulos",
@@ -1348,10 +1366,6 @@
             },
             {
               "name": "Azhaar Mohamed",
-              "count": 3
-            },
-            {
-              "name": "Chasity Corbin",
               "count": 3
             },
             {
