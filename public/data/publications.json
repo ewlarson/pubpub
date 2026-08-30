@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-29",
-  "updatedAt": "2026-08-29T13:41:24.385Z",
+  "updated": "2026-08-30",
+  "updatedAt": "2026-08-30T13:37:40.492Z",
   "source": "PubMed E-utilities",
   "faculty": [
     {
@@ -62400,6 +62400,20 @@
           }
         },
         {
+          "id": "42667987",
+          "title": "Multi-ancestry sequencing analysis in 293,141 participants identifies predisposition DNA repair genes associated with HCC risk.",
+          "journal": "JHEP reports : innovation in hepatology",
+          "year": 2026,
+          "doi": "10.1016/j.jhepr.2026.102019",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42667987/",
+          "authorship": {
+            "position": 16,
+            "total": 39,
+            "isFirst": false,
+            "isLast": false
+          }
+        },
+        {
           "id": "41974030",
           "title": "The global epidemiology of hepatocellular carcinoma.",
           "journal": "Hepatology communications",
@@ -63005,7 +63019,7 @@
       "authorCounts": null,
       "signals": {
         "positive": {
-          "count": 48,
+          "count": 49,
           "yearRange": {
             "min": 2021,
             "max": 2026
@@ -63033,7 +63047,7 @@
             },
             {
               "year": 2026,
-              "count": 7
+              "count": 8
             }
           ],
           "topJournals": [
@@ -63097,19 +63111,19 @@
             },
             {
               "name": "risk",
-              "count": 8
+              "count": 9
             },
             {
               "name": "america",
               "count": 7
             },
             {
-              "name": "care",
+              "name": "analysis",
               "count": 7
             },
             {
-              "name": "analysis",
-              "count": 6
+              "name": "care",
+              "count": 7
             },
             {
               "name": "covid",
@@ -63131,7 +63145,15 @@
           "topCoauthors": [
             {
               "name": "Andre Boonstra",
-              "count": 12
+              "count": 13
+            },
+            {
+              "name": "Enrique Carrera",
+              "count": 8
+            },
+            {
+              "name": "Marco Arrese",
+              "count": 8
             },
             {
               "name": "Angelo Z Mattos",
@@ -63146,20 +63168,12 @@
               "count": 7
             },
             {
-              "name": "Enrique Carrera",
-              "count": 7
-            },
-            {
-              "name": "Marco Arrese",
-              "count": 7
-            },
-            {
               "name": "Jhon Prieto",
-              "count": 6
+              "count": 7
             },
             {
-              "name": "Javier Diaz Ferrer",
-              "count": 5
+              "name": "Javier Diaz-Ferrer",
+              "count": 6
             },
             {
               "name": "Johnstone Kayandabila",
@@ -63170,11 +63184,11 @@
               "count": 5
             },
             {
-              "name": "Amir Sultan",
+              "name": "&#xc2;ngelo Z Mattos",
               "count": 4
             },
             {
-              "name": "Angelo A Mattos",
+              "name": "Amir Sultan",
               "count": 4
             }
           ]
