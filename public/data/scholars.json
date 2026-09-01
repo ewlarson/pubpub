@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-31",
-  "updatedAt": "2026-08-31T15:51:14.763Z",
+  "updated": "2026-09-01",
+  "updatedAt": "2026-09-01T13:03:20.398Z",
   "source": "PubMed E-utilities (ORCID)",
   "faculty": [
     {
@@ -14653,6 +14653,20 @@
       "projectTitle": "Bacterial bile acid metabolism in fecal transplantation of Clostridium difficile infection",
       "publications": [
         {
+          "id": "42090570",
+          "title": "Potential Celiac Disease as a Window Into Gluten-Mediated Enteropathy.",
+          "journal": "Journal of clinical gastroenterology",
+          "year": 2026,
+          "doi": "10.1097/MCG.0000000000002389",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42090570/",
+          "authorship": {
+            "position": 0,
+            "total": 2,
+            "isFirst": true,
+            "isLast": false
+          }
+        },
+        {
           "id": "41279619",
           "title": "Gut microbial composition modulates food-specific CD4 (+) T cells in food allergy.",
           "journal": "bioRxiv : the preprint server for biology",
@@ -14682,17 +14696,17 @@
         }
       ],
       "authorCounts": {
-        "first": 2,
+        "first": 3,
         "last": 0,
-        "total": 2,
-        "known": 2
+        "total": 3,
+        "known": 3
       },
       "signals": {
         "positive": {
-          "count": 2,
+          "count": 3,
           "yearRange": {
             "min": 2022,
-            "max": 2025
+            "max": 2026
           },
           "yearCounts": [
             {
@@ -14701,6 +14715,10 @@
             },
             {
               "year": 2025,
+              "count": 1
+            },
+            {
+              "year": 2026,
               "count": 1
             }
           ],
@@ -14711,6 +14729,10 @@
             },
             {
               "name": "Digestive diseases and sciences",
+              "count": 1
+            },
+            {
+              "name": "Journal of clinical gastroenterology",
               "count": 1
             }
           ],
@@ -14736,6 +14758,10 @@
               "count": 1
             },
             {
+              "name": "celiac",
+              "count": 1
+            },
+            {
               "name": "cells",
               "count": 1
             },
@@ -14748,19 +14774,15 @@
               "count": 1
             },
             {
-              "name": "gut",
+              "name": "disease",
               "count": 1
             },
             {
-              "name": "ileum",
+              "name": "enteropathy",
               "count": 1
             },
             {
-              "name": "long",
-              "count": 1
-            },
-            {
-              "name": "material",
+              "name": "gluten",
               "count": 1
             }
           ],

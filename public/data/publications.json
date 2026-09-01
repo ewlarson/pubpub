@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-31",
-  "updatedAt": "2026-08-31T15:55:01.072Z",
+  "updated": "2026-09-01",
+  "updatedAt": "2026-09-01T13:08:29.965Z",
   "source": "PubMed E-utilities",
   "faculty": [
     {
@@ -12133,7 +12133,7 @@
         },
         {
           "id": "42085256",
-          "title": "Geographic Disparities in COPD Inhalers by Rurality, Drive Time, and Neighborhood Disadvantage.",
+          "title": "Geographic disparities in chronic obstructive pulmonary disease inhalers by rurality, drive time, and neighborhood disadvantage.",
           "journal": "American journal of respiratory and critical care medicine",
           "year": 2026,
           "doi": "10.1093/ajrccm/aamag159",
@@ -12663,23 +12663,23 @@
           "topKeywords": [
             {
               "name": "copd",
-              "count": 14
+              "count": 13
             },
             {
               "name": "disease",
-              "count": 12
+              "count": 13
             },
             {
               "name": "chronic",
-              "count": 11
+              "count": 12
             },
             {
               "name": "obstructive",
-              "count": 10
+              "count": 11
             },
             {
               "name": "pulmonary",
-              "count": 10
+              "count": 11
             },
             {
               "name": "among",
@@ -32375,6 +32375,20 @@
           }
         },
         {
+          "id": "42670259",
+          "title": "The Molecular and Immunological Landscape in Nasopharyngeal Carcinoma (NPC) Differs by Somatostatin Receptor 2 (SSTR2) Expression.",
+          "journal": "Cancer medicine",
+          "year": 2026,
+          "doi": "10.1002/cam4.72239",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42670259/",
+          "authorship": {
+            "position": 10,
+            "total": 21,
+            "isFirst": false,
+            "isLast": false
+          }
+        },
+        {
           "id": "42061011",
           "title": "The genomic, transcriptomic, and immunologic landscape of TEM8 (ANTXR1) in neuroendocrine neoplasms (NENs) including small-cell lung cancer (SCLC).",
           "journal": "Cancer treatment and research communications",
@@ -34492,7 +34506,7 @@
       "authorCounts": null,
       "signals": {
         "positive": {
-          "count": 164,
+          "count": 165,
           "yearRange": {
             "min": 2013,
             "max": 2026
@@ -34552,7 +34566,7 @@
             },
             {
               "year": 2026,
-              "count": 14
+              "count": 15
             }
           ],
           "topJournals": [
@@ -34616,7 +34630,7 @@
             },
             {
               "name": "molecular",
-              "count": 22
+              "count": 23
             },
             {
               "name": "tunneling",
@@ -34639,11 +34653,11 @@
               "count": 16
             },
             {
-              "name": "metastases",
+              "name": "expression",
               "count": 16
             },
             {
-              "name": "pancreatic",
+              "name": "metastases",
               "count": 16
             }
           ],
@@ -34653,12 +34667,12 @@
               "count": 31
             },
             {
-              "name": "Heinz-Josef Lenz",
+              "name": "Andrew Elliott",
               "count": 20
             },
             {
-              "name": "Andrew Elliott",
-              "count": 19
+              "name": "Heinz-Josef Lenz",
+              "count": 20
             },
             {
               "name": "Subbaya Subramanian",
@@ -69006,6 +69020,20 @@
           }
         },
         {
+          "id": "42644658",
+          "title": "Wearable-Supported Physical Education for Physical Activity and Psychosocial Beliefs in Underserved Adolescents.",
+          "journal": "The Journal of school health",
+          "year": 2026,
+          "doi": "10.1111/josh.70219",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42644658/",
+          "authorship": {
+            "position": 1,
+            "total": 3,
+            "isFirst": false,
+            "isLast": false
+          }
+        },
+        {
           "id": "41173735",
           "title": "Promoting community and social participation in chronic stroke: A pilot study of the ENGAGE intervention.",
           "journal": "Disability and health journal",
@@ -69079,7 +69107,7 @@
       "authorCounts": null,
       "signals": {
         "positive": {
-          "count": 6,
+          "count": 7,
           "yearRange": {
             "min": 2024,
             "max": 2026
@@ -69095,7 +69123,7 @@
             },
             {
               "year": 2026,
-              "count": 1
+              "count": 2
             }
           ],
           "topJournals": [
@@ -69122,6 +69150,10 @@
             {
               "name": "Telemedicine reports",
               "count": 1
+            },
+            {
+              "name": "The Journal of school health",
+              "count": 1
             }
           ],
           "topKeywords": [
@@ -69132,6 +69164,10 @@
             {
               "name": "social",
               "count": 3
+            },
+            {
+              "name": "activity",
+              "count": 2
             },
             {
               "name": "chronic",
@@ -69150,6 +69186,10 @@
               "count": 2
             },
             {
+              "name": "physical",
+              "count": 2
+            },
+            {
               "name": "promoting",
               "count": 2
             },
@@ -69162,15 +69202,7 @@
               "count": 2
             },
             {
-              "name": "activity",
-              "count": 1
-            },
-            {
               "name": "adapting",
-              "count": 1
-            },
-            {
-              "name": "adults",
               "count": 1
             }
           ],
@@ -72418,6 +72450,20 @@
           }
         },
         {
+          "id": "42629103",
+          "title": "Insights into the September 2026 Issue of the JOE.",
+          "journal": "Journal of endodontics",
+          "year": 2026,
+          "doi": "10.1016/j.joen.2026.07.021",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42629103/",
+          "authorship": {
+            "position": 8,
+            "total": 12,
+            "isFirst": false,
+            "isLast": false
+          }
+        },
+        {
           "id": "42128278",
           "title": "Micro-CT Assessment of Hydraulic Calcium Silicate Cements for Perforating Internal Resorption in 3D-printed Tooth Replicas at Different Root Thirds: An In Vitro Study.",
           "journal": "Journal of endodontics",
@@ -73037,7 +73083,7 @@
       "authorCounts": null,
       "signals": {
         "positive": {
-          "count": 56,
+          "count": 57,
           "yearRange": {
             "min": 2021,
             "max": 2026
@@ -73065,13 +73111,13 @@
             },
             {
               "year": 2026,
-              "count": 15
+              "count": 16
             }
           ],
           "topJournals": [
             {
               "name": "Journal of endodontics",
-              "count": 25
+              "count": 26
             },
             {
               "name": "International endodontic journal",
@@ -73113,11 +73159,11 @@
             },
             {
               "name": "insights",
-              "count": 13
+              "count": 14
             },
             {
               "name": "issue",
-              "count": 13
+              "count": 14
             },
             {
               "name": "canal",
@@ -73125,11 +73171,15 @@
             },
             {
               "name": "joe",
-              "count": 11
+              "count": 12
             },
             {
               "name": "study",
               "count": 10
+            },
+            {
+              "name": "2026",
+              "count": 9
             },
             {
               "name": "endodontic",
@@ -73138,10 +73188,6 @@
             {
               "name": "teeth",
               "count": 9
-            },
-            {
-              "name": "2026",
-              "count": 8
             },
             {
               "name": "analysis",
@@ -73159,47 +73205,47 @@
           "topCoauthors": [
             {
               "name": "Amir Azarpazhooh",
-              "count": 12
+              "count": 13
             },
             {
               "name": "Anil Kishen",
-              "count": 12
+              "count": 13
             },
             {
               "name": "Anita Aminoshariae",
-              "count": 12
+              "count": 13
             },
             {
               "name": "Ariadne M Letra",
-              "count": 12
+              "count": 13
             },
             {
               "name": "Frank C Setzer",
-              "count": 12
+              "count": 13
             },
             {
               "name": "Franklin R Tay",
-              "count": 12
+              "count": 13
             },
             {
               "name": "Gerald N Glickman",
-              "count": 12
+              "count": 13
             },
             {
               "name": "Jianing He",
-              "count": 12
+              "count": 13
             },
             {
               "name": "Kenneth M Hargreaves",
-              "count": 12
+              "count": 13
             },
             {
               "name": "Linda Levin",
-              "count": 12
+              "count": 13
             },
             {
               "name": "Sahng G Kim",
-              "count": 12
+              "count": 13
             },
             {
               "name": "Christopher Staley",
