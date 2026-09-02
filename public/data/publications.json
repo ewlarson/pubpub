@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-01",
-  "updatedAt": "2026-09-01T13:08:29.965Z",
+  "updated": "2026-09-02",
+  "updatedAt": "2026-09-02T12:36:46.134Z",
   "source": "PubMed E-utilities",
   "faculty": [
     {
@@ -68416,6 +68416,20 @@
           }
         },
         {
+          "id": "42681820",
+          "title": "Microvascular endothelial function is blunted in postmenopausal females with frequent hot flushes.",
+          "journal": "Experimental physiology",
+          "year": 2026,
+          "doi": "10.1113/EP093733",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42681820/",
+          "authorship": {
+            "position": 9,
+            "total": 10,
+            "isFirst": false,
+            "isLast": true
+          }
+        },
+        {
           "id": "41337229",
           "title": "A Robust Deep Learning Framework for Detecting Bursts in Muscle Sympathetic Nerve Activity.",
           "journal": "Annual International Conference of the IEEE Engineering in Medicine and Biology Society. IEEE Engineering in Medicine and Biology Society. Annual International Conference",
@@ -68461,7 +68475,7 @@
       "authorCounts": null,
       "signals": {
         "positive": {
-          "count": 6,
+          "count": 7,
           "yearRange": {
             "min": 2024,
             "max": 2026
@@ -68477,7 +68491,7 @@
             },
             {
               "year": 2026,
-              "count": 3
+              "count": 4
             }
           ],
           "topJournals": [
@@ -68498,6 +68512,10 @@
               "count": 1
             },
             {
+              "name": "Experimental physiology",
+              "count": 1
+            },
+            {
               "name": "Hypertension (Dallas, Tex. : 1979)",
               "count": 1
             }
@@ -68505,6 +68523,10 @@
           "topKeywords": [
             {
               "name": "activity",
+              "count": 3
+            },
+            {
+              "name": "females",
               "count": 3
             },
             {
@@ -68516,15 +68538,15 @@
               "count": 2
             },
             {
-              "name": "females",
-              "count": 2
-            },
-            {
               "name": "heart",
               "count": 2
             },
             {
               "name": "nerve",
+              "count": 2
+            },
+            {
+              "name": "postmenopausal",
               "count": 2
             },
             {
@@ -68546,13 +68568,17 @@
             {
               "name": "anxiety",
               "count": 1
-            },
-            {
-              "name": "association",
-              "count": 1
             }
           ],
           "topCoauthors": [
+            {
+              "name": "Chowdhury Tasnova Tahsin",
+              "count": 3
+            },
+            {
+              "name": "Emma J Lee",
+              "count": 3
+            },
             {
               "name": "Jason R Carter",
               "count": 3
@@ -68562,19 +68588,27 @@
               "count": 3
             },
             {
-              "name": "Chowdhury Tasnova Tahsin",
-              "count": 2
-            },
-            {
-              "name": "Emma J Lee",
-              "count": 2
-            },
-            {
               "name": "Jeremy A Bigalke",
               "count": 2
             },
             {
+              "name": "Marnie L Vanden Noven",
+              "count": 2
+            },
+            {
+              "name": "Soliana Teshome",
+              "count": 2
+            },
+            {
+              "name": "Stephany Nathe",
+              "count": 2
+            },
+            {
               "name": "Ann Parr",
+              "count": 1
+            },
+            {
+              "name": "Anne Blaes",
               "count": 1
             },
             {
@@ -68583,22 +68617,6 @@
             },
             {
               "name": "Austin T Robinson",
-              "count": 1
-            },
-            {
-              "name": "Benjamin D Levine",
-              "count": 1
-            },
-            {
-              "name": "Daniel P Chantigian",
-              "count": 1
-            },
-            {
-              "name": "David Young Balser",
-              "count": 1
-            },
-            {
-              "name": "Emma Lee",
               "count": 1
             }
           ]
