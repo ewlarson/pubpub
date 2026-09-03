@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-02",
-  "updatedAt": "2026-09-02T12:36:46.134Z",
+  "updated": "2026-09-03",
+  "updatedAt": "2026-09-03T12:37:39.700Z",
   "source": "PubMed E-utilities",
   "faculty": [
     {
@@ -10094,6 +10094,20 @@
           }
         },
         {
+          "id": "42686567",
+          "title": "Factors Associated with Persistently Increased IL-6 Levels in People with HIV.",
+          "journal": "The Journal of infectious diseases",
+          "year": 2026,
+          "doi": "10.1093/infdis/jiag451",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42686567/",
+          "authorship": {
+            "position": 4,
+            "total": 14,
+            "isFirst": false,
+            "isLast": false
+          }
+        },
+        {
           "id": "41542439",
           "title": "Ongoing lymphoid HIV production drives pyroptosis and GLP-1 counter-regulation in ART-suppressed infection.",
           "journal": "bioRxiv : the preprint server for biology",
@@ -11875,7 +11889,7 @@
       "authorCounts": null,
       "signals": {
         "positive": {
-          "count": 129,
+          "count": 130,
           "yearRange": {
             "min": 2011,
             "max": 2026
@@ -11943,7 +11957,7 @@
             },
             {
               "year": 2026,
-              "count": 6
+              "count": 7
             }
           ],
           "topJournals": [
@@ -11956,15 +11970,15 @@
               "count": 8
             },
             {
+              "name": "The Journal of infectious diseases",
+              "count": 8
+            },
+            {
               "name": "AIDS and behavior",
               "count": 7
             },
             {
               "name": "PloS one",
-              "count": 7
-            },
-            {
-              "name": "The Journal of infectious diseases",
               "count": 7
             },
             {
@@ -11991,7 +12005,7 @@
           "topKeywords": [
             {
               "name": "hiv",
-              "count": 81
+              "count": 82
             },
             {
               "name": "antiretroviral",
@@ -12057,7 +12071,7 @@
             },
             {
               "name": "H Clifford Lane",
-              "count": 12
+              "count": 13
             },
             {
               "name": "Andrew N Phillips",
@@ -12080,11 +12094,11 @@
               "count": 10
             },
             {
-              "name": "John T Brooks",
+              "name": "Cavan Reilly",
               "count": 9
             },
             {
-              "name": "Lisa A Uebelacker",
+              "name": "John T Brooks",
               "count": 9
             }
           ]
@@ -26901,6 +26915,20 @@
           }
         },
         {
+          "id": "42686204",
+          "title": "Prevalence and Characteristics of Mental Health Interventions Following Pediatric Hospitalization.",
+          "journal": "Hospital pediatrics",
+          "year": 2026,
+          "doi": "10.1542/hpeds.2026-009345",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42686204/",
+          "authorship": {
+            "position": 1,
+            "total": 13,
+            "isFirst": false,
+            "isLast": false
+          }
+        },
+        {
           "id": "41871826",
           "title": "Use of Emergency Medical Services for Children With Medical Complexity.",
           "journal": "Pediatrics",
@@ -27114,7 +27142,7 @@
       "authorCounts": null,
       "signals": {
         "positive": {
-          "count": 20,
+          "count": 21,
           "yearRange": {
             "min": 2024,
             "max": 2026
@@ -27130,7 +27158,7 @@
             },
             {
               "year": 2026,
-              "count": 7
+              "count": 8
             }
           ],
           "topJournals": [
@@ -27147,6 +27175,10 @@
               "count": 2
             },
             {
+              "name": "Hospital pediatrics",
+              "count": 2
+            },
+            {
               "name": "Journal of intensive care medicine",
               "count": 2
             },
@@ -27156,10 +27188,6 @@
             },
             {
               "name": "Academic pediatrics",
-              "count": 1
-            },
-            {
-              "name": "Hospital pediatrics",
               "count": 1
             },
             {
@@ -27177,11 +27205,11 @@
           ],
           "topKeywords": [
             {
-              "name": "care",
-              "count": 10
+              "name": "pediatric",
+              "count": 11
             },
             {
-              "name": "pediatric",
+              "name": "care",
               "count": 10
             },
             {
@@ -27199,6 +27227,10 @@
             {
               "name": "critical",
               "count": 5
+            },
+            {
+              "name": "following",
+              "count": 4
             },
             {
               "name": "after",
@@ -27219,31 +27251,35 @@
             {
               "name": "factors",
               "count": 3
-            },
-            {
-              "name": "following",
-              "count": 3
             }
           ],
           "topCoauthors": [
+            {
+              "name": "Adam C Dziorny",
+              "count": 6
+            },
+            {
+              "name": "Denise M Goodman",
+              "count": 6
+            },
             {
               "name": "Sriram Ramgopal",
               "count": 6
             },
             {
-              "name": "Adam C Dziorny",
-              "count": 5
-            },
-            {
-              "name": "Denise M Goodman",
-              "count": 5
-            },
-            {
               "name": "Colin M Rogerson",
-              "count": 4
+              "count": 5
             },
             {
               "name": "Vanessa Toomey",
+              "count": 5
+            },
+            {
+              "name": "Jason M Kane",
+              "count": 4
+            },
+            {
+              "name": "Matt Hall",
               "count": 4
             },
             {
@@ -27251,28 +27287,20 @@
               "count": 3
             },
             {
-              "name": "Jason M Kane",
+              "name": "Daniel Garros",
               "count": 3
             },
             {
-              "name": "Matt Hall",
+              "name": "Daniel H Choi",
               "count": 3
             },
             {
-              "name": "Reid W D Farris",
+              "name": "Joseph G Kohne",
               "count": 3
             },
             {
-              "name": "Stephanie R Brown",
+              "name": "Leslie A Dervan",
               "count": 3
-            },
-            {
-              "name": "Tellen D Bennett",
-              "count": 3
-            },
-            {
-              "name": "Alysia Flynn",
-              "count": 2
             }
           ]
         },
@@ -40918,6 +40946,20 @@
           }
         },
         {
+          "id": "42686288",
+          "title": "Neuromodulation in Spinal Cord Injury: Clinical Review.",
+          "journal": "Neurosurgery clinics of North America",
+          "year": 2026,
+          "doi": "10.1016/j.nec.2026.05.016",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42686288/",
+          "authorship": {
+            "position": 2,
+            "total": 4,
+            "isFirst": false,
+            "isLast": false
+          }
+        },
+        {
           "id": "42651785",
           "title": "Titer- and Intervention Timing-Dependent Functional Effects of AAV9-NeuroD1 Gene Therapy on Spinal Cord Injury.",
           "journal": "Current issues in molecular biology",
@@ -41495,7 +41537,7 @@
       "authorCounts": null,
       "signals": {
         "positive": {
-          "count": 42,
+          "count": 43,
           "yearRange": {
             "min": 2015,
             "max": 2026
@@ -41543,7 +41585,7 @@
             },
             {
               "year": 2026,
-              "count": 2
+              "count": 3
             }
           ],
           "topJournals": [
@@ -41591,15 +41633,15 @@
           "topKeywords": [
             {
               "name": "spinal",
-              "count": 31
+              "count": 32
             },
             {
               "name": "cord",
-              "count": 28
+              "count": 29
             },
             {
               "name": "injury",
-              "count": 17
+              "count": 18
             },
             {
               "name": "after",
@@ -48097,6 +48139,20 @@
           }
         },
         {
+          "id": "42683542",
+          "title": "Care Models for the Genetic Evaluation of Dilated Cardiomyopathy at Sites of the DCM Consortium.",
+          "journal": "Circulation. Heart failure",
+          "year": 2026,
+          "doi": "10.1161/CIRCHEARTFAILURE.126.014544",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42683542/",
+          "authorship": {
+            "position": 42,
+            "total": 51,
+            "isFirst": false,
+            "isLast": false
+          }
+        },
+        {
           "id": "42622598",
           "title": "Stress Perfusion CMR to Prognosticate for Left Main and High Risk Multivessel Coronary Artery Disease and Major Cardiovascular Adverse Events: Outcomes From a 4,144-Patient Multicenter Cohort.",
           "journal": "JACC. Cardiovascular imaging",
@@ -49206,7 +49262,7 @@
       "authorCounts": null,
       "signals": {
         "positive": {
-          "count": 81,
+          "count": 82,
           "yearRange": {
             "min": 2017,
             "max": 2026
@@ -49250,7 +49306,7 @@
             },
             {
               "year": 2026,
-              "count": 3
+              "count": 4
             }
           ],
           "topJournals": [
@@ -49333,15 +49389,15 @@
               "count": 12
             },
             {
+              "name": "cardiomyopathy",
+              "count": 11
+            },
+            {
               "name": "left",
               "count": 11
             },
             {
               "name": "cancer",
-              "count": 10
-            },
-            {
-              "name": "cardiomyopathy",
               "count": 10
             }
           ],
@@ -74917,7 +74973,7 @@
         },
         {
           "id": "42263199",
-          "title": "Cost-effectiveness Analysis of Xpert MTB/RIF Ultra for the Diagnosis of HIV-Associated Tuberculous Meningitis.",
+          "title": "Cost-Effectiveness Analysis of Xpert MTB/RIF Ultra for the Diagnosis of HIV-Associated Tuberculous Meningitis.",
           "journal": "Clinical infectious diseases : an official publication of the Infectious Diseases Society of America",
           "year": 2026,
           "doi": "10.1093/cid/ciag348",
