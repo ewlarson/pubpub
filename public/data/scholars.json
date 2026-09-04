@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-03",
-  "updatedAt": "2026-09-03T12:34:01.862Z",
+  "updated": "2026-09-04",
+  "updatedAt": "2026-09-04T12:32:22.743Z",
   "source": "PubMed E-utilities (ORCID)",
   "faculty": [
     {
@@ -555,6 +555,20 @@
           }
         },
         {
+          "id": "42687897",
+          "title": "The Association Between Gentrification, Health, and Social Cohesion of Older Adults.",
+          "journal": "Research square",
+          "year": 2026,
+          "doi": "10.21203/rs.3.rs-10778994/v1",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42687897/",
+          "authorship": {
+            "position": 0,
+            "total": 5,
+            "isFirst": true,
+            "isLast": false
+          }
+        },
+        {
           "id": "40568778",
           "title": "Gentrification and Aging: A Narrative Review.",
           "journal": "Journal of gerontological social work",
@@ -584,14 +598,14 @@
         }
       ],
       "authorCounts": {
-        "first": 2,
+        "first": 3,
         "last": 0,
-        "total": 3,
-        "known": 3
+        "total": 4,
+        "known": 4
       },
       "signals": {
         "positive": {
-          "count": 3,
+          "count": 4,
           "yearRange": {
             "min": 2025,
             "max": 2026
@@ -603,7 +617,7 @@
             },
             {
               "year": 2026,
-              "count": 1
+              "count": 2
             }
           ],
           "topJournals": [
@@ -614,11 +628,23 @@
             {
               "name": "Journal of gerontological social work",
               "count": 1
+            },
+            {
+              "name": "Research square",
+              "count": 1
             }
           ],
           "topKeywords": [
             {
               "name": "correlates",
+              "count": 2
+            },
+            {
+              "name": "gentrification",
+              "count": 2
+            },
+            {
+              "name": "health",
               "count": 2
             },
             {
@@ -634,7 +660,19 @@
               "count": 2
             },
             {
+              "name": "adults",
+              "count": 1
+            },
+            {
               "name": "aging",
+              "count": 1
+            },
+            {
+              "name": "association",
+              "count": 1
+            },
+            {
+              "name": "between",
               "count": 1
             },
             {
@@ -642,33 +680,17 @@
               "count": 1
             },
             {
-              "name": "demographic",
-              "count": 1
-            },
-            {
-              "name": "differences",
-              "count": 1
-            },
-            {
-              "name": "elder",
-              "count": 1
-            },
-            {
-              "name": "gentrification",
-              "count": 1
-            },
-            {
-              "name": "health",
-              "count": 1
-            },
-            {
-              "name": "homebound",
+              "name": "cohesion",
               "count": 1
             }
           ],
           "topCoauthors": [
             {
               "name": "Carrie Henning-Smith",
+              "count": 3
+            },
+            {
+              "name": "Joseph E Gaugler",
               "count": 2
             },
             {
@@ -680,11 +702,11 @@
               "count": 1
             },
             {
-              "name": "Ingrid Jacobson",
+              "name": "David Haynes",
               "count": 1
             },
             {
-              "name": "Joseph E Gaugler",
+              "name": "Ingrid Jacobson",
               "count": 1
             },
             {
@@ -693,6 +715,10 @@
             },
             {
               "name": "Marguerite DeLiema",
+              "count": 1
+            },
+            {
+              "name": "Tetyana Shippee",
               "count": 1
             }
           ]

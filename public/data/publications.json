@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-03",
-  "updatedAt": "2026-09-03T12:37:39.700Z",
+  "updated": "2026-09-04",
+  "updatedAt": "2026-09-04T12:36:07.780Z",
   "source": "PubMed E-utilities",
   "faculty": [
     {
@@ -87,6 +87,20 @@
           "authorship": {
             "position": 11,
             "total": 17,
+            "isFirst": false,
+            "isLast": false
+          }
+        },
+        {
+          "id": "42687897",
+          "title": "The Association Between Gentrification, Health, and Social Cohesion of Older Adults.",
+          "journal": "Research square",
+          "year": 2026,
+          "doi": "10.21203/rs.3.rs-10778994/v1",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42687897/",
+          "authorship": {
+            "position": 3,
+            "total": 5,
             "isFirst": false,
             "isLast": false
           }
@@ -403,7 +417,7 @@
       "authorCounts": null,
       "signals": {
         "positive": {
-          "count": 27,
+          "count": 28,
           "yearRange": {
             "min": 2020,
             "max": 2026
@@ -435,7 +449,7 @@
             },
             {
               "year": 2026,
-              "count": 5
+              "count": 6
             }
           ],
           "topJournals": [
@@ -445,6 +459,10 @@
             },
             {
               "name": "JAMA network open",
+              "count": 2
+            },
+            {
+              "name": "Research square",
               "count": 2
             },
             {
@@ -474,10 +492,6 @@
             {
               "name": "Health affairs (Project Hope)",
               "count": 1
-            },
-            {
-              "name": "JMIR public health and surveillance",
-              "count": 1
             }
           ],
           "topKeywords": [
@@ -487,14 +501,14 @@
             },
             {
               "name": "health",
-              "count": 9
-            },
-            {
-              "name": "screening",
-              "count": 7
+              "count": 10
             },
             {
               "name": "social",
+              "count": 8
+            },
+            {
+              "name": "screening",
               "count": 7
             },
             {
@@ -526,7 +540,7 @@
               "count": 3
             },
             {
-              "name": "case",
+              "name": "association",
               "count": 3
             }
           ],
@@ -10158,9 +10172,9 @@
           "url": "https://pubmed.ncbi.nlm.nih.gov/42326823/",
           "authorship": {
             "position": 12,
-            "total": 14,
+            "total": 13,
             "isFirst": false,
-            "isLast": false
+            "isLast": true
           }
         },
         {
@@ -30975,16 +30989,126 @@
           "startDate": "2014-03-01"
         }
       ],
-      "publications": [],
+      "publications": [
+        {
+          "id": "42691181",
+          "title": "Measurement of the Λ electric dipole moment with an entangled baryon-antibaryon system.",
+          "journal": "Science (New York, N.Y.)",
+          "year": 2026,
+          "doi": "10.1126/science.adx7334",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42691181/",
+          "authorship": {
+            "position": 245,
+            "total": 722,
+            "isFirst": false,
+            "isLast": false
+          }
+        }
+      ],
       "authorCounts": null,
       "signals": {
         "positive": {
-          "count": 0,
-          "yearRange": null,
-          "yearCounts": [],
-          "topJournals": [],
-          "topKeywords": [],
-          "topCoauthors": []
+          "count": 1,
+          "yearRange": {
+            "min": 2026,
+            "max": 2026
+          },
+          "yearCounts": [
+            {
+              "year": 2026,
+              "count": 1
+            }
+          ],
+          "topJournals": [
+            {
+              "name": "Science (New York, N.Y.)",
+              "count": 1
+            }
+          ],
+          "topKeywords": [
+            {
+              "name": "antibaryon",
+              "count": 1
+            },
+            {
+              "name": "baryon",
+              "count": 1
+            },
+            {
+              "name": "dipole",
+              "count": 1
+            },
+            {
+              "name": "electric",
+              "count": 1
+            },
+            {
+              "name": "entangled",
+              "count": 1
+            },
+            {
+              "name": "measurement",
+              "count": 1
+            },
+            {
+              "name": "moment",
+              "count": 1
+            },
+            {
+              "name": "system",
+              "count": 1
+            }
+          ],
+          "topCoauthors": [
+            {
+              "name": "X C Ai",
+              "count": 2
+            },
+            {
+              "name": "A A Zafar",
+              "count": 1
+            },
+            {
+              "name": "A Amoroso",
+              "count": 1
+            },
+            {
+              "name": "A Bortone",
+              "count": 1
+            },
+            {
+              "name": "A Brueggemann",
+              "count": 1
+            },
+            {
+              "name": "A Calcaterra",
+              "count": 1
+            },
+            {
+              "name": "A Dbeyssi",
+              "count": 1
+            },
+            {
+              "name": "A Denig",
+              "count": 1
+            },
+            {
+              "name": "A Gilman",
+              "count": 1
+            },
+            {
+              "name": "A Guskov",
+              "count": 1
+            },
+            {
+              "name": "A Khoukaz",
+              "count": 1
+            },
+            {
+              "name": "A Kupsc",
+              "count": 1
+            }
+          ]
         },
         "negative": {
           "count": 0,
@@ -49579,6 +49703,20 @@
           }
         },
         {
+          "id": "42687897",
+          "title": "The Association Between Gentrification, Health, and Social Cohesion of Older Adults.",
+          "journal": "Research square",
+          "year": 2026,
+          "doi": "10.21203/rs.3.rs-10778994/v1",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42687897/",
+          "authorship": {
+            "position": 2,
+            "total": 5,
+            "isFirst": false,
+            "isLast": false
+          }
+        },
+        {
           "id": "41007604",
           "title": "Associations of Place-Based Factors with Service Use and Consumer-Reported Unmet Service Needs Among Older Adults Using Publicly Funded Home- and Community-Based Services in the United States.",
           "journal": "International journal of environmental research and public health",
@@ -50940,7 +51078,7 @@
       "authorCounts": null,
       "signals": {
         "positive": {
-          "count": 104,
+          "count": 105,
           "yearRange": {
             "min": 2011,
             "max": 2026
@@ -51008,7 +51146,7 @@
             },
             {
               "year": 2026,
-              "count": 7
+              "count": 8
             }
           ],
           "topJournals": [
@@ -51096,11 +51234,11 @@
             },
             {
               "name": "health",
-              "count": 17
+              "count": 18
             },
             {
               "name": "older",
-              "count": 17
+              "count": 18
             }
           ],
           "topCoauthors": [
@@ -51110,7 +51248,11 @@
             },
             {
               "name": "Joseph E Gaugler",
-              "count": 15
+              "count": 16
+            },
+            {
+              "name": "Carrie Henning-Smith",
+              "count": 13
             },
             {
               "name": "John R Bowblis",
@@ -51127,10 +51269,6 @@
             {
               "name": "Yinfei Duan",
               "count": 13
-            },
-            {
-              "name": "Carrie Henning-Smith",
-              "count": 12
             },
             {
               "name": "Robert L Kane",
@@ -59582,6 +59720,20 @@
           }
         },
         {
+          "id": "42691580",
+          "title": "Same ages, different stages: Pubertal development in 9- and 10-year olds is associated with entropy of fMRI signals.",
+          "journal": "Developmental cognitive neuroscience",
+          "year": 2026,
+          "doi": "10.1016/j.dcn.2026.101806",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42691580/",
+          "authorship": {
+            "position": 8,
+            "total": 9,
+            "isFirst": false,
+            "isLast": true
+          }
+        },
+        {
           "id": "42260114",
           "title": "White matter and impulsivity are prospectively associated with non‑suicidal self‑injury in youth: evidence for sex differences.",
           "journal": "Neuropsychopharmacology : official publication of the American College of Neuropsychopharmacology",
@@ -61433,7 +61585,7 @@
       "authorCounts": null,
       "signals": {
         "positive": {
-          "count": 141,
+          "count": 142,
           "yearRange": {
             "min": 2014,
             "max": 2026
@@ -61489,7 +61641,7 @@
             },
             {
               "year": 2026,
-              "count": 11
+              "count": 12
             }
           ],
           "topJournals": [
@@ -61587,11 +61739,11 @@
           "topCoauthors": [
             {
               "name": "Bonnie Klimes-Dougan",
-              "count": 96
+              "count": 97
             },
             {
               "name": "Bryon A Mueller",
-              "count": 47
+              "count": 48
             },
             {
               "name": "Kelvin O Lim",
