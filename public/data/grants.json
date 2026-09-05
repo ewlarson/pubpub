@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-04",
-  "updatedAt": "2026-09-04T12:36:07.780Z",
+  "updated": "2026-09-05",
+  "updatedAt": "2026-09-05T11:41:03.157Z",
   "source": "NIH RePORTER API",
   "faculty": [
     {
@@ -3380,17 +3380,6 @@
           "coreProjectNum": "R01NS119297"
         },
         {
-          "id": "5R01NS119297-03",
-          "title": "3D Bioprinted Spinal Cord Organoids as a Relay System for Spinal Cord Injury",
-          "role": "Not listed",
-          "amount": 492229,
-          "startDate": "2021-09-02",
-          "endDate": "2026-06-30",
-          "fiscalYear": 2023,
-          "url": "https://reporter.nih.gov/project-details/10677016",
-          "coreProjectNum": "R01NS119297"
-        },
-        {
           "id": "3R01NS119297-03S1",
           "title": "3D Bioprinted Spinal Cord Organoids as a Relay System for Spinal Cord Injury",
           "role": "Not listed",
@@ -3399,6 +3388,17 @@
           "endDate": "2026-06-30",
           "fiscalYear": 2023,
           "url": "https://reporter.nih.gov/project-details/10840561",
+          "coreProjectNum": "R01NS119297"
+        },
+        {
+          "id": "5R01NS119297-03",
+          "title": "3D Bioprinted Spinal Cord Organoids as a Relay System for Spinal Cord Injury",
+          "role": "Not listed",
+          "amount": 492229,
+          "startDate": "2021-09-02",
+          "endDate": "2026-06-30",
+          "fiscalYear": 2023,
+          "url": "https://reporter.nih.gov/project-details/10677016",
           "coreProjectNum": "R01NS119297"
         },
         {
