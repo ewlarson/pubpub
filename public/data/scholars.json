@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-06",
-  "updatedAt": "2026-09-06T11:58:36.077Z",
+  "updated": "2026-09-07",
+  "updatedAt": "2026-09-07T13:57:42.494Z",
   "source": "PubMed E-utilities (ORCID)",
   "faculty": [
     {
@@ -11191,7 +11191,7 @@
         {
           "id": "42049248",
           "title": "Lactobacillus Is Associated With Disease in Pulmonary Arterial Hypertension: A Prospective Cohort Study.",
-          "journal": "Comprehensive Physiology",
+          "journal": "Comprehensive physiology",
           "year": 2026,
           "doi": "10.1002/cph4.70161",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42049248/",
@@ -11205,7 +11205,7 @@
         {
           "id": "41918066",
           "title": "The Importance of Liver-Lung Communication in Pulmonary Vascular Diseases.",
-          "journal": "Comprehensive Physiology",
+          "journal": "Comprehensive physiology",
           "year": 2026,
           "doi": "10.1002/cph4.70140",
           "url": "https://pubmed.ncbi.nlm.nih.gov/41918066/",
@@ -11456,7 +11456,7 @@
               "count": 2
             },
             {
-              "name": "Comprehensive Physiology",
+              "name": "Comprehensive physiology",
               "count": 2
             },
             {

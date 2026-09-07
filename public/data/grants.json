@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-06",
-  "updatedAt": "2026-09-06T12:02:22.177Z",
+  "updated": "2026-09-07",
+  "updatedAt": "2026-09-07T14:01:22.521Z",
   "source": "NIH RePORTER API",
   "faculty": [
     {
@@ -316,7 +316,19 @@
         }
       ],
       "reporterUrl": "",
-      "grants": []
+      "grants": [
+        {
+          "id": "1K23HL188477-01",
+          "title": "Developing and Piloting P3: A Patient-Centered Communication Curriculum for Hypertension Care",
+          "role": "Not listed",
+          "amount": 179928,
+          "startDate": "2026-09-05",
+          "endDate": "2031-08-31",
+          "fiscalYear": 2026,
+          "url": "https://reporter.nih.gov/project-details/11436093",
+          "coreProjectNum": "K23HL188477"
+        }
+      ]
     },
     {
       "id": "edgar-pe-a-penax025-umn-edu",
@@ -1026,7 +1038,7 @@
           "role": "Contact PI",
           "amount": 517232,
           "startDate": "2021-08-15",
-          "endDate": "2026-08-31",
+          "endDate": "2027-08-31",
           "fiscalYear": 2024,
           "url": "https://reporter.nih.gov/project-details/11293906",
           "coreProjectNum": "R01HL153613"
@@ -1173,6 +1185,17 @@
       ],
       "reporterUrl": "",
       "grants": [
+        {
+          "id": "5UG3DA061615-02",
+          "title": "Combined tDCS and cognitive training as an adjunctive treatment in opioid use disorder",
+          "role": "Contact PI",
+          "amount": 668658,
+          "startDate": "2025-09-01",
+          "endDate": "2027-08-31",
+          "fiscalYear": 2026,
+          "url": "https://reporter.nih.gov/project-details/11398020",
+          "coreProjectNum": "UG3DA061615"
+        },
         {
           "id": "1UG3DA061615-01A1",
           "title": "Combined tDCS and cognitive training as an adjunctive treatment in opioid use disorder",
@@ -2650,6 +2673,17 @@
           "coreProjectNum": "R21DC022092"
         },
         {
+          "id": "5DP1AG093028-03",
+          "title": "Obtaining brain pCO2, pH and pO2 maps via measurements of neurovascular coupling: a novel non-invasive approach to identify the culprits of loss of brain function",
+          "role": "Contact PI",
+          "amount": 1078000,
+          "startDate": "2024-09-30",
+          "endDate": "2029-08-31",
+          "fiscalYear": 2026,
+          "url": "https://reporter.nih.gov/project-details/11408654",
+          "coreProjectNum": "DP1AG093028"
+        },
+        {
           "id": "5DP1AG093028-02",
           "title": "Obtaining brain pCO2, pH and pO2 maps via measurements of neurovascular coupling: a novel non-invasive approach to identify the culprits of loss of brain function",
           "role": "Contact PI",
@@ -3796,17 +3830,6 @@
           "coreProjectNum": "K23DK118207"
         },
         {
-          "id": "5K23DK118207-03",
-          "title": "Optimizing Diabetes Care Quality for Low-Income Patients",
-          "role": "Not listed",
-          "amount": 198936,
-          "startDate": "2018-09-01",
-          "endDate": "2023-08-31",
-          "fiscalYear": 2020,
-          "url": "https://reporter.nih.gov/project-details/10001066",
-          "coreProjectNum": "K23DK118207"
-        },
-        {
           "id": "3K23DK118207-03S1",
           "title": "Optimizing Diabetes Care Quality for Low-Income Patients",
           "role": "Not listed",
@@ -3815,6 +3838,17 @@
           "endDate": "2023-08-31",
           "fiscalYear": 2020,
           "url": "https://reporter.nih.gov/project-details/10220358",
+          "coreProjectNum": "K23DK118207"
+        },
+        {
+          "id": "5K23DK118207-03",
+          "title": "Optimizing Diabetes Care Quality for Low-Income Patients",
+          "role": "Not listed",
+          "amount": 198936,
+          "startDate": "2018-09-01",
+          "endDate": "2023-08-31",
+          "fiscalYear": 2020,
+          "url": "https://reporter.nih.gov/project-details/10001066",
           "coreProjectNum": "K23DK118207"
         },
         {
@@ -4280,17 +4314,6 @@
           "coreProjectNum": "R01AG075734"
         },
         {
-          "id": "3R01AG075734-02S1",
-          "title": "Training the Long-Term Services and Supports Dementia Care Workforce in Provision of Care to Sexual and Gender Minority Residents",
-          "role": "Not listed",
-          "amount": 25096,
-          "startDate": "2022-09-15",
-          "endDate": "2026-05-31",
-          "fiscalYear": 2024,
-          "url": "https://reporter.nih.gov/project-details/11004546",
-          "coreProjectNum": "R01AG075734"
-        },
-        {
           "id": "3R01AG075734-03S1",
           "title": "Training the Long-Term Services and Supports Dementia Care Workforce in Provision of Care to Sexual and Gender Minority Residents",
           "role": "Not listed",
@@ -4299,6 +4322,17 @@
           "endDate": "2026-05-31",
           "fiscalYear": 2024,
           "url": "https://reporter.nih.gov/project-details/11090086",
+          "coreProjectNum": "R01AG075734"
+        },
+        {
+          "id": "3R01AG075734-02S1",
+          "title": "Training the Long-Term Services and Supports Dementia Care Workforce in Provision of Care to Sexual and Gender Minority Residents",
+          "role": "Not listed",
+          "amount": 25096,
+          "startDate": "2022-09-15",
+          "endDate": "2026-05-31",
+          "fiscalYear": 2024,
+          "url": "https://reporter.nih.gov/project-details/11004546",
           "coreProjectNum": "R01AG075734"
         },
         {
@@ -6201,6 +6235,17 @@
       ],
       "reporterUrl": "",
       "grants": [
+        {
+          "id": "1R01DK148878-01",
+          "title": "Uromodulin polymerization and peptides as novel targets in kidney stone pathogenesis",
+          "role": "Contact PI",
+          "amount": 821457,
+          "startDate": "2026-09-01",
+          "endDate": "2031-05-31",
+          "fiscalYear": 2026,
+          "url": "https://reporter.nih.gov/project-details/11433374",
+          "coreProjectNum": "R01DK148878"
+        },
         {
           "id": "1R56DK132046-01A1",
           "title": "Leveraging a unique dog model to determine the role of uromodulin in kidney stone disease",

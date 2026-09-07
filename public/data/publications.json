@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-06",
-  "updatedAt": "2026-09-06T12:02:22.177Z",
+  "updated": "2026-09-07",
+  "updatedAt": "2026-09-07T14:01:22.521Z",
   "source": "PubMed E-utilities",
   "faculty": [
     {
@@ -26859,6 +26859,20 @@
       ],
       "publications": [
         {
+          "id": "42702371",
+          "title": "A Comparison of Pediatric Hospitalization Data in Cosmos and the Kids' Inpatient Database.",
+          "journal": "Hospital pediatrics",
+          "year": 2026,
+          "doi": "10.1542/hpeds.2026-009311",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42702371/",
+          "authorship": {
+            "position": 2,
+            "total": 7,
+            "isFirst": false,
+            "isLast": false
+          }
+        },
+        {
           "id": "42302446",
           "title": "Assessing school nurses' knowledge and comfort in caring for children returning to school after pediatric critical illness.",
           "journal": "Journal of pediatric nursing",
@@ -27156,7 +27170,7 @@
       "authorCounts": null,
       "signals": {
         "positive": {
-          "count": 21,
+          "count": 22,
           "yearRange": {
             "min": 2024,
             "max": 2026
@@ -27172,7 +27186,7 @@
             },
             {
               "year": 2026,
-              "count": 8
+              "count": 9
             }
           ],
           "topJournals": [
@@ -27181,15 +27195,15 @@
               "count": 7
             },
             {
+              "name": "Hospital pediatrics",
+              "count": 3
+            },
+            {
               "name": "Critical care medicine",
               "count": 2
             },
             {
               "name": "Frontiers in pediatrics",
-              "count": 2
-            },
-            {
-              "name": "Hospital pediatrics",
               "count": 2
             },
             {
@@ -27220,7 +27234,7 @@
           "topKeywords": [
             {
               "name": "pediatric",
-              "count": 11
+              "count": 12
             },
             {
               "name": "care",
@@ -27243,6 +27257,10 @@
               "count": 5
             },
             {
+              "name": "data",
+              "count": 4
+            },
+            {
               "name": "following",
               "count": 4
             },
@@ -27259,25 +27277,21 @@
               "count": 3
             },
             {
-              "name": "data",
-              "count": 3
-            },
-            {
               "name": "factors",
               "count": 3
             }
           ],
           "topCoauthors": [
             {
+              "name": "Sriram Ramgopal",
+              "count": 7
+            },
+            {
               "name": "Adam C Dziorny",
               "count": 6
             },
             {
               "name": "Denise M Goodman",
-              "count": 6
-            },
-            {
-              "name": "Sriram Ramgopal",
               "count": 6
             },
             {
@@ -32555,6 +32569,20 @@
           }
         },
         {
+          "id": "42703399",
+          "title": "Therapeutic drug-monitoring-guided desensitization for severe imatinib-associated rash.",
+          "journal": "Journal of gastrointestinal oncology",
+          "year": 2026,
+          "doi": "10.21037/jgo-2026-0174",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42703399/",
+          "authorship": {
+            "position": 1,
+            "total": 2,
+            "isFirst": false,
+            "isLast": true
+          }
+        },
+        {
           "id": "40744036",
           "title": "CRISPR-engineered T-cell therapies: some clarifications needed - Authors' reply.",
           "journal": "The Lancet. Oncology",
@@ -34658,7 +34686,7 @@
       "authorCounts": null,
       "signals": {
         "positive": {
-          "count": 165,
+          "count": 166,
           "yearRange": {
             "min": 2013,
             "max": 2026
@@ -34718,7 +34746,7 @@
             },
             {
               "year": 2026,
-              "count": 15
+              "count": 16
             }
           ],
           "topJournals": [
@@ -70082,6 +70110,20 @@
       ],
       "publications": [
         {
+          "id": "42703187",
+          "title": "Evaluating the Implementation Fidelity of the REJOIN (Using Exercise to Relieve Joint Pain and Improve Aromatase Inhibitor Adherence in Older Breast Cancer Survivors) Pilot Trial.",
+          "journal": "Journal of applied gerontology : the official journal of the Southern Gerontological Society",
+          "year": 2026,
+          "doi": "10.1177/07334648261472544",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42703187/",
+          "authorship": {
+            "position": 2,
+            "total": 6,
+            "isFirst": false,
+            "isLast": false
+          }
+        },
+        {
           "id": "41922886",
           "title": "Health behaviors among young adult cancer survivors and the importance of task self-efficacy.",
           "journal": "Journal of cancer survivorship : research and practice",
@@ -70127,7 +70169,7 @@
       "authorCounts": null,
       "signals": {
         "positive": {
-          "count": 3,
+          "count": 4,
           "yearRange": {
             "min": 2026,
             "max": 2026
@@ -70135,7 +70177,7 @@
           "yearCounts": [
             {
               "year": 2026,
-              "count": 3
+              "count": 4
             }
           ],
           "topJournals": [
@@ -70148,17 +70190,25 @@
               "count": 1
             },
             {
+              "name": "Journal of applied gerontology : the official journal of the Southern Gerontological Society",
+              "count": 1
+            },
+            {
               "name": "Journal of cancer survivorship : research and practice",
               "count": 1
             }
           ],
           "topKeywords": [
             {
+              "name": "cancer",
+              "count": 4
+            },
+            {
               "name": "activity",
               "count": 3
             },
             {
-              "name": "cancer",
+              "name": "breast",
               "count": 3
             },
             {
@@ -70166,12 +70216,12 @@
               "count": 3
             },
             {
-              "name": "breast",
-              "count": 2
+              "name": "survivors",
+              "count": 3
             },
             {
-              "name": "survivors",
-              "count": 2
+              "name": "adherence",
+              "count": 1
             },
             {
               "name": "adult",
@@ -70186,23 +70236,23 @@
               "count": 1
             },
             {
+              "name": "aromatase",
+              "count": 1
+            },
+            {
               "name": "behavioral",
               "count": 1
             },
             {
               "name": "behaviors",
               "count": 1
-            },
-            {
-              "name": "case",
-              "count": 1
-            },
-            {
-              "name": "efficacy",
-              "count": 1
             }
           ],
           "topCoauthors": [
+            {
+              "name": "Shirley M Bluethmann",
+              "count": 2
+            },
             {
               "name": "Alana R Willis",
               "count": 1
@@ -70232,23 +70282,19 @@
               "count": 1
             },
             {
+              "name": "Case H Peters",
+              "count": 1
+            },
+            {
               "name": "David Victorson",
               "count": 1
             },
             {
+              "name": "Erin M Coffman",
+              "count": 1
+            },
+            {
               "name": "Greg Russell",
-              "count": 1
-            },
-            {
-              "name": "Helena M VonVille",
-              "count": 1
-            },
-            {
-              "name": "Janet A Tooze",
-              "count": 1
-            },
-            {
-              "name": "Jeremy Via",
               "count": 1
             }
           ]
