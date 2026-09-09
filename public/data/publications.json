@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-08",
-  "updatedAt": "2026-09-08T12:41:25.826Z",
+  "updated": "2026-09-09",
+  "updatedAt": "2026-09-09T12:46:59.595Z",
   "source": "PubMed E-utilities",
   "faculty": [
     {
@@ -66722,6 +66722,20 @@
           }
         },
         {
+          "id": "42709728",
+          "title": "Fear, stigma and Uncertainty: The short and long-term effects of Ebola on survivors, affected families, and community in Bundibugyo, Western Uganda.",
+          "journal": "PloS one",
+          "year": 2026,
+          "doi": "10.1371/journal.pone.0355778",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42709728/",
+          "authorship": {
+            "position": 2,
+            "total": 6,
+            "isFirst": false,
+            "isLast": false
+          }
+        },
+        {
           "id": "42252777",
           "title": "Participatory cultural adaptation of a multigenerational mindfulness-based program for war-exposed families with refugee status.",
           "journal": "Global health promotion",
@@ -67089,7 +67103,7 @@
       "authorCounts": null,
       "signals": {
         "positive": {
-          "count": 27,
+          "count": 28,
           "yearRange": {
             "min": 2021,
             "max": 2026
@@ -67117,7 +67131,7 @@
             },
             {
               "year": 2026,
-              "count": 3
+              "count": 4
             }
           ],
           "topJournals": [
@@ -67188,6 +67202,10 @@
               "count": 5
             },
             {
+              "name": "affected",
+              "count": 4
+            },
+            {
               "name": "clinical",
               "count": 4
             },
@@ -67196,19 +67214,15 @@
               "count": 4
             },
             {
+              "name": "community",
+              "count": 4
+            },
+            {
+              "name": "families",
+              "count": 4
+            },
+            {
               "name": "gender",
-              "count": 4
-            },
-            {
-              "name": "immigrant",
-              "count": 4
-            },
-            {
-              "name": "migrant",
-              "count": 4
-            },
-            {
-              "name": "nurse",
               "count": 4
             }
           ],
@@ -75170,6 +75184,20 @@
           }
         },
         {
+          "id": "42710480",
+          "title": "Cost-Effective Diagnostic Algorithms for Ugandan Patients with Solid Tumors Who Develop Chemotherapy-Associated Febrile Illness.",
+          "journal": "The American journal of tropical medicine and hygiene",
+          "year": 2026,
+          "doi": "10.4269/ajtmh.26-0069",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42710480/",
+          "authorship": {
+            "position": 10,
+            "total": 11,
+            "isFirst": false,
+            "isLast": true
+          }
+        },
+        {
           "id": "42263199",
           "title": "Cost-Effectiveness Analysis of Xpert MTB/RIF Ultra for the Diagnosis of HIV-Associated Tuberculous Meningitis.",
           "journal": "Clinical infectious diseases : an official publication of the Infectious Diseases Society of America",
@@ -76461,7 +76489,7 @@
       "authorCounts": null,
       "signals": {
         "positive": {
-          "count": 95,
+          "count": 96,
           "yearRange": {
             "min": 2015,
             "max": 2026
@@ -76513,7 +76541,7 @@
             },
             {
               "year": 2026,
-              "count": 9
+              "count": 10
             }
           ],
           "topJournals": [
@@ -76584,11 +76612,11 @@
               "count": 16
             },
             {
-              "name": "among",
-              "count": 14
+              "name": "associated",
+              "count": 15
             },
             {
-              "name": "associated",
+              "name": "among",
               "count": 14
             },
             {
