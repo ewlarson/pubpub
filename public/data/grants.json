@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-09",
-  "updatedAt": "2026-09-09T12:46:59.595Z",
+  "updated": "2026-09-10",
+  "updatedAt": "2026-09-10T12:47:26.160Z",
   "source": "NIH RePORTER API",
   "faculty": [
     {
@@ -3830,17 +3830,6 @@
           "coreProjectNum": "K23DK118207"
         },
         {
-          "id": "3K23DK118207-03S1",
-          "title": "Optimizing Diabetes Care Quality for Low-Income Patients",
-          "role": "Not listed",
-          "amount": 53919,
-          "startDate": "2018-09-01",
-          "endDate": "2023-08-31",
-          "fiscalYear": 2020,
-          "url": "https://reporter.nih.gov/project-details/10220358",
-          "coreProjectNum": "K23DK118207"
-        },
-        {
           "id": "5K23DK118207-03",
           "title": "Optimizing Diabetes Care Quality for Low-Income Patients",
           "role": "Not listed",
@@ -3849,6 +3838,17 @@
           "endDate": "2023-08-31",
           "fiscalYear": 2020,
           "url": "https://reporter.nih.gov/project-details/10001066",
+          "coreProjectNum": "K23DK118207"
+        },
+        {
+          "id": "3K23DK118207-03S1",
+          "title": "Optimizing Diabetes Care Quality for Low-Income Patients",
+          "role": "Not listed",
+          "amount": 53919,
+          "startDate": "2018-09-01",
+          "endDate": "2023-08-31",
+          "fiscalYear": 2020,
+          "url": "https://reporter.nih.gov/project-details/10220358",
           "coreProjectNum": "K23DK118207"
         },
         {
@@ -4314,17 +4314,6 @@
           "coreProjectNum": "R01AG075734"
         },
         {
-          "id": "3R01AG075734-02S1",
-          "title": "Training the Long-Term Services and Supports Dementia Care Workforce in Provision of Care to Sexual and Gender Minority Residents",
-          "role": "Not listed",
-          "amount": 25096,
-          "startDate": "2022-09-15",
-          "endDate": "2026-05-31",
-          "fiscalYear": 2024,
-          "url": "https://reporter.nih.gov/project-details/11004546",
-          "coreProjectNum": "R01AG075734"
-        },
-        {
           "id": "3R01AG075734-03S1",
           "title": "Training the Long-Term Services and Supports Dementia Care Workforce in Provision of Care to Sexual and Gender Minority Residents",
           "role": "Not listed",
@@ -4333,6 +4322,17 @@
           "endDate": "2026-05-31",
           "fiscalYear": 2024,
           "url": "https://reporter.nih.gov/project-details/11090086",
+          "coreProjectNum": "R01AG075734"
+        },
+        {
+          "id": "3R01AG075734-02S1",
+          "title": "Training the Long-Term Services and Supports Dementia Care Workforce in Provision of Care to Sexual and Gender Minority Residents",
+          "role": "Not listed",
+          "amount": 25096,
+          "startDate": "2022-09-15",
+          "endDate": "2026-05-31",
+          "fiscalYear": 2024,
+          "url": "https://reporter.nih.gov/project-details/11004546",
           "coreProjectNum": "R01AG075734"
         },
         {
@@ -4402,17 +4402,6 @@
           "coreProjectNum": "RF1AG069771"
         },
         {
-          "id": "5R01MD010729-05",
-          "title": "System Factors and Racial Disparities in Nursing Home Quality of Life and Care",
-          "role": "Not listed",
-          "amount": 359473,
-          "startDate": "2016-08-15",
-          "endDate": "2022-04-30",
-          "fiscalYear": 2020,
-          "url": "https://reporter.nih.gov/project-details/9907866",
-          "coreProjectNum": "R01MD010729"
-        },
-        {
           "id": "3R01MD010729-05S1",
           "title": "System Factors and Racial Disparities in Nursing Home Quality of Life and Care",
           "role": "Not listed",
@@ -4421,6 +4410,17 @@
           "endDate": "2022-04-30",
           "fiscalYear": 2020,
           "url": "https://reporter.nih.gov/project-details/10180782",
+          "coreProjectNum": "R01MD010729"
+        },
+        {
+          "id": "5R01MD010729-05",
+          "title": "System Factors and Racial Disparities in Nursing Home Quality of Life and Care",
+          "role": "Not listed",
+          "amount": 359473,
+          "startDate": "2016-08-15",
+          "endDate": "2022-04-30",
+          "fiscalYear": 2020,
+          "url": "https://reporter.nih.gov/project-details/9907866",
           "coreProjectNum": "R01MD010729"
         },
         {

@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-09",
-  "updatedAt": "2026-09-09T12:46:59.595Z",
+  "updated": "2026-09-10",
+  "updatedAt": "2026-09-10T12:47:26.160Z",
   "source": "PubMed E-utilities",
   "faculty": [
     {
@@ -2402,6 +2402,20 @@
           }
         },
         {
+          "id": "42715406",
+          "title": "Natural Language Processing Identification of Nonprescribed Fentanyl Use in Electronic Health Records: Algorithm Development and Validation Study.",
+          "journal": "Journal of medical Internet research",
+          "year": 2026,
+          "doi": "10.2196/97485",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42715406/",
+          "authorship": {
+            "position": 4,
+            "total": 9,
+            "isFirst": false,
+            "isLast": false
+          }
+        },
+        {
           "id": "39530748",
           "title": "Comparison of six natural language processing approaches to assessing firearm access in Veterans Health Administration electronic health records.",
           "journal": "Journal of the American Medical Informatics Association : JAMIA",
@@ -2531,7 +2545,7 @@
       "authorCounts": null,
       "signals": {
         "positive": {
-          "count": 11,
+          "count": 12,
           "yearRange": {
             "min": 2023,
             "max": 2026
@@ -2551,7 +2565,7 @@
             },
             {
               "year": 2026,
-              "count": 2
+              "count": 3
             }
           ],
           "topJournals": [
@@ -2576,6 +2590,10 @@
               "count": 1
             },
             {
+              "name": "Journal of medical Internet research",
+              "count": 1
+            },
+            {
               "name": "Journal of palliative medicine",
               "count": 1
             },
@@ -2590,20 +2608,20 @@
             {
               "name": "PloS one",
               "count": 1
-            },
-            {
-              "name": "Pulmonary circulation",
-              "count": 1
             }
           ],
           "topKeywords": [
             {
               "name": "health",
-              "count": 6
+              "count": 7
             },
             {
               "name": "lung",
               "count": 5
+            },
+            {
+              "name": "electronic",
+              "count": 4
             },
             {
               "name": "administration",
@@ -2622,11 +2640,15 @@
               "count": 3
             },
             {
-              "name": "electronic",
+              "name": "hospital",
               "count": 3
             },
             {
-              "name": "hospital",
+              "name": "records",
+              "count": 3
+            },
+            {
+              "name": "study",
               "count": 3
             },
             {
@@ -2636,24 +2658,16 @@
             {
               "name": "among",
               "count": 2
-            },
-            {
-              "name": "assessing",
-              "count": 2
-            },
-            {
-              "name": "cohort",
-              "count": 2
             }
           ],
           "topCoauthors": [
             {
               "name": "Nicholas E Ingraham",
-              "count": 4
+              "count": 5
             },
             {
               "name": "R Adams Dudley",
-              "count": 4
+              "count": 5
             },
             {
               "name": "Amy M Linsky",
@@ -2676,24 +2690,24 @@
               "count": 2
             },
             {
+              "name": "Isai Ortiz",
+              "count": 2
+            },
+            {
+              "name": "Jeremy Yeung",
+              "count": 2
+            },
+            {
               "name": "Jolie Wormwood",
               "count": 2
             },
             {
-              "name": "Marva V Foster",
+              "name": "Joseph A Simonetti",
               "count": 2
             },
             {
-              "name": "Michael Still",
+              "name": "Joshua Trujeque",
               "count": 2
-            },
-            {
-              "name": "Renda Soylemez Wiener",
-              "count": 2
-            },
-            {
-              "name": "Abbas B Jama",
-              "count": 1
             }
           ]
         },
@@ -5493,6 +5507,20 @@
       ],
       "publications": [
         {
+          "id": "42715625",
+          "title": "Developing personas and empathy maps to understand perceptions of HPV self-sampling in the Somali American Community.",
+          "journal": "Patient education and counseling",
+          "year": 2026,
+          "doi": "10.1016/j.pec.2026.109855",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42715625/",
+          "authorship": {
+            "position": 5,
+            "total": 13,
+            "isFirst": false,
+            "isLast": false
+          }
+        },
+        {
           "id": "40235015",
           "title": "Hmong Promoting Vaccines eHealth website: a community-based participatory research pilot to evaluate dissemination and implementation strategies for primary care and educational contexts.",
           "journal": "Implementation science communications",
@@ -5622,10 +5650,10 @@
       "authorCounts": null,
       "signals": {
         "positive": {
-          "count": 9,
+          "count": 10,
           "yearRange": {
             "min": 2023,
-            "max": 2025
+            "max": 2026
           },
           "yearCounts": [
             {
@@ -5639,6 +5667,10 @@
             {
               "year": 2025,
               "count": 3
+            },
+            {
+              "year": 2026,
+              "count": 1
             }
           ],
           "topJournals": [
@@ -5667,6 +5699,10 @@
               "count": 1
             },
             {
+              "name": "Patient education and counseling",
+              "count": 1
+            },
+            {
               "name": "PLOS global public health",
               "count": 1
             },
@@ -5683,6 +5719,14 @@
             {
               "name": "cancer",
               "count": 5
+            },
+            {
+              "name": "community",
+              "count": 3
+            },
+            {
+              "name": "hpv",
+              "count": 3
             },
             {
               "name": "screening",
@@ -5709,10 +5753,6 @@
               "count": 2
             },
             {
-              "name": "community",
-              "count": 2
-            },
-            {
               "name": "disparities",
               "count": 2
             },
@@ -5723,19 +5763,43 @@
             {
               "name": "hmong",
               "count": 2
-            },
-            {
-              "name": "hpv",
-              "count": 2
             }
           ],
           "topCoauthors": [
             {
               "name": "Jay Desai",
-              "count": 2
+              "count": 3
             },
             {
               "name": "Rahel Ghebre",
+              "count": 3
+            },
+            {
+              "name": "Christina Bliss Barsness",
+              "count": 2
+            },
+            {
+              "name": "John Lin",
+              "count": 2
+            },
+            {
+              "name": "Kristi Fordyce",
+              "count": 2
+            },
+            {
+              "name": "Rachel L Winer",
+              "count": 2
+            },
+            {
+              "name": "Rebekah Pratt",
+              "count": 2
+            },
+            {
+              "name": "Sophia Yohe",
+              "count": 2
+            },
+            {
+              "name": "Tim Ramer",
               "count": 2
             },
             {
@@ -5748,34 +5812,6 @@
             },
             {
               "name": "Alan Barnette",
-              "count": 1
-            },
-            {
-              "name": "Anisa Ibrahim",
-              "count": 1
-            },
-            {
-              "name": "Anthony Kayiira",
-              "count": 1
-            },
-            {
-              "name": "April K Wilhelm",
-              "count": 1
-            },
-            {
-              "name": "Arnethea L Sutton",
-              "count": 1
-            },
-            {
-              "name": "Bai Vue",
-              "count": 1
-            },
-            {
-              "name": "Beth Virnig",
-              "count": 1
-            },
-            {
-              "name": "Bo Qin",
               "count": 1
             }
           ]
@@ -81074,6 +81110,20 @@
           }
         },
         {
+          "id": "42714245",
+          "title": "Integrating genetic predictors into subsequent breast cancer risk prediction in survivors of childhood cancer.",
+          "journal": "Journal of the National Cancer Institute",
+          "year": 2026,
+          "doi": "10.1093/jnci/djag306",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42714245/",
+          "authorship": {
+            "position": 8,
+            "total": 17,
+            "isFirst": false,
+            "isLast": false
+          }
+        },
+        {
           "id": "42390889",
           "title": "Long-term outcomes of evolving treatment regimens in Ewing sarcoma survivors diagnosed 1970-1999: A report from the Childhood Cancer Survivor Study.",
           "journal": "Cancer",
@@ -82309,7 +82359,7 @@
       "authorCounts": null,
       "signals": {
         "positive": {
-          "count": 91,
+          "count": 92,
           "yearRange": {
             "min": 2015,
             "max": 2026
@@ -82361,7 +82411,7 @@
             },
             {
               "year": 2026,
-              "count": 9
+              "count": 10
             }
           ],
           "topJournals": [
@@ -82371,7 +82421,7 @@
             },
             {
               "name": "Journal of the National Cancer Institute",
-              "count": 7
+              "count": 8
             },
             {
               "name": "Biology of blood and marrow transplantation : journal of the American Society for Blood and Marrow Transplantation",
@@ -82409,19 +82459,19 @@
           "topKeywords": [
             {
               "name": "cancer",
-              "count": 91
+              "count": 93
             },
             {
               "name": "childhood",
-              "count": 73
+              "count": 74
             },
             {
               "name": "survivors",
-              "count": 42
+              "count": 43
             },
             {
               "name": "risk",
-              "count": 33
+              "count": 34
             },
             {
               "name": "study",
@@ -82429,7 +82479,7 @@
             },
             {
               "name": "subsequent",
-              "count": 29
+              "count": 30
             },
             {
               "name": "report",
@@ -82452,18 +82502,18 @@
               "count": 16
             },
             {
-              "name": "after",
-              "count": 13
+              "name": "breast",
+              "count": 14
             }
           ],
           "topCoauthors": [
             {
               "name": "Gregory T Armstrong",
-              "count": 46
+              "count": 47
             },
             {
               "name": "Joseph P Neglia",
-              "count": 45
+              "count": 46
             },
             {
               "name": "Rebecca M Howell",
@@ -82471,11 +82521,11 @@
             },
             {
               "name": "Yutaka Yasui",
-              "count": 27
+              "count": 28
             },
             {
               "name": "Leslie L Robison",
-              "count": 26
+              "count": 27
             },
             {
               "name": "Kevin C Oeffinger",
@@ -82490,19 +82540,19 @@
               "count": 19
             },
             {
+              "name": "Kirsten K Ness",
+              "count": 17
+            },
+            {
               "name": "Wendy M Leisenring",
               "count": 17
             },
             {
-              "name": "Kirsten K Ness",
-              "count": 16
-            },
-            {
-              "name": "Susan A Smith",
+              "name": "Melissa M Hudson",
               "count": 15
             },
             {
-              "name": "Wendy Leisenring",
+              "name": "Susan A Smith",
               "count": 15
             }
           ]
