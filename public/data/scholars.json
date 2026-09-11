@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-10",
-  "updatedAt": "2026-09-10T12:43:18.326Z",
+  "updated": "2026-09-11",
+  "updatedAt": "2026-09-11T12:35:42.975Z",
   "source": "PubMed E-utilities (ORCID)",
   "faculty": [
     {
@@ -5315,6 +5315,20 @@
       "projectTitle": "Impact of iron supplementation on oxidative stress in children recovering from severe malaria",
       "publications": [
         {
+          "id": "42720267",
+          "title": "Burden and Risk Factors for Severe Respiratory Syncytial Virus Infection Among Pediatric Hematopoietic Cell Transplant Recipients.",
+          "journal": "Journal of the Pediatric Infectious Diseases Society",
+          "year": 2026,
+          "doi": "10.1093/jpids/piag092",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42720267/",
+          "authorship": {
+            "position": 14,
+            "total": 30,
+            "isFirst": false,
+            "isLast": false
+          }
+        },
+        {
           "id": "42170004",
           "title": "How I Treat: Chronic granulomatous disease.",
           "journal": "Journal of human immunity",
@@ -5514,12 +5528,12 @@
       "authorCounts": {
         "first": 3,
         "last": 1,
-        "total": 14,
-        "known": 14
+        "total": 15,
+        "known": 15
       },
       "signals": {
         "positive": {
-          "count": 14,
+          "count": 15,
           "yearRange": {
             "min": 2018,
             "max": 2026
@@ -5555,13 +5569,13 @@
             },
             {
               "year": 2026,
-              "count": 1
+              "count": 2
             }
           ],
           "topJournals": [
             {
               "name": "Journal of the Pediatric Infectious Diseases Society",
-              "count": 4
+              "count": 5
             },
             {
               "name": "Pediatric transplantation",
@@ -5606,11 +5620,19 @@
               "count": 5
             },
             {
+              "name": "pediatric",
+              "count": 5
+            },
+            {
               "name": "organ",
               "count": 4
             },
             {
-              "name": "pediatric",
+              "name": "recipients",
+              "count": 4
+            },
+            {
+              "name": "transplant",
               "count": 4
             },
             {
@@ -5618,15 +5640,7 @@
               "count": 3
             },
             {
-              "name": "recipients",
-              "count": 3
-            },
-            {
               "name": "solid",
-              "count": 3
-            },
-            {
-              "name": "transplant",
               "count": 3
             },
             {
@@ -5634,25 +5648,29 @@
               "count": 3
             },
             {
+              "name": "among",
+              "count": 2
+            },
+            {
+              "name": "cell",
+              "count": 2
+            },
+            {
               "name": "fungal",
-              "count": 2
-            },
-            {
-              "name": "infectious",
-              "count": 2
-            },
-            {
-              "name": "invasive",
               "count": 2
             }
           ],
           "topCoauthors": [
             {
+              "name": "Lara Danziger-Isakov",
+              "count": 5
+            },
+            {
               "name": "Brian T Fisher",
               "count": 4
             },
             {
-              "name": "Lara Danziger-Isakov",
+              "name": "Gabriela Maron",
               "count": 4
             },
             {
@@ -5664,15 +5682,19 @@
               "count": 3
             },
             {
-              "name": "Gabriela Maron",
-              "count": 3
-            },
-            {
               "name": "Inci Yildirim",
               "count": 3
             },
             {
               "name": "Michael D Keller",
+              "count": 3
+            },
+            {
+              "name": "Surabhi B Vora",
+              "count": 3
+            },
+            {
+              "name": "William J Muller",
               "count": 3
             },
             {
@@ -5685,14 +5707,6 @@
             },
             {
               "name": "Arunaloke Chakrabarti",
-              "count": 2
-            },
-            {
-              "name": "Blanca E Gonzalez",
-              "count": 2
-            },
-            {
-              "name": "Catherine Aftandilian",
               "count": 2
             }
           ]

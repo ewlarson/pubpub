@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-10",
-  "updatedAt": "2026-09-10T12:47:26.160Z",
+  "updated": "2026-09-11",
+  "updatedAt": "2026-09-11T12:39:23.852Z",
   "source": "PubMed E-utilities",
   "faculty": [
     {
@@ -10116,6 +10116,20 @@
       ],
       "publications": [
         {
+          "id": "42723344",
+          "title": "A pilot randomized controlled trial of acceptance-based behavior therapy to address treatment engagement outcomes and disclosure among new-to-care patients with HIV.",
+          "journal": "AIDS care",
+          "year": 2026,
+          "doi": "10.1080/09540121.2026.2728926",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42723344/",
+          "authorship": {
+            "position": 5,
+            "total": 7,
+            "isFirst": false,
+            "isLast": false
+          }
+        },
+        {
           "id": "42047100",
           "title": "Effect of Delayed Antiretroviral Therapy Initiation on Anti-CD4 Autoantibodies in Antiretroviral Therapy-Naïve People With HIV.",
           "journal": "The Journal of infectious diseases",
@@ -11939,7 +11953,7 @@
       "authorCounts": null,
       "signals": {
         "positive": {
-          "count": 130,
+          "count": 131,
           "yearRange": {
             "min": 2011,
             "max": 2026
@@ -12007,7 +12021,7 @@
             },
             {
               "year": 2026,
-              "count": 7
+              "count": 8
             }
           ],
           "topJournals": [
@@ -12040,22 +12054,22 @@
               "count": 5
             },
             {
+              "name": "AIDS care",
+              "count": 4
+            },
+            {
               "name": "Clinical infectious diseases : an official publication of the Infectious Diseases Society of America",
               "count": 4
             },
             {
               "name": "Journal of the American Heart Association",
               "count": 4
-            },
-            {
-              "name": "medRxiv : the preprint server for health sciences",
-              "count": 4
             }
           ],
           "topKeywords": [
             {
               "name": "hiv",
-              "count": 82
+              "count": 83
             },
             {
               "name": "antiretroviral",
@@ -12063,14 +12077,18 @@
             },
             {
               "name": "among",
-              "count": 24
+              "count": 25
+            },
+            {
+              "name": "therapy",
+              "count": 21
             },
             {
               "name": "covid",
               "count": 20
             },
             {
-              "name": "therapy",
+              "name": "trial",
               "count": 20
             },
             {
@@ -12078,19 +12096,15 @@
               "count": 19
             },
             {
-              "name": "trial",
-              "count": 19
-            },
-            {
               "name": "study",
               "count": 18
             },
             {
-              "name": "disease",
-              "count": 16
+              "name": "treatment",
+              "count": 17
             },
             {
-              "name": "treatment",
+              "name": "disease",
               "count": 16
             },
             {
@@ -12098,7 +12112,7 @@
               "count": 15
             },
             {
-              "name": "risk",
+              "name": "patients",
               "count": 15
             }
           ],
@@ -12144,11 +12158,11 @@
               "count": 10
             },
             {
-              "name": "Cavan Reilly",
+              "name": "Andrew M Busch",
               "count": 9
             },
             {
-              "name": "John T Brooks",
+              "name": "Cavan Reilly",
               "count": 9
             }
           ]
@@ -55488,6 +55502,20 @@
           }
         },
         {
+          "id": "42722448",
+          "title": "Diabetes related genetics and outcomes after total pancreatectomy with islet autotransplantation.",
+          "journal": "The Journal of clinical endocrinology and metabolism",
+          "year": 2026,
+          "doi": "10.1210/clinem/dgag355",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42722448/",
+          "authorship": {
+            "position": 17,
+            "total": 18,
+            "isFirst": false,
+            "isLast": true
+          }
+        },
+        {
           "id": "41956866",
           "title": "Diabetes secondary to chronic pancreatitis and pancreatic cancer: Observations from the Consortium for the Study of Chronic Pancreatitis, Diabetes, and Pancreatic Cancer (CPDPC).",
           "journal": "Pancreatology : official journal of the International Association of Pancreatology (IAP) ... [et al.]",
@@ -58487,7 +58515,7 @@
       "authorCounts": null,
       "signals": {
         "positive": {
-          "count": 218,
+          "count": 219,
           "yearRange": {
             "min": 2014,
             "max": 2026
@@ -58543,7 +58571,7 @@
             },
             {
               "year": 2026,
-              "count": 20
+              "count": 21
             }
           ],
           "topJournals": [
@@ -58572,15 +58600,15 @@
               "count": 7
             },
             {
+              "name": "The Journal of clinical endocrinology and metabolism",
+              "count": 7
+            },
+            {
               "name": "Diabetes care",
               "count": 6
             },
             {
               "name": "Gastroenterology",
-              "count": 6
-            },
-            {
-              "name": "The Journal of clinical endocrinology and metabolism",
               "count": 6
             },
             {
@@ -58590,24 +58618,24 @@
           ],
           "topKeywords": [
             {
+              "name": "islet",
+              "count": 123
+            },
+            {
               "name": "pancreatitis",
               "count": 123
             },
             {
-              "name": "islet",
-              "count": 122
-            },
-            {
               "name": "diabetes",
-              "count": 82
+              "count": 83
             },
             {
               "name": "pancreatectomy",
-              "count": 79
+              "count": 80
             },
             {
               "name": "total",
-              "count": 78
+              "count": 79
             },
             {
               "name": "chronic",
@@ -58615,7 +58643,7 @@
             },
             {
               "name": "autotransplantation",
-              "count": 65
+              "count": 66
             },
             {
               "name": "acute",
@@ -58627,7 +58655,7 @@
             },
             {
               "name": "after",
-              "count": 35
+              "count": 36
             },
             {
               "name": "patients",
@@ -58669,7 +58697,7 @@
             },
             {
               "name": "Maisam Abu-El-Haija",
-              "count": 32
+              "count": 33
             },
             {
               "name": "Ty B Dunn",
