@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-11",
-  "updatedAt": "2026-09-11T12:39:23.852Z",
+  "updated": "2026-09-12",
+  "updatedAt": "2026-09-12T12:02:24.672Z",
   "source": "NIH RePORTER API",
   "faculty": [
     {
@@ -3414,17 +3414,6 @@
           "coreProjectNum": "R01NS119297"
         },
         {
-          "id": "3R01NS119297-03S1",
-          "title": "3D Bioprinted Spinal Cord Organoids as a Relay System for Spinal Cord Injury",
-          "role": "Not listed",
-          "amount": 74284,
-          "startDate": "2021-09-02",
-          "endDate": "2026-06-30",
-          "fiscalYear": 2023,
-          "url": "https://reporter.nih.gov/project-details/10840561",
-          "coreProjectNum": "R01NS119297"
-        },
-        {
           "id": "5R01NS119297-03",
           "title": "3D Bioprinted Spinal Cord Organoids as a Relay System for Spinal Cord Injury",
           "role": "Not listed",
@@ -3433,6 +3422,17 @@
           "endDate": "2026-06-30",
           "fiscalYear": 2023,
           "url": "https://reporter.nih.gov/project-details/10677016",
+          "coreProjectNum": "R01NS119297"
+        },
+        {
+          "id": "3R01NS119297-03S1",
+          "title": "3D Bioprinted Spinal Cord Organoids as a Relay System for Spinal Cord Injury",
+          "role": "Not listed",
+          "amount": 74284,
+          "startDate": "2021-09-02",
+          "endDate": "2026-06-30",
+          "fiscalYear": 2023,
+          "url": "https://reporter.nih.gov/project-details/10840561",
           "coreProjectNum": "R01NS119297"
         },
         {
@@ -3830,17 +3830,6 @@
           "coreProjectNum": "K23DK118207"
         },
         {
-          "id": "5K23DK118207-03",
-          "title": "Optimizing Diabetes Care Quality for Low-Income Patients",
-          "role": "Not listed",
-          "amount": 198936,
-          "startDate": "2018-09-01",
-          "endDate": "2023-08-31",
-          "fiscalYear": 2020,
-          "url": "https://reporter.nih.gov/project-details/10001066",
-          "coreProjectNum": "K23DK118207"
-        },
-        {
           "id": "3K23DK118207-03S1",
           "title": "Optimizing Diabetes Care Quality for Low-Income Patients",
           "role": "Not listed",
@@ -3849,6 +3838,17 @@
           "endDate": "2023-08-31",
           "fiscalYear": 2020,
           "url": "https://reporter.nih.gov/project-details/10220358",
+          "coreProjectNum": "K23DK118207"
+        },
+        {
+          "id": "5K23DK118207-03",
+          "title": "Optimizing Diabetes Care Quality for Low-Income Patients",
+          "role": "Not listed",
+          "amount": 198936,
+          "startDate": "2018-09-01",
+          "endDate": "2023-08-31",
+          "fiscalYear": 2020,
+          "url": "https://reporter.nih.gov/project-details/10001066",
           "coreProjectNum": "K23DK118207"
         },
         {
@@ -4314,17 +4314,6 @@
           "coreProjectNum": "R01AG075734"
         },
         {
-          "id": "3R01AG075734-03S1",
-          "title": "Training the Long-Term Services and Supports Dementia Care Workforce in Provision of Care to Sexual and Gender Minority Residents",
-          "role": "Not listed",
-          "amount": 69606,
-          "startDate": "2022-09-15",
-          "endDate": "2026-05-31",
-          "fiscalYear": 2024,
-          "url": "https://reporter.nih.gov/project-details/11090086",
-          "coreProjectNum": "R01AG075734"
-        },
-        {
           "id": "3R01AG075734-02S1",
           "title": "Training the Long-Term Services and Supports Dementia Care Workforce in Provision of Care to Sexual and Gender Minority Residents",
           "role": "Not listed",
@@ -4333,6 +4322,17 @@
           "endDate": "2026-05-31",
           "fiscalYear": 2024,
           "url": "https://reporter.nih.gov/project-details/11004546",
+          "coreProjectNum": "R01AG075734"
+        },
+        {
+          "id": "3R01AG075734-03S1",
+          "title": "Training the Long-Term Services and Supports Dementia Care Workforce in Provision of Care to Sexual and Gender Minority Residents",
+          "role": "Not listed",
+          "amount": 69606,
+          "startDate": "2022-09-15",
+          "endDate": "2026-05-31",
+          "fiscalYear": 2024,
+          "url": "https://reporter.nih.gov/project-details/11090086",
           "coreProjectNum": "R01AG075734"
         },
         {
@@ -4402,17 +4402,6 @@
           "coreProjectNum": "RF1AG069771"
         },
         {
-          "id": "3R01MD010729-05S1",
-          "title": "System Factors and Racial Disparities in Nursing Home Quality of Life and Care",
-          "role": "Not listed",
-          "amount": 352479,
-          "startDate": "2016-08-15",
-          "endDate": "2022-04-30",
-          "fiscalYear": 2020,
-          "url": "https://reporter.nih.gov/project-details/10180782",
-          "coreProjectNum": "R01MD010729"
-        },
-        {
           "id": "5R01MD010729-05",
           "title": "System Factors and Racial Disparities in Nursing Home Quality of Life and Care",
           "role": "Not listed",
@@ -4421,6 +4410,17 @@
           "endDate": "2022-04-30",
           "fiscalYear": 2020,
           "url": "https://reporter.nih.gov/project-details/9907866",
+          "coreProjectNum": "R01MD010729"
+        },
+        {
+          "id": "3R01MD010729-05S1",
+          "title": "System Factors and Racial Disparities in Nursing Home Quality of Life and Care",
+          "role": "Not listed",
+          "amount": 352479,
+          "startDate": "2016-08-15",
+          "endDate": "2022-04-30",
+          "fiscalYear": 2020,
+          "url": "https://reporter.nih.gov/project-details/10180782",
           "coreProjectNum": "R01MD010729"
         },
         {
@@ -5797,17 +5797,6 @@
           "coreProjectNum": "R01MH107394"
         },
         {
-          "id": "5R01MH107394-02",
-          "title": "A Longitudinal Study Examining Three RDoC Constructs in Adolescents with Non-Suicidal Self-Injury",
-          "role": "Not listed",
-          "amount": 547473,
-          "startDate": "2016-08-01",
-          "endDate": "2021-05-31",
-          "fiscalYear": 2017,
-          "url": "https://reporter.nih.gov/project-details/9315221",
-          "coreProjectNum": "R01MH107394"
-        },
-        {
           "id": "3R01MH107394-02S1",
           "title": "A Longitudinal Study Examining Three RDoC Constructs in Adolescents with Non-Suicidal Self-Injury",
           "role": "Not listed",
@@ -5816,6 +5805,17 @@
           "endDate": "2021-05-31",
           "fiscalYear": 2017,
           "url": "https://reporter.nih.gov/project-details/9474891",
+          "coreProjectNum": "R01MH107394"
+        },
+        {
+          "id": "5R01MH107394-02",
+          "title": "A Longitudinal Study Examining Three RDoC Constructs in Adolescents with Non-Suicidal Self-Injury",
+          "role": "Not listed",
+          "amount": 547473,
+          "startDate": "2016-08-01",
+          "endDate": "2021-05-31",
+          "fiscalYear": 2017,
+          "url": "https://reporter.nih.gov/project-details/9315221",
           "coreProjectNum": "R01MH107394"
         },
         {

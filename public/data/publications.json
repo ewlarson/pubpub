@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-11",
-  "updatedAt": "2026-09-11T12:39:23.852Z",
+  "updated": "2026-09-12",
+  "updatedAt": "2026-09-12T12:02:24.672Z",
   "source": "PubMed E-utilities",
   "faculty": [
     {
@@ -3158,6 +3158,20 @@
           }
         },
         {
+          "id": "42727584",
+          "title": "Bi-hourly plasma proteomics during the first 48 h of life in an African cohort reveals distinct periods and sex-dependent immune development.",
+          "journal": "Cell reports. Medicine",
+          "year": 2026,
+          "doi": "10.1016/j.xcrm.2026.103048",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42727584/",
+          "authorship": {
+            "position": 9,
+            "total": 24,
+            "isFirst": false,
+            "isLast": false
+          }
+        },
+        {
           "id": "41408597",
           "title": "Higher Promoter Methylation of the Ubiquitin-Associated and SH3 Domain Containing A (UBASH3A) Gene Is Associated With T-Lymphocyte Ontogeny and Reduced Susceptibility to Early-Onset Sepsis.",
           "journal": "The Journal of infectious diseases",
@@ -3259,7 +3273,7 @@
       "authorCounts": null,
       "signals": {
         "positive": {
-          "count": 8,
+          "count": 9,
           "yearRange": {
             "min": 2025,
             "max": 2026
@@ -3271,12 +3285,16 @@
             },
             {
               "year": 2026,
-              "count": 4
+              "count": 5
             }
           ],
           "topJournals": [
             {
               "name": "Blood. Red cells & iron",
+              "count": 1
+            },
+            {
+              "name": "Cell reports. Medicine",
               "count": 1
             },
             {
@@ -3310,6 +3328,14 @@
           ],
           "topKeywords": [
             {
+              "name": "first",
+              "count": 4
+            },
+            {
+              "name": "life",
+              "count": 4
+            },
+            {
               "name": "blood",
               "count": 3
             },
@@ -3322,15 +3348,15 @@
               "count": 3
             },
             {
-              "name": "first",
-              "count": 3
-            },
-            {
-              "name": "life",
+              "name": "distinct",
               "count": 3
             },
             {
               "name": "ontogeny",
+              "count": 3
+            },
+            {
+              "name": "plasma",
               "count": 3
             },
             {
@@ -3342,37 +3368,45 @@
               "count": 2
             },
             {
+              "name": "cohort",
+              "count": 2
+            },
+            {
               "name": "concentrations",
-              "count": 2
-            },
-            {
-              "name": "distinct",
-              "count": 2
-            },
-            {
-              "name": "neonatal",
-              "count": 2
-            },
-            {
-              "name": "new",
               "count": 2
             }
           ],
           "topCoauthors": [
             {
               "name": "Al Ozonoff",
-              "count": 6
+              "count": 7
             },
             {
               "name": "Joann Diray-Arce",
-              "count": 6
+              "count": 7
             },
             {
               "name": "Kinga K Smolen",
-              "count": 6
+              "count": 7
             },
             {
               "name": "Ofer Levy",
+              "count": 7
+            },
+            {
+              "name": "Beate Kampmann",
+              "count": 6
+            },
+            {
+              "name": "Olubukola T Idoko",
+              "count": 6
+            },
+            {
+              "name": "Rym Ben-Othman",
+              "count": 6
+            },
+            {
+              "name": "Tobias R Kollmann",
               "count": 6
             },
             {
@@ -3380,32 +3414,16 @@
               "count": 5
             },
             {
-              "name": "Beate Kampmann",
-              "count": 5
-            },
-            {
               "name": "Kerry McEnaney",
               "count": 5
             },
             {
-              "name": "Olubukola T Idoko",
-              "count": 5
-            },
-            {
-              "name": "Rym Ben-Othman",
-              "count": 5
-            },
-            {
-              "name": "Tobias R Kollmann",
-              "count": 5
-            },
-            {
               "name": "Anita H J van den Biggelaar",
-              "count": 3
+              "count": 4
             },
             {
-              "name": "Bhavjinder K Dhillon",
-              "count": 3
+              "name": "Casey P Shannon",
+              "count": 4
             }
           ]
         },
@@ -34481,20 +34499,6 @@
           }
         },
         {
-          "id": "26949744",
-          "title": "Intercellular conduits in tumours: the new social network.",
-          "journal": "Trends in cancer",
-          "year": 2016,
-          "doi": "10.1016/j.trecan.2015.12.004",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/26949744/",
-          "authorship": {
-            "position": 0,
-            "total": 1,
-            "isFirst": true,
-            "isLast": true
-          }
-        },
-        {
           "id": "27801976",
           "title": "Lost in translation: applying 2D intercellular communication via tunneling nanotubes in cell culture to physiologically relevant 3D microenvironments.",
           "journal": "The FEBS journal",
@@ -34575,6 +34579,20 @@
             "position": 7,
             "total": 8,
             "isFirst": false,
+            "isLast": true
+          }
+        },
+        {
+          "id": "26949744",
+          "title": "Intercellular Conduits in Tumors: The New Social Network.",
+          "journal": "Trends in cancer",
+          "year": 2015,
+          "doi": "10.1016/j.trecan.2015.12.004",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/26949744/",
+          "authorship": {
+            "position": 0,
+            "total": 1,
+            "isFirst": true,
             "isLast": true
           }
         },
@@ -34752,11 +34770,11 @@
             },
             {
               "year": 2015,
-              "count": 3
+              "count": 4
             },
             {
               "year": 2016,
-              "count": 10
+              "count": 9
             },
             {
               "year": 2017,
@@ -55670,6 +55688,20 @@
           }
         },
         {
+          "id": "42727902",
+          "title": "Preoperative Sarcopenia Predicts Major Postoperative Morbidity in Patients Undergoing Pancreatic Surgery for Chronic Pancreatitis.",
+          "journal": "Journal of gastrointestinal surgery : official journal of the Society for Surgery of the Alimentary Tract",
+          "year": 2026,
+          "doi": "10.1016/j.gassur.2026.102584",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42727902/",
+          "authorship": {
+            "position": 6,
+            "total": 10,
+            "isFirst": false,
+            "isLast": false
+          }
+        },
+        {
           "id": "42649421",
           "title": "Rates of hospitalization pre- and post-total pancreatectomy with islet autotransplantation for patients with pancreatitis.",
           "journal": "Surgical endoscopy",
@@ -58515,7 +58547,7 @@
       "authorCounts": null,
       "signals": {
         "positive": {
-          "count": 219,
+          "count": 220,
           "yearRange": {
             "min": 2014,
             "max": 2026
@@ -58571,7 +58603,7 @@
             },
             {
               "year": 2026,
-              "count": 21
+              "count": 22
             }
           ],
           "topJournals": [
@@ -58618,11 +58650,11 @@
           ],
           "topKeywords": [
             {
-              "name": "islet",
-              "count": 123
+              "name": "pancreatitis",
+              "count": 124
             },
             {
-              "name": "pancreatitis",
+              "name": "islet",
               "count": 123
             },
             {
@@ -58639,7 +58671,7 @@
             },
             {
               "name": "chronic",
-              "count": 76
+              "count": 77
             },
             {
               "name": "autotransplantation",
@@ -58659,17 +58691,17 @@
             },
             {
               "name": "patients",
-              "count": 29
+              "count": 30
             },
             {
               "name": "pancreatic",
-              "count": 28
+              "count": 29
             }
           ],
           "topCoauthors": [
             {
               "name": "Gregory J Beilman",
-              "count": 59
+              "count": 60
             },
             {
               "name": "Srinath Chinnakotla",
@@ -58681,7 +58713,7 @@
             },
             {
               "name": "Martin L Freeman",
-              "count": 44
+              "count": 45
             },
             {
               "name": "Sarah J Schwarzenberg",
@@ -58693,7 +58725,7 @@
             },
             {
               "name": "Guru Trikudanathan",
-              "count": 41
+              "count": 42
             },
             {
               "name": "Maisam Abu-El-Haija",
