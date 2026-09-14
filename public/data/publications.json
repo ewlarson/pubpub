@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-13",
-  "updatedAt": "2026-09-13T13:12:29.915Z",
+  "updated": "2026-09-14",
+  "updatedAt": "2026-09-14T14:48:57.218Z",
   "source": "PubMed E-utilities",
   "faculty": [
     {
@@ -3188,7 +3188,7 @@
         {
           "id": "42368247",
           "title": "Newborns with sickle cell trait have distinct peripheral blood molecular signatures across the first week of life.",
-          "journal": "Blood. Red cells & iron",
+          "journal": "Blood red cells & iron",
           "year": 2026,
           "doi": "10.1016/j.brci.2026.100051",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42368247/",
@@ -3290,7 +3290,7 @@
           ],
           "topJournals": [
             {
-              "name": "Blood. Red cells & iron",
+              "name": "Blood red cells & iron",
               "count": 1
             },
             {
