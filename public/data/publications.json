@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-14",
-  "updatedAt": "2026-09-14T14:48:57.218Z",
+  "updated": "2026-09-15",
+  "updatedAt": "2026-09-15T13:13:42.169Z",
   "source": "PubMed E-utilities",
   "faculty": [
     {
@@ -14886,6 +14886,20 @@
           }
         },
         {
+          "id": "42736585",
+          "title": "Among individuals who die of COVID-19, is the percentage who had diabetes actually higher than in those dying of other viral infections?",
+          "journal": "Cardiovascular diabetology. Endocrinology reports",
+          "year": 2026,
+          "doi": "10.1186/s40842-026-00325-0",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42736585/",
+          "authorship": {
+            "position": 10,
+            "total": 11,
+            "isFirst": false,
+            "isLast": true
+          }
+        },
+        {
           "id": "40832932",
           "title": "Evaluating Viral Load Sampling Schemes and Swabbing Methods for Optimal Surrogacy.",
           "journal": "The Journal of infectious diseases",
@@ -16093,7 +16107,7 @@
       "authorCounts": null,
       "signals": {
         "positive": {
-          "count": 87,
+          "count": 88,
           "yearRange": {
             "min": 2019,
             "max": 2026
@@ -16129,7 +16143,7 @@
             },
             {
               "year": 2026,
-              "count": 12
+              "count": 13
             }
           ],
           "topJournals": [
@@ -16177,7 +16191,7 @@
           "topKeywords": [
             {
               "name": "covid",
-              "count": 61
+              "count": 62
             },
             {
               "name": "trial",
@@ -16201,7 +16215,7 @@
             },
             {
               "name": "diabetes",
-              "count": 15
+              "count": 16
             },
             {
               "name": "patients",
@@ -16231,18 +16245,18 @@
             },
             {
               "name": "John B Buse",
-              "count": 23
+              "count": 24
             },
             {
               "name": "Christopher J Tignanelli",
               "count": 17
             },
             {
-              "name": "Jared D Huling",
-              "count": 14
+              "name": "Rachel Wong",
+              "count": 15
             },
             {
-              "name": "Rachel Wong",
+              "name": "Jared D Huling",
               "count": 14
             },
             {
@@ -16254,6 +16268,10 @@
               "count": 12
             },
             {
+              "name": "Steven G Johnson",
+              "count": 12
+            },
+            {
               "name": "Aaron S Kelly",
               "count": 11
             },
@@ -16262,16 +16280,12 @@
               "count": 11
             },
             {
-              "name": "Steven G Johnson",
-              "count": 11
-            },
-            {
               "name": "Susanna Naggie",
               "count": 11
             },
             {
-              "name": "Adit A Ginde",
-              "count": 10
+              "name": "Til St&#xfc;rmer",
+              "count": 11
             }
           ]
         },
