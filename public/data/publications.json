@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-15",
-  "updatedAt": "2026-09-15T13:13:42.169Z",
+  "updated": "2026-09-16",
+  "updatedAt": "2026-09-16T13:09:49.519Z",
   "source": "PubMed E-utilities",
   "faculty": [
     {
@@ -79252,6 +79252,20 @@
       ],
       "publications": [
         {
+          "id": "42741334",
+          "title": "Genomic and ecological systems-thinking framework for pathogenic Leptospira in Puerto Rico.",
+          "journal": "Frontiers in public health",
+          "year": 2026,
+          "doi": "10.3389/fpubh.2026.1838089",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42741334/",
+          "authorship": {
+            "position": 1,
+            "total": 3,
+            "isFirst": false,
+            "isLast": false
+          }
+        },
+        {
           "id": "41805954",
           "title": "Shiga Toxin-Producing Escherichia coli Outbreak in Canadian Daycare Centers.",
           "journal": "JAMA network open",
@@ -79283,7 +79297,7 @@
       "authorCounts": null,
       "signals": {
         "positive": {
-          "count": 2,
+          "count": 3,
           "yearRange": {
             "min": 2026,
             "max": 2026
@@ -79291,10 +79305,14 @@
           "yearCounts": [
             {
               "year": 2026,
-              "count": 2
+              "count": 3
             }
           ],
           "topJournals": [
+            {
+              "name": "Frontiers in public health",
+              "count": 1
+            },
             {
               "name": "JAMA network open",
               "count": 1
@@ -79342,19 +79360,23 @@
               "count": 1
             },
             {
+              "name": "ecological",
+              "count": 1
+            },
+            {
               "name": "evidence",
               "count": 1
             },
             {
-              "name": "lineages",
-              "count": 1
-            },
-            {
-              "name": "locally",
+              "name": "framework",
               "count": 1
             }
           ],
           "topCoauthors": [
+            {
+              "name": "Ammar Yasir",
+              "count": 1
+            },
             {
               "name": "Andrew T Pavia",
               "count": 1
@@ -79365,6 +79387,10 @@
             },
             {
               "name": "Byron M Berenger",
+              "count": 1
+            },
+            {
+              "name": "Claudia Munoz-Zanzi",
               "count": 1
             },
             {
@@ -79393,14 +79419,6 @@
             },
             {
               "name": "Kirk Smith",
-              "count": 1
-            },
-            {
-              "name": "Linda Chui",
-              "count": 1
-            },
-            {
-              "name": "Mohamed Eltorki",
               "count": 1
             }
           ]
