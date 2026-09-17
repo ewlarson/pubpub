@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-16",
-  "updatedAt": "2026-09-16T13:09:49.519Z",
+  "updated": "2026-09-17",
+  "updatedAt": "2026-09-17T13:08:11.487Z",
   "source": "PubMed E-utilities",
   "faculty": [
     {
@@ -2416,6 +2416,20 @@
           }
         },
         {
+          "id": "42748124",
+          "title": "Persistent critical illness in acute hypoxic respiratory failure: A retrospective cohort study.",
+          "journal": "PloS one",
+          "year": 2026,
+          "doi": "10.1371/journal.pone.0358431",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42748124/",
+          "authorship": {
+            "position": 4,
+            "total": 6,
+            "isFirst": false,
+            "isLast": false
+          }
+        },
+        {
           "id": "39530748",
           "title": "Comparison of six natural language processing approaches to assessing firearm access in Veterans Health Administration electronic health records.",
           "journal": "Journal of the American Medical Informatics Association : JAMIA",
@@ -2545,7 +2559,7 @@
       "authorCounts": null,
       "signals": {
         "positive": {
-          "count": 12,
+          "count": 13,
           "yearRange": {
             "min": 2023,
             "max": 2026
@@ -2565,12 +2579,16 @@
             },
             {
               "year": 2026,
-              "count": 3
+              "count": 4
             }
           ],
           "topJournals": [
             {
               "name": "Chest",
+              "count": 2
+            },
+            {
+              "name": "PloS one",
               "count": 2
             },
             {
@@ -2604,10 +2622,6 @@
             {
               "name": "Palliative medicine reports",
               "count": 1
-            },
-            {
-              "name": "PloS one",
-              "count": 1
             }
           ],
           "topKeywords": [
@@ -2624,11 +2638,19 @@
               "count": 4
             },
             {
+              "name": "study",
+              "count": 4
+            },
+            {
               "name": "administration",
               "count": 3
             },
             {
               "name": "care",
+              "count": 3
+            },
+            {
+              "name": "cohort",
               "count": 3
             },
             {
@@ -2648,26 +2670,18 @@
               "count": 3
             },
             {
-              "name": "study",
+              "name": "retrospective",
               "count": 3
-            },
-            {
-              "name": "veterans",
-              "count": 3
-            },
-            {
-              "name": "among",
-              "count": 2
             }
           ],
           "topCoauthors": [
             {
               "name": "Nicholas E Ingraham",
-              "count": 5
+              "count": 6
             },
             {
               "name": "R Adams Dudley",
-              "count": 5
+              "count": 6
             },
             {
               "name": "Amy M Linsky",
@@ -4580,6 +4594,20 @@
           }
         },
         {
+          "id": "42746633",
+          "title": "Pre-vaccine sentinel antibodies predict blunted vaccine responses.",
+          "journal": "Cell press blue",
+          "year": 2026,
+          "doi": "10.1016/j.cpblue.2026.100088",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42746633/",
+          "authorship": {
+            "position": 48,
+            "total": 58,
+            "isFirst": false,
+            "isLast": false
+          }
+        },
+        {
           "id": "42434980",
           "title": "Protein Enrichment from Ascites Fluid Using Nanotrap Hydrogel Particle Technology.",
           "journal": "Journal of proteome research",
@@ -5087,7 +5115,7 @@
       "authorCounts": null,
       "signals": {
         "positive": {
-          "count": 38,
+          "count": 39,
           "yearRange": {
             "min": 2019,
             "max": 2026
@@ -5123,7 +5151,7 @@
             },
             {
               "year": 2026,
-              "count": 3
+              "count": 4
             }
           ],
           "topJournals": [
@@ -5221,11 +5249,11 @@
           "topCoauthors": [
             {
               "name": "Amy B Karger",
-              "count": 8
+              "count": 9
             },
             {
               "name": "Bharat Thyagarajan",
-              "count": 7
+              "count": 8
             },
             {
               "name": "Jesenia M Perez",
@@ -5248,6 +5276,14 @@
               "count": 4
             },
             {
+              "name": "Joshua LaBaer",
+              "count": 4
+            },
+            {
+              "name": "Viviana Simon",
+              "count": 4
+            },
+            {
               "name": "Ania Wajnberg",
               "count": 3
             },
@@ -5256,15 +5292,7 @@
               "count": 3
             },
             {
-              "name": "Catherine Forconi",
-              "count": 3
-            },
-            {
-              "name": "Christopher D Heaney",
-              "count": 3
-            },
-            {
-              "name": "Daniel W Chan",
+              "name": "Carlos Cordon-Cardo",
               "count": 3
             }
           ]
@@ -35031,6 +35059,20 @@
           }
         },
         {
+          "id": "42747912",
+          "title": "Brain-wide fMRI responses to auditory and visual stimuli in awake mice.",
+          "journal": "Cerebral cortex (New York, N.Y. : 1991)",
+          "year": 2026,
+          "doi": "10.1093/cercor/bhag137",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42747912/",
+          "authorship": {
+            "position": 6,
+            "total": 9,
+            "isFirst": false,
+            "isLast": false
+          }
+        },
+        {
           "id": "41712301",
           "title": "Disrupted neurovascular-endocrine coupling in type 1 diabetes with impaired awareness of hypoglycemia.",
           "journal": "The Journal of clinical investigation",
@@ -36308,7 +36350,7 @@
       "authorCounts": null,
       "signals": {
         "positive": {
-          "count": 92,
+          "count": 93,
           "yearRange": {
             "min": 2012,
             "max": 2026
@@ -36372,7 +36414,7 @@
             },
             {
               "year": 2026,
-              "count": 5
+              "count": 6
             }
           ],
           "topJournals": [
@@ -36420,7 +36462,7 @@
           "topKeywords": [
             {
               "name": "brain",
-              "count": 39
+              "count": 40
             },
             {
               "name": "mri",
@@ -36436,7 +36478,7 @@
             },
             {
               "name": "fmri",
-              "count": 11
+              "count": 12
             },
             {
               "name": "human",
@@ -36470,11 +36512,11 @@
           "topCoauthors": [
             {
               "name": "Shalom Michaeli",
-              "count": 57
+              "count": 58
             },
             {
               "name": "Olli Gr&#xf6;hn",
-              "count": 27
+              "count": 28
             },
             {
               "name": "Federico Giove",
@@ -36497,20 +36539,20 @@
               "count": 14
             },
             {
+              "name": "Jaakko Paasonen",
+              "count": 14
+            },
+            {
               "name": "Daniele Mascali",
               "count": 13
             },
             {
-              "name": "Jaakko Paasonen",
+              "name": "Ekaterina Paasonen",
               "count": 13
             },
             {
-              "name": "Ekaterina Paasonen",
-              "count": 12
-            },
-            {
               "name": "Heikki Tanila",
-              "count": 12
+              "count": 13
             },
             {
               "name": "Lauri J Lehto",
@@ -79452,6 +79494,20 @@
       ],
       "publications": [
         {
+          "id": "42747975",
+          "title": "Characterizing the Objective Time Spent on Health Care Activities in Clinic and at Home for Patients With Cancer.",
+          "journal": "Cancer medicine",
+          "year": 2026,
+          "doi": "10.1002/cam4.72277",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42747975/",
+          "authorship": {
+            "position": 6,
+            "total": 13,
+            "isFirst": false,
+            "isLast": false
+          }
+        },
+        {
           "id": "42005811",
           "title": "Disparities in not recommending chemotherapy for individuals with newly diagnosed advanced endometrial cancer due to \"patient risk factors\".",
           "journal": "Gynecologic oncology reports",
@@ -80309,7 +80365,7 @@
       "authorCounts": null,
       "signals": {
         "positive": {
-          "count": 61,
+          "count": 62,
           "yearRange": {
             "min": 2019,
             "max": 2026
@@ -80345,7 +80401,7 @@
             },
             {
               "year": 2026,
-              "count": 2
+              "count": 3
             }
           ],
           "topJournals": [
@@ -80393,7 +80449,7 @@
           "topKeywords": [
             {
               "name": "cancer",
-              "count": 51
+              "count": 52
             },
             {
               "name": "gynecologic",
@@ -80402,6 +80458,10 @@
             {
               "name": "cervical",
               "count": 16
+            },
+            {
+              "name": "patients",
+              "count": 12
             },
             {
               "name": "screening",
@@ -80416,12 +80476,8 @@
               "count": 11
             },
             {
-              "name": "patients",
-              "count": 11
-            },
-            {
               "name": "health",
-              "count": 9
+              "count": 10
             },
             {
               "name": "women",
@@ -80436,18 +80492,18 @@
               "count": 8
             },
             {
-              "name": "treatment",
+              "name": "care",
               "count": 7
             }
           ],
           "topCoauthors": [
             {
               "name": "Rachel I Vogel",
-              "count": 37
+              "count": 38
             },
             {
               "name": "Katherine Brown",
-              "count": 13
+              "count": 14
             },
             {
               "name": "Patricia Jewett",
@@ -80455,7 +80511,7 @@
             },
             {
               "name": "Anne Blaes",
-              "count": 10
+              "count": 11
             },
             {
               "name": "Anne H Blaes",
