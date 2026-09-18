@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-17",
-  "updatedAt": "2026-09-17T13:08:11.487Z",
+  "updated": "2026-09-18",
+  "updatedAt": "2026-09-18T12:46:12.211Z",
   "source": "PubMed E-utilities",
   "faculty": [
     {
@@ -22059,6 +22059,20 @@
           }
         },
         {
+          "id": "42752862",
+          "title": "Immunopeptidomics-driven MHC class II peptide-binding motif discovery for 2 common canine DR alleles.",
+          "journal": "Journal of immunology (Baltimore, Md. : 1950)",
+          "year": 2026,
+          "doi": "10.1093/jimmun/vkag243",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42752862/",
+          "authorship": {
+            "position": 5,
+            "total": 6,
+            "isFirst": false,
+            "isLast": true
+          }
+        },
+        {
           "id": "41742483",
           "title": "Myopathy due to a creatine deficiency disorder in a family of mixed breed dogs with a glycine amidinotransferase gene mutation.",
           "journal": "Journal of veterinary internal medicine",
@@ -22734,7 +22748,7 @@
       "authorCounts": null,
       "signals": {
         "positive": {
-          "count": 51,
+          "count": 52,
           "yearRange": {
             "min": 2019,
             "max": 2026
@@ -22770,7 +22784,7 @@
             },
             {
               "year": 2026,
-              "count": 5
+              "count": 6
             }
           ],
           "topJournals": [
@@ -22821,12 +22835,12 @@
               "count": 21
             },
             {
-              "name": "mutation",
+              "name": "canine",
               "count": 12
             },
             {
-              "name": "canine",
-              "count": 11
+              "name": "mutation",
+              "count": 12
             },
             {
               "name": "gene",
@@ -22907,11 +22921,11 @@
               "count": 3
             },
             {
-              "name": "Kathryn Meurs",
+              "name": "Farah F Almeer",
               "count": 3
             },
             {
-              "name": "Michael W Vandewege",
+              "name": "Haeree P Lang",
               "count": 3
             }
           ]
@@ -24686,6 +24700,20 @@
           }
         },
         {
+          "id": "42751699",
+          "title": "Percutaneous Trigeminal Ganglion Stimulation as a Treatment Modality for Anesthesia Dolorosa: A Case Report.",
+          "journal": "Neurosurgery practice",
+          "year": 2025,
+          "doi": "10.1227/neuprac.0000000000000191",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42751699/",
+          "authorship": {
+            "position": 3,
+            "total": 5,
+            "isFirst": false,
+            "isLast": false
+          }
+        },
+        {
           "id": "40745075",
           "title": "Prospective Trial of Cerebrospinal Fluid Filtration After Aneurysmal Subarachnoid Hemorrhage via Lumbar Catheter Extension (PILLAR-XT).",
           "journal": "Neurocritical care",
@@ -25445,7 +25473,7 @@
       "authorCounts": null,
       "signals": {
         "positive": {
-          "count": 63,
+          "count": 64,
           "yearRange": {
             "min": 2018,
             "max": 2026
@@ -25481,7 +25509,7 @@
             },
             {
               "year": 2025,
-              "count": 6
+              "count": 7
             },
             {
               "year": 2026,
@@ -25541,7 +25569,7 @@
             },
             {
               "name": "trigeminal",
-              "count": 9
+              "count": 10
             },
             {
               "name": "balloon",
@@ -25594,6 +25622,14 @@
               "count": 7
             },
             {
+              "name": "David P Darrow",
+              "count": 7
+            },
+            {
+              "name": "Donald R Nixdorf",
+              "count": 7
+            },
+            {
               "name": "Ramachandra Tummala",
               "count": 7
             },
@@ -25603,14 +25639,6 @@
             },
             {
               "name": "Coridon Quinn",
-              "count": 6
-            },
-            {
-              "name": "David P Darrow",
-              "count": 6
-            },
-            {
-              "name": "Donald R Nixdorf",
               "count": 6
             },
             {
