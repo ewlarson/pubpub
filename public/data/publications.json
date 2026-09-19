@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-18",
-  "updatedAt": "2026-09-18T12:46:12.211Z",
+  "updated": "2026-09-19",
+  "updatedAt": "2026-09-19T12:21:02.624Z",
   "source": "PubMed E-utilities",
   "faculty": [
     {
@@ -54473,8 +54473,8 @@
           "doi": "10.64898/2026.05.08.26352648",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42180385/",
           "authorship": {
-            "position": 70,
-            "total": 80,
+            "position": 69,
+            "total": 79,
             "isFirst": false,
             "isLast": false
           }
@@ -64116,6 +64116,20 @@
           }
         },
         {
+          "id": "42758554",
+          "title": "Using Scenario Modeling to Estimate Burden of Human Parvovirus B19 and Impact of Increased B19 Detection in Pregnancy.",
+          "journal": "Journal of public health management and practice : JPHMP",
+          "year": 2026,
+          "doi": "10.1097/PHH.0000000000002416",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42758554/",
+          "authorship": {
+            "position": 13,
+            "total": 16,
+            "isFirst": false,
+            "isLast": false
+          }
+        },
+        {
           "id": "41717677",
           "title": "mHealth Intervention to Improve Hypertension Care in High-Risk Patients.",
           "journal": "Hypertension (Dallas, Tex. : 1979)",
@@ -65505,7 +65519,7 @@
       "authorCounts": null,
       "signals": {
         "positive": {
-          "count": 105,
+          "count": 106,
           "yearRange": {
             "min": 2014,
             "max": 2026
@@ -65561,7 +65575,7 @@
             },
             {
               "year": 2026,
-              "count": 7
+              "count": 8
             }
           ],
           "topJournals": [
