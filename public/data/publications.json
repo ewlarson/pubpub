@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-21",
-  "updatedAt": "2026-09-21T14:54:35.085Z",
+  "updated": "2026-09-22",
+  "updatedAt": "2026-09-22T13:09:51.073Z",
   "source": "PubMed E-utilities",
   "faculty": [
     {
@@ -7620,7 +7620,7 @@
         },
         {
           "id": "42341321",
-          "title": "Late cytopenia after CD19 chimeric antigen receptor T cell in large B cell lymphoma: A Cell Therapy Consortium Analysis.",
+          "title": "Late cytopenia after CD19 chimeric antigen receptor T-cell therapy in large B-cell lymphoma: a Cell Therapy Consortium analysis.",
           "journal": "Blood advances",
           "year": 2026,
           "doi": "10.1182/bloodadvances.2026019953",
@@ -10046,7 +10046,7 @@
             },
             {
               "name": "therapy",
-              "count": 38
+              "count": 39
             },
             {
               "name": "patients",
