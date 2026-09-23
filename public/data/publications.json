@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-22",
-  "updatedAt": "2026-09-22T13:09:51.073Z",
+  "updated": "2026-09-23",
+  "updatedAt": "2026-09-23T13:25:05.039Z",
   "source": "PubMed E-utilities",
   "faculty": [
     {
@@ -4566,6 +4566,20 @@
       ],
       "publications": [
         {
+          "id": "42773799",
+          "title": "A Paramagnetic Microbead-Based Biofluid Enrichment Method Enables Proteomic Ovarian Cancer Biomarker Development Using Ascites Fluid.",
+          "journal": "Proteomics",
+          "year": 2026,
+          "doi": "10.1002/pmic.70185",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42773799/",
+          "authorship": {
+            "position": 7,
+            "total": 8,
+            "isFirst": false,
+            "isLast": true
+          }
+        },
+        {
           "id": "42177172",
           "title": "Association of gut microbiome with mobility impairment in the Hispanic Community Health Study/Study of Latinos.",
           "journal": "NPJ biofilms and microbiomes",
@@ -5115,7 +5129,7 @@
       "authorCounts": null,
       "signals": {
         "positive": {
-          "count": 39,
+          "count": 40,
           "yearRange": {
             "min": 2019,
             "max": 2026
@@ -5151,7 +5165,7 @@
             },
             {
               "year": 2026,
-              "count": 4
+              "count": 5
             }
           ],
           "topJournals": [
@@ -5176,6 +5190,10 @@
               "count": 2
             },
             {
+              "name": "Proteomics",
+              "count": 2
+            },
+            {
               "name": "Scientific reports",
               "count": 2
             },
@@ -5190,24 +5208,20 @@
             {
               "name": "bioRxiv : the preprint server for biology",
               "count": 1
-            },
-            {
-              "name": "Cancer epidemiology, biomarkers & prevention : a publication of the American Association for Cancer Research, cosponsored by the American Society of Preventive Oncology",
-              "count": 1
             }
           ],
           "topKeywords": [
             {
               "name": "ovarian",
-              "count": 15
+              "count": 16
             },
             {
               "name": "cancer",
-              "count": 13
+              "count": 14
             },
             {
               "name": "proteomic",
-              "count": 9
+              "count": 10
             },
             {
               "name": "clinical",
@@ -5226,6 +5240,10 @@
               "count": 7
             },
             {
+              "name": "based",
+              "count": 6
+            },
+            {
               "name": "covid",
               "count": 6
             },
@@ -5240,10 +5258,6 @@
             {
               "name": "study",
               "count": 6
-            },
-            {
-              "name": "analysis",
-              "count": 5
             }
           ],
           "topCoauthors": [
@@ -5256,12 +5270,12 @@
               "count": 8
             },
             {
-              "name": "Jesenia M Perez",
+              "name": "Carly A I Twigg",
               "count": 7
             },
             {
-              "name": "Carly A I Twigg",
-              "count": 6
+              "name": "Jesenia M Perez",
+              "count": 7
             },
             {
               "name": "Joohyun Ryu",
@@ -5284,15 +5298,15 @@
               "count": 4
             },
             {
+              "name": "Amy P N Skubitz",
+              "count": 3
+            },
+            {
               "name": "Ania Wajnberg",
               "count": 3
             },
             {
               "name": "Ann M Moormann",
-              "count": 3
-            },
-            {
-              "name": "Carlos Cordon-Cardo",
               "count": 3
             }
           ]
