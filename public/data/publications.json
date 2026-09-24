@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-23",
-  "updatedAt": "2026-09-23T13:25:05.039Z",
+  "updated": "2026-09-24",
+  "updatedAt": "2026-09-24T13:15:37.001Z",
   "source": "PubMed E-utilities",
   "faculty": [
     {
@@ -10205,14 +10205,14 @@
         },
         {
           "id": "42047100",
-          "title": "Effect of Delayed Antiretroviral Therapy Initiation on Anti-CD4 Autoantibodies in Antiretroviral Therapy-Naïve People With HIV.",
+          "title": "Effect of Delayed Antiretroviral Therapy Initiation on Anti-CD4 Autoantibodies in Antiretroviral Therapy-Naive People With HIV.",
           "journal": "The Journal of infectious diseases",
           "year": 2026,
           "doi": "10.1093/infdis/jiag235",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42047100/",
           "authorship": {
             "position": 3,
-            "total": 12,
+            "total": 13,
             "isFirst": false,
             "isLast": false
           }
@@ -27123,6 +27123,20 @@
           }
         },
         {
+          "id": "42778188",
+          "title": "Trends in Regionalization of Pediatric Inpatient and Critical Care by Medical Complexity.",
+          "journal": "Hospital pediatrics",
+          "year": 2026,
+          "doi": "10.1542/hpeds.2026-009661",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42778188/",
+          "authorship": {
+            "position": 9,
+            "total": 10,
+            "isFirst": false,
+            "isLast": true
+          }
+        },
+        {
           "id": "41871826",
           "title": "Use of Emergency Medical Services for Children With Medical Complexity.",
           "journal": "Pediatrics",
@@ -27336,7 +27350,7 @@
       "authorCounts": null,
       "signals": {
         "positive": {
-          "count": 22,
+          "count": 23,
           "yearRange": {
             "min": 2024,
             "max": 2026
@@ -27352,7 +27366,7 @@
             },
             {
               "year": 2026,
-              "count": 9
+              "count": 10
             }
           ],
           "topJournals": [
@@ -27362,7 +27376,7 @@
             },
             {
               "name": "Hospital pediatrics",
-              "count": 3
+              "count": 4
             },
             {
               "name": "Critical care medicine",
@@ -27400,11 +27414,15 @@
           "topKeywords": [
             {
               "name": "pediatric",
-              "count": 12
+              "count": 13
             },
             {
               "name": "care",
-              "count": 10
+              "count": 11
+            },
+            {
+              "name": "critical",
+              "count": 6
             },
             {
               "name": "intensive",
@@ -27416,10 +27434,6 @@
             },
             {
               "name": "children",
-              "count": 5
-            },
-            {
-              "name": "critical",
               "count": 5
             },
             {
@@ -55801,7 +55815,7 @@
         },
         {
           "id": "42727902",
-          "title": "Preoperative Sarcopenia Predicts Major Postoperative Morbidity in Patients Undergoing Pancreatic Surgery for Chronic Pancreatitis.",
+          "title": "Preoperative sarcopenia predicts major postoperative morbidity in patients undergoing pancreatic surgery for chronic pancreatitis.",
           "journal": "Journal of gastrointestinal surgery : official journal of the Society for Surgery of the Alimentary Tract",
           "year": 2026,
           "doi": "10.1016/j.gassur.2026.102584",
