@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-24",
-  "updatedAt": "2026-09-24T13:15:37.001Z",
+  "updated": "2026-09-25",
+  "updatedAt": "2026-09-25T13:20:08.185Z",
   "source": "PubMed E-utilities",
   "faculty": [
     {
@@ -2768,6 +2768,20 @@
           }
         },
         {
+          "id": "42779886",
+          "title": "BrainWideBench: Benchmarking large-scale pretraining and across-animal transfer in multi-region neural recordings.",
+          "journal": "ArXiv",
+          "year": 2026,
+          "doi": "",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42779886/",
+          "authorship": {
+            "position": 26,
+            "total": 42,
+            "isFirst": false,
+            "isLast": false
+          }
+        },
+        {
           "id": "42055242",
           "title": "From peripersonal space to cognitive maps: An evolutionary perspective.",
           "journal": "Progress in neurobiology",
@@ -2967,7 +2981,7 @@
       "authorCounts": null,
       "signals": {
         "positive": {
-          "count": 15,
+          "count": 16,
           "yearRange": {
             "min": 2024,
             "max": 2026
@@ -2983,7 +2997,7 @@
             },
             {
               "year": 2026,
-              "count": 6
+              "count": 7
             }
           ],
           "topJournals": [
@@ -3004,6 +3018,10 @@
               "count": 2
             },
             {
+              "name": "ArXiv",
+              "count": 1
+            },
+            {
               "name": "Cell reports. Medicine",
               "count": 1
             },
@@ -3022,15 +3040,15 @@
             {
               "name": "Physics of life reviews",
               "count": 1
-            },
-            {
-              "name": "PLoS biology",
-              "count": 1
             }
           ],
           "topKeywords": [
             {
               "name": "brain",
+              "count": 4
+            },
+            {
+              "name": "neural",
               "count": 4
             },
             {
@@ -3046,10 +3064,6 @@
               "count": 3
             },
             {
-              "name": "neural",
-              "count": 3
-            },
-            {
               "name": "peripersonal",
               "count": 3
             },
@@ -3059,6 +3073,10 @@
             },
             {
               "name": "aborting",
+              "count": 2
+            },
+            {
+              "name": "across",
               "count": 2
             },
             {
@@ -3072,27 +3090,47 @@
             {
               "name": "dorsolateral",
               "count": 2
-            },
-            {
-              "name": "head",
-              "count": 2
             }
           ],
           "topCoauthors": [
+            {
+              "name": "International Brain Laboratory",
+              "count": 6
+            },
+            {
+              "name": "Alejandro Pan-Vazquez",
+              "count": 5
+            },
             {
               "name": "Andrea Serino",
               "count": 5
             },
             {
-              "name": "International Brain Laboratory",
+              "name": "Anne E Urai",
               "count": 5
             },
             {
-              "name": "Alejandro Pan-Vazquez",
+              "name": "Guido T Meijer",
+              "count": 5
+            },
+            {
+              "name": "Karolina Z Socha",
+              "count": 5
+            },
+            {
+              "name": "Nathaniel J Miska",
+              "count": 5
+            },
+            {
+              "name": "Anup Khanal",
               "count": 4
             },
             {
-              "name": "Anne E Urai",
+              "name": "Cyrille Rossant",
+              "count": 4
+            },
+            {
+              "name": "Daniel Birman",
               "count": 4
             },
             {
@@ -3100,32 +3138,8 @@
               "count": 4
             },
             {
-              "name": "Guido T Meijer",
+              "name": "Fei Hu",
               "count": 4
-            },
-            {
-              "name": "Julius Benson",
-              "count": 4
-            },
-            {
-              "name": "Karolina Z Socha",
-              "count": 4
-            },
-            {
-              "name": "Nathaniel J Miska",
-              "count": 4
-            },
-            {
-              "name": "Noam Roth",
-              "count": 4
-            },
-            {
-              "name": "Tommaso Bertoni",
-              "count": 4
-            },
-            {
-              "name": "Anne K Churchland",
-              "count": 3
             }
           ]
         },
@@ -35143,6 +35157,20 @@
           }
         },
         {
+          "id": "42781440",
+          "title": "Latent brain-cognition dimension indicative of neuroinflammatory basis of Long COVID.",
+          "journal": "Brain communications",
+          "year": 2026,
+          "doi": "10.1093/braincomms/fcag344",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42781440/",
+          "authorship": {
+            "position": 9,
+            "total": 11,
+            "isFirst": false,
+            "isLast": false
+          }
+        },
+        {
           "id": "42093234",
           "title": "Mapping cardiac and respiratory pulsations simultaneously with functional connectivity in the rat brain using zero echo time fMRI.",
           "journal": "Journal of cerebral blood flow and metabolism : official journal of the International Society of Cerebral Blood Flow and Metabolism",
@@ -36406,7 +36434,7 @@
       "authorCounts": null,
       "signals": {
         "positive": {
-          "count": 93,
+          "count": 94,
           "yearRange": {
             "min": 2012,
             "max": 2026
@@ -36470,7 +36498,7 @@
             },
             {
               "year": 2026,
-              "count": 6
+              "count": 7
             }
           ],
           "topJournals": [
@@ -36518,7 +36546,7 @@
           "topKeywords": [
             {
               "name": "brain",
-              "count": 40
+              "count": 41
             },
             {
               "name": "mri",
@@ -36568,18 +36596,18 @@
           "topCoauthors": [
             {
               "name": "Shalom Michaeli",
-              "count": 58
+              "count": 59
             },
             {
               "name": "Olli Gr&#xf6;hn",
               "count": 28
             },
             {
-              "name": "Federico Giove",
-              "count": 23
+              "name": "Pavel Filip",
+              "count": 24
             },
             {
-              "name": "Pavel Filip",
+              "name": "Federico Giove",
               "count": 23
             },
             {
