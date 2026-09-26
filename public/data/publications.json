@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-25",
-  "updatedAt": "2026-09-25T13:20:08.185Z",
+  "updated": "2026-09-26",
+  "updatedAt": "2026-09-26T12:45:12.627Z",
   "source": "PubMed E-utilities",
   "faculty": [
     {
@@ -47124,6 +47124,20 @@
           }
         },
         {
+          "id": "42787535",
+          "title": "Increasing Multimorbidity Burden After COVID-19 Infection Among People With and Without HIV in the United States: Insights From the National Clinical Cohort Collaborative (N3C).",
+          "journal": "Open forum infectious diseases",
+          "year": 2026,
+          "doi": "10.1093/ofid/ofag560",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42787535/",
+          "authorship": {
+            "position": 8,
+            "total": 21,
+            "isFirst": false,
+            "isLast": false
+          }
+        },
+        {
           "id": "42528381",
           "title": "Multivariate functional linear discriminant analysis with feature selection: an application to inflammatory bowel disease classification.",
           "journal": "Biostatistics (Oxford, England)",
@@ -47673,7 +47687,7 @@
       "authorCounts": null,
       "signals": {
         "positive": {
-          "count": 42,
+          "count": 43,
           "yearRange": {
             "min": 2019,
             "max": 2026
@@ -47709,7 +47723,7 @@
             },
             {
               "year": 2026,
-              "count": 6
+              "count": 7
             }
           ],
           "topJournals": [
@@ -47738,6 +47752,10 @@
               "count": 2
             },
             {
+              "name": "Open forum infectious diseases",
+              "count": 2
+            },
+            {
               "name": "Scientific reports",
               "count": 2
             },
@@ -47748,32 +47766,32 @@
             {
               "name": "AIDS (London, England)",
               "count": 1
-            },
-            {
-              "name": "ArXiv",
-              "count": 1
             }
           ],
           "topKeywords": [
             {
               "name": "covid",
-              "count": 16
+              "count": 17
             },
             {
               "name": "data",
               "count": 14
             },
             {
-              "name": "analysis",
-              "count": 12
+              "name": "hiv",
+              "count": 13
             },
             {
-              "name": "hiv",
+              "name": "analysis",
               "count": 12
             },
             {
               "name": "disease",
               "count": 8
+            },
+            {
+              "name": "cohort",
+              "count": 7
             },
             {
               "name": "integrative",
@@ -47788,29 +47806,41 @@
               "count": 7
             },
             {
+              "name": "national",
+              "count": 7
+            },
+            {
               "name": "application",
               "count": 6
             },
             {
               "name": "cardiovascular",
               "count": 6
-            },
-            {
-              "name": "cohort",
-              "count": 6
-            },
-            {
-              "name": "deep",
-              "count": 6
             }
           ],
           "topCoauthors": [
             {
               "name": "Eric Hurwitz",
-              "count": 6
+              "count": 7
             },
             {
               "name": "Jing Sun",
+              "count": 7
+            },
+            {
+              "name": "Dongmei Li",
+              "count": 6
+            },
+            {
+              "name": "Jessica Y Islam",
+              "count": 6
+            },
+            {
+              "name": "Nada Fadul",
+              "count": 6
+            },
+            {
+              "name": "Rena C Patel",
               "count": 6
             },
             {
@@ -47818,11 +47848,7 @@
               "count": 5
             },
             {
-              "name": "Dongmei Li",
-              "count": 5
-            },
-            {
-              "name": "Jessica Y Islam",
+              "name": "Cara D Varley",
               "count": 5
             },
             {
@@ -47830,11 +47856,7 @@
               "count": 5
             },
             {
-              "name": "Nada Fadul",
-              "count": 5
-            },
-            {
-              "name": "Rena C Patel",
+              "name": "Marlene Camacho-Rivera",
               "count": 5
             },
             {
@@ -47843,14 +47865,6 @@
             },
             {
               "name": "Brian T Steffen",
-              "count": 4
-            },
-            {
-              "name": "Cara D Varley",
-              "count": 4
-            },
-            {
-              "name": "Cavan Reilly",
               "count": 4
             }
           ]
