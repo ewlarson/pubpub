@@ -87628,6 +87628,293 @@
           "topCoauthors": []
         }
       }
+    },
+    {
+      "id": "daphne-moutsoglou-dmmoutso-umn-edu",
+      "name": "Daphne Moutsoglou",
+      "foreName": "Daphne",
+      "lastName": "Moutsoglou",
+      "department": "University of Minnesota",
+      "orcid": "0000-0002-4071-3756",
+      "areas": [],
+      "programs": [
+        "KAP"
+      ],
+      "programAssociations": [
+        {
+          "program": "KAP",
+          "startDate": "2026-09-01"
+        }
+      ],
+      "publications": [],
+      "authorCounts": null,
+      "signals": {
+        "positive": {
+          "count": 0,
+          "yearRange": null,
+          "yearCounts": [],
+          "topJournals": [],
+          "topKeywords": [],
+          "topCoauthors": []
+        },
+        "negative": {
+          "count": 0,
+          "yearRange": null,
+          "yearCounts": [],
+          "topJournals": [],
+          "topKeywords": [],
+          "topCoauthors": []
+        }
+      }
+    },
+    {
+      "id": "corri-stuyvenberg-stuyv006-umn-edu",
+      "name": "Corri Stuyvenberg",
+      "foreName": "Corri",
+      "lastName": "Stuyvenberg",
+      "department": "University of Minnesota",
+      "orcid": "0000-0003-4127-4684",
+      "areas": [],
+      "programs": [
+        "KAP"
+      ],
+      "programAssociations": [
+        {
+          "program": "KAP",
+          "startDate": "2026-09-01"
+        }
+      ],
+      "publications": [],
+      "authorCounts": null,
+      "signals": {
+        "positive": {
+          "count": 0,
+          "yearRange": null,
+          "yearCounts": [],
+          "topJournals": [],
+          "topKeywords": [],
+          "topCoauthors": []
+        },
+        "negative": {
+          "count": 0,
+          "yearRange": null,
+          "yearCounts": [],
+          "topJournals": [],
+          "topKeywords": [],
+          "topCoauthors": []
+        }
+      }
+    },
+    {
+      "id": "evan-chen-evanchen-umn-edu",
+      "name": "Evan Chen",
+      "foreName": "Evan",
+      "lastName": "Chen",
+      "department": "University of Minnesota",
+      "orcid": "0000-0002-2193-2953",
+      "areas": [],
+      "programs": [
+        "KAP"
+      ],
+      "programAssociations": [
+        {
+          "program": "KAP",
+          "startDate": "2026-09-01"
+        }
+      ],
+      "publications": [],
+      "authorCounts": null,
+      "signals": {
+        "positive": {
+          "count": 0,
+          "yearRange": null,
+          "yearCounts": [],
+          "topJournals": [],
+          "topKeywords": [],
+          "topCoauthors": []
+        },
+        "negative": {
+          "count": 0,
+          "yearRange": null,
+          "yearCounts": [],
+          "topJournals": [],
+          "topKeywords": [],
+          "topCoauthors": []
+        }
+      }
+    },
+    {
+      "id": "lindsey-sloan-sloan153-umn-edu",
+      "name": "Lindsey Sloan",
+      "foreName": "Lindsey",
+      "lastName": "Sloan",
+      "department": "University of Minnesota",
+      "orcid": "0000-0002-1904-8376",
+      "areas": [],
+      "programs": [
+        "K12"
+      ],
+      "programAssociations": [
+        {
+          "program": "K12",
+          "startDate": "2026-09-01"
+        }
+      ],
+      "publications": [
+        {
+          "id": "42804720",
+          "title": "Surgery and tile-based radiation therapy versus surgery and stereotactic radiation for newly diagnosed brain metastases (ROADS): a randomized, open-label, phase 3 trial.",
+          "journal": "Journal of clinical oncology : official journal of the American Society of Clinical Oncology",
+          "year": 2026,
+          "doi": "10.1200/JCO-26-01894",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42804720/",
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [],
+          "authorship": {
+            "position": 17,
+            "total": 50,
+            "isFirst": false,
+            "isLast": false
+          }
+        }
+      ],
+      "authorCounts": {
+        "first": 0,
+        "last": 0,
+        "total": 1,
+        "known": 1
+      },
+      "signals": {
+        "positive": {
+          "count": 1,
+          "yearRange": {
+            "min": 2026,
+            "max": 2026
+          },
+          "yearCounts": [
+            {
+              "year": 2026,
+              "count": 1
+            }
+          ],
+          "topJournals": [
+            {
+              "name": "Journal of clinical oncology : official journal of the American Society of Clinical Oncology",
+              "count": 1
+            }
+          ],
+          "topKeywords": [
+            {
+              "name": "radiation",
+              "count": 2
+            },
+            {
+              "name": "surgery",
+              "count": 2
+            },
+            {
+              "name": "based",
+              "count": 1
+            },
+            {
+              "name": "brain",
+              "count": 1
+            },
+            {
+              "name": "diagnosed",
+              "count": 1
+            },
+            {
+              "name": "label",
+              "count": 1
+            },
+            {
+              "name": "metastases",
+              "count": 1
+            },
+            {
+              "name": "newly",
+              "count": 1
+            },
+            {
+              "name": "open",
+              "count": 1
+            },
+            {
+              "name": "phase",
+              "count": 1
+            },
+            {
+              "name": "randomized",
+              "count": 1
+            },
+            {
+              "name": "roads",
+              "count": 1
+            }
+          ],
+          "topCoauthors": [
+            {
+              "name": "Adam Nowlan",
+              "count": 1
+            },
+            {
+              "name": "Adam Robin",
+              "count": 1
+            },
+            {
+              "name": "Akash J Patel",
+              "count": 1
+            },
+            {
+              "name": "Akshitkumar M Mistry",
+              "count": 1
+            },
+            {
+              "name": "Alexandra Paul",
+              "count": 1
+            },
+            {
+              "name": "Angela M Richardson",
+              "count": 1
+            },
+            {
+              "name": "Aristotelis Filippidis",
+              "count": 1
+            },
+            {
+              "name": "Brandon S Imber",
+              "count": 1
+            },
+            {
+              "name": "Clark C Chen",
+              "count": 1
+            },
+            {
+              "name": "Colette J Shen",
+              "count": 1
+            },
+            {
+              "name": "David G Brachman",
+              "count": 1
+            },
+            {
+              "name": "David J McCracken",
+              "count": 1
+            }
+          ]
+        },
+        "negative": {
+          "count": 0,
+          "yearRange": null,
+          "yearCounts": [],
+          "topJournals": [],
+          "topKeywords": [],
+          "topCoauthors": []
+        }
+      }
     }
   ]
 }

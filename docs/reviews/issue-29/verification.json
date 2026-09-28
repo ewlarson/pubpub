@@ -1,0 +1,104 @@
+{
+  "publications": {
+    "existingFacultyUnchanged": 124,
+    "totalFaculty": 128,
+    "newFaculty": [
+      {
+        "name": "Daphne Moutsoglou",
+        "id": "daphne-moutsoglou-dmmoutso-umn-edu",
+        "programAssociations": [
+          {
+            "program": "KAP",
+            "startDate": "2026-09-01"
+          }
+        ],
+        "eligibleRecords": 0
+      },
+      {
+        "name": "Corri Stuyvenberg",
+        "id": "corri-stuyvenberg-stuyv006-umn-edu",
+        "programAssociations": [
+          {
+            "program": "KAP",
+            "startDate": "2026-09-01"
+          }
+        ],
+        "eligibleRecords": 0
+      },
+      {
+        "name": "Evan Chen",
+        "id": "evan-chen-evanchen-umn-edu",
+        "programAssociations": [
+          {
+            "program": "KAP",
+            "startDate": "2026-09-01"
+          }
+        ],
+        "eligibleRecords": 0
+      },
+      {
+        "name": "Lindsey Sloan",
+        "id": "lindsey-sloan-sloan153-umn-edu",
+        "programAssociations": [
+          {
+            "program": "K12",
+            "startDate": "2026-09-01"
+          }
+        ],
+        "eligibleRecords": 1
+      }
+    ],
+    "newFacultyFetchedAt": "2026-09-28T22:15:49.465Z"
+  },
+  "grants": {
+    "existingFacultyUnchanged": 124,
+    "totalFaculty": 128,
+    "newFaculty": [
+      {
+        "name": "Daphne Moutsoglou",
+        "id": "daphne-moutsoglou-dmmoutso-umn-edu",
+        "programAssociations": [
+          {
+            "program": "KAP",
+            "startDate": "2026-09-01"
+          }
+        ],
+        "eligibleRecords": 0
+      },
+      {
+        "name": "Corri Stuyvenberg",
+        "id": "corri-stuyvenberg-stuyv006-umn-edu",
+        "programAssociations": [
+          {
+            "program": "KAP",
+            "startDate": "2026-09-01"
+          }
+        ],
+        "eligibleRecords": 0
+      },
+      {
+        "name": "Evan Chen",
+        "id": "evan-chen-evanchen-umn-edu",
+        "programAssociations": [
+          {
+            "program": "KAP",
+            "startDate": "2026-09-01"
+          }
+        ],
+        "eligibleRecords": 0
+      },
+      {
+        "name": "Lindsey Sloan",
+        "id": "lindsey-sloan-sloan153-umn-edu",
+        "programAssociations": [
+          {
+            "program": "K12",
+            "startDate": "2026-09-01"
+          }
+        ],
+        "eligibleRecords": 0
+      }
+    ],
+    "newFacultyFetchedAt": "2026-09-28T22:15:54.707Z"
+  }
+}
