@@ -187,6 +187,14 @@ used once as a seed (legacy import).
 Identity overrides for known merges/splits are stored in
 `data/faculty-identity-overrides.json`.
 
+Known incorrect faculty/grant associations are recorded in
+`data/grant-exclusions.json`. Each entry identifies the canonical `facultyId`
+and `coreProjectNum`, with a reason and source issue. The correction covers all
+annual awards, renewals, and supplements of that project for that faculty member.
+Both the grant refresh and standalone static export apply these exclusions, so
+previously cached database rows cannot reappear in the dashboard. Other faculty
+and other projects are unaffected.
+
 Minimal schema:
 
 ```json
