@@ -1,0 +1,37 @@
+<PubmedArticleSet>
+  <PubmedArticle>
+    <MedlineCitation Status="PubMed-not-MEDLINE" Owner="NLM">
+      <PMID Version="1">37502872</PMID>
+      <Article PubModel="Electronic">
+        <ArticleTitle>Posttraumatic reexperiencing and alcohol use: mediofrontal theta as a neural mechanism for negative reinforcement.</ArticleTitle>
+        <PublicationTypeList>
+          <PublicationType UI="D000076942">Preprint</PublicationType>
+          <PublicationType UI="D016428">Journal Article</PublicationType>
+        </PublicationTypeList>
+      </Article>
+      <CommentsCorrectionsList>
+        <CommentsCorrections RefType="UpdateIn">
+          <RefSource>J Psychopathol Clin Sci. 2025 Apr;134(3):308-318. doi: 10.1037/abn0000925.</RefSource>
+          <PMID Version="1">39899115</PMID>
+        </CommentsCorrections>
+      </CommentsCorrectionsList>
+    </MedlineCitation>
+  </PubmedArticle>
+  <PubmedArticle>
+    <MedlineCitation Status="MEDLINE" Owner="NLM" IndexingMethod="Automated">
+      <PMID Version="1">39899115</PMID>
+      <Article PubModel="Print-Electronic">
+        <ArticleTitle>Posttraumatic reexperiencing and alcohol use: Mediofrontal theta as a neural mechanism for negative reinforcement.</ArticleTitle>
+        <PublicationTypeList>
+          <PublicationType UI="D016428">Journal Article</PublicationType>
+        </PublicationTypeList>
+      </Article>
+      <CommentsCorrectionsList>
+        <CommentsCorrections RefType="UpdateOf">
+          <RefSource>bioRxiv. 2023 Dec 18:2023.07.12.547253. doi: 10.1101/2023.07.12.547253.</RefSource>
+          <PMID Version="1">37502872</PMID>
+        </CommentsCorrections>
+      </CommentsCorrectionsList>
+    </MedlineCitation>
+  </PubmedArticle>
+</PubmedArticleSet>

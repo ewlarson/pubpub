@@ -1,3 +1,6 @@
+import { backfillPublicationVersions } from './backfill-publication-versions.mjs';
+import { getVersionMetadata, preferPublishedVersions } from './publication-versions.mjs';
+import { buildAuthorCounts } from './scholar-publications.mjs';
 import dotenv from 'dotenv';
 import { existsSync } from 'node:fs';
 import { readFile, writeFile } from 'node:fs/promises';
@@ -217,8 +220,8 @@ const getCurationForPerson = (db, personId) => {
 
 const upsertPublication = (db, publication) => {
   const stmt = db.prepare(`
-    INSERT INTO publications (pmid, title, journal, year, doi, url, updated_at)
-    VALUES (@pmid, @title, @journal, @year, @doi, @url, @updated_at)
+    INSERT INTO publications (pmid, title, journal, year, doi, url, version_metadata, updated_at)
+    VALUES (@pmid, @title, @journal, @year, @doi, @url, @version_metadata, @updated_at)
     ON CONFLICT(pmid)
     DO UPDATE SET
       title = excluded.title,
@@ -226,9 +229,11 @@ const upsertPublication = (db, publication) => {
       year = excluded.year,
       doi = excluded.doi,
       url = excluded.url,
+      version_metadata = COALESCE(NULLIF(excluded.version_metadata, '{}'), publications.version_metadata),
       updated_at = excluded.updated_at
   `);
   stmt.run({
+    version_metadata: JSON.stringify({ publicationTypes: publication.publicationTypes, versionLinks: publication.versionLinks }),
     pmid: String(publication.id),
     title: publication.title,
     journal: publication.journal,
@@ -268,6 +273,7 @@ const getPublicationsForFaculty = (db, facultyId) => {
         p.year,
         p.doi,
         p.url,
+        p.version_metadata AS versionMetadata,
         fp.author_position AS authorPosition,
         fp.author_count AS authorCount
       FROM publications p
@@ -280,7 +286,7 @@ const getPublicationsForFaculty = (db, facultyId) => {
     `
     )
     .all(facultyId);
-  return rows;
+  return rows.map(({ versionMetadata, ...publication }) => ({ ...publication, ...JSON.parse(versionMetadata) }));
 };
 
 const getFalsePositivePublications = (db, facultyId) => {
@@ -780,9 +786,10 @@ const extractDoi = (articleIds = []) => {
   return doi ? doi.value : '';
 };
 
-const mapSummaryToPublication = (summary, pubDate) => {
+const mapSummaryToPublication = (summary, pubDate, versionsByPmid) => {
   const year = pubDate ? pubDate.getFullYear() : extractYear(summary.pubdate);
   return {
+    ...versionsByPmid?.get(String(summary.uid)),
     id: summary.uid,
     title: summary.title?.trim() || `PubMed ${summary.uid}`,
     journal: summary.fulljournalname || summary.source || 'Unknown journal',
@@ -875,7 +882,7 @@ const parseArticlesFromXml = (xmlText) => {
     const pmid = getText(citation.PMID);
     const authors = toArray(citation.Article?.AuthorList?.Author);
     const pubDate = parsePubDateFromXml(article);
-    return { pmid, authors, pubDate };
+    return { pmid, authors, pubDate, versionMetadata: getVersionMetadata(citation) };
   });
 };
 
@@ -885,7 +892,8 @@ const filterPmidsByAuthorAffiliation = async (pmids, person, affiliationTerms) =
       validPmids: new Set(),
       pubDates: new Map(),
       coauthorsByPmid: new Map(),
-      authorshipByPmid: new Map()
+      authorshipByPmid: new Map(),
+      versionsByPmid: new Map()
     };
   }
 
@@ -893,6 +901,7 @@ const filterPmidsByAuthorAffiliation = async (pmids, person, affiliationTerms) =
   const pubDates = new Map();
   const coauthorsByPmid = new Map();
   const authorshipByPmid = new Map();
+  const versionsByPmid = new Map();
   const allowedTerms = affiliationTerms.length ? affiliationTerms : [DEFAULT_AFFILIATION];
   const normalizedAllowed = allowedTerms.map(normalizeAffiliation).filter(Boolean);
   let missingAffiliationCount = 0;
@@ -902,7 +911,8 @@ const filterPmidsByAuthorAffiliation = async (pmids, person, affiliationTerms) =
     const xmlText = await fetchArticleXml(batch, EMAIL, TOOL, API_KEY);
     const articles = parseArticlesFromXml(xmlText);
 
-    articles.forEach(({ pmid, authors, pubDate }) => {
+    articles.forEach(({ pmid, authors, pubDate, versionMetadata }) => {
+      if (pmid) versionsByPmid.set(String(pmid), versionMetadata);
       if (pmid && pubDate) {
         pubDates.set(String(pmid), pubDate);
       }
@@ -979,30 +989,13 @@ const filterPmidsByAuthorAffiliation = async (pmids, person, affiliationTerms) =
     );
   }
 
-  return { validPmids: kept, pubDates, coauthorsByPmid, authorshipByPmid };
-};
-
-const buildAuthorCounts = (publications, authorshipByPmid) => {
-  if (!authorshipByPmid || authorshipByPmid.size === 0) {
-    return null;
-  }
-  let first = 0;
-  let last = 0;
-  let known = 0;
-  publications.forEach((pub) => {
-    const entry = authorshipByPmid.get(String(pub.id));
-    if (!entry) {
-      return;
-    }
-    known += 1;
-    if (entry.isFirst) {
-      first += 1;
-    }
-    if (entry.isLast) {
-      last += 1;
-    }
-  });
-  return { first, last, total: publications.length, known };
+  return {
+    validPmids: VALIDATE_AFFILIATION ? kept : new Set(pmids.map(String)),
+    pubDates,
+    coauthorsByPmid,
+    authorshipByPmid,
+    versionsByPmid
+  };
 };
 
 const parseFaculty = (rows) => {
@@ -1234,6 +1227,7 @@ const main = async () => {
   const csvText = await readFile(CSV_PATH, 'utf8');
   const rows = parseCsv(csvText);
   const db = initDb();
+  await backfillPublicationVersions(db, (ids) => fetchArticleXml(ids, EMAIL, TOOL, API_KEY));
   const parsedFaculty = parseFaculty(rows);
   const { faculty, legacyToCanonical } = canonicalizeFaculty(db, parsedFaculty);
   await seedCurationFromJson(db, legacyToCanonical);
@@ -1267,14 +1261,8 @@ const main = async () => {
     const falsePositiveSet = new Set(falsePositives.map(String));
     const truePositiveSet = new Set(truePositives.map(String));
 
-    const { validPmids, pubDates, coauthorsByPmid, authorshipByPmid } = VALIDATE_AFFILIATION
-      ? await filterPmidsByAuthorAffiliation(pmids, person, affiliationTerms)
-      : {
-          validPmids: new Set(pmids.map(String)),
-          pubDates: new Map(),
-          coauthorsByPmid: new Map(),
-          authorshipByPmid: new Map()
-        };
+    const { validPmids, pubDates, coauthorsByPmid, authorshipByPmid, versionsByPmid } =
+      await filterPmidsByAuthorAffiliation(pmids, person, affiliationTerms);
 
     const summaries = [];
     for (const batch of chunk(pmids, 200)) {
@@ -1308,7 +1296,7 @@ const main = async () => {
     const curatedValidPmids = new Set([...validPmids, ...truePositiveSet]);
     const falsePositivePublications = summaries
       .filter((summary) => falsePositiveSet.has(String(summary.uid)))
-      .map((summary) => mapSummaryToPublication(summary, resolvePubDate(summary, pubDates)));
+      .map((summary) => mapSummaryToPublication(summary, resolvePubDate(summary, pubDates), versionsByPmid));
 
     const publicationsToUpsert = summaries
       .filter((summary) => curatedValidPmids.has(String(summary.uid)))
@@ -1329,7 +1317,7 @@ const main = async () => {
               endDate: personEndDate
             })
       )
-      .map(({ summary, pubDate }) => mapSummaryToPublication(summary, pubDate));
+      .map(({ summary, pubDate }) => mapSummaryToPublication(summary, pubDate, versionsByPmid));
 
     const publicationsToPersist = new Map();
     publicationsToUpsert.forEach((publication) => {
@@ -1364,7 +1352,7 @@ const main = async () => {
     const dbPublications = getPublicationsForFaculty(db, person.id).sort(
       (a, b) => (b.year || 0) - (a.year || 0) || a.title.localeCompare(b.title)
     );
-    const publicationsWithAuthorship = dbPublications.map((publication) => {
+    const publicationsWithAuthorship = preferPublishedVersions(dbPublications.map((publication) => {
       const publicationMetadata = { ...publication };
       delete publicationMetadata.authorPosition;
       delete publicationMetadata.authorCount;
@@ -1374,10 +1362,10 @@ const main = async () => {
       return authorship
         ? { ...publicationMetadata, authorship }
         : publicationMetadata;
-    });
+    }));
     const dbFalsePositivePublications = getFalsePositivePublications(db, person.id);
     const coauthorsFromDb = getCoauthorsForFaculty(db, person.id);
-    const authorCounts = buildAuthorCounts(dbPublications, authorshipByPmid);
+    const authorCounts = buildAuthorCounts(publicationsWithAuthorship);
     const programAssociations = getProgramAssociationsForFaculty(db, person.id);
     const programs = Array.from(
       new Set(programAssociations.map((entry) => entry.program).filter(Boolean))

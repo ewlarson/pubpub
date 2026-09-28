@@ -1,0 +1,325 @@
+[
+  {
+    "facultyId": "monica-campo-patino-mcampo-umn-edu",
+    "name": "Monica Campo Patino",
+    "before": 6,
+    "after": 4,
+    "removed": [
+      "40093075",
+      "38464296"
+    ]
+  },
+  {
+    "facultyId": "jean-paul-noel-noelx071-umn-edu",
+    "name": "Jean-Paul Noel",
+    "before": 16,
+    "after": 15,
+    "removed": [
+      "39651243"
+    ]
+  },
+  {
+    "facultyId": "sabrina-scroggins-sscroggi-d-umn-edu",
+    "name": "Sabrina Scroggins",
+    "before": 9,
+    "after": 8,
+    "removed": [
+      "39211848"
+    ]
+  },
+  {
+    "facultyId": "stefani-thomas-stefanit-umn-edu",
+    "name": "Stefani Thomas",
+    "before": 40,
+    "after": 38,
+    "removed": [
+      "40502057",
+      "35262095"
+    ]
+  },
+  {
+    "facultyId": "c-sophia-albott-albot002-umn-edu",
+    "name": "C. Sophia Albott",
+    "before": 11,
+    "after": 10,
+    "removed": [
+      "38853937"
+    ]
+  },
+  {
+    "facultyId": "veronika-bachanova-bach0173-umn-edu",
+    "name": "Veronika Bachanova",
+    "before": 168,
+    "after": 167,
+    "removed": [
+      "39764001"
+    ]
+  },
+  {
+    "facultyId": "jason-baker-jason-baker-hcmed-org",
+    "name": "Jason Baker",
+    "before": 132,
+    "after": 130,
+    "removed": [
+      "40463557",
+      "33215168"
+    ]
+  },
+  {
+    "facultyId": "carolyn-bramante-bramante-umn-edu",
+    "name": "Carolyn Bramante",
+    "before": 88,
+    "after": 78,
+    "removed": [
+      "39802785",
+      "41030935",
+      "40832427",
+      "38798524",
+      "37333243",
+      "36482974",
+      "36299427",
+      "36093353",
+      "36597543",
+      "32607520"
+    ]
+  },
+  {
+    "facultyId": "cari-clark-cari-j-clark-emory-edu",
+    "name": "Cari Clark",
+    "before": 89,
+    "after": 87,
+    "removed": [
+      "38352606",
+      "37961711"
+    ]
+  },
+  {
+    "facultyId": "christen-ebens-ebens012-umn-edu",
+    "name": "Christen Ebens",
+    "before": 50,
+    "after": 49,
+    "removed": [
+      "40832291"
+    ]
+  },
+  {
+    "facultyId": "eric-lock-elock-umn-edu",
+    "name": "Eric Lock",
+    "before": 70,
+    "after": 66,
+    "removed": [
+      "39575114",
+      "39282381",
+      "37503212",
+      "36747843"
+    ]
+  },
+  {
+    "facultyId": "emil-lou-emil-lou-umn-edu",
+    "name": "Emil Lou",
+    "before": 166,
+    "after": 163,
+    "removed": [
+      "39005329",
+      "32587986",
+      "32511661"
+    ]
+  },
+  {
+    "facultyId": "silvia-mangia-mangia-umn-edu",
+    "name": "Silvia Mangia",
+    "before": 94,
+    "after": 92,
+    "removed": [
+      "40196586",
+      "39605361"
+    ]
+  },
+  {
+    "facultyId": "hai-dang-nguyen-hdnguyen-umn-edu",
+    "name": "Hai Dang Nguyen",
+    "before": 16,
+    "after": 13,
+    "removed": [
+      "41279417",
+      "40832291",
+      "38915701"
+    ]
+  },
+  {
+    "facultyId": "mark-osborn-osbor026-umn-edu",
+    "name": "Mark Osborn",
+    "before": 50,
+    "after": 49,
+    "removed": [
+      "41757025"
+    ]
+  },
+  {
+    "facultyId": "anna-prizment-prizm001-umn-edu",
+    "name": "Anna Prizment",
+    "before": 126,
+    "after": 125,
+    "removed": [
+      "37732184"
+    ]
+  },
+  {
+    "facultyId": "sandra-safo-ssafo-umn-edu",
+    "name": "Sandra Safo",
+    "before": 43,
+    "after": 39,
+    "removed": [
+      "40463557",
+      "39713297",
+      "39282381",
+      "34815984"
+    ]
+  },
+  {
+    "facultyId": "chetan-shenoy-cshenoy-umn-edu",
+    "name": "Chetan Shenoy",
+    "before": 82,
+    "after": 79,
+    "removed": [
+      "42006772",
+      "39649582",
+      "36824797"
+    ]
+  },
+  {
+    "facultyId": "caleb-skipper-skipp015-umn-edu",
+    "name": "Caleb Skipper",
+    "before": 30,
+    "after": 29,
+    "removed": [
+      "38854002"
+    ]
+  },
+  {
+    "facultyId": "antonella-borgatti-borgatti-umn-edu",
+    "name": "Antonella Borgatti",
+    "before": 14,
+    "after": 13,
+    "removed": [
+      "37131624"
+    ]
+  },
+  {
+    "facultyId": "kathryn-cullen-rega0026-umn-edu",
+    "name": "Kathryn Cullen",
+    "before": 142,
+    "after": 140,
+    "removed": [
+      "39975425",
+      "39802789"
+    ]
+  },
+  {
+    "facultyId": "paul-drawz-draw0003-umn-edu",
+    "name": "Paul Drawz",
+    "before": 106,
+    "after": 105,
+    "removed": [
+      "37205602"
+    ]
+  },
+  {
+    "facultyId": "amanda-klein-ahklein2-buffalo-edu",
+    "name": "Amanda Klein",
+    "before": 12,
+    "after": 10,
+    "removed": [
+      "39974972",
+      "37732180"
+    ]
+  },
+  {
+    "facultyId": "melanie-nicol-mrnicol-umn-edu",
+    "name": "Melanie Nicol",
+    "before": 43,
+    "after": 41,
+    "removed": [
+      "32995820",
+      "32743591"
+    ]
+  },
+  {
+    "facultyId": "julie-ostrander-hans1354-umn-edu",
+    "name": "Julie Ostrander",
+    "before": 23,
+    "after": 21,
+    "removed": [
+      "41332612",
+      "39131340"
+    ]
+  },
+  {
+    "facultyId": "radha-rajasingham-radha-umn-edu",
+    "name": "Radha Rajasingham",
+    "before": 96,
+    "after": 94,
+    "removed": [
+      "32995820",
+      "32743591"
+    ]
+  },
+  {
+    "facultyId": "anita-randolph-rando149-umn-edu",
+    "name": "Anita Randolph",
+    "before": 9,
+    "after": 7,
+    "removed": [
+      "41427390",
+      "40475604"
+    ]
+  },
+  {
+    "facultyId": "deanna-teoh-dkteoh-umn-edu",
+    "name": "Deanna Teoh",
+    "before": 62,
+    "after": 60,
+    "removed": [
+      "32587986",
+      "32511661"
+    ]
+  },
+  {
+    "facultyId": "thu-truong-thtruong-umn-edu",
+    "name": "Thu Truong",
+    "before": 7,
+    "after": 6,
+    "removed": [
+      "41332612"
+    ]
+  },
+  {
+    "facultyId": "michael-usher",
+    "name": "Michael Usher",
+    "before": 36,
+    "after": 34,
+    "removed": [
+      "32995813",
+      "32909015"
+    ]
+  },
+  {
+    "facultyId": "saydra-wilson-wils2548-umn-edu",
+    "name": "Saydra Wilson",
+    "before": 7,
+    "after": 6,
+    "removed": [
+      "38853937"
+    ]
+  },
+  {
+    "facultyId": "beshay-zordoky-zordo001-umn-edu",
+    "name": "Beshay Zordoky",
+    "before": 40,
+    "after": 38,
+    "removed": [
+      "40667227",
+      "39229220"
+    ]
+  }
+]

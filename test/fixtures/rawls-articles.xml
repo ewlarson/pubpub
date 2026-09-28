@@ -1,0 +1,371 @@
+<PubmedArticleSet>
+  <PubmedArticle>
+    <MedlineCitation Status="MEDLINE" Owner="NLM" IndexingMethod="Automated">
+      <PMID Version="1">41277699</PMID>
+      <Article PubModel="Print">
+        <Journal>
+          <ISSN IssnType="Electronic">1943-278X</ISSN>
+          <JournalIssue CitedMedium="Internet">
+            <Volume>55</Volume>
+            <Issue>6</Issue>
+            <PubDate>
+              <Year>2025</Year>
+              <Month>Dec</Month>
+            </PubDate>
+          </JournalIssue>
+          <Title>Suicide &amp; life-threatening behavior</Title>
+          <ISOAbbreviation>Suicide Life Threat Behav</ISOAbbreviation>
+        </Journal>
+        <ArticleTitle>Examining Causal Pathways to Suicidal Ideation and Nonsuicidal Self-Injury in the Adolescent Brain Cognitive Development Study.</ArticleTitle>
+        <AuthorList CompleteYN="Y">
+          <Author ValidYN="Y">
+            <LastName>Yan</LastName>
+            <ForeName>Marvin</ForeName>
+            <Identifier Source="ORCID">0000-0002-9628-652X</Identifier>
+          </Author>
+          <Author ValidYN="Y">
+            <LastName>Kummerfeld</LastName>
+            <ForeName>Erich</ForeName>
+            <Identifier Source="ORCID">0000-0001-5342-7743</Identifier>
+          </Author>
+          <Author ValidYN="Y">
+            <LastName>Rawls</LastName>
+            <ForeName>Eric</ForeName>
+            <Identifier Source="ORCID">0000-0002-4852-9961</Identifier>
+          </Author>
+          <Author ValidYN="Y">
+            <LastName>Cullen</LastName>
+            <ForeName>Kathryn R</ForeName>
+            <Identifier Source="ORCID">0000-0001-9631-3770</Identifier>
+          </Author>
+          <Author ValidYN="Y">
+            <LastName>Klimes-Dougan</LastName>
+            <ForeName>Bonnie</ForeName>
+            <Identifier Source="ORCID">0000-0002-2107-0038</Identifier>
+          </Author>
+        </AuthorList>
+        <PublicationTypeList>
+          <PublicationType UI="D016428">Journal Article</PublicationType>
+        </PublicationTypeList>
+      </Article>
+    </MedlineCitation>
+  </PubmedArticle>
+  <PubmedArticle>
+    <MedlineCitation Status="MEDLINE" Owner="NLM" IndexingMethod="Automated">
+      <PMID Version="1">40480995</PMID>
+      <Article PubModel="Electronic">
+        <Journal>
+          <ISSN IssnType="Electronic">2158-3188</ISSN>
+          <JournalIssue CitedMedium="Internet">
+            <Volume>15</Volume>
+            <Issue>1</Issue>
+            <PubDate>
+              <Year>2025</Year>
+              <Month>Jun</Month>
+              <Day>06</Day>
+            </PubDate>
+          </JournalIssue>
+          <Title>Translational psychiatry</Title>
+          <ISOAbbreviation>Transl Psychiatry</ISOAbbreviation>
+        </Journal>
+        <ArticleTitle>Mechanism-based subtyping in binge eating: understanding neurobehavioral heterogeneity across negative emotionality, approach behavior, and executive function.</ArticleTitle>
+        <AuthorList CompleteYN="Y">
+          <Author ValidYN="Y">
+            <LastName>Brucar</LastName>
+            <ForeName>Leyla R</ForeName>
+            <Identifier Source="ORCID">0000-0002-5852-3088</Identifier>
+          </Author>
+          <Author ValidYN="Y">
+            <LastName>Rawls</LastName>
+            <ForeName>Eric</ForeName>
+            <Identifier Source="ORCID">0000-0002-4852-9961</Identifier>
+          </Author>
+          <Author ValidYN="Y">
+            <LastName>Haynos</LastName>
+            <ForeName>Ann F</ForeName>
+          </Author>
+          <Author ValidYN="Y">
+            <LastName>Peterson</LastName>
+            <ForeName>Carol B</ForeName>
+          </Author>
+          <Author ValidYN="Y">
+            <LastName>Zilverstand</LastName>
+            <ForeName>Anna</ForeName>
+            <Identifier Source="ORCID">0000-0002-4889-9700</Identifier>
+          </Author>
+        </AuthorList>
+        <PublicationTypeList>
+          <PublicationType UI="D016428">Journal Article</PublicationType>
+        </PublicationTypeList>
+        <ArticleDate DateType="Electronic">
+          <Year>2025</Year>
+          <Month>06</Month>
+          <Day>06</Day>
+        </ArticleDate>
+      </Article>
+    </MedlineCitation>
+  </PubmedArticle>
+  <PubmedArticle>
+    <MedlineCitation Status="MEDLINE" Owner="NLM" IndexingMethod="Automated">
+      <PMID Version="1">40462561</PMID>
+      <Article PubModel="Print">
+        <Journal>
+          <ISSN IssnType="Electronic">1469-8986</ISSN>
+          <JournalIssue CitedMedium="Internet">
+            <Volume>62</Volume>
+            <Issue>6</Issue>
+            <PubDate>
+              <Year>2025</Year>
+              <Month>Jun</Month>
+            </PubDate>
+          </JournalIssue>
+          <Title>Psychophysiology</Title>
+          <ISOAbbreviation>Psychophysiology</ISOAbbreviation>
+        </Journal>
+        <ArticleTitle>Oscillatory and Aperiodic Contributions to EEG Event-Related Time-Frequency Metrics During Cognitive Control and Reinforcement Processing: A Registered Report.</ArticleTitle>
+        <AuthorList CompleteYN="Y">
+          <Author ValidYN="Y">
+            <LastName>Rawls</LastName>
+            <ForeName>Eric</ForeName>
+            <Identifier Source="ORCID">0000-0002-4852-9961</Identifier>
+          </Author>
+          <Author ValidYN="Y">
+            <LastName>Sponheim</LastName>
+            <ForeName>Scott R</ForeName>
+            <Identifier Source="ORCID">0000-0002-2782-0856</Identifier>
+          </Author>
+        </AuthorList>
+        <PublicationTypeList>
+          <PublicationType UI="D016428">Journal Article</PublicationType>
+          <PublicationType UI="D013486">Research Support, U.S. Gov't, Non-P.H.S.</PublicationType>
+          <PublicationType UI="D052061">Research Support, N.I.H., Extramural</PublicationType>
+        </PublicationTypeList>
+      </Article>
+    </MedlineCitation>
+  </PubmedArticle>
+  <PubmedArticle>
+    <MedlineCitation Status="MEDLINE" Owner="NLM" IndexingMethod="Automated">
+      <PMID Version="1">39899115</PMID>
+      <Article PubModel="Print-Electronic">
+        <Journal>
+          <ISSN IssnType="Electronic">2769-755X</ISSN>
+          <JournalIssue CitedMedium="Internet">
+            <Volume>134</Volume>
+            <Issue>3</Issue>
+            <PubDate>
+              <Year>2025</Year>
+              <Month>Apr</Month>
+            </PubDate>
+          </JournalIssue>
+          <Title>Journal of psychopathology and clinical science</Title>
+          <ISOAbbreviation>J Psychopathol Clin Sci</ISOAbbreviation>
+        </Journal>
+        <ArticleTitle>Posttraumatic reexperiencing and alcohol use: Mediofrontal theta as a neural mechanism for negative reinforcement.</ArticleTitle>
+        <AuthorList CompleteYN="Y">
+          <Author ValidYN="Y">
+            <LastName>Rawls</LastName>
+            <ForeName>Eric</ForeName>
+            <Identifier Source="ORCID">0000-0002-4852-9961</Identifier>
+          </Author>
+          <Author ValidYN="Y">
+            <LastName>Marquardt</LastName>
+            <ForeName>Craig A</ForeName>
+          </Author>
+          <Author ValidYN="Y">
+            <LastName>Fix</LastName>
+            <ForeName>Spencer T</ForeName>
+          </Author>
+          <Author ValidYN="Y">
+            <LastName>Bernat</LastName>
+            <ForeName>Edward</ForeName>
+          </Author>
+          <Author ValidYN="Y">
+            <LastName>Sponheim</LastName>
+            <ForeName>Scott R</ForeName>
+          </Author>
+        </AuthorList>
+        <PublicationTypeList>
+          <PublicationType UI="D016428">Journal Article</PublicationType>
+        </PublicationTypeList>
+        <ArticleDate DateType="Electronic">
+          <Year>2025</Year>
+          <Month>02</Month>
+          <Day>03</Day>
+        </ArticleDate>
+      </Article>
+      <CommentsCorrectionsList>
+        <CommentsCorrections RefType="UpdateOf">
+          <RefSource>bioRxiv. 2023 Dec 18:2023.07.12.547253. doi: 10.1101/2023.07.12.547253.</RefSource>
+          <PMID Version="1">37502872</PMID>
+        </CommentsCorrections>
+      </CommentsCorrectionsList>
+    </MedlineCitation>
+  </PubmedArticle>
+  <PubmedArticle>
+    <MedlineCitation Status="PubMed-not-MEDLINE" Owner="NLM">
+      <PMID Version="1">37961578</PMID>
+      <Article PubModel="Electronic">
+        <Journal>
+          <ISSN IssnType="Electronic">2692-8205</ISSN>
+          <JournalIssue CitedMedium="Internet">
+            <PubDate>
+              <Year>2024</Year>
+              <Month>Jan</Month>
+              <Day>26</Day>
+            </PubDate>
+          </JournalIssue>
+          <Title>bioRxiv : the preprint server for biology</Title>
+          <ISOAbbreviation>bioRxiv</ISOAbbreviation>
+        </Journal>
+        <ArticleTitle>NeuroFreq: a MATLAB Toolbox for Time-Frequency Analysis of M/EEG Data.</ArticleTitle>
+        <AuthorList CompleteYN="Y">
+          <Author ValidYN="Y">
+            <LastName>Rawls</LastName>
+            <ForeName>Eric</ForeName>
+            <Identifier Source="ORCID">0000-0002-4852-9961</Identifier>
+          </Author>
+        </AuthorList>
+        <PublicationTypeList>
+          <PublicationType UI="D000076942">Preprint</PublicationType>
+          <PublicationType UI="D016428">Journal Article</PublicationType>
+        </PublicationTypeList>
+        <ArticleDate DateType="Electronic">
+          <Year>2024</Year>
+          <Month>01</Month>
+          <Day>26</Day>
+        </ArticleDate>
+      </Article>
+    </MedlineCitation>
+  </PubmedArticle>
+  <PubmedArticle>
+    <MedlineCitation Status="PubMed-not-MEDLINE" Owner="NLM">
+      <PMID Version="1">37502872</PMID>
+      <Article PubModel="Electronic">
+        <Journal>
+          <ISSN IssnType="Electronic">2692-8205</ISSN>
+          <JournalIssue CitedMedium="Internet">
+            <PubDate>
+              <Year>2023</Year>
+              <Month>Dec</Month>
+              <Day>18</Day>
+            </PubDate>
+          </JournalIssue>
+          <Title>bioRxiv : the preprint server for biology</Title>
+          <ISOAbbreviation>bioRxiv</ISOAbbreviation>
+        </Journal>
+        <ArticleTitle>Posttraumatic reexperiencing and alcohol use: mediofrontal theta as a neural mechanism for negative reinforcement.</ArticleTitle>
+        <AuthorList CompleteYN="Y">
+          <Author ValidYN="Y">
+            <LastName>Rawls</LastName>
+            <ForeName>Eric</ForeName>
+            <Identifier Source="ORCID">0000-0002-4852-9961</Identifier>
+          </Author>
+          <Author ValidYN="Y">
+            <LastName>Marquardt</LastName>
+            <ForeName>Craig A</ForeName>
+            <Identifier Source="ORCID">0000-0003-2714-6168</Identifier>
+          </Author>
+          <Author ValidYN="Y">
+            <LastName>Fix</LastName>
+            <ForeName>Spencer T</ForeName>
+            <Identifier Source="ORCID">0000-0003-2152-4324</Identifier>
+          </Author>
+          <Author ValidYN="Y">
+            <LastName>Bernat</LastName>
+            <ForeName>Edward</ForeName>
+            <Identifier Source="ORCID">0000-0002-7499-9545</Identifier>
+          </Author>
+          <Author ValidYN="Y">
+            <LastName>Sponheim</LastName>
+            <ForeName>Scott R</ForeName>
+            <Identifier Source="ORCID">0000-0002-2782-0856</Identifier>
+          </Author>
+        </AuthorList>
+        <PublicationTypeList>
+          <PublicationType UI="D000076942">Preprint</PublicationType>
+          <PublicationType UI="D016428">Journal Article</PublicationType>
+        </PublicationTypeList>
+        <ArticleDate DateType="Electronic">
+          <Year>2023</Year>
+          <Month>12</Month>
+          <Day>18</Day>
+        </ArticleDate>
+      </Article>
+      <CommentsCorrectionsList>
+        <CommentsCorrections RefType="UpdateIn">
+          <RefSource>J Psychopathol Clin Sci. 2025 Apr;134(3):308-318. doi: 10.1037/abn0000925.</RefSource>
+          <PMID Version="1">39899115</PMID>
+        </CommentsCorrections>
+      </CommentsCorrectionsList>
+    </MedlineCitation>
+  </PubmedArticle>
+  <PubmedArticle>
+    <MedlineCitation Status="MEDLINE" Owner="NLM" IndexingMethod="Automated">
+      <PMID Version="1">36115920</PMID>
+      <Article PubModel="Electronic">
+        <Journal>
+          <ISSN IssnType="Electronic">2045-2322</ISSN>
+          <JournalIssue CitedMedium="Internet">
+            <Volume>12</Volume>
+            <Issue>1</Issue>
+            <PubDate>
+              <Year>2022</Year>
+              <Month>Sep</Month>
+              <Day>17</Day>
+            </PubDate>
+          </JournalIssue>
+          <Title>Scientific reports</Title>
+          <ISOAbbreviation>Sci Rep</ISOAbbreviation>
+        </Journal>
+        <ArticleTitle>Explainable machine learning analysis reveals sex and gender differences in the phenotypic and neurobiological markers of Cannabis Use Disorder.</ArticleTitle>
+        <AuthorList CompleteYN="Y">
+          <Author ValidYN="Y" EqualContrib="Y">
+            <LastName>Niklason</LastName>
+            <ForeName>Gregory R</ForeName>
+          </Author>
+          <Author ValidYN="Y" EqualContrib="Y">
+            <LastName>Rawls</LastName>
+            <ForeName>Eric</ForeName>
+            <Identifier Source="ORCID">0000-0002-4852-9961</Identifier>
+          </Author>
+          <Author ValidYN="Y">
+            <LastName>Ma</LastName>
+            <ForeName>Sisi</ForeName>
+          </Author>
+          <Author ValidYN="Y">
+            <LastName>Kummerfeld</LastName>
+            <ForeName>Erich</ForeName>
+          </Author>
+          <Author ValidYN="Y">
+            <LastName>Maxwell</LastName>
+            <ForeName>Andrea M</ForeName>
+          </Author>
+          <Author ValidYN="Y">
+            <LastName>Brucar</LastName>
+            <ForeName>Leyla R</ForeName>
+          </Author>
+          <Author ValidYN="Y">
+            <LastName>Drossel</LastName>
+            <ForeName>Gunner</ForeName>
+            <Identifier Source="ORCID">0000-0003-3085-8801</Identifier>
+          </Author>
+          <Author ValidYN="Y">
+            <LastName>Zilverstand</LastName>
+            <ForeName>Anna</ForeName>
+            <Identifier Source="ORCID">0000-0002-4889-9700</Identifier>
+          </Author>
+        </AuthorList>
+        <PublicationTypeList>
+          <PublicationType UI="D016428">Journal Article</PublicationType>
+          <PublicationType UI="D013485">Research Support, Non-U.S. Gov't</PublicationType>
+          <PublicationType UI="D052061">Research Support, N.I.H., Extramural</PublicationType>
+        </PublicationTypeList>
+        <ArticleDate DateType="Electronic">
+          <Year>2022</Year>
+          <Month>09</Month>
+          <Day>17</Day>
+        </ArticleDate>
+      </Article>
+    </MedlineCitation>
+  </PubmedArticle>
+</PubmedArticleSet>
