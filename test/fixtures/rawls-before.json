@@ -1,0 +1,289 @@
+{
+  "id": "t-scholar-0000-0002-4852-9961",
+  "name": "Eric Rawls",
+  "foreName": "Eric",
+  "lastName": "Rawls",
+  "department": "",
+  "orcid": "0000-0002-4852-9961",
+  "areas": [
+    "The Neural Correlates of Impaired State Representations: a Translational Approach for the Study of Early Psychosis"
+  ],
+  "programs": [
+    "TL1"
+  ],
+  "programAssociations": [
+    {
+      "program": "TL1",
+      "startDate": "2022-08-01",
+      "endDate": "2023-07-31"
+    }
+  ],
+  "projectTitle": "The Neural Correlates of Impaired State Representations: a Translational Approach for the Study of Early Psychosis",
+  "publications": [
+    {
+      "id": "41277699",
+      "title": "Examining Causal Pathways to Suicidal Ideation and Nonsuicidal Self-Injury in the Adolescent Brain Cognitive Development Study.",
+      "journal": "Suicide & life-threatening behavior",
+      "year": 2025,
+      "doi": "10.1111/sltb.70068",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41277699/",
+      "authorship": {
+        "position": 2,
+        "total": 5,
+        "isFirst": false,
+        "isLast": false
+      }
+    },
+    {
+      "id": "40480995",
+      "title": "Mechanism-based subtyping in binge eating: understanding neurobehavioral heterogeneity across negative emotionality, approach behavior, and executive function.",
+      "journal": "Translational psychiatry",
+      "year": 2025,
+      "doi": "10.1038/s41398-025-03408-1",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40480995/",
+      "authorship": {
+        "position": 1,
+        "total": 5,
+        "isFirst": false,
+        "isLast": false
+      }
+    },
+    {
+      "id": "40462561",
+      "title": "Oscillatory and Aperiodic Contributions to EEG Event-Related Time-Frequency Metrics During Cognitive Control and Reinforcement Processing: A Registered Report.",
+      "journal": "Psychophysiology",
+      "year": 2025,
+      "doi": "10.1111/psyp.70073",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40462561/",
+      "authorship": {
+        "position": 0,
+        "total": 2,
+        "isFirst": true,
+        "isLast": false
+      }
+    },
+    {
+      "id": "39899115",
+      "title": "Posttraumatic reexperiencing and alcohol use: Mediofrontal theta as a neural mechanism for negative reinforcement.",
+      "journal": "Journal of psychopathology and clinical science",
+      "year": 2025,
+      "doi": "10.1037/abn0000925",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39899115/",
+      "authorship": {
+        "position": 0,
+        "total": 5,
+        "isFirst": true,
+        "isLast": false
+      }
+    },
+    {
+      "id": "37961578",
+      "title": "NeuroFreq: a MATLAB Toolbox for Time-Frequency Analysis of M/EEG Data.",
+      "journal": "bioRxiv : the preprint server for biology",
+      "year": 2024,
+      "doi": "10.1101/2023.11.01.565154",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37961578/",
+      "authorship": {
+        "position": 0,
+        "total": 1,
+        "isFirst": true,
+        "isLast": true
+      }
+    },
+    {
+      "id": "37502872",
+      "title": "Posttraumatic reexperiencing and alcohol use: mediofrontal theta as a neural mechanism for negative reinforcement.",
+      "journal": "bioRxiv : the preprint server for biology",
+      "year": 2023,
+      "doi": "10.1101/2023.07.12.547253",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37502872/",
+      "authorship": {
+        "position": 0,
+        "total": 5,
+        "isFirst": true,
+        "isLast": false
+      }
+    },
+    {
+      "id": "36115920",
+      "title": "Explainable machine learning analysis reveals sex and gender differences in the phenotypic and neurobiological markers of Cannabis Use Disorder.",
+      "journal": "Scientific reports",
+      "year": 2022,
+      "doi": "10.1038/s41598-022-19804-2",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36115920/",
+      "authorship": {
+        "position": 1,
+        "total": 8,
+        "isFirst": false,
+        "isLast": false
+      }
+    }
+  ],
+  "authorCounts": {
+    "first": 4,
+    "last": 1,
+    "total": 7,
+    "known": 7
+  },
+  "signals": {
+    "positive": {
+      "count": 7,
+      "yearRange": {
+        "min": 2022,
+        "max": 2025
+      },
+      "yearCounts": [
+        {
+          "year": 2022,
+          "count": 1
+        },
+        {
+          "year": 2023,
+          "count": 1
+        },
+        {
+          "year": 2024,
+          "count": 1
+        },
+        {
+          "year": 2025,
+          "count": 4
+        }
+      ],
+      "topJournals": [
+        {
+          "name": "bioRxiv : the preprint server for biology",
+          "count": 2
+        },
+        {
+          "name": "Journal of psychopathology and clinical science",
+          "count": 1
+        },
+        {
+          "name": "Psychophysiology",
+          "count": 1
+        },
+        {
+          "name": "Scientific reports",
+          "count": 1
+        },
+        {
+          "name": "Suicide & life-threatening behavior",
+          "count": 1
+        },
+        {
+          "name": "Translational psychiatry",
+          "count": 1
+        }
+      ],
+      "topKeywords": [
+        {
+          "name": "mechanism",
+          "count": 3
+        },
+        {
+          "name": "negative",
+          "count": 3
+        },
+        {
+          "name": "reinforcement",
+          "count": 3
+        },
+        {
+          "name": "use",
+          "count": 3
+        },
+        {
+          "name": "alcohol",
+          "count": 2
+        },
+        {
+          "name": "analysis",
+          "count": 2
+        },
+        {
+          "name": "cognitive",
+          "count": 2
+        },
+        {
+          "name": "eeg",
+          "count": 2
+        },
+        {
+          "name": "frequency",
+          "count": 2
+        },
+        {
+          "name": "mediofrontal",
+          "count": 2
+        },
+        {
+          "name": "neural",
+          "count": 2
+        },
+        {
+          "name": "posttraumatic",
+          "count": 2
+        }
+      ],
+      "topCoauthors": [
+        {
+          "name": "Scott R Sponheim",
+          "count": 3
+        },
+        {
+          "name": "Anna Zilverstand",
+          "count": 2
+        },
+        {
+          "name": "Craig A Marquardt",
+          "count": 2
+        },
+        {
+          "name": "Edward Bernat",
+          "count": 2
+        },
+        {
+          "name": "Erich Kummerfeld",
+          "count": 2
+        },
+        {
+          "name": "Leyla R Brucar",
+          "count": 2
+        },
+        {
+          "name": "Spencer T Fix",
+          "count": 2
+        },
+        {
+          "name": "Andrea M Maxwell",
+          "count": 1
+        },
+        {
+          "name": "Ann F Haynos",
+          "count": 1
+        },
+        {
+          "name": "Bonnie Klimes-Dougan",
+          "count": 1
+        },
+        {
+          "name": "Carol B Peterson",
+          "count": 1
+        },
+        {
+          "name": "Gregory R Niklason",
+          "count": 1
+        }
+      ]
+    },
+    "negative": {
+      "count": 0,
+      "yearRange": null,
+      "yearCounts": [],
+      "topJournals": [],
+      "topKeywords": [],
+      "topCoauthors": []
+    }
+  }
+}

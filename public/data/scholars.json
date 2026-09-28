@@ -11727,7 +11727,42 @@
             "total": 5,
             "isFirst": true,
             "isLast": false
-          }
+          },
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [
+            {
+              "type": "UpdateOf",
+              "id": "37502872"
+            }
+          ],
+          "preprintVersions": [
+            {
+              "id": "37502872",
+              "title": "Posttraumatic reexperiencing and alcohol use: mediofrontal theta as a neural mechanism for negative reinforcement.",
+              "journal": "bioRxiv : the preprint server for biology",
+              "year": 2023,
+              "doi": "10.1101/2023.07.12.547253",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/37502872/",
+              "authorship": {
+                "position": 0,
+                "total": 5,
+                "isFirst": true,
+                "isLast": false
+              },
+              "publicationTypes": [
+                "Preprint",
+                "Journal Article"
+              ],
+              "versionLinks": [
+                {
+                  "type": "UpdateIn",
+                  "id": "39899115"
+                }
+              ]
+            }
+          ]
         },
         {
           "id": "37961578",
@@ -11741,20 +11776,6 @@
             "total": 1,
             "isFirst": true,
             "isLast": true
-          }
-        },
-        {
-          "id": "37502872",
-          "title": "Posttraumatic reexperiencing and alcohol use: mediofrontal theta as a neural mechanism for negative reinforcement.",
-          "journal": "bioRxiv : the preprint server for biology",
-          "year": 2023,
-          "doi": "10.1101/2023.07.12.547253",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/37502872/",
-          "authorship": {
-            "position": 0,
-            "total": 5,
-            "isFirst": true,
-            "isLast": false
           }
         },
         {
@@ -11773,14 +11794,14 @@
         }
       ],
       "authorCounts": {
-        "first": 4,
+        "first": 3,
         "last": 1,
-        "total": 7,
-        "known": 7
+        "total": 6,
+        "known": 6
       },
       "signals": {
         "positive": {
-          "count": 7,
+          "count": 6,
           "yearRange": {
             "min": 2022,
             "max": 2025
@@ -11788,10 +11809,6 @@
           "yearCounts": [
             {
               "year": 2022,
-              "count": 1
-            },
-            {
-              "year": 2023,
               "count": 1
             },
             {
@@ -11806,7 +11823,7 @@
           "topJournals": [
             {
               "name": "bioRxiv : the preprint server for biology",
-              "count": 2
+              "count": 1
             },
             {
               "name": "Journal of psychopathology and clinical science",
@@ -11831,26 +11848,6 @@
           ],
           "topKeywords": [
             {
-              "name": "mechanism",
-              "count": 3
-            },
-            {
-              "name": "negative",
-              "count": 3
-            },
-            {
-              "name": "reinforcement",
-              "count": 3
-            },
-            {
-              "name": "use",
-              "count": 3
-            },
-            {
-              "name": "alcohol",
-              "count": 2
-            },
-            {
               "name": "analysis",
               "count": 2
             },
@@ -11867,33 +11864,41 @@
               "count": 2
             },
             {
-              "name": "mediofrontal",
+              "name": "mechanism",
               "count": 2
             },
             {
-              "name": "neural",
+              "name": "negative",
               "count": 2
             },
             {
-              "name": "posttraumatic",
+              "name": "reinforcement",
               "count": 2
+            },
+            {
+              "name": "time",
+              "count": 2
+            },
+            {
+              "name": "use",
+              "count": 2
+            },
+            {
+              "name": "across",
+              "count": 1
+            },
+            {
+              "name": "adolescent",
+              "count": 1
+            },
+            {
+              "name": "alcohol",
+              "count": 1
             }
           ],
           "topCoauthors": [
             {
-              "name": "Scott R Sponheim",
-              "count": 3
-            },
-            {
               "name": "Anna Zilverstand",
-              "count": 2
-            },
-            {
-              "name": "Craig A Marquardt",
-              "count": 2
-            },
-            {
-              "name": "Edward Bernat",
               "count": 2
             },
             {
@@ -11905,7 +11910,7 @@
               "count": 2
             },
             {
-              "name": "Spencer T Fix",
+              "name": "Scott R Sponheim",
               "count": 2
             },
             {
@@ -11925,7 +11930,19 @@
               "count": 1
             },
             {
+              "name": "Craig A Marquardt",
+              "count": 1
+            },
+            {
+              "name": "Edward Bernat",
+              "count": 1
+            },
+            {
               "name": "Gregory R Niklason",
+              "count": 1
+            },
+            {
+              "name": "Gunner Drossel",
               "count": 1
             }
           ]

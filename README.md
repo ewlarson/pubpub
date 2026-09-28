@@ -275,3 +275,13 @@ Always export DB contents into `public/data/*.json` before deploy.
 - The Vite `base` option is set to `./` to keep asset paths relative for GitHub Pages.
 - Update the UI in `src/App.jsx` and styles in `src/styles.css`.
 - Deep link to a faculty member with `?faculty=serena-xiong` or `?faculty=Serena%20Xiong` in the URL.
+
+### T Scholar publication versions
+
+When PubMed explicitly links a preprint to a journal article and both are in a
+scholar's eligible results, the T Scholars refresh counts the journal version
+once. The original preprint is retained under the journal's `preprintVersions`
+field in JSON for provenance. Standalone preprints and ambiguous or incomplete
+version links remain counted; matching titles alone do not merge publications.
+Summary statistics and CSV exports use the retained publication list and the
+journal article's publication year. See [issue #30 verification](docs/reviews/issue-30/README.md).

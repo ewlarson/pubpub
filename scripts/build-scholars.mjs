@@ -1,3 +1,5 @@
+import { buildSignals, buildAuthorCounts } from './scholar-publications.mjs';
+import { getVersionMetadata, preferPublishedVersions } from './publication-versions.mjs';
 import dotenv from 'dotenv';
 import { existsSync } from 'node:fs';
 import { readFile, writeFile } from 'node:fs/promises';
@@ -138,6 +140,7 @@ const readArticleMetadata = async (pmids, scholar) => {
   const pubDates = new Map();
   const authorshipByPmid = new Map();
   const coauthorsByPmid = new Map();
+  const versionsByPmid = new Map();
 
   for (const batch of chunk(pmids, 100)) {
     const xmlText = await fetchArticleXml(batch, EMAIL, TOOL, API_KEY);
@@ -149,6 +152,7 @@ const readArticleMetadata = async (pmids, scholar) => {
         continue;
       }
 
+      versionsByPmid.set(pmid, getVersionMetadata(citation));
       const publicationDate = parseArticleDate(article);
       if (publicationDate) {
         pubDates.set(pmid, publicationDate);
@@ -177,7 +181,7 @@ const readArticleMetadata = async (pmids, scholar) => {
     await sleep(120);
   }
 
-  return { pubDates, authorshipByPmid, coauthorsByPmid };
+  return { pubDates, authorshipByPmid, coauthorsByPmid, versionsByPmid };
 };
 
 const extractYear = (value) => {
@@ -188,7 +192,8 @@ const extractYear = (value) => {
 const extractDoi = (articleIds = []) =>
   articleIds.find((entry) => entry.idtype === 'doi')?.value || '';
 
-const mapSummary = (summary, publicationDate, authorship) => ({
+const mapSummary = (summary, publicationDate, authorship, versionMetadata) => ({
+  ...versionMetadata,
   id: summary.uid,
   title: summary.title?.trim() || `PubMed ${summary.uid}`,
   journal: summary.fulljournalname || summary.source || 'Unknown journal',
@@ -197,80 +202,6 @@ const mapSummary = (summary, publicationDate, authorship) => ({
   url: `https://pubmed.ncbi.nlm.nih.gov/${summary.uid}/`,
   ...(authorship ? { authorship } : {})
 });
-
-const STOPWORDS = new Set([
-  'a',
-  'an',
-  'and',
-  'are',
-  'as',
-  'at',
-  'be',
-  'by',
-  'for',
-  'from',
-  'in',
-  'into',
-  'is',
-  'of',
-  'on',
-  'or',
-  'the',
-  'to',
-  'with'
-]);
-
-const topValues = (values, limit) => {
-  const counts = new Map();
-  values.filter(Boolean).forEach((value) => {
-    counts.set(value, (counts.get(value) || 0) + 1);
-  });
-  return [...counts]
-    .sort((left, right) => right[1] - left[1] || left[0].localeCompare(right[0]))
-    .slice(0, limit)
-    .map(([name, count]) => ({ name, count }));
-};
-
-const buildSignals = (publications, coauthorsByPmid) => {
-  const years = publications.map((publication) => publication.year).filter(Number.isFinite);
-  const yearCounts = topValues(years.map(String), Number.POSITIVE_INFINITY)
-    .map(({ name, count }) => ({ year: Number(name), count }))
-    .sort((left, right) => left.year - right.year);
-  const keywords = publications.flatMap((publication) =>
-    String(publication.title || '')
-      .toLowerCase()
-      .replace(/[^a-z0-9]/g, ' ')
-      .split(/\s+/)
-      .filter((token) => token.length >= 3 && !STOPWORDS.has(token))
-  );
-  const coauthors = publications.flatMap(
-    (publication) => coauthorsByPmid.get(String(publication.id)) || []
-  );
-
-  return {
-    count: publications.length,
-    yearRange: years.length ? { min: Math.min(...years), max: Math.max(...years) } : null,
-    yearCounts,
-    topJournals: topValues(
-      publications.map((publication) => publication.journal),
-      10
-    ),
-    topKeywords: topValues(keywords, 12),
-    topCoauthors: topValues(coauthors, 12)
-  };
-};
-
-const buildAuthorCounts = (publications) => {
-  const known = publications.filter((publication) => publication.authorship);
-  return known.length
-    ? {
-        first: known.filter((publication) => publication.authorship.isFirst).length,
-        last: known.filter((publication) => publication.authorship.isLast).length,
-        total: publications.length,
-        known: known.length
-      }
-    : null;
-};
 
 const main = async () => {
   if (isPlaceholderNcbiEmail(EMAIL)) {
@@ -297,14 +228,14 @@ const main = async () => {
     );
 
     const pmids = await fetchPmids(term, EMAIL, TOOL, API_KEY);
-    const { pubDates, authorshipByPmid, coauthorsByPmid } =
+    const { pubDates, authorshipByPmid, coauthorsByPmid, versionsByPmid } =
       await readArticleMetadata(pmids, scholar);
     const summaries = [];
     for (const batch of chunk(pmids, 200)) {
       summaries.push(...(await fetchSummaries(batch, EMAIL, TOOL, API_KEY)));
     }
 
-    const publications = summaries
+    const candidates = summaries
       .map((summary) => {
         const publicationDate =
           pubDates.get(String(summary.uid)) || parseSummaryDate(summary.pubdate);
@@ -323,7 +254,8 @@ const main = async () => {
         mapSummary(
           summary,
           publicationDate,
-          authorshipByPmid.get(String(summary.uid))
+          authorshipByPmid.get(String(summary.uid)),
+          versionsByPmid.get(String(summary.uid))
         )
       )
       .sort(
@@ -331,6 +263,8 @@ const main = async () => {
           (right.year || 0) - (left.year || 0) ||
           left.title.localeCompare(right.title)
       );
+
+    const publications = preferPublishedVersions(candidates);
 
     results.push({
       id: scholar.id,
