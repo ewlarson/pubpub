@@ -2,6 +2,13 @@ import { Fragment, useEffect, useMemo, useRef, useState } from 'react';
 import { buildCollaborationGraph, getPublicationKey } from './collaboration.js';
 import { summarizeGrantAwards } from './grant-export.js';
 import {
+  extractCoreGrantNumber,
+  getGrantGroupInfo,
+  getGrantYear,
+  getYearFromDate,
+  summarizeGrantPortfolio
+} from './grants.js';
+import {
   formatDatasetUpdatedAt,
   watchForDatasetUpdates
 } from './data-refresh.js';
@@ -109,55 +116,6 @@ const formatProgramAssociation = (association) => {
     return association.program;
   }
   return `${association.program} (start ${formatDate(association.startDate)})`;
-};
-
-const extractCoreGrantNumber = (value) => {
-  if (!value) {
-    return '';
-  }
-  const base = String(value).split('-')[0];
-  const stripped = base.replace(/^[0-9]+/, '');
-  return (stripped || base).toUpperCase();
-};
-
-const parseGrantCore = (value) => {
-  const coreNumber = extractCoreGrantNumber(value);
-  if (!coreNumber) {
-    return { coreNumber: '', activity: '', institute: '', serial: '' };
-  }
-  const match = coreNumber.match(/^([A-Z0-9]+?)([A-Z]{2})(\d+)$/);
-  if (!match) {
-    return { coreNumber, activity: '', institute: '', serial: '' };
-  }
-  return {
-    coreNumber,
-    activity: match[1],
-    institute: match[2],
-    serial: match[3]
-  };
-};
-
-const getGrantGroupInfo = (grant) => {
-  const source = grant.coreProjectNum || grant.id || '';
-  const parsed = parseGrantCore(source);
-  if (
-    ['K99', 'R00'].includes(parsed.activity) &&
-    parsed.institute &&
-    parsed.serial
-  ) {
-    const displayNumber = `K99/R00${parsed.institute}${parsed.serial}`;
-    return {
-      key: displayNumber,
-      displayNumber,
-      type: 'K99/R00'
-    };
-  }
-  const displayNumber = parsed.coreNumber || extractCoreGrantNumber(source) || 'Unknown';
-  return {
-    key: displayNumber,
-    displayNumber,
-    type: parsed.activity || ''
-  };
 };
 
 const buildYearSeries = (publications, range) => {
@@ -452,23 +410,6 @@ const truncateLabel = (label, max = 10) => {
   }
   return `${text.slice(0, max - 3)}...`;
 };
-
-const getYearFromDate = (value) => {
-  if (!value) {
-    return null;
-  }
-  const match = String(value).match(/^(\d{4})/);
-  if (!match) {
-    return null;
-  }
-  const year = Number(match[1]);
-  return Number.isFinite(year) ? year : null;
-};
-
-const getGrantYear = (grant) =>
-  (Number.isFinite(grant?.fiscalYear) && grant.fiscalYear) ||
-  getYearFromDate(grant?.startDate) ||
-  getYearFromDate(grant?.endDate);
 
 const getAuthorshipCategory = (authorship) => {
   if (!authorship) {
@@ -2252,23 +2193,13 @@ export default function App() {
     );
   }, [filteredPublications]);
 
-  const totalGrants = useMemo(() => {
-    return filteredGrants.reduce(
-      (sum, member) => sum + member.grantCount,
-      0
-    );
-  }, [filteredGrants]);
-
-  const totalGrantAmount = useMemo(() => {
-    return filteredGrants.reduce(
-      (sum, member) => sum + (member.totalAmount || 0),
-      0
-    );
-  }, [filteredGrants]);
-
-  const hasGrantAmounts = useMemo(() => {
-    return filteredGrants.some((member) => member.hasAmount);
-  }, [filteredGrants]);
+  const grantPortfolio = useMemo(
+    () => summarizeGrantPortfolio(filteredGrants),
+    [filteredGrants]
+  );
+  const totalGrants = grantPortfolio.projectCount;
+  const totalGrantAmount = grantPortfolio.totalAmount;
+  const hasGrantAmounts = grantPortfolio.hasAmounts;
 
   const allPublications = useMemo(
     () => filteredPublications.flatMap((member) => member.filteredPublications),
@@ -2539,30 +2470,7 @@ export default function App() {
     [visibleAuthorshipSegments]
   );
 
-  const grantYearSeries = useMemo(() => {
-    const totals = new Map();
-    const counts = new Map();
-    filteredGrants.forEach((member) => {
-      (member.filteredGrants || []).forEach((grant) => {
-        const year = getGrantYear(grant);
-        if (!year) {
-          return;
-        }
-        counts.set(year, (counts.get(year) || 0) + 1);
-        if (Number.isFinite(grant.amount)) {
-          totals.set(year, (totals.get(year) || 0) + grant.amount);
-        }
-      });
-    });
-    const years = Array.from(
-      new Set([...totals.keys(), ...counts.keys()])
-    ).sort((a, b) => a - b);
-    return years.map((year) => ({
-      year,
-      total: totals.get(year) || 0,
-      count: counts.get(year) || 0
-    }));
-  }, [filteredGrants]);
+  const grantYearSeries = grantPortfolio.yearSeries;
 
   const grantYearSeriesTrimmed = useMemo(
     () => trimSeries(grantYearSeries, 8),
@@ -2579,23 +2487,12 @@ export default function App() {
   );
 
   const grantTypeSegments = useMemo(() => {
-    const counts = new Map();
-    filteredGrants.forEach((member) => {
-      member.groupedGrants.forEach((group) => {
-        const label = group.type || 'Other';
-        counts.set(label, (counts.get(label) || 0) + 1);
-      });
-    });
-    const collapsed = collapseSegments(
-      Array.from(counts, ([label, value]) => ({ label, value })),
-      5,
-      'Other'
-    );
+    const collapsed = collapseSegments(grantPortfolio.typeCounts, 5, 'Other');
     return collapsed.map((segment, index) => ({
       ...segment,
       color: CHART_COLORS[index % CHART_COLORS.length]
     }));
-  }, [filteredGrants]);
+  }, [grantPortfolio.typeCounts]);
 
   const grantTypeTotal = useMemo(
     () => grantTypeSegments.reduce((sum, segment) => sum + segment.value, 0),
@@ -2776,8 +2673,9 @@ export default function App() {
       return null;
     }
     const year = selection.label;
-    let totalAmount = 0;
-    let awardCount = 0;
+    const yearSummary = grantYearSeries.find((entry) => entry.year === year);
+    const totalAmount = yearSummary?.total || 0;
+    const awardCount = yearSummary?.count || 0;
     const facultyTotals = filteredGrants.map((member) => {
       let memberAmount = 0;
       let memberCount = 0;
@@ -2789,10 +2687,6 @@ export default function App() {
         if (Number.isFinite(grant.amount)) {
           memberAmount += grant.amount;
         }
-        if (Number.isFinite(grant.amount)) {
-          totalAmount += grant.amount;
-        }
-        awardCount += 1;
       });
       return {
         name: member.name,
@@ -2822,7 +2716,7 @@ export default function App() {
       title: `Fiscal year ${year}`,
       lines
     };
-  }, [chartSelections.grantYear, filteredGrants, hasGrantAmounts]);
+  }, [chartSelections.grantYear, filteredGrants, grantYearSeries, hasGrantAmounts]);
 
   const grantTypeDetail = useMemo(() => {
     const selection = chartSelections.grantType;
@@ -3408,6 +3302,12 @@ export default function App() {
             <span className="tag">Source: {activeData.source}</span>
           ) : null}
         </div>
+        {isGrants ? (
+          <p className="muted">
+            Overall totals and fiscal-year charts count shared awards once.
+            Faculty totals and CSV exports may overlap.
+          </p>
+        ) : null}
       </header>
 
       <section className="panel">

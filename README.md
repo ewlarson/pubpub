@@ -32,6 +32,12 @@ npm run preview
 
 ## CSV exports
 
+On the Grants tab, overall funding and fiscal-year charts count each annual
+award once across faculty, using its grant ID and fiscal year. Project totals
+and the grant-type chart count unique project groups. Faculty totals and CSV
+exports retain each faculty association, so their amounts may overlap when
+faculty share an award.
+
 On the Grants tab, **Download Detailed CSV** exports one row per faculty member
 and Group Number, using the same groups as the dashboard. Amount is the sum of
 the group's available annual award amounts; Start Date is the earliest known

@@ -20,7 +20,7 @@ to NIH name matching.
 
 ## Automated proof
 
-`npm run check` passes: lint, **22 tests**, and production build. Five new tests
+`npm run check` passes: lint, **29 tests**, and production build. Five new tests
 cover the specific awards and future renewals/supplements, preservation of
 other U01 grants and other faculty, and the corrected checked-in data.
 Integration coverage executes the real build script twice against a local API
@@ -45,3 +45,5 @@ are preserved. Tests use isolated temporary databases and no live NIH service.
 ### After
 
 ![Mark Osborn search returns zero grant projects](after.png)
+
+The same PR also corrects shared-award totals; see [shared funding verification](../shared-funding/README.md) for the seven additional regression tests and screenshots.
