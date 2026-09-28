@@ -1,5 +1,6 @@
 import { Fragment, useEffect, useMemo, useRef, useState } from 'react';
 import { buildCollaborationGraph, getPublicationKey } from './collaboration.js';
+import { summarizeGrantAwards } from './grant-export.js';
 import {
   formatDatasetUpdatedAt,
   watchForDatasetUpdates
@@ -3141,23 +3142,25 @@ export default function App() {
       ...filterHeaders
     ];
     const rows = filteredGrants.flatMap((member) =>
-      (member.grants || []).map((grant) => {
-        const groupInfo = getGrantGroupInfo(grant);
+      member.groupedGrants.map((group) => {
+        const summary = summarizeGrantAwards(group.awards);
         return [
           member.name || '',
           member.department || '',
           joinList(member.programs || []),
-          groupInfo.type || '—',
-          groupInfo.displayNumber || '—',
-          grant.id || '—',
-          grant.coreProjectNum || extractCoreGrantNumber(grant.id) || '—',
-          grant.role || '—',
-          Number.isFinite(grant.amount) ? grant.amount : '—',
-          grant.startDate ? formatDate(grant.startDate) : '—',
-          grant.endDate ? formatDate(grant.endDate) : '—',
-          Number.isFinite(grant.fiscalYear) ? grant.fiscalYear : '—',
-          grant.title || '—',
-          grant.url || '—',
+          group.type || '—',
+          group.coreNumber || '—',
+          joinList(summary.ids),
+          joinList([...new Set(group.awards.map((grant) =>
+            grant.coreProjectNum || extractCoreGrantNumber(grant.id)
+          ).filter(Boolean))]),
+          joinList(summary.roles),
+          summary.amount ?? '—',
+          summary.startDate ? formatDate(summary.startDate) : '—',
+          summary.endDate ? formatDate(summary.endDate) : '—',
+          joinList(summary.fiscalYears),
+          joinList(summary.titles),
+          joinList(summary.urls),
           ...filterValues
         ];
       })

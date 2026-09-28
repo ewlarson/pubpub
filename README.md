@@ -30,6 +30,16 @@ Preview the production build locally:
 npm run preview
 ```
 
+## CSV exports
+
+On the Grants tab, **Download Detailed CSV** exports one row per faculty member
+and Group Number, using the same groups as the dashboard. Amount is the sum of
+the group's available annual award amounts; Start Date is the earliest known
+start and End Date is the latest known end. Unknown amounts stay blank-marked
+(`—`), while zero remains numeric. Distinct grant IDs, core project numbers,
+roles, fiscal years, titles, and URLs are joined with ` | ` so no year's metadata
+is silently discarded. The export follows the current faculty filters.
+
 ## Data
 
 This project is hosted on GitHub Pages, so runtime data must remain static JSON files:
