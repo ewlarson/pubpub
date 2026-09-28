@@ -1,0 +1,1384 @@
+{
+  "32511661": {
+    "publicationTypes": [
+      "Preprint",
+      "Journal Article"
+    ],
+    "versionLinks": [
+      {
+        "type": "UpdateIn",
+        "id": "33125442"
+      }
+    ]
+  },
+  "32587986": {
+    "publicationTypes": [
+      "Preprint",
+      "Journal Article"
+    ],
+    "versionLinks": [
+      {
+        "type": "UpdateIn",
+        "id": "33232377"
+      }
+    ]
+  },
+  "32607520": {
+    "publicationTypes": [
+      "Preprint",
+      "Journal Article"
+    ],
+    "versionLinks": [
+      {
+        "type": "UpdateIn",
+        "id": "33521772"
+      }
+    ]
+  },
+  "32743591": {
+    "publicationTypes": [
+      "Preprint",
+      "Journal Article"
+    ],
+    "versionLinks": [
+      {
+        "type": "UpdateIn",
+        "id": "33204764"
+      }
+    ]
+  },
+  "32909015": {
+    "publicationTypes": [
+      "Preprint",
+      "Journal Article"
+    ],
+    "versionLinks": [
+      {
+        "type": "UpdateIn",
+        "id": "34003427"
+      }
+    ]
+  },
+  "32995813": {
+    "publicationTypes": [
+      "Preprint",
+      "Journal Article"
+    ],
+    "versionLinks": [
+      {
+        "type": "UpdateIn",
+        "id": "33788884"
+      }
+    ]
+  },
+  "32995820": {
+    "publicationTypes": [
+      "Preprint",
+      "Journal Article"
+    ],
+    "versionLinks": [
+      {
+        "type": "UpdateIn",
+        "id": "33068425"
+      }
+    ]
+  },
+  "33068425": {
+    "publicationTypes": [
+      "Journal Article",
+      "Randomized Controlled Trial",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ],
+    "versionLinks": [
+      {
+        "type": "UpdateOf",
+        "id": "32995820"
+      }
+    ]
+  },
+  "33125442": {
+    "publicationTypes": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ],
+    "versionLinks": [
+      {
+        "type": "UpdateOf",
+        "id": "32511661"
+      }
+    ]
+  },
+  "33204764": {
+    "publicationTypes": [
+      "Journal Article"
+    ],
+    "versionLinks": [
+      {
+        "type": "UpdateOf",
+        "id": "32743591"
+      }
+    ]
+  },
+  "33215168": {
+    "publicationTypes": [
+      "Preprint",
+      "Journal Article"
+    ],
+    "versionLinks": [
+      {
+        "type": "UpdateIn",
+        "id": "34632800"
+      }
+    ]
+  },
+  "33232377": {
+    "publicationTypes": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ],
+    "versionLinks": [
+      {
+        "type": "UpdateOf",
+        "id": "32587986"
+      }
+    ]
+  },
+  "33521772": {
+    "publicationTypes": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ],
+    "versionLinks": [
+      {
+        "type": "UpdateOf",
+        "id": "32607520"
+      }
+    ]
+  },
+  "33788884": {
+    "publicationTypes": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ],
+    "versionLinks": [
+      {
+        "type": "UpdateOf",
+        "id": "32995813"
+      }
+    ]
+  },
+  "34003427": {
+    "publicationTypes": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, U.S. Gov't, P.H.S."
+    ],
+    "versionLinks": [
+      {
+        "type": "UpdateOf",
+        "id": "32909015"
+      }
+    ]
+  },
+  "34632800": {
+    "publicationTypes": [
+      "Clinical Trial Protocol",
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ],
+    "versionLinks": [
+      {
+        "type": "UpdateOf",
+        "id": "33215168"
+      }
+    ]
+  },
+  "34815984": {
+    "publicationTypes": [
+      "Preprint",
+      "Journal Article"
+    ],
+    "versionLinks": [
+      {
+        "type": "UpdateIn",
+        "id": "39027641"
+      }
+    ]
+  },
+  "35262095": {
+    "publicationTypes": [
+      "Preprint",
+      "Journal Article"
+    ],
+    "versionLinks": [
+      {
+        "type": "UpdateIn",
+        "id": "35703544"
+      }
+    ]
+  },
+  "35703544": {
+    "publicationTypes": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ],
+    "versionLinks": [
+      {
+        "type": "UpdateOf",
+        "id": "35262095"
+      }
+    ]
+  },
+  "36093353": {
+    "publicationTypes": [
+      "Preprint",
+      "Journal Article"
+    ],
+    "versionLinks": [
+      {
+        "type": "UpdateIn",
+        "id": "36400170"
+      }
+    ]
+  },
+  "36299427": {
+    "publicationTypes": [
+      "Journal Article",
+      "Preprint"
+    ],
+    "versionLinks": [
+      {
+        "type": "UpdateIn",
+        "id": "36633838"
+      }
+    ]
+  },
+  "36400170": {
+    "publicationTypes": [
+      "Observational Study",
+      "Journal Article"
+    ],
+    "versionLinks": [
+      {
+        "type": "UpdateOf",
+        "id": "36093353"
+      }
+    ]
+  },
+  "36482974": {
+    "publicationTypes": [
+      "Preprint",
+      "Journal Article"
+    ],
+    "versionLinks": [
+      {
+        "type": "UpdateIn",
+        "id": "37125061"
+      }
+    ]
+  },
+  "36597543": {
+    "publicationTypes": [
+      "Journal Article",
+      "Preprint"
+    ],
+    "versionLinks": [
+      {
+        "type": "UpdateIn",
+        "id": "37302406"
+      }
+    ]
+  },
+  "36633838": {
+    "publicationTypes": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ],
+    "versionLinks": [
+      {
+        "type": "UpdateOf",
+        "id": "36299427"
+      }
+    ]
+  },
+  "36747843": {
+    "publicationTypes": [
+      "Preprint",
+      "Journal Article"
+    ],
+    "versionLinks": [
+      {
+        "type": "UpdateIn",
+        "id": "39265573"
+      }
+    ]
+  },
+  "36824797": {
+    "publicationTypes": [
+      "Preprint",
+      "Journal Article"
+    ],
+    "versionLinks": [
+      {
+        "type": "UpdateIn",
+        "id": "38083374"
+      }
+    ]
+  },
+  "37125061": {
+    "publicationTypes": [
+      "Journal Article"
+    ],
+    "versionLinks": [
+      {
+        "type": "UpdateOf",
+        "id": "36482974"
+      }
+    ]
+  },
+  "37131624": {
+    "publicationTypes": [
+      "Preprint",
+      "Journal Article"
+    ],
+    "versionLinks": [
+      {
+        "type": "UpdateIn",
+        "id": "37965295"
+      }
+    ]
+  },
+  "37205602": {
+    "publicationTypes": [
+      "Preprint",
+      "Journal Article"
+    ],
+    "versionLinks": [
+      {
+        "type": "UpdateIn",
+        "id": "38212425"
+      }
+    ]
+  },
+  "37302406": {
+    "publicationTypes": [
+      "Randomized Controlled Trial",
+      "Multicenter Study",
+      "Clinical Trial, Phase III",
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ],
+    "versionLinks": [
+      {
+        "type": "UpdateOf",
+        "id": "36597543"
+      }
+    ]
+  },
+  "37333243": {
+    "publicationTypes": [
+      "Journal Article",
+      "Preprint"
+    ],
+    "versionLinks": [
+      {
+        "type": "UpdateIn",
+        "id": "38690892"
+      }
+    ]
+  },
+  "37503212": {
+    "publicationTypes": [
+      "Preprint",
+      "Journal Article"
+    ],
+    "versionLinks": [
+      {
+        "type": "UpdateIn",
+        "id": "39043677"
+      }
+    ]
+  },
+  "37732180": {
+    "publicationTypes": [
+      "Preprint",
+      "Journal Article"
+    ],
+    "versionLinks": [
+      {
+        "type": "UpdateIn",
+        "id": "38776417"
+      }
+    ]
+  },
+  "37732184": {
+    "publicationTypes": [
+      "Journal Article",
+      "Preprint"
+    ],
+    "versionLinks": [
+      {
+        "type": "UpdateIn",
+        "id": "39316596"
+      }
+    ]
+  },
+  "37961711": {
+    "publicationTypes": [
+      "Preprint",
+      "Journal Article"
+    ],
+    "versionLinks": [
+      {
+        "type": "UpdateIn",
+        "id": "40066348"
+      }
+    ]
+  },
+  "37965295": {
+    "publicationTypes": [
+      "Journal Article"
+    ],
+    "versionLinks": [
+      {
+        "type": "UpdateOf",
+        "id": "37131624"
+      }
+    ]
+  },
+  "38083374": {
+    "publicationTypes": [
+      "Journal Article"
+    ],
+    "versionLinks": [
+      {
+        "type": "UpdateOf",
+        "id": "36824797"
+      }
+    ]
+  },
+  "38212425": {
+    "publicationTypes": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ],
+    "versionLinks": [
+      {
+        "type": "UpdateOf",
+        "id": "37205602"
+      }
+    ]
+  },
+  "38352606": {
+    "publicationTypes": [
+      "Preprint",
+      "Journal Article"
+    ],
+    "versionLinks": [
+      {
+        "type": "UpdateIn",
+        "id": "38868551"
+      }
+    ]
+  },
+  "38464296": {
+    "publicationTypes": [
+      "Preprint",
+      "Journal Article"
+    ],
+    "versionLinks": [
+      {
+        "type": "UpdateIn",
+        "id": "39162406"
+      }
+    ]
+  },
+  "38690892": {
+    "publicationTypes": [
+      "Journal Article",
+      "Randomized Controlled Trial",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ],
+    "versionLinks": [
+      {
+        "type": "UpdateOf",
+        "id": "37333243"
+      }
+    ]
+  },
+  "38776417": {
+    "publicationTypes": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't",
+      "Research Support, N.I.H., Extramural"
+    ],
+    "versionLinks": [
+      {
+        "type": "UpdateOf",
+        "id": "37732180"
+      }
+    ]
+  },
+  "38798524": {
+    "publicationTypes": [
+      "Journal Article",
+      "Preprint"
+    ],
+    "versionLinks": [
+      {
+        "type": "UpdateIn",
+        "id": "39422912"
+      }
+    ]
+  },
+  "38853937": {
+    "publicationTypes": [
+      "Journal Article",
+      "Preprint"
+    ],
+    "versionLinks": [
+      {
+        "type": "UpdateIn",
+        "id": "39257484"
+      }
+    ]
+  },
+  "38854002": {
+    "publicationTypes": [
+      "Journal Article",
+      "Preprint"
+    ],
+    "versionLinks": [
+      {
+        "type": "UpdateIn",
+        "id": "39928682"
+      }
+    ]
+  },
+  "38868551": {
+    "publicationTypes": [
+      "Journal Article"
+    ],
+    "versionLinks": [
+      {
+        "type": "UpdateOf",
+        "id": "38352606"
+      }
+    ]
+  },
+  "38915701": {
+    "publicationTypes": [
+      "Journal Article",
+      "Preprint"
+    ],
+    "versionLinks": [
+      {
+        "type": "UpdateIn",
+        "id": "39580621"
+      }
+    ]
+  },
+  "39005329": {
+    "publicationTypes": [
+      "Journal Article",
+      "Preprint"
+    ],
+    "versionLinks": [
+      {
+        "type": "UpdateIn",
+        "id": "40053881"
+      }
+    ]
+  },
+  "39027641": {
+    "publicationTypes": [
+      "Journal Article"
+    ],
+    "versionLinks": [
+      {
+        "type": "UpdateOf",
+        "id": "34815984"
+      }
+    ]
+  },
+  "39043677": {
+    "publicationTypes": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ],
+    "versionLinks": [
+      {
+        "type": "UpdateOf",
+        "id": "37503212"
+      }
+    ]
+  },
+  "39131340": {
+    "publicationTypes": [
+      "Journal Article",
+      "Preprint"
+    ],
+    "versionLinks": [
+      {
+        "type": "UpdateIn",
+        "id": "41167582"
+      }
+    ]
+  },
+  "39162406": {
+    "publicationTypes": [
+      "Journal Article"
+    ],
+    "versionLinks": [
+      {
+        "type": "UpdateOf",
+        "id": "38464296"
+      }
+    ]
+  },
+  "39211848": {
+    "publicationTypes": [
+      "Journal Article",
+      "Preprint"
+    ],
+    "versionLinks": [
+      {
+        "type": "UpdateIn",
+        "id": "39818340"
+      }
+    ]
+  },
+  "39229220": {
+    "publicationTypes": [
+      "Journal Article",
+      "Preprint"
+    ],
+    "versionLinks": [
+      {
+        "type": "UpdateIn",
+        "id": "40319158"
+      }
+    ]
+  },
+  "39257484": {
+    "publicationTypes": [
+      "Journal Article"
+    ],
+    "versionLinks": [
+      {
+        "type": "UpdateOf",
+        "id": "38853937"
+      }
+    ]
+  },
+  "39265573": {
+    "publicationTypes": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't",
+      "Research Support, N.I.H., Extramural"
+    ],
+    "versionLinks": [
+      {
+        "type": "UpdateOf",
+        "id": "36747843"
+      }
+    ]
+  },
+  "39282381": {
+    "publicationTypes": [
+      "Journal Article",
+      "Preprint"
+    ],
+    "versionLinks": [
+      {
+        "type": "UpdateIn",
+        "id": "40163550"
+      }
+    ]
+  },
+  "39316596": {
+    "publicationTypes": [
+      "Journal Article"
+    ],
+    "versionLinks": [
+      {
+        "type": "UpdateOf",
+        "id": "37732184"
+      }
+    ]
+  },
+  "39422912": {
+    "publicationTypes": [
+      "Journal Article",
+      "Randomized Controlled Trial",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ],
+    "versionLinks": [
+      {
+        "type": "UpdateOf",
+        "id": "38798524"
+      }
+    ]
+  },
+  "39575114": {
+    "publicationTypes": [
+      "Journal Article",
+      "Preprint"
+    ],
+    "versionLinks": [
+      {
+        "type": "UpdateIn",
+        "id": "39673775"
+      }
+    ]
+  },
+  "39580621": {
+    "publicationTypes": [
+      "Journal Article",
+      "Case Reports"
+    ],
+    "versionLinks": [
+      {
+        "type": "UpdateOf",
+        "id": "38915701"
+      }
+    ]
+  },
+  "39605361": {
+    "publicationTypes": [
+      "Journal Article",
+      "Preprint"
+    ],
+    "versionLinks": [
+      {
+        "type": "UpdateIn",
+        "id": "40698974"
+      }
+    ]
+  },
+  "39649582": {
+    "publicationTypes": [
+      "Journal Article",
+      "Preprint"
+    ],
+    "versionLinks": [
+      {
+        "type": "UpdateIn",
+        "id": "40528765"
+      }
+    ]
+  },
+  "39651243": {
+    "publicationTypes": [
+      "Journal Article",
+      "Preprint"
+    ],
+    "versionLinks": [
+      {
+        "type": "UpdateIn",
+        "id": "42362568"
+      }
+    ]
+  },
+  "39673775": {
+    "publicationTypes": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ],
+    "versionLinks": [
+      {
+        "type": "UpdateOf",
+        "id": "39575114"
+      }
+    ]
+  },
+  "39713297": {
+    "publicationTypes": [
+      "Journal Article",
+      "Preprint"
+    ],
+    "versionLinks": [
+      {
+        "type": "UpdateIn",
+        "id": "40076609"
+      }
+    ]
+  },
+  "39761108": {
+    "publicationTypes": [
+      "Journal Article"
+    ],
+    "versionLinks": [
+      {
+        "type": "UpdateOf",
+        "id": "39802785"
+      }
+    ]
+  },
+  "39764001": {
+    "publicationTypes": [
+      "Journal Article",
+      "Preprint"
+    ],
+    "versionLinks": [
+      {
+        "type": "UpdateIn",
+        "id": "40906918"
+      }
+    ]
+  },
+  "39802785": {
+    "publicationTypes": [
+      "Journal Article",
+      "Preprint"
+    ],
+    "versionLinks": [
+      {
+        "type": "UpdateIn",
+        "id": "39761108"
+      }
+    ]
+  },
+  "39802789": {
+    "publicationTypes": [
+      "Journal Article",
+      "Preprint"
+    ],
+    "versionLinks": [
+      {
+        "type": "UpdateIn",
+        "id": "41136374"
+      }
+    ]
+  },
+  "39818340": {
+    "publicationTypes": [
+      "Journal Article"
+    ],
+    "versionLinks": [
+      {
+        "type": "UpdateOf",
+        "id": "39211848"
+      }
+    ]
+  },
+  "39928682": {
+    "publicationTypes": [
+      "Journal Article"
+    ],
+    "versionLinks": [
+      {
+        "type": "UpdateOf",
+        "id": "38854002"
+      }
+    ]
+  },
+  "39974972": {
+    "publicationTypes": [
+      "Journal Article",
+      "Preprint"
+    ],
+    "versionLinks": [
+      {
+        "type": "UpdateIn",
+        "id": "41946477"
+      }
+    ]
+  },
+  "39975425": {
+    "publicationTypes": [
+      "Journal Article",
+      "Preprint"
+    ],
+    "versionLinks": [
+      {
+        "type": "UpdateIn",
+        "id": "41044403"
+      }
+    ]
+  },
+  "40053881": {
+    "publicationTypes": [
+      "Journal Article",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ],
+    "versionLinks": [
+      {
+        "type": "UpdateOf",
+        "id": "39005329"
+      }
+    ]
+  },
+  "40066348": {
+    "publicationTypes": [
+      "Journal Article"
+    ],
+    "versionLinks": [
+      {
+        "type": "UpdateOf",
+        "id": "37961711"
+      }
+    ]
+  },
+  "40076609": {
+    "publicationTypes": [
+      "Journal Article"
+    ],
+    "versionLinks": [
+      {
+        "type": "UpdateOf",
+        "id": "39713297"
+      }
+    ]
+  },
+  "40093075": {
+    "publicationTypes": [
+      "Journal Article",
+      "Preprint"
+    ],
+    "versionLinks": [
+      {
+        "type": "UpdateIn",
+        "id": "41208107"
+      }
+    ]
+  },
+  "40163550": {
+    "publicationTypes": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ],
+    "versionLinks": [
+      {
+        "type": "UpdateOf",
+        "id": "39282381"
+      }
+    ]
+  },
+  "40196586": {
+    "publicationTypes": [
+      "Journal Article",
+      "Preprint"
+    ],
+    "versionLinks": [
+      {
+        "type": "UpdateIn",
+        "id": "40674622"
+      }
+    ]
+  },
+  "40319158": {
+    "publicationTypes": [
+      "Journal Article"
+    ],
+    "versionLinks": [
+      {
+        "type": "UpdateOf",
+        "id": "39229220"
+      }
+    ]
+  },
+  "40463557": {
+    "publicationTypes": [
+      "Journal Article",
+      "Preprint"
+    ],
+    "versionLinks": [
+      {
+        "type": "UpdateIn",
+        "id": "41684849"
+      }
+    ]
+  },
+  "40475604": {
+    "publicationTypes": [
+      "Journal Article",
+      "Preprint"
+    ],
+    "versionLinks": [
+      {
+        "type": "UpdateIn",
+        "id": "41448140"
+      }
+    ]
+  },
+  "40502057": {
+    "publicationTypes": [
+      "Journal Article",
+      "Preprint"
+    ],
+    "versionLinks": [
+      {
+        "type": "UpdateIn",
+        "id": "40996037"
+      }
+    ]
+  },
+  "40528765": {
+    "publicationTypes": [
+      "Journal Article"
+    ],
+    "versionLinks": [
+      {
+        "type": "UpdateOf",
+        "id": "39649582"
+      }
+    ]
+  },
+  "40658388": {
+    "publicationTypes": [
+      "Journal Article",
+      "Randomized Controlled Trial",
+      "Multicenter Study",
+      "Research Support, N.I.H., Extramural"
+    ],
+    "versionLinks": [
+      {
+        "type": "UpdateOf",
+        "id": "41030935"
+      }
+    ]
+  },
+  "40667227": {
+    "publicationTypes": [
+      "Journal Article",
+      "Preprint"
+    ],
+    "versionLinks": [
+      {
+        "type": "UpdateIn",
+        "id": "41754775"
+      }
+    ]
+  },
+  "40674622": {
+    "publicationTypes": [
+      "Journal Article"
+    ],
+    "versionLinks": [
+      {
+        "type": "UpdateOf",
+        "id": "40196586"
+      }
+    ]
+  },
+  "40698974": {
+    "publicationTypes": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ],
+    "versionLinks": [
+      {
+        "type": "UpdateOf",
+        "id": "39605361"
+      }
+    ]
+  },
+  "40832291": {
+    "publicationTypes": [
+      "Journal Article",
+      "Preprint"
+    ],
+    "versionLinks": [
+      {
+        "type": "UpdateIn",
+        "id": "42383160"
+      }
+    ]
+  },
+  "40832427": {
+    "publicationTypes": [
+      "Journal Article",
+      "Preprint"
+    ],
+    "versionLinks": [
+      {
+        "type": "UpdateIn",
+        "id": "42240559"
+      }
+    ]
+  },
+  "40906918": {
+    "publicationTypes": [
+      "Journal Article"
+    ],
+    "versionLinks": [
+      {
+        "type": "UpdateOf",
+        "id": "39764001"
+      }
+    ]
+  },
+  "40996037": {
+    "publicationTypes": [
+      "Journal Article"
+    ],
+    "versionLinks": [
+      {
+        "type": "UpdateOf",
+        "id": "40502057"
+      }
+    ]
+  },
+  "41030935": {
+    "publicationTypes": [
+      "Journal Article",
+      "Preprint"
+    ],
+    "versionLinks": [
+      {
+        "type": "UpdateIn",
+        "id": "40658388"
+      }
+    ]
+  },
+  "41044403": {
+    "publicationTypes": [
+      "Journal Article"
+    ],
+    "versionLinks": [
+      {
+        "type": "UpdateOf",
+        "id": "39975425"
+      }
+    ]
+  },
+  "41136374": {
+    "publicationTypes": [
+      "Journal Article"
+    ],
+    "versionLinks": [
+      {
+        "type": "UpdateOf",
+        "id": "39802789"
+      }
+    ]
+  },
+  "41167582": {
+    "publicationTypes": [
+      "Journal Article"
+    ],
+    "versionLinks": [
+      {
+        "type": "UpdateOf",
+        "id": "39131340"
+      }
+    ]
+  },
+  "41208107": {
+    "publicationTypes": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't",
+      "Research Support, N.I.H., Extramural"
+    ],
+    "versionLinks": [
+      {
+        "type": "UpdateOf",
+        "id": "40093075"
+      }
+    ]
+  },
+  "41279417": {
+    "publicationTypes": [
+      "Journal Article",
+      "Preprint"
+    ],
+    "versionLinks": [
+      {
+        "type": "UpdateIn",
+        "id": "41524447"
+      }
+    ]
+  },
+  "41332612": {
+    "publicationTypes": [
+      "Journal Article",
+      "Preprint"
+    ],
+    "versionLinks": [
+      {
+        "type": "UpdateIn",
+        "id": "41946751"
+      }
+    ]
+  },
+  "41427390": {
+    "publicationTypes": [
+      "Journal Article",
+      "Preprint"
+    ],
+    "versionLinks": [
+      {
+        "type": "UpdateIn",
+        "id": "42275495"
+      }
+    ]
+  },
+  "41448140": {
+    "publicationTypes": [
+      "Journal Article"
+    ],
+    "versionLinks": [
+      {
+        "type": "UpdateOf",
+        "id": "40475604"
+      }
+    ]
+  },
+  "41524447": {
+    "publicationTypes": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ],
+    "versionLinks": [
+      {
+        "type": "UpdateOf",
+        "id": "41279417"
+      }
+    ]
+  },
+  "41684849": {
+    "publicationTypes": [
+      "Journal Article"
+    ],
+    "versionLinks": [
+      {
+        "type": "UpdateOf",
+        "id": "40463557"
+      }
+    ]
+  },
+  "41754775": {
+    "publicationTypes": [
+      "Journal Article"
+    ],
+    "versionLinks": [
+      {
+        "type": "UpdateOf",
+        "id": "40667227"
+      }
+    ]
+  },
+  "41757025": {
+    "publicationTypes": [
+      "Journal Article",
+      "Preprint"
+    ],
+    "versionLinks": [
+      {
+        "type": "UpdateIn",
+        "id": "42587136"
+      }
+    ]
+  },
+  "41946477": {
+    "publicationTypes": [
+      "Journal Article"
+    ],
+    "versionLinks": [
+      {
+        "type": "UpdateOf",
+        "id": "39974972"
+      }
+    ]
+  },
+  "41946751": {
+    "publicationTypes": [
+      "Journal Article"
+    ],
+    "versionLinks": [
+      {
+        "type": "UpdateOf",
+        "id": "41332612"
+      }
+    ]
+  },
+  "42006772": {
+    "publicationTypes": [
+      "Journal Article",
+      "Preprint"
+    ],
+    "versionLinks": [
+      {
+        "type": "UpdateIn",
+        "id": "42683542"
+      }
+    ]
+  },
+  "42240559": {
+    "publicationTypes": [
+      "Journal Article"
+    ],
+    "versionLinks": [
+      {
+        "type": "UpdateOf",
+        "id": "40832427"
+      }
+    ]
+  },
+  "42275495": {
+    "publicationTypes": [
+      "Journal Article"
+    ],
+    "versionLinks": [
+      {
+        "type": "UpdateOf",
+        "id": "41427390"
+      }
+    ]
+  },
+  "42362568": {
+    "publicationTypes": [
+      "Journal Article"
+    ],
+    "versionLinks": [
+      {
+        "type": "UpdateOf",
+        "id": "39651243"
+      }
+    ]
+  },
+  "42383160": {
+    "publicationTypes": [
+      "Journal Article"
+    ],
+    "versionLinks": [
+      {
+        "type": "UpdateOf",
+        "id": "40832291"
+      }
+    ]
+  },
+  "42587136": {
+    "publicationTypes": [
+      "Journal Article"
+    ],
+    "versionLinks": [
+      {
+        "type": "UpdateOf",
+        "id": "41757025"
+      }
+    ]
+  },
+  "42683542": {
+    "publicationTypes": [
+      "Journal Article"
+    ],
+    "versionLinks": [
+      {
+        "type": "UpdateOf",
+        "id": "42006772"
+      }
+    ]
+  }
+}

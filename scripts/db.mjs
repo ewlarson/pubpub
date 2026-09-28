@@ -148,6 +148,9 @@ export const initDb = (dbPath = DEFAULT_DB_PATH) => {
   `);
 
   const currentVersion = db.pragma('user_version', { simple: true });
+  if (!db.pragma('table_info(publications)').some((column) => column.name === 'version_metadata')) {
+    db.exec("ALTER TABLE publications ADD COLUMN version_metadata TEXT NOT NULL DEFAULT '{}'");
+  }
   const facultyPublicationColumns = new Set(
     db.pragma('table_info(faculty_publications)').map((column) => column.name)
   );

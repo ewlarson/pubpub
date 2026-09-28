@@ -8,6 +8,8 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { XMLParser } from 'fast-xml-parser';
 import { getVersionMetadata, preferPublishedVersions } from '../scripts/publication-versions.mjs';
+import { initDb, upsertCanonicalFaculty, upsertFacultyPublication } from '../scripts/db.mjs';
+import { backfillPublicationVersions } from '../scripts/backfill-publication-versions.mjs';
 import { buildSignals, buildAuthorCounts } from '../scripts/scholar-publications.mjs';
 const before = JSON.parse(await readFile(new URL('./fixtures/rawls-before.json', import.meta.url)));
 const parser = new XMLParser({ ignoreAttributes: false, parseTagValue: false });
@@ -70,7 +72,7 @@ test('checked-in scholar correction matches the version policy and consistent co
   assert.equal(rawls.signals.positive.count, 6);
 });
 
-test('real scholar refresh repeatedly outputs the journal version and consistent signals', async () => {
+test('real scholar and faculty refreshes plus offline export repeatedly count the journal version once', async () => {
   const directory = await mkdtemp(path.join(tmpdir(), 'pubpub-versions-'));
   try {
     await mkdir(path.join(directory, 'data'));
@@ -109,7 +111,65 @@ test('real scholar refresh repeatedly outputs the journal version and consistent
       assert.equal(rawls.publications.some(p => p.id === preprint.id), false);
       assert.ok(rawls.publications.some(p => p.id === '37961578'));
     }
+    await writeFile(path.join(directory, 'data/CTSI Faculty - Sheet1.csv'),
+      'person_id,fore_name,last_name,email,program,start date,signature_terms\n' +
+      'rawls,Eric,Rawls,rawls@umn.edu,KL2,8/1/2022,\n');
+    const databasePath = path.join(directory, 'data/faculty.sqlite');
+    for (let attempt = 0; attempt < 2; attempt++) {
+      await promisify(execFile)(process.execPath, ['--import', mock, fileURLToPath(new URL('../scripts/build-publications.mjs', import.meta.url))], {
+        cwd: directory, env: { ...process.env, PUBPUB_DB_PATH: databasePath, PUB_VALIDATE_AFFILIATION: attempt === 0 ? 'false' : 'true' }
+      });
+      const output = JSON.parse(await readFile(path.join(directory, 'public/data/publications.json')));
+      assert.equal(output.faculty[0].publications.length, 6);
+      assert.equal(output.faculty[0].authorCounts.total, 6);
+      assert.equal(output.faculty[0].signals.positive.count, 6);
+      await promisify(execFile)(process.execPath, [fileURLToPath(new URL('../scripts/export-static-data.mjs', import.meta.url))], {
+        cwd: directory, env: { ...process.env, PUBPUB_DB_PATH: databasePath }
+      });
+      const exported = JSON.parse(await readFile(path.join(directory, 'public/data/publications.json')));
+      assert.deepEqual(exported.faculty[0].publications.map(p => p.id), output.faculty[0].publications.map(p => p.id));
+      assert.equal(exported.faculty[0].authorCounts.total, 6);
+      assert.equal(exported.faculty[0].publications.find(p => p.id === journal.id).preprintVersions[0].id, preprint.id);
+    }
+
   } finally {
+    await rm(directory, { recursive: true, force: true });
+  }
+});
+
+
+test('legacy cache backfill preserves records and export respects faculty-specific curation', async () => {
+  const directory = await mkdtemp(path.join(tmpdir(), 'pubpub-legacy-versions-'));
+  const databasePath = path.join(directory, 'data.sqlite');
+  const db = initDb(databasePath);
+  try {
+    await mkdir(path.join(directory, 'data'));
+    await mkdir(path.join(directory, 'public/data'), { recursive: true });
+    upsertCanonicalFaculty(db, { id: 'rawls', name: 'Eric Rawls' });
+    for (const p of [preprint, journal]) {
+      db.prepare('INSERT INTO publications (pmid,title,journal,year,doi,url) VALUES (?,?,?,?,?,?)').run(p.id,p.title,p.journal,p.year,p.doi,p.url);
+      upsertFacultyPublication(db, 'rawls', p.id, p.authorship);
+    }
+    // Simulate an actual pre-migration database, then reopen through initDb.
+    db.exec('ALTER TABLE publications DROP COLUMN version_metadata');
+    db.close();
+    const migrated = initDb(databasePath);
+    let requests = 0;
+    await backfillPublicationVersions(migrated, async ids => {
+      requests++;
+      assert.equal(ids.length, 2);
+      return readFile(new URL('./fixtures/rawls-publication-versions.xml', import.meta.url), 'utf8');
+    });
+    await backfillPublicationVersions(migrated, async () => { throw new Error('Already enriched'); });
+    assert.equal(requests, 1);
+    assert.equal(migrated.prepare('SELECT COUNT(*) AS n FROM faculty_publications').get().n, 2);
+    migrated.prepare("INSERT INTO curation (faculty_id,pmid,verdict,updated_at) VALUES (?,?,'false_positive',datetime('now'))").run('rawls', journal.id);
+    migrated.close();
+    await promisify(execFile)(process.execPath, [fileURLToPath(new URL('../scripts/export-static-data.mjs', import.meta.url))], { cwd: directory, env: { ...process.env, PUBPUB_DB_PATH: databasePath } });
+    const output = JSON.parse(await readFile(path.join(directory, 'public/data/publications.json')));
+    assert.deepEqual(output.faculty[0].publications.map(p => p.id), [preprint.id], 'excluded journal must not suppress eligible preprint');
+  } finally {
+    if (db.open) db.close();
     await rm(directory, { recursive: true, force: true });
   }
 });

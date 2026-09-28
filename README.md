@@ -276,12 +276,19 @@ Always export DB contents into `public/data/*.json` before deploy.
 - Update the UI in `src/App.jsx` and styles in `src/styles.css`.
 - Deep link to a faculty member with `?faculty=serena-xiong` or `?faculty=Serena%20Xiong` in the URL.
 
-### T Scholar publication versions
+### Publication versions
 
 When PubMed explicitly links a preprint to a journal article and both are in a
-scholar's eligible results, the T Scholars refresh counts the journal version
+researcher's eligible results, both faculty and T Scholar refreshes count the journal version
 once. The original preprint is retained under the journal's `preprintVersions`
 field in JSON for provenance. Standalone preprints and ambiguous or incomplete
 version links remain counted; matching titles alone do not merge publications.
 Summary statistics and CSV exports use the retained publication list and the
 journal article's publication year. See [issue #30 verification](docs/reviews/issue-30/README.md).
+
+Faculty version metadata is persisted in SQLite. The faculty refresh enriches
+legacy cached records once; standalone export uses the stored evidence offline
+and applies the same rule after faculty-specific curation. Records without
+version metadata remain counted until refreshed. Both source publications
+remain in the database; only the reported list and derived statistics are
+consolidated.
