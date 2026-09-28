@@ -2,6 +2,9 @@ import { Fragment, useEffect, useMemo, useRef, useState } from 'react';
 import { buildCollaborationGraph, getPublicationKey } from './collaboration.js';
 import { summarizeGrantAwards } from './grant-export.js';
 import {
+  buildGrantMixSegments,
+  getGrantMixFilterTypes,
+  getGrantMixType,
   extractCoreGrantNumber,
   getGrantGroupInfo,
   getGrantYear,
@@ -390,17 +393,6 @@ const trimSeries = (series, max = 12) => {
     return series || [];
   }
   return series.slice(series.length - max);
-};
-
-const collapseSegments = (segments, limit = 5, otherLabel = 'Other') => {
-  const filtered = (segments || []).filter((segment) => segment.value > 0);
-  const sorted = [...filtered].sort((a, b) => b.value - a.value);
-  if (sorted.length <= limit) {
-    return sorted;
-  }
-  const top = sorted.slice(0, limit - 1);
-  const otherValue = sorted.slice(limit - 1).reduce((sum, segment) => sum + segment.value, 0);
-  return [...top, { label: otherLabel, value: otherValue }];
 };
 
 const truncateLabel = (label, max = 10) => {
@@ -1096,7 +1088,7 @@ const DonutChart = ({
         aria-label={ariaLabel}
       >
         <rect width="100%" height="100%" rx="16" fill="#ffffff" />
-        {segments.map((segment, index) => {
+        {segments.filter(segment => segment.value > 0).map((segment, index) => {
           const startAngle = currentAngle;
           const sweep = total ? (segment.value / total) * 360 : 0;
           const endAngle = currentAngle + sweep;
@@ -1838,7 +1830,11 @@ export default function App() {
       return;
     }
     setSelection('grantType', segment);
-    toggleGrantTypeFilter(segment.label);
+    const types = getGrantMixFilterTypes(
+      grantData.faculty.flatMap(member => member.grants.map(grant => getGrantGroupInfo(grant).type || 'Other')),
+      segment.label
+    );
+    setGrantTypeFilters(types);
   };
 
   const handleSelectTopFaculty = (entry) => {
@@ -1996,7 +1992,7 @@ export default function App() {
         .sort((a, b) => (b.latestEnd || '').localeCompare(a.latestEnd || ''));
 
       const grantTypes = Array.from(
-        new Set(groupedGrants.map((group) => group.type).filter(Boolean))
+        new Set(groupedGrants.map((group) => group.type || 'Other'))
       ).sort();
 
       const matchesGrantTypes = grantTypeFilters.length
@@ -2137,16 +2133,9 @@ export default function App() {
       const label = getGrantGroupInfo(grant).type || 'Other';
       counts.set(label, (counts.get(label) || 0) + 1);
     });
-    return collapseSegments(
-      Array.from(counts.entries())
-        .map(([label, value]) => ({ label, value }))
-        .sort((a, b) => b.value - a.value),
-      5,
-      'Other'
-    ).map((segment, index) => ({
-      ...segment,
-      color: CHART_COLORS[index % CHART_COLORS.length]
-    }));
+    return buildGrantMixSegments(
+      Array.from(counts, ([label, value]) => ({ label, value }))
+    );
   }, [selectedFacultyProfile]);
 
   const profileProgramStartData = useMemo(() => {
@@ -2486,13 +2475,10 @@ export default function App() {
     [grantYearSeriesTrimmed, hasGrantAmounts]
   );
 
-  const grantTypeSegments = useMemo(() => {
-    const collapsed = collapseSegments(grantPortfolio.typeCounts, 5, 'Other');
-    return collapsed.map((segment, index) => ({
-      ...segment,
-      color: CHART_COLORS[index % CHART_COLORS.length]
-    }));
-  }, [grantPortfolio.typeCounts]);
+  const grantTypeSegments = useMemo(
+    () => buildGrantMixSegments(grantPortfolio.typeCounts),
+    [grantPortfolio.typeCounts]
+  );
 
   const grantTypeTotal = useMemo(
     () => grantTypeSegments.reduce((sum, segment) => sum + segment.value, 0),
@@ -2547,7 +2533,7 @@ export default function App() {
   const authorshipAllHidden =
     authorshipSegments.length > 0 && visibleAuthorshipSegments.length === 0;
   const grantTypesAllHidden =
-    grantTypeSegments.length > 0 && visibleGrantTypeSegments.length === 0;
+    grantTypeSegments.length > 0 && !hasGrantTypes;
 
   const publicationTrendDetail = useMemo(() => {
     const selection = chartSelections.pubTrend;
@@ -2724,11 +2710,11 @@ export default function App() {
       return null;
     }
     const label = selection.label;
-    const count = selection.value;
+    const count = grantTypeSegments.find(segment => segment.label === label)?.value || 0;
     const topFaculty = filteredGrants
       .map((member) => {
         const tally = member.groupedGrants.filter(
-          (group) => (group.type || 'Other') === label
+          (group) => getGrantMixType(group.type) === label
         ).length;
         return { name: member.name, count: tally };
       })
@@ -2744,7 +2730,7 @@ export default function App() {
         `Top faculty: ${joinComma(topFaculty)}`
       ]
     };
-  }, [chartSelections.grantType, filteredGrants, grantTypeTotal]);
+  }, [chartSelections.grantType, filteredGrants, grantTypeTotal, grantTypeSegments]);
 
   const grantTopDetail = useMemo(() => {
     const selection = chartSelections.grantTop;
@@ -3651,7 +3637,7 @@ export default function App() {
                       segments={profileGrantTypeSegments}
                       ariaLabel={`Grant type mix for ${selectedFacultyProfile.name}`}
                       centerLabel="Types"
-                      centerValue={String(profileGrantTypeSegments.length)}
+                      centerValue={String(profileGrantTypeSegments.filter(segment => segment.value > 0).length)}
                     />
                   ) : (
                     <div className="chart-empty">No grant type data.</div>
@@ -4264,7 +4250,7 @@ export default function App() {
                 }
                 actionsDisabled={!hasGrantTypes}
                 legend={
-                  hasGrantTypes ? (
+                  grantTypeSegments.length ? (
                     <ChartLegend
                       segments={grantTypeSegments}
                       total={grantTypeTotal}

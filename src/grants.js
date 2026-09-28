@@ -120,3 +120,27 @@ export const summarizeGrantPortfolio = (faculty) => {
     typeCounts: [...types].map(([label, value]) => ({ label, value }))
   };
 };
+
+// Fixed reporting categories; retain the existing K99/R00 project grouping.
+export const GRANT_MIX_TYPES = ['R01', 'R21', 'R03', 'K01', 'K08', 'K23', 'K99', 'Other'];
+const GRANT_MIX_COLORS = ['#1f5ca7', '#2f8bc1', '#2aa58b', '#f0b429', '#ee6c4d', '#7c8f3b', '#8856a7', '#687780'];
+
+export const getGrantMixType = (type) => {
+  const label = type === 'K99/R00' ? 'K99' : type;
+  return GRANT_MIX_TYPES.includes(label) ? label : 'Other';
+};
+
+export const buildGrantMixSegments = (typeCounts) => {
+  if (!typeCounts.some(({ value }) => value > 0)) return [];
+  const counts = new Map(GRANT_MIX_TYPES.map(type => [type, 0]));
+  for (const { label, value } of typeCounts) {
+    const category = getGrantMixType(label);
+    counts.set(category, counts.get(category) + value);
+  }
+  return GRANT_MIX_TYPES.map((label, index) => ({
+    label, value: counts.get(label), color: GRANT_MIX_COLORS[index]
+  }));
+};
+
+export const getGrantMixFilterTypes = (types, category) =>
+  [...new Set(types.filter(type => getGrantMixType(type) === category))];

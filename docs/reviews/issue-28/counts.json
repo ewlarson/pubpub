@@ -1,0 +1,46 @@
+{
+  "projectCount": 148,
+  "totalAmount": 176217107,
+  "categories": [
+    {
+      "label": "R01",
+      "value": 62,
+      "color": "#1f5ca7"
+    },
+    {
+      "label": "R21",
+      "value": 20,
+      "color": "#2f8bc1"
+    },
+    {
+      "label": "R03",
+      "value": 12,
+      "color": "#2aa58b"
+    },
+    {
+      "label": "K01",
+      "value": 5,
+      "color": "#f0b429"
+    },
+    {
+      "label": "K08",
+      "value": 2,
+      "color": "#ee6c4d"
+    },
+    {
+      "label": "K23",
+      "value": 12,
+      "color": "#7c8f3b"
+    },
+    {
+      "label": "K99",
+      "value": 0,
+      "color": "#8856a7"
+    },
+    {
+      "label": "Other",
+      "value": 35,
+      "color": "#687780"
+    }
+  ]
+}
