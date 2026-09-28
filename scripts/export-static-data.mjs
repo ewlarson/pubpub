@@ -1,6 +1,7 @@
 import { writeFile } from 'node:fs/promises';
 import path from 'node:path';
 import { getStoredAuthorship, initDb } from './db.mjs';
+import { filterCuratedGrants } from './grant-curation.mjs';
 
 const PUBLICATIONS_OUTPUT_PATH = path.resolve('public', 'data', 'publications.json');
 const GRANTS_OUTPUT_PATH = path.resolve('public', 'data', 'grants.json');
@@ -266,7 +267,7 @@ const buildGrantsOutput = (db, updatedAt) => {
       programs,
       programAssociations,
       reporterUrl: '',
-      grants: getGrantRows(db, id)
+      grants: filterCuratedGrants(id, getGrantRows(db, id))
     };
   });
 

@@ -32,6 +32,12 @@ npm run preview
 
 ## CSV exports
 
+On the Grants tab, overall funding and fiscal-year charts count each annual
+award once across faculty, using its grant ID and fiscal year. Project totals
+and the grant-type chart count unique project groups. Faculty totals and CSV
+exports retain each faculty association, so their amounts may overlap when
+faculty share an award.
+
 On the Grants tab, **Download Detailed CSV** exports one row per faculty member
 and Group Number, using the same groups as the dashboard. Amount is the sum of
 the group's available annual award amounts; Start Date is the earliest known
@@ -186,6 +192,14 @@ used once as a seed (legacy import).
 
 Identity overrides for known merges/splits are stored in
 `data/faculty-identity-overrides.json`.
+
+Known incorrect faculty/grant associations are recorded in
+`data/grant-exclusions.json`. Each entry identifies the canonical `facultyId`
+and `coreProjectNum`, with a reason and source issue. The correction covers all
+annual awards, renewals, and supplements of that project for that faculty member.
+Both the grant refresh and standalone static export apply these exclusions, so
+previously cached database rows cannot reappear in the dashboard. Other faculty
+and other projects are unaffected.
 
 Minimal schema:
 

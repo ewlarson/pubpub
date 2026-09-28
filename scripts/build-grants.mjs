@@ -1,4 +1,5 @@
 import dotenv from 'dotenv';
+import { filterCuratedGrants } from './grant-curation.mjs';
 import { existsSync } from 'node:fs';
 import { readFile, writeFile } from 'node:fs/promises';
 import path from 'node:path';
@@ -475,7 +476,8 @@ const mapGrants = (person, projects) => {
   });
 
   const deduped = uniqueBy(grants, (grant) => `${grant.id}-${grant.fiscalYear || ''}`);
-  return deduped.sort((a, b) => (b.startDate || '').localeCompare(a.startDate || ''));
+  return filterCuratedGrants(person.id, deduped)
+    .sort((a, b) => (b.startDate || '').localeCompare(a.startDate || ''));
 };
 
 const getProgramAssociationsForFaculty = (db, facultyId) =>

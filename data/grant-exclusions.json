@@ -1,0 +1,8 @@
+[
+  {
+    "facultyId": "mark-osborn-osbor026-umn-edu",
+    "coreProjectNum": "U01DK116320",
+    "reason": "The renal-nerve project belongs to John W. Osborn, not Mark Osborn. NIH RePORTER lists John W. Osborn, Mark John Thomas, and Lyudmila H. Vulchanova as investigators.",
+    "issue": "https://github.com/ewlarson/pubpub/issues/31"
+  }
+]

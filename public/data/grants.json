@@ -3338,41 +3338,7 @@
         }
       ],
       "reporterUrl": "",
-      "grants": [
-        {
-          "id": "5U01DK116320-03",
-          "title": "Structural and functional neurobiology of renal nerves: A platform for neuromodulation of renal function",
-          "role": "Not listed",
-          "amount": 358889,
-          "startDate": "2017-09-20",
-          "endDate": "2020-08-31",
-          "fiscalYear": 2019,
-          "url": "https://reporter.nih.gov/project-details/9770836",
-          "coreProjectNum": "U01DK116320"
-        },
-        {
-          "id": "5U01DK116320-02",
-          "title": "Structural and functional neurobiology of renal nerves: A platform for neuromodulation of renal function",
-          "role": "Not listed",
-          "amount": 360922,
-          "startDate": "2017-09-20",
-          "endDate": "2020-08-31",
-          "fiscalYear": 2018,
-          "url": "https://reporter.nih.gov/project-details/9567558",
-          "coreProjectNum": "U01DK116320"
-        },
-        {
-          "id": "1U01DK116320-01",
-          "title": "Structural and functional neurobiology of renal nerves: A platform for neuromodulation of renal function",
-          "role": "Not listed",
-          "amount": 368836,
-          "startDate": "2017-09-20",
-          "endDate": "2020-08-31",
-          "fiscalYear": 2017,
-          "url": "https://reporter.nih.gov/project-details/9464080",
-          "coreProjectNum": "U01DK116320"
-        }
-      ]
+      "grants": []
     },
     {
       "id": "ann-parr-amparr-umn-edu",
