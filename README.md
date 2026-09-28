@@ -275,3 +275,24 @@ Always export DB contents into `public/data/*.json` before deploy.
 - The Vite `base` option is set to `./` to keep asset paths relative for GitHub Pages.
 - Update the UI in `src/App.jsx` and styles in `src/styles.css`.
 - Deep link to a faculty member with `?faculty=serena-xiong` or `?faculty=Serena%20Xiong` in the URL.
+
+### Grant identity audit
+
+Grant refresh and static export write `data/grant-identity-audit.json`; nightly
+refresh uploads this as a GitHub Actions artifact. This first rollout is audit
+only: it flags uncertain identities without removing funding. Structured name
+matches are distinguished from independently reviewed NIH profile IDs.
+Investigator evidence is preserved in SQLite and exported JSON; legacy cached
+records without evidence need review until refreshed.
+
+Run `npm run audit:grants` to audit the current static dataset, or supply a dataset,
+a saved array of NIH project records, and an optional output path:
+
+```sh
+npm run audit:grants -- public/data/grants.json saved-nih-projects.json data/grant-identity-audit.json
+```
+
+Reviewed identities belong in `data/grant-identities.json`, keyed by faculty ID,
+with `profileIds`, optional `aliases` (`foreName` / `lastName`), source URLs and a
+review date. Keep this registry evidence-backed; a name-search hit alone does
+not establish an identity. See [rollout evidence](docs/reviews/grant-identity/README.md).

@@ -81,7 +81,7 @@ test('grant refresh rejects the API false positive before both SQLite and JSON p
         award_amount: 250,
         fiscal_year: 2026,
         project_start_date: '2026-01-01',
-        principal_investigators: []
+        principal_investigators: [{ profile_id: 42, first_name: 'Mark', middle_name: 'A', last_name: 'Osborn', is_contact_pi: true }]
       }] }));
     });
     await new Promise((resolve) => server.listen(0, '127.0.0.1', resolve));
@@ -97,6 +97,11 @@ test('grant refresh rejects the API false positive before both SQLite and JSON p
           REPORTER_ORG_NAMES: 'University of Minnesota'
         });
         const data = await readGrants(directory);
+        assert.equal(data.faculty[0].grants[0].role, 'Contact PI');
+        assert.equal(data.faculty[0].grants[0].investigators[0].profile_id, 42);
+        const audit = JSON.parse(await readFile(path.join(directory, 'data/grant-identity-audit.json')));
+        assert.equal(audit.summary.nameMatches, 1);
+        assert.equal(audit.summary.needsReview, 0);
         assert.deepEqual(data.faculty[0].grants.map((grant) => grant.id), [unrelatedAward.id]);
         const db = initDb(databasePath);
         try {
@@ -105,6 +110,9 @@ test('grant refresh rejects the API false positive before both SQLite and JSON p
         } finally {
           db.close();
         }
+        await runScript('export-static-data.mjs', directory, databasePath);
+        const exportedAudit = JSON.parse(await readFile(path.join(directory, 'data/grant-identity-audit.json')));
+        assert.deepEqual(exportedAudit, audit, 'cached export preserves and revalidates investigator evidence');
       }
     } finally {
       await new Promise((resolve) => server.close(resolve));
@@ -127,5 +135,7 @@ test('standalone export excludes stale cached associations without suppressing J
     const data = await readGrants(directory);
     assert.deepEqual(data.faculty.find((m) => m.id === markId).grants.map((g) => g.id), [unrelatedAward.id]);
     assert.equal(data.faculty.find((m) => m.id === johnId).grants.length, 4);
+    const audit = JSON.parse(await readFile(path.join(directory, 'data/grant-identity-audit.json')));
+    assert.equal(audit.summary.needsReview, 5, 'legacy cached grants without evidence need review, not deletion');
   });
 });

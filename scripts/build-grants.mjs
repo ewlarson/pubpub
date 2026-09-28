@@ -1,4 +1,5 @@
 import dotenv from 'dotenv';
+import { auditGrantIdentities, validateGrantIdentity } from './grant-identity.mjs';
 import { filterCuratedGrants } from './grant-curation.mjs';
 import { existsSync } from 'node:fs';
 import { readFile, writeFile } from 'node:fs/promises';
@@ -60,11 +61,6 @@ const parseYearList = (value) =>
     .filter((entry) => Number.isFinite(entry));
 
 const EXTRA_ORG_NAMES = parseList(EXTRA_ORG_NAMES_OVERRIDE);
-
-const normalizeKey = (value) =>
-  String(value || '')
-    .toLowerCase()
-    .replace(/[^a-z0-9]/g, '');
 
 const toSlug = (value) =>
   String(value || '')
@@ -275,23 +271,6 @@ const filterProjectsByStartDate = (projects, startDate) => {
   });
 };
 
-const resolveRole = (person, principalInvestigators) => {
-  if (!Array.isArray(principalInvestigators) || principalInvestigators.length === 0) {
-    return 'Not listed';
-  }
-  const target = normalizeKey(`${person.foreName} ${person.lastName}`);
-  const match = principalInvestigators.find((pi) => {
-    const name = pi.full_name || `${pi.first_name || ''} ${pi.last_name || ''}`;
-    const normalized = normalizeKey(name);
-    return normalized === target || normalized.includes(target) || target.includes(normalized);
-  });
-
-  if (!match) {
-    return 'Not listed';
-  }
-  return match.is_contact_pi ? 'Contact PI' : 'PI';
-};
-
 const reporterSearch = async (payload, { maxRetries = 6 } = {}) => {
   for (let attempt = 0; attempt < maxRetries; attempt += 1) {
     const controller = new AbortController();
@@ -465,7 +444,8 @@ const mapGrants = (person, projects) => {
     return {
       id: project.project_num || project.core_project_num || String(project.appl_id || ''),
       title: project.project_title || '',
-      role: resolveRole(person, project.principal_investigators),
+      role: validateGrantIdentity(person, project.principal_investigators).role,
+      investigators: project.principal_investigators || [],
       amount,
       startDate: toDate(project.project_start_date),
       endDate: toDate(project.project_end_date),
@@ -618,6 +598,7 @@ const main = async () => {
   };
 
   await writeFile(OUTPUT_PATH, `${JSON.stringify(output, null, 2)}\n`, 'utf8');
+  await writeFile(path.resolve('data/grant-identity-audit.json'), `${JSON.stringify(auditGrantIdentities(results), null, 2)}\n`, 'utf8');
   console.log(`Wrote ${OUTPUT_PATH}`);
   db.close();
 };

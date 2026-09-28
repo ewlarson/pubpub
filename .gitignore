@@ -6,3 +6,6 @@ dist
 data/*.sqlite
 data/*.sqlite-shm
 data/*.sqlite-wal
+
+# Generated grant identity review evidence
+data/grant-identity-audit.json

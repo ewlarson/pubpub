@@ -17,7 +17,8 @@
     "test": "node --test test/*.test.mjs",
     "build": "vite build",
     "check": "npm run lint && npm test && npm run build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "audit:grants": "node scripts/audit-grant-identities.mjs"
   },
   "dependencies": {
     "better-sqlite3": "^13.0.3",
