@@ -1,3 +1,4 @@
+import { auditGrantIdentities } from './grant-identity.mjs';
 import { writeFile } from 'node:fs/promises';
 import path from 'node:path';
 import { getStoredAuthorship, initDb } from './db.mjs';
@@ -188,14 +189,16 @@ const getGrantRows = (db, facultyId) =>
         g.end_date AS endDate,
         g.fiscal_year AS fiscalYear,
         g.url,
-        g.core_project_num AS coreProjectNum
+        g.core_project_num AS coreProjectNum,
+        g.investigators_json AS investigatorsJson
       FROM faculty_grants fg
       INNER JOIN grants g ON g.id = fg.grant_id
       WHERE fg.faculty_id = ?
       ORDER BY g.start_date DESC
     `
     )
-    .all(facultyId);
+    .all(facultyId)
+    .map(({ investigatorsJson, ...grant }) => ({ ...grant, investigators: JSON.parse(investigatorsJson) }));
 
 const buildPublicationsOutput = (db, updatedAt) => {
   const faculty = getFacultyRows(db).map((facultyRow) => {
@@ -284,6 +287,7 @@ const main = async () => {
   const updatedAt = new Date().toISOString();
   const publicationsOutput = buildPublicationsOutput(db, updatedAt);
   const grantsOutput = buildGrantsOutput(db, updatedAt);
+  await writeFile(path.resolve('data/grant-identity-audit.json'), `${JSON.stringify(auditGrantIdentities(grantsOutput.faculty), null, 2)}\n`, 'utf8');
   db.close();
 
   await writeFile(PUBLICATIONS_OUTPUT_PATH, `${JSON.stringify(publicationsOutput, null, 2)}\n`, 'utf8');

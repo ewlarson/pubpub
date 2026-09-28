@@ -61,6 +61,14 @@ jobs:
       - name: Audit refreshed data
         run: npm run audit:data
 
+      - name: Preserve grant identity review report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: grant-identity-audit
+          path: data/grant-identity-audit.json
+          if-no-files-found: warn
+
       - name: Verify production build
         run: npm run build
 

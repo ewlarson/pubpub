@@ -148,6 +148,9 @@ export const initDb = (dbPath = DEFAULT_DB_PATH) => {
   `);
 
   const currentVersion = db.pragma('user_version', { simple: true });
+  if (!db.pragma('table_info(grants)').some((column) => column.name === 'investigators_json')) {
+    db.exec("ALTER TABLE grants ADD COLUMN investigators_json TEXT NOT NULL DEFAULT '[]'");
+  }
   const facultyPublicationColumns = new Set(
     db.pragma('table_info(faculty_publications)').map((column) => column.name)
   );
@@ -508,8 +511,8 @@ export const remapFacultyIdReferences = (db, legacyId, canonicalId) => {
 
 export const upsertGrant = (db, grant) => {
   db.prepare(`
-    INSERT INTO grants (id, core_project_num, title, start_date, end_date, fiscal_year, url, updated_at)
-    VALUES (@id, @core_project_num, @title, @start_date, @end_date, @fiscal_year, @url, datetime('now'))
+    INSERT INTO grants (id, core_project_num, title, start_date, end_date, fiscal_year, url, investigators_json, updated_at)
+    VALUES (@id, @core_project_num, @title, @start_date, @end_date, @fiscal_year, @url, @investigators_json, datetime('now'))
     ON CONFLICT(id) DO UPDATE SET
       core_project_num = COALESCE(NULLIF(excluded.core_project_num, ''), grants.core_project_num),
       title = COALESCE(NULLIF(excluded.title, ''), grants.title),
@@ -517,6 +520,7 @@ export const upsertGrant = (db, grant) => {
       end_date = COALESCE(NULLIF(excluded.end_date, ''), grants.end_date),
       fiscal_year = COALESCE(excluded.fiscal_year, grants.fiscal_year),
       url = COALESCE(NULLIF(excluded.url, ''), grants.url),
+      investigators_json = excluded.investigators_json,
       updated_at = excluded.updated_at
   `).run({
     id: String(grant.id || '').trim(),
@@ -525,6 +529,7 @@ export const upsertGrant = (db, grant) => {
     start_date: toIsoDate(grant.startDate),
     end_date: toIsoDate(grant.endDate),
     fiscal_year: Number.isFinite(Number(grant.fiscalYear)) ? Number(grant.fiscalYear) : null,
+    investigators_json: JSON.stringify(grant.investigators || []),
     url: String(grant.url || '').trim()
   });
 };
