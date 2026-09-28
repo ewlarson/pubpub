@@ -7755,6 +7755,78 @@
           "coreProjectNum": "R01HL151740"
         }
       ]
+    },
+    {
+      "id": "daphne-moutsoglou-dmmoutso-umn-edu",
+      "name": "Daphne Moutsoglou",
+      "foreName": "Daphne",
+      "lastName": "Moutsoglou",
+      "department": "University of Minnesota",
+      "programs": [
+        "KAP"
+      ],
+      "programAssociations": [
+        {
+          "program": "KAP",
+          "startDate": "2026-09-01"
+        }
+      ],
+      "reporterUrl": "",
+      "grants": []
+    },
+    {
+      "id": "corri-stuyvenberg-stuyv006-umn-edu",
+      "name": "Corri Stuyvenberg",
+      "foreName": "Corri",
+      "lastName": "Stuyvenberg",
+      "department": "University of Minnesota",
+      "programs": [
+        "KAP"
+      ],
+      "programAssociations": [
+        {
+          "program": "KAP",
+          "startDate": "2026-09-01"
+        }
+      ],
+      "reporterUrl": "",
+      "grants": []
+    },
+    {
+      "id": "evan-chen-evanchen-umn-edu",
+      "name": "Evan Chen",
+      "foreName": "Evan",
+      "lastName": "Chen",
+      "department": "University of Minnesota",
+      "programs": [
+        "KAP"
+      ],
+      "programAssociations": [
+        {
+          "program": "KAP",
+          "startDate": "2026-09-01"
+        }
+      ],
+      "reporterUrl": "",
+      "grants": []
+    },
+    {
+      "id": "lindsey-sloan-sloan153-umn-edu",
+      "name": "Lindsey Sloan",
+      "foreName": "Lindsey",
+      "lastName": "Sloan",
+      "department": "University of Minnesota",
+      "programs": [
+        "K12"
+      ],
+      "programAssociations": [
+        {
+          "program": "K12",
+          "startDate": "2026-09-01"
+        }
+      ],
+      "reporterUrl": "",
+      "grants": []
     }
   ]
 }
