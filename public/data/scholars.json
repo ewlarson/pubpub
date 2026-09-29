@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-28",
-  "updatedAt": "2026-09-28T16:27:15.419Z",
+  "updated": "2026-09-29",
+  "updatedAt": "2026-09-29T14:40:05.527Z",
   "source": "PubMed E-utilities (ORCID)",
   "faculty": [
     {
@@ -110,6 +110,12 @@
       "projectTitle": "A Model-based Approach to Optimize Lorenzo's Oil Therapy in X-Linked Adrenoleukodystrophy",
       "publications": [
         {
+          "publicationTypes": [
+            "Journal Article",
+            "Review",
+            "Research Support, Non-U.S. Gov't"
+          ],
+          "versionLinks": [],
           "id": "41482950",
           "title": "An IQ Consortium Perspective on the FDA Guidance for Assessment of Pharmacokinetics in Participants With Impaired Renal Function.",
           "journal": "Clinical pharmacology and therapeutics",
@@ -124,6 +130,10 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [],
           "id": "39937057",
           "title": "Franchise Data Strategy: \"PIVOT\"ing From Cognitive Dissonance Toward Making What Is Implicit, Explicit.",
           "journal": "Clinical pharmacology and therapeutics",
@@ -138,6 +148,12 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article",
+            "Review",
+            "Research Support, Non-U.S. Gov't"
+          ],
+          "versionLinks": [],
           "id": "40261641",
           "title": "Unlocking the Mysteries of Rare Disease Drug Development: A Beginner's Guide for Clinical Pharmacologists.",
           "journal": "Clinical and translational science",
@@ -152,6 +168,11 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article",
+            "Review"
+          ],
+          "versionLinks": [],
           "id": "38566433",
           "title": "Covariate modeling in pharmacometrics: General points for consideration.",
           "journal": "CPT: pharmacometrics & systems pharmacology",
@@ -166,6 +187,10 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [],
           "id": "39148459",
           "title": "Getting the Dose Right in Drug Development for Rare Diseases: Barriers and Enablers.",
           "journal": "Clinical pharmacology and therapeutics",
@@ -180,6 +205,10 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [],
           "id": "38949293",
           "title": "Getting the Dose Right: ASCPT Translational Precision Medicine (TPM) Network Perspectives.",
           "journal": "Clinical pharmacology and therapeutics",
@@ -194,6 +223,11 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article",
+            "Review"
+          ],
+          "versionLinks": [],
           "id": "38989644",
           "title": "New Horizons of Model Informed Drug Development in Rare Diseases Drug Development.",
           "journal": "Clinical pharmacology and therapeutics",
@@ -208,6 +242,11 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article",
+            "Review"
+          ],
+          "versionLinks": [],
           "id": "37140724",
           "title": "Achieving big with small: quantitative clinical pharmacology tools for drug development in pediatric rare diseases.",
           "journal": "Journal of pharmacokinetics and pharmacodynamics",
@@ -222,6 +261,12 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article",
+            "Review",
+            "Consensus Statement"
+          ],
+          "versionLinks": [],
           "id": "37313953",
           "title": "Model-Informed Approaches and Innovative Clinical Trial Design for Adeno-Associated Viral Vector-Based Gene Therapy Product Development: A White Paper.",
           "journal": "Clinical pharmacology and therapeutics",
@@ -236,6 +281,10 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [],
           "id": "36461741",
           "title": "Think Rare, Think Inside and Out: Simple Question-Based Approach to Complex Rare Disease Drug Development.",
           "journal": "Journal of clinical pharmacology",
@@ -250,6 +299,10 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [],
           "id": "33997992",
           "title": "Concordance of Exposure Changes Because of Renal Impairment Between Results of Dedicated Renal Impairment Studies and Population Pharmacokinetic Predictions.",
           "journal": "Journal of clinical pharmacology",
@@ -264,6 +317,11 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article",
+            "Research Support, U.S. Gov't, P.H.S."
+          ],
+          "versionLinks": [],
           "id": "32652643",
           "title": "An integrated PK-PD model for cortisol and the 17-hydroxyprogesterone and androstenedione biomarkers in children with congenital adrenal hyperplasia.",
           "journal": "British journal of clinical pharmacology",
@@ -278,6 +336,11 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article",
+            "Review"
+          ],
+          "versionLinks": [],
           "id": "31338634",
           "title": "Orphan drug development: the increasing role of clinical pharmacology.",
           "journal": "Journal of pharmacokinetics and pharmacodynamics",
@@ -541,6 +604,10 @@
       "projectTitle": "Gentrification and the Health of Black Older Adults: Quantifying the Role of Social Cohesion",
       "publications": [
         {
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [],
           "id": "42634403",
           "title": "Correlates of Homebound Status by Rural/Urban Location, Socio-Demographic Characteristics, and Health Status.",
           "journal": "Journal of applied gerontology : the official journal of the Southern Gerontological Society",
@@ -555,6 +622,11 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article",
+            "Preprint"
+          ],
+          "versionLinks": [],
           "id": "42687897",
           "title": "The Association Between Gentrification, Health, and Social Cohesion of Older Adults.",
           "journal": "Research square",
@@ -569,6 +641,11 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article",
+            "Review"
+          ],
+          "versionLinks": [],
           "id": "40568778",
           "title": "Gentrification and Aging: A Narrative Review.",
           "journal": "Journal of gerontological social work",
@@ -583,6 +660,10 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [],
           "id": "41455092",
           "title": "Rural-Urban Differences in the Prevalence and Correlates of Elder Mistreatment.",
           "journal": "Journal of applied gerontology : the official journal of the Southern Gerontological Society",
@@ -798,6 +879,10 @@
       "projectTitle": "The Oral Microbiome and Incident Candidiasis in Patients Receiving Chemotherapy",
       "publications": [
         {
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [],
           "id": "41645608",
           "title": "Initiation of proton pump inhibitors is associated with gut microbiome diversity and composition: a new-user target trial emulation within the Baltimore Longitudinal Study of Aging.",
           "journal": "American journal of epidemiology",
@@ -812,6 +897,13 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article",
+            "Multicenter Study",
+            "Research Support, Non-U.S. Gov't",
+            "Research Support, N.I.H., Extramural"
+          ],
+          "versionLinks": [],
           "id": "39883116",
           "title": "Infection-Related Hospitalization and Incident Heart Failure: The Atherosclerosis Risk in Communities Study.",
           "journal": "Journal of the American Heart Association",
@@ -826,6 +918,11 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article",
+            "Research Support, N.I.H., Extramural"
+          ],
+          "versionLinks": [],
           "id": "39394967",
           "title": "Association Between Dietary Patterns and Subgingival Microbiota: Results From the Oral Infections, Glucose Intolerance, and Insulin Resistance Study (ORIGINS).",
           "journal": "Journal of clinical periodontology",
@@ -840,6 +937,12 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article",
+            "Research Support, Non-U.S. Gov't",
+            "Research Support, N.I.H., Extramural"
+          ],
+          "versionLinks": [],
           "id": "39209769",
           "title": "Associations of gut microbiota features and circulating metabolites with systemic inflammation in children.",
           "journal": "BMJ open gastroenterology",
@@ -854,6 +957,11 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article",
+            "Research Support, N.I.H., Extramural"
+          ],
+          "versionLinks": [],
           "id": "38343130",
           "title": "Clinical attachment loss is cross-sectionally associated with elevated glucose among adults without diabetes.",
           "journal": "Journal of clinical periodontology",
@@ -868,6 +976,16 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article",
+            "Preprint"
+          ],
+          "versionLinks": [
+            {
+              "type": "UpdateIn",
+              "id": "41448605"
+            }
+          ],
           "id": "38645157",
           "title": "Dietary nitrate intake and net nitrite-generating capacity of the oral microbiome interact to enhance cardiometabolic health: Results from the Oral Infections Glucose Intolerance and Insulin Resistance Study (ORIGINS).",
           "journal": "medRxiv : the preprint server for health sciences",
@@ -882,6 +1000,11 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article",
+            "Research Support, Non-U.S. Gov't"
+          ],
+          "versionLinks": [],
           "id": "39208356",
           "title": "The Influence of a COVID-19 Vaccine Mandate on Vaccination Rates in a University Setting.",
           "journal": "American journal of public health",
@@ -896,6 +1019,11 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article",
+            "Research Support, N.I.H., Extramural"
+          ],
+          "versionLinks": [],
           "id": "37338087",
           "title": "Evaluation of the mandibular condylar bone microarchitecture in people living with HIV.",
           "journal": "Oral diseases",
@@ -1105,6 +1233,12 @@
       "projectTitle": "The Effect of High Intensity Interval Training on Liver Fat and Insulin Sensitivity in Adults with Obesity",
       "publications": [
         {
+          "publicationTypes": [
+            "Comparative Study",
+            "Journal Article",
+            "Research Support, N.I.H., Extramural"
+          ],
+          "versionLinks": [],
           "id": "26389821",
           "title": "Impaired cardiac autonomic nervous system function is associated with pediatric hypertension independent of adiposity.",
           "journal": "Pediatric research",
@@ -1258,6 +1392,10 @@
       "projectTitle": "JAK Inhibition Disrupts Inflammatory Homeostasis in Human Macrophages",
       "publications": [
         {
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [],
           "id": "41720768",
           "title": "Crosstalk between EZH2 and DNA methylation mediates neuroendocrine prostate cancer lineage plasticity.",
           "journal": "Nature communications",
@@ -1272,6 +1410,12 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article",
+            "Research Support, N.I.H., Extramural",
+            "Comment"
+          ],
+          "versionLinks": [],
           "id": "39492677",
           "title": "ASCL1 Drives the Development of Neuroendocrine Prostate Cancer.",
           "journal": "Cancer research",
@@ -1286,6 +1430,17 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article",
+            "Research Support, Non-U.S. Gov't",
+            "Research Support, N.I.H., Extramural"
+          ],
+          "versionLinks": [
+            {
+              "type": "UpdateOf",
+              "id": "37034687"
+            }
+          ],
           "id": "38191471",
           "title": "Distinct mesenchymal cell states mediate prostate cancer progression.",
           "journal": "Nature communications",
@@ -1300,6 +1455,11 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article",
+            "Research Support, N.I.H., Extramural"
+          ],
+          "versionLinks": [],
           "id": "39567499",
           "title": "Increased translation driven by non-canonical EZH2 creates a synthetic vulnerability in enzalutamide-resistant prostate cancer.",
           "journal": "Nature communications",
@@ -1314,6 +1474,12 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article",
+            "Research Support, Non-U.S. Gov't",
+            "Research Support, N.I.H., Extramural"
+          ],
+          "versionLinks": [],
           "id": "37546702",
           "title": "The Identification of CELSR3 and Other Potential Cell Surface Targets in Neuroendocrine Prostate Cancer.",
           "journal": "Cancer research communications",
@@ -1328,6 +1494,11 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article",
+            "Comment"
+          ],
+          "versionLinks": [],
           "id": "36138136",
           "title": "JAK inhibition shows two faces in prostate cancer.",
           "journal": "Nature cancer",
@@ -1342,6 +1513,13 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article",
+            "Research Support, N.I.H., Extramural",
+            "Research Support, Non-U.S. Gov't",
+            "Research Support, U.S. Gov't, Non-P.H.S."
+          ],
+          "versionLinks": [],
           "id": "34312180",
           "title": "RNA Splicing Factors SRRM3 and SRRM4 Distinguish Molecular Phenotypes of Castration-Resistant Neuroendocrine Prostate Cancer.",
           "journal": "Cancer research",
@@ -1356,6 +1534,13 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article",
+            "Research Support, N.I.H., Extramural",
+            "Research Support, Non-U.S. Gov't",
+            "Research Support, U.S. Gov't, Non-P.H.S."
+          ],
+          "versionLinks": [],
           "id": "34099734",
           "title": "Temporal evolution of cellular heterogeneity during the progression to advanced AR-negative prostate cancer.",
           "journal": "Nature communications",
@@ -1370,6 +1555,10 @@
           }
         },
         {
+          "publicationTypes": [
+            "Published Erratum"
+          ],
+          "versionLinks": [],
           "id": "32977674",
           "title": "Erratum: Witschen, P.M., et al. Tumor Cell Associated Hyaluronan-CD44 Signaling Promotes Pro-Tumor Inflammation in Breast Cancer. Cancers 2020, 12, 1325.",
           "journal": "Cancers",
@@ -1384,6 +1573,10 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [],
           "id": "32455980",
           "title": "Tumor Cell Associated Hyaluronan-CD44 Signaling Promotes Pro-Tumor Inflammation in Breast Cancer.",
           "journal": "Cancers",
@@ -1398,6 +1591,12 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article",
+            "Research Support, N.I.H., Extramural",
+            "Research Support, U.S. Gov't, Non-P.H.S."
+          ],
+          "versionLinks": [],
           "id": "31147469",
           "title": "JAK/STAT inhibition in macrophages promotes therapeutic resistance by inducing expression of protumorigenic factors.",
           "journal": "Proceedings of the National Academy of Sciences of the United States of America",
@@ -1412,6 +1611,11 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article",
+            "Research Support, Non-U.S. Gov't"
+          ],
+          "versionLinks": [],
           "id": "28216630",
           "title": "SMURF2 regulates bone homeostasis by disrupting SMAD3 interaction with vitamin D receptor in osteoblasts.",
           "journal": "Nature communications",
@@ -1633,6 +1837,10 @@
       "projectTitle": "Development of predictive screening tool for patient-reported symptom clusters for artery disease",
       "publications": [
         {
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [],
           "id": "39336011",
           "title": "Building Social Support and Moral Healing on Nursing Units: Design and Implementation of a Culture Change Intervention.",
           "journal": "Behavioral sciences (Basel, Switzerland)",
@@ -1647,6 +1855,12 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article",
+            "Research Support, N.I.H., Extramural",
+            "Research Support, Non-U.S. Gov't"
+          ],
+          "versionLinks": [],
           "id": "39206689",
           "title": "Symptom Descriptors in Individuals Living With Undiagnosed Lower Extremity Peripheral Artery Disease.",
           "journal": "Western journal of nursing research",
@@ -1824,6 +2038,10 @@
       "projectTitle": "Optimizing integrated care implementation in primary care settings using latent class analysis",
       "publications": [
         {
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [],
           "id": "41804011",
           "title": "A practice-based implementation strategy bundle for integrating behavioral health in primary care: a matrixed multiple case study.",
           "journal": "Implementation science communications",
@@ -1838,6 +2056,10 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [],
           "id": "42118774",
           "title": "Moving toward integrated care for perinatal opioid use disorder and mental health in an urban safety-net hospital: A formative implementation evaluation.",
           "journal": "Journal of health services research & policy",
@@ -1852,6 +2074,10 @@
           }
         },
         {
+          "publicationTypes": [
+            "Letter"
+          ],
+          "versionLinks": [],
           "id": "38605425",
           "title": "Organizing the dissemination and implementation field: who are we, what are we doing, and how should we do it?",
           "journal": "Implementation science communications",
@@ -1866,6 +2092,11 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article",
+            "Research Support, N.I.H., Extramural"
+          ],
+          "versionLinks": [],
           "id": "36563343",
           "title": "Potential Points of Intervention to Minimize the Impact of Parents' Adverse Childhood Experiences on Child Mental Health.",
           "journal": "Journal of developmental and behavioral pediatrics : JDBP",
@@ -1880,6 +2111,11 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article",
+            "Research Support, N.I.H., Extramural"
+          ],
+          "versionLinks": [],
           "id": "34529202",
           "title": "Integrated Behavioral Health Implementation Patterns in Primary Care Using the Cross-Model Framework: A Latent Class Analysis.",
           "journal": "Administration and policy in mental health",
@@ -1894,6 +2130,10 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [],
           "id": "34962833",
           "title": "Parent-adolescent emotion-related behavior during conflict in a clinical sample.",
           "journal": "Clinical child psychology and psychiatry",
@@ -1908,6 +2148,12 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article",
+            "Research Support, N.I.H., Extramural",
+            "Research Support, Non-U.S. Gov't"
+          ],
+          "versionLinks": [],
           "id": "34807638",
           "title": "Resilience in the system: COVID-19 and immigrant- and refugee-serving health and human service providers.",
           "journal": "Families, systems & health : the journal of collaborative family healthcare",
@@ -2113,6 +2359,16 @@
       "projectTitle": "Changes in HMGB1 localization mediate inflammation and genomic instability in RDEB-associated squamous cell carcinoma",
       "publications": [
         {
+          "publicationTypes": [
+            "Journal Article",
+            "Preprint"
+          ],
+          "versionLinks": [
+            {
+              "type": "UpdateIn",
+              "id": "42383160"
+            }
+          ],
           "id": "40832291",
           "title": "Contribution of HMGB1 to Keratinocyte inflammation in Recessive Dystrophic Epidermolysis Bullosa.",
           "journal": "bioRxiv : the preprint server for biology",
@@ -2250,6 +2506,11 @@
       "projectTitle": "Using Virulence Genes in Stool as Markers of Colorectal Cancer",
       "publications": [
         {
+          "publicationTypes": [
+            "Journal Article",
+            "Comment"
+          ],
+          "versionLinks": [],
           "id": "37812118",
           "title": "The Ouroboros Threat.",
           "journal": "The American journal of bioethics : AJOB",
@@ -2264,6 +2525,11 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article",
+            "Comment"
+          ],
+          "versionLinks": [],
           "id": "35797120",
           "title": "Extended Frameworks for Extended Reality: Ethical Considerations.",
           "journal": "AJOB neuroscience",
@@ -2278,6 +2544,11 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article",
+            "Review"
+          ],
+          "versionLinks": [],
           "id": "32487228",
           "title": "The promise and challenge of cancer microbiome research.",
           "journal": "Genome biology",
@@ -2292,6 +2563,12 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article",
+            "Research Support, N.I.H., Extramural",
+            "Research Support, Non-U.S. Gov't"
+          ],
+          "versionLinks": [],
           "id": "29924794",
           "title": "Colorectal cancer mutational profiles correlate with defined microbial communities in the tumor microenvironment.",
           "journal": "PLoS genetics",
@@ -2306,6 +2583,11 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article",
+            "Research Support, Non-U.S. Gov't"
+          ],
+          "versionLinks": [],
           "id": "30556775",
           "title": "Integrating tumor genomics into studies of the microbiome in colorectal cancer.",
           "journal": "Gut microbes",
@@ -2717,6 +2999,10 @@
       "projectTitle": "Understanding Adaptive Natural Killer Cells in Malaria",
       "publications": [
         {
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [],
           "id": "40163420",
           "title": "Polymorphisms in Pfkelch13 domains before and after the introduction of artemisinin-based combination therapy in Southwest Nigeria.",
           "journal": "PloS one",
@@ -2731,6 +3017,16 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article",
+            "Preprint"
+          ],
+          "versionLinks": [
+            {
+              "type": "UpdateIn",
+              "id": "42633788"
+            }
+          ],
           "id": "38948747",
           "title": "ACE2 decoy Fc-fusions and bi-specific killer engager (BiKEs) require Fc engagement for in vivo efficacy against SARS-CoV-2.",
           "journal": "bioRxiv : the preprint server for biology",
@@ -2745,6 +3041,11 @@
           }
         },
         {
+          "publicationTypes": [
+            "Preprint",
+            "Journal Article"
+          ],
+          "versionLinks": [],
           "id": "38659969",
           "title": "Antibody-mediated cellular responses are dysregulated in Multisystem Inflammatory Syndrome in Children (MIS-C).",
           "journal": "bioRxiv : the preprint server for biology",
@@ -2759,6 +3060,12 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article",
+            "Research Support, N.I.H., Extramural",
+            "Research Support, Non-U.S. Gov't"
+          ],
+          "versionLinks": [],
           "id": "39287601",
           "title": "Human ACE2 Gene Replacement Mice Support SARS-CoV-2 Viral Replication and Nonlethal Disease Progression.",
           "journal": "ImmunoHorizons",
@@ -2773,6 +3080,12 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article",
+            "Case Reports",
+            "Review"
+          ],
+          "versionLinks": [],
           "id": "39420803",
           "title": "Improvement in Atopic Dermatitis and Recurrent Infection With Dupilumab in Children With Distinct Genetic Types of Hyper-IgE Syndrome: A Case Series and Literature Review.",
           "journal": "Pediatric dermatology",
@@ -2787,6 +3100,10 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [],
           "id": "39392378",
           "title": "NK Cell and Monocyte Dysfunction in Multisystem Inflammatory Syndrome in Children.",
           "journal": "Journal of immunology (Baltimore, Md. : 1950)",
@@ -2801,6 +3118,16 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article",
+            "Preprint"
+          ],
+          "versionLinks": [
+            {
+              "type": "UpdateIn",
+              "id": "40337867"
+            }
+          ],
           "id": "38798324",
           "title": "Phenotype and function of IL-10 producing NK cells in individuals with malaria experience.",
           "journal": "bioRxiv : the preprint server for biology",
@@ -2815,6 +3142,13 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article",
+            "Research Support, Non-U.S. Gov't",
+            "Research Support, N.I.H., Extramural",
+            "Research Support, U.S. Gov't, Non-P.H.S."
+          ],
+          "versionLinks": [],
           "id": "36881874",
           "title": "Ablation of SYK Kinase from Expanded Primary Human NK Cells via CRISPR/Cas9 Enhances Cytotoxicity and Cytokine Production.",
           "journal": "Journal of immunology (Baltimore, Md. : 1950)",
@@ -3012,6 +3346,10 @@
       "projectTitle": "Ex vivo modeling of primary ovarian cancer cells in 3D culture systems",
       "publications": [
         {
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [],
           "id": "42080517",
           "title": "Mineralocorticoid and glucocorticoid receptor cooperation drives advanced phenotypes in triple-negative breast cancer.",
           "journal": "Endocrinology",
@@ -3026,6 +3364,10 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [],
           "id": "39041201",
           "title": "Progesterone Receptor Signaling Promotes Cancer Associated Fibroblast Mediated Tumorigenicity in ER+ Breast Cancer.",
           "journal": "Endocrinology",
@@ -3195,6 +3537,10 @@
       "projectTitle": "Targeting the Progesterone Receptor in an ex vivo model using primary mammary epithelial cells",
       "publications": [
         {
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [],
           "id": "39041201",
           "title": "Progesterone Receptor Signaling Promotes Cancer Associated Fibroblast Mediated Tumorigenicity in ER+ Breast Cancer.",
           "journal": "Endocrinology",
@@ -3209,6 +3555,13 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article",
+            "Research Support, N.I.H., Extramural",
+            "Research Support, N.I.H., Intramural",
+            "Research Support, Non-U.S. Gov't"
+          ],
+          "versionLinks": [],
           "id": "37224504",
           "title": "Glucocorticoid Receptors Drive Breast Cancer Cell Migration and Metabolic Reprogramming via PDK4.",
           "journal": "Endocrinology",
@@ -3223,6 +3576,12 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article",
+            "Research Support, N.I.H., Extramural",
+            "Research Support, Non-U.S. Gov't"
+          ],
+          "versionLinks": [],
           "id": "38001268",
           "title": "Selective inhibition of CDK9 in triple negative breast cancer.",
           "journal": "Oncogene",
@@ -3404,6 +3763,11 @@
       "projectTitle": "Identifying Health Disparities in Gestational Weight Management among Rural Pregnant Women",
       "publications": [
         {
+          "publicationTypes": [
+            "Journal Article",
+            "Research Support, Non-U.S. Gov't"
+          ],
+          "versionLinks": [],
           "id": "41380155",
           "title": "Association Between Gender Affirmation and Adoption Interest Among a Large Sample of Transgender, Nonbinary, and Gender-Diverse Populations in Washington State, 2023.",
           "journal": "American journal of public health",
@@ -3418,6 +3782,10 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [],
           "id": "40892472",
           "title": "Prescription for Play: Implementing a pediatric play promotion intervention in federally qualified health centers.",
           "journal": "Journal of child health care : for professionals working with children in the hospital and community",
@@ -3432,6 +3800,10 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [],
           "id": "41160059",
           "title": "Strengthening Perinatal Services Through Social Care: Outcomes of a Quality Improvement Initiative for a Health Center-Based Perinatal Care Program.",
           "journal": "Journal of midwifery & women's health",
@@ -3446,6 +3818,10 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [],
           "id": "39632770",
           "title": "Patient Preferences for Telemental Health Care in a Federally Qualified Health Center.",
           "journal": "Telemedicine journal and e-health : the official journal of the American Telemedicine Association",
@@ -3460,6 +3836,10 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [],
           "id": "37535537",
           "title": "The role of prior trauma exposure and subsequent posttraumatic stress disorder in reactions to the COVID-19 pandemic: A qualitative study.",
           "journal": "Psychological trauma : theory, research, practice and policy",
@@ -3474,6 +3854,11 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article",
+            "Research Support, N.I.H., Extramural"
+          ],
+          "versionLinks": [],
           "id": "34932887",
           "title": "Association of childhood abuse with behavioral weight-loss outcomes: Examining the mediating effect of binge eating severity.",
           "journal": "Obesity (Silver Spring, Md.)",
@@ -3488,6 +3873,10 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [],
           "id": "36383162",
           "title": "Examining the Performance of the MMPI-2-RF in a Sample of Pretransplant Military Veterans.",
           "journal": "Journal of personality assessment",
@@ -3502,6 +3891,10 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [],
           "id": "36618776",
           "title": "Knowledge, Attitudes, and Beliefs about Relapse Prevention Research Involving Bupropion among Current and Former Pregnant Individuals Who Smoke.",
           "journal": "Journal of smoking cessation",
@@ -3516,6 +3909,11 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article",
+            "Research Support, N.I.H., Extramural"
+          ],
+          "versionLinks": [],
           "id": "33720460",
           "title": "Disordered eating in a population-based sample of young adults during the COVID-19 outbreak.",
           "journal": "The International journal of eating disorders",
@@ -3530,6 +3928,11 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article",
+            "Research Support, N.I.H., Extramural"
+          ],
+          "versionLinks": [],
           "id": "33368433",
           "title": "Documenting the course of loss of control over eating prior to, during and after pregnancy among women with pre-pregnancy overweight and obesity.",
           "journal": "The International journal of eating disorders",
@@ -3755,6 +4158,17 @@
       "projectTitle": "Mitochondrial Dysfunction and Calcium Handling in Duchenne Muscular Dystrophy",
       "publications": [
         {
+          "publicationTypes": [
+            "Journal Article",
+            "Research Support, U.S. Gov't, Non-P.H.S.",
+            "Research Support, N.I.H., Extramural"
+          ],
+          "versionLinks": [
+            {
+              "type": "UpdateOf",
+              "id": "38585739"
+            }
+          ],
           "id": "39288077",
           "title": "mLumiOpto Is a Mitochondrial-Targeted Gene Therapy for Treating Cancer.",
           "journal": "Cancer research",
@@ -3892,6 +4306,10 @@
       "projectTitle": "Development of Cortical Excitation and Inhibition Balance and its Role in Executive Functioning during Adolescence",
       "publications": [
         {
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [],
           "id": "42566098",
           "title": "Differential glutamate modulation in the anterior mid-cingulate cortex of healthy adults during inhibitory motor control utilizing a novel interleaved baseline control condition: a ¹H fMRS study.",
           "journal": "Brain structure & function",
@@ -4079,6 +4497,10 @@
       "projectTitle": "The effect of HIV infection on malaria specific B cell subset frequency",
       "publications": [
         {
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [],
           "id": "39917335",
           "title": "Viral Burden and Illness Severity During Acute SARS-CoV-2 Infection Predict Persistent Long COVID Symptoms.",
           "journal": "Open forum infectious diseases",
@@ -4093,6 +4515,12 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article",
+            "Research Support, N.I.H., Extramural",
+            "Research Support, U.S. Gov't, P.H.S."
+          ],
+          "versionLinks": [],
           "id": "34343310",
           "title": "Antimalarial chemoprophylaxis and treatment in the USA: limited access and extreme price variability.",
           "journal": "Journal of travel medicine",
@@ -4107,6 +4535,13 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article",
+            "Research Support, N.I.H., Extramural",
+            "Research Support, Non-U.S. Gov't",
+            "Research Support, U.S. Gov't, Non-P.H.S."
+          ],
+          "versionLinks": [],
           "id": "34342640",
           "title": "A newly characterized malaria antigen on erythrocyte and merozoite surfaces induces parasite inhibitory antibodies.",
           "journal": "The Journal of experimental medicine",
@@ -4121,6 +4556,10 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [],
           "id": "31470903",
           "title": "HIV infection drives IgM and IgG3 subclass bias in Plasmodium falciparum-specific and total immunoglobulin concentration in Western Kenya.",
           "journal": "Malaria journal",
@@ -4444,6 +4883,10 @@
       "projectTitle": "Feasibility of a One-To-One Parenting Intervention to Prevent Substance Use in Latino Youth.",
       "publications": [
         {
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [],
           "id": "36723858",
           "title": "Perceived importance and interest in research by Chilean primary care providers.",
           "journal": "Family practice",
@@ -4458,6 +4901,10 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [],
           "id": "36857611",
           "title": "Development of the ¡Vamos por Mas! parenting program to prevent substance use among Chilean adolescents.",
           "journal": "Health promotion international",
@@ -4472,6 +4919,12 @@
           }
         },
         {
+          "publicationTypes": [
+            "Randomized Controlled Trial",
+            "Clinical Trial, Phase I",
+            "Journal Article"
+          ],
+          "versionLinks": [],
           "id": "37347370",
           "title": "Safety, Tolerability, Bioavailability, and Biological Activity of Inhaled Interferon-α2b in Healthy Adults: The IN(2)COVID Phase I Randomized Trial.",
           "journal": "Clinical drug investigation",
@@ -4486,6 +4939,11 @@
           }
         },
         {
+          "publicationTypes": [
+            "Clinical Trial Protocol",
+            "Journal Article"
+          ],
+          "versionLinks": [],
           "id": "34388972",
           "title": "A cluster randomized trial of interferon ß-1a for the reduction of transmission of SARS-Cov-2: protocol for the Containing Coronavirus Disease 19 trial (ConCorD-19).",
           "journal": "BMC infectious diseases",
@@ -4500,6 +4958,11 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article",
+            "Research Support, Non-U.S. Gov't"
+          ],
+          "versionLinks": [],
           "id": "33406911",
           "title": "Mixed-Methods Evaluation of the Initial Implementation of Advanced Home Visits in Chile.",
           "journal": "Health promotion practice",
@@ -4514,6 +4977,10 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [],
           "id": "32012034",
           "title": "Designing a Mobile App to Enhance Parenting Skills of Latinx Parents: A Community-Based Participatory Approach.",
           "journal": "JMIR formative research",
@@ -4528,6 +4995,11 @@
           }
         },
         {
+          "publicationTypes": [
+            "Comparative Study",
+            "Journal Article"
+          ],
+          "versionLinks": [],
           "id": "32903195",
           "title": "System-Wide Accelerated Implementation of Telemedicine in Response to COVID-19: Mixed Methods Evaluation.",
           "journal": "Journal of medical Internet research",
@@ -4542,6 +5014,13 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article",
+            "Research Support, N.I.H., Extramural",
+            "Research Support, Non-U.S. Gov't",
+            "Research Support, U.S. Gov't, P.H.S."
+          ],
+          "versionLinks": [],
           "id": "29644545",
           "title": "Adaptive Recruitment and Parenting Interventions for Immigrant Latino Families with Adolescents.",
           "journal": "Prevention science : the official journal of the Society for Prevention Research",
@@ -4556,6 +5035,12 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article",
+            "Research Support, U.S. Gov't, P.H.S.",
+            "Systematic Review"
+          ],
+          "versionLinks": [],
           "id": "29150747",
           "title": "For Whom Do Parenting Interventions to Prevent Adolescent Substance Use Work?",
           "journal": "Prevention science : the official journal of the Society for Prevention Research",
@@ -4777,6 +5262,10 @@
       "projectTitle": "Cost-effectiveness and clinical implications of expedited partner therapy for the treatment of N. Gonorrhoeae and C. Trachomatis infection",
       "publications": [
         {
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [],
           "id": "41881956",
           "title": "Community Assessment of Chemical Exposures After a Train Derailment-East Palestine, Ohio, and Darlington Township, Pennsylvania, February-March 2023.",
           "journal": "Journal of occupational and environmental medicine",
@@ -4791,6 +5280,10 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [],
           "id": "38752389",
           "title": "Extended-Spectrum β-Lactamase Shigella sonnei Cluster Among Men Who Have Sex With Men in Chicago, Illinois, July-October 2022.",
           "journal": "The Journal of infectious diseases",
@@ -4805,6 +5298,10 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [],
           "id": "40657718",
           "title": "Pediatric Routine Immunization Delays in Chicago Before and After the Onset of the COVID-19 Pandemic: A Time-to-Event Analysis.",
           "journal": "Public health reports (Washington, D.C. : 1974)",
@@ -4819,6 +5316,11 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article",
+            "Research Support, U.S. Gov't, P.H.S."
+          ],
+          "versionLinks": [],
           "id": "38567460",
           "title": "Investigation of an Mpox Outbreak Affecting Many Vaccinated Persons in Chicago, Illinois-March 2023-June 2023.",
           "journal": "Clinical infectious diseases : an official publication of the Infectious Diseases Society of America",
@@ -4833,6 +5335,10 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [],
           "id": "38543923",
           "title": "Pregnancy Outcomes among Pregnant Persons after COVID-19 Vaccination: Assessing Vaccine Safety in Retrospective Cohort Analysis of U.S. National COVID Cohort Collaborative (N3C).",
           "journal": "Vaccines",
@@ -4847,6 +5353,10 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [],
           "id": "37947018",
           "title": "Prior Sexually Transmitted Infections and HIV in Patients With Mpox, Chicago, Illinois (June 2022-March 2023).",
           "journal": "The Journal of infectious diseases",
@@ -4861,6 +5371,11 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article",
+            "Research Support, N.I.H., Extramural"
+          ],
+          "versionLinks": [],
           "id": "37384920",
           "title": "Diagnosed Gonorrhea Among Privately Insured Women: Analysis of United States Claims Data.",
           "journal": "Journal of women's health (2002)",
@@ -4875,6 +5390,10 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [],
           "id": "36714792",
           "title": "Evaluation of Strategies to Improve Uptake of Expedited Partner Therapy for Chlamydia trachomatis Treatment in Minnesota: A Decision Analytic Model.",
           "journal": "MDM policy & practice",
@@ -4889,6 +5408,11 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article",
+            "Research Support, N.I.H., Extramural"
+          ],
+          "versionLinks": [],
           "id": "34252324",
           "title": "Missed Opportunities for Human Papillomavirus Vaccination by Parental Nativity, Minnesota, 2015-2018.",
           "journal": "Public health reports (Washington, D.C. : 1974)",
@@ -4903,6 +5427,10 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [],
           "id": "34220371",
           "title": "Unmet Need for Family Planning after Internal Migration: Analysis of Ethiopia 2017-2018 PMA Survey Data.",
           "journal": "Population, space and place",
@@ -5120,6 +5648,11 @@
       "projectTitle": "Utilizing real world evidence to increase efficiency of clinical trials with application to COVID-19 clinical trials",
       "publications": [
         {
+          "publicationTypes": [
+            "Journal Article",
+            "Research Support, N.I.H., Extramural"
+          ],
+          "versionLinks": [],
           "id": "37697901",
           "title": "Semi-supervised mixture multi-source exchangeability model for leveraging real-world data in clinical trials.",
           "journal": "Biostatistics (Oxford, England)",
@@ -5134,6 +5667,12 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article",
+            "Research Support, N.I.H., Extramural",
+            "Research Support, Non-U.S. Gov't"
+          ],
+          "versionLinks": [],
           "id": "37345752",
           "title": "Derivation of a Protein Risk Score for Cardiovascular Disease Among a Multiracial and Multiethnic HIV+ Cohort.",
           "journal": "Journal of the American Heart Association",
@@ -5315,6 +5854,10 @@
       "projectTitle": "Impact of iron supplementation on oxidative stress in children recovering from severe malaria",
       "publications": [
         {
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [],
           "id": "42720267",
           "title": "Burden and Risk Factors for Severe Respiratory Syncytial Virus Infection Among Pediatric Hematopoietic Cell Transplant Recipients.",
           "journal": "Journal of the Pediatric Infectious Diseases Society",
@@ -5329,6 +5872,11 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article",
+            "Review"
+          ],
+          "versionLinks": [],
           "id": "42170004",
           "title": "How I Treat: Chronic granulomatous disease.",
           "journal": "Journal of human immunity",
@@ -5343,6 +5891,11 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article",
+            "Review"
+          ],
+          "versionLinks": [],
           "id": "40864193",
           "title": "Harnessing virus-specific T cells: expanding therapeutic strategies across diverse populations.",
           "journal": "Blood advances",
@@ -5357,6 +5910,10 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [],
           "id": "41259360",
           "title": "Landscape of Current Transplant Infectious Disease Training Programs.",
           "journal": "Transplant infectious disease : an official journal of the Transplantation Society",
@@ -5371,6 +5928,11 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article",
+            "Multicenter Study"
+          ],
+          "versionLinks": [],
           "id": "40025782",
           "title": "Toxoplasmosis Prophylaxis Practices: A Survey of International Pediatric Solid Organ Transplantation Centers.",
           "journal": "Pediatric transplantation",
@@ -5385,6 +5947,11 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article",
+            "Review"
+          ],
+          "versionLinks": [],
           "id": "39073450",
           "title": "Fluoroquinolone Prophylaxis in Children With Cancer: A Pro/Con Discussion.",
           "journal": "Journal of the Pediatric Infectious Diseases Society",
@@ -5399,6 +5966,11 @@
           }
         },
         {
+          "publicationTypes": [
+            "Review",
+            "Journal Article"
+          ],
+          "versionLinks": [],
           "id": "38417087",
           "title": "Pipeline of Novel Antifungals for Invasive Fungal Disease in Transplant Recipients: A Pediatric Perspective.",
           "journal": "Journal of the Pediatric Infectious Diseases Society",
@@ -5413,6 +5985,11 @@
           }
         },
         {
+          "publicationTypes": [
+            "Multicenter Study",
+            "Journal Article"
+          ],
+          "versionLinks": [],
           "id": "37589394",
           "title": "Adjunctive Diagnostic Studies Completed Following Detection of Candidemia in Children: Secondary Analysis of Observed Practice From a Multicenter Cohort Study Conducted by the Pediatric Fungal Network.",
           "journal": "Journal of the Pediatric Infectious Diseases Society",
@@ -5427,6 +6004,11 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article",
+            "Consensus Statement"
+          ],
+          "versionLinks": [],
           "id": "35822346",
           "title": "A consensus conference to define the utility of advanced infectious disease diagnostics in solid organ transplant recipients.",
           "journal": "American journal of transplantation : official journal of the American Society of Transplantation and the American Society of Transplant Surgeons",
@@ -5441,6 +6023,12 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article",
+            "Observational Study",
+            "Research Support, N.I.H., Extramural"
+          ],
+          "versionLinks": [],
           "id": "35678643",
           "title": "Impact of Oxidative Stress on Risk of Death and Readmission in African Children With Severe Malaria: A Prospective Observational Study.",
           "journal": "The Journal of infectious diseases",
@@ -5455,6 +6043,10 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [],
           "id": "34374424",
           "title": "Comparative Effectiveness of Echinocandins vs Triazoles or Amphotericin B Formulations as Initial Directed Therapy for Invasive Candidiasis in Children and Adolescents.",
           "journal": "Journal of the Pediatric Infectious Diseases Society",
@@ -5469,6 +6061,11 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article",
+            "Review"
+          ],
+          "versionLinks": [],
           "id": "32721079",
           "title": "Approaches to safe living and diet after solid organ transplantation.",
           "journal": "Pediatric transplantation",
@@ -5483,6 +6080,10 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [],
           "id": "32065511",
           "title": "Characteristics and outcomes of osteomyelitis in children with sickle cell disease: A 10-year single-center experience.",
           "journal": "Pediatric blood & cancer",
@@ -5497,6 +6098,10 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [],
           "id": "32278336",
           "title": "Pneumocystis jirovecii and toxoplasmosis prophylaxis strategies among pediatric organ transplantation recipients: A US National Survey.",
           "journal": "Transplant infectious disease : an official journal of the Transplantation Society",
@@ -5511,6 +6116,10 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [],
           "id": "30267241",
           "title": "High Rates of Community and Hospital Acquired Infections in Patients with Cellular Immunodeficiencies.",
           "journal": "Journal of clinical immunology",
@@ -5744,6 +6353,11 @@
       "projectTitle": "Prevalence and Implications of Mental Health Comorbidities in Children and Young Adults with Congenital Adrenal Hyperplasia",
       "publications": [
         {
+          "publicationTypes": [
+            "Journal Article",
+            "Comment"
+          ],
+          "versionLinks": [],
           "id": "40354548",
           "title": "Born too young or too blue tips the scaling of a folded brain.",
           "journal": "Proceedings of the National Academy of Sciences of the United States of America",
@@ -5758,6 +6372,10 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [],
           "id": "33195955",
           "title": "Attention-Deficit/Hyperactivity Disorder Among US Children and Adolescents With Congenital Adrenal Hyperplasia.",
           "journal": "Journal of the Endocrine Society",
@@ -5903,6 +6521,10 @@
       "projectTitle": "Racial/Ethnic Disparities in Birth Outcomes: Examining the Role of the Patient/Provider Relationship",
       "publications": [
         {
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [],
           "id": "39933958",
           "title": "Criminal Justice, Arrests Data, and Structural Racism Measurement for Health Equity Research: Promises and Pitfalls.",
           "journal": "Health services research",
@@ -5917,6 +6539,12 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article",
+            "Research Support, N.I.H., Extramural",
+            "Research Support, Non-U.S. Gov't"
+          ],
+          "versionLinks": [],
           "id": "37312013",
           "title": "The impact of neighborhoods and friendships on interracial anxiety among medical students and residents: A report from the medical student CHANGES study.",
           "journal": "Health services research",
@@ -5931,6 +6559,10 @@
           }
         },
         {
+          "publicationTypes": [
+            "Published Erratum"
+          ],
+          "versionLinks": [],
           "id": "35181850",
           "title": "Correction to: Developing Tools to Report Racism in Maternal Health for the CDC Maternal Mortality Review Information Application (MMRIA): Findings from the MMRIA Racism & Discrimination Working Group.",
           "journal": "Maternal and child health journal",
@@ -5945,6 +6577,10 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [],
           "id": "34982327",
           "title": "Developing Tools to Report Racism in Maternal Health for the CDC Maternal Mortality Review Information Application (MMRIA): Findings from the MMRIA Racism & Discrimination Working Group.",
           "journal": "Maternal and child health journal",
@@ -5959,6 +6595,10 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [],
           "id": "36424122",
           "title": "Dobbs and disability: Implications of abortion restrictions for people with chronic health conditions.",
           "journal": "Health services research",
@@ -5973,6 +6613,12 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article",
+            "Research Support, Non-U.S. Gov't",
+            "Research Support, N.I.H., Extramural"
+          ],
+          "versionLinks": [],
           "id": "35468220",
           "title": "Multidimensional structural racism predicts birth outcomes for Black and White Minnesotans.",
           "journal": "Health services research",
@@ -5987,6 +6633,10 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [],
           "id": "35412863",
           "title": "The language of less-lethal weapons.",
           "journal": "Proceedings of the National Academy of Sciences of the United States of America",
@@ -6001,6 +6651,11 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article",
+            "Research Support, N.I.H., Extramural"
+          ],
+          "versionLinks": [],
           "id": "32887349",
           "title": "Association of Summer Heat Waves and the Probability of Preterm Birth in Minnesota: An Exploration of the Intersection of Race and Education.",
           "journal": "International journal of environmental research and public health",
@@ -6015,6 +6670,10 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [],
           "id": "32976632",
           "title": "Examining racism in health services research: A disciplinary self-critique.",
           "journal": "Health services research",
@@ -6029,6 +6688,10 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [],
           "id": "32817561",
           "title": "Physician-patient racial concordance and disparities in birthing mortality for newborns.",
           "journal": "Proceedings of the National Academy of Sciences of the United States of America",
@@ -6043,6 +6706,12 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article",
+            "Research Support, N.I.H., Extramural",
+            "Research Support, Non-U.S. Gov't"
+          ],
+          "versionLinks": [],
           "id": "31630454",
           "title": "Applying a critical race lens to relationship-centered care in pregnancy and childbirth: An antidote to structural racism.",
           "journal": "Birth (Berkeley, Calif.)",
@@ -6248,6 +6917,12 @@
       "projectTitle": "Mechanisms Underlying Placental Disfunction After Viral Infection",
       "publications": [
         {
+          "publicationTypes": [
+            "Journal Article",
+            "Review",
+            "Comparative Study"
+          ],
+          "versionLinks": [],
           "id": "41897288",
           "title": "Avian Metapneumovirus: Virology, Epidemiology, and Insights from a Comparative Analysis with Human Metapneumovirus-A Review.",
           "journal": "Biomolecules",
@@ -6262,6 +6937,17 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article",
+            "Research Support, Non-U.S. Gov't",
+            "Research Support, N.I.H., Extramural"
+          ],
+          "versionLinks": [
+            {
+              "type": "UpdateOf",
+              "id": "38464182"
+            }
+          ],
           "id": "38805182",
           "title": "The genome of Przewalski's horse (Equus ferus przewalskii).",
           "journal": "G3 (Bethesda, Md.)",
@@ -6485,6 +7171,10 @@
       "projectTitle": "Resting-state brain networks underlying psychopathology and associations with early life stress",
       "publications": [
         {
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [],
           "id": "40758288",
           "title": "Childhood behavioral inhibition and overcontrol: Risk for psychiatric and peer outcomes.",
           "journal": "Developmental psychology",
@@ -6499,6 +7189,12 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article",
+            "Review",
+            "Research Support, U.S. Gov't, P.H.S."
+          ],
+          "versionLinks": [],
           "id": "40670623",
           "title": "Social Determinants of Health, the developing brain, and risk and resilience for psychopathology.",
           "journal": "Neuropsychopharmacology : official publication of the American College of Neuropsychopharmacology",
@@ -6513,6 +7209,10 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [],
           "id": "38386382",
           "title": "Maternal prenatal social disadvantage and neonatal functional connectivity: Associations with psychopathology symptoms at age 12 months.",
           "journal": "Developmental psychology",
@@ -6527,6 +7227,12 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article",
+            "Review",
+            "Research Support, U.S. Gov't, P.H.S."
+          ],
+          "versionLinks": [],
           "id": "39103496",
           "title": "Measuring neuroplasticity in human development: the potential to inform the type and timing of mental health interventions.",
           "journal": "Neuropsychopharmacology : official publication of the American College of Neuropsychopharmacology",
@@ -6541,6 +7247,10 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [],
           "id": "39621900",
           "title": "Prenatal social disadvantage is associated with alterations in functional networks at birth.",
           "journal": "Proceedings of the National Academy of Sciences of the United States of America",
@@ -6555,6 +7265,11 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article",
+            "Research Support, N.I.H., Extramural"
+          ],
+          "versionLinks": [],
           "id": "36314461",
           "title": "Family income buffers the relationship between childhood adverse experiences and putamen volume.",
           "journal": "Developmental neurobiology",
@@ -6569,6 +7284,10 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [],
           "id": "34925549",
           "title": "The Pubertal Stress Recalibration Hypothesis: Potential Neural and Behavioral Consequences.",
           "journal": "Child development perspectives",
@@ -6812,6 +7531,11 @@
       "projectTitle": "Adolescent weight stigma, disordered eating, and obesity: Translating public health research into clinical practice through clinical education",
       "publications": [
         {
+          "publicationTypes": [
+            "Journal Article",
+            "Case Reports"
+          ],
+          "versionLinks": [],
           "id": "39171418",
           "title": "Partnerships with primary care providers: Opportunities to prevent eating disorders and mitigate their progression in young people.",
           "journal": "Eating disorders",
@@ -6826,6 +7550,11 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article",
+            "Research Support, N.I.H., Extramural"
+          ],
+          "versionLinks": [],
           "id": "35739552",
           "title": "How is weight teasing cross-sectionally and longitudinally associated with health behaviors and weight status among ethnically/racially and socioeconomically diverse young people?",
           "journal": "The international journal of behavioral nutrition and physical activity",
@@ -6840,6 +7569,11 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article",
+            "Research Support, N.I.H., Extramural"
+          ],
+          "versionLinks": [],
           "id": "33969902",
           "title": "Weight teasing experienced during adolescence and young adulthood: Cross-sectional and longitudinal associations with disordered eating behaviors in an ethnically/racially and socioeconomically diverse sample.",
           "journal": "The International journal of eating disorders",
@@ -7013,6 +7747,12 @@
       "projectTitle": "Langerhans cell function in controlling fungal immunity and commensalism",
       "publications": [
         {
+          "publicationTypes": [
+            "Journal Article",
+            "Research Support, N.I.H., Extramural",
+            "Research Support, Non-U.S. Gov't"
+          ],
+          "versionLinks": [],
           "id": "40179196",
           "title": "Meningeal regulatory T cells inhibit nociception in female mice.",
           "journal": "Science (New York, N.Y.)",
@@ -7027,6 +7767,12 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article",
+            "Research Support, N.I.H., Extramural",
+            "Research Support, Non-U.S. Gov't"
+          ],
+          "versionLinks": [],
           "id": "36367947",
           "title": "Local IL-23 is required for proliferation and retention of skin-resident memory T(H)17 cells.",
           "journal": "Science immunology",
@@ -7250,6 +7996,11 @@
       "projectTitle": "Optimizing the Dose of Gene Therapy to Improve Clinical Efficacy",
       "publications": [
         {
+          "publicationTypes": [
+            "Journal Article",
+            "Randomized Controlled Trial"
+          ],
+          "versionLinks": [],
           "id": "40673886",
           "title": "FDA Approval Summary: Niraparib plus Abiraterone Acetate Fixed-Dose Combination for BRCA-Mutated Metastatic Castration-Resistant Prostate Cancer.",
           "journal": "Clinical cancer research : an official journal of the American Association for Cancer Research",
@@ -7264,6 +8015,12 @@
           }
         },
         {
+          "publicationTypes": [
+            "Clinical Trial, Phase II",
+            "Journal Article",
+            "Multicenter Study"
+          ],
+          "versionLinks": [],
           "id": "39808502",
           "title": "FDA Approval Summary: Tovorafenib for Relapsed or Refractory BRAF-Altered Pediatric Low-Grade Glioma.",
           "journal": "Clinical cancer research : an official journal of the American Association for Cancer Research",
@@ -7437,6 +8194,10 @@
       "projectTitle": "Developing a Capacitive Aortic Stent-graft for Blood Pressure Management",
       "publications": [
         {
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [],
           "id": "41706858",
           "title": "Design and preclinical feasibility of a pediatric heart valve stent that spontaneously adapts to growth via a spring mechanism.",
           "journal": "Science advances",
@@ -7451,6 +8212,11 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article",
+            "Systematic Review"
+          ],
+          "versionLinks": [],
           "id": "42629491",
           "title": "Innovations in transcatheter interventions for hypoplastic left heart syndrome and borderline left heart structures from fetal to neonatal life: current evidence and systematic review of recent advances (2016-2025).",
           "journal": "European journal of pediatrics",
@@ -7465,6 +8231,11 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article",
+            "Research Support, Non-U.S. Gov't"
+          ],
+          "versionLinks": [],
           "id": "37580629",
           "title": "Transcatheter Pulmonary Artery Banding in High-Risk Neonates: In-Vitro Study Provoked by Initial Clinical Experience.",
           "journal": "Cardiovascular engineering and technology",
@@ -7479,6 +8250,11 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article",
+            "Research Support, Non-U.S. Gov't"
+          ],
+          "versionLinks": [],
           "id": "36456745",
           "title": "An In Vitro Circulatory Loop Model of the Pediatric Right Ventricular Outflow Tract as a Platform for Valve Evaluation.",
           "journal": "Cardiovascular engineering and technology",
@@ -7710,6 +8486,17 @@
       "projectTitle": "Evaluation of the CD4+ T cell response against influenza following hematopoietic cell transplantation",
       "publications": [
         {
+          "publicationTypes": [
+            "Journal Article",
+            "Research Support, N.I.H., Extramural",
+            "Research Support, Non-U.S. Gov't"
+          ],
+          "versionLinks": [
+            {
+              "type": "UpdateOf",
+              "id": "36711504"
+            }
+          ],
           "id": "38147316",
           "title": "FcγRIIB Is an Immune Checkpoint Limiting the Activity of Treg-Targeting Antibodies in the Tumor Microenvironment.",
           "journal": "Cancer immunology research",
@@ -7724,6 +8511,13 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article",
+            "Research Support, N.I.H., Extramural",
+            "Research Support, Non-U.S. Gov't",
+            "Research Support, N.I.H., Intramural"
+          ],
+          "versionLinks": [],
           "id": "36753564",
           "title": "Immunotoxin-αCD40 therapy activates innate and adaptive immunity and generates a durable antitumor response in glioblastoma models.",
           "journal": "Science translational medicine",
@@ -7738,6 +8532,11 @@
           }
         },
         {
+          "publicationTypes": [
+            "Case Reports",
+            "Journal Article"
+          ],
+          "versionLinks": [],
           "id": "35656122",
           "title": "Central Diabetes Insipidus Induced by Acute Myeloid Leukemia with DNMT3A Mutation.",
           "journal": "Case reports in endocrinology",
@@ -7752,6 +8551,12 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article",
+            "Research Support, Non-U.S. Gov't",
+            "Research Support, N.I.H., Extramural"
+          ],
+          "versionLinks": [],
           "id": "35902637",
           "title": "PD-1 directed immunotherapy alters Tfh and humoral immune responses to seasonal influenza vaccine.",
           "journal": "Nature immunology",
@@ -7766,6 +8571,12 @@
           }
         },
         {
+          "publicationTypes": [
+            "Letter",
+            "Research Support, N.I.H., Extramural",
+            "Research Support, Non-U.S. Gov't"
+          ],
+          "versionLinks": [],
           "id": "33986431",
           "title": "COVID-19 vaccine efficacy in patients with chronic lymphocytic leukemia.",
           "journal": "Leukemia",
@@ -7780,6 +8591,12 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article",
+            "Research Support, N.I.H., Extramural",
+            "Research Support, Non-U.S. Gov't"
+          ],
+          "versionLinks": [],
           "id": "34011627",
           "title": "Dendritic cell targeting with Fc-enhanced CD40 antibody agonists induces durable antitumor immunity in humanized mouse models of bladder cancer.",
           "journal": "Science translational medicine",
@@ -7794,6 +8611,12 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article",
+            "Research Support, N.I.H., Extramural",
+            "Research Support, Non-U.S. Gov't"
+          ],
+          "versionLinks": [],
           "id": "32855439",
           "title": "Anti-SARS-CoV-2 antibody response in patients with chronic lymphocytic leukemia.",
           "journal": "Leukemia",
@@ -7999,6 +8822,10 @@
       "projectTitle": "Biofilm-associated antibiotic resistance and stress induced alteration of biofilm architecture in Enterococcus faecalis",
       "publications": [
         {
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [],
           "id": "35056555",
           "title": "Nitric Oxide Induced stx2 Expression Is Inhibited by the Nitric Oxide Reductase, NorV, in a Clade 8 Escherichia coli O157:H7 Outbreak Strain.",
           "journal": "Microorganisms",
@@ -8013,6 +8840,10 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [],
           "id": "36409087",
           "title": "Streptococcus agalactiae npx Is Required for Survival in Human Placental Macrophages and Full Virulence in a Model of Ascending Vaginal Infection during Pregnancy.",
           "journal": "mBio",
@@ -8274,6 +9105,11 @@
       "projectTitle": "Host modulators of Tenofozir exposure and efficacy in the female genital tract",
       "publications": [
         {
+          "publicationTypes": [
+            "Journal Article",
+            "Research Support, Non-U.S. Gov't"
+          ],
+          "versionLinks": [],
           "id": "42148717",
           "title": "Prevotella bivia Influences Antiretroviral Pharmacokinetics and Viral Replication in an Ex Vivo Vaginal Tissue Model.",
           "journal": "Clinical and translational science",
@@ -8288,6 +9124,12 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article",
+            "Review",
+            "Research Support, N.I.H., Extramural"
+          ],
+          "versionLinks": [],
           "id": "40007016",
           "title": "Neuropathogenesis of Old World Alphaviruses: Considerations for the Development of Medical Countermeasures.",
           "journal": "Viruses",
@@ -8302,6 +9144,10 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [],
           "id": "39047063",
           "title": "Female Genital Tract Host Factors and Tenofovir and Lamivudine Active Metabolites.",
           "journal": "The Journal of infectious diseases",
@@ -8316,6 +9162,12 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article",
+            "Review",
+            "Research Support, N.I.H., Extramural"
+          ],
+          "versionLinks": [],
           "id": "36097755",
           "title": "Translational Models to Predict Target Concentrations for Pre-Exposure Prophylaxis in Women.",
           "journal": "AIDS research and human retroviruses",
@@ -8551,6 +9403,11 @@
       "projectTitle": "Phenotypic heterogeneity and T cell dependence of cellular host defense mechanisms in tuberculosis",
       "publications": [
         {
+          "publicationTypes": [
+            "Journal Article",
+            "Research Support, N.I.H., Extramural"
+          ],
+          "versionLinks": [],
           "id": "38110410",
           "title": "Recently activated CD4 T cells in tuberculosis express OX40 as a target for host-directed immunotherapy.",
           "journal": "Nature communications",
@@ -8716,6 +9573,10 @@
       "projectTitle": "Targeting CD83, using novel single- and dual-targeting molecules, to drive NK cells against hematologic malignancies and counteract alloreactive immune cells in the setting of NK cell immunotherapy",
       "publications": [
         {
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [],
           "id": "41499508",
           "title": "Allospecific splenic Tr1 cells drive effector T cell exhaustion through up-regulated Areg-EGFR signaling to promote transplant tolerance.",
           "journal": "Science advances",
@@ -8730,6 +9591,11 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article",
+            "Review"
+          ],
+          "versionLinks": [],
           "id": "42297917",
           "title": "Can natural killer cells cure leukemia?",
           "journal": "Leukemia",
@@ -8907,6 +9773,10 @@
       "projectTitle": "Creating a Culturally-Sensitive Report Card for African-American Kidney Transplant Patients",
       "publications": [
         {
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [],
           "id": "41543124",
           "title": "Acceptability of Using Large Language Models to Support Smoking Cessation Attempts: a Qualitative Study Among African Americans Who Smoke.",
           "journal": "Nicotine & tobacco research : official journal of the Society for Research on Nicotine and Tobacco",
@@ -8921,6 +9791,10 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [],
           "id": "42126570",
           "title": "Beyond biological risk: socioeconomic vulnerability and adverse pediatric kidney transplant outcomes.",
           "journal": "Pediatric nephrology (Berlin, Germany)",
@@ -8935,6 +9809,10 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [],
           "id": "42204970",
           "title": "Preemptive Pediatric Kidney Transplantation and Social Determinants of Health: Individual-Level Versus Area-Based Measures.",
           "journal": "Pediatric transplantation",
@@ -8949,6 +9827,10 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [],
           "id": "42481404",
           "title": "Towards equity in healthcare workforce well-being: a framework for leaders to improve well-being and retention.",
           "journal": "BMJ leader",
@@ -8963,6 +9845,10 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [],
           "id": "40193218",
           "title": "Socioeconomic Disparities in Preemptive Kidney Transplant Rates in Children.",
           "journal": "Kidney360",
@@ -8977,6 +9863,11 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article",
+            "Research Support, Non-U.S. Gov't"
+          ],
+          "versionLinks": [],
           "id": "38289894",
           "title": "\"You don't know what you don't know\": A qualitative study of informational needs of patients, family members, and living donors to inform transplant system metrics.",
           "journal": "Clinical transplantation",
@@ -8991,6 +9882,11 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article",
+            "Randomized Controlled Trial"
+          ],
+          "versionLinks": [],
           "id": "39620865",
           "title": "Randomized Controlled Trial to Evaluate a New Tool to Support Patient Decision-making on Transplant Centers.",
           "journal": "Clinical transplantation",
@@ -9005,6 +9901,11 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article",
+            "Research Support, N.I.H., Extramural"
+          ],
+          "versionLinks": [],
           "id": "33754928",
           "title": "Identifying Needs and Barriers to Engage Family Members in Transplant Candidate Care.",
           "journal": "Progress in transplantation (Aliso Viejo, Calif.)",
@@ -9019,6 +9920,10 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [],
           "id": "34140395",
           "title": "New Kidney and Pancreas Allocation Policy: Moving to a Circle as the First Unit of Allocation.",
           "journal": "Journal of the American Society of Nephrology : JASN",
@@ -9033,6 +9938,13 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article",
+            "Research Support, N.I.H., Extramural",
+            "Research Support, Non-U.S. Gov't",
+            "Research Support, U.S. Gov't, P.H.S."
+          ],
+          "versionLinks": [],
           "id": "34988464",
           "title": "What to Do with Race: Social Factors and Evaluating Clinical Risk in Kidney Transplantation.",
           "journal": "Kidney360",
@@ -9047,6 +9959,12 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article",
+            "Research Support, N.I.H., Extramural",
+            "Research Support, U.S. Gov't, P.H.S."
+          ],
+          "versionLinks": [],
           "id": "33617066",
           "title": "Designing a patient-specific search of transplant program performance and outcomes: Feedback from heart transplant candidates and recipients.",
           "journal": "Clinical transplantation",
@@ -9348,6 +10266,10 @@
       "projectTitle": "Identification of the neural correlates of social functioning and evaluation of the neuroprotective effects of a novel cognitive training intervention in first episode psychosis.",
       "publications": [
         {
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [],
           "id": "41804918",
           "title": "Expanding Coordinated Specialty Care to Early-Stage Bipolar Disorder: Development and Implementation of the STRIDE Model.",
           "journal": "Early intervention in psychiatry",
@@ -9362,6 +10284,11 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article",
+            "Research Support, N.I.H., Extramural"
+          ],
+          "versionLinks": [],
           "id": "37310333",
           "title": "Causal pathways to social and occupational functioning in the first episode of schizophrenia: uncovering unmet treatment needs.",
           "journal": "Psychological medicine",
@@ -9376,6 +10303,10 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [],
           "id": "33920376",
           "title": "Smoking Is Related to Reduced Motivation, But Not Global Cognition, in the First Two Years of Treatment for First Episode Psychosis.",
           "journal": "Journal of clinical medicine",
@@ -9390,6 +10321,13 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article",
+            "Research Support, N.I.H., Extramural",
+            "Research Support, Non-U.S. Gov't",
+            "Systematic Review"
+          ],
+          "versionLinks": [],
           "id": "31578909",
           "title": "Cognitive Training and Remediation in First-Episode Psychosis: A Literature Review.",
           "journal": "Journal of the American Psychiatric Nurses Association",
@@ -9583,6 +10521,12 @@
       "projectTitle": "Microbiome and Pharmacogenomic Biomarkers for the Individualization of Immunosuppressive Therapy in Stem Cell Transplantation",
       "publications": [
         {
+          "publicationTypes": [
+            "Clinical Trial",
+            "Journal Article",
+            "Research Support, N.I.H., Extramural"
+          ],
+          "versionLinks": [],
           "id": "41649771",
           "title": "A Mycophenolate Pharmacokinetic Study with New Insights into Enterohepatic Recirculation in Kidney Transplant Recipients.",
           "journal": "Clinical pharmacokinetics",
@@ -9597,6 +10541,10 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [],
           "id": "42477236",
           "title": "Identification of Microbiome Associations with Tacrolimus Pharmacokinetics in Adult Hematopoietic Cell Transplantation Using Population Pharmacokinetic and Machine Learning.",
           "journal": "Pharmaceutical research",
@@ -9611,6 +10559,12 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article",
+            "Multicenter Study",
+            "Observational Study"
+          ],
+          "versionLinks": [],
           "id": "40315256",
           "title": "Simultaneous Prediction of Area Under the Curves of Mycophenolic Acid and Its Metabolites and Enterohepatic Recirculation in Kidney Transplant Recipients.",
           "journal": "Therapeutic drug monitoring",
@@ -9625,6 +10579,16 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article",
+            "Research Support, N.I.H., Extramural"
+          ],
+          "versionLinks": [
+            {
+              "type": "UpdateOf",
+              "id": "38558983"
+            }
+          ],
           "id": "39179559",
           "title": "Extreme phenotype sampling and next generation sequencing to identify genetic variants associated with tacrolimus in African American kidney transplant recipients.",
           "journal": "The pharmacogenomics journal",
@@ -9639,6 +10603,10 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [],
           "id": "39047238",
           "title": "Limited Sampling Strategies Fail to Accurately Predict Mycophenolic Acid Area Under the Curve in Kidney Transplant Recipients and the Impact of Enterohepatic Recirculation.",
           "journal": "Therapeutic drug monitoring",
@@ -9653,6 +10621,12 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article",
+            "Observational Study",
+            "Research Support, Non-U.S. Gov't"
+          ],
+          "versionLinks": [],
           "id": "39673727",
           "title": "Pharmacogenomic variation and sedation outcomes during early intensive care unit admission: A pragmatic study.",
           "journal": "Clinical and translational science",
@@ -9667,6 +10641,10 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [],
           "id": "38994750",
           "title": "Steroid-tacrolimus drug-drug interaction and the effect of CYP3A genotypes.",
           "journal": "British journal of clinical pharmacology",
@@ -9910,6 +10888,11 @@
       "projectTitle": "Alteration of the innate immune response by different Cryptococcus neoformans morphologies in HIV and healthy individuals",
       "publications": [
         {
+          "publicationTypes": [
+            "Journal Article",
+            "Research Support, Non-U.S. Gov't"
+          ],
+          "versionLinks": [],
           "id": "38771036",
           "title": "Human plasma-like medium (HPLM) induces Cryptococcus neoformans in vivo cell morphologies.",
           "journal": "mSphere",
@@ -9924,6 +10907,11 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article",
+            "Research Support, Non-U.S. Gov't"
+          ],
+          "versionLinks": [],
           "id": "36821541",
           "title": "The Cryptococcus wall: A different wall for a unique lifestyle.",
           "journal": "PLoS pathogens",
@@ -10073,6 +11061,10 @@
       "projectTitle": "Biomarkers of invasive treatment outcomes in trigeminal neuralgia using ultra-high field MRI",
       "publications": [
         {
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [],
           "id": "41786668",
           "title": "An algorithm for automated femoral leg length and offset calculations on pelvis radiographs.",
           "journal": "Hip international : the journal of clinical and experimental research on hip pathology and therapy",
@@ -10087,6 +11079,11 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article",
+            "Comparative Study"
+          ],
+          "versionLinks": [],
           "id": "41875224",
           "title": "Comparison of Large Language Models with Rules-Based Natural Language Processing Algorithms for Extracting Data from Operative Notes.",
           "journal": "The Journal of bone and joint surgery. American volume",
@@ -10101,6 +11098,10 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [],
           "id": "41281371",
           "title": "Predicting Nonidiopathic Scoliosis from Plain Radiographs: A Deep-Learning Approach.",
           "journal": "JB & JS open access",
@@ -10115,6 +11116,10 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [],
           "id": "37347460",
           "title": "Probabilistic tractography of the extracranial branches of the trigeminal nerve using diffusion tensor imaging.",
           "journal": "Neuroradiology",
@@ -10308,6 +11313,11 @@
       "projectTitle": "Factors Associated with Physical and Cognitive Resilience among a Large Tibetan Monastic Community in southern India",
       "publications": [
         {
+          "publicationTypes": [
+            "Clinical Trial Protocol",
+            "Journal Article"
+          ],
+          "versionLinks": [],
           "id": "41195757",
           "title": "Community-based participatory research on Alzheimer's disease and related dementias among Tibetan Buddhist monks in South India: The Lifestyle Assessment and Monastic Aging Study (LAMAS).",
           "journal": "Alzheimer's & dementia : the journal of the Alzheimer's Association",
@@ -10541,20 +11551,15 @@
       "projectTitle": "Negative Affect and Substance Use as Momentary Mechanisms of Suicidality in Eating Disorders",
       "publications": [
         {
-          "id": "40766117",
-          "title": "Co-occurring weight- and/or shape-motivated restriction in 5,747 adults with probable avoidant/restrictive food intake disorder.",
-          "journal": "medRxiv : the preprint server for health sciences",
-          "year": 2025,
-          "doi": "10.1101/2025.07.28.25332146",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/40766117/",
-          "authorship": {
-            "position": 7,
-            "total": 12,
-            "isFirst": false,
-            "isLast": false
-          }
-        },
-        {
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [
+            {
+              "type": "UpdateOf",
+              "id": "40766117"
+            }
+          ],
           "id": "41342091",
           "title": "Co-Occurring Weight- and/or Shape-Motivated Restriction in 5747 Adults With Probable Avoidant/Restrictive Food Intake Disorder.",
           "journal": "The International journal of eating disorders",
@@ -10566,9 +11571,42 @@
             "total": 12,
             "isFirst": false,
             "isLast": false
-          }
+          },
+          "preprintVersions": [
+            {
+              "publicationTypes": [
+                "Journal Article",
+                "Preprint"
+              ],
+              "versionLinks": [
+                {
+                  "type": "UpdateIn",
+                  "id": "41342091"
+                }
+              ],
+              "id": "40766117",
+              "title": "Co-occurring weight- and/or shape-motivated restriction in 5,747 adults with probable avoidant/restrictive food intake disorder.",
+              "journal": "medRxiv : the preprint server for health sciences",
+              "year": 2025,
+              "doi": "10.1101/2025.07.28.25332146",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/40766117/",
+              "authorship": {
+                "position": 7,
+                "total": 12,
+                "isFirst": false,
+                "isLast": false
+              }
+            }
+          ]
         },
         {
+          "publicationTypes": [
+            "Journal Article",
+            "Comparative Study",
+            "Research Support, N.I.H., Extramural",
+            "Research Support, Non-U.S. Gov't"
+          ],
+          "versionLinks": [],
           "id": "39829155",
           "title": "Measurement Invariance on the Nine-Item Avoidant/Restrictive Food Intake Disorder Screen (NIAS) by Age and Reporter Status: Comparing ARFID Symptoms Among Self-Reporting Adults and Adolescents and Parent Reports of Children and Adolescents.",
           "journal": "The International journal of eating disorders",
@@ -10583,6 +11621,13 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article",
+            "Validation Study",
+            "Research Support, N.I.H., Extramural",
+            "Research Support, Non-U.S. Gov't"
+          ],
+          "versionLinks": [],
           "id": "39918169",
           "title": "Validating Online Parent- and Self-Report Screening Methods for Avoidant/Restrictive Food Intake Disorder.",
           "journal": "The International journal of eating disorders",
@@ -10597,6 +11642,12 @@
           }
         },
         {
+          "publicationTypes": [
+            "Editorial",
+            "Historical Article",
+            "Introductory Journal Article"
+          ],
+          "versionLinks": [],
           "id": "39540577",
           "title": "Elevating the Field of Eating Disorders Through Scholarship and Thoughtfulness: Honoring the Legacy of Dr. Michael Strober.",
           "journal": "The International journal of eating disorders",
@@ -10611,6 +11662,11 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article",
+            "Research Support, N.I.H., Extramural"
+          ],
+          "versionLinks": [],
           "id": "37000045",
           "title": "'Let the ladies know': queer women's perceptions of how gender and sexual orientation shape their eating and weight concerns.",
           "journal": "Culture, health & sexuality",
@@ -10625,6 +11681,11 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article",
+            "Research Support, N.I.H., Extramural"
+          ],
+          "versionLinks": [],
           "id": "31943285",
           "title": "Disparities in self-reported eating disorders and academic impairment in sexual and gender minority college students relative to their heterosexual and cisgender peers.",
           "journal": "The International journal of eating disorders",
@@ -10639,6 +11700,10 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [],
           "id": "28199032",
           "title": "A comparison of the frequency of familial suicide attempts across eating disorder diagnoses.",
           "journal": "The International journal of eating disorders",
@@ -10653,6 +11718,10 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [],
           "id": "26462683",
           "title": "Is childhood trauma associated with lifetime suicide attempts in women with bulimia nervosa?",
           "journal": "Eating and weight disorders : EWD",
@@ -10670,12 +11739,12 @@
       "authorCounts": {
         "first": 1,
         "last": 3,
-        "total": 9,
-        "known": 9
+        "total": 8,
+        "known": 8
       },
       "signals": {
         "positive": {
-          "count": 9,
+          "count": 8,
           "yearRange": {
             "min": 2015,
             "max": 2025
@@ -10703,7 +11772,7 @@
             },
             {
               "year": 2025,
-              "count": 4
+              "count": 3
             }
           ],
           "topJournals": [
@@ -10718,19 +11787,11 @@
             {
               "name": "Eating and weight disorders : EWD",
               "count": 1
-            },
-            {
-              "name": "medRxiv : the preprint server for health sciences",
-              "count": 1
             }
           ],
           "topKeywords": [
             {
               "name": "disorder",
-              "count": 5
-            },
-            {
-              "name": "avoidant",
               "count": 4
             },
             {
@@ -10738,19 +11799,19 @@
               "count": 4
             },
             {
+              "name": "avoidant",
+              "count": 3
+            },
+            {
               "name": "food",
-              "count": 4
+              "count": 3
             },
             {
               "name": "intake",
-              "count": 4
+              "count": 3
             },
             {
               "name": "restrictive",
-              "count": 4
-            },
-            {
-              "name": "adults",
               "count": 3
             },
             {
@@ -10758,69 +11819,73 @@
               "count": 3
             },
             {
-              "name": "shape",
-              "count": 3
-            },
-            {
-              "name": "weight",
-              "count": 3
-            },
-            {
               "name": "adolescents",
               "count": 2
             },
             {
+              "name": "adults",
+              "count": 2
+            },
+            {
               "name": "attempts",
+              "count": 2
+            },
+            {
+              "name": "disorders",
+              "count": 2
+            },
+            {
+              "name": "gender",
               "count": 2
             }
           ],
           "topCoauthors": [
             {
               "name": "Cynthia M Bulik",
-              "count": 5
+              "count": 4
             },
             {
               "name": "Laura M Thornton",
-              "count": 5
+              "count": 4
             },
             {
               "name": "Jennifer P White",
-              "count": 4
+              "count": 3
             },
             {
               "name": "Jessica H Baker",
-              "count": 4
+              "count": 3
             },
             {
               "name": "Lisa Dinkler",
-              "count": 4
+              "count": 3
             },
             {
               "name": "Nadia Micali",
-              "count": 4
+              "count": 3
             },
             {
               "name": "Shelby N Ortiz",
-              "count": 4
-            },
-            {
-              "name": "Casey M MacDermod",
-              "count": 3
-            },
-            {
-              "name": "Jerry Guintivano",
-              "count": 3
-            },
-            {
-              "name": "Jessica S Johnson",
-              "count": 3
-            },
-            {
-              "name": "Liv Hog",
               "count": 3
             },
             {
               "name": "Carol B Peterson",
+              "count": 2
+            },
+            {
+              "name": "Casey M MacDermod",
+              "count": 2
+            },
+            {
+              "name": "Daniel Le Grange",
+              "count": 2
+            },
+            {
+              "name": "James E Mitchell",
+              "count": 2
+            },
+            {
+              "name": "Jerry Guintivano",
               "count": 2
             }
           ]
@@ -10858,6 +11923,10 @@
       "projectTitle": "Comparison of the oral and lung microbiota in chronic obstructive pulmonary disease",
       "publications": [
         {
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [],
           "id": "38333651",
           "title": "Sputum microbiome α-diversity is a key feature of the COPD frequent exacerbator phenotype.",
           "journal": "ERJ open research",
@@ -10872,6 +11941,12 @@
           }
         },
         {
+          "publicationTypes": [
+            "Editorial",
+            "Research Support, U.S. Gov't, Non-P.H.S.",
+            "Comment"
+          ],
+          "versionLinks": [],
           "id": "37703423",
           "title": "Investigating a Causal Role for Lung Microbiome Dysbiosis in Early Chronic Obstructive Pulmonary Disease Pathogenesis.",
           "journal": "American journal of respiratory and critical care medicine",
@@ -10886,6 +11961,12 @@
           }
         },
         {
+          "publicationTypes": [
+            "Editorial",
+            "Research Support, U.S. Gov't, Non-P.H.S.",
+            "Comment"
+          ],
+          "versionLinks": [],
           "id": "36222878",
           "title": "Lung Allograft Dysfunction: Does Aspiration Hold the Key?",
           "journal": "American journal of respiratory and critical care medicine",
@@ -10900,6 +11981,13 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article",
+            "Research Support, N.I.H., Extramural",
+            "Research Support, U.S. Gov't, Non-P.H.S.",
+            "Research Support, Non-U.S. Gov't"
+          ],
+          "versionLinks": [],
           "id": "35549655",
           "title": "Therapeutic Targeting of the Respiratory Microbiome.",
           "journal": "American journal of respiratory and critical care medicine",
@@ -10914,6 +12002,12 @@
           }
         },
         {
+          "publicationTypes": [
+            "Editorial",
+            "Research Support, N.I.H., Extramural",
+            "Comment"
+          ],
+          "versionLinks": [],
           "id": "34554893",
           "title": "Balancing Benefits and Risks: Do Inhaled Corticosteroids Modify the Lung Microbiome?",
           "journal": "American journal of respiratory and critical care medicine",
@@ -10928,6 +12022,13 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article",
+            "Randomized Controlled Trial",
+            "Research Support, N.I.H., Extramural",
+            "Research Support, U.S. Gov't, Non-P.H.S."
+          ],
+          "versionLinks": [],
           "id": "34903538",
           "title": "Chlorhexidine oral rinses for symptomatic COPD: a randomised, blind, placebo-controlled preliminary study.",
           "journal": "BMJ open",
@@ -10942,6 +12043,13 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article",
+            "Research Support, N.I.H., Extramural",
+            "Research Support, Non-U.S. Gov't",
+            "Research Support, U.S. Gov't, Non-P.H.S."
+          ],
+          "versionLinks": [],
           "id": "31335912",
           "title": "Chronic obstructive pulmonary disease upper airway microbiome is associated with select clinical characteristics.",
           "journal": "PloS one",
@@ -10956,6 +12064,11 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article",
+            "Observational Study"
+          ],
+          "versionLinks": [],
           "id": "31174538",
           "title": "Chronic obstructive pulmonary disease upper airway microbiota alpha diversity is associated with exacerbation phenotype: a case-control observational study.",
           "journal": "Respiratory research",
@@ -11161,6 +12274,10 @@
       "projectTitle": "Investigating the role of interleukin-6 modulation of the microtubule-junctophilin-2-t-tubule pathway in right ventricular dysfunction in pulmonary arterial hypertension",
       "publications": [
         {
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [],
           "id": "41510145",
           "title": "Global Resource Disparities Between Pulmonary Hypertension Centers: Results From the International Survey by the PVRI IDDI Access to Care Workstream.",
           "journal": "Pulmonary circulation",
@@ -11175,6 +12292,10 @@
           }
         },
         {
+          "publicationTypes": [
+            "Editorial"
+          ],
+          "versionLinks": [],
           "id": "42428586",
           "title": "Highlights of the 2026 Pulmonary Vascular Research Institute Conference: Celebrating 20 Years of Progress and Innovation.",
           "journal": "Pulmonary circulation",
@@ -11189,6 +12310,13 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article",
+            "Observational Study",
+            "Multicenter Study",
+            "Research Support, Non-U.S. Gov't"
+          ],
+          "versionLinks": [],
           "id": "42003609",
           "title": "Incident Atrial Fibrillation and Flutter in Patients With Pulmonary Arterial Hypertension: Influence of Right Ventricular Dilatation and Reduced Right Atrial Function.",
           "journal": "Journal of the American Heart Association",
@@ -11203,6 +12331,10 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [],
           "id": "42049248",
           "title": "Lactobacillus Is Associated With Disease in Pulmonary Arterial Hypertension: A Prospective Cohort Study.",
           "journal": "Comprehensive physiology",
@@ -11217,6 +12349,11 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article",
+            "Review"
+          ],
+          "versionLinks": [],
           "id": "41918066",
           "title": "The Importance of Liver-Lung Communication in Pulmonary Vascular Diseases.",
           "journal": "Comprehensive physiology",
@@ -11231,6 +12368,11 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article",
+            "Review"
+          ],
+          "versionLinks": [],
           "id": "40559197",
           "title": "Gut Microbiome in Pulmonary Arterial Hypertension-An Emerging Frontier.",
           "journal": "Infectious disease reports",
@@ -11245,6 +12387,11 @@
           }
         },
         {
+          "publicationTypes": [
+            "Editorial",
+            "Comment"
+          ],
+          "versionLinks": [],
           "id": "40536940",
           "title": "Interstitial Macrophages Drive Pulmonary Arteriole Medial Fibrosis in PAH.",
           "journal": "Circulation research",
@@ -11259,6 +12406,15 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [
+            {
+              "type": "UpdateOf",
+              "id": "39229028"
+            }
+          ],
           "id": "40376801",
           "title": "Lactobacillus Restructures the Micro/Mycobiome to Combat Inflammation-Mediated Right Ventricular Dysfunction in Pulmonary Arterial Hypertension.",
           "journal": "Circulation. Heart failure",
@@ -11270,9 +12426,39 @@
             "total": 12,
             "isFirst": true,
             "isLast": false
-          }
+          },
+          "preprintVersions": [
+            {
+              "publicationTypes": [
+                "Journal Article",
+                "Preprint"
+              ],
+              "versionLinks": [
+                {
+                  "type": "UpdateIn",
+                  "id": "40376801"
+                }
+              ],
+              "id": "39229028",
+              "title": "Lactobacillus Restructures the Micro/Mycobiome to Combat Glycoprotein-130 Associated Microtubule Remodeling and Right Ventricular Dysfunction in Pulmonary Arterial Hypertension.",
+              "journal": "bioRxiv : the preprint server for biology",
+              "year": 2024,
+              "doi": "10.1101/2024.08.19.608469",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39229028/",
+              "authorship": {
+                "position": 0,
+                "total": 8,
+                "isFirst": true,
+                "isLast": false
+              }
+            }
+          ]
         },
         {
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [],
           "id": "39749110",
           "title": "Precision Medicine for Pulmonary Vascular Disease: The Future Is Now (2023 Grover Conference Series).",
           "journal": "Pulmonary circulation",
@@ -11287,6 +12473,10 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [],
           "id": "39421926",
           "title": "Ferroptosis-Mediated Inflammation Promotes Pulmonary Hypertension.",
           "journal": "Circulation research",
@@ -11301,6 +12491,15 @@
           }
         },
         {
+          "publicationTypes": [
+            "Letter"
+          ],
+          "versionLinks": [
+            {
+              "type": "UpdateOf",
+              "id": "36798293"
+            }
+          ],
           "id": "39159221",
           "title": "Junctophilin-2 Regulates Mitochondrial Metabolism.",
           "journal": "Circulation",
@@ -11315,20 +12514,12 @@
           }
         },
         {
-          "id": "39229028",
-          "title": "Lactobacillus Restructures the Micro/Mycobiome to Combat Glycoprotein-130 Associated Microtubule Remodeling and Right Ventricular Dysfunction in Pulmonary Arterial Hypertension.",
-          "journal": "bioRxiv : the preprint server for biology",
-          "year": 2024,
-          "doi": "10.1101/2024.08.19.608469",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/39229028/",
-          "authorship": {
-            "position": 0,
-            "total": 8,
-            "isFirst": true,
-            "isLast": false
-          }
-        },
-        {
+          "publicationTypes": [
+            "Journal Article",
+            "Research Support, N.I.H., Extramural",
+            "Research Support, Non-U.S. Gov't"
+          ],
+          "versionLinks": [],
           "id": "36343281",
           "title": "Pulmonary Arterial Hypertension Patients Have a Proinflammatory Gut Microbiome and Altered Circulating Microbial Metabolites.",
           "journal": "American journal of respiratory and critical care medicine",
@@ -11343,6 +12534,10 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [],
           "id": "37719340",
           "title": "Sex differences in right ventricular function between Groups 1 and 3 pulmonary hypertension.",
           "journal": "Pulmonary circulation",
@@ -11357,6 +12552,13 @@
           }
         },
         {
+          "publicationTypes": [
+            "Letter",
+            "Research Support, Non-U.S. Gov't",
+            "Research Support, N.I.H., Extramural",
+            "Comment"
+          ],
+          "versionLinks": [],
           "id": "35758028",
           "title": "Response by Prisco and Prins to Letter Regarding Article, \"Inflammatory Glycoprotein 130 Signaling Links Changes in Microtubules and Junctophilin-2 to Altered Mitochondrial Metabolism and Right Ventricular Contractility\".",
           "journal": "Circulation. Heart failure",
@@ -11371,6 +12573,12 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article",
+            "Research Support, N.I.H., Extramural",
+            "Research Support, Non-U.S. Gov't"
+          ],
+          "versionLinks": [],
           "id": "34923829",
           "title": "Inflammatory Glycoprotein 130 Signaling Links Changes in Microtubules and Junctophilin-2 to Altered Mitochondrial Metabolism and Right Ventricular Contractility.",
           "journal": "Circulation. Heart failure",
@@ -11385,6 +12593,12 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article",
+            "Research Support, N.I.H., Extramural",
+            "Research Support, Non-U.S. Gov't"
+          ],
+          "versionLinks": [],
           "id": "34747187",
           "title": "Intermittent Fasting Enhances Right Ventricular Function in Preclinical Pulmonary Arterial Hypertension.",
           "journal": "Journal of the American Heart Association",
@@ -11399,6 +12613,10 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [],
           "id": "33019763",
           "title": "Excess Protein O-GlcNAcylation Links Metabolic Derangements to Right Ventricular Dysfunction in Pulmonary Arterial Hypertension.",
           "journal": "International journal of molecular sciences",
@@ -11414,14 +12632,14 @@
         }
       ],
       "authorCounts": {
-        "first": 10,
+        "first": 9,
         "last": 3,
-        "total": 18,
-        "known": 18
+        "total": 17,
+        "known": 17
       },
       "signals": {
         "positive": {
-          "count": 18,
+          "count": 17,
           "yearRange": {
             "min": 2020,
             "max": 2026
@@ -11445,7 +12663,7 @@
             },
             {
               "year": 2024,
-              "count": 3
+              "count": 2
             },
             {
               "year": 2025,
@@ -11482,10 +12700,6 @@
               "count": 1
             },
             {
-              "name": "bioRxiv : the preprint server for biology",
-              "count": 1
-            },
-            {
               "name": "Circulation",
               "count": 1
             },
@@ -11501,34 +12715,26 @@
           "topKeywords": [
             {
               "name": "pulmonary",
-              "count": 15
+              "count": 14
             },
             {
               "name": "hypertension",
-              "count": 11
+              "count": 10
             },
             {
               "name": "right",
-              "count": 9
+              "count": 8
             },
             {
               "name": "arterial",
-              "count": 8
+              "count": 7
             },
             {
               "name": "ventricular",
-              "count": 8
-            },
-            {
-              "name": "130",
-              "count": 3
+              "count": 7
             },
             {
               "name": "altered",
-              "count": 3
-            },
-            {
-              "name": "dysfunction",
               "count": 3
             },
             {
@@ -11536,30 +12742,38 @@
               "count": 3
             },
             {
-              "name": "glycoprotein",
-              "count": 3
-            },
-            {
               "name": "junctophilin",
               "count": 3
             },
             {
-              "name": "lactobacillus",
+              "name": "links",
+              "count": 3
+            },
+            {
+              "name": "metabolism",
+              "count": 3
+            },
+            {
+              "name": "mitochondrial",
+              "count": 3
+            },
+            {
+              "name": "vascular",
               "count": 3
             }
           ],
           "topCoauthors": [
             {
               "name": "Kurt W Prins",
-              "count": 11
+              "count": 10
             },
             {
               "name": "Thenappan Thenappan",
-              "count": 11
+              "count": 10
             },
             {
               "name": "Felipe Kazmirczak",
-              "count": 7
+              "count": 6
             },
             {
               "name": "E Kenneth Weir",
@@ -11570,15 +12784,15 @@
               "count": 4
             },
             {
-              "name": "Madelyn Blake",
-              "count": 4
-            },
-            {
               "name": "Arun Jose",
               "count": 3
             },
             {
               "name": "Jenna B Mendelson",
+              "count": 3
+            },
+            {
+              "name": "Madelyn Blake",
               "count": 3
             },
             {
@@ -11674,6 +12888,10 @@
       "projectTitle": "The Neural Correlates of Impaired State Representations: a Translational Approach for the Study of Early Psychosis",
       "publications": [
         {
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [],
           "id": "41277699",
           "title": "Examining Causal Pathways to Suicidal Ideation and Nonsuicidal Self-Injury in the Adolescent Brain Cognitive Development Study.",
           "journal": "Suicide & life-threatening behavior",
@@ -11688,6 +12906,10 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [],
           "id": "40480995",
           "title": "Mechanism-based subtyping in binge eating: understanding neurobehavioral heterogeneity across negative emotionality, approach behavior, and executive function.",
           "journal": "Translational psychiatry",
@@ -11702,6 +12924,12 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article",
+            "Research Support, U.S. Gov't, Non-P.H.S.",
+            "Research Support, N.I.H., Extramural"
+          ],
+          "versionLinks": [],
           "id": "40462561",
           "title": "Oscillatory and Aperiodic Contributions to EEG Event-Related Time-Frequency Metrics During Cognitive Control and Reinforcement Processing: A Registered Report.",
           "journal": "Psychophysiology",
@@ -11716,6 +12944,15 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [
+            {
+              "type": "UpdateOf",
+              "id": "37502872"
+            }
+          ],
           "id": "39899115",
           "title": "Posttraumatic reexperiencing and alcohol use: Mediofrontal theta as a neural mechanism for negative reinforcement.",
           "journal": "Journal of psychopathology and clinical science",
@@ -11728,17 +12965,18 @@
             "isFirst": true,
             "isLast": false
           },
-          "publicationTypes": [
-            "Journal Article"
-          ],
-          "versionLinks": [
-            {
-              "type": "UpdateOf",
-              "id": "37502872"
-            }
-          ],
           "preprintVersions": [
             {
+              "publicationTypes": [
+                "Preprint",
+                "Journal Article"
+              ],
+              "versionLinks": [
+                {
+                  "type": "UpdateIn",
+                  "id": "39899115"
+                }
+              ],
               "id": "37502872",
               "title": "Posttraumatic reexperiencing and alcohol use: mediofrontal theta as a neural mechanism for negative reinforcement.",
               "journal": "bioRxiv : the preprint server for biology",
@@ -11750,21 +12988,16 @@
                 "total": 5,
                 "isFirst": true,
                 "isLast": false
-              },
-              "publicationTypes": [
-                "Preprint",
-                "Journal Article"
-              ],
-              "versionLinks": [
-                {
-                  "type": "UpdateIn",
-                  "id": "39899115"
-                }
-              ]
+              }
             }
           ]
         },
         {
+          "publicationTypes": [
+            "Preprint",
+            "Journal Article"
+          ],
+          "versionLinks": [],
           "id": "37961578",
           "title": "NeuroFreq: a MATLAB Toolbox for Time-Frequency Analysis of M/EEG Data.",
           "journal": "bioRxiv : the preprint server for biology",
@@ -11779,6 +13012,12 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article",
+            "Research Support, Non-U.S. Gov't",
+            "Research Support, N.I.H., Extramural"
+          ],
+          "versionLinks": [],
           "id": "36115920",
           "title": "Explainable machine learning analysis reveals sex and gender differences in the phenotypic and neurobiological markers of Cannabis Use Disorder.",
           "journal": "Scientific reports",
@@ -11980,6 +13219,10 @@
       "projectTitle": "The Clinical and Economic Impact of the Implementation of Prospective Pharmacogenomic Testing in the Care of Patients with Cancer",
       "publications": [
         {
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [],
           "id": "41785446",
           "title": "Financial Hardship Before Diagnosis: Influence on Late-Stage Cancer Presentation and the Role of Screening.",
           "journal": "Journal of clinical oncology : official journal of the American Society of Clinical Oncology",
@@ -11994,6 +13237,10 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [],
           "id": "41455083",
           "title": "Impact of KRAS codon-specific mutations on survival in metastatic CRC on trifluridine-tipiracil with/without bevacizumab.",
           "journal": "Journal of the National Cancer Institute",
@@ -12008,6 +13255,10 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [],
           "id": "36798090",
           "title": "Translating an Economic Analysis into a Tool for Public Health Resource Allocation in Cancer Survivorship.",
           "journal": "MDM policy & practice",
@@ -12022,6 +13273,11 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article",
+            "Research Support, N.I.H., Extramural"
+          ],
+          "versionLinks": [],
           "id": "35361994",
           "title": "Opportunities for personalizing colorectal cancer care: an analysis of SEER-medicare data.",
           "journal": "The pharmacogenomics journal",
@@ -12036,6 +13292,12 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article",
+            "Multicenter Study",
+            "Observational Study"
+          ],
+          "versionLinks": [],
           "id": "32662547",
           "title": "Pharmacogenomics in kidney transplant recipients and potential for integration into practice.",
           "journal": "Journal of clinical pharmacy and therapeutics",
@@ -12237,6 +13499,10 @@
       "projectTitle": "Longitudinal assessment of novel biomarkers for predicting cardiovascular disease in youth",
       "publications": [
         {
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [],
           "id": "42084557",
           "title": "Disseminating and Implementing the Science of Pediatric Obesity Treatment and Prevention.",
           "journal": "Obesity (Silver Spring, Md.)",
@@ -12251,6 +13517,11 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article",
+            "Review"
+          ],
+          "versionLinks": [],
           "id": "40730197",
           "title": "Extinguishing the Fire: Treating Pediatric Type 2 Diabetes by Targeting Obesity Treatment.",
           "journal": "Diabetes care",
@@ -12265,6 +13536,12 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article",
+            "Research Support, Non-U.S. Gov't",
+            "Research Support, N.I.H., Extramural"
+          ],
+          "versionLinks": [],
           "id": "41111440",
           "title": "Plasma Metabolomic and Proteomic Signatures of Blood Pressure Management After Bariatric Surgery Among Adolescents.",
           "journal": "Hypertension (Dallas, Tex. : 1979)",
@@ -12279,6 +13556,11 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article",
+            "Preprint"
+          ],
+          "versionLinks": [],
           "id": "39464122",
           "title": "Ketogenesis protects against MASLD-MASH progression through mechanisms that extend beyond overall fat oxidation rate.",
           "journal": "bioRxiv : the preprint server for biology",
@@ -12293,6 +13575,12 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article",
+            "Randomized Controlled Trial",
+            "Research Support, N.I.H., Extramural"
+          ],
+          "versionLinks": [],
           "id": "35403350",
           "title": "Exenatide for weight-loss maintenance in adolescents with severe obesity: A randomized, placebo-controlled trial.",
           "journal": "Obesity (Silver Spring, Md.)",
@@ -12307,6 +13595,11 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article",
+            "Research Support, U.S. Gov't, P.H.S."
+          ],
+          "versionLinks": [],
           "id": "35043581",
           "title": "Metrics matter: Toward consensus reporting of BMI and weight-related outcomes in pediatric obesity clinical trials.",
           "journal": "Obesity (Silver Spring, Md.)",
@@ -12321,6 +13614,12 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article",
+            "Research Support, N.I.H., Extramural",
+            "Research Support, Non-U.S. Gov't"
+          ],
+          "versionLinks": [],
           "id": "36263895",
           "title": "Opinions from the experts: Experiences of adolescents with severe obesity participating in meal replacement therapy.",
           "journal": "Pediatric obesity",
@@ -12335,6 +13634,11 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article",
+            "Research Support, N.I.H., Extramural"
+          ],
+          "versionLinks": [],
           "id": "36326050",
           "title": "Relationship of Endothelial Microparticles to Obesity and Cardiovascular Disease Risk in Children and Adolescents.",
           "journal": "Journal of the American Heart Association",
@@ -12349,6 +13653,11 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article",
+            "Research Support, N.I.H., Extramural"
+          ],
+          "versionLinks": [],
           "id": "34718333",
           "title": "BMI metrics and their association with adiposity, cardiometabolic risk factors, and biomarkers in children and adolescents.",
           "journal": "International journal of obesity (2005)",
@@ -12363,6 +13672,12 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article",
+            "Research Support, N.I.H., Extramural",
+            "Research Support, Non-U.S. Gov't"
+          ],
+          "versionLinks": [],
           "id": "32090509",
           "title": "Thirty-Year Risk of Cardiovascular Disease Events in Adolescents with Severe Obesity.",
           "journal": "Obesity (Silver Spring, Md.)",
@@ -12377,6 +13692,12 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article",
+            "Research Support, N.I.H., Extramural",
+            "Research Support, Non-U.S. Gov't"
+          ],
+          "versionLinks": [],
           "id": "30677258",
           "title": "Heterogeneity in Response to Treatment of Adolescents with Severe Obesity: The Need for Precision Obesity Medicine.",
           "journal": "Obesity (Silver Spring, Md.)",
@@ -12391,6 +13712,12 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article",
+            "Research Support, N.I.H., Extramural",
+            "Research Support, Non-U.S. Gov't"
+          ],
+          "versionLinks": [],
           "id": "30677263",
           "title": "Long and Short of It: Early Response Predicts Longer-Term Outcomes in Pediatric Weight Management.",
           "journal": "Obesity (Silver Spring, Md.)",
@@ -12405,6 +13732,11 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article",
+            "Research Support, N.I.H., Extramural"
+          ],
+          "versionLinks": [],
           "id": "31597933",
           "title": "Prediction of adult class II/III obesity from childhood BMI: the i3C consortium.",
           "journal": "International journal of obesity (2005)",
@@ -12419,6 +13751,11 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article",
+            "Research Support, N.I.H., Extramural"
+          ],
+          "versionLinks": [],
           "id": "31773904",
           "title": "Reaching the Tipping Point: Identification of Thresholds at which Visceral Adipose Tissue May Steeply Increase in Youth.",
           "journal": "Obesity (Silver Spring, Md.)",
@@ -12433,6 +13770,10 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [],
           "id": "29951211",
           "title": "Cardiometabolic risk factors in treatment-seeking youth versus population youth with obesity.",
           "journal": "Obesity science & practice",
@@ -12447,6 +13788,12 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article",
+            "Research Support, Non-U.S. Gov't",
+            "Review"
+          ],
+          "versionLinks": [],
           "id": "29732716",
           "title": "Treatment Options for Severe Obesity in the Pediatric Population: Current Limitations and Future Opportunities.",
           "journal": "Obesity (Silver Spring, Md.)",
@@ -12461,6 +13808,12 @@
           }
         },
         {
+          "publicationTypes": [
+            "Comparative Study",
+            "Journal Article",
+            "Research Support, N.I.H., Extramural"
+          ],
+          "versionLinks": [],
           "id": "26389821",
           "title": "Impaired cardiac autonomic nervous system function is associated with pediatric hypertension independent of adiposity.",
           "journal": "Pediatric research",
@@ -12698,6 +14051,13 @@
       "projectTitle": "The role of Mcm10 in NK cell deficiency",
       "publications": [
         {
+          "publicationTypes": [
+            "Journal Article",
+            "Research Support, N.I.H., Extramural",
+            "Research Support, Non-U.S. Gov't",
+            "Research Support, U.S. Gov't, Non-P.H.S."
+          ],
+          "versionLinks": [],
           "id": "33712616",
           "title": "Bi-allelic MCM10 variants associated with immune dysfunction and cardiomyopathy cause telomere shortening.",
           "journal": "Nature communications",
@@ -12947,6 +14307,11 @@
       "projectTitle": "Cortical Spreading Depression as a Biomarker of Brain Injury During Neurosurgery",
       "publications": [
         {
+          "publicationTypes": [
+            "Case Reports",
+            "Journal Article"
+          ],
+          "versionLinks": [],
           "id": "35838475",
           "title": "Resection of an Intradural Extramedullary Capillary Hemangioma in the Lumbar Spine.",
           "journal": "Operative neurosurgery (Hagerstown, Md.)",
@@ -12961,6 +14326,11 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article",
+            "Research Support, N.I.H., Extramural"
+          ],
+          "versionLinks": [],
           "id": "27605617",
           "title": "Glial Cell Calcium Signaling Mediates Capillary Regulation of Blood Flow in the Retina.",
           "journal": "The Journal of neuroscience : the official journal of the Society for Neuroscience",
@@ -13134,6 +14504,11 @@
       "projectTitle": "Compensatory neuroplasticity of the motor system in people with idiopathic REM sleep behavior disorder: a harbinger of Parkinson's disease?",
       "publications": [
         {
+          "publicationTypes": [
+            "Journal Article",
+            "Review"
+          ],
+          "versionLinks": [],
           "id": "33978530",
           "title": "Motor Dysfunction in REM Sleep Behavior Disorder: A Rehabilitation Framework for Prodromal Synucleinopathy.",
           "journal": "Neurorehabilitation and neural repair",
@@ -13263,6 +14638,15 @@
       "projectTitle": "Optimizing the Identification and Prediction of Statin Intolerance to Improve Statin Adherence Using Natural Language Processing and Machine Learning",
       "publications": [
         {
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [
+            {
+              "type": "UpdateOf",
+              "id": "37645885"
+            }
+          ],
           "id": "38372189",
           "title": "Development and Validation of the Pharmacological Statin-Associated Muscle Symptoms Risk Stratification Score Using Electronic Health Record Data.",
           "journal": "Clinical pharmacology and therapeutics",
@@ -13274,9 +14658,44 @@
             "total": 8,
             "isFirst": true,
             "isLast": false
-          }
+          },
+          "preprintVersions": [
+            {
+              "publicationTypes": [
+                "Preprint",
+                "Journal Article"
+              ],
+              "versionLinks": [
+                {
+                  "type": "UpdateIn",
+                  "id": "38372189"
+                }
+              ],
+              "id": "37645885",
+              "title": "Development and validation of the pharmacological statin-associated muscle symptoms risk stratification (PSAMS-RS) score using real-world electronic health record data.",
+              "journal": "medRxiv : the preprint server for health sciences",
+              "year": 2023,
+              "doi": "10.1101/2023.08.10.23293939",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/37645885/",
+              "authorship": {
+                "position": 0,
+                "total": 8,
+                "isFirst": true,
+                "isLast": false
+              }
+            }
+          ]
         },
         {
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [
+            {
+              "type": "UpdateOf",
+              "id": "37215024"
+            }
+          ],
           "id": "37881784",
           "title": "Development and application of pharmacological statin-associated muscle symptoms phenotyping algorithms using structured and unstructured electronic health records data.",
           "journal": "JAMIA open",
@@ -13291,20 +14710,13 @@
           }
         },
         {
-          "id": "37645885",
-          "title": "Development and validation of the pharmacological statin-associated muscle symptoms risk stratification (PSAMS-RS) score using real-world electronic health record data.",
-          "journal": "medRxiv : the preprint server for health sciences",
-          "year": 2023,
-          "doi": "10.1101/2023.08.10.23293939",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/37645885/",
-          "authorship": {
-            "position": 0,
-            "total": 8,
-            "isFirst": true,
-            "isLast": false
-          }
-        },
-        {
+          "publicationTypes": [
+            "Clinical Trial Protocol",
+            "Journal Article",
+            "Research Support, Non-U.S. Gov't",
+            "Research Support, N.I.H., Extramural"
+          ],
+          "versionLinks": [],
           "id": "36724193",
           "title": "Hmong microbiome ANd Gout, Obesity, Vitamin C (HMANGO-C): A phase II clinical study protocol.",
           "journal": "PloS one",
@@ -13320,14 +14732,14 @@
         }
       ],
       "authorCounts": {
-        "first": 3,
+        "first": 2,
         "last": 0,
-        "total": 4,
-        "known": 4
+        "total": 3,
+        "known": 3
       },
       "signals": {
         "positive": {
-          "count": 4,
+          "count": 3,
           "yearRange": {
             "min": 2023,
             "max": 2024
@@ -13335,7 +14747,7 @@
           "yearCounts": [
             {
               "year": 2023,
-              "count": 3
+              "count": 2
             },
             {
               "year": 2024,
@@ -13352,10 +14764,6 @@
               "count": 1
             },
             {
-              "name": "medRxiv : the preprint server for health sciences",
-              "count": 1
-            },
-            {
               "name": "PloS one",
               "count": 1
             }
@@ -13363,80 +14771,76 @@
           "topKeywords": [
             {
               "name": "associated",
-              "count": 3
+              "count": 2
             },
             {
               "name": "data",
-              "count": 3
+              "count": 2
             },
             {
               "name": "development",
-              "count": 3
+              "count": 2
             },
             {
               "name": "electronic",
-              "count": 3
+              "count": 2
             },
             {
               "name": "health",
-              "count": 3
+              "count": 2
             },
             {
               "name": "muscle",
-              "count": 3
+              "count": 2
             },
             {
               "name": "pharmacological",
-              "count": 3
+              "count": 2
             },
             {
               "name": "statin",
-              "count": 3
+              "count": 2
             },
             {
               "name": "symptoms",
-              "count": 3
+              "count": 2
             },
             {
               "name": "using",
-              "count": 3
-            },
-            {
-              "name": "record",
               "count": 2
             },
             {
-              "name": "risk",
-              "count": 2
+              "name": "algorithms",
+              "count": 1
+            },
+            {
+              "name": "application",
+              "count": 1
             }
           ],
           "topCoauthors": [
             {
               "name": "Robert J Straka",
-              "count": 4
+              "count": 3
             },
             {
               "name": "Chih-Lin Chi",
-              "count": 3
+              "count": 2
             },
             {
               "name": "Matt Loth",
-              "count": 3
+              "count": 2
             },
             {
               "name": "Meijia Song",
-              "count": 3
+              "count": 2
             },
             {
               "name": "Pui Ying Yew",
-              "count": 3
+              "count": 2
             },
             {
               "name": "Rui Zhang",
-              "count": 3
-            },
-            {
-              "name": "Yue Liang",
               "count": 2
             },
             {
@@ -13457,6 +14861,10 @@
             },
             {
               "name": "Shannon L Pergament",
+              "count": 1
+            },
+            {
+              "name": "Toua Yang",
               "count": 1
             }
           ]
@@ -13494,6 +14902,12 @@
       "projectTitle": "Revealing the Core of White Matter Alteration and Cognitive Deficits in Mucopolysaccharidosis Type 2",
       "publications": [
         {
+          "publicationTypes": [
+            "Journal Article",
+            "Research Support, N.I.H., Extramural",
+            "Research Support, Non-U.S. Gov't"
+          ],
+          "versionLinks": [],
           "id": "39761695",
           "title": "Diffusion tensor imaging with free-water correction reveals distinctions between severe and attenuated subtypes in Mucopolysaccharidosis type I.",
           "journal": "Journal of inherited metabolic disease",
@@ -13508,6 +14922,12 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article",
+            "Research Support, Non-U.S. Gov't",
+            "Research Support, N.I.H., Extramural"
+          ],
+          "versionLinks": [],
           "id": "37106154",
           "title": "(1)H magnetic resonance spectroscopic imaging of deuterated glucose and of neurotransmitter metabolism at 7 T in the human brain.",
           "journal": "Nature biomedical engineering",
@@ -13522,6 +14942,11 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article",
+            "Review"
+          ],
+          "versionLinks": [],
           "id": "35566426",
           "title": "Quantitative MR Markers in Non-Myelopathic Spinal Cord Compression: A Narrative Review.",
           "journal": "Journal of clinical medicine",
@@ -13536,6 +14961,12 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article",
+            "Research Support, N.I.H., Extramural",
+            "Research Support, Non-U.S. Gov't"
+          ],
+          "versionLinks": [],
           "id": "34288268",
           "title": "Diffusion magnetic resonance imaging reveals tract-specific microstructural correlates of electrophysiological impairments in non-myelopathic and myelopathic spinal cord compression.",
           "journal": "European journal of neurology",
@@ -13550,6 +14981,13 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article",
+            "Research Support, N.I.H., Extramural",
+            "Research Support, Non-U.S. Gov't",
+            "Research Support, U.S. Gov't, Non-P.H.S."
+          ],
+          "versionLinks": [],
           "id": "29964316",
           "title": "White matter measures correlate with essential tremor severity-A pilot diffusion tensor imaging study.",
           "journal": "Brain and behavior",
@@ -13564,6 +15002,12 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article",
+            "Research Support, N.I.H., Extramural",
+            "Research Support, Non-U.S. Gov't"
+          ],
+          "versionLinks": [],
           "id": "27159198",
           "title": "Unique white matter microstructural patterns in ADHD presentations-a diffusion tensor imaging study.",
           "journal": "Human brain mapping",
@@ -13777,6 +15221,10 @@
       "projectTitle": "Translational approach to resolve neurobiologically distinct decision-making dysfunctions in addiction",
       "publications": [
         {
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [],
           "id": "42425953",
           "title": "Reward pursuit during a translational reward task correlates with anhedonia reductions following rTMS in patients with major depressive disorder.",
           "journal": "Translational psychiatry",
@@ -13791,6 +15239,15 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [
+            {
+              "type": "UpdateOf",
+              "id": "39005412"
+            }
+          ],
           "id": "40644558",
           "title": "Change-of-mind neuroeconomic decision-making is modulated by LINC00473 in medial prefrontal cortex in a sex-dependent manner.",
           "journal": "Science advances",
@@ -13802,23 +15259,44 @@
             "total": 12,
             "isFirst": false,
             "isLast": true
-          }
+          },
+          "preprintVersions": [
+            {
+              "publicationTypes": [
+                "Journal Article",
+                "Preprint"
+              ],
+              "versionLinks": [
+                {
+                  "type": "UpdateIn",
+                  "id": "40644558"
+                }
+              ],
+              "id": "39005412",
+              "title": "Change-of-mind neuroeconomic decision-making is modulated by LINC00473 in medial prefrontal cortex in a sex-dependent manner.",
+              "journal": "bioRxiv : the preprint server for biology",
+              "year": 2025,
+              "doi": "10.1101/2024.05.08.592609",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39005412/",
+              "authorship": {
+                "position": 11,
+                "total": 12,
+                "isFirst": false,
+                "isLast": true
+              }
+            }
+          ]
         },
         {
-          "id": "39005412",
-          "title": "Change-of-mind neuroeconomic decision-making is modulated by LINC00473 in medial prefrontal cortex in a sex-dependent manner.",
-          "journal": "bioRxiv : the preprint server for biology",
-          "year": 2025,
-          "doi": "10.1101/2024.05.08.592609",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/39005412/",
-          "authorship": {
-            "position": 11,
-            "total": 12,
-            "isFirst": false,
-            "isLast": true
-          }
-        },
-        {
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [
+            {
+              "type": "UpdateOf",
+              "id": "38260368"
+            }
+          ],
           "id": "39838110",
           "title": "Neuroeconomically dissociable forms of mental accounting are altered in a mouse model of diabetes.",
           "journal": "Communications biology",
@@ -13830,9 +15308,39 @@
             "total": 12,
             "isFirst": false,
             "isLast": true
-          }
+          },
+          "preprintVersions": [
+            {
+              "publicationTypes": [
+                "Preprint",
+                "Journal Article"
+              ],
+              "versionLinks": [
+                {
+                  "type": "UpdateIn",
+                  "id": "39838110"
+                }
+              ],
+              "id": "38260368",
+              "title": "Diabetes alters neuroeconomically dissociable forms of mental accounting.",
+              "journal": "bioRxiv : the preprint server for biology",
+              "year": 2024,
+              "doi": "10.1101/2024.01.04.574210",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/38260368/",
+              "authorship": {
+                "position": 11,
+                "total": 12,
+                "isFirst": false,
+                "isLast": true
+              }
+            }
+          ]
         },
         {
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [],
           "id": "40601747",
           "title": "Simultaneous two-color imaging with a dual-channel miniscope in freely behaving mice.",
           "journal": "Science advances",
@@ -13847,20 +15355,11 @@
           }
         },
         {
-          "id": "38260368",
-          "title": "Diabetes alters neuroeconomically dissociable forms of mental accounting.",
-          "journal": "bioRxiv : the preprint server for biology",
-          "year": 2024,
-          "doi": "10.1101/2024.01.04.574210",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/38260368/",
-          "authorship": {
-            "position": 11,
-            "total": 12,
-            "isFirst": false,
-            "isLast": true
-          }
-        },
-        {
+          "publicationTypes": [
+            "Preprint",
+            "Journal Article"
+          ],
+          "versionLinks": [],
           "id": "38798536",
           "title": "Ketamine reverses stress-induced hypersensitivity to sunk costs.",
           "journal": "bioRxiv : the preprint server for biology",
@@ -13875,6 +15374,11 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article",
+            "Preprint"
+          ],
+          "versionLinks": [],
           "id": "39005306",
           "title": "Simultaneous dual-color calcium imaging in freely-behaving mice.",
           "journal": "bioRxiv : the preprint server for biology",
@@ -13889,6 +15393,12 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article",
+            "Research Support, N.I.H., Extramural",
+            "Research Support, Non-U.S. Gov't"
+          ],
+          "versionLinks": [],
           "id": "36717646",
           "title": "A quadruple dissociation of reward-related behaviour in mice across excitatory inputs to the nucleus accumbens shell.",
           "journal": "Communications biology",
@@ -13903,6 +15413,10 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [],
           "id": "36260683",
           "title": "Distinct forms of regret linked to resilience versus susceptibility to stress are regulated by region-specific CREB function in mice.",
           "journal": "Science advances",
@@ -13919,13 +15433,13 @@
       ],
       "authorCounts": {
         "first": 0,
-        "last": 6,
-        "total": 10,
-        "known": 10
+        "last": 4,
+        "total": 8,
+        "known": 8
       },
       "signals": {
         "positive": {
-          "count": 10,
+          "count": 8,
           "yearRange": {
             "min": 2022,
             "max": 2026
@@ -13941,11 +15455,11 @@
             },
             {
               "year": 2024,
-              "count": 3
+              "count": 2
             },
             {
               "year": 2025,
-              "count": 4
+              "count": 3
             },
             {
               "year": 2026,
@@ -13954,12 +15468,12 @@
           ],
           "topJournals": [
             {
-              "name": "bioRxiv : the preprint server for biology",
-              "count": 4
-            },
-            {
               "name": "Science advances",
               "count": 3
+            },
+            {
+              "name": "bioRxiv : the preprint server for biology",
+              "count": 2
             },
             {
               "name": "Communications biology",
@@ -13976,23 +15490,11 @@
               "count": 4
             },
             {
-              "name": "forms",
-              "count": 3
-            },
-            {
               "name": "reward",
               "count": 3
             },
             {
-              "name": "accounting",
-              "count": 2
-            },
-            {
               "name": "behaving",
-              "count": 2
-            },
-            {
-              "name": "change",
               "count": 2
             },
             {
@@ -14000,61 +15502,49 @@
               "count": 2
             },
             {
-              "name": "cortex",
+              "name": "dual",
               "count": 2
             },
             {
-              "name": "decision",
+              "name": "forms",
               "count": 2
             },
             {
-              "name": "dependent",
+              "name": "freely",
               "count": 2
             },
             {
-              "name": "diabetes",
+              "name": "imaging",
               "count": 2
             },
             {
-              "name": "dissociable",
+              "name": "simultaneous",
               "count": 2
+            },
+            {
+              "name": "stress",
+              "count": 2
+            },
+            {
+              "name": "accounting",
+              "count": 1
+            },
+            {
+              "name": "accumbens",
+              "count": 1
             }
           ],
           "topCoauthors": [
             {
               "name": "Romain Durand-de Cuttoli",
-              "count": 6
+              "count": 4
             },
             {
               "name": "Sanjana Ahmed",
-              "count": 5
-            },
-            {
-              "name": "Eric J Nestler",
               "count": 3
-            },
-            {
-              "name": "Scott J Russo",
-              "count": 3
-            },
-            {
-              "name": "Adriana M&#xe9;ndez",
-              "count": 2
-            },
-            {
-              "name": "Aisha Abid",
-              "count": 2
             },
             {
               "name": "Austin M Baggetta",
-              "count": 2
-            },
-            {
-              "name": "Benjamin Yakubov",
-              "count": 2
-            },
-            {
-              "name": "Chinonso A Nwakama",
               "count": 2
             },
             {
@@ -14067,6 +15557,30 @@
             },
             {
               "name": "Denise J Cai",
+              "count": 2
+            },
+            {
+              "name": "Denisse Morales-Rodriguez",
+              "count": 2
+            },
+            {
+              "name": "Eric J Nestler",
+              "count": 2
+            },
+            {
+              "name": "Federico Sangiuliano",
+              "count": 2
+            },
+            {
+              "name": "Keziah Diego",
+              "count": 2
+            },
+            {
+              "name": "Paul A Philipsberg",
+              "count": 2
+            },
+            {
+              "name": "Paul Slesinger",
               "count": 2
             }
           ]
@@ -14230,6 +15744,10 @@
       "projectTitle": "Does cytomegalovirus (CMV) infection contribute to ethno-racial and socioeconomic disparities in health outcomes among cancer survivors?",
       "publications": [
         {
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [],
           "id": "41032251",
           "title": "Proteomic aging clocks and the risk of mortality among long-term cancer survivors.",
           "journal": "Journal of the National Cancer Institute",
@@ -14244,6 +15762,11 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article",
+            "Preprint"
+          ],
+          "versionLinks": [],
           "id": "41959836",
           "title": "Proteomic-based Aging Clocks and MRI Markers of Cerebral Small Vessel Disease: ARIC and MESA.",
           "journal": "medRxiv : the preprint server for health sciences",
@@ -14258,6 +15781,10 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [],
           "id": "41362055",
           "title": "A Novel Longitudinal Proteomic Aging Index Predicts Mortality, Multimorbidity, and Frailty in Older Adults.",
           "journal": "Aging cell",
@@ -14272,6 +15799,11 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article",
+            "Preprint"
+          ],
+          "versionLinks": [],
           "id": "39830250",
           "title": "The Association between Proteomic Aging Clocks and the Risk of Cancer in Midlife Individuals.",
           "journal": "medRxiv : the preprint server for health sciences",
@@ -14286,6 +15818,15 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [
+            {
+              "type": "UpdateOf",
+              "id": "37732184"
+            }
+          ],
           "id": "39316596",
           "title": "Development, characterization, and replication of proteomic aging clocks: Analysis of 2 population-based cohorts.",
           "journal": "PLoS medicine",
@@ -14300,6 +15841,11 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article",
+            "Preprint"
+          ],
+          "versionLinks": [],
           "id": "39040202",
           "title": "Proteomic Aging Clocks and the Risk of Mortality among Longer-Term Cancer Survivors in the Atherosclerosis Risk in Communities (ARIC) Study.",
           "journal": "medRxiv : the preprint server for health sciences",
@@ -14577,6 +16123,11 @@
       "projectTitle": "Affective Symptoms and QoL in Persons with Subjective Cognitive Decline and The Impact of Aerobic Exercise: A Mixed Methods Study",
       "publications": [
         {
+          "publicationTypes": [
+            "Journal Article",
+            "Randomized Controlled Trial"
+          ],
+          "versionLinks": [],
           "id": "42574716",
           "title": "Exercise Impact on Affective/Cognitive Symptoms and QoL in Subjective Cognitive Decline: An RCT.",
           "journal": "American journal of Alzheimer's disease and other dementias",
@@ -14710,6 +16261,11 @@
       "projectTitle": "Bacterial bile acid metabolism in fecal transplantation of Clostridium difficile infection",
       "publications": [
         {
+          "publicationTypes": [
+            "Journal Article",
+            "Review"
+          ],
+          "versionLinks": [],
           "id": "42090570",
           "title": "Potential Celiac Disease as a Window Into Gluten-Mediated Enteropathy.",
           "journal": "Journal of clinical gastroenterology",
@@ -14724,6 +16280,16 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article",
+            "Preprint"
+          ],
+          "versionLinks": [
+            {
+              "type": "UpdateIn",
+              "id": "42533363"
+            }
+          ],
           "id": "41279619",
           "title": "Gut microbial composition modulates food-specific CD4 (+) T cells in food allergy.",
           "journal": "bioRxiv : the preprint server for biology",
@@ -14738,6 +16304,12 @@
           }
         },
         {
+          "publicationTypes": [
+            "Multicenter Study",
+            "Journal Article",
+            "Research Support, N.I.H., Extramural"
+          ],
+          "versionLinks": [],
           "id": "36372864",
           "title": "Delivery of Fecal Material to Terminal Ileum Is Associated with Long-Term Success of Fecal Microbiota Transplantation.",
           "journal": "Digestive diseases and sciences",
@@ -14969,6 +16541,10 @@
       "projectTitle": "Moving Human Papillomavirus (HPV) Self-Sampling into Primary Care Clinics: A Pre-Implementation Study to Address Cervical Cancer Screening Inequities in Minnesota",
       "publications": [
         {
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [],
           "id": "40235015",
           "title": "Hmong Promoting Vaccines eHealth website: a community-based participatory research pilot to evaluate dissemination and implementation strategies for primary care and educational contexts.",
           "journal": "Implementation science communications",
@@ -14983,6 +16559,12 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article",
+            "Research Support, N.I.H., Extramural",
+            "Research Support, Non-U.S. Gov't"
+          ],
+          "versionLinks": [],
           "id": "38317629",
           "title": "Addressing Social Risks to Accelerate Health Equity in Cancer Prevention and Control.",
           "journal": "Cancer epidemiology, biomarkers & prevention : a publication of the American Association for Cancer Research, cosponsored by the American Society of Preventive Oncology",
@@ -14997,6 +16579,12 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article",
+            "Research Support, N.I.H., Extramural",
+            "Research Support, Non-U.S. Gov't"
+          ],
+          "versionLinks": [],
           "id": "38081672",
           "title": "Applications of implementation science frameworks, models and theories in disparities-focused cancer screening interventions: a scoping review protocol.",
           "journal": "BMJ open",
@@ -15011,6 +16599,10 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [],
           "id": "37338961",
           "title": "Evaluating Human Papillomavirus eHealth in Hmong Adolescents to Promote Vaccinations: Pilot Feasibility Study.",
           "journal": "JMIR formative research",
@@ -15025,6 +16617,10 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [],
           "id": "36514133",
           "title": "Health care personnel's perspectives on human papillomavirus (HPV) self-sampling for cervical cancer screening: a pre-implementation, qualitative study.",
           "journal": "Implementation science communications",
@@ -15039,6 +16635,12 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article",
+            "Research Support, N.I.H., Extramural",
+            "Research Support, U.S. Gov't, P.H.S."
+          ],
+          "versionLinks": [],
           "id": "34164765",
           "title": "\"We will do whatever it takes\": Understanding Socioecological Level Influences on Hmong-American Adolescents and Parents' Perceptions of the Human Papillomavirus Vaccine.",
           "journal": "Journal of cancer education : the official journal of the American Association for Cancer Education",
@@ -15244,6 +16846,10 @@
       "projectTitle": "Development of an Antibiofilm Resorbable Membrane for Treating Peri-Implantitis",
       "publications": [
         {
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [],
           "id": "42479908",
           "title": "Host-Guest Mismatch Enables Selective Hydrogen Atom Transfer.",
           "journal": "Angewandte Chemie (International ed. in English)",
@@ -15258,6 +16864,11 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article",
+            "Review"
+          ],
+          "versionLinks": [],
           "id": "42584493",
           "title": "Self-assembling peptides as bioactive coatings.",
           "journal": "Biomaterials science",
@@ -15272,6 +16883,10 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [],
           "id": "42200224",
           "title": "Sustained-Release RANKL Microneedles for Safe Orthodontic Acceleration.",
           "journal": "Journal of dental research",
@@ -15286,6 +16901,10 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [],
           "id": "40755317",
           "title": "CGRP-Loaded ROS-Responsive Hydrogel Restores Neuro-Angiogenic Signaling to Promote Bone Regeneration in Diabetes-Associated Periodontitis.",
           "journal": "Advanced science (Weinheim, Baden-Wurttemberg, Germany)",
@@ -15300,6 +16919,10 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [],
           "id": "40532048",
           "title": "Programmable Host-Guest Recognition for Shape-Shifting Supramolecular Nanostructure States.",
           "journal": "ACS nano",
@@ -15314,6 +16937,11 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article",
+            "Research Support, Non-U.S. Gov't"
+          ],
+          "versionLinks": [],
           "id": "38885017",
           "title": "CKIP-1-Loaded Cartilage-Affinitive Nanoliposomes Reverse Osteoarthritis by Restoring Chondrocyte Homeostasis.",
           "journal": "ACS biomaterials science & engineering",
@@ -15328,6 +16956,12 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article",
+            "Review",
+            "Research Support, Non-U.S. Gov't"
+          ],
+          "versionLinks": [],
           "id": "38441321",
           "title": "Harnessing antimicrobial peptides in endodontics.",
           "journal": "International endodontic journal",
@@ -15342,6 +16976,11 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article",
+            "Research Support, Non-U.S. Gov't"
+          ],
+          "versionLinks": [],
           "id": "38943625",
           "title": "RNA Coating Promotes Peri-Implant Osseointegration.",
           "journal": "ACS biomaterials science & engineering",
@@ -15356,6 +16995,10 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [],
           "id": "37241535",
           "title": "A Fast Soft Continuum Catheter Robot Manufacturing Strategy Based on Heterogeneous Modular Magnetic Units.",
           "journal": "Micromachines",
@@ -15370,6 +17013,12 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article",
+            "Review",
+            "Research Support, Non-U.S. Gov't"
+          ],
+          "versionLinks": [],
           "id": "38118277",
           "title": "Cleavage and Noncleavage Chemistry in Reactive Oxygen Species (ROS)-Responsive Materials for Smart Drug Delivery.",
           "journal": "Bioconjugate chemistry",
@@ -15384,6 +17033,11 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article",
+            "Review"
+          ],
+          "versionLinks": [],
           "id": "38098369",
           "title": "The Use of Dynamic Navigation Systems as a Component of Digital Dentistry.",
           "journal": "Journal of dental research",
@@ -15398,6 +17052,11 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article",
+            "Research Support, Non-U.S. Gov't"
+          ],
+          "versionLinks": [],
           "id": "36271659",
           "title": "Bioinspired Anti-demineralization Enamel Coating for Orthodontics.",
           "journal": "Journal of dental research",
@@ -15412,6 +17071,13 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article",
+            "Research Support, N.I.H., Extramural",
+            "Research Support, U.S. Gov't, Non-P.H.S.",
+            "Research Support, Non-U.S. Gov't"
+          ],
+          "versionLinks": [],
           "id": "35639629",
           "title": "Energy Landscapes of Supramolecular Peptide-Drug Conjugates Directed by Linker Selection and Drug Topology.",
           "journal": "ACS nano",
@@ -15426,6 +17092,11 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article",
+            "Research Support, Non-U.S. Gov't"
+          ],
+          "versionLinks": [],
           "id": "36173091",
           "title": "Polymeric Microneedle Arrays with Glucose-Sensing Dynamic-Covalent Bonding for Insulin Delivery.",
           "journal": "Biomacromolecules",
@@ -15440,6 +17111,11 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article",
+            "Review"
+          ],
+          "versionLinks": [],
           "id": "35322427",
           "title": "Present status and future directions of intracanal medicaments.",
           "journal": "International endodontic journal",
@@ -15454,6 +17130,10 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [],
           "id": "33496073",
           "title": "Interactions of two enantiomers of a designer antimicrobial peptide with structural components of the bacterial cell envelope.",
           "journal": "Journal of peptide science : an official publication of the European Peptide Society",
@@ -15468,6 +17148,13 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article",
+            "Research Support, N.I.H., Extramural",
+            "Research Support, Non-U.S. Gov't",
+            "Research Support, U.S. Gov't, Non-P.H.S."
+          ],
+          "versionLinks": [],
           "id": "32961056",
           "title": "Dual Oral Tissue Adhesive Nanofiber Membranes for pH-Responsive Delivery of Antimicrobial Peptides.",
           "journal": "Biomacromolecules",
@@ -15482,6 +17169,13 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article",
+            "Research Support, N.I.H., Extramural",
+            "Research Support, Non-U.S. Gov't",
+            "Research Support, U.S. Gov't, Non-P.H.S."
+          ],
+          "versionLinks": [],
           "id": "32786727",
           "title": "Dual Self-Assembled Nanostructures from Intrinsically Disordered Protein Polymers with LCST Behavior and Antimicrobial Peptides.",
           "journal": "Biomacromolecules",
@@ -15496,6 +17190,10 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [],
           "id": "33030163",
           "title": "Unraveling dominant surface physicochemistry to build antimicrobial peptide coatings with supramolecular amphiphiles.",
           "journal": "Nanoscale",
@@ -15510,6 +17208,10 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [],
           "id": "31302999",
           "title": "Bioinspired Mineralization with Hydroxyapatite and Hierarchical Naturally Aligned Nanofibrillar Cellulose.",
           "journal": "ACS applied materials & interfaces",
@@ -15524,6 +17226,10 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [],
           "id": "31638768",
           "title": "Bone-Inspired Mineralization with Highly Aligned Cellulose Nanofibers as Template.",
           "journal": "ACS applied materials & interfaces",
@@ -15761,6 +17467,11 @@
       "projectTitle": "Real-world utilization and impact of psychiatric pharmacogenomic testing in a large health system",
       "publications": [
         {
+          "publicationTypes": [
+            "Journal Article",
+            "Research Support, Non-U.S. Gov't"
+          ],
+          "versionLinks": [],
           "id": "40579374",
           "title": "More Severe Brain Network Hierarchy Disorganization in Treatment-Naive Deficit Compared to Non-deficit Schizophrenia and Underlying Neurotransmitter Associations.",
           "journal": "Schizophrenia bulletin",
@@ -15775,6 +17486,10 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [],
           "id": "40432343",
           "title": "Impact of Polygenic Interactions With Anticholinergic Burden on Cognition and Brain Structure in Psychosis Spectrum Disorders.",
           "journal": "The American journal of psychiatry",
@@ -15789,6 +17504,12 @@
           }
         },
         {
+          "publicationTypes": [
+            "Journal Article",
+            "Research Support, Non-U.S. Gov't",
+            "Research Support, N.I.H., Extramural"
+          ],
+          "versionLinks": [],
           "id": "41074275",
           "title": "Real-World Characterization of Psychiatric Pharmacogenomic Test Ordering and Clinical Relevance in Adults and Children.",
           "journal": "Clinical and translational science",
