@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-29",
-  "updatedAt": "2026-09-29T14:44:09.932Z",
+  "updated": "2026-09-30",
+  "updatedAt": "2026-09-30T14:40:58.359Z",
   "source": "PubMed E-utilities",
   "faculty": [
     {
@@ -1268,6 +1268,24 @@
           }
         },
         {
+          "id": "42809669",
+          "title": "The Salt Sensitivity Index is a Pragmatic Advance in Detecting Salt-Sensitive Blood Pressure with Important Caveats.",
+          "journal": "American journal of physiology. Heart and circulatory physiology",
+          "year": 2026,
+          "doi": "10.1152/ajpheart.90104.2026",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42809669/",
+          "publicationTypes": [
+            "Editorial"
+          ],
+          "versionLinks": [],
+          "authorship": {
+            "position": 0,
+            "total": 2,
+            "isFirst": true,
+            "isLast": false
+          }
+        },
+        {
           "id": "40794388",
           "title": "An overview of the association between socioeconomic deprivation and heart failure.",
           "journal": "Heart failure reviews",
@@ -1515,14 +1533,14 @@
         }
       ],
       "authorCounts": {
-        "first": 2,
+        "first": 3,
         "last": 9,
-        "total": 17,
-        "known": 17
+        "total": 18,
+        "known": 18
       },
       "signals": {
         "positive": {
-          "count": 17,
+          "count": 18,
           "yearRange": {
             "min": 2022,
             "max": 2026
@@ -1546,13 +1564,13 @@
             },
             {
               "year": 2026,
-              "count": 4
+              "count": 5
             }
           ],
           "topJournals": [
             {
               "name": "American journal of physiology. Heart and circulatory physiology",
-              "count": 4
+              "count": 5
             },
             {
               "name": "Brain, behavior, & immunity - health",
@@ -5460,7 +5478,9 @@
           "doi": "10.1158/1055-9965.EPI-24-1325",
           "url": "https://pubmed.ncbi.nlm.nih.gov/39808161/",
           "publicationTypes": [
-            "Journal Article"
+            "Journal Article",
+            "Research Support, Non-U.S. Gov't",
+            "Research Support, N.I.H., Extramural"
           ],
           "versionLinks": [],
           "authorship": {
@@ -24833,7 +24853,9 @@
           "doi": "10.1371/journal.pone.0314409",
           "url": "https://pubmed.ncbi.nlm.nih.gov/39656696/",
           "publicationTypes": [
-            "Journal Article"
+            "Journal Article",
+            "Research Support, N.I.H., Extramural",
+            "Research Support, Non-U.S. Gov't"
           ],
           "versionLinks": [],
           "authorship": {
@@ -39240,6 +39262,24 @@
       ],
       "publications": [
         {
+          "id": "42808428",
+          "title": "A Fast B1+ -Driven RF Co-Simulation Optimization Method for RF Coil Arrays.",
+          "journal": "Magnetic resonance in medicine",
+          "year": 2026,
+          "doi": "10.1002/mrm.70603",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42808428/",
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [],
+          "authorship": {
+            "position": 5,
+            "total": 7,
+            "isFirst": false,
+            "isLast": false
+          }
+        },
+        {
           "id": "42691181",
           "title": "Measurement of the Λ electric dipole moment with an entangled baryon-antibaryon system.",
           "journal": "Science (New York, N.Y.)",
@@ -39261,12 +39301,12 @@
       "authorCounts": {
         "first": 0,
         "last": 0,
-        "total": 1,
-        "known": 1
+        "total": 2,
+        "known": 2
       },
       "signals": {
         "positive": {
-          "count": 1,
+          "count": 2,
           "yearRange": {
             "min": 2026,
             "max": 2026
@@ -39274,10 +39314,14 @@
           "yearCounts": [
             {
               "year": 2026,
-              "count": 1
+              "count": 2
             }
           ],
           "topJournals": [
+            {
+              "name": "Magnetic resonance in medicine",
+              "count": 1
+            },
             {
               "name": "Science (New York, N.Y.)",
               "count": 1
@@ -39289,11 +39333,23 @@
               "count": 1
             },
             {
+              "name": "arrays",
+              "count": 1
+            },
+            {
               "name": "baryon",
               "count": 1
             },
             {
+              "name": "coil",
+              "count": 1
+            },
+            {
               "name": "dipole",
+              "count": 1
+            },
+            {
+              "name": "driven",
               "count": 1
             },
             {
@@ -39305,15 +39361,19 @@
               "count": 1
             },
             {
+              "name": "fast",
+              "count": 1
+            },
+            {
               "name": "measurement",
               "count": 1
             },
             {
-              "name": "moment",
+              "name": "method",
               "count": 1
             },
             {
-              "name": "system",
+              "name": "moment",
               "count": 1
             }
           ],
@@ -103351,6 +103411,24 @@
           }
         },
         {
+          "id": "42809731",
+          "title": "Racial and Ethnic Disparities in Treatment Cost and Utilization in Pediatric and Young Adult Acute Lymphoblastic Leukemia.",
+          "journal": "Journal of pediatric hematology/oncology",
+          "year": 2026,
+          "doi": "10.1097/MPH.0000000000003241",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42809731/",
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [],
+          "authorship": {
+            "position": 8,
+            "total": 9,
+            "isFirst": false,
+            "isLast": true
+          }
+        },
+        {
           "id": "41812087",
           "title": "Reply to: Methodologic Considerations for Subsequent Colorectal Cancer in Survivors of Childhood Cancer.",
           "journal": "Journal of clinical oncology : official journal of the American Society of Clinical Oncology",
@@ -105021,13 +105099,13 @@
       ],
       "authorCounts": {
         "first": 18,
-        "last": 19,
-        "total": 91,
-        "known": 91
+        "last": 20,
+        "total": 92,
+        "known": 92
       },
       "signals": {
         "positive": {
-          "count": 91,
+          "count": 92,
           "yearRange": {
             "min": 2015,
             "max": 2026
@@ -105079,7 +105157,7 @@
             },
             {
               "year": 2026,
-              "count": 10
+              "count": 11
             }
           ],
           "topJournals": [
@@ -105116,12 +105194,12 @@
               "count": 3
             },
             {
-              "name": "Nature communications",
+              "name": "Journal of pediatric hematology/oncology",
               "count": 3
             },
             {
-              "name": "Cancer reports (Hoboken, N.J.)",
-              "count": 2
+              "name": "Nature communications",
+              "count": 3
             }
           ],
           "topKeywords": [
@@ -105167,7 +105245,7 @@
             },
             {
               "name": "pediatric",
-              "count": 15
+              "count": 16
             },
             {
               "name": "breast",
