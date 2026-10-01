@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-30",
-  "updatedAt": "2026-09-30T14:40:58.359Z",
+  "updated": "2026-10-01",
+  "updatedAt": "2026-10-01T15:11:32.882Z",
   "source": "PubMed E-utilities",
   "faculty": [
     {
@@ -15450,13 +15450,14 @@
       "publications": [
         {
           "id": "42402212",
-          "title": "\"From Guidelines to Practice: The PuSHCon Health-Coach Model for COPD and Asthma\".",
+          "title": "From guidelines to practice: the PuSHCon health-coach model for COPD and asthma.",
           "journal": "Annals of the American Thoracic Society",
           "year": 2026,
           "doi": "10.1093/annalsats/aaoag185",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42402212/",
           "publicationTypes": [
-            "Journal Article"
+            "Editorial",
+            "Comment"
           ],
           "versionLinks": [],
           "authorship": {
@@ -15504,7 +15505,7 @@
         },
         {
           "id": "42417387",
-          "title": "Population Health Management in Chronic Obstructive Pulmonary Disease: An Official American Thoracic Society Workshop Report.",
+          "title": "Population health management in chronic obstructive pulmonary disease: an official American Thoracic Society Workshop Report.",
           "journal": "Annals of the American Thoracic Society",
           "year": 2026,
           "doi": "10.1093/annalsats/aaoag184",
@@ -27352,7 +27353,8 @@
           "doi": "10.1017/S1047951126113705",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42438405/",
           "publicationTypes": [
-            "Journal Article"
+            "Journal Article",
+            "Multicenter Study"
           ],
           "versionLinks": [],
           "authorship": {
@@ -44488,7 +44490,8 @@
           "doi": "10.1093/cercor/bhag137",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42747912/",
           "publicationTypes": [
-            "Journal Article"
+            "Journal Article",
+            "Research Support, Non-U.S. Gov't"
           ],
           "versionLinks": [],
           "authorship": {
@@ -71017,7 +71020,9 @@
           "doi": "10.1016/j.stem.2026.06.002",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42379165/",
           "publicationTypes": [
-            "Journal Article"
+            "Journal Article",
+            "Research Support, N.I.H., Extramural",
+            "Research Support, Non-U.S. Gov't"
           ],
           "versionLinks": [],
           "authorship": {
@@ -92744,6 +92749,24 @@
           }
         },
         {
+          "id": "42778267",
+          "title": "Insights Into the October 2026 Issue of the JOE.",
+          "journal": "Journal of endodontics",
+          "year": 2026,
+          "doi": "10.1016/j.joen.2026.09.001",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42778267/",
+          "publicationTypes": [
+            "Editorial"
+          ],
+          "versionLinks": [],
+          "authorship": {
+            "position": 8,
+            "total": 12,
+            "isFirst": false,
+            "isLast": false
+          }
+        },
+        {
           "id": "41932789",
           "title": "Insights into the April 2026 Issue of the JOE.",
           "journal": "Journal of endodontics",
@@ -93674,12 +93697,12 @@
       "authorCounts": {
         "first": 8,
         "last": 7,
-        "total": 58,
-        "known": 58
+        "total": 59,
+        "known": 59
       },
       "signals": {
         "positive": {
-          "count": 58,
+          "count": 59,
           "yearRange": {
             "min": 2021,
             "max": 2026
@@ -93707,13 +93730,13 @@
             },
             {
               "year": 2026,
-              "count": 17
+              "count": 18
             }
           ],
           "topJournals": [
             {
               "name": "Journal of endodontics",
-              "count": 26
+              "count": 27
             },
             {
               "name": "International endodontic journal",
@@ -93755,11 +93778,11 @@
             },
             {
               "name": "insights",
-              "count": 14
+              "count": 15
             },
             {
               "name": "issue",
-              "count": 14
+              "count": 15
             },
             {
               "name": "canal",
@@ -93767,7 +93790,7 @@
             },
             {
               "name": "joe",
-              "count": 12
+              "count": 13
             },
             {
               "name": "study",
@@ -93775,7 +93798,7 @@
             },
             {
               "name": "2026",
-              "count": 9
+              "count": 10
             },
             {
               "name": "endodontic",
@@ -93801,47 +93824,47 @@
           "topCoauthors": [
             {
               "name": "Amir Azarpazhooh",
-              "count": 13
+              "count": 14
             },
             {
               "name": "Anil Kishen",
-              "count": 13
+              "count": 14
             },
             {
               "name": "Anita Aminoshariae",
-              "count": 13
+              "count": 14
             },
             {
               "name": "Ariadne M Letra",
-              "count": 13
+              "count": 14
             },
             {
               "name": "Frank C Setzer",
-              "count": 13
+              "count": 14
             },
             {
               "name": "Franklin R Tay",
-              "count": 13
+              "count": 14
             },
             {
               "name": "Gerald N Glickman",
-              "count": 13
+              "count": 14
             },
             {
               "name": "Jianing He",
-              "count": 13
+              "count": 14
             },
             {
               "name": "Kenneth M Hargreaves",
-              "count": 13
+              "count": 14
             },
             {
               "name": "Linda Levin",
-              "count": 13
+              "count": 14
             },
             {
               "name": "Sahng G Kim",
-              "count": 13
+              "count": 14
             },
             {
               "name": "Christopher Staley",
@@ -103286,7 +103309,7 @@
       "publications": [
         {
           "id": "42474278",
-          "title": "Accelerated aging and risk of subsequent neoplasms in survivors of childhood cancer: a report from the Childhood Cancer Survivor Study.",
+          "title": "Accelerated Aging and Risk of Subsequent Neoplasms in Survivors of Childhood Cancer: A Report from the Childhood Cancer Survivor Study.",
           "journal": "Cancer epidemiology, biomarkers & prevention : a publication of the American Association for Cancer Research, cosponsored by the American Society of Preventive Oncology",
           "year": 2026,
           "doi": "10.1158/1055-9965.EPI-26-0609",
