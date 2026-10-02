@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-01",
-  "updatedAt": "2026-10-01T15:11:32.882Z",
+  "updated": "2026-10-02",
+  "updatedAt": "2026-10-02T14:32:42.094Z",
   "source": "PubMed E-utilities",
   "faculty": [
     {
@@ -44602,7 +44602,8 @@
           "url": "https://pubmed.ncbi.nlm.nih.gov/40476345/",
           "publicationTypes": [
             "Journal Article",
-            "Review"
+            "Review",
+            "Research Support, N.I.H., Extramural"
           ],
           "versionLinks": [],
           "authorship": {
@@ -67840,7 +67841,8 @@
           "doi": "10.1371/journal.pntd.0012873",
           "url": "https://pubmed.ncbi.nlm.nih.gov/39928682/",
           "publicationTypes": [
-            "Journal Article"
+            "Journal Article",
+            "Research Support, N.I.H., Extramural"
           ],
           "versionLinks": [
             {
@@ -94594,6 +94596,25 @@
       ],
       "publications": [
         {
+          "id": "42818411",
+          "title": "Metabolomic profiling in treated mucopolysaccharidosis IH reveals candidate biomarkers and adjunctive therapeutic pathways.",
+          "journal": "medRxiv : the preprint server for health sciences",
+          "year": 2026,
+          "doi": "10.64898/2026.09.04.26362233",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42818411/",
+          "publicationTypes": [
+            "Journal Article",
+            "Preprint"
+          ],
+          "versionLinks": [],
+          "authorship": {
+            "position": 10,
+            "total": 11,
+            "isFirst": false,
+            "isLast": true
+          }
+        },
+        {
           "id": "31434105",
           "title": "Clinical trial of laronidase in Hurler syndrome after hematopoietic cell transplantation.",
           "journal": "Pediatric research",
@@ -94907,16 +94928,16 @@
       ],
       "authorCounts": {
         "first": 5,
-        "last": 5,
-        "total": 16,
-        "known": 16
+        "last": 6,
+        "total": 17,
+        "known": 17
       },
       "signals": {
         "positive": {
-          "count": 16,
+          "count": 17,
           "yearRange": {
             "min": 2012,
-            "max": 2019
+            "max": 2026
           },
           "yearCounts": [
             {
@@ -94937,6 +94958,10 @@
             },
             {
               "year": 2019,
+              "count": 1
+            },
+            {
+              "year": 2026,
               "count": 1
             }
           ],
@@ -94989,7 +95014,7 @@
             },
             {
               "name": "mucopolysaccharidosis",
-              "count": 5
+              "count": 6
             },
             {
               "name": "cell",
@@ -95005,6 +95030,10 @@
             },
             {
               "name": "after",
+              "count": 3
+            },
+            {
+              "name": "biomarkers",
               "count": 3
             },
             {
@@ -95026,13 +95055,13 @@
             {
               "name": "treatment",
               "count": 3
-            },
-            {
-              "name": "types",
-              "count": 3
             }
           ],
           "topCoauthors": [
+            {
+              "name": "Paul J Orchard",
+              "count": 6
+            },
             {
               "name": "Chester B Whitley",
               "count": 5
@@ -95042,15 +95071,19 @@
               "count": 5
             },
             {
-              "name": "Paul J Orchard",
-              "count": 5
-            },
-            {
               "name": "Bradley S Miller",
-              "count": 3
+              "count": 4
             },
             {
               "name": "Donald R Dengel",
+              "count": 3
+            },
+            {
+              "name": "Ellen Fung",
+              "count": 3
+            },
+            {
+              "name": "Troy C Lund",
               "count": 3
             },
             {
@@ -95071,14 +95104,6 @@
             },
             {
               "name": "David A Stevenson",
-              "count": 2
-            },
-            {
-              "name": "David R Jacobs",
-              "count": 2
-            },
-            {
-              "name": "David Viskochil",
               "count": 2
             }
           ]
@@ -103441,7 +103466,8 @@
           "doi": "10.1097/MPH.0000000000003241",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42809731/",
           "publicationTypes": [
-            "Journal Article"
+            "Journal Article",
+            "Observational Study"
           ],
           "versionLinks": [],
           "authorship": {
@@ -108905,7 +108931,6 @@
           "url": "https://pubmed.ncbi.nlm.nih.gov/35942624/",
           "publicationTypes": [
             "Journal Article",
-            "Observational Study",
             "Research Support, N.I.H., Extramural",
             "Research Support, Non-U.S. Gov't"
           ],
