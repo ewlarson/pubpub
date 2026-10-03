@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-02",
-  "updatedAt": "2026-10-02T14:32:42.094Z",
+  "updated": "2026-10-03",
+  "updatedAt": "2026-10-03T13:08:10.119Z",
   "source": "PubMed E-utilities",
   "faculty": [
     {
@@ -1350,7 +1350,8 @@
           "doi": "10.14814/phy2.70525",
           "url": "https://pubmed.ncbi.nlm.nih.gov/40827103/",
           "publicationTypes": [
-            "Journal Article"
+            "Journal Article",
+            "Research Support, N.I.H., Extramural"
           ],
           "versionLinks": [],
           "authorship": {
@@ -6377,7 +6378,9 @@
           "url": "https://pubmed.ncbi.nlm.nih.gov/41738518/",
           "publicationTypes": [
             "Journal Article",
-            "Review"
+            "Review",
+            "Research Support, Non-U.S. Gov't",
+            "Research Support, N.I.H., Extramural"
           ],
           "versionLinks": [],
           "authorship": {
@@ -49540,7 +49543,8 @@
           "url": "https://pubmed.ncbi.nlm.nih.gov/40583128/",
           "publicationTypes": [
             "Journal Article",
-            "Randomized Controlled Trial"
+            "Randomized Controlled Trial",
+            "Research Support, Non-U.S. Gov't"
           ],
           "versionLinks": [],
           "authorship": {
@@ -75259,7 +75263,8 @@
           "doi": "10.1093/annweh/wxaf058",
           "url": "https://pubmed.ncbi.nlm.nih.gov/40908658/",
           "publicationTypes": [
-            "Journal Article"
+            "Journal Article",
+            "Research Support, N.I.H., Extramural"
           ],
           "versionLinks": [],
           "authorship": {
@@ -76390,6 +76395,24 @@
             "position": 4,
             "total": 6,
             "isFirst": false,
+            "isLast": false
+          }
+        },
+        {
+          "id": "42827105",
+          "title": "Changes in resting-state functional connectivity between large-scale brain networks after an intensive arts intervention for adolescents with depression.",
+          "journal": "Translational psychiatry",
+          "year": 2026,
+          "doi": "10.1038/s41398-026-04352-4",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42827105/",
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [],
+          "authorship": {
+            "position": 0,
+            "total": 10,
+            "isFirst": true,
             "isLast": false
           }
         },
@@ -79041,14 +79064,14 @@
         }
       ],
       "authorCounts": {
-        "first": 16,
+        "first": 17,
         "last": 53,
-        "total": 140,
-        "known": 140
+        "total": 141,
+        "known": 141
       },
       "signals": {
         "positive": {
-          "count": 140,
+          "count": 141,
           "yearRange": {
             "min": 2014,
             "max": 2026
@@ -79104,7 +79127,7 @@
             },
             {
               "year": 2026,
-              "count": 12
+              "count": 13
             }
           ],
           "topJournals": [
@@ -79141,30 +79164,30 @@
               "count": 4
             },
             {
-              "name": "BJPsych open",
-              "count": 3
+              "name": "Translational psychiatry",
+              "count": 4
             },
             {
-              "name": "Frontiers in psychiatry",
+              "name": "BJPsych open",
               "count": 3
             }
           ],
           "topKeywords": [
             {
               "name": "adolescents",
-              "count": 47
+              "count": 48
             },
             {
               "name": "disorder",
               "count": 31
             },
             {
-              "name": "self",
+              "name": "depression",
               "count": 29
             },
             {
-              "name": "depression",
-              "count": 28
+              "name": "self",
+              "count": 29
             },
             {
               "name": "study",
@@ -79184,29 +79207,29 @@
             },
             {
               "name": "brain",
-              "count": 21
+              "count": 22
             },
             {
               "name": "adolescent",
               "count": 19
             },
             {
-              "name": "depressive",
-              "count": 18
+              "name": "state",
+              "count": 19
             },
             {
-              "name": "state",
+              "name": "depressive",
               "count": 18
             }
           ],
           "topCoauthors": [
             {
               "name": "Bonnie Klimes-Dougan",
-              "count": 96
+              "count": 97
             },
             {
               "name": "Bryon A Mueller",
-              "count": 47
+              "count": 48
             },
             {
               "name": "Kelvin O Lim",
@@ -79217,11 +79240,11 @@
               "count": 27
             },
             {
-              "name": "Andrea Wiglesworth",
-              "count": 18
+              "name": "Zeynep Ba&#x15f;g&#xf6;ze",
+              "count": 19
             },
             {
-              "name": "Zeynep Ba&#x15f;g&#xf6;ze",
+              "name": "Andrea Wiglesworth",
               "count": 18
             },
             {
@@ -91560,6 +91583,24 @@
           }
         },
         {
+          "id": "42827404",
+          "title": "Evaluating Vaginal Microbiome Effects on Antiretroviral Exposure in the Female Genital Tract Using Pharmacometric and Machine Learning Approaches.",
+          "journal": "Clinical pharmacology and therapeutics",
+          "year": 2026,
+          "doi": "10.1002/cpt.70499",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42827404/",
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [],
+          "authorship": {
+            "position": 5,
+            "total": 7,
+            "isFirst": false,
+            "isLast": false
+          }
+        },
+        {
           "id": "40795226",
           "title": "Evaluating the Use of Lower Dose Flucytosine for the Treatment of Cryptococcal Meningitis: A Clinical Trial.",
           "journal": "Clinical infectious diseases : an official publication of the Infectious Diseases Society of America",
@@ -92389,12 +92430,12 @@
       "authorCounts": {
         "first": 8,
         "last": 10,
-        "total": 41,
-        "known": 41
+        "total": 42,
+        "known": 42
       },
       "signals": {
         "positive": {
-          "count": 41,
+          "count": 42,
           "yearRange": {
             "min": 2019,
             "max": 2026
@@ -92430,7 +92471,7 @@
             },
             {
               "year": 2026,
-              "count": 5
+              "count": 6
             }
           ],
           "topJournals": [
@@ -92443,11 +92484,11 @@
               "count": 4
             },
             {
-              "name": "AIDS research and human retroviruses",
-              "count": 3
+              "name": "Clinical pharmacology and therapeutics",
+              "count": 4
             },
             {
-              "name": "Clinical pharmacology and therapeutics",
+              "name": "AIDS research and human retroviruses",
               "count": 3
             },
             {
@@ -92490,7 +92531,7 @@
             },
             {
               "name": "antiretroviral",
-              "count": 7
+              "count": 8
             },
             {
               "name": "hydroxychloroquine",
@@ -92501,6 +92542,10 @@
               "count": 7
             },
             {
+              "name": "genital",
+              "count": 6
+            },
+            {
               "name": "treatment",
               "count": 6
             },
@@ -92509,7 +92554,7 @@
               "count": 5
             },
             {
-              "name": "genital",
+              "name": "female",
               "count": 5
             },
             {
@@ -92518,10 +92563,6 @@
             },
             {
               "name": "meningitis",
-              "count": 5
-            },
-            {
-              "name": "prevention",
               "count": 5
             }
           ],
