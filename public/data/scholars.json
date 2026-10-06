@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-05",
-  "updatedAt": "2026-10-05T16:48:29.997Z",
+  "updated": "2026-10-06",
+  "updatedAt": "2026-10-06T14:46:13.377Z",
   "source": "PubMed E-utilities (ORCID)",
   "faculty": [
     {
@@ -14505,6 +14505,24 @@
       "publications": [
         {
           "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [],
+          "id": "42834674",
+          "title": "Directional Adaptive Deep Brain Stimulation: An Initial Report of Safety, Tolerability, and Effectiveness.",
+          "journal": "Movement disorders : official journal of the Movement Disorder Society",
+          "year": 2026,
+          "doi": "10.1002/mds.70556",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42834674/",
+          "authorship": {
+            "position": 12,
+            "total": 19,
+            "isFirst": false,
+            "isLast": false
+          }
+        },
+        {
+          "publicationTypes": [
             "Journal Article",
             "Review"
           ],
@@ -14526,23 +14544,31 @@
       "authorCounts": {
         "first": 1,
         "last": 0,
-        "total": 1,
-        "known": 1
+        "total": 2,
+        "known": 2
       },
       "signals": {
         "positive": {
-          "count": 1,
+          "count": 2,
           "yearRange": {
             "min": 2021,
-            "max": 2021
+            "max": 2026
           },
           "yearCounts": [
             {
               "year": 2021,
               "count": 1
+            },
+            {
+              "year": 2026,
+              "count": 1
             }
           ],
           "topJournals": [
+            {
+              "name": "Movement disorders : official journal of the Movement Disorder Society",
+              "count": 1
+            },
             {
               "name": "Neurorehabilitation and neural repair",
               "count": 1
@@ -14550,7 +14576,23 @@
           ],
           "topKeywords": [
             {
+              "name": "adaptive",
+              "count": 1
+            },
+            {
               "name": "behavior",
+              "count": 1
+            },
+            {
+              "name": "brain",
+              "count": 1
+            },
+            {
+              "name": "deep",
+              "count": 1
+            },
+            {
+              "name": "directional",
               "count": 1
             },
             {
@@ -14562,7 +14604,15 @@
               "count": 1
             },
             {
+              "name": "effectiveness",
+              "count": 1
+            },
+            {
               "name": "framework",
+              "count": 1
+            },
+            {
+              "name": "initial",
               "count": 1
             },
             {
@@ -14572,27 +14622,47 @@
             {
               "name": "prodromal",
               "count": 1
-            },
-            {
-              "name": "rehabilitation",
-              "count": 1
-            },
-            {
-              "name": "rem",
-              "count": 1
-            },
-            {
-              "name": "sleep",
-              "count": 1
-            },
-            {
-              "name": "synucleinopathy",
-              "count": 1
             }
           ],
           "topCoauthors": [
             {
+              "name": "Adolfo Ramirez-Zamora",
+              "count": 1
+            },
+            {
+              "name": "Alfonso Fasano",
+              "count": 1
+            },
+            {
               "name": "Colum D MacKinnon",
+              "count": 1
+            },
+            {
+              "name": "Elena Moro",
+              "count": 1
+            },
+            {
+              "name": "Helen Bronte-Stewart",
+              "count": 1
+            },
+            {
+              "name": "Jill L Ostrem",
+              "count": 1
+            },
+            {
+              "name": "Kyle T Mitchell",
+              "count": 1
+            },
+            {
+              "name": "Leonardo Almeida",
+              "count": 1
+            },
+            {
+              "name": "Lisa Tonder",
+              "count": 1
+            },
+            {
+              "name": "Martijn Beudel",
               "count": 1
             },
             {
@@ -14600,7 +14670,7 @@
               "count": 1
             },
             {
-              "name": "Miriam R Rafferty",
+              "name": "Michal Gostkowski",
               "count": 1
             }
           ]

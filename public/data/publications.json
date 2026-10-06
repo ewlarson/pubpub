@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-05",
-  "updatedAt": "2026-10-05T16:52:17.976Z",
+  "updated": "2026-10-06",
+  "updatedAt": "2026-10-06T14:50:13.224Z",
   "source": "PubMed E-utilities",
   "faculty": [
     {
@@ -15525,6 +15525,24 @@
           }
         },
         {
+          "id": "42833476",
+          "title": "Sex Differences in Delivery of Guideline-Recommended COPD Care: A National U.S. Cohort.",
+          "journal": "Respiratory medicine",
+          "year": 2026,
+          "doi": "10.1016/j.rmed.2026.109196",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42833476/",
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [],
+          "authorship": {
+            "position": 2,
+            "total": 3,
+            "isFirst": false,
+            "isLast": true
+          }
+        },
+        {
           "id": "42350921",
           "title": "The canary in the Coal Mine: Redefining Preclinical Lung Injury from Air Pollution.",
           "journal": "Annals of the American Thoracic Society",
@@ -16077,13 +16095,13 @@
       ],
       "authorCounts": {
         "first": 10,
-        "last": 8,
-        "total": 33,
-        "known": 33
+        "last": 9,
+        "total": 34,
+        "known": 34
       },
       "signals": {
         "positive": {
-          "count": 33,
+          "count": 34,
           "yearRange": {
             "min": 2020,
             "max": 2026
@@ -16115,7 +16133,7 @@
             },
             {
               "year": 2026,
-              "count": 5
+              "count": 6
             }
           ],
           "topJournals": [
@@ -16125,6 +16143,10 @@
             },
             {
               "name": "Chest",
+              "count": 3
+            },
+            {
+              "name": "Respiratory medicine",
               "count": 3
             },
             {
@@ -16148,10 +16170,6 @@
               "count": 2
             },
             {
-              "name": "Respiratory medicine",
-              "count": 2
-            },
-            {
               "name": "Respiratory research",
               "count": 2
             },
@@ -16163,7 +16181,7 @@
           "topKeywords": [
             {
               "name": "copd",
-              "count": 13
+              "count": 14
             },
             {
               "name": "disease",
@@ -16187,7 +16205,7 @@
             },
             {
               "name": "care",
-              "count": 7
+              "count": 8
             },
             {
               "name": "mortality",
@@ -16213,7 +16231,7 @@
           "topCoauthors": [
             {
               "name": "Chris H Wendt",
-              "count": 16
+              "count": 17
             },
             {
               "name": "Ken M Kunisaki",
@@ -31163,6 +31181,24 @@
           }
         },
         {
+          "id": "42834251",
+          "title": "Low Dose NeuroD1 Delivery in Mouse TBI Models.",
+          "journal": "Molecular neurobiology",
+          "year": 2026,
+          "doi": "10.1007/s12035-026-06244-6",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42834251/",
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [],
+          "authorship": {
+            "position": 9,
+            "total": 10,
+            "isFirst": false,
+            "isLast": true
+          }
+        },
+        {
           "id": "42151318",
           "title": "The potential role of transcranial direct current stimulation in experimental ischemic stroke in adult male albino rats.",
           "journal": "Scientific reports",
@@ -32311,13 +32347,13 @@
       ],
       "authorCounts": {
         "first": 0,
-        "last": 15,
-        "total": 64,
-        "known": 64
+        "last": 16,
+        "total": 65,
+        "known": 65
       },
       "signals": {
         "positive": {
-          "count": 64,
+          "count": 65,
           "yearRange": {
             "min": 2018,
             "max": 2026
@@ -32357,7 +32393,7 @@
             },
             {
               "year": 2026,
-              "count": 5
+              "count": 6
             }
           ],
           "topJournals": [
@@ -32455,7 +32491,7 @@
           "topCoauthors": [
             {
               "name": "Walter C Low",
-              "count": 16
+              "count": 17
             },
             {
               "name": "Tapan Mehta",
@@ -32486,15 +32522,15 @@
               "count": 6
             },
             {
+              "name": "Isaac H Clark",
+              "count": 6
+            },
+            {
               "name": "Anthony S Larson",
               "count": 5
             },
             {
               "name": "Bharathi D Jagadeesan",
-              "count": 5
-            },
-            {
-              "name": "Isaac H Clark",
               "count": 5
             },
             {
@@ -35081,7 +35117,8 @@
           "doi": "10.1038/s41390-024-03477-w",
           "url": "https://pubmed.ncbi.nlm.nih.gov/39379628/",
           "publicationTypes": [
-            "Journal Article"
+            "Journal Article",
+            "Research Support, Non-U.S. Gov't"
           ],
           "versionLinks": [],
           "authorship": {
@@ -47067,6 +47104,43 @@
       ],
       "publications": [
         {
+          "id": "42833808",
+          "title": "Advancing Fall Prevention: Translating the Evidence Across Clinical and Community Settings.",
+          "journal": "Clinics in geriatric medicine",
+          "year": 2026,
+          "doi": "10.1016/j.cger.2026.08.007",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42833808/",
+          "publicationTypes": [
+            "Editorial"
+          ],
+          "versionLinks": [],
+          "authorship": {
+            "position": 0,
+            "total": 2,
+            "isFirst": true,
+            "isLast": false
+          }
+        },
+        {
+          "id": "42833800",
+          "title": "Ageism as an Upstream Determinant: A Three-Level Framework for Reframing Fall Prevention.",
+          "journal": "Clinics in geriatric medicine",
+          "year": 2026,
+          "doi": "10.1016/j.cger.2026.06.003",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42833800/",
+          "publicationTypes": [
+            "Journal Article",
+            "Review"
+          ],
+          "versionLinks": [],
+          "authorship": {
+            "position": 0,
+            "total": 3,
+            "isFirst": true,
+            "isLast": false
+          }
+        },
+        {
           "id": "40132198",
           "title": "A Primer for Big Data Research: A Protocol Reflection.",
           "journal": "The Journal of neuroscience nursing : journal of the American Association of Neuroscience Nurses",
@@ -47707,17 +47781,17 @@
         }
       ],
       "authorCounts": {
-        "first": 10,
+        "first": 12,
         "last": 5,
-        "total": 33,
-        "known": 33
+        "total": 35,
+        "known": 35
       },
       "signals": {
         "positive": {
-          "count": 33,
+          "count": 35,
           "yearRange": {
             "min": 2014,
-            "max": 2025
+            "max": 2026
           },
           "yearCounts": [
             {
@@ -47763,6 +47837,10 @@
             {
               "year": 2025,
               "count": 3
+            },
+            {
+              "year": 2026,
+              "count": 2
             }
           ],
           "topJournals": [
@@ -47777,6 +47855,10 @@
             {
               "name": "Western journal of nursing research",
               "count": 3
+            },
+            {
+              "name": "Clinics in geriatric medicine",
+              "count": 2
             },
             {
               "name": "JMIR mHealth and uHealth",
@@ -47801,20 +47883,16 @@
             {
               "name": "BMJ open",
               "count": 1
-            },
-            {
-              "name": "Clinical linguistics & phonetics",
-              "count": 1
             }
           ],
           "topKeywords": [
             {
-              "name": "adults",
-              "count": 14
+              "name": "fall",
+              "count": 15
             },
             {
-              "name": "fall",
-              "count": 13
+              "name": "adults",
+              "count": 14
             },
             {
               "name": "older",
@@ -47829,11 +47907,11 @@
               "count": 10
             },
             {
-              "name": "intervention",
-              "count": 8
+              "name": "prevention",
+              "count": 10
             },
             {
-              "name": "prevention",
+              "name": "intervention",
               "count": 8
             },
             {
@@ -47845,15 +47923,15 @@
               "count": 6
             },
             {
+              "name": "community",
+              "count": 5
+            },
+            {
               "name": "injuries",
               "count": 5
             },
             {
               "name": "injury",
-              "count": 5
-            },
-            {
-              "name": "stride",
               "count": 5
             }
           ],
@@ -93162,7 +93240,8 @@
           "doi": "10.1016/j.joen.2024.05.010",
           "url": "https://pubmed.ncbi.nlm.nih.gov/38815857/",
           "publicationTypes": [
-            "Journal Article"
+            "Journal Article",
+            "Research Support, N.I.H., Extramural"
           ],
           "versionLinks": [],
           "authorship": {
