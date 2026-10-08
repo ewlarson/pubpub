@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-06",
-  "updatedAt": "2026-10-06T14:50:13.224Z",
+  "updated": "2026-10-08",
+  "updatedAt": "2026-10-08T15:17:18.400Z",
   "source": "PubMed E-utilities",
   "faculty": [
     {
@@ -24838,7 +24838,8 @@
           "doi": "10.1001/jama.2026.14187",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42560707/",
           "publicationTypes": [
-            "Journal Article"
+            "Journal Article",
+            "Comment"
           ],
           "versionLinks": [],
           "authorship": {
@@ -31145,6 +31146,25 @@
           }
         },
         {
+          "id": "42835291",
+          "title": "Historical Vignette on Trepanation: The Evolution of Opening the Skull.",
+          "journal": "Cureus",
+          "year": 2026,
+          "doi": "10.7759/cureus.117427",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42835291/",
+          "publicationTypes": [
+            "Journal Article",
+            "Review"
+          ],
+          "versionLinks": [],
+          "authorship": {
+            "position": 2,
+            "total": 3,
+            "isFirst": false,
+            "isLast": true
+          }
+        },
+        {
           "id": "42414767",
           "title": "Impact of Invasive Intracranial Pressure Monitoring on Outcomes in Older Adults with Severe Traumatic Brain Injury: A Systematic Review and Meta-Analysis.",
           "journal": "Neurocritical care",
@@ -32347,13 +32367,13 @@
       ],
       "authorCounts": {
         "first": 0,
-        "last": 16,
-        "total": 65,
-        "known": 65
+        "last": 17,
+        "total": 66,
+        "known": 66
       },
       "signals": {
         "positive": {
-          "count": 65,
+          "count": 66,
           "yearRange": {
             "min": 2018,
             "max": 2026
@@ -32393,7 +32413,7 @@
             },
             {
               "year": 2026,
-              "count": 6
+              "count": 7
             }
           ],
           "topJournals": [
@@ -32430,11 +32450,11 @@
               "count": 2
             },
             {
-              "name": "Frontiers in neurology",
+              "name": "Cureus",
               "count": 2
             },
             {
-              "name": "Journal of neurosurgery",
+              "name": "Frontiers in neurology",
               "count": 2
             }
           ],
@@ -32534,7 +32554,7 @@
               "count": 5
             },
             {
-              "name": "Sharon Webb",
+              "name": "Dilmareth E Natera-Rodriguez",
               "count": 5
             }
           ]
@@ -51413,6 +51433,24 @@
           ]
         },
         {
+          "id": "42838472",
+          "title": "Mitochondrial pyruvate carrier inhibition restrains germinal center T follicular helper cells attenuating chronic graft-versus-host disease.",
+          "journal": "American journal of transplantation : official journal of the American Society of Transplantation and the American Society of Transplant Surgeons",
+          "year": 2026,
+          "doi": "10.1016/j.ajt.2026.09.041",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42838472/",
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [],
+          "authorship": {
+            "position": 13,
+            "total": 25,
+            "isFirst": false,
+            "isLast": false
+          }
+        },
+        {
           "id": "41261131",
           "title": "Prime editing-installed suppressor tRNAs for disease-agnostic genome editing.",
           "journal": "Nature",
@@ -52302,12 +52340,12 @@
       "authorCounts": {
         "first": 10,
         "last": 3,
-        "total": 49,
-        "known": 49
+        "total": 50,
+        "known": 50
       },
       "signals": {
         "positive": {
-          "count": 49,
+          "count": 50,
           "yearRange": {
             "min": 2015,
             "max": 2026
@@ -52355,7 +52393,7 @@
             },
             {
               "year": 2026,
-              "count": 3
+              "count": 4
             }
           ],
           "topJournals": [
@@ -52376,6 +52414,10 @@
               "count": 3
             },
             {
+              "name": "American journal of transplantation : official journal of the American Society of Transplantation and the American Society of Transplant Surgeons",
+              "count": 2
+            },
+            {
               "name": "Cytotherapy",
               "count": 2
             },
@@ -52394,16 +52436,12 @@
             {
               "name": "Stem cells and development",
               "count": 2
-            },
-            {
-              "name": "The Journal of investigative dermatology",
-              "count": 2
             }
           ],
           "topKeywords": [
             {
               "name": "cells",
-              "count": 15
+              "count": 16
             },
             {
               "name": "editing",
@@ -52430,6 +52468,10 @@
               "count": 7
             },
             {
+              "name": "disease",
+              "count": 7
+            },
+            {
               "name": "efficient",
               "count": 7
             },
@@ -52438,15 +52480,11 @@
               "count": 7
             },
             {
+              "name": "host",
+              "count": 7
+            },
+            {
               "name": "base",
-              "count": 6
-            },
-            {
-              "name": "cell",
-              "count": 6
-            },
-            {
-              "name": "disease",
               "count": 6
             }
           ],
@@ -52457,7 +52495,7 @@
             },
             {
               "name": "Bruce R Blazar",
-              "count": 19
+              "count": 20
             },
             {
               "name": "Amber N McElroy",
@@ -52473,7 +52511,7 @@
             },
             {
               "name": "Angela Panoskaltsis-Mortari",
-              "count": 7
+              "count": 8
             },
             {
               "name": "Anthony P DeFeo",
@@ -52492,12 +52530,12 @@
               "count": 6
             },
             {
-              "name": "Megan J Riddle",
+              "name": "Govindarajan Thangavelu",
               "count": 6
             },
             {
-              "name": "Cara-Lin Lonetree",
-              "count": 5
+              "name": "Keli L Hippen",
+              "count": 6
             }
           ]
         },
@@ -84146,6 +84184,24 @@
       ],
       "publications": [
         {
+          "id": "42837513",
+          "title": "Intergenerational differences and similarities in economic well-being, family context, health, and life experiences among older adult parents and their middle-aged children: data from the Add Health and Add Health Parent Studies.",
+          "journal": "The journals of gerontology. Series B, Psychological sciences and social sciences",
+          "year": 2026,
+          "doi": "10.1093/geronb/gbag167",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42837513/",
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [],
+          "authorship": {
+            "position": 2,
+            "total": 5,
+            "isFirst": false,
+            "isLast": false
+          }
+        },
+        {
           "id": "39927916",
           "title": "Childhood Adversity and Civic Engagement During Emerging Adulthood.",
           "journal": "The Journal of adolescent health : official publication of the Society for Adolescent Medicine",
@@ -84691,15 +84747,15 @@
       "authorCounts": {
         "first": 13,
         "last": 9,
-        "total": 29,
-        "known": 29
+        "total": 30,
+        "known": 30
       },
       "signals": {
         "positive": {
-          "count": 29,
+          "count": 30,
           "yearRange": {
             "min": 2014,
-            "max": 2025
+            "max": 2026
           },
           "yearCounts": [
             {
@@ -84741,6 +84797,10 @@
             {
               "year": 2025,
               "count": 3
+            },
+            {
+              "year": 2026,
+              "count": 1
             }
           ],
           "topJournals": [
@@ -84788,14 +84848,14 @@
           "topKeywords": [
             {
               "name": "health",
-              "count": 8
-            },
-            {
-              "name": "adolescent",
-              "count": 6
+              "count": 11
             },
             {
               "name": "among",
+              "count": 7
+            },
+            {
+              "name": "adolescent",
               "count": 6
             },
             {
@@ -84831,7 +84891,7 @@
               "count": 4
             },
             {
-              "name": "school",
+              "name": "parent",
               "count": 4
             }
           ],
@@ -84842,6 +84902,18 @@
             },
             {
               "name": "Iris W Borowsky",
+              "count": 4
+            },
+            {
+              "name": "Kathleen Mullan Harris",
+              "count": 4
+            },
+            {
+              "name": "Krista M Perreira",
+              "count": 4
+            },
+            {
+              "name": "V Joseph Hotz",
               "count": 4
             },
             {
@@ -84857,15 +84929,7 @@
               "count": 3
             },
             {
-              "name": "Kathleen Mullan Harris",
-              "count": 3
-            },
-            {
-              "name": "Krista M Perreira",
-              "count": 3
-            },
-            {
-              "name": "V Joseph Hotz",
+              "name": "Todd M Jensen",
               "count": 3
             },
             {
@@ -84878,10 +84942,6 @@
             },
             {
               "name": "Charlotte M Nitardy",
-              "count": 2
-            },
-            {
-              "name": "Christopher J Paul",
               "count": 2
             }
           ]

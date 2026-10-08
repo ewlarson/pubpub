@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-06",
-  "updatedAt": "2026-10-06T14:46:13.377Z",
+  "updated": "2026-10-08",
+  "updatedAt": "2026-10-08T15:13:33.724Z",
   "source": "PubMed E-utilities (ORCID)",
   "faculty": [
     {
@@ -3000,7 +3000,8 @@
       "publications": [
         {
           "publicationTypes": [
-            "Journal Article"
+            "Journal Article",
+            "Research Support, Non-U.S. Gov't"
           ],
           "versionLinks": [],
           "id": "40163420",
@@ -4755,16 +4756,127 @@
         }
       ],
       "projectTitle": "Human-Centered Design of Infant-Feeding Documentation within the Electronic Health Record to Improve Data Quality and Facilitate Breastfeeding Best Practices",
-      "publications": [],
-      "authorCounts": null,
+      "publications": [
+        {
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [],
+          "id": "41623060",
+          "title": "Systematic Preparation of Electronic Health Record Flowsheet Data to Develop Measures of Breastfeeding Intensity and Support During the Postpartum Hospital Stay.",
+          "journal": "Computers, informatics, nursing : CIN",
+          "year": 2026,
+          "doi": "10.1097/CIN.0000000000001487",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41623060/",
+          "authorship": {
+            "position": 0,
+            "total": 7,
+            "isFirst": true,
+            "isLast": false
+          }
+        }
+      ],
+      "authorCounts": {
+        "first": 1,
+        "last": 0,
+        "total": 1,
+        "known": 1
+      },
       "signals": {
         "positive": {
-          "count": 0,
-          "yearRange": null,
-          "yearCounts": [],
-          "topJournals": [],
-          "topKeywords": [],
-          "topCoauthors": []
+          "count": 1,
+          "yearRange": {
+            "min": 2026,
+            "max": 2026
+          },
+          "yearCounts": [
+            {
+              "year": 2026,
+              "count": 1
+            }
+          ],
+          "topJournals": [
+            {
+              "name": "Computers, informatics, nursing : CIN",
+              "count": 1
+            }
+          ],
+          "topKeywords": [
+            {
+              "name": "breastfeeding",
+              "count": 1
+            },
+            {
+              "name": "data",
+              "count": 1
+            },
+            {
+              "name": "develop",
+              "count": 1
+            },
+            {
+              "name": "during",
+              "count": 1
+            },
+            {
+              "name": "electronic",
+              "count": 1
+            },
+            {
+              "name": "flowsheet",
+              "count": 1
+            },
+            {
+              "name": "health",
+              "count": 1
+            },
+            {
+              "name": "hospital",
+              "count": 1
+            },
+            {
+              "name": "intensity",
+              "count": 1
+            },
+            {
+              "name": "measures",
+              "count": 1
+            },
+            {
+              "name": "postpartum",
+              "count": 1
+            },
+            {
+              "name": "preparation",
+              "count": 1
+            }
+          ],
+          "topCoauthors": [
+            {
+              "name": "Anne C McKechnie",
+              "count": 1
+            },
+            {
+              "name": "Carrie E Neerland",
+              "count": 1
+            },
+            {
+              "name": "Ellen W Demerath",
+              "count": 1
+            },
+            {
+              "name": "Michelle A Mathiason",
+              "count": 1
+            },
+            {
+              "name": "Robin R Austin",
+              "count": 1
+            },
+            {
+              "name": "Wendy S Looman",
+              "count": 1
+            }
+          ]
         },
         "negative": {
           "count": 0,
@@ -5855,11 +5967,12 @@
       "publications": [
         {
           "publicationTypes": [
-            "Journal Article"
+            "Journal Article",
+            "Multicenter Study"
           ],
           "versionLinks": [],
           "id": "42720267",
-          "title": "Burden and Risk Factors for Severe Respiratory Syncytial Virus Infection Among Pediatric Hematopoietic Cell Transplant Recipients.",
+          "title": "Burden and Risk Factors for Severe Respiratory Syncytial Virus Infection among Pediatric Hematopoietic Cell Transplant Recipients.",
           "journal": "Journal of the Pediatric Infectious Diseases Society",
           "year": 2026,
           "doi": "10.1093/jpids/piag092",
@@ -10542,7 +10655,8 @@
         },
         {
           "publicationTypes": [
-            "Journal Article"
+            "Journal Article",
+            "Observational Study"
           ],
           "versionLinks": [],
           "id": "42477236",
