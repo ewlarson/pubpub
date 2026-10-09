@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-08",
-  "updatedAt": "2026-10-08T15:17:18.400Z",
+  "updated": "2026-10-09",
+  "updatedAt": "2026-10-09T15:03:56.634Z",
   "source": "PubMed E-utilities",
   "faculty": [
     {
@@ -6640,6 +6640,24 @@
           }
         },
         {
+          "id": "42847402",
+          "title": "Supporting Black breast cancer survivors and their informal caregivers: a qualitative dyadic analysis of intervention preferences.",
+          "journal": "Annals of behavioral medicine : a publication of the Society of Behavioral Medicine",
+          "year": 2026,
+          "doi": "10.1093/abm/kaag052",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42847402/",
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [],
+          "authorship": {
+            "position": 6,
+            "total": 8,
+            "isFirst": false,
+            "isLast": false
+          }
+        },
+        {
           "id": "40235015",
           "title": "Hmong Promoting Vaccines eHealth website: a community-based participatory research pilot to evaluate dissemination and implementation strategies for primary care and educational contexts.",
           "journal": "Implementation science communications",
@@ -6814,12 +6832,12 @@
       "authorCounts": {
         "first": 3,
         "last": 1,
-        "total": 10,
-        "known": 10
+        "total": 11,
+        "known": 11
       },
       "signals": {
         "positive": {
-          "count": 10,
+          "count": 11,
           "yearRange": {
             "min": 2023,
             "max": 2026
@@ -6839,10 +6857,14 @@
             },
             {
               "year": 2026,
-              "count": 1
+              "count": 2
             }
           ],
           "topJournals": [
+            {
+              "name": "Annals of behavioral medicine : a publication of the Society of Behavioral Medicine",
+              "count": 1
+            },
             {
               "name": "BMC public health",
               "count": 1
@@ -6878,16 +6900,12 @@
             {
               "name": "Preventive medicine reports",
               "count": 1
-            },
-            {
-              "name": "PRiMER (Leawood, Kan.)",
-              "count": 1
             }
           ],
           "topKeywords": [
             {
               "name": "cancer",
-              "count": 5
+              "count": 6
             },
             {
               "name": "community",
@@ -6980,7 +6998,7 @@
               "count": 1
             },
             {
-              "name": "Alan Barnette",
+              "name": "Aimee S James",
               "count": 1
             }
           ]
@@ -15526,7 +15544,7 @@
         },
         {
           "id": "42833476",
-          "title": "Sex Differences in Delivery of Guideline-Recommended COPD Care: A National U.S. Cohort.",
+          "title": "Sex differences in delivery of guideline-recommended COPD care: A national U.S. cohort.",
           "journal": "Respiratory medicine",
           "year": 2026,
           "doi": "10.1016/j.rmed.2026.109196",
@@ -39555,6 +39573,25 @@
           }
         },
         {
+          "id": "42845362",
+          "title": "Maternal diet and genetics shape the human milk metabolome.",
+          "journal": "bioRxiv : the preprint server for biology",
+          "year": 2026,
+          "doi": "10.64898/2026.08.11.744248",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42845362/",
+          "publicationTypes": [
+            "Journal Article",
+            "Preprint"
+          ],
+          "versionLinks": [],
+          "authorship": {
+            "position": 11,
+            "total": 17,
+            "isFirst": false,
+            "isLast": false
+          }
+        },
+        {
           "id": "42248248",
           "title": "Novel Erythroid Indices Have Better Prognostic Accuracy than Conventional Erythroid Indices for Early Diagnosis of Iron Deficiency and Associated Brain Metabolomic Changes in Nonhuman Primate Infants.",
           "journal": "The Journal of nutrition",
@@ -40886,12 +40923,12 @@
       "authorCounts": {
         "first": 8,
         "last": 20,
-        "total": 65,
-        "known": 65
+        "total": 66,
+        "known": 66
       },
       "signals": {
         "positive": {
-          "count": 65,
+          "count": 66,
           "yearRange": {
             "min": 2016,
             "max": 2026
@@ -40939,7 +40976,7 @@
             },
             {
               "year": 2026,
-              "count": 3
+              "count": 4
             }
           ],
           "topJournals": [
@@ -41080,7 +41117,7 @@
               "count": 5
             },
             {
-              "name": "Ian H Harding",
+              "name": "David A Fields",
               "count": 5
             }
           ]
@@ -109775,6 +109812,24 @@
       ],
       "publications": [
         {
+          "id": "42848969",
+          "title": "Neurology Journal Club: Characteristics and Outcomes of Patients With IDH-Mutant Grade 2 and 3 Gliomas After Deferred or Adjuvant Radiotherapy.",
+          "journal": "Neurology",
+          "year": 2026,
+          "doi": "10.1212/WNL.0000000000218666",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42848969/",
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [],
+          "authorship": {
+            "position": 3,
+            "total": 6,
+            "isFirst": false,
+            "isLast": false
+          }
+        },
+        {
           "id": "42804720",
           "title": "Surgery and tile-based radiation therapy versus surgery and stereotactic radiation for newly diagnosed brain metastases (ROADS): a randomized, open-label, phase 3 trial.",
           "journal": "Journal of clinical oncology : official journal of the American Society of Clinical Oncology",
@@ -109796,12 +109851,12 @@
       "authorCounts": {
         "first": 0,
         "last": 0,
-        "total": 1,
-        "known": 1
+        "total": 2,
+        "known": 2
       },
       "signals": {
         "positive": {
-          "count": 1,
+          "count": 2,
           "yearRange": {
             "min": 2026,
             "max": 2026
@@ -109809,12 +109864,16 @@
           "yearCounts": [
             {
               "year": 2026,
-              "count": 1
+              "count": 2
             }
           ],
           "topJournals": [
             {
               "name": "Journal of clinical oncology : official journal of the American Society of Clinical Oncology",
+              "count": 1
+            },
+            {
+              "name": "Neurology",
               "count": 1
             }
           ],
@@ -109828,6 +109887,14 @@
               "count": 2
             },
             {
+              "name": "adjuvant",
+              "count": 1
+            },
+            {
+              "name": "after",
+              "count": 1
+            },
+            {
               "name": "based",
               "count": 1
             },
@@ -109836,35 +109903,27 @@
               "count": 1
             },
             {
+              "name": "characteristics",
+              "count": 1
+            },
+            {
+              "name": "club",
+              "count": 1
+            },
+            {
+              "name": "deferred",
+              "count": 1
+            },
+            {
               "name": "diagnosed",
               "count": 1
             },
             {
-              "name": "label",
+              "name": "gliomas",
               "count": 1
             },
             {
-              "name": "metastases",
-              "count": 1
-            },
-            {
-              "name": "newly",
-              "count": 1
-            },
-            {
-              "name": "open",
-              "count": 1
-            },
-            {
-              "name": "phase",
-              "count": 1
-            },
-            {
-              "name": "randomized",
-              "count": 1
-            },
-            {
-              "name": "roads",
+              "name": "grade",
               "count": 1
             }
           ],
@@ -109894,6 +109953,10 @@
               "count": 1
             },
             {
+              "name": "Anh Huan Vo",
+              "count": 1
+            },
+            {
               "name": "Aristotelis Filippidis",
               "count": 1
             },
@@ -109911,10 +109974,6 @@
             },
             {
               "name": "David G Brachman",
-              "count": 1
-            },
-            {
-              "name": "David J McCracken",
               "count": 1
             }
           ]

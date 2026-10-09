@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-08",
-  "updatedAt": "2026-10-08T15:13:33.724Z",
+  "updated": "2026-10-09",
+  "updatedAt": "2026-10-09T15:00:06.253Z",
   "source": "PubMed E-utilities (ORCID)",
   "faculty": [
     {
@@ -16729,6 +16729,24 @@
             "Journal Article"
           ],
           "versionLinks": [],
+          "id": "42847402",
+          "title": "Supporting Black breast cancer survivors and their informal caregivers: a qualitative dyadic analysis of intervention preferences.",
+          "journal": "Annals of behavioral medicine : a publication of the Society of Behavioral Medicine",
+          "year": 2026,
+          "doi": "10.1093/abm/kaag052",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42847402/",
+          "authorship": {
+            "position": 6,
+            "total": 8,
+            "isFirst": false,
+            "isLast": false
+          }
+        },
+        {
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [],
           "id": "40235015",
           "title": "Hmong Promoting Vaccines eHealth website: a community-based participatory research pilot to evaluate dissemination and implementation strategies for primary care and educational contexts.",
           "journal": "Implementation science communications",
@@ -16842,15 +16860,15 @@
       "authorCounts": {
         "first": 4,
         "last": 1,
-        "total": 6,
-        "known": 6
+        "total": 7,
+        "known": 7
       },
       "signals": {
         "positive": {
-          "count": 6,
+          "count": 7,
           "yearRange": {
             "min": 2021,
-            "max": 2025
+            "max": 2026
           },
           "yearCounts": [
             {
@@ -16872,12 +16890,20 @@
             {
               "year": 2025,
               "count": 1
+            },
+            {
+              "year": 2026,
+              "count": 1
             }
           ],
           "topJournals": [
             {
               "name": "Implementation science communications",
               "count": 2
+            },
+            {
+              "name": "Annals of behavioral medicine : a publication of the Society of Behavioral Medicine",
+              "count": 1
             },
             {
               "name": "BMJ open",
@@ -16899,7 +16925,7 @@
           "topKeywords": [
             {
               "name": "cancer",
-              "count": 3
+              "count": 4
             },
             {
               "name": "hmong",
@@ -16938,11 +16964,11 @@
               "count": 2
             },
             {
-              "name": "screening",
+              "name": "qualitative",
               "count": 2
             },
             {
-              "name": "study",
+              "name": "screening",
               "count": 2
             }
           ],
@@ -16976,6 +17002,10 @@
               "count": 2
             },
             {
+              "name": "Aimee S James",
+              "count": 1
+            },
+            {
               "name": "Aparajita Sur",
               "count": 1
             },
@@ -16989,10 +17019,6 @@
             },
             {
               "name": "Bo Qin",
-              "count": 1
-            },
-            {
-              "name": "Carol Y Ochoa-Dominguez",
               "count": 1
             }
           ]
