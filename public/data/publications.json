@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-09",
-  "updatedAt": "2026-10-09T15:03:56.634Z",
+  "updated": "2026-10-10",
+  "updatedAt": "2026-10-10T14:20:07.493Z",
   "source": "PubMed E-utilities",
   "faculty": [
     {
@@ -12713,6 +12713,24 @@
           }
         },
         {
+          "id": "42853985",
+          "title": "Evaluation of gut microbiota composition in elite controllers and antiretroviral-treated people with HIV after aspirin versus atorvastatin administration.",
+          "journal": "The Journal of infectious diseases",
+          "year": 2026,
+          "doi": "10.1093/infdis/jiag508",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42853985/",
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [],
+          "authorship": {
+            "position": 8,
+            "total": 10,
+            "isFirst": false,
+            "isLast": false
+          }
+        },
+        {
           "id": "42686567",
           "title": "Factors Associated with Persistently Increased IL-6 Levels in People with HIV.",
           "journal": "The Journal of infectious diseases",
@@ -15222,12 +15240,12 @@
       "authorCounts": {
         "first": 16,
         "last": 17,
-        "total": 130,
-        "known": 130
+        "total": 131,
+        "known": 131
       },
       "signals": {
         "positive": {
-          "count": 130,
+          "count": 131,
           "yearRange": {
             "min": 2011,
             "max": 2026
@@ -15295,7 +15313,7 @@
             },
             {
               "year": 2026,
-              "count": 9
+              "count": 10
             }
           ],
           "topJournals": [
@@ -15304,11 +15322,11 @@
               "count": 9
             },
             {
-              "name": "Open forum infectious diseases",
-              "count": 8
+              "name": "The Journal of infectious diseases",
+              "count": 9
             },
             {
-              "name": "The Journal of infectious diseases",
+              "name": "Open forum infectious diseases",
               "count": 8
             },
             {
@@ -15343,11 +15361,11 @@
           "topKeywords": [
             {
               "name": "hiv",
-              "count": 83
+              "count": 84
             },
             {
               "name": "antiretroviral",
-              "count": 31
+              "count": 32
             },
             {
               "name": "among",
@@ -15397,7 +15415,7 @@
             },
             {
               "name": "Irini Sereti",
-              "count": 15
+              "count": 16
             },
             {
               "name": "Jens D Lundgren",
@@ -24831,6 +24849,24 @@
           }
         },
         {
+          "id": "42851597",
+          "title": "Hemophagocytic Lymphohistiocytosis Criteria Overlap with Severe Malaria Features in Children.",
+          "journal": "Open forum infectious diseases",
+          "year": 2026,
+          "doi": "10.1093/ofid/ofag553",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42851597/",
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [],
+          "authorship": {
+            "position": 3,
+            "total": 12,
+            "isFirst": false,
+            "isLast": false
+          }
+        },
+        {
           "id": "42061719",
           "title": "Iron Deficiency and Neurobehavioral Outcomes in Ugandan Children Exposed to HIV.",
           "journal": "The Journal of nutrition",
@@ -25567,12 +25603,12 @@
       "authorCounts": {
         "first": 13,
         "last": 14,
-        "total": 39,
-        "known": 39
+        "total": 40,
+        "known": 40
       },
       "signals": {
         "positive": {
-          "count": 39,
+          "count": 40,
           "yearRange": {
             "min": 2012,
             "max": 2026
@@ -25628,7 +25664,7 @@
             },
             {
               "year": 2026,
-              "count": 3
+              "count": 4
             }
           ],
           "topJournals": [
@@ -25676,7 +25712,7 @@
           "topKeywords": [
             {
               "name": "children",
-              "count": 23
+              "count": 24
             },
             {
               "name": "iron",
@@ -25684,7 +25720,7 @@
             },
             {
               "name": "malaria",
-              "count": 11
+              "count": 12
             },
             {
               "name": "deficiency",
@@ -25692,7 +25728,7 @@
             },
             {
               "name": "severe",
-              "count": 8
+              "count": 9
             },
             {
               "name": "study",
@@ -25726,7 +25762,7 @@
           "topCoauthors": [
             {
               "name": "Chandy C John",
-              "count": 14
+              "count": 15
             },
             {
               "name": "Michael K Georgieff",
@@ -25734,11 +25770,11 @@
             },
             {
               "name": "Robert O Opoka",
-              "count": 10
+              "count": 11
             },
             {
               "name": "Andrea L Conroy",
-              "count": 9
+              "count": 10
             },
             {
               "name": "Paul Bangirana",
@@ -25750,6 +25786,10 @@
             },
             {
               "name": "Ruth Namazzi",
+              "count": 6
+            },
+            {
+              "name": "Dibyadyuti Datta",
               "count": 5
             },
             {
@@ -25762,10 +25802,6 @@
             },
             {
               "name": "Caitlin Bond",
-              "count": 4
-            },
-            {
-              "name": "Dibyadyuti Datta",
               "count": 4
             },
             {
@@ -29109,7 +29145,8 @@
           "url": "https://pubmed.ncbi.nlm.nih.gov/40531973/",
           "publicationTypes": [
             "Journal Article",
-            "Randomized Controlled Trial"
+            "Randomized Controlled Trial",
+            "Research Support, N.I.H., Extramural"
           ],
           "versionLinks": [],
           "authorship": {

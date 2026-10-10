@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-09",
-  "updatedAt": "2026-10-09T15:03:56.634Z",
+  "updated": "2026-10-10",
+  "updatedAt": "2026-10-10T14:20:07.493Z",
   "source": "NIH RePORTER API",
   "faculty": [
     {
@@ -3380,17 +3380,6 @@
           "coreProjectNum": "R01NS119297"
         },
         {
-          "id": "5R01NS119297-03",
-          "title": "3D Bioprinted Spinal Cord Organoids as a Relay System for Spinal Cord Injury",
-          "role": "Not listed",
-          "amount": 492229,
-          "startDate": "2021-09-02",
-          "endDate": "2026-06-30",
-          "fiscalYear": 2023,
-          "url": "https://reporter.nih.gov/project-details/10677016",
-          "coreProjectNum": "R01NS119297"
-        },
-        {
           "id": "3R01NS119297-03S1",
           "title": "3D Bioprinted Spinal Cord Organoids as a Relay System for Spinal Cord Injury",
           "role": "Not listed",
@@ -3399,6 +3388,17 @@
           "endDate": "2026-06-30",
           "fiscalYear": 2023,
           "url": "https://reporter.nih.gov/project-details/10840561",
+          "coreProjectNum": "R01NS119297"
+        },
+        {
+          "id": "5R01NS119297-03",
+          "title": "3D Bioprinted Spinal Cord Organoids as a Relay System for Spinal Cord Injury",
+          "role": "Not listed",
+          "amount": 492229,
+          "startDate": "2021-09-02",
+          "endDate": "2026-06-30",
+          "fiscalYear": 2023,
+          "url": "https://reporter.nih.gov/project-details/10677016",
           "coreProjectNum": "R01NS119297"
         },
         {
@@ -5303,17 +5303,6 @@
           "coreProjectNum": "U01DK126300"
         },
         {
-          "id": "5U01DK126300-03",
-          "title": "University of Minnesota Clinical Center for the Study of Pancreatic Disease",
-          "role": "Not listed",
-          "amount": 455667,
-          "startDate": "2020-09-03",
-          "endDate": "2025-06-30",
-          "fiscalYear": 2022,
-          "url": "https://reporter.nih.gov/project-details/10445078",
-          "coreProjectNum": "U01DK126300"
-        },
-        {
           "id": "3U01DK126300-03S1",
           "title": "University of Minnesota Clinical Center for the Study of Pancreatic Disease",
           "role": "Not listed",
@@ -5322,6 +5311,17 @@
           "endDate": "2025-06-30",
           "fiscalYear": 2022,
           "url": "https://reporter.nih.gov/project-details/10684392",
+          "coreProjectNum": "U01DK126300"
+        },
+        {
+          "id": "5U01DK126300-03",
+          "title": "University of Minnesota Clinical Center for the Study of Pancreatic Disease",
+          "role": "Not listed",
+          "amount": 455667,
+          "startDate": "2020-09-03",
+          "endDate": "2025-06-30",
+          "fiscalYear": 2022,
+          "url": "https://reporter.nih.gov/project-details/10445078",
           "coreProjectNum": "U01DK126300"
         },
         {
