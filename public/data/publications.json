@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-10",
-  "updatedAt": "2026-10-10T14:20:07.493Z",
+  "updated": "2026-10-11",
+  "updatedAt": "2026-10-11T14:43:41.714Z",
   "source": "PubMed E-utilities",
   "faculty": [
     {
@@ -51573,7 +51573,8 @@
           "url": "https://pubmed.ncbi.nlm.nih.gov/40077969/",
           "publicationTypes": [
             "Journal Article",
-            "Review"
+            "Review",
+            "Research Support, N.I.H., Extramural"
           ],
           "versionLinks": [],
           "authorship": {
@@ -69671,17 +69672,36 @@
             "isFirst": false,
             "isLast": false
           }
+        },
+        {
+          "id": "42856281",
+          "title": "Spontaneous eye behavior is an objective marker of parkinsonian severity.",
+          "journal": "bioRxiv : the preprint server for biology",
+          "year": 2026,
+          "doi": "10.64898/2026.09.24.754183",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42856281/",
+          "publicationTypes": [
+            "Journal Article",
+            "Preprint"
+          ],
+          "versionLinks": [],
+          "authorship": {
+            "position": 0,
+            "total": 13,
+            "isFirst": true,
+            "isLast": false
+          }
         }
       ],
       "authorCounts": {
-        "first": 0,
+        "first": 1,
         "last": 0,
-        "total": 2,
-        "known": 2
+        "total": 3,
+        "known": 3
       },
       "signals": {
         "positive": {
-          "count": 2,
+          "count": 3,
           "yearRange": {
             "min": 2026,
             "max": 2026
@@ -69689,13 +69709,13 @@
           "yearCounts": [
             {
               "year": 2026,
-              "count": 2
+              "count": 3
             }
           ],
           "topJournals": [
             {
               "name": "bioRxiv : the preprint server for biology",
-              "count": 1
+              "count": 2
             },
             {
               "name": "medRxiv : the preprint server for health sciences",
@@ -69720,6 +69740,10 @@
               "count": 1
             },
             {
+              "name": "behavior",
+              "count": 1
+            },
+            {
               "name": "bowel",
               "count": 1
             },
@@ -69740,15 +69764,11 @@
               "count": 1
             },
             {
+              "name": "eye",
+              "count": 1
+            },
+            {
               "name": "genes",
-              "count": 1
-            },
-            {
-              "name": "implicates",
-              "count": 1
-            },
-            {
-              "name": "improves",
               "count": 1
             }
           ],
@@ -69794,11 +69814,11 @@
               "count": 1
             },
             {
-              "name": "Bhupesh Vaidya",
+              "name": "Bharadwaj Nandakumar",
               "count": 1
             },
             {
-              "name": "Britt-Sabina Loescher",
+              "name": "Bhupesh Vaidya",
               "count": 1
             }
           ]
