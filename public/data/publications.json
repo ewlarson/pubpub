@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-11",
-  "updatedAt": "2026-10-11T14:43:41.714Z",
+  "updated": "2026-10-12",
+  "updatedAt": "2026-10-12T17:23:33.466Z",
   "source": "PubMed E-utilities",
   "faculty": [
     {
@@ -60546,7 +60546,8 @@
           "doi": "10.1093/bib/bbae470",
           "url": "https://pubmed.ncbi.nlm.nih.gov/39344710/",
           "publicationTypes": [
-            "Journal Article"
+            "Journal Article",
+            "Research Support, N.I.H., Extramural"
           ],
           "versionLinks": [],
           "authorship": {
@@ -66175,7 +66176,8 @@
           "doi": "10.1177/15568253251364885",
           "url": "https://pubmed.ncbi.nlm.nih.gov/40763087/",
           "publicationTypes": [
-            "Journal Article"
+            "Journal Article",
+            "Research Support, N.I.H., Extramural"
           ],
           "versionLinks": [],
           "authorship": {
@@ -82016,6 +82018,24 @@
           }
         },
         {
+          "id": "42860553",
+          "title": "Detecting Nonreportable Disease Trends Using Electronic Health Records: Human Parvovirus B19 in Minnesota, January 2019 Through September 2024.",
+          "journal": "Public health reports (Washington, D.C. : 1974)",
+          "year": 2026,
+          "doi": "10.1177/00333549261460009",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42860553/",
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [],
+          "authorship": {
+            "position": 10,
+            "total": 12,
+            "isFirst": false,
+            "isLast": false
+          }
+        },
+        {
           "id": "42335631",
           "title": "Discharge Opioid Dosing and New Opioid Use Disorder After Elective Surgery in Opioid-Naive Adults: An Emulated Target Trial.",
           "journal": "The Journal of surgical research",
@@ -84042,12 +84062,12 @@
       "authorCounts": {
         "first": 14,
         "last": 34,
-        "total": 105,
-        "known": 105
+        "total": 106,
+        "known": 106
       },
       "signals": {
         "positive": {
-          "count": 105,
+          "count": 106,
           "yearRange": {
             "min": 2014,
             "max": 2026
@@ -84103,7 +84123,7 @@
             },
             {
               "year": 2026,
-              "count": 8
+              "count": 9
             }
           ],
           "topJournals": [
@@ -84163,7 +84183,7 @@
             },
             {
               "name": "disease",
-              "count": 31
+              "count": 32
             },
             {
               "name": "chronic",
@@ -84175,7 +84195,7 @@
             },
             {
               "name": "health",
-              "count": 18
+              "count": 19
             },
             {
               "name": "hypertension",
@@ -84190,11 +84210,11 @@
               "count": 13
             },
             {
-              "name": "ckd",
-              "count": 12
+              "name": "electronic",
+              "count": 13
             },
             {
-              "name": "cohort",
+              "name": "ckd",
               "count": 12
             }
           ],
