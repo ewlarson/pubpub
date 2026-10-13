@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-12",
-  "updatedAt": "2026-10-12T17:23:33.466Z",
+  "updated": "2026-10-13",
+  "updatedAt": "2026-10-13T15:38:51.940Z",
   "source": "PubMed E-utilities",
   "faculty": [
     {
@@ -82092,6 +82092,42 @@
           }
         },
         {
+          "id": "42862646",
+          "title": "Real-World Diagnostic Coding and Biomarker Testing for CKD Across Diabetes, Hypertension, and Cancer: A Multisite OMOP Study.",
+          "journal": "Kidney360",
+          "year": 2026,
+          "doi": "10.34067/KID.0000001367",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42862646/",
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [],
+          "authorship": {
+            "position": 9,
+            "total": 10,
+            "isFirst": false,
+            "isLast": true
+          }
+        },
+        {
+          "id": "42862652",
+          "title": "Social Support and Clinical Outcomes Among Older Adult Men and Women in the Chronic Renal Insufficiency Cohort.",
+          "journal": "Kidney360",
+          "year": 2026,
+          "doi": "10.34067/KID.0000001383",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42862652/",
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [],
+          "authorship": {
+            "position": 14,
+            "total": 20,
+            "isFirst": false,
+            "isLast": false
+          }
+        },
+        {
           "id": "42758554",
           "title": "Using Scenario Modeling to Estimate Burden of Human Parvovirus B19 and Impact of Increased B19 Detection in Pregnancy.",
           "journal": "Journal of public health management and practice : JPHMP",
@@ -84061,13 +84097,13 @@
       ],
       "authorCounts": {
         "first": 14,
-        "last": 34,
-        "total": 106,
-        "known": 106
+        "last": 35,
+        "total": 108,
+        "known": 108
       },
       "signals": {
         "positive": {
-          "count": 106,
+          "count": 108,
           "yearRange": {
             "min": 2014,
             "max": 2026
@@ -84123,13 +84159,17 @@
             },
             {
               "year": 2026,
-              "count": 9
+              "count": 11
             }
           ],
           "topJournals": [
             {
               "name": "Clinical journal of the American Society of Nephrology : CJASN",
               "count": 12
+            },
+            {
+              "name": "Kidney360",
+              "count": 8
             },
             {
               "name": "American journal of kidney diseases : the official journal of the National Kidney Foundation",
@@ -84145,10 +84185,6 @@
             },
             {
               "name": "Kidney medicine",
-              "count": 6
-            },
-            {
-              "name": "Kidney360",
               "count": 6
             },
             {
@@ -84187,11 +84223,11 @@
             },
             {
               "name": "chronic",
-              "count": 28
+              "count": 29
             },
             {
               "name": "study",
-              "count": 20
+              "count": 21
             },
             {
               "name": "health",
@@ -84199,7 +84235,7 @@
             },
             {
               "name": "hypertension",
-              "count": 17
+              "count": 18
             },
             {
               "name": "patients",
@@ -84210,12 +84246,12 @@
               "count": 13
             },
             {
-              "name": "electronic",
+              "name": "ckd",
               "count": 13
             },
             {
-              "name": "ckd",
-              "count": 12
+              "name": "cohort",
+              "count": 13
             }
           ],
           "topCoauthors": [
@@ -84226,6 +84262,10 @@
             {
               "name": "Lama Ghazi",
               "count": 13
+            },
+            {
+              "name": "CRIC Study Investigators",
+              "count": 11
             },
             {
               "name": "Paul K Whelton",
@@ -84248,10 +84288,6 @@
               "count": 10
             },
             {
-              "name": "CRIC Study Investigators",
-              "count": 10
-            },
-            {
               "name": "Matthew R Weir",
               "count": 10
             },
@@ -84264,7 +84300,7 @@
               "count": 8
             },
             {
-              "name": "Michael V Rocco",
+              "name": "Jing Chen",
               "count": 8
             }
           ]
@@ -93339,7 +93375,8 @@
           "doi": "10.1111/iej.70015",
           "url": "https://pubmed.ncbi.nlm.nih.gov/40808237/",
           "publicationTypes": [
-            "Journal Article"
+            "Journal Article",
+            "Research Support, Non-U.S. Gov't"
           ],
           "versionLinks": [],
           "authorship": {
