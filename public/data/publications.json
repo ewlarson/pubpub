@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-13",
-  "updatedAt": "2026-10-13T15:38:51.940Z",
+  "updated": "2026-10-14",
+  "updatedAt": "2026-10-14T13:23:30.844Z",
   "source": "PubMed E-utilities",
   "faculty": [
     {
@@ -21474,7 +21474,8 @@
           "doi": "10.1007/s11121-026-01896-1",
           "url": "https://pubmed.ncbi.nlm.nih.gov/41904361/",
           "publicationTypes": [
-            "Journal Article"
+            "Journal Article",
+            "Research Support, Non-U.S. Gov't"
           ],
           "versionLinks": [],
           "authorship": {
@@ -24838,7 +24839,8 @@
           "doi": "10.1001/jama.2026.14190",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42616536/",
           "publicationTypes": [
-            "Journal Article"
+            "Journal Article",
+            "Randomized Controlled Trial"
           ],
           "versionLinks": [],
           "authorship": {
@@ -44636,6 +44638,24 @@
           }
         },
         {
+          "id": "42867717",
+          "title": "Computational Modeling of Neurotransmitter Cycling Predicts Human Brain Glutamate and GABA Dynamics in Response to Acute Administration of Exogenous Ketones.",
+          "journal": "Neurochemical research",
+          "year": 2026,
+          "doi": "10.1007/s11064-026-04885-6",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42867717/",
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [],
+          "authorship": {
+            "position": 4,
+            "total": 6,
+            "isFirst": false,
+            "isLast": false
+          }
+        },
+        {
           "id": "41712301",
           "title": "Disrupted neurovascular-endocrine coupling in type 1 diabetes with impaired awareness of hypoglycemia.",
           "journal": "The Journal of clinical investigation",
@@ -46435,12 +46455,12 @@
       "authorCounts": {
         "first": 8,
         "last": 21,
-        "total": 92,
-        "known": 92
+        "total": 93,
+        "known": 93
       },
       "signals": {
         "positive": {
-          "count": 92,
+          "count": 93,
           "yearRange": {
             "min": 2012,
             "max": 2026
@@ -46504,7 +46524,7 @@
             },
             {
               "year": 2026,
-              "count": 7
+              "count": 8
             }
           ],
           "topJournals": [
@@ -46538,7 +46558,7 @@
             },
             {
               "name": "Neurochemical research",
-              "count": 3
+              "count": 4
             },
             {
               "name": "NMR in biomedicine",
@@ -46552,7 +46572,7 @@
           "topKeywords": [
             {
               "name": "brain",
-              "count": 40
+              "count": 41
             },
             {
               "name": "mri",
@@ -46567,11 +46587,11 @@
               "count": 14
             },
             {
-              "name": "fmri",
-              "count": 11
+              "name": "human",
+              "count": 12
             },
             {
-              "name": "human",
+              "name": "fmri",
               "count": 11
             },
             {
@@ -55311,7 +55331,9 @@
           "url": "https://pubmed.ncbi.nlm.nih.gov/39825500/",
           "publicationTypes": [
             "Journal Article",
-            "Meta-Analysis"
+            "Meta-Analysis",
+            "Research Support, U.S. Gov't, P.H.S.",
+            "Research Support, N.I.H., Extramural"
           ],
           "versionLinks": [],
           "authorship": {
@@ -60121,6 +60143,24 @@
           }
         },
         {
+          "id": "42870675",
+          "title": "Higher risk of Long COVID among patients with autoimmune rheumatic diseases and immunomodulatory therapy: a retrospective cohort analysis of national US data.",
+          "journal": "Arthritis & rheumatology (Hoboken, N.J.)",
+          "year": 2026,
+          "doi": "10.1002/art.70361",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42870675/",
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [],
+          "authorship": {
+            "position": 5,
+            "total": 12,
+            "isFirst": false,
+            "isLast": false
+          }
+        },
+        {
           "id": "42787535",
           "title": "Increasing Multimorbidity Burden After COVID-19 Infection Among People With and Without HIV in the United States: Insights From the National Clinical Cohort Collaborative (N3C).",
           "journal": "Open forum infectious diseases",
@@ -60919,12 +60959,12 @@
       "authorCounts": {
         "first": 3,
         "last": 12,
-        "total": 39,
-        "known": 39
+        "total": 40,
+        "known": 40
       },
       "signals": {
         "positive": {
-          "count": 39,
+          "count": 40,
           "yearRange": {
             "min": 2019,
             "max": 2026
@@ -60960,7 +61000,7 @@
             },
             {
               "year": 2026,
-              "count": 7
+              "count": 8
             }
           ],
           "topJournals": [
@@ -61001,38 +61041,38 @@
               "count": 1
             },
             {
-              "name": "Bioinformatics (Oxford, England)",
+              "name": "Arthritis & rheumatology (Hoboken, N.J.)",
               "count": 1
             }
           ],
           "topKeywords": [
             {
               "name": "covid",
-              "count": 16
+              "count": 17
             },
             {
               "name": "data",
-              "count": 13
+              "count": 14
+            },
+            {
+              "name": "analysis",
+              "count": 12
             },
             {
               "name": "hiv",
               "count": 12
             },
             {
-              "name": "analysis",
-              "count": 11
+              "name": "cohort",
+              "count": 8
             },
             {
               "name": "disease",
               "count": 8
             },
             {
-              "name": "cohort",
-              "count": 7
-            },
-            {
               "name": "national",
-              "count": 7
+              "count": 8
             },
             {
               "name": "collaborative",
@@ -61065,6 +61105,10 @@
               "count": 7
             },
             {
+              "name": "Rena C Patel",
+              "count": 7
+            },
+            {
               "name": "Dongmei Li",
               "count": 6
             },
@@ -61074,10 +61118,6 @@
             },
             {
               "name": "Nada Fadul",
-              "count": 6
-            },
-            {
-              "name": "Rena C Patel",
               "count": 6
             },
             {
@@ -61093,15 +61133,15 @@
               "count": 5
             },
             {
+              "name": "Zachary Butzin-Dozier",
+              "count": 5
+            },
+            {
               "name": "Alejandro Arenas-Pinto",
               "count": 4
             },
             {
               "name": "Brian T Steffen",
-              "count": 4
-            },
-            {
-              "name": "Christopher J Tignanelli",
               "count": 4
             }
           ]
@@ -76701,6 +76741,24 @@
           }
         },
         {
+          "id": "42869620",
+          "title": "Generalized Linear Mixed Models for Changepoint Analysis of Biomedical Time Series Data.",
+          "journal": "Statistics in medicine",
+          "year": 2026,
+          "doi": "10.1002/sim.70769",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42869620/",
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [],
+          "authorship": {
+            "position": 2,
+            "total": 3,
+            "isFirst": false,
+            "isLast": true
+          }
+        },
+        {
           "id": "42494079",
           "title": "Imagination Studio, an arts intervention for college students with depression: changes in mental health, well-being, creativity, and flexible thinking.",
           "journal": "Arts & health",
@@ -79277,13 +79335,13 @@
       ],
       "authorCounts": {
         "first": 17,
-        "last": 53,
-        "total": 141,
-        "known": 141
+        "last": 54,
+        "total": 142,
+        "known": 142
       },
       "signals": {
         "positive": {
-          "count": 141,
+          "count": 142,
           "yearRange": {
             "min": 2014,
             "max": 2026
@@ -79339,7 +79397,7 @@
             },
             {
               "year": 2026,
-              "count": 13
+              "count": 14
             }
           ],
           "topJournals": [
@@ -92978,7 +93036,9 @@
           "doi": "10.1111/iej.70171",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42148534/",
           "publicationTypes": [
-            "Journal Article"
+            "Journal Article",
+            "Research Support, U.S. Gov't, P.H.S.",
+            "Research Support, N.I.H., Extramural"
           ],
           "versionLinks": [],
           "authorship": {
@@ -92997,7 +93057,8 @@
           "url": "https://pubmed.ncbi.nlm.nih.gov/42334102/",
           "publicationTypes": [
             "Journal Article",
-            "Observational Study"
+            "Observational Study",
+            "Research Support, Non-U.S. Gov't"
           ],
           "versionLinks": [],
           "authorship": {
