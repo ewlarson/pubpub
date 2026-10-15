@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-14",
-  "updatedAt": "2026-10-14T13:23:30.844Z",
+  "updated": "2026-10-15",
+  "updatedAt": "2026-10-15T13:10:52.376Z",
   "source": "PubMed E-utilities",
   "faculty": [
     {
@@ -130,6 +130,24 @@
             "position": 3,
             "total": 5,
             "isFirst": false,
+            "isLast": false
+          }
+        },
+        {
+          "id": "42851073",
+          "title": "Who is eligible for lung cancer screening, and where are they? National subpopulation estimates of people eligible for lung cancer screening.",
+          "journal": "Cancer",
+          "year": 2026,
+          "doi": "10.1002/cncr.70634",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42851073/",
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [],
+          "authorship": {
+            "position": 0,
+            "total": 10,
+            "isFirst": true,
             "isLast": false
           }
         },
@@ -558,14 +576,14 @@
         }
       ],
       "authorCounts": {
-        "first": 9,
+        "first": 10,
         "last": 1,
-        "total": 27,
-        "known": 27
+        "total": 28,
+        "known": 28
       },
       "signals": {
         "positive": {
-          "count": 27,
+          "count": 28,
           "yearRange": {
             "min": 2020,
             "max": 2026
@@ -597,7 +615,7 @@
             },
             {
               "year": 2026,
-              "count": 6
+              "count": 7
             }
           ],
           "topJournals": [
@@ -615,6 +633,10 @@
             },
             {
               "name": "Biomedical engineering systems and technologies, international joint conference, BIOSTEC ... revised selected papers. BIOSTEC (Conference)",
+              "count": 1
+            },
+            {
+              "name": "Cancer",
               "count": 1
             },
             {
@@ -636,28 +658,24 @@
             {
               "name": "Health affairs (Project Hope)",
               "count": 1
-            },
-            {
-              "name": "JMIR public health and surveillance",
-              "count": 1
             }
           ],
           "topKeywords": [
             {
               "name": "cancer",
-              "count": 13
+              "count": 15
             },
             {
               "name": "health",
               "count": 10
             },
             {
-              "name": "social",
+              "name": "screening",
               "count": 8
             },
             {
-              "name": "screening",
-              "count": 6
+              "name": "social",
+              "count": 8
             },
             {
               "name": "breast",
@@ -676,6 +694,10 @@
               "count": 4
             },
             {
+              "name": "lung",
+              "count": 4
+            },
+            {
               "name": "minnesota",
               "count": 4
             },
@@ -686,13 +708,13 @@
             {
               "name": "association",
               "count": 3
-            },
-            {
-              "name": "case",
-              "count": 3
             }
           ],
           "topCoauthors": [
+            {
+              "name": "Abbie Begnaud",
+              "count": 4
+            },
             {
               "name": "Kelly D Hughes",
               "count": 4
@@ -700,10 +722,6 @@
             {
               "name": "Pinar Karaca Mandic",
               "count": 4
-            },
-            {
-              "name": "Abbie Begnaud",
-              "count": 3
             },
             {
               "name": "Anne M Joseph",
@@ -15597,6 +15615,24 @@
           }
         },
         {
+          "id": "42851073",
+          "title": "Who is eligible for lung cancer screening, and where are they? National subpopulation estimates of people eligible for lung cancer screening.",
+          "journal": "Cancer",
+          "year": 2026,
+          "doi": "10.1002/cncr.70634",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42851073/",
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [],
+          "authorship": {
+            "position": 7,
+            "total": 10,
+            "isFirst": false,
+            "isLast": false
+          }
+        },
+        {
           "id": "40085063",
           "title": "Characterizing Tobacco Use Status among a National Cohort of Patients with Chronic Obstructive Pulmonary Disease.",
           "journal": "Annals of the American Thoracic Society",
@@ -16132,12 +16168,12 @@
       "authorCounts": {
         "first": 10,
         "last": 9,
-        "total": 34,
-        "known": 34
+        "total": 35,
+        "known": 35
       },
       "signals": {
         "positive": {
-          "count": 34,
+          "count": 35,
           "yearRange": {
             "min": 2020,
             "max": 2026
@@ -16169,7 +16205,7 @@
             },
             {
               "year": 2026,
-              "count": 6
+              "count": 7
             }
           ],
           "topJournals": [
@@ -16260,7 +16296,7 @@
               "count": 5
             },
             {
-              "name": "respiratory",
+              "name": "lung",
               "count": 5
             }
           ],
@@ -16275,7 +16311,7 @@
             },
             {
               "name": "R Adams Dudley",
-              "count": 8
+              "count": 9
             },
             {
               "name": "Jesse D Berman",
@@ -67841,7 +67877,7 @@
       "publications": [
         {
           "id": "42313402",
-          "title": "Cerebrospinal fluid transcriptional immune pathways linked to survival in HIV-associated tuberculous meningitis.",
+          "title": "Cerebrospinal Fluid Transcriptional Immune Pathways Linked to Survival in HIV-Associated Tuberculous Meningitis.",
           "journal": "The Journal of infectious diseases",
           "year": 2026,
           "doi": "10.1093/infdis/jiag313",
@@ -96327,7 +96363,7 @@
         },
         {
           "id": "42636100",
-          "title": "Concordance Between Fingerprick and Venous Whole Blood CD4 Counts Using the Visitect CD4 Advanced disease platform.",
+          "title": "Concordance Between Fingerprick and Venous Whole Blood CD4 Counts Using the Visitect CD4 Advanced Disease Platform.",
           "journal": "The Journal of infectious diseases",
           "year": 2026,
           "doi": "10.1093/infdis/jiag437",
