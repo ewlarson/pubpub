@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-15",
-  "updatedAt": "2026-10-15T13:10:52.376Z",
+  "updated": "2026-10-16",
+  "updatedAt": "2026-10-16T13:05:11.176Z",
   "source": "PubMed E-utilities",
   "faculty": [
     {
@@ -15506,6 +15506,25 @@
       ],
       "publications": [
         {
+          "id": "42879152",
+          "title": "Disparities in α1-Antitrypsin Deficiency Testing and Treatment in US Adults.",
+          "journal": "JAMA network open",
+          "year": 2026,
+          "doi": "10.1001/jamanetworkopen.2026.39328",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42879152/",
+          "publicationTypes": [
+            "Journal Article",
+            "Multicenter Study"
+          ],
+          "versionLinks": [],
+          "authorship": {
+            "position": 0,
+            "total": 5,
+            "isFirst": true,
+            "isLast": false
+          }
+        },
+        {
           "id": "42402212",
           "title": "From guidelines to practice: the PuSHCon health-coach model for COPD and asthma.",
           "journal": "Annals of the American Thoracic Society",
@@ -16166,14 +16185,14 @@
         }
       ],
       "authorCounts": {
-        "first": 10,
+        "first": 11,
         "last": 9,
-        "total": 35,
-        "known": 35
+        "total": 36,
+        "known": 36
       },
       "signals": {
         "positive": {
-          "count": 35,
+          "count": 36,
           "yearRange": {
             "min": 2020,
             "max": 2026
@@ -16205,7 +16224,7 @@
             },
             {
               "year": 2026,
-              "count": 7
+              "count": 8
             }
           ],
           "topJournals": [
@@ -16215,6 +16234,10 @@
             },
             {
               "name": "Chest",
+              "count": 3
+            },
+            {
+              "name": "JAMA network open",
               "count": 3
             },
             {
@@ -16231,10 +16254,6 @@
             },
             {
               "name": "International journal of chronic obstructive pulmonary disease",
-              "count": 2
-            },
-            {
-              "name": "JAMA network open",
               "count": 2
             },
             {
@@ -16303,7 +16322,7 @@
           "topCoauthors": [
             {
               "name": "Chris H Wendt",
-              "count": 17
+              "count": 18
             },
             {
               "name": "Ken M Kunisaki",
@@ -41336,6 +41355,24 @@
           }
         },
         {
+          "id": "42880820",
+          "title": "Distinct genomic landscapes of mismatch-repair deficiency (dMMR)/microsatellite instability-high (MSI-H) gastrointestinal (GI) cancer depending on tumor mutation burden (TMB) levels.",
+          "journal": "Journal for immunotherapy of cancer",
+          "year": 2026,
+          "doi": "10.1136/jitc-2026-015933",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42880820/",
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [],
+          "authorship": {
+            "position": 13,
+            "total": 21,
+            "isFirst": false,
+            "isLast": false
+          }
+        },
+        {
           "id": "41559399",
           "title": "Evaluation of immuno-oncologic biomarkers and β-catenin expression in response of hepatocellular carcinomas to immunotherapy.",
           "journal": "NPJ precision oncology",
@@ -44397,12 +44434,12 @@
       "authorCounts": {
         "first": 34,
         "last": 41,
-        "total": 162,
-        "known": 162
+        "total": 163,
+        "known": 163
       },
       "signals": {
         "positive": {
-          "count": 162,
+          "count": 163,
           "yearRange": {
             "min": 2013,
             "max": 2026
@@ -44462,7 +44499,7 @@
             },
             {
               "year": 2026,
-              "count": 16
+              "count": 17
             }
           ],
           "topJournals": [
@@ -44483,6 +44520,10 @@
               "count": 6
             },
             {
+              "name": "Journal for immunotherapy of cancer",
+              "count": 5
+            },
+            {
               "name": "Molecular therapy. Oncology",
               "count": 5
             },
@@ -44492,10 +44533,6 @@
             },
             {
               "name": "JAMA oncology",
-              "count": 4
-            },
-            {
-              "name": "Journal for immunotherapy of cancer",
               "count": 4
             },
             {
@@ -44510,18 +44547,18 @@
           "topKeywords": [
             {
               "name": "cancer",
-              "count": 73
+              "count": 74
             },
             {
               "name": "patients",
               "count": 28
             },
             {
-              "name": "colorectal",
-              "count": 25
+              "name": "tumor",
+              "count": 26
             },
             {
-              "name": "tumor",
+              "name": "colorectal",
               "count": 25
             },
             {
@@ -44560,7 +44597,7 @@
           "topCoauthors": [
             {
               "name": "Joanne Xiu",
-              "count": 30
+              "count": 31
             },
             {
               "name": "Andrew Elliott",
@@ -44568,19 +44605,19 @@
             },
             {
               "name": "Heinz-Josef Lenz",
-              "count": 19
+              "count": 20
+            },
+            {
+              "name": "Anthony F Shields",
+              "count": 18
+            },
+            {
+              "name": "Benjamin A Weinberg",
+              "count": 18
             },
             {
               "name": "Subbaya Subramanian",
               "count": 18
-            },
-            {
-              "name": "Anthony F Shields",
-              "count": 17
-            },
-            {
-              "name": "Benjamin A Weinberg",
-              "count": 17
             },
             {
               "name": "Paul W Sperduto",
@@ -44599,11 +44636,11 @@
               "count": 14
             },
             {
-              "name": "David Roberge",
-              "count": 12
+              "name": "Francesca Battaglin",
+              "count": 13
             },
             {
-              "name": "Francesca Battaglin",
+              "name": "David Roberge",
               "count": 12
             }
           ]
@@ -55057,6 +55094,24 @@
           }
         },
         {
+          "id": "42882897",
+          "title": "Consumption of Processed Meat and Unprocessed Red Meat and Risk of Bladder Cancer: A Pooled Analysis of 30 Cohort Studies.",
+          "journal": "Cancers",
+          "year": 2026,
+          "doi": "10.3390/cancers18193203",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42882897/",
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [],
+          "authorship": {
+            "position": 41,
+            "total": 74,
+            "isFirst": false,
+            "isLast": false
+          }
+        },
+        {
           "id": "41890985",
           "title": "Identifying Plasma Proteins Associated with Risk of Solid Cancers: A 25-Year Prospective Analysis of 4,712 Circulating Proteins in the ARIC Study.",
           "journal": "medRxiv : the preprint server for health sciences",
@@ -57429,12 +57484,12 @@
       "authorCounts": {
         "first": 11,
         "last": 24,
-        "total": 124,
-        "known": 124
+        "total": 125,
+        "known": 125
       },
       "signals": {
         "positive": {
-          "count": 124,
+          "count": 125,
           "yearRange": {
             "min": 2013,
             "max": 2026
@@ -57494,7 +57549,7 @@
             },
             {
               "year": 2026,
-              "count": 11
+              "count": 12
             }
           ],
           "topJournals": [
@@ -57515,11 +57570,11 @@
               "count": 5
             },
             {
-              "name": "Cancer prevention research (Philadelphia, Pa.)",
-              "count": 3
+              "name": "Cancers",
+              "count": 4
             },
             {
-              "name": "Cancers",
+              "name": "Cancer prevention research (Philadelphia, Pa.)",
               "count": 3
             },
             {
@@ -57542,11 +57597,11 @@
           "topKeywords": [
             {
               "name": "cancer",
-              "count": 101
+              "count": 102
             },
             {
               "name": "risk",
-              "count": 83
+              "count": 84
             },
             {
               "name": "study",
@@ -57574,7 +57629,7 @@
             },
             {
               "name": "analysis",
-              "count": 20
+              "count": 21
             },
             {
               "name": "aric",
@@ -57627,16 +57682,16 @@
               "count": 12
             },
             {
+              "name": "Alicja Wolk",
+              "count": 11
+            },
+            {
               "name": "Heather H Nelson",
               "count": 11
             },
             {
-              "name": "Alicja Wolk",
-              "count": 10
-            },
-            {
               "name": "Kala Visvanathan",
-              "count": 10
+              "count": 11
             }
           ]
         },
@@ -63949,7 +64004,8 @@
           "doi": "10.1186/s12877-025-06396-5",
           "url": "https://pubmed.ncbi.nlm.nih.gov/41023942/",
           "publicationTypes": [
-            "Journal Article"
+            "Journal Article",
+            "Research Support, N.I.H., Extramural"
           ],
           "versionLinks": [],
           "authorship": {
@@ -68666,6 +68722,24 @@
       ],
       "publications": [
         {
+          "id": "42881487",
+          "title": "SLC25A4(high) Hepatocytes Enhance Lifestyle Intervention Response in MASLD by Recruiting Eating Macrophages.",
+          "journal": "Advanced science (Weinheim, Baden-Wurttemberg, Germany)",
+          "year": 2026,
+          "doi": "10.1002/advs.78004",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42881487/",
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [],
+          "authorship": {
+            "position": 6,
+            "total": 9,
+            "isFirst": false,
+            "isLast": false
+          }
+        },
+        {
           "id": "40066784",
           "title": "Causal association of social determinants of health with mortality and dynamic impact in patients with chronic heart failure: a longitudinal study using marginal structure models.",
           "journal": "European journal of cardiovascular nursing",
@@ -69221,15 +69295,15 @@
       "authorCounts": {
         "first": 3,
         "last": 18,
-        "total": 29,
-        "known": 29
+        "total": 30,
+        "known": 30
       },
       "signals": {
         "positive": {
-          "count": 29,
+          "count": 30,
           "yearRange": {
             "min": 2014,
-            "max": 2025
+            "max": 2026
           },
           "yearCounts": [
             {
@@ -69279,6 +69353,10 @@
             {
               "year": 2025,
               "count": 3
+            },
+            {
+              "year": 2026,
+              "count": 1
             }
           ],
           "topJournals": [
@@ -69303,6 +69381,10 @@
               "count": 2
             },
             {
+              "name": "Advanced science (Weinheim, Baden-Wurttemberg, Germany)",
+              "count": 1
+            },
+            {
               "name": "Carbohydrate polymers",
               "count": 1
             },
@@ -69316,10 +69398,6 @@
             },
             {
               "name": "Current medical science",
-              "count": 1
-            },
-            {
-              "name": "Environmental science & technology",
               "count": 1
             }
           ],
@@ -69528,6 +69606,24 @@
           }
         },
         {
+          "id": "42881491",
+          "title": "The Trajectory of Gastrointestinal Symptom Experience Following Fecal Microbiota Transplant for Recurrent Clostridioides Difficile Infection.",
+          "journal": "Journal of clinical gastroenterology",
+          "year": 2026,
+          "doi": "10.1097/MCG.0000000000002424",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42881491/",
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [],
+          "authorship": {
+            "position": 11,
+            "total": 12,
+            "isFirst": false,
+            "isLast": true
+          }
+        },
+        {
           "id": "42145945",
           "title": "The food matrix as a confounder in diet‒microbiome studies: methodological challenges and research gaps.",
           "journal": "Gut microbes reports",
@@ -69549,13 +69645,13 @@
       ],
       "authorCounts": {
         "first": 0,
-        "last": 2,
-        "total": 5,
-        "known": 5
+        "last": 3,
+        "total": 6,
+        "known": 6
       },
       "signals": {
         "positive": {
-          "count": 5,
+          "count": 6,
           "yearRange": {
             "min": 2026,
             "max": 2026
@@ -69563,7 +69659,7 @@
           "yearCounts": [
             {
               "year": 2026,
-              "count": 5
+              "count": 6
             }
           ],
           "topJournals": [
@@ -69582,11 +69678,19 @@
             {
               "name": "Frontiers in microbiomes",
               "count": 1
+            },
+            {
+              "name": "Journal of clinical gastroenterology",
+              "count": 1
             }
           ],
           "topKeywords": [
             {
               "name": "microbiome",
+              "count": 3
+            },
+            {
+              "name": "transplant",
               "count": 3
             },
             {
@@ -69599,10 +69703,6 @@
             },
             {
               "name": "research",
-              "count": 2
-            },
-            {
-              "name": "transplant",
               "count": 2
             },
             {
@@ -69637,7 +69737,7 @@
           "topCoauthors": [
             {
               "name": "Annie W Lin",
-              "count": 2
+              "count": 3
             },
             {
               "name": "Christopher Staley",
@@ -69645,6 +69745,10 @@
             },
             {
               "name": "Julia S Oliveira",
+              "count": 2
+            },
+            {
+              "name": "Olivia Solano",
               "count": 2
             },
             {
@@ -69660,27 +69764,23 @@
               "count": 1
             },
             {
+              "name": "Alexa Weingarden",
+              "count": 1
+            },
+            {
+              "name": "Alexander Khoruts",
+              "count": 1
+            },
+            {
+              "name": "Amanda J Kabage",
+              "count": 1
+            },
+            {
               "name": "Arthur J Matas",
               "count": 1
             },
             {
               "name": "Bradley F Boeve",
-              "count": 1
-            },
-            {
-              "name": "Carrie P Earthman",
-              "count": 1
-            },
-            {
-              "name": "Casey R Dorr",
-              "count": 1
-            },
-            {
-              "name": "Cyrus Jahansouz",
-              "count": 1
-            },
-            {
-              "name": "Duy Vo",
               "count": 1
             }
           ]
@@ -76849,6 +76949,24 @@
           }
         },
         {
+          "id": "42880608",
+          "title": "Value-based decision-making and non-suicidal self-injury in adolescent females: A dimensional and computational analysis.",
+          "journal": "Journal of affective disorders",
+          "year": 2026,
+          "doi": "10.1016/j.jad.2026.122615",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42880608/",
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [],
+          "authorship": {
+            "position": 3,
+            "total": 5,
+            "isFirst": false,
+            "isLast": false
+          }
+        },
+        {
           "id": "42260114",
           "title": "White matter and impulsivity are prospectively associated with non‑suicidal self‑injury in youth: evidence for sex differences.",
           "journal": "Neuropsychopharmacology : official publication of the American College of Neuropsychopharmacology",
@@ -79372,12 +79490,12 @@
       "authorCounts": {
         "first": 17,
         "last": 54,
-        "total": 142,
-        "known": 142
+        "total": 143,
+        "known": 143
       },
       "signals": {
         "positive": {
-          "count": 142,
+          "count": 143,
           "yearRange": {
             "min": 2014,
             "max": 2026
@@ -79433,13 +79551,13 @@
             },
             {
               "year": 2026,
-              "count": 14
+              "count": 15
             }
           ],
           "topJournals": [
             {
               "name": "Journal of affective disorders",
-              "count": 11
+              "count": 12
             },
             {
               "name": "Journal of the American Academy of Child and Adolescent Psychiatry",
@@ -79488,24 +79606,24 @@
               "count": 31
             },
             {
+              "name": "self",
+              "count": 30
+            },
+            {
               "name": "depression",
               "count": 29
             },
             {
-              "name": "self",
-              "count": 29
+              "name": "suicidal",
+              "count": 27
             },
             {
               "name": "study",
               "count": 26
             },
             {
-              "name": "suicidal",
-              "count": 26
-            },
-            {
               "name": "injury",
-              "count": 23
+              "count": 24
             },
             {
               "name": "major",
@@ -79517,7 +79635,7 @@
             },
             {
               "name": "adolescent",
-              "count": 19
+              "count": 20
             },
             {
               "name": "state",
@@ -79531,7 +79649,7 @@
           "topCoauthors": [
             {
               "name": "Bonnie Klimes-Dougan",
-              "count": 97
+              "count": 98
             },
             {
               "name": "Bryon A Mueller",
@@ -106893,6 +107011,24 @@
           }
         },
         {
+          "id": "42881491",
+          "title": "The Trajectory of Gastrointestinal Symptom Experience Following Fecal Microbiota Transplant for Recurrent Clostridioides Difficile Infection.",
+          "journal": "Journal of clinical gastroenterology",
+          "year": 2026,
+          "doi": "10.1097/MCG.0000000000002424",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42881491/",
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [],
+          "authorship": {
+            "position": 7,
+            "total": 12,
+            "isFirst": false,
+            "isLast": false
+          }
+        },
+        {
           "id": "42538086",
           "title": "Understanding the Pathophysiology of Clostridioides difficile Infection, Colonization, and Making an Accurate Diagnosis.",
           "journal": "Gastroenterology clinics of North America",
@@ -108336,12 +108472,12 @@
       "authorCounts": {
         "first": 11,
         "last": 37,
-        "total": 83,
-        "known": 83
+        "total": 84,
+        "known": 84
       },
       "signals": {
         "positive": {
-          "count": 83,
+          "count": 84,
           "yearRange": {
             "min": 2015,
             "max": 2026
@@ -108393,7 +108529,7 @@
             },
             {
               "year": 2026,
-              "count": 8
+              "count": 9
             }
           ],
           "topJournals": [
@@ -108445,7 +108581,7 @@
             },
             {
               "name": "microbiota",
-              "count": 29
+              "count": 30
             },
             {
               "name": "bowel",
@@ -108457,15 +108593,15 @@
             },
             {
               "name": "difficile",
-              "count": 22
+              "count": 23
             },
             {
               "name": "fecal",
-              "count": 21
+              "count": 22
             },
             {
               "name": "infection",
-              "count": 19
+              "count": 20
             },
             {
               "name": "transplantation",
@@ -108473,7 +108609,7 @@
             },
             {
               "name": "clostridioides",
-              "count": 15
+              "count": 16
             },
             {
               "name": "patients",
@@ -108484,22 +108620,22 @@
               "count": 10
             },
             {
-              "name": "crohn",
-              "count": 8
+              "name": "recurrent",
+              "count": 9
             }
           ],
           "topCoauthors": [
             {
               "name": "Alexander Khoruts",
-              "count": 30
+              "count": 31
+            },
+            {
+              "name": "Amanda J Kabage",
+              "count": 12
             },
             {
               "name": "Michael J Sadowsky",
               "count": 12
-            },
-            {
-              "name": "Amanda J Kabage",
-              "count": 11
             },
             {
               "name": "Christopher Staley",
@@ -108514,6 +108650,10 @@
               "count": 9
             },
             {
+              "name": "Monika Fischer",
+              "count": 8
+            },
+            {
               "name": "Daphne Moutsoglou",
               "count": 7
             },
@@ -108523,10 +108663,6 @@
             },
             {
               "name": "Konstantinos Papamichael",
-              "count": 7
-            },
-            {
-              "name": "Monika Fischer",
               "count": 7
             },
             {
