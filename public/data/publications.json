@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-16",
-  "updatedAt": "2026-10-16T13:05:11.176Z",
+  "updated": "2026-10-17",
+  "updatedAt": "2026-10-17T12:04:00.223Z",
   "source": "PubMed E-utilities",
   "faculty": [
     {
@@ -15514,7 +15514,8 @@
           "url": "https://pubmed.ncbi.nlm.nih.gov/42879152/",
           "publicationTypes": [
             "Journal Article",
-            "Multicenter Study"
+            "Multicenter Study",
+            "Observational Study"
           ],
           "versionLinks": [],
           "authorship": {
@@ -55149,6 +55150,24 @@
           }
         },
         {
+          "id": "42888021",
+          "title": "Processed meat, unprocessed red meat, poultry, seafood, and egg intake and stomach cancer risk: a pooled analysis of 20 cohorts.",
+          "journal": "International journal of epidemiology",
+          "year": 2026,
+          "doi": "10.1093/ije/dyag224",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42888021/",
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [],
+          "authorship": {
+            "position": 23,
+            "total": 54,
+            "isFirst": false,
+            "isLast": false
+          }
+        },
+        {
           "id": "41032251",
           "title": "Proteomic aging clocks and the risk of mortality among long-term cancer survivors.",
           "journal": "Journal of the National Cancer Institute",
@@ -57484,12 +57503,12 @@
       "authorCounts": {
         "first": 11,
         "last": 24,
-        "total": 125,
-        "known": 125
+        "total": 126,
+        "known": 126
       },
       "signals": {
         "positive": {
-          "count": 125,
+          "count": 126,
           "yearRange": {
             "min": 2013,
             "max": 2026
@@ -57549,7 +57568,7 @@
             },
             {
               "year": 2026,
-              "count": 12
+              "count": 13
             }
           ],
           "topJournals": [
@@ -57586,22 +57605,22 @@
               "count": 3
             },
             {
-              "name": "JNCI cancer spectrum",
+              "name": "International journal of epidemiology",
               "count": 3
             },
             {
-              "name": "Maturitas",
+              "name": "JNCI cancer spectrum",
               "count": 3
             }
           ],
           "topKeywords": [
             {
               "name": "cancer",
-              "count": 102
+              "count": 103
             },
             {
               "name": "risk",
-              "count": 84
+              "count": 85
             },
             {
               "name": "study",
@@ -57624,12 +57643,12 @@
               "count": 23
             },
             {
-              "name": "colorectal",
+              "name": "analysis",
               "count": 22
             },
             {
-              "name": "analysis",
-              "count": 21
+              "name": "colorectal",
+              "count": 22
             },
             {
               "name": "aric",
@@ -57678,20 +57697,20 @@
               "count": 13
             },
             {
-              "name": "Weihua Guan",
+              "name": "Alicja Wolk",
               "count": 12
             },
             {
-              "name": "Alicja Wolk",
-              "count": 11
+              "name": "Kim Robien",
+              "count": 12
             },
             {
-              "name": "Heather H Nelson",
-              "count": 11
+              "name": "Linda M Liao",
+              "count": 12
             },
             {
-              "name": "Kala Visvanathan",
-              "count": 11
+              "name": "Piet A van den Brandt",
+              "count": 12
             }
           ]
         },
