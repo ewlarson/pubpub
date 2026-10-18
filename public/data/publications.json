@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-17",
-  "updatedAt": "2026-10-17T12:04:00.223Z",
+  "updated": "2026-10-18",
+  "updatedAt": "2026-10-18T12:32:14.738Z",
   "source": "PubMed E-utilities",
   "faculty": [
     {
@@ -2349,6 +2349,24 @@
       ],
       "publications": [
         {
+          "id": "42891650",
+          "title": "Feasibility and acceptability of a shelter-based health empowerment program for pregnant and parenting youth experiencing homelessness.",
+          "journal": "Community health equity research & policy",
+          "year": 2026,
+          "doi": "10.1177/2752535X261496350",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42891650/",
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [],
+          "authorship": {
+            "position": 4,
+            "total": 8,
+            "isFirst": false,
+            "isLast": false
+          }
+        },
+        {
           "id": "42384923",
           "title": "Patient preferences for the integration of exercise for depression into mental health care.",
           "journal": "Translational behavioral medicine",
@@ -2446,12 +2464,12 @@
       "authorCounts": {
         "first": 2,
         "last": 0,
-        "total": 5,
-        "known": 5
+        "total": 6,
+        "known": 6
       },
       "signals": {
         "positive": {
-          "count": 5,
+          "count": 6,
           "yearRange": {
             "min": 2022,
             "max": 2026
@@ -2467,13 +2485,17 @@
             },
             {
               "year": 2026,
-              "count": 1
+              "count": 2
             }
           ],
           "topJournals": [
             {
               "name": "Journal of physical activity & health",
               "count": 2
+            },
+            {
+              "name": "Community health equity research & policy",
+              "count": 1
             },
             {
               "name": "Health promotion practice",
@@ -2502,6 +2524,10 @@
               "count": 2
             },
             {
+              "name": "health",
+              "count": 2
+            },
+            {
               "name": "physical",
               "count": 2
             },
@@ -2512,6 +2538,10 @@
             {
               "name": "they",
               "count": 2
+            },
+            {
+              "name": "acceptability",
+              "count": 1
             },
             {
               "name": "active",
@@ -2527,14 +2557,6 @@
             },
             {
               "name": "among",
-              "count": 1
-            },
-            {
-              "name": "associations",
-              "count": 1
-            },
-            {
-              "name": "behaviors",
               "count": 1
             }
           ],
@@ -2556,11 +2578,23 @@
               "count": 1
             },
             {
+              "name": "Annie-Laurie McRee",
+              "count": 1
+            },
+            {
               "name": "Belden Long",
               "count": 1
             },
             {
               "name": "Chad M Killian",
+              "count": 1
+            },
+            {
+              "name": "Christina Woodlee",
+              "count": 1
+            },
+            {
+              "name": "Christopher J Mehus",
               "count": 1
             },
             {
@@ -2573,18 +2607,6 @@
             },
             {
               "name": "Dianne Neumark-Sztainer",
-              "count": 1
-            },
-            {
-              "name": "Emily M D'Agostino",
-              "count": 1
-            },
-            {
-              "name": "Emma Billmyer",
-              "count": 1
-            },
-            {
-              "name": "Hana-May Eadeh",
               "count": 1
             }
           ]
@@ -24273,7 +24295,9 @@
           "url": "https://pubmed.ncbi.nlm.nih.gov/40053814/",
           "publicationTypes": [
             "Journal Article",
-            "Review"
+            "Review",
+            "Research Support, U.S. Gov't, P.H.S.",
+            "Research Support, Non-U.S. Gov't"
           ],
           "versionLinks": [],
           "authorship": {
@@ -77048,7 +77072,8 @@
           "doi": "10.1038/s41380-025-03273-w",
           "url": "https://pubmed.ncbi.nlm.nih.gov/41044403/",
           "publicationTypes": [
-            "Journal Article"
+            "Journal Article",
+            "Research Support, Non-U.S. Gov't"
           ],
           "versionLinks": [
             {
