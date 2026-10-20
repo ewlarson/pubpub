@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-19",
-  "updatedAt": "2026-10-19T15:23:25.772Z",
+  "updated": "2026-10-20",
+  "updatedAt": "2026-10-20T13:22:38.135Z",
   "source": "PubMed E-utilities",
   "faculty": [
     {
@@ -9200,6 +9200,24 @@
           }
         },
         {
+          "id": "42896626",
+          "title": "Favorable survival for older adults treated with Axi-cel and Tisa-cel CD19 CAR-T therapy for relapsed/refractory DLBCL: a U.S. multicenter comparative analysis.",
+          "journal": "Transplantation and cellular therapy",
+          "year": 2026,
+          "doi": "10.1016/j.jtct.2026.09.014",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42896626/",
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [],
+          "authorship": {
+            "position": 13,
+            "total": 14,
+            "isFirst": false,
+            "isLast": true
+          }
+        },
+        {
           "id": "42341321",
           "title": "Late cytopenia after CD19 chimeric antigen receptor T-cell therapy in large B-cell lymphoma: a Cell Therapy Consortium analysis.",
           "journal": "Blood advances",
@@ -12424,13 +12442,13 @@
       ],
       "authorCounts": {
         "first": 17,
-        "last": 24,
-        "total": 167,
-        "known": 167
+        "last": 25,
+        "total": 168,
+        "known": 168
       },
       "signals": {
         "positive": {
-          "count": 167,
+          "count": 168,
           "yearRange": {
             "min": 2012,
             "max": 2026
@@ -12494,7 +12512,7 @@
             },
             {
               "year": 2026,
-              "count": 9
+              "count": 10
             }
           ],
           "topJournals": [
@@ -12508,7 +12526,7 @@
             },
             {
               "name": "Transplantation and cellular therapy",
-              "count": 17
+              "count": 18
             },
             {
               "name": "Blood",
@@ -12553,11 +12571,11 @@
               "count": 71
             },
             {
-              "name": "after",
-              "count": 39
+              "name": "therapy",
+              "count": 40
             },
             {
-              "name": "therapy",
+              "name": "after",
               "count": 39
             },
             {
@@ -12600,11 +12618,15 @@
             },
             {
               "name": "Qing Cao",
-              "count": 21
+              "count": 22
             },
             {
               "name": "Jeffrey S Miller",
               "count": 20
+            },
+            {
+              "name": "Miguel-Angel Perales",
+              "count": 18
             },
             {
               "name": "Reem Karmali",
@@ -12616,10 +12638,6 @@
             },
             {
               "name": "Manali Kamdar",
-              "count": 17
-            },
-            {
-              "name": "Miguel-Angel Perales",
               "count": 17
             },
             {
@@ -12635,7 +12653,7 @@
               "count": 16
             },
             {
-              "name": "Mohamed A Kharfan-Dabaja",
+              "name": "Joseph P McGuirk",
               "count": 15
             }
           ]
@@ -41289,6 +41307,24 @@
           }
         },
         {
+          "id": "42897222",
+          "title": "Activation of the endocytosis pathway stratifies subtypes and therapeutic sensitivity in colorectal cancer.",
+          "journal": "Oncogene",
+          "year": 2026,
+          "doi": "10.1038/s41388-026-04019-w",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42897222/",
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [],
+          "authorship": {
+            "position": 17,
+            "total": 25,
+            "isFirst": false,
+            "isLast": false
+          }
+        },
+        {
           "id": "41495008",
           "title": "Age- and sex-based differences in the genomic profiles of patients with gastrointestinal and pancreatic neuroendocrine neoplasms.",
           "journal": "The oncologist",
@@ -44459,12 +44495,12 @@
       "authorCounts": {
         "first": 34,
         "last": 41,
-        "total": 163,
-        "known": 163
+        "total": 164,
+        "known": 164
       },
       "signals": {
         "positive": {
-          "count": 163,
+          "count": 164,
           "yearRange": {
             "min": 2013,
             "max": 2026
@@ -44524,7 +44560,7 @@
             },
             {
               "year": 2026,
-              "count": 17
+              "count": 18
             }
           ],
           "topJournals": [
@@ -44572,19 +44608,19 @@
           "topKeywords": [
             {
               "name": "cancer",
-              "count": 74
+              "count": 75
             },
             {
               "name": "patients",
               "count": 28
             },
             {
-              "name": "tumor",
+              "name": "colorectal",
               "count": 26
             },
             {
-              "name": "colorectal",
-              "count": 25
+              "name": "tumor",
+              "count": 26
             },
             {
               "name": "molecular",
@@ -44622,22 +44658,22 @@
           "topCoauthors": [
             {
               "name": "Joanne Xiu",
-              "count": 31
+              "count": 32
             },
             {
               "name": "Andrew Elliott",
-              "count": 20
+              "count": 21
             },
             {
               "name": "Heinz-Josef Lenz",
-              "count": 20
-            },
-            {
-              "name": "Anthony F Shields",
-              "count": 18
+              "count": 21
             },
             {
               "name": "Benjamin A Weinberg",
+              "count": 19
+            },
+            {
+              "name": "Anthony F Shields",
               "count": 18
             },
             {
@@ -44649,20 +44685,20 @@
               "count": 15
             },
             {
+              "name": "Sanjay Goel",
+              "count": 15
+            },
+            {
+              "name": "W Michael Korn",
+              "count": 15
+            },
+            {
               "name": "Yasmine Baca",
               "count": 15
             },
             {
-              "name": "Sanjay Goel",
-              "count": 14
-            },
-            {
-              "name": "W Michael Korn",
-              "count": 14
-            },
-            {
               "name": "Francesca Battaglin",
-              "count": 13
+              "count": 14
             },
             {
               "name": "David Roberge",
