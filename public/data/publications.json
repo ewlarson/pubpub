@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-20",
-  "updatedAt": "2026-10-20T13:22:38.135Z",
+  "updated": "2026-10-21",
+  "updatedAt": "2026-10-21T13:30:34.277Z",
   "source": "PubMed E-utilities",
   "faculty": [
     {
@@ -96542,6 +96542,24 @@
           }
         },
         {
+          "id": "42900018",
+          "title": "Birth and clinical outcomes of pregnant participants with advanced HIV disease.",
+          "journal": "Journal of acquired immune deficiency syndromes (1999)",
+          "year": 2026,
+          "doi": "10.1097/QAI.0000000000003995",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42900018/",
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [],
+          "authorship": {
+            "position": 11,
+            "total": 13,
+            "isFirst": false,
+            "isLast": false
+          }
+        },
+        {
           "id": "42228705",
           "title": "Change in plasma cryptococcal antigen titers in Uganda among outpatients with advanced HIV disease from 2017 to 2022 with rollout of national cryptococcal screening.",
           "journal": "PloS one",
@@ -98369,12 +98387,12 @@
       "authorCounts": {
         "first": 14,
         "last": 31,
-        "total": 94,
-        "known": 94
+        "total": 95,
+        "known": 95
       },
       "signals": {
         "positive": {
-          "count": 94,
+          "count": 95,
           "yearRange": {
             "min": 2015,
             "max": 2026
@@ -98426,7 +98444,7 @@
             },
             {
               "year": 2026,
-              "count": 10
+              "count": 11
             }
           ],
           "topJournals": [
@@ -98444,7 +98462,7 @@
             },
             {
               "name": "Journal of acquired immune deficiency syndromes (1999)",
-              "count": 4
+              "count": 5
             },
             {
               "name": "The Lancet. Infectious diseases",
@@ -98478,18 +98496,18 @@
             },
             {
               "name": "hiv",
-              "count": 39
+              "count": 40
             },
             {
               "name": "meningitis",
               "count": 32
             },
             {
-              "name": "antigen",
-              "count": 16
+              "name": "disease",
+              "count": 17
             },
             {
-              "name": "disease",
+              "name": "antigen",
               "count": 16
             },
             {
@@ -98501,12 +98519,12 @@
               "count": 15
             },
             {
-              "name": "screening",
+              "name": "advanced",
               "count": 14
             },
             {
-              "name": "advanced",
-              "count": 13
+              "name": "screening",
+              "count": 14
             },
             {
               "name": "among",
@@ -98524,7 +98542,7 @@
           "topCoauthors": [
             {
               "name": "David R Boulware",
-              "count": 71
+              "count": 72
             },
             {
               "name": "David B Meya",
@@ -98532,7 +98550,7 @@
             },
             {
               "name": "Elizabeth Nalintya",
-              "count": 28
+              "count": 29
             },
             {
               "name": "Caleb P Skipper",
@@ -98568,7 +98586,7 @@
             },
             {
               "name": "Biyue Dai",
-              "count": 11
+              "count": 12
             }
           ]
         },
