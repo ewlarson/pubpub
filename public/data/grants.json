@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-21",
-  "updatedAt": "2026-10-21T13:30:34.277Z",
+  "updated": "2026-10-22",
+  "updatedAt": "2026-10-22T13:31:31.652Z",
   "source": "NIH RePORTER API",
   "faculty": [
     {
@@ -5303,17 +5303,6 @@
           "coreProjectNum": "U01DK126300"
         },
         {
-          "id": "5U01DK126300-03",
-          "title": "University of Minnesota Clinical Center for the Study of Pancreatic Disease",
-          "role": "Not listed",
-          "amount": 455667,
-          "startDate": "2020-09-03",
-          "endDate": "2025-06-30",
-          "fiscalYear": 2022,
-          "url": "https://reporter.nih.gov/project-details/10445078",
-          "coreProjectNum": "U01DK126300"
-        },
-        {
           "id": "3U01DK126300-03S1",
           "title": "University of Minnesota Clinical Center for the Study of Pancreatic Disease",
           "role": "Not listed",
@@ -5322,6 +5311,17 @@
           "endDate": "2025-06-30",
           "fiscalYear": 2022,
           "url": "https://reporter.nih.gov/project-details/10684392",
+          "coreProjectNum": "U01DK126300"
+        },
+        {
+          "id": "5U01DK126300-03",
+          "title": "University of Minnesota Clinical Center for the Study of Pancreatic Disease",
+          "role": "Not listed",
+          "amount": 455667,
+          "startDate": "2020-09-03",
+          "endDate": "2025-06-30",
+          "fiscalYear": 2022,
+          "url": "https://reporter.nih.gov/project-details/10445078",
           "coreProjectNum": "U01DK126300"
         },
         {
@@ -5796,17 +5796,6 @@
           "coreProjectNum": "R01MH107394"
         },
         {
-          "id": "5R01MH107394-02",
-          "title": "A Longitudinal Study Examining Three RDoC Constructs in Adolescents with Non-Suicidal Self-Injury",
-          "role": "Not listed",
-          "amount": 547473,
-          "startDate": "2016-08-01",
-          "endDate": "2021-05-31",
-          "fiscalYear": 2017,
-          "url": "https://reporter.nih.gov/project-details/9315221",
-          "coreProjectNum": "R01MH107394"
-        },
-        {
           "id": "3R01MH107394-02S1",
           "title": "A Longitudinal Study Examining Three RDoC Constructs in Adolescents with Non-Suicidal Self-Injury",
           "role": "Not listed",
@@ -5815,6 +5804,17 @@
           "endDate": "2021-05-31",
           "fiscalYear": 2017,
           "url": "https://reporter.nih.gov/project-details/9474891",
+          "coreProjectNum": "R01MH107394"
+        },
+        {
+          "id": "5R01MH107394-02",
+          "title": "A Longitudinal Study Examining Three RDoC Constructs in Adolescents with Non-Suicidal Self-Injury",
+          "role": "Not listed",
+          "amount": 547473,
+          "startDate": "2016-08-01",
+          "endDate": "2021-05-31",
+          "fiscalYear": 2017,
+          "url": "https://reporter.nih.gov/project-details/9315221",
           "coreProjectNum": "R01MH107394"
         },
         {
