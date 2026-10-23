@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-22",
-  "updatedAt": "2026-10-22T13:31:31.652Z",
+  "updated": "2026-10-23",
+  "updatedAt": "2026-10-23T13:10:20.903Z",
   "source": "PubMed E-utilities",
   "faculty": [
     {
@@ -1287,13 +1287,14 @@
         },
         {
           "id": "42809669",
-          "title": "The Salt Sensitivity Index is a Pragmatic Advance in Detecting Salt-Sensitive Blood Pressure with Important Caveats.",
+          "title": "The salt sensitivity index is a pragmatic advance in detecting salt-sensitive blood pressure with important caveats.",
           "journal": "American journal of physiology. Heart and circulatory physiology",
           "year": 2026,
           "doi": "10.1152/ajpheart.90104.2026",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42809669/",
           "publicationTypes": [
-            "Editorial"
+            "Journal Article",
+            "Comment"
           ],
           "versionLinks": [],
           "authorship": {
@@ -5455,6 +5456,24 @@
           }
         },
         {
+          "id": "42904411",
+          "title": "Cardiometabolic Risk, Minority Stress, and Resilience in the Study of Stress, Gender, and Minority Status (SGM SOL): An Ancillary Study of the Hispanic Community Health Study/Study of Latinos.",
+          "journal": "Behavioral medicine (Washington, D.C.)",
+          "year": 2026,
+          "doi": "10.1080/08964289.2026.2619691",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42904411/",
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [],
+          "authorship": {
+            "position": 6,
+            "total": 14,
+            "isFirst": false,
+            "isLast": false
+          }
+        },
+        {
           "id": "42026901",
           "title": "Deciphering mitochondrial metabolic vulnerabilities in ovarian clear cell carcinoma with mass spectrometry-based clinical proteomics.",
           "journal": "Expert review of proteomics",
@@ -6194,12 +6213,12 @@
       "authorCounts": {
         "first": 7,
         "last": 20,
-        "total": 38,
-        "known": 38
+        "total": 39,
+        "known": 39
       },
       "signals": {
         "positive": {
-          "count": 38,
+          "count": 39,
           "yearRange": {
             "min": 2019,
             "max": 2026
@@ -6235,7 +6254,7 @@
             },
             {
               "year": 2026,
-              "count": 5
+              "count": 6
             }
           ],
           "topJournals": [
@@ -6276,7 +6295,7 @@
               "count": 1
             },
             {
-              "name": "Cancer epidemiology, biomarkers & prevention : a publication of the American Association for Cancer Research, cosponsored by the American Society of Preventive Oncology",
+              "name": "Behavioral medicine (Washington, D.C.)",
               "count": 1
             }
           ],
@@ -6288,6 +6307,10 @@
             {
               "name": "cancer",
               "count": 14
+            },
+            {
+              "name": "study",
+              "count": 10
             },
             {
               "name": "proteomic",
@@ -6322,10 +6345,6 @@
               "count": 6
             },
             {
-              "name": "study",
-              "count": 6
-            },
-            {
               "name": "covid",
               "count": 5
             }
@@ -6337,7 +6356,7 @@
             },
             {
               "name": "Bharat Thyagarajan",
-              "count": 7
+              "count": 8
             },
             {
               "name": "Carly A I Twigg",
@@ -9268,6 +9287,24 @@
           "authorship": {
             "position": 7,
             "total": 45,
+            "isFirst": false,
+            "isLast": false
+          }
+        },
+        {
+          "id": "42906792",
+          "title": "Predictors and Outcomes of Immune Effector Cell Associated Neurotoxicity Syndrome in Patients Receiving Chimeric Antigen Receptor T Cell Therapy for Aggressive B-Cell Non-Hodgkin Lymphoma.",
+          "journal": "Transplantation and cellular therapy",
+          "year": 2026,
+          "doi": "10.1016/j.jtct.2026.10.019",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42906792/",
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [],
+          "authorship": {
+            "position": 9,
+            "total": 14,
             "isFirst": false,
             "isLast": false
           }
@@ -12443,12 +12480,12 @@
       "authorCounts": {
         "first": 17,
         "last": 25,
-        "total": 168,
-        "known": 168
+        "total": 169,
+        "known": 169
       },
       "signals": {
         "positive": {
-          "count": 168,
+          "count": 169,
           "yearRange": {
             "min": 2012,
             "max": 2026
@@ -12512,7 +12549,7 @@
             },
             {
               "year": 2026,
-              "count": 10
+              "count": 11
             }
           ],
           "topJournals": [
@@ -12526,7 +12563,7 @@
             },
             {
               "name": "Transplantation and cellular therapy",
-              "count": 18
+              "count": 19
             },
             {
               "name": "Blood",
@@ -12560,11 +12597,11 @@
           "topKeywords": [
             {
               "name": "cell",
-              "count": 134
+              "count": 137
             },
             {
               "name": "lymphoma",
-              "count": 87
+              "count": 88
             },
             {
               "name": "transplantation",
@@ -12572,7 +12609,7 @@
             },
             {
               "name": "therapy",
-              "count": 40
+              "count": 41
             },
             {
               "name": "after",
@@ -12580,7 +12617,7 @@
             },
             {
               "name": "patients",
-              "count": 36
+              "count": 37
             },
             {
               "name": "hematopoietic",
@@ -12588,7 +12625,7 @@
             },
             {
               "name": "outcomes",
-              "count": 33
+              "count": 34
             },
             {
               "name": "leukemia",
@@ -12626,7 +12663,7 @@
             },
             {
               "name": "Miguel-Angel Perales",
-              "count": 18
+              "count": 19
             },
             {
               "name": "Reem Karmali",
@@ -12645,16 +12682,16 @@
               "count": 16
             },
             {
+              "name": "Joseph P McGuirk",
+              "count": 16
+            },
+            {
+              "name": "Michael R Bishop",
+              "count": 16
+            },
+            {
               "name": "Narendranath Epperla",
               "count": 16
-            },
-            {
-              "name": "Timothy S Fenske",
-              "count": 16
-            },
-            {
-              "name": "Joseph P McGuirk",
-              "count": 15
             }
           ]
         },
@@ -24232,6 +24269,24 @@
       ],
       "publications": [
         {
+          "id": "42904680",
+          "title": "An Implementation Maturity Survey to Support Systemwide Age-Friendly Care.",
+          "journal": "NEJM catalyst innovations in care delivery",
+          "year": 2026,
+          "doi": "10.1056/CAT.26.0376",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42904680/",
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [],
+          "authorship": {
+            "position": 0,
+            "total": 4,
+            "isFirst": true,
+            "isLast": false
+          }
+        },
+        {
           "id": "42235957",
           "title": "Characterizing Team Structure in the Pediatric Intensive Care Unit.",
           "journal": "Hospital pediatrics",
@@ -24720,14 +24775,14 @@
         }
       ],
       "authorCounts": {
-        "first": 10,
+        "first": 11,
         "last": 10,
-        "total": 26,
-        "known": 26
+        "total": 27,
+        "known": 27
       },
       "signals": {
         "positive": {
-          "count": 26,
+          "count": 27,
           "yearRange": {
             "min": 2021,
             "max": 2026
@@ -24755,7 +24810,7 @@
             },
             {
               "year": 2026,
-              "count": 4
+              "count": 5
             }
           ],
           "topJournals": [
@@ -24803,7 +24858,7 @@
           "topKeywords": [
             {
               "name": "care",
-              "count": 10
+              "count": 11
             },
             {
               "name": "health",
@@ -24819,6 +24874,10 @@
             },
             {
               "name": "electronic",
+              "count": 4
+            },
+            {
+              "name": "support",
               "count": 4
             },
             {
@@ -24844,10 +24903,6 @@
             {
               "name": "skilled",
               "count": 3
-            },
-            {
-              "name": "support",
-              "count": 3
             }
           ],
           "topCoauthors": [
@@ -24864,11 +24919,11 @@
               "count": 5
             },
             {
-              "name": "Hannah T Neprash",
-              "count": 3
+              "name": "Julia Adler-Milstein",
+              "count": 4
             },
             {
-              "name": "Julia Adler-Milstein",
+              "name": "Hannah T Neprash",
               "count": 3
             },
             {
@@ -34458,6 +34513,24 @@
           }
         },
         {
+          "id": "42904958",
+          "title": "Development of a PICU-Based Food Shelf to Support Families With Food Insecurity.",
+          "journal": "Pediatric critical care medicine : a journal of the Society of Critical Care Medicine and the World Federation of Pediatric Intensive and Critical Care Societies",
+          "year": 2026,
+          "doi": "10.1097/PCC.0000000000004088",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42904958/",
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [],
+          "authorship": {
+            "position": 3,
+            "total": 4,
+            "isFirst": false,
+            "isLast": true
+          }
+        },
+        {
           "id": "41885544",
           "title": "Factors Associated With R01 Submission Among Pediatric Critical Care Medicine Career Development Award Recipients.",
           "journal": "Critical care medicine",
@@ -34809,13 +34882,13 @@
       ],
       "authorCounts": {
         "first": 5,
-        "last": 5,
-        "total": 23,
-        "known": 23
+        "last": 6,
+        "total": 24,
+        "known": 24
       },
       "signals": {
         "positive": {
-          "count": 23,
+          "count": 24,
           "yearRange": {
             "min": 2024,
             "max": 2026
@@ -34831,13 +34904,13 @@
             },
             {
               "year": 2026,
-              "count": 10
+              "count": 11
             }
           ],
           "topJournals": [
             {
               "name": "Pediatric critical care medicine : a journal of the Society of Critical Care Medicine and the World Federation of Pediatric Intensive and Critical Care Societies",
-              "count": 7
+              "count": 8
             },
             {
               "name": "Hospital pediatrics",
@@ -34886,15 +34959,15 @@
               "count": 11
             },
             {
+              "name": "picu",
+              "count": 7
+            },
+            {
               "name": "critical",
               "count": 6
             },
             {
               "name": "intensive",
-              "count": 6
-            },
-            {
-              "name": "picu",
               "count": 6
             },
             {
@@ -45045,7 +45118,8 @@
           "doi": "10.1002/mrm.30633",
           "url": "https://pubmed.ncbi.nlm.nih.gov/40674622/",
           "publicationTypes": [
-            "Journal Article"
+            "Journal Article",
+            "Research Support, N.I.H., Extramural"
           ],
           "versionLinks": [
             {
@@ -66198,6 +66272,24 @@
           }
         },
         {
+          "id": "42904610",
+          "title": "Access to Reproductive Health Services for Women Incarcerated in the United States: A Federal and State Policy Review.",
+          "journal": "Perspectives on sexual and reproductive health",
+          "year": 2026,
+          "doi": "10.1111/psrh.70096",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42904610/",
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [],
+          "authorship": {
+            "position": 6,
+            "total": 8,
+            "isFirst": false,
+            "isLast": false
+          }
+        },
+        {
           "id": "42085364",
           "title": "Federal and State Laws on Mental Health Care for Incarcerated Pregnant and Postpartum People.",
           "journal": "Journal of correctional health care : the official journal of the National Commission on Correctional Health Care",
@@ -67772,12 +67864,12 @@
       "authorCounts": {
         "first": 14,
         "last": 42,
-        "total": 86,
-        "known": 86
+        "total": 87,
+        "known": 87
       },
       "signals": {
         "positive": {
-          "count": 86,
+          "count": 87,
           "yearRange": {
             "min": 2013,
             "max": 2026
@@ -67837,7 +67929,7 @@
             },
             {
               "year": 2026,
-              "count": 6
+              "count": 7
             }
           ],
           "topJournals": [
@@ -67885,7 +67977,7 @@
           "topKeywords": [
             {
               "name": "health",
-              "count": 32
+              "count": 33
             },
             {
               "name": "among",
@@ -67893,11 +67985,11 @@
             },
             {
               "name": "incarcerated",
-              "count": 26
+              "count": 27
             },
             {
               "name": "women",
-              "count": 16
+              "count": 17
             },
             {
               "name": "care",
@@ -67943,7 +68035,7 @@
             },
             {
               "name": "Carolyn Sufrin",
-              "count": 7
+              "count": 8
             },
             {
               "name": "Tyler N A Winkelman",
@@ -67951,6 +68043,10 @@
             },
             {
               "name": "Barbara J McMorris",
+              "count": 5
+            },
+            {
+              "name": "Bethany Kotlar",
               "count": 5
             },
             {
@@ -67971,10 +68067,6 @@
             },
             {
               "name": "Annie-Laurie McRee",
-              "count": 4
-            },
-            {
-              "name": "Bethany Kotlar",
               "count": 4
             },
             {
@@ -71275,6 +71367,24 @@
           "authorship": {
             "position": 12,
             "total": 33,
+            "isFirst": false,
+            "isLast": false
+          }
+        },
+        {
+          "id": "42907286",
+          "title": "CTRC variant p.Gly60= reduces chymotrypsin C mRNA expression in chronic pancreatitis patients undergoing TPIAT.",
+          "journal": "Pancreatology : official journal of the International Association of Pancreatology (IAP) ... [et al.]",
+          "year": 2026,
+          "doi": "10.1016/j.pan.2026.10.021",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42907286/",
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [],
+          "authorship": {
+            "position": 10,
+            "total": 12,
             "isFirst": false,
             "isLast": false
           }
@@ -75470,12 +75580,12 @@
       "authorCounts": {
         "first": 19,
         "last": 63,
-        "total": 220,
-        "known": 220
+        "total": 221,
+        "known": 221
       },
       "signals": {
         "positive": {
-          "count": 220,
+          "count": 221,
           "yearRange": {
             "min": 2014,
             "max": 2026
@@ -75531,7 +75641,7 @@
             },
             {
               "year": 2026,
-              "count": 22
+              "count": 23
             }
           ],
           "topJournals": [
@@ -75541,7 +75651,7 @@
             },
             {
               "name": "Pancreatology : official journal of the International Association of Pancreatology (IAP) ... [et al.]",
-              "count": 18
+              "count": 19
             },
             {
               "name": "Journal of pediatric gastroenterology and nutrition",
@@ -75579,7 +75689,7 @@
           "topKeywords": [
             {
               "name": "pancreatitis",
-              "count": 124
+              "count": 125
             },
             {
               "name": "islet",
@@ -75599,7 +75709,7 @@
             },
             {
               "name": "chronic",
-              "count": 77
+              "count": 78
             },
             {
               "name": "autotransplantation",
@@ -75619,7 +75729,7 @@
             },
             {
               "name": "patients",
-              "count": 30
+              "count": 31
             },
             {
               "name": "pancreatic",
@@ -75657,7 +75767,7 @@
             },
             {
               "name": "Maisam Abu-El-Haija",
-              "count": 33
+              "count": 34
             },
             {
               "name": "Ty B Dunn",
@@ -77060,6 +77170,24 @@
           "authorship": {
             "position": 4,
             "total": 7,
+            "isFirst": false,
+            "isLast": false
+          }
+        },
+        {
+          "id": "42903625",
+          "title": "Who Gets by with Help from Friends? Multilevel Associations Between Loneliness, Friend Support, and Emotion Regulation in Adolescents with and Without Self-Injury.",
+          "journal": "Social development (Oxford, England)",
+          "year": 2026,
+          "doi": "10.1111/sode.70079",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42903625/",
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [],
+          "authorship": {
+            "position": 2,
+            "total": 4,
             "isFirst": false,
             "isLast": false
           }
@@ -79571,12 +79699,12 @@
       "authorCounts": {
         "first": 17,
         "last": 54,
-        "total": 143,
-        "known": 143
+        "total": 144,
+        "known": 144
       },
       "signals": {
         "positive": {
-          "count": 143,
+          "count": 144,
           "yearRange": {
             "min": 2014,
             "max": 2026
@@ -79632,7 +79760,7 @@
             },
             {
               "year": 2026,
-              "count": 15
+              "count": 16
             }
           ],
           "topJournals": [
@@ -79680,7 +79808,7 @@
           "topKeywords": [
             {
               "name": "adolescents",
-              "count": 48
+              "count": 49
             },
             {
               "name": "disorder",
@@ -79688,7 +79816,7 @@
             },
             {
               "name": "self",
-              "count": 30
+              "count": 31
             },
             {
               "name": "depression",
@@ -79704,7 +79832,7 @@
             },
             {
               "name": "injury",
-              "count": 24
+              "count": 25
             },
             {
               "name": "major",
@@ -79730,7 +79858,7 @@
           "topCoauthors": [
             {
               "name": "Bonnie Klimes-Dougan",
-              "count": 98
+              "count": 99
             },
             {
               "name": "Bryon A Mueller",
@@ -87396,7 +87524,8 @@
           "doi": "10.1002/mrm.30636",
           "url": "https://pubmed.ncbi.nlm.nih.gov/40674616/",
           "publicationTypes": [
-            "Journal Article"
+            "Journal Article",
+            "Research Support, N.I.H., Extramural"
           ],
           "versionLinks": [],
           "authorship": {
