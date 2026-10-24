@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-23",
-  "updatedAt": "2026-10-23T13:10:20.903Z",
+  "updated": "2026-10-24",
+  "updatedAt": "2026-10-24T12:32:13.525Z",
   "source": "PubMed E-utilities",
   "faculty": [
     {
@@ -21637,6 +21637,24 @@
           }
         },
         {
+          "id": "42919920",
+          "title": "The moderating effects of social norms and attitudes on the relationship between intimate partner violence and depressive symptoms among women in two provinces of Nepal.",
+          "journal": "Social psychiatry and psychiatric epidemiology",
+          "year": 2026,
+          "doi": "10.1007/s00127-026-03195-0",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42919920/",
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [],
+          "authorship": {
+            "position": 2,
+            "total": 3,
+            "isFirst": false,
+            "isLast": true
+          }
+        },
+        {
           "id": "40014755",
           "title": "\"Infertility frightened me\": Violence among infertile couples in Jordan.",
           "journal": "Women's health (London, England)",
@@ -23298,13 +23316,13 @@
       ],
       "authorCounts": {
         "first": 26,
-        "last": 30,
-        "total": 87,
-        "known": 87
+        "last": 31,
+        "total": 88,
+        "known": 88
       },
       "signals": {
         "positive": {
-          "count": 87,
+          "count": 88,
           "yearRange": {
             "min": 2011,
             "max": 2026
@@ -23372,7 +23390,7 @@
             },
             {
               "year": 2026,
-              "count": 2
+              "count": 3
             }
           ],
           "topJournals": [
@@ -23420,47 +23438,47 @@
           "topKeywords": [
             {
               "name": "violence",
-              "count": 49
+              "count": 50
             },
             {
               "name": "partner",
-              "count": 30
+              "count": 31
             },
             {
               "name": "intimate",
-              "count": 27
+              "count": 28
             },
             {
               "name": "women",
-              "count": 27
+              "count": 28
             },
             {
               "name": "nepal",
-              "count": 21
+              "count": 22
+            },
+            {
+              "name": "social",
+              "count": 16
             },
             {
               "name": "study",
               "count": 16
             },
             {
+              "name": "among",
+              "count": 15
+            },
+            {
               "name": "health",
               "count": 15
             },
             {
-              "name": "social",
-              "count": 15
-            },
-            {
-              "name": "among",
-              "count": 14
+              "name": "norms",
+              "count": 12
             },
             {
               "name": "risk",
               "count": 12
-            },
-            {
-              "name": "norms",
-              "count": 11
             },
             {
               "name": "adolescent",
@@ -23493,12 +23511,12 @@
               "count": 12
             },
             {
-              "name": "Prabin Nanicha Shrestha",
+              "name": "Abbie Shervinskie",
               "count": 10
             },
             {
-              "name": "Abbie Shervinskie",
-              "count": 9
+              "name": "Prabin Nanicha Shrestha",
+              "count": 10
             },
             {
               "name": "Susan A Everson-Rose",
@@ -23513,7 +23531,7 @@
               "count": 8
             },
             {
-              "name": "Shakira F Suglia",
+              "name": "Alexandria Ree Hadd",
               "count": 7
             }
           ]
@@ -26019,6 +26037,24 @@
           }
         },
         {
+          "id": "42915380",
+          "title": "Auscultation for pre-exercise screening in the horse.",
+          "journal": "Journal of the American Veterinary Medical Association",
+          "year": 2026,
+          "doi": "10.2460/javma.26.07.0596",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42915380/",
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [],
+          "authorship": {
+            "position": 4,
+            "total": 5,
+            "isFirst": false,
+            "isLast": true
+          }
+        },
+        {
           "id": "41826418",
           "title": "Detection of exercising ectopic atrial and ventricular beats using non-linear analysis of clinically normal racehorse electrocardiograms at rest or low-intensity exercise.",
           "journal": "Scientific reports",
@@ -26185,13 +26221,13 @@
       ],
       "authorCounts": {
         "first": 1,
-        "last": 3,
-        "total": 10,
-        "known": 10
+        "last": 4,
+        "total": 11,
+        "known": 11
       },
       "signals": {
         "positive": {
-          "count": 10,
+          "count": 11,
           "yearRange": {
             "min": 2023,
             "max": 2026
@@ -26207,7 +26243,7 @@
             },
             {
               "year": 2026,
-              "count": 7
+              "count": 8
             }
           ],
           "topJournals": [
@@ -26236,6 +26272,10 @@
               "count": 1
             },
             {
+              "name": "Journal of the American Veterinary Medical Association",
+              "count": 1
+            },
+            {
               "name": "PLoS genetics",
               "count": 1
             },
@@ -26251,6 +26291,10 @@
           "topKeywords": [
             {
               "name": "horse",
+              "count": 4
+            },
+            {
+              "name": "exercise",
               "count": 3
             },
             {
@@ -26287,10 +26331,6 @@
             },
             {
               "name": "evolution",
-              "count": 2
-            },
-            {
-              "name": "exercise",
               "count": 2
             },
             {
@@ -71672,6 +71712,24 @@
           }
         },
         {
+          "id": "42913624",
+          "title": "Psychometric Validation of PROMIS Measures in Acute and Chronic Pancreatitis.",
+          "journal": "Clinical and translational gastroenterology",
+          "year": 2026,
+          "doi": "10.14309/ctg.0000000000001115",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42913624/",
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [],
+          "authorship": {
+            "position": 2,
+            "total": 17,
+            "isFirst": false,
+            "isLast": false
+          }
+        },
+        {
           "id": "42649421",
           "title": "Rates of hospitalization pre- and post-total pancreatectomy with islet autotransplantation for patients with pancreatitis.",
           "journal": "Surgical endoscopy",
@@ -75580,12 +75638,12 @@
       "authorCounts": {
         "first": 19,
         "last": 63,
-        "total": 221,
-        "known": 221
+        "total": 222,
+        "known": 222
       },
       "signals": {
         "positive": {
-          "count": 221,
+          "count": 222,
           "yearRange": {
             "min": 2014,
             "max": 2026
@@ -75641,7 +75699,7 @@
             },
             {
               "year": 2026,
-              "count": 23
+              "count": 24
             }
           ],
           "topJournals": [
@@ -75689,7 +75747,7 @@
           "topKeywords": [
             {
               "name": "pancreatitis",
-              "count": 125
+              "count": 126
             },
             {
               "name": "islet",
@@ -75704,12 +75762,12 @@
               "count": 80
             },
             {
-              "name": "total",
+              "name": "chronic",
               "count": 79
             },
             {
-              "name": "chronic",
-              "count": 78
+              "name": "total",
+              "count": 79
             },
             {
               "name": "autotransplantation",
@@ -75717,7 +75775,7 @@
             },
             {
               "name": "acute",
-              "count": 50
+              "count": 51
             },
             {
               "name": "study",
@@ -75754,12 +75812,12 @@
               "count": 45
             },
             {
-              "name": "Sarah J Schwarzenberg",
+              "name": "Dhiraj Yadav",
               "count": 43
             },
             {
-              "name": "Dhiraj Yadav",
-              "count": 42
+              "name": "Sarah J Schwarzenberg",
+              "count": 43
             },
             {
               "name": "Guru Trikudanathan",
@@ -75775,11 +75833,11 @@
             },
             {
               "name": "Darwin L Conwell",
-              "count": 28
+              "count": 29
             },
             {
               "name": "Phil A Hart",
-              "count": 27
+              "count": 28
             },
             {
               "name": "Dana K Andersen",

@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-23",
-  "updatedAt": "2026-10-23T13:06:33.877Z",
+  "updated": "2026-10-24",
+  "updatedAt": "2026-10-24T12:28:36.570Z",
   "source": "PubMed E-utilities (ORCID)",
   "faculty": [
     {
@@ -6550,6 +6550,24 @@
       "publications": [
         {
           "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [],
+          "id": "42918827",
+          "title": "Neonatal brain network integration trajectories predict neurodevelopment in congenital heart disease.",
+          "journal": "Pediatric research",
+          "year": 2026,
+          "doi": "10.1038/s41390-026-05546-8",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42918827/",
+          "authorship": {
+            "position": 0,
+            "total": 7,
+            "isFirst": true,
+            "isLast": false
+          }
+        },
+        {
+          "publicationTypes": [
             "Journal Article",
             "Comment"
           ],
@@ -6587,17 +6605,17 @@
         }
       ],
       "authorCounts": {
-        "first": 1,
+        "first": 2,
         "last": 1,
-        "total": 2,
-        "known": 2
+        "total": 3,
+        "known": 3
       },
       "signals": {
         "positive": {
-          "count": 2,
+          "count": 3,
           "yearRange": {
             "min": 2020,
-            "max": 2025
+            "max": 2026
           },
           "yearCounts": [
             {
@@ -6607,6 +6625,10 @@
             {
               "year": 2025,
               "count": 1
+            },
+            {
+              "year": 2026,
+              "count": 1
             }
           ],
           "topJournals": [
@@ -6615,11 +6637,23 @@
               "count": 1
             },
             {
+              "name": "Pediatric research",
+              "count": 1
+            },
+            {
               "name": "Proceedings of the National Academy of Sciences of the United States of America",
               "count": 1
             }
           ],
           "topKeywords": [
+            {
+              "name": "brain",
+              "count": 2
+            },
+            {
+              "name": "congenital",
+              "count": 2
+            },
             {
               "name": "too",
               "count": 2
@@ -6649,15 +6683,7 @@
               "count": 1
             },
             {
-              "name": "brain",
-              "count": 1
-            },
-            {
               "name": "children",
-              "count": 1
-            },
-            {
-              "name": "congenital",
               "count": 1
             },
             {
@@ -6665,13 +6691,33 @@
               "count": 1
             },
             {
-              "name": "disorder",
+              "name": "disease",
               "count": 1
             }
           ],
           "topCoauthors": [
             {
+              "name": "Aaron Scheffler",
+              "count": 1
+            },
+            {
+              "name": "Amy Kuang",
+              "count": 1
+            },
+            {
+              "name": "Duan Xu",
+              "count": 1
+            },
+            {
+              "name": "Elizabeth George",
+              "count": 1
+            },
+            {
               "name": "Kyriakie Sarafoglou",
+              "count": 1
+            },
+            {
+              "name": "Patrick McQuillen",
               "count": 1
             },
             {
@@ -6680,6 +6726,10 @@
             },
             {
               "name": "Scott D Grosse",
+              "count": 1
+            },
+            {
+              "name": "Shabnam Peyvandi",
               "count": 1
             }
           ]
@@ -11753,6 +11803,24 @@
           "publicationTypes": [
             "Journal Article"
           ],
+          "versionLinks": [],
+          "id": "42919115",
+          "title": "Avoidant/Restrictive Food Intake Disorder Symptoms Across Body Mass Index Strata: Measurement Invariance and Symptom Differences.",
+          "journal": "The International journal of eating disorders",
+          "year": 2026,
+          "doi": "10.1002/eat.70236",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42919115/",
+          "authorship": {
+            "position": 7,
+            "total": 12,
+            "isFirst": false,
+            "isLast": false
+          }
+        },
+        {
+          "publicationTypes": [
+            "Journal Article"
+          ],
           "versionLinks": [
             {
               "type": "UpdateOf",
@@ -11938,15 +12006,15 @@
       "authorCounts": {
         "first": 1,
         "last": 3,
-        "total": 8,
-        "known": 8
+        "total": 9,
+        "known": 9
       },
       "signals": {
         "positive": {
-          "count": 8,
+          "count": 9,
           "yearRange": {
             "min": 2015,
-            "max": 2025
+            "max": 2026
           },
           "yearCounts": [
             {
@@ -11972,12 +12040,16 @@
             {
               "year": 2025,
               "count": 3
+            },
+            {
+              "year": 2026,
+              "count": 1
             }
           ],
           "topJournals": [
             {
               "name": "The International journal of eating disorders",
-              "count": 6
+              "count": 7
             },
             {
               "name": "Culture, health & sexuality",
@@ -11991,6 +12063,10 @@
           "topKeywords": [
             {
               "name": "disorder",
+              "count": 5
+            },
+            {
+              "name": "avoidant",
               "count": 4
             },
             {
@@ -11998,24 +12074,24 @@
               "count": 4
             },
             {
-              "name": "avoidant",
-              "count": 3
-            },
-            {
               "name": "food",
-              "count": 3
+              "count": 4
             },
             {
               "name": "intake",
-              "count": 3
+              "count": 4
             },
             {
               "name": "restrictive",
-              "count": 3
+              "count": 4
             },
             {
               "name": "self",
               "count": 3
+            },
+            {
+              "name": "across",
+              "count": 2
             },
             {
               "name": "adolescents",
@@ -12032,19 +12108,23 @@
             {
               "name": "disorders",
               "count": 2
-            },
-            {
-              "name": "gender",
-              "count": 2
             }
           ],
           "topCoauthors": [
             {
               "name": "Cynthia M Bulik",
-              "count": 4
+              "count": 5
             },
             {
               "name": "Laura M Thornton",
+              "count": 5
+            },
+            {
+              "name": "Lisa Dinkler",
+              "count": 4
+            },
+            {
+              "name": "Nadia Micali",
               "count": 4
             },
             {
@@ -12052,19 +12132,19 @@
               "count": 3
             },
             {
+              "name": "Jerry Guintivano",
+              "count": 3
+            },
+            {
               "name": "Jessica H Baker",
               "count": 3
             },
             {
-              "name": "Lisa Dinkler",
-              "count": 3
-            },
-            {
-              "name": "Nadia Micali",
-              "count": 3
-            },
-            {
               "name": "Shelby N Ortiz",
+              "count": 3
+            },
+            {
+              "name": "Wesley R Barnhart",
               "count": 3
             },
             {
@@ -12076,15 +12156,7 @@
               "count": 2
             },
             {
-              "name": "Daniel Le Grange",
-              "count": 2
-            },
-            {
-              "name": "James E Mitchell",
-              "count": 2
-            },
-            {
-              "name": "Jerry Guintivano",
+              "name": "Casey MacDermod",
               "count": 2
             }
           ]
