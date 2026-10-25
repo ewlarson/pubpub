@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-24",
-  "updatedAt": "2026-10-24T12:32:13.525Z",
+  "updated": "2026-10-25",
+  "updatedAt": "2026-10-25T13:03:16.045Z",
   "source": "PubMed E-utilities",
   "faculty": [
     {
@@ -8782,6 +8782,25 @@
           }
         },
         {
+          "id": "42922685",
+          "title": "Coupled beta and high-frequency oscillations emerge from synchronized bursting in a minimal model of the parkinsonian subthalamic nucleus.",
+          "journal": "bioRxiv : the preprint server for biology",
+          "year": 2026,
+          "doi": "10.64898/2026.03.30.715339",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42922685/",
+          "publicationTypes": [
+            "Journal Article",
+            "Preprint"
+          ],
+          "versionLinks": [],
+          "authorship": {
+            "position": 3,
+            "total": 5,
+            "isFirst": false,
+            "isLast": false
+          }
+        },
+        {
           "id": "42380635",
           "title": "Vibrotactile stimulation induces changes in basal ganglia output, cervical muscle activity, and head posture in a patient with cervical dystonia.",
           "journal": "Neurological sciences : official journal of the Italian Neurological Society and of the Italian Society of Clinical Neurophysiology",
@@ -8952,12 +8971,12 @@
       "authorCounts": {
         "first": 0,
         "last": 2,
-        "total": 10,
-        "known": 10
+        "total": 11,
+        "known": 11
       },
       "signals": {
         "positive": {
-          "count": 10,
+          "count": 11,
           "yearRange": {
             "min": 2022,
             "max": 2026
@@ -8981,7 +9000,7 @@
             },
             {
               "year": 2026,
-              "count": 2
+              "count": 3
             }
           ],
           "topJournals": [
@@ -8992,6 +9011,10 @@
             {
               "name": "Brain stimulation",
               "count": 2
+            },
+            {
+              "name": "bioRxiv : the preprint server for biology",
+              "count": 1
             },
             {
               "name": "Frontiers in neuroanatomy",
@@ -9032,6 +9055,10 @@
               "count": 3
             },
             {
+              "name": "oscillations",
+              "count": 3
+            },
+            {
               "name": "parkinson",
               "count": 3
             },
@@ -9052,22 +9079,18 @@
               "count": 2
             },
             {
+              "name": "beta",
+              "count": 2
+            },
+            {
               "name": "cerebellothalamic",
-              "count": 2
-            },
-            {
-              "name": "cervical",
-              "count": 2
-            },
-            {
-              "name": "dbs",
               "count": 2
             }
           ],
           "topCoauthors": [
             {
               "name": "Jerrold L Vitek",
-              "count": 9
+              "count": 10
             },
             {
               "name": "Noam Harel",
@@ -9076,6 +9099,14 @@
             {
               "name": "Scott E Cooper",
               "count": 8
+            },
+            {
+              "name": "Jing Wang",
+              "count": 5
+            },
+            {
+              "name": "Luke A Johnson",
+              "count": 5
             },
             {
               "name": "Michael C Park",
@@ -9091,14 +9122,6 @@
             },
             {
               "name": "Henry Braun",
-              "count": 4
-            },
-            {
-              "name": "Jing Wang",
-              "count": 4
-            },
-            {
-              "name": "Luke A Johnson",
               "count": 4
             },
             {
@@ -34715,6 +34738,24 @@
           }
         },
         {
+          "id": "42924375",
+          "title": "Comparing Complex Chronic Conditions Versions to Identify Children With Medical Complexity.",
+          "journal": "Pediatrics open science",
+          "year": 2025,
+          "doi": "10.1542/pedsos.2024-000253",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42924375/",
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [],
+          "authorship": {
+            "position": 1,
+            "total": 4,
+            "isFirst": false,
+            "isLast": false
+          }
+        },
+        {
           "id": "41222419",
           "title": "Latent Classes in Long-Term Functional Status in Children With Recurrent Critical Illness.",
           "journal": "Critical care medicine",
@@ -34923,12 +34964,12 @@
       "authorCounts": {
         "first": 5,
         "last": 6,
-        "total": 24,
-        "known": 24
+        "total": 25,
+        "known": 25
       },
       "signals": {
         "positive": {
-          "count": 24,
+          "count": 25,
           "yearRange": {
             "min": 2024,
             "max": 2026
@@ -34940,7 +34981,7 @@
             },
             {
               "year": 2025,
-              "count": 9
+              "count": 10
             },
             {
               "year": 2026,
@@ -35003,6 +35044,10 @@
               "count": 7
             },
             {
+              "name": "children",
+              "count": 6
+            },
+            {
               "name": "critical",
               "count": 6
             },
@@ -35011,15 +35056,15 @@
               "count": 6
             },
             {
-              "name": "children",
-              "count": 5
-            },
-            {
               "name": "data",
               "count": 4
             },
             {
               "name": "following",
+              "count": 4
+            },
+            {
+              "name": "medical",
               "count": 4
             },
             {
@@ -35033,16 +35078,12 @@
             {
               "name": "collaborative",
               "count": 3
-            },
-            {
-              "name": "factors",
-              "count": 3
             }
           ],
           "topCoauthors": [
             {
               "name": "Sriram Ramgopal",
-              "count": 7
+              "count": 8
             },
             {
               "name": "Adam C Dziorny",
@@ -35073,6 +35114,10 @@
               "count": 3
             },
             {
+              "name": "Christopher M Horvat",
+              "count": 3
+            },
+            {
               "name": "Daniel Garros",
               "count": 3
             },
@@ -35082,10 +35127,6 @@
             },
             {
               "name": "Joseph G Kohne",
-              "count": 3
-            },
-            {
-              "name": "Leslie A Dervan",
               "count": 3
             }
           ]
@@ -64077,6 +64118,24 @@
           }
         },
         {
+          "id": "42924567",
+          "title": "People Living With Dementia in Rural Areas are Most Likely to Report Unmet Service Needs in Home- and Community-Based Services in the United States.",
+          "journal": "The Journal of rural health : official journal of the American Rural Health Association and the National Rural Health Care Association",
+          "year": 2026,
+          "doi": "10.1111/jrh.70230",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42924567/",
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [],
+          "authorship": {
+            "position": 6,
+            "total": 7,
+            "isFirst": false,
+            "isLast": true
+          }
+        },
+        {
           "id": "42319287",
           "title": "Prevalence of Unmet Service Needs and Associated Person-Reported Outcomes in Long-Term Services and Supports in the United States.",
           "journal": "Journal of the American Geriatrics Society",
@@ -66022,13 +66081,13 @@
       ],
       "authorCounts": {
         "first": 28,
-        "last": 35,
-        "total": 105,
-        "known": 105
+        "last": 36,
+        "total": 106,
+        "known": 106
       },
       "signals": {
         "positive": {
-          "count": 105,
+          "count": 106,
           "yearRange": {
             "min": 2011,
             "max": 2026
@@ -66096,7 +66155,7 @@
             },
             {
               "year": 2026,
-              "count": 8
+              "count": 9
             }
           ],
           "topJournals": [
@@ -66144,7 +66203,7 @@
           "topKeywords": [
             {
               "name": "home",
-              "count": 41
+              "count": 42
             },
             {
               "name": "nursing",
@@ -66163,11 +66222,11 @@
               "count": 26
             },
             {
-              "name": "long",
-              "count": 22
+              "name": "services",
+              "count": 23
             },
             {
-              "name": "services",
+              "name": "long",
               "count": 22
             },
             {
@@ -66175,11 +66234,11 @@
               "count": 21
             },
             {
-              "name": "among",
-              "count": 19
+              "name": "community",
+              "count": 20
             },
             {
-              "name": "community",
+              "name": "among",
               "count": 19
             },
             {
@@ -66194,11 +66253,15 @@
           "topCoauthors": [
             {
               "name": "Eric Jutkowitz",
-              "count": 18
+              "count": 19
             },
             {
               "name": "Joseph E Gaugler",
               "count": 16
+            },
+            {
+              "name": "Romil R Parikh",
+              "count": 14
             },
             {
               "name": "Carrie Henning-Smith",
@@ -66206,10 +66269,6 @@
             },
             {
               "name": "John R Bowblis",
-              "count": 13
-            },
-            {
-              "name": "Romil R Parikh",
               "count": 13
             },
             {
@@ -66225,16 +66284,16 @@
               "count": 11
             },
             {
+              "name": "Jack M Wolf",
+              "count": 10
+            },
+            {
               "name": "Mark Woodhouse",
               "count": 10
             },
             {
               "name": "Odichinma Akosionu",
               "count": 10
-            },
-            {
-              "name": "Jack M Wolf",
-              "count": 9
             },
             {
               "name": "Manka Nkimbeng",
