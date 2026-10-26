@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-25",
-  "updatedAt": "2026-10-25T13:03:16.045Z",
+  "updated": "2026-10-26",
+  "updatedAt": "2026-10-26T14:55:46.750Z",
   "source": "PubMed E-utilities",
   "faculty": [
     {
@@ -47027,6 +47027,24 @@
           }
         },
         {
+          "id": "42927999",
+          "title": "Validity and Reliability of the Activity Card Sort 3 in Persons With Thumb Carpometacarpal Osteoarthritis.",
+          "journal": "The American journal of occupational therapy : official publication of the American Occupational Therapy Association",
+          "year": 2026,
+          "doi": "10.1177/19437676261500029",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42927999/",
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [],
+          "authorship": {
+            "position": 0,
+            "total": 3,
+            "isFirst": true,
+            "isLast": false
+          }
+        },
+        {
           "id": "41004629",
           "title": "Cross-cultural adaptation, validity, and reliability of the Turkish version of the trapeziometacarpal arthrosis symptoms and disability questionnaire.",
           "journal": "Journal of back and musculoskeletal rehabilitation",
@@ -47306,14 +47324,14 @@
         }
       ],
       "authorCounts": {
-        "first": 8,
+        "first": 9,
         "last": 11,
-        "total": 17,
-        "known": 17
+        "total": 18,
+        "known": 18
       },
       "signals": {
         "positive": {
-          "count": 17,
+          "count": 18,
           "yearRange": {
             "min": 2021,
             "max": 2026
@@ -47341,7 +47359,7 @@
             },
             {
               "year": 2026,
-              "count": 2
+              "count": 3
             }
           ],
           "topJournals": [
@@ -47351,7 +47369,7 @@
             },
             {
               "name": "The American journal of occupational therapy : official publication of the American Occupational Therapy Association",
-              "count": 2
+              "count": 3
             },
             {
               "name": "The Journal of hand surgery",
@@ -47381,27 +47399,31 @@
           "topKeywords": [
             {
               "name": "thumb",
-              "count": 9
+              "count": 10
+            },
+            {
+              "name": "reliability",
+              "count": 8
+            },
+            {
+              "name": "carpometacarpal",
+              "count": 7
+            },
+            {
+              "name": "osteoarthritis",
+              "count": 7
             },
             {
               "name": "precision",
               "count": 7
             },
             {
-              "name": "reliability",
-              "count": 7
-            },
-            {
-              "name": "carpometacarpal",
-              "count": 6
-            },
-            {
-              "name": "osteoarthritis",
-              "count": 6
-            },
-            {
               "name": "hand",
               "count": 5
+            },
+            {
+              "name": "persons",
+              "count": 4
             },
             {
               "name": "retest",
@@ -47412,15 +47434,11 @@
               "count": 4
             },
             {
-              "name": "assessment",
-              "count": 3
-            },
-            {
-              "name": "persons",
-              "count": 3
-            },
-            {
               "name": "validity",
+              "count": 4
+            },
+            {
+              "name": "assessment",
               "count": 3
             },
             {
@@ -55881,7 +55899,9 @@
           "doi": "10.1371/journal.pmed.1004464",
           "url": "https://pubmed.ncbi.nlm.nih.gov/39316596/",
           "publicationTypes": [
-            "Journal Article"
+            "Journal Article",
+            "Research Support, N.I.H., Intramural",
+            "Research Support, N.I.H., Extramural"
           ],
           "versionLinks": [
             {

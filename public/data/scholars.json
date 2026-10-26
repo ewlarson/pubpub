@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-25",
-  "updatedAt": "2026-10-25T12:59:31.439Z",
+  "updated": "2026-10-26",
+  "updatedAt": "2026-10-26T14:52:01.153Z",
   "source": "PubMed E-utilities (ORCID)",
   "faculty": [
     {
@@ -16160,7 +16160,9 @@
         },
         {
           "publicationTypes": [
-            "Journal Article"
+            "Journal Article",
+            "Research Support, N.I.H., Intramural",
+            "Research Support, N.I.H., Extramural"
           ],
           "versionLinks": [
             {
