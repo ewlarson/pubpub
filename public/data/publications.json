@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-26",
-  "updatedAt": "2026-10-26T14:55:46.750Z",
+  "updated": "2026-10-27",
+  "updatedAt": "2026-10-27T14:01:45.010Z",
   "source": "PubMed E-utilities",
   "faculty": [
     {
@@ -35178,6 +35178,24 @@
           }
         },
         {
+          "id": "42934082",
+          "title": "Voice Disorders: A Defining Problem.",
+          "journal": "Journal of voice : official journal of the Voice Foundation",
+          "year": 2026,
+          "doi": "10.1016/j.jvoice.2026.09.036",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42934082/",
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [],
+          "authorship": {
+            "position": 3,
+            "total": 10,
+            "isFirst": false,
+            "isLast": false
+          }
+        },
+        {
           "id": "41165069",
           "title": "Dysphagia Characteristics in High Versus Low Vagal Unilateral Vocal Fold Paralysis.",
           "journal": "The Laryngoscope",
@@ -35220,12 +35238,12 @@
       "authorCounts": {
         "first": 2,
         "last": 0,
-        "total": 3,
-        "known": 3
+        "total": 4,
+        "known": 4
       },
       "signals": {
         "positive": {
-          "count": 3,
+          "count": 4,
           "yearRange": {
             "min": 2024,
             "max": 2026
@@ -35241,7 +35259,7 @@
             },
             {
               "year": 2026,
-              "count": 1
+              "count": 2
             }
           ],
           "topJournals": [
@@ -35251,6 +35269,10 @@
             },
             {
               "name": "Journal of applied physiology (Bethesda, Md. : 1985)",
+              "count": 1
+            },
+            {
+              "name": "Journal of voice : official journal of the Voice Foundation",
               "count": 1
             }
           ],
@@ -35284,6 +35306,14 @@
               "count": 1
             },
             {
+              "name": "defining",
+              "count": 1
+            },
+            {
+              "name": "disorders",
+              "count": 1
+            },
+            {
               "name": "dysphagia",
               "count": 1
             },
@@ -35294,31 +35324,39 @@
             {
               "name": "esophageal",
               "count": 1
-            },
-            {
-              "name": "fold",
-              "count": 1
-            },
-            {
-              "name": "high",
-              "count": 1
             }
           ],
           "topCoauthors": [
+            {
+              "name": "Scott Lunos",
+              "count": 3
+            },
+            {
+              "name": "Stephanie Misono",
+              "count": 3
+            },
             {
               "name": "J&#xfc;rgen Konczak",
               "count": 2
             },
             {
-              "name": "Scott Lunos",
-              "count": 2
-            },
-            {
-              "name": "Stephanie Misono",
+              "name": "Raluca Gray",
               "count": 2
             },
             {
               "name": "Aanish Puri",
+              "count": 1
+            },
+            {
+              "name": "Dan Weinstein",
+              "count": 1
+            },
+            {
+              "name": "Deirdre D Michael",
+              "count": 1
+            },
+            {
+              "name": "Devin Dolquist",
               "count": 1
             },
             {
@@ -35335,22 +35373,6 @@
             },
             {
               "name": "Joslyn Kahn",
-              "count": 1
-            },
-            {
-              "name": "Liam W Gallagher",
-              "count": 1
-            },
-            {
-              "name": "Madeline Miles Marker",
-              "count": 1
-            },
-            {
-              "name": "Maisie K Simpson",
-              "count": 1
-            },
-            {
-              "name": "Raluca Gray",
               "count": 1
             }
           ]
@@ -48538,6 +48560,24 @@
           }
         },
         {
+          "id": "42934082",
+          "title": "Voice Disorders: A Defining Problem.",
+          "journal": "Journal of voice : official journal of the Voice Foundation",
+          "year": 2026,
+          "doi": "10.1016/j.jvoice.2026.09.036",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42934082/",
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [],
+          "authorship": {
+            "position": 9,
+            "total": 10,
+            "isFirst": false,
+            "isLast": true
+          }
+        },
+        {
           "id": "42236402",
           "title": "Voice-Related Quality of Life and Psychological Well-being in Transgender and Gender Diverse Adults: Associations with Gender-Affirming Care.",
           "journal": "Journal of voice : official journal of the Voice Foundation",
@@ -49609,13 +49649,13 @@
       ],
       "authorCounts": {
         "first": 17,
-        "last": 28,
-        "total": 61,
-        "known": 61
+        "last": 29,
+        "total": 62,
+        "known": 62
       },
       "signals": {
         "positive": {
-          "count": 61,
+          "count": 62,
           "yearRange": {
             "min": 2013,
             "max": 2026
@@ -49675,7 +49715,7 @@
             },
             {
               "year": 2026,
-              "count": 6
+              "count": 7
             }
           ],
           "topJournals": [
@@ -49684,15 +49724,15 @@
               "count": 15
             },
             {
+              "name": "Journal of voice : official journal of the Voice Foundation",
+              "count": 9
+            },
+            {
               "name": "Otolaryngology--head and neck surgery : official journal of American Academy of Otolaryngology-Head and Neck Surgery",
               "count": 9
             },
             {
               "name": "JAMA otolaryngology-- head & neck surgery",
-              "count": 8
-            },
-            {
-              "name": "Journal of voice : official journal of the Voice Foundation",
               "count": 8
             },
             {
@@ -49723,7 +49763,7 @@
           "topKeywords": [
             {
               "name": "voice",
-              "count": 31
+              "count": 32
             },
             {
               "name": "patients",
@@ -49732,6 +49772,10 @@
             {
               "name": "laryngeal",
               "count": 8
+            },
+            {
+              "name": "disorders",
+              "count": 7
             },
             {
               "name": "health",
@@ -49754,10 +49798,6 @@
               "count": 6
             },
             {
-              "name": "disorders",
-              "count": 6
-            },
-            {
               "name": "perceived",
               "count": 6
             },
@@ -49776,6 +49816,10 @@
               "count": 11
             },
             {
+              "name": "Scott Lunos",
+              "count": 10
+            },
+            {
               "name": "Seth M Cohen",
               "count": 10
             },
@@ -49784,8 +49828,8 @@
               "count": 9
             },
             {
-              "name": "Scott Lunos",
-              "count": 9
+              "name": "Raluca Gray",
+              "count": 8
             },
             {
               "name": "Ali Stockness",
@@ -49800,8 +49844,12 @@
               "count": 7
             },
             {
-              "name": "Raluca Gray",
-              "count": 7
+              "name": "Jesse Hoffmeister",
+              "count": 6
+            },
+            {
+              "name": "Lisa Butcher",
+              "count": 6
             },
             {
               "name": "Viann N Nguyen-Feng",
@@ -49809,14 +49857,6 @@
             },
             {
               "name": "Bevan Yueh",
-              "count": 5
-            },
-            {
-              "name": "Jesse Hoffmeister",
-              "count": 5
-            },
-            {
-              "name": "Kelvin O Lim",
               "count": 5
             }
           ]
@@ -72931,6 +72971,24 @@
           }
         },
         {
+          "id": "34782351",
+          "title": "Heterogeneity of Diabetes: β-Cells, Phenotypes, and Precision Medicine: Proceedings of an International Symposium of the Canadian Institutes of Health Research's Institute of Nutrition, Metabolism and Diabetes and the U.S. National Institutes of Health's National Institute of Diabetes and Digestive and Kidney Diseases.",
+          "journal": "Diabetes",
+          "year": 2022,
+          "doi": "10.2337/db21-0777",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/34782351/",
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [],
+          "authorship": {
+            "position": 48,
+            "total": 58,
+            "isFirst": false,
+            "isLast": false
+          }
+        },
+        {
           "id": "37078927",
           "title": "Integrated Physiology of the Exocrine and Endocrine Compartments in Pancreatic Diseases: Workshop Proceedings.",
           "journal": "Pancreas",
@@ -75717,12 +75775,12 @@
       "authorCounts": {
         "first": 19,
         "last": 63,
-        "total": 222,
-        "known": 222
+        "total": 223,
+        "known": 223
       },
       "signals": {
         "positive": {
-          "count": 222,
+          "count": 223,
           "yearRange": {
             "min": 2014,
             "max": 2026
@@ -75762,7 +75820,7 @@
             },
             {
               "year": 2022,
-              "count": 23
+              "count": 24
             },
             {
               "year": 2023,
@@ -75795,11 +75853,11 @@
               "count": 13
             },
             {
-              "name": "American journal of transplantation : official journal of the American Society of Transplantation and the American Society of Transplant Surgeons",
-              "count": 8
+              "name": "Diabetes",
+              "count": 9
             },
             {
-              "name": "Diabetes",
+              "name": "American journal of transplantation : official journal of the American Society of Transplantation and the American Society of Transplant Surgeons",
               "count": 8
             },
             {
@@ -75834,7 +75892,7 @@
             },
             {
               "name": "diabetes",
-              "count": 83
+              "count": 86
             },
             {
               "name": "pancreatectomy",
@@ -75920,7 +75978,7 @@
             },
             {
               "name": "Dana K Andersen",
-              "count": 26
+              "count": 27
             }
           ]
         },
