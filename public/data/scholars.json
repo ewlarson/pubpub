@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-27",
-  "updatedAt": "2026-10-27T13:57:59.945Z",
+  "updated": "2026-10-28",
+  "updatedAt": "2026-10-28T14:52:07.683Z",
   "source": "PubMed E-utilities (ORCID)",
   "faculty": [
     {
@@ -4956,7 +4956,12 @@
           "publicationTypes": [
             "Journal Article"
           ],
-          "versionLinks": [],
+          "versionLinks": [
+            {
+              "type": "UpdateOf",
+              "id": "41676534"
+            }
+          ],
           "id": "42904591",
           "title": "PRDM16 is necessary for sensory neuronal development and differentiation in the trigeminal ganglion.",
           "journal": "Developmental dynamics : an official publication of the American Association of Anatomists",
@@ -6552,7 +6557,12 @@
           "publicationTypes": [
             "Journal Article"
           ],
-          "versionLinks": [],
+          "versionLinks": [
+            {
+              "type": "UpdateOf",
+              "id": "42326765"
+            }
+          ],
           "id": "42918827",
           "title": "Neonatal brain network integration trajectories predict neurodevelopment in congenital heart disease.",
           "journal": "Pediatric research",

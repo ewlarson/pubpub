@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-27",
-  "updatedAt": "2026-10-27T14:01:45.010Z",
+  "updated": "2026-10-28",
+  "updatedAt": "2026-10-28T14:55:52.604Z",
   "source": "PubMed E-utilities",
   "faculty": [
     {
@@ -39851,6 +39851,24 @@
       ],
       "publications": [
         {
+          "id": "42937050",
+          "title": "Bayesian multiple imputation for functional data.",
+          "journal": "Biometrics",
+          "year": 2026,
+          "doi": "10.1093/biomtc/ujag182",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42937050/",
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [],
+          "authorship": {
+            "position": 2,
+            "total": 4,
+            "isFirst": false,
+            "isLast": false
+          }
+        },
+        {
           "id": "42049299",
           "title": "Comprehensive proteomic classifier for molecular characterisation of pulmonary sarcoidosis: protocol for a longitudinal multi-centre study to evaluate bronchoalveolar fluid and cell diagnostic and prognostic biomarkers of pulmonary sarcoidosis.",
           "journal": "BMJ open",
@@ -41237,12 +41255,12 @@
       "authorCounts": {
         "first": 8,
         "last": 20,
-        "total": 66,
-        "known": 66
+        "total": 67,
+        "known": 67
       },
       "signals": {
         "positive": {
-          "count": 66,
+          "count": 67,
           "yearRange": {
             "min": 2016,
             "max": 2026
@@ -41290,13 +41308,13 @@
             },
             {
               "year": 2026,
-              "count": 4
+              "count": 5
             }
           ],
           "topJournals": [
             {
               "name": "Biometrics",
-              "count": 4
+              "count": 5
             },
             {
               "name": "The Journal of nutrition",
@@ -41338,7 +41356,7 @@
           "topKeywords": [
             {
               "name": "bayesian",
-              "count": 15
+              "count": 16
             },
             {
               "name": "iron",
@@ -41353,6 +41371,10 @@
               "count": 10
             },
             {
+              "name": "data",
+              "count": 9
+            },
+            {
               "name": "infant",
               "count": 9
             },
@@ -41362,10 +41384,6 @@
             },
             {
               "name": "associated",
-              "count": 8
-            },
-            {
-              "name": "data",
               "count": 8
             },
             {
@@ -41465,25 +41483,6 @@
       ],
       "publications": [
         {
-          "id": "42427862",
-          "title": "Activation of the endocytosis pathway stratifies subtypes and therapeutic sensitivity in colorectal cancer.",
-          "journal": "Research square",
-          "year": 2026,
-          "doi": "10.21203/rs.3.rs-10164107/v1",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42427862/",
-          "publicationTypes": [
-            "Journal Article",
-            "Preprint"
-          ],
-          "versionLinks": [],
-          "authorship": {
-            "position": 18,
-            "total": 25,
-            "isFirst": false,
-            "isLast": false
-          }
-        },
-        {
           "id": "42897222",
           "title": "Activation of the endocytosis pathway stratifies subtypes and therapeutic sensitivity in colorectal cancer.",
           "journal": "Oncogene",
@@ -41493,13 +41492,44 @@
           "publicationTypes": [
             "Journal Article"
           ],
-          "versionLinks": [],
+          "versionLinks": [
+            {
+              "type": "UpdateOf",
+              "id": "42427862"
+            }
+          ],
           "authorship": {
             "position": 17,
             "total": 25,
             "isFirst": false,
             "isLast": false
-          }
+          },
+          "preprintVersions": [
+            {
+              "id": "42427862",
+              "title": "Activation of the endocytosis pathway stratifies subtypes and therapeutic sensitivity in colorectal cancer.",
+              "journal": "Research square",
+              "year": 2026,
+              "doi": "10.21203/rs.3.rs-10164107/v1",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/42427862/",
+              "publicationTypes": [
+                "Journal Article",
+                "Preprint"
+              ],
+              "versionLinks": [
+                {
+                  "type": "UpdateIn",
+                  "id": "42897222"
+                }
+              ],
+              "authorship": {
+                "position": 18,
+                "total": 25,
+                "isFirst": false,
+                "isLast": false
+              }
+            }
+          ]
         },
         {
           "id": "41495008",
@@ -44672,12 +44702,12 @@
       "authorCounts": {
         "first": 34,
         "last": 41,
-        "total": 164,
-        "known": 164
+        "total": 163,
+        "known": 163
       },
       "signals": {
         "positive": {
-          "count": 164,
+          "count": 163,
           "yearRange": {
             "min": 2013,
             "max": 2026
@@ -44737,7 +44767,7 @@
             },
             {
               "year": 2026,
-              "count": 18
+              "count": 17
             }
           ],
           "topJournals": [
@@ -44785,19 +44815,19 @@
           "topKeywords": [
             {
               "name": "cancer",
-              "count": 75
+              "count": 74
             },
             {
               "name": "patients",
               "count": 28
             },
             {
-              "name": "colorectal",
+              "name": "tumor",
               "count": 26
             },
             {
-              "name": "tumor",
-              "count": 26
+              "name": "colorectal",
+              "count": 25
             },
             {
               "name": "molecular",
@@ -44835,15 +44865,15 @@
           "topCoauthors": [
             {
               "name": "Joanne Xiu",
-              "count": 32
-            },
-            {
-              "name": "Andrew Elliott",
-              "count": 21
+              "count": 31
             },
             {
               "name": "Heinz-Josef Lenz",
               "count": 21
+            },
+            {
+              "name": "Andrew Elliott",
+              "count": 20
             },
             {
               "name": "Benjamin A Weinberg",
@@ -44862,20 +44892,20 @@
               "count": 15
             },
             {
-              "name": "Sanjay Goel",
-              "count": 15
-            },
-            {
-              "name": "W Michael Korn",
-              "count": 15
-            },
-            {
               "name": "Yasmine Baca",
               "count": 15
             },
             {
-              "name": "Francesca Battaglin",
+              "name": "Sanjay Goel",
               "count": 14
+            },
+            {
+              "name": "W Michael Korn",
+              "count": 14
+            },
+            {
+              "name": "Francesca Battaglin",
+              "count": 13
             },
             {
               "name": "David Roberge",
@@ -94892,6 +94922,24 @@
           }
         },
         {
+          "id": "42945373",
+          "title": "CDH1 loss remodels gene expression and lineage identity in human mammary epithelial cells.",
+          "journal": "PLoS genetics",
+          "year": 2026,
+          "doi": "10.1371/journal.pgen.1012351",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42945373/",
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [],
+          "authorship": {
+            "position": 13,
+            "total": 15,
+            "isFirst": false,
+            "isLast": false
+          }
+        },
+        {
           "id": "41946751",
           "title": "Progesterone receptors drive advanced breast cancer phenotypes including circulating tumor- and stem-like cell expansion in the context of ESR1 mutation.",
           "journal": "NPJ breast cancer",
@@ -95342,12 +95390,12 @@
       "authorCounts": {
         "first": 0,
         "last": 8,
-        "total": 21,
-        "known": 21
+        "total": 22,
+        "known": 22
       },
       "signals": {
         "positive": {
-          "count": 21,
+          "count": 22,
           "yearRange": {
             "min": 2013,
             "max": 2026
@@ -95391,7 +95439,7 @@
             },
             {
               "year": 2026,
-              "count": 2
+              "count": 3
             }
           ],
           "topJournals": [
@@ -95447,7 +95495,7 @@
             },
             {
               "name": "cells",
-              "count": 7
+              "count": 8
             },
             {
               "name": "cell",
@@ -95460,6 +95508,14 @@
             {
               "name": "receptors",
               "count": 5
+            },
+            {
+              "name": "epithelial",
+              "count": 4
+            },
+            {
+              "name": "mammary",
+              "count": 4
             },
             {
               "name": "phenotypes",
@@ -95476,14 +95532,6 @@
             {
               "name": "stem",
               "count": 4
-            },
-            {
-              "name": "epithelial",
-              "count": 3
-            },
-            {
-              "name": "like",
-              "count": 3
             }
           ],
           "topCoauthors": [
@@ -95500,6 +95548,10 @@
               "count": 4
             },
             {
+              "name": "Matthew J Sikora",
+              "count": 4
+            },
+            {
               "name": "Aiden Deacon",
               "count": 3
             },
@@ -95512,6 +95564,10 @@
               "count": 3
             },
             {
+              "name": "Chinasa A Ufondu",
+              "count": 3
+            },
+            {
               "name": "Emily John",
               "count": 3
             },
@@ -95520,19 +95576,11 @@
               "count": 3
             },
             {
+              "name": "Joseph L Sottnik",
+              "count": 3
+            },
+            {
               "name": "Justin Hwang",
-              "count": 3
-            },
-            {
-              "name": "Kyla M Hagen",
-              "count": 3
-            },
-            {
-              "name": "Matthew J Sikora",
-              "count": 3
-            },
-            {
-              "name": "Nuri A Temiz",
               "count": 3
             }
           ]
