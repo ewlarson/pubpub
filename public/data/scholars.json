@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-29",
-  "updatedAt": "2026-10-29T14:59:30.100Z",
+  "updated": "2026-10-30",
+  "updatedAt": "2026-10-30T14:50:04.588Z",
   "source": "PubMed E-utilities (ORCID)",
   "faculty": [
     {
@@ -10819,6 +10819,24 @@
         },
         {
           "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [],
+          "id": "42955188",
+          "title": "Microbiome-Mediated Pharmacokinetics and Informed Dosing of Mycophenolate in Kidney Transplantation.",
+          "journal": "Clinical pharmacokinetics",
+          "year": 2026,
+          "doi": "10.1007/s40262-026-01707-4",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42955188/",
+          "authorship": {
+            "position": 1,
+            "total": 15,
+            "isFirst": false,
+            "isLast": false
+          }
+        },
+        {
+          "publicationTypes": [
             "Journal Article",
             "Multicenter Study",
             "Observational Study"
@@ -10921,12 +10939,12 @@
       "authorCounts": {
         "first": 6,
         "last": 0,
-        "total": 7,
-        "known": 7
+        "total": 8,
+        "known": 8
       },
       "signals": {
         "positive": {
-          "count": 7,
+          "count": 8,
           "yearRange": {
             "min": 2024,
             "max": 2026
@@ -10942,10 +10960,14 @@
             },
             {
               "year": 2026,
-              "count": 2
+              "count": 3
             }
           ],
           "topJournals": [
+            {
+              "name": "Clinical pharmacokinetics",
+              "count": 2
+            },
             {
               "name": "Therapeutic drug monitoring",
               "count": 2
@@ -10956,10 +10978,6 @@
             },
             {
               "name": "Clinical and translational science",
-              "count": 1
-            },
-            {
-              "name": "Clinical pharmacokinetics",
               "count": 1
             },
             {
@@ -10974,7 +10992,7 @@
           "topKeywords": [
             {
               "name": "kidney",
-              "count": 4
+              "count": 5
             },
             {
               "name": "recipients",
@@ -11009,66 +11027,66 @@
               "count": 2
             },
             {
+              "name": "microbiome",
+              "count": 2
+            },
+            {
+              "name": "mycophenolate",
+              "count": 2
+            },
+            {
               "name": "mycophenolic",
-              "count": 2
-            },
-            {
-              "name": "pharmacokinetic",
-              "count": 2
-            },
-            {
-              "name": "sampling",
               "count": 2
             }
           ],
           "topCoauthors": [
             {
               "name": "Pamala A Jacobson",
-              "count": 7
+              "count": 8
             },
             {
               "name": "Abdelrahman Saqr",
-              "count": 5
+              "count": 6
             },
             {
               "name": "Arthur J Matas",
-              "count": 5
+              "count": 6
             },
             {
               "name": "Guillaume Onyeaghala",
-              "count": 5
+              "count": 6
             },
             {
               "name": "Rory P Remmel",
-              "count": 5
+              "count": 6
             },
             {
               "name": "Weihua Guan",
-              "count": 5
+              "count": 6
             },
             {
               "name": "William S Oetting",
-              "count": 5
+              "count": 6
             },
             {
               "name": "Ajay K Israni",
-              "count": 4
+              "count": 5
             },
             {
               "name": "Casey R Dorr",
-              "count": 4
+              "count": 5
             },
             {
               "name": "Christopher Staley",
-              "count": 4
+              "count": 5
             },
             {
               "name": "Duy Vo",
-              "count": 3
+              "count": 4
             },
             {
               "name": "Levi Teigen",
-              "count": 3
+              "count": 4
             }
           ]
         },

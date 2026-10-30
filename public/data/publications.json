@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-29",
-  "updatedAt": "2026-10-29T15:03:21.635Z",
+  "updated": "2026-10-30",
+  "updatedAt": "2026-10-30T14:53:50.802Z",
   "source": "PubMed E-utilities",
   "faculty": [
     {
@@ -37955,6 +37955,24 @@
       ],
       "publications": [
         {
+          "id": "42952015",
+          "title": "Determinants of Perceived Transportation Barriers to Opioid Services Among Residents of Alabama's Black Belt.",
+          "journal": "Social work in public health",
+          "year": 2026,
+          "doi": "10.1080/19371918.2026.2753147",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42952015/",
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [],
+          "authorship": {
+            "position": 0,
+            "total": 6,
+            "isFirst": true,
+            "isLast": false
+          }
+        },
+        {
           "id": "42269006",
           "title": "Early-Life Experiences as Moderators of the Relationship Between Extreme Heat and Alcohol Consumption among Older Adults: Quantitative Study.",
           "journal": "JMIR aging",
@@ -38775,14 +38793,14 @@
         }
       ],
       "authorCounts": {
-        "first": 25,
+        "first": 26,
         "last": 8,
-        "total": 44,
-        "known": 44
+        "total": 45,
+        "known": 45
       },
       "signals": {
         "positive": {
-          "count": 44,
+          "count": 45,
           "yearRange": {
             "min": 2012,
             "max": 2026
@@ -38838,7 +38856,7 @@
             },
             {
               "year": 2026,
-              "count": 3
+              "count": 4
             }
           ],
           "topJournals": [
@@ -38852,6 +38870,10 @@
             },
             {
               "name": "Journal of immigrant and minority health",
+              "count": 3
+            },
+            {
+              "name": "Social work in public health",
               "count": 3
             },
             {
@@ -38871,10 +38893,6 @@
               "count": 2
             },
             {
-              "name": "Social work in public health",
-              "count": 2
-            },
-            {
               "name": "Aging & mental health",
               "count": 1
             },
@@ -38890,7 +38908,7 @@
             },
             {
               "name": "among",
-              "count": 23
+              "count": 24
             },
             {
               "name": "cancer",
@@ -38951,6 +38969,10 @@
               "count": 4
             },
             {
+              "name": "Young Ji Yoon",
+              "count": 4
+            },
+            {
               "name": "Eun Young Choi",
               "count": 3
             },
@@ -38964,10 +38986,6 @@
             },
             {
               "name": "Su Hyun Shin",
-              "count": 3
-            },
-            {
-              "name": "Young Ji Yoon",
               "count": 3
             },
             {
@@ -39083,6 +39101,24 @@
             "total": 9,
             "isFirst": true,
             "isLast": false
+          }
+        },
+        {
+          "id": "42953513",
+          "title": "Associations Between Skipping Meals, Eating Alone, and Overweight or Obesity: A Secondary Data Analysis using KNHANES.",
+          "journal": "Korean journal of adult nursing",
+          "year": 2025,
+          "doi": "10.7475/kjan.2025.0327_2",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42953513/",
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [],
+          "authorship": {
+            "position": 1,
+            "total": 2,
+            "isFirst": false,
+            "isLast": true
           }
         },
         {
@@ -39443,13 +39479,13 @@
       ],
       "authorCounts": {
         "first": 9,
-        "last": 0,
-        "total": 22,
-        "known": 22
+        "last": 1,
+        "total": 23,
+        "known": 23
       },
       "signals": {
         "positive": {
-          "count": 22,
+          "count": 23,
           "yearRange": {
             "min": 2020,
             "max": 2026
@@ -39477,7 +39513,7 @@
             },
             {
               "year": 2025,
-              "count": 3
+              "count": 4
             },
             {
               "year": 2026,
@@ -39548,6 +39584,10 @@
               "count": 4
             },
             {
+              "name": "data",
+              "count": 4
+            },
+            {
               "name": "diet",
               "count": 4
             },
@@ -39564,15 +39604,11 @@
               "count": 4
             },
             {
+              "name": "meals",
+              "count": 4
+            },
+            {
               "name": "nutrition",
-              "count": 4
-            },
-            {
-              "name": "parent",
-              "count": 4
-            },
-            {
-              "name": "school",
               "count": 4
             }
           ],
@@ -69949,6 +69985,24 @@
           }
         },
         {
+          "id": "42955188",
+          "title": "Microbiome-Mediated Pharmacokinetics and Informed Dosing of Mycophenolate in Kidney Transplantation.",
+          "journal": "Clinical pharmacokinetics",
+          "year": 2026,
+          "doi": "10.1007/s40262-026-01707-4",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42955188/",
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [],
+          "authorship": {
+            "position": 6,
+            "total": 15,
+            "isFirst": false,
+            "isLast": false
+          }
+        },
+        {
           "id": "42529077",
           "title": "Shotgun metagenomic analysis reveals taxonomic and functional alterations in the gut microbiome across prodromal and symptomatic Lewy body disease.",
           "journal": "Frontiers in microbiomes",
@@ -70007,12 +70061,12 @@
       "authorCounts": {
         "first": 0,
         "last": 3,
-        "total": 6,
-        "known": 6
+        "total": 7,
+        "known": 7
       },
       "signals": {
         "positive": {
-          "count": 6,
+          "count": 7,
           "yearRange": {
             "min": 2026,
             "max": 2026
@@ -70020,20 +70074,20 @@
           "yearCounts": [
             {
               "year": 2026,
-              "count": 6
+              "count": 7
             }
           ],
           "topJournals": [
+            {
+              "name": "Clinical pharmacokinetics",
+              "count": 2
+            },
             {
               "name": "Gut microbes reports",
               "count": 2
             },
             {
               "name": "Clinical nutrition ESPEN",
-              "count": 1
-            },
-            {
-              "name": "Clinical pharmacokinetics",
               "count": 1
             },
             {
@@ -70048,7 +70102,7 @@
           "topKeywords": [
             {
               "name": "microbiome",
-              "count": 3
+              "count": 4
             },
             {
               "name": "transplant",
@@ -70056,6 +70110,14 @@
             },
             {
               "name": "gut",
+              "count": 2
+            },
+            {
+              "name": "kidney",
+              "count": 2
+            },
+            {
+              "name": "mycophenolate",
               "count": 2
             },
             {
@@ -70085,14 +70147,6 @@
             {
               "name": "body",
               "count": 1
-            },
-            {
-              "name": "capturing",
-              "count": 1
-            },
-            {
-              "name": "challenges",
-              "count": 1
             }
           ],
           "topCoauthors": [
@@ -70102,6 +70156,30 @@
             },
             {
               "name": "Christopher Staley",
+              "count": 3
+            },
+            {
+              "name": "Abdelrahman Saqr",
+              "count": 2
+            },
+            {
+              "name": "Ajay K Israni",
+              "count": 2
+            },
+            {
+              "name": "Arthur J Matas",
+              "count": 2
+            },
+            {
+              "name": "Casey R Dorr",
+              "count": 2
+            },
+            {
+              "name": "Duy Vo",
+              "count": 2
+            },
+            {
+              "name": "Guillaume Onyeaghala",
               "count": 2
             },
             {
@@ -70109,40 +70187,16 @@
               "count": 2
             },
             {
+              "name": "Moataz E Mohamed",
+              "count": 2
+            },
+            {
               "name": "Olivia Solano",
               "count": 2
             },
             {
-              "name": "Abdelrahman Saqr",
-              "count": 1
-            },
-            {
-              "name": "Abigail J Johnson",
-              "count": 1
-            },
-            {
-              "name": "Ajay K Israni",
-              "count": 1
-            },
-            {
-              "name": "Alexa Weingarden",
-              "count": 1
-            },
-            {
-              "name": "Alexander Khoruts",
-              "count": 1
-            },
-            {
-              "name": "Amanda J Kabage",
-              "count": 1
-            },
-            {
-              "name": "Arthur J Matas",
-              "count": 1
-            },
-            {
-              "name": "Bradley F Boeve",
-              "count": 1
+              "name": "Pamala A Jacobson",
+              "count": 2
             }
           ]
         },
@@ -82190,6 +82244,24 @@
           }
         },
         {
+          "id": "42955188",
+          "title": "Microbiome-Mediated Pharmacokinetics and Informed Dosing of Mycophenolate in Kidney Transplantation.",
+          "journal": "Clinical pharmacokinetics",
+          "year": 2026,
+          "doi": "10.1007/s40262-026-01707-4",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42955188/",
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [],
+          "authorship": {
+            "position": 10,
+            "total": 15,
+            "isFirst": false,
+            "isLast": false
+          }
+        },
+        {
           "id": "40315256",
           "title": "Simultaneous Prediction of Area Under the Curves of Mycophenolic Acid and Its Metabolites and Enterohepatic Recirculation in Kidney Transplant Recipients.",
           "journal": "Therapeutic drug monitoring",
@@ -82408,12 +82480,12 @@
       "authorCounts": {
         "first": 0,
         "last": 1,
-        "total": 12,
-        "known": 12
+        "total": 13,
+        "known": 13
       },
       "signals": {
         "positive": {
-          "count": 12,
+          "count": 13,
           "yearRange": {
             "min": 2023,
             "max": 2026
@@ -82433,10 +82505,14 @@
             },
             {
               "year": 2026,
-              "count": 1
+              "count": 2
             }
           ],
           "topJournals": [
+            {
+              "name": "Clinical pharmacokinetics",
+              "count": 2
+            },
             {
               "name": "Nicotine & tobacco research : official journal of the Society for Research on Nicotine and Tobacco",
               "count": 2
@@ -82447,10 +82523,6 @@
             },
             {
               "name": "British journal of clinical pharmacology",
-              "count": 1
-            },
-            {
-              "name": "Clinical pharmacokinetics",
               "count": 1
             },
             {
@@ -82481,7 +82553,7 @@
           "topKeywords": [
             {
               "name": "kidney",
-              "count": 5
+              "count": 6
             },
             {
               "name": "recipients",
@@ -82531,51 +82603,51 @@
           "topCoauthors": [
             {
               "name": "Pamala A Jacobson",
-              "count": 9
+              "count": 10
             },
             {
               "name": "Arthur J Matas",
-              "count": 8
+              "count": 9
             },
             {
               "name": "Guillaume Onyeaghala",
-              "count": 8
+              "count": 9
             },
             {
               "name": "Weihua Guan",
-              "count": 8
+              "count": 9
             },
             {
               "name": "William S Oetting",
-              "count": 8
+              "count": 9
             },
             {
               "name": "Ajay K Israni",
-              "count": 7
+              "count": 8
             },
             {
               "name": "Rory P Remmel",
-              "count": 7
+              "count": 8
             },
             {
               "name": "Abdelrahman Saqr",
-              "count": 6
+              "count": 7
             },
             {
               "name": "Moataz E Mohamed",
-              "count": 5
+              "count": 6
             },
             {
               "name": "Christopher Staley",
-              "count": 4
+              "count": 5
             },
             {
               "name": "Levi Teigen",
-              "count": 4
+              "count": 5
             },
             {
               "name": "Duy Vo",
-              "count": 3
+              "count": 4
             }
           ]
         },
