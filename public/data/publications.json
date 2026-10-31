@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-30",
-  "updatedAt": "2026-10-30T14:53:50.802Z",
+  "updated": "2026-10-31",
+  "updatedAt": "2026-10-31T14:22:16.807Z",
   "source": "PubMed E-utilities",
   "faculty": [
     {
@@ -4158,6 +4158,24 @@
       ],
       "publications": [
         {
+          "id": "42961413",
+          "title": "Clinician Communication Behaviors and Perceived Health Care Discrimination Among Black Patients.",
+          "journal": "JAMA network open",
+          "year": 2026,
+          "doi": "10.1001/jamanetworkopen.2026.41656",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42961413/",
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [],
+          "authorship": {
+            "position": 0,
+            "total": 5,
+            "isFirst": true,
+            "isLast": false
+          }
+        },
+        {
           "id": "42464212",
           "title": "Community black business ownership prevalence and self-reported stroke risk factors among black residents.",
           "journal": "BMC public health",
@@ -4421,14 +4439,14 @@
         }
       ],
       "authorCounts": {
-        "first": 6,
+        "first": 7,
         "last": 2,
-        "total": 14,
-        "known": 14
+        "total": 15,
+        "known": 15
       },
       "signals": {
         "positive": {
-          "count": 14,
+          "count": 15,
           "yearRange": {
             "min": 2023,
             "max": 2026
@@ -4448,7 +4466,7 @@
             },
             {
               "year": 2026,
-              "count": 3
+              "count": 4
             }
           ],
           "topJournals": [
@@ -4481,37 +4499,37 @@
               "count": 1
             },
             {
+              "name": "JAMA network open",
+              "count": 1
+            },
+            {
               "name": "Journal of clinical and translational science",
               "count": 1
             },
             {
               "name": "Journal of health psychology",
               "count": 1
-            },
-            {
-              "name": "Journal of the American Board of Family Medicine : JABFM",
-              "count": 1
             }
           ],
           "topKeywords": [
             {
               "name": "black",
-              "count": 5
+              "count": 6
             },
             {
               "name": "health",
-              "count": 4
+              "count": 5
             },
             {
               "name": "care",
-              "count": 3
-            },
-            {
-              "name": "medical",
-              "count": 3
+              "count": 4
             },
             {
               "name": "patients",
+              "count": 4
+            },
+            {
+              "name": "medical",
               "count": 3
             },
             {
@@ -4527,19 +4545,19 @@
               "count": 3
             },
             {
+              "name": "among",
+              "count": 2
+            },
+            {
               "name": "based",
               "count": 2
             },
             {
+              "name": "communication",
+              "count": 2
+            },
+            {
               "name": "healthcare",
-              "count": 2
-            },
-            {
-              "name": "qualitative",
-              "count": 2
-            },
-            {
-              "name": "racial",
               "count": 2
             }
           ],
@@ -4561,7 +4579,15 @@
               "count": 2
             },
             {
+              "name": "Nao Hagiwara",
+              "count": 2
+            },
+            {
               "name": "Abbie Begnaud",
+              "count": 1
+            },
+            {
+              "name": "Abbie Begnaud Muckler",
               "count": 1
             },
             {
@@ -4582,14 +4608,6 @@
             },
             {
               "name": "Anuradha Jetty",
-              "count": 1
-            },
-            {
-              "name": "Caroline Tietbohl",
-              "count": 1
-            },
-            {
-              "name": "Catherine Bi",
               "count": 1
             }
           ]
@@ -8801,6 +8819,24 @@
           }
         },
         {
+          "id": "42962050",
+          "title": "Coupled beta and high-frequency oscillations emerge from synchronized bursting in a minimal model of the parkinsonian subthalamic nucleus.",
+          "journal": "PLoS computational biology",
+          "year": 2026,
+          "doi": "10.1371/journal.pcbi.1014921",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42962050/",
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [],
+          "authorship": {
+            "position": 3,
+            "total": 5,
+            "isFirst": false,
+            "isLast": false
+          }
+        },
+        {
           "id": "42380635",
           "title": "Vibrotactile stimulation induces changes in basal ganglia output, cervical muscle activity, and head posture in a patient with cervical dystonia.",
           "journal": "Neurological sciences : official journal of the Italian Neurological Society and of the Italian Society of Clinical Neurophysiology",
@@ -8971,12 +9007,12 @@
       "authorCounts": {
         "first": 0,
         "last": 2,
-        "total": 11,
-        "known": 11
+        "total": 12,
+        "known": 12
       },
       "signals": {
         "positive": {
-          "count": 11,
+          "count": 12,
           "yearRange": {
             "min": 2022,
             "max": 2026
@@ -9000,7 +9036,7 @@
             },
             {
               "year": 2026,
-              "count": 3
+              "count": 4
             }
           ],
           "topJournals": [
@@ -9035,6 +9071,10 @@
             {
               "name": "NPJ Parkinson's disease",
               "count": 1
+            },
+            {
+              "name": "PLoS computational biology",
+              "count": 1
             }
           ],
           "topKeywords": [
@@ -9051,11 +9091,19 @@
               "count": 4
             },
             {
+              "name": "oscillations",
+              "count": 4
+            },
+            {
+              "name": "beta",
+              "count": 3
+            },
+            {
               "name": "disease",
               "count": 3
             },
             {
-              "name": "oscillations",
+              "name": "frequency",
               "count": 3
             },
             {
@@ -9077,20 +9125,12 @@
             {
               "name": "basal",
               "count": 2
-            },
-            {
-              "name": "beta",
-              "count": 2
-            },
-            {
-              "name": "cerebellothalamic",
-              "count": 2
             }
           ],
           "topCoauthors": [
             {
               "name": "Jerrold L Vitek",
-              "count": 10
+              "count": 11
             },
             {
               "name": "Noam Harel",
@@ -9102,11 +9142,11 @@
             },
             {
               "name": "Jing Wang",
-              "count": 5
+              "count": 6
             },
             {
               "name": "Luke A Johnson",
-              "count": 5
+              "count": 6
             },
             {
               "name": "Michael C Park",
@@ -18009,6 +18049,24 @@
           }
         },
         {
+          "id": "42963087",
+          "title": "Rationale and design of the predictive models of beryllium sensitisation and chronic beryllium disease (PROBe): study protocol.",
+          "journal": "BMJ open",
+          "year": 2026,
+          "doi": "10.1136/bmjopen-2026-125477",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42963087/",
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [],
+          "authorship": {
+            "position": 9,
+            "total": 10,
+            "isFirst": false,
+            "isLast": true
+          }
+        },
+        {
           "id": "40220990",
           "title": "Characterizing Patients With Sarcoidosis With Obstructive Respiratory Physiology.",
           "journal": "Chest",
@@ -18714,13 +18772,13 @@
       ],
       "authorCounts": {
         "first": 13,
-        "last": 15,
-        "total": 40,
-        "known": 40
+        "last": 16,
+        "total": 41,
+        "known": 41
       },
       "signals": {
         "positive": {
-          "count": 40,
+          "count": 41,
           "yearRange": {
             "min": 2012,
             "max": 2026
@@ -18780,7 +18838,7 @@
             },
             {
               "year": 2026,
-              "count": 3
+              "count": 4
             }
           ],
           "topJournals": [
@@ -18789,12 +18847,12 @@
               "count": 3
             },
             {
-              "name": "Sarcoidosis, vasculitis, and diffuse lung diseases : official journal of WASOG",
+              "name": "BMJ open",
               "count": 3
             },
             {
-              "name": "BMJ open",
-              "count": 2
+              "name": "Sarcoidosis, vasculitis, and diffuse lung diseases : official journal of WASOG",
+              "count": 3
             },
             {
               "name": "Case reports in pulmonology",
@@ -18831,6 +18889,10 @@
               "count": 23
             },
             {
+              "name": "disease",
+              "count": 7
+            },
+            {
               "name": "lung",
               "count": 7
             },
@@ -18847,16 +18909,16 @@
               "count": 6
             },
             {
-              "name": "disease",
-              "count": 6
-            },
-            {
               "name": "pulmonary",
               "count": 6
             },
             {
               "name": "respiratory",
               "count": 6
+            },
+            {
+              "name": "beryllium",
+              "count": 5
             },
             {
               "name": "magnetic",
@@ -18869,10 +18931,6 @@
             {
               "name": "cardiovascular",
               "count": 4
-            },
-            {
-              "name": "imaging",
-              "count": 4
             }
           ],
           "topCoauthors": [
@@ -18882,10 +18940,14 @@
             },
             {
               "name": "Lisa A Maier",
-              "count": 8
+              "count": 9
             },
             {
               "name": "Henri Roukoz",
+              "count": 7
+            },
+            {
+              "name": "Pratik D Jagtap",
               "count": 7
             },
             {
@@ -18897,7 +18959,7 @@
               "count": 6
             },
             {
-              "name": "Pratik D Jagtap",
+              "name": "Timothy J Griffin",
               "count": 6
             },
             {
@@ -18905,23 +18967,19 @@
               "count": 5
             },
             {
+              "name": "Li Li",
+              "count": 5
+            },
+            {
               "name": "Lisa Von Wald",
               "count": 5
             },
             {
-              "name": "Timothy J Griffin",
-              "count": 5
+              "name": "Danielle O Weise",
+              "count": 4
             },
             {
               "name": "David H Ingbar",
-              "count": 4
-            },
-            {
-              "name": "Elliott D Crouser",
-              "count": 4
-            },
-            {
-              "name": "Li Li",
               "count": 4
             }
           ]
@@ -102287,6 +102345,24 @@
           }
         },
         {
+          "id": "42960187",
+          "title": "Patient frustration with time spent on advanced ovarian and metastatic breast cancer care.",
+          "journal": "Gynecologic oncology reports",
+          "year": 2026,
+          "doi": "10.1016/j.gore.2026.102233",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42960187/",
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [],
+          "authorship": {
+            "position": 5,
+            "total": 13,
+            "isFirst": false,
+            "isLast": false
+          }
+        },
+        {
           "id": "40530116",
           "title": "\"Prime and pull\" vaccination strategy for treatment of cervical pre-cancer: not quite ready for prime time.",
           "journal": "Translational cancer research",
@@ -103450,12 +103526,12 @@
       "authorCounts": {
         "first": 5,
         "last": 9,
-        "total": 60,
-        "known": 60
+        "total": 61,
+        "known": 61
       },
       "signals": {
         "positive": {
-          "count": 60,
+          "count": 61,
           "yearRange": {
             "min": 2019,
             "max": 2026
@@ -103491,7 +103567,7 @@
             },
             {
               "year": 2026,
-              "count": 3
+              "count": 4
             }
           ],
           "topJournals": [
@@ -103501,7 +103577,7 @@
             },
             {
               "name": "Gynecologic oncology reports",
-              "count": 4
+              "count": 5
             },
             {
               "name": "Infectious agents and cancer",
@@ -103539,7 +103615,7 @@
           "topKeywords": [
             {
               "name": "cancer",
-              "count": 51
+              "count": 52
             },
             {
               "name": "gynecologic",
@@ -103566,20 +103642,20 @@
               "count": 11
             },
             {
+              "name": "ovarian",
+              "count": 9
+            },
+            {
               "name": "women",
               "count": 9
             },
             {
+              "name": "care",
+              "count": 8
+            },
+            {
               "name": "health",
               "count": 8
-            },
-            {
-              "name": "ovarian",
-              "count": 8
-            },
-            {
-              "name": "care",
-              "count": 7
             },
             {
               "name": "oncology",
@@ -103589,7 +103665,7 @@
           "topCoauthors": [
             {
               "name": "Rachel I Vogel",
-              "count": 36
+              "count": 37
             },
             {
               "name": "Katherine Brown",
@@ -103597,11 +103673,11 @@
             },
             {
               "name": "Patricia Jewett",
-              "count": 11
+              "count": 12
             },
             {
               "name": "Anne Blaes",
-              "count": 10
+              "count": 11
             },
             {
               "name": "Anne H Blaes",
