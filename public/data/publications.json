@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-31",
-  "updatedAt": "2026-10-31T14:22:16.807Z",
+  "updated": "2026-11-01",
+  "updatedAt": "2026-11-01T15:50:13.783Z",
   "source": "PubMed E-utilities",
   "faculty": [
     {
@@ -59889,6 +59889,25 @@
       ],
       "publications": [
         {
+          "id": "42966670",
+          "title": "Immune landscape and immunotherapeutic strategies for the treatment of TP53-mutated acute myeloid leukemia.",
+          "journal": "Blood reviews",
+          "year": 2026,
+          "doi": "10.1016/j.blre.2026.101438",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42966670/",
+          "publicationTypes": [
+            "Journal Article",
+            "Review"
+          ],
+          "versionLinks": [],
+          "authorship": {
+            "position": 2,
+            "total": 5,
+            "isFirst": false,
+            "isLast": false
+          }
+        },
+        {
           "id": "39941834",
           "title": "DEAPR: Differential Expression and Pathway Ranking Tool Demonstrates NRAS(G12V) and NRAS(G12D) Mutations Have Differing Effects in THP-1 Cells.",
           "journal": "Cancers",
@@ -60374,15 +60393,15 @@
       "authorCounts": {
         "first": 2,
         "last": 7,
-        "total": 25,
-        "known": 25
+        "total": 26,
+        "known": 26
       },
       "signals": {
         "positive": {
-          "count": 25,
+          "count": 26,
           "yearRange": {
             "min": 2015,
-            "max": 2025
+            "max": 2026
           },
           "yearCounts": [
             {
@@ -60424,6 +60443,10 @@
             {
               "year": 2025,
               "count": 2
+            },
+            {
+              "year": 2026,
+              "count": 1
             }
           ],
           "topJournals": [
@@ -60460,30 +60483,34 @@
               "count": 1
             },
             {
-              "name": "British journal of haematology",
+              "name": "Blood reviews",
               "count": 1
             },
             {
-              "name": "Clinical lymphoma, myeloma & leukemia",
+              "name": "British journal of haematology",
               "count": 1
             }
           ],
           "topKeywords": [
             {
               "name": "leukemia",
-              "count": 9
+              "count": 10
             },
             {
               "name": "myeloid",
-              "count": 9
+              "count": 10
             },
             {
               "name": "acute",
-              "count": 8
+              "count": 9
             },
             {
               "name": "cell",
               "count": 6
+            },
+            {
+              "name": "tp53",
+              "count": 5
             },
             {
               "name": "expression",
@@ -60491,10 +60518,6 @@
             },
             {
               "name": "patients",
-              "count": 4
-            },
-            {
-              "name": "tp53",
               "count": 4
             },
             {
@@ -82849,6 +82872,24 @@
           }
         },
         {
+          "id": "42907045",
+          "title": "KDOQI Commentary on the 2025 AHA/ACC Guideline for the Prevention, Detection, Evaluation, and Management of High Blood Pressure in Adults.",
+          "journal": "American journal of kidney diseases : the official journal of the National Kidney Foundation",
+          "year": 2026,
+          "doi": "10.1053/j.ajkd.2026.07.006",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42907045/",
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [],
+          "authorship": {
+            "position": 3,
+            "total": 8,
+            "isFirst": false,
+            "isLast": false
+          }
+        },
+        {
           "id": "42097616",
           "title": "Population Estimates and Hypertension and Diabetes Prevalence: Cross-Sectional Quantitative Study Comparing Electronic Health Record-Derived Counts, Census, and Centers for Disease Control and Prevention Population Level Analysis and Community Estimates.",
           "journal": "JMIR public health and surveillance",
@@ -84874,12 +84915,12 @@
       "authorCounts": {
         "first": 14,
         "last": 35,
-        "total": 108,
-        "known": 108
+        "total": 109,
+        "known": 109
       },
       "signals": {
         "positive": {
-          "count": 108,
+          "count": 109,
           "yearRange": {
             "min": 2014,
             "max": 2026
@@ -84935,7 +84976,7 @@
             },
             {
               "year": 2026,
-              "count": 11
+              "count": 12
             }
           ],
           "topJournals": [
@@ -84944,12 +84985,12 @@
               "count": 12
             },
             {
-              "name": "Kidney360",
+              "name": "American journal of kidney diseases : the official journal of the National Kidney Foundation",
               "count": 8
             },
             {
-              "name": "American journal of kidney diseases : the official journal of the National Kidney Foundation",
-              "count": 7
+              "name": "Kidney360",
+              "count": 8
             },
             {
               "name": "Journal of the American Society of Nephrology : JASN",
@@ -84987,11 +85028,11 @@
             },
             {
               "name": "blood",
-              "count": 41
+              "count": 42
             },
             {
               "name": "pressure",
-              "count": 41
+              "count": 42
             },
             {
               "name": "disease",
@@ -85033,7 +85074,7 @@
           "topCoauthors": [
             {
               "name": "Mahboob Rahman",
-              "count": 17
+              "count": 18
             },
             {
               "name": "Lama Ghazi",
@@ -85072,11 +85113,11 @@
               "count": 9
             },
             {
-              "name": "Jackson T Wright",
+              "name": "Debbie L Cohen",
               "count": 8
             },
             {
-              "name": "Jing Chen",
+              "name": "Jackson T Wright",
               "count": 8
             }
           ]
@@ -102291,6 +102332,26 @@
       ],
       "publications": [
         {
+          "id": "42928651",
+          "title": "Administrative Workload and Associated Distress in Individuals Undergoing Cancer Therapy.",
+          "journal": "Cancer medicine",
+          "year": 2026,
+          "doi": "10.1002/cam4.72416",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42928651/",
+          "publicationTypes": [
+            "Journal Article",
+            "Multicenter Study",
+            "Observational Study"
+          ],
+          "versionLinks": [],
+          "authorship": {
+            "position": 7,
+            "total": 14,
+            "isFirst": false,
+            "isLast": false
+          }
+        },
+        {
           "id": "42747975",
           "title": "Characterizing the Objective Time Spent on Health Care Activities in Clinic and at Home for Patients With Cancer.",
           "journal": "Cancer medicine",
@@ -103526,12 +103587,12 @@
       "authorCounts": {
         "first": 5,
         "last": 9,
-        "total": 61,
-        "known": 61
+        "total": 62,
+        "known": 62
       },
       "signals": {
         "positive": {
-          "count": 61,
+          "count": 62,
           "yearRange": {
             "min": 2019,
             "max": 2026
@@ -103567,7 +103628,7 @@
             },
             {
               "year": 2026,
-              "count": 4
+              "count": 5
             }
           ],
           "topJournals": [
@@ -103592,6 +103653,10 @@
               "count": 3
             },
             {
+              "name": "Cancer medicine",
+              "count": 2
+            },
+            {
               "name": "Cancer reports (Hoboken, N.J.)",
               "count": 2
             },
@@ -103606,16 +103671,12 @@
             {
               "name": "Journal of lower genital tract disease",
               "count": 2
-            },
-            {
-              "name": "Journal of women's health (2002)",
-              "count": 2
             }
           ],
           "topKeywords": [
             {
               "name": "cancer",
-              "count": 52
+              "count": 53
             },
             {
               "name": "gynecologic",
@@ -103665,7 +103726,7 @@
           "topCoauthors": [
             {
               "name": "Rachel I Vogel",
-              "count": 37
+              "count": 38
             },
             {
               "name": "Katherine Brown",
@@ -103673,11 +103734,11 @@
             },
             {
               "name": "Patricia Jewett",
-              "count": 12
+              "count": 13
             },
             {
               "name": "Anne Blaes",
-              "count": 11
+              "count": 12
             },
             {
               "name": "Anne H Blaes",
@@ -103704,11 +103765,11 @@
               "count": 5
             },
             {
-              "name": "Ashley E Stenzel",
+              "name": "Arjun Gupta",
               "count": 5
             },
             {
-              "name": "Susan A Everson-Rose",
+              "name": "Ashley E Stenzel",
               "count": 5
             }
           ]
@@ -104567,6 +104628,25 @@
           "authorship": {
             "position": 10,
             "total": 23,
+            "isFirst": false,
+            "isLast": false
+          }
+        },
+        {
+          "id": "42933447",
+          "title": "Development of the Children's Oncology Group long-term follow-up guideline for cancer genetics evaluation in childhood cancer survivors.",
+          "journal": "The Lancet. Oncology",
+          "year": 2026,
+          "doi": "10.1016/S1470-2045(26)00340-2",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42933447/",
+          "publicationTypes": [
+            "Journal Article",
+            "Review"
+          ],
+          "versionLinks": [],
+          "authorship": {
+            "position": 14,
+            "total": 16,
             "isFirst": false,
             "isLast": false
           }
@@ -106334,12 +106414,12 @@
       "authorCounts": {
         "first": 18,
         "last": 20,
-        "total": 92,
-        "known": 92
+        "total": 93,
+        "known": 93
       },
       "signals": {
         "positive": {
-          "count": 92,
+          "count": 93,
           "yearRange": {
             "min": 2015,
             "max": 2026
@@ -106391,7 +106471,7 @@
             },
             {
               "year": 2026,
-              "count": 11
+              "count": 12
             }
           ],
           "topJournals": [
@@ -106439,15 +106519,15 @@
           "topKeywords": [
             {
               "name": "cancer",
-              "count": 93
+              "count": 95
             },
             {
               "name": "childhood",
-              "count": 74
+              "count": 75
             },
             {
               "name": "survivors",
-              "count": 43
+              "count": 44
             },
             {
               "name": "risk",
@@ -106529,7 +106609,7 @@
             },
             {
               "name": "Melissa M Hudson",
-              "count": 15
+              "count": 16
             },
             {
               "name": "Susan A Smith",
