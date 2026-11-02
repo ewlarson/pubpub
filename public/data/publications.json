@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-01",
-  "updatedAt": "2026-11-01T15:50:13.783Z",
+  "updated": "2026-11-02",
+  "updatedAt": "2026-11-02T19:12:18.042Z",
   "source": "PubMed E-utilities",
   "faculty": [
     {
@@ -2911,6 +2911,24 @@
           }
         },
         {
+          "id": "42968383",
+          "title": "Prognostic Performance of PaO2/FIO2 versus SpO2/FIO2 Ratios in Acute Hypoxemic Respiratory Failure.",
+          "journal": "Annals of the American Thoracic Society",
+          "year": 2026,
+          "doi": "10.1093/annalsats/aaoag338",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42968383/",
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [],
+          "authorship": {
+            "position": 15,
+            "total": 31,
+            "isFirst": false,
+            "isLast": false
+          }
+        },
+        {
           "id": "39530748",
           "title": "Comparison of six natural language processing approaches to assessing firearm access in Veterans Health Administration electronic health records.",
           "journal": "Journal of the American Medical Informatics Association : JAMIA",
@@ -3085,12 +3103,12 @@
       "authorCounts": {
         "first": 4,
         "last": 0,
-        "total": 13,
-        "known": 13
+        "total": 14,
+        "known": 14
       },
       "signals": {
         "positive": {
-          "count": 13,
+          "count": 14,
           "yearRange": {
             "min": 2023,
             "max": 2026
@@ -3110,10 +3128,14 @@
             },
             {
               "year": 2026,
-              "count": 4
+              "count": 5
             }
           ],
           "topJournals": [
+            {
+              "name": "Annals of the American Thoracic Society",
+              "count": 2
+            },
             {
               "name": "Chest",
               "count": 2
@@ -3124,10 +3146,6 @@
             },
             {
               "name": "American journal of respiratory and critical care medicine",
-              "count": 1
-            },
-            {
-              "name": "Annals of the American Thoracic Society",
               "count": 1
             },
             {
@@ -3208,7 +3226,7 @@
           "topCoauthors": [
             {
               "name": "Nicholas E Ingraham",
-              "count": 6
+              "count": 7
             },
             {
               "name": "R Adams Dudley",
@@ -3219,7 +3237,19 @@
               "count": 2
             },
             {
+              "name": "Anna K Barker",
+              "count": 2
+            },
+            {
               "name": "Benjamin Langworthy",
+              "count": 2
+            },
+            {
+              "name": "Catherine A Gao",
+              "count": 2
+            },
+            {
+              "name": "Chad H Hochberg",
               "count": 2
             },
             {
@@ -3240,18 +3270,6 @@
             },
             {
               "name": "Jeremy Yeung",
-              "count": 2
-            },
-            {
-              "name": "Jolie Wormwood",
-              "count": 2
-            },
-            {
-              "name": "Joseph A Simonetti",
-              "count": 2
-            },
-            {
-              "name": "Joshua Trujeque",
               "count": 2
             }
           ]
@@ -3553,7 +3571,8 @@
           "doi": "10.1371/journal.pbio.3003118",
           "url": "https://pubmed.ncbi.nlm.nih.gov/40244939/",
           "publicationTypes": [
-            "Journal Article"
+            "Journal Article",
+            "Research Support, Non-U.S. Gov't"
           ],
           "versionLinks": [
             {
@@ -5512,6 +5531,24 @@
           }
         },
         {
+          "id": "42967589",
+          "title": "Dichotomous assessments of homologous recombination deficiency are insufficient predictive biomarkers for the PARP inhibitor treatment of ovarian cancer.",
+          "journal": "Clinical and translational medicine",
+          "year": 2026,
+          "doi": "10.1002/ctm2.70890",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42967589/",
+          "publicationTypes": [
+            "Letter"
+          ],
+          "versionLinks": [],
+          "authorship": {
+            "position": 3,
+            "total": 4,
+            "isFirst": false,
+            "isLast": true
+          }
+        },
+        {
           "id": "42746633",
           "title": "Pre-vaccine sentinel antibodies predict blunted vaccine responses.",
           "journal": "Cell press blue",
@@ -6230,13 +6267,13 @@
       ],
       "authorCounts": {
         "first": 7,
-        "last": 20,
-        "total": 39,
-        "known": 39
+        "last": 21,
+        "total": 40,
+        "known": 40
       },
       "signals": {
         "positive": {
-          "count": 39,
+          "count": 40,
           "yearRange": {
             "min": 2019,
             "max": 2026
@@ -6272,7 +6309,7 @@
             },
             {
               "year": 2026,
-              "count": 6
+              "count": 7
             }
           ],
           "topJournals": [
@@ -6320,11 +6357,11 @@
           "topKeywords": [
             {
               "name": "ovarian",
-              "count": 16
+              "count": 17
             },
             {
               "name": "cancer",
-              "count": 14
+              "count": 15
             },
             {
               "name": "study",
@@ -6382,7 +6419,7 @@
             },
             {
               "name": "Jesenia M Perez",
-              "count": 6
+              "count": 7
             },
             {
               "name": "Joohyun Ryu",
@@ -55728,7 +55765,10 @@
           "doi": "10.1371/journal.pmed.1004590",
           "url": "https://pubmed.ncbi.nlm.nih.gov/40392909/",
           "publicationTypes": [
-            "Journal Article"
+            "Journal Article",
+            "Research Support, U.S. Gov't, P.H.S.",
+            "Research Support, Non-U.S. Gov't",
+            "Research Support, N.I.H., Extramural"
           ],
           "versionLinks": [],
           "authorship": {
@@ -71496,17 +71536,35 @@
             "isFirst": false,
             "isLast": false
           }
+        },
+        {
+          "id": "42968359",
+          "title": "Self-Assessment of Transition to Practice and Factors Influencing Transition Among New Graduate Pediatric Direct Patient Care Registered Nurses.",
+          "journal": "Journal for nurses in professional development",
+          "year": 2026,
+          "doi": "10.1097/NND.0000000000001301",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42968359/",
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [],
+          "authorship": {
+            "position": 1,
+            "total": 9,
+            "isFirst": false,
+            "isLast": false
+          }
         }
       ],
       "authorCounts": {
         "first": 0,
         "last": 0,
-        "total": 2,
-        "known": 2
+        "total": 3,
+        "known": 3
       },
       "signals": {
         "positive": {
-          "count": 2,
+          "count": 3,
           "yearRange": {
             "min": 2026,
             "max": 2026
@@ -71514,12 +71572,16 @@
           "yearCounts": [
             {
               "year": 2026,
-              "count": 2
+              "count": 3
             }
           ],
           "topJournals": [
             {
               "name": "JOR spine",
+              "count": 1
+            },
+            {
+              "name": "Journal for nurses in professional development",
               "count": 1
             },
             {
@@ -71529,7 +71591,19 @@
           ],
           "topKeywords": [
             {
+              "name": "transition",
+              "count": 2
+            },
+            {
               "name": "across",
+              "count": 1
+            },
+            {
+              "name": "among",
+              "count": 1
+            },
+            {
+              "name": "assessment",
               "count": 1
             },
             {
@@ -71549,31 +71623,19 @@
               "count": 1
             },
             {
+              "name": "care",
+              "count": 1
+            },
+            {
               "name": "characterization",
               "count": 1
             },
             {
+              "name": "direct",
+              "count": 1
+            },
+            {
               "name": "disc",
-              "count": 1
-            },
-            {
-              "name": "early",
-              "count": 1
-            },
-            {
-              "name": "femoral",
-              "count": 1
-            },
-            {
-              "name": "head",
-              "count": 1
-            },
-            {
-              "name": "health",
-              "count": 1
-            },
-            {
-              "name": "histological",
               "count": 1
             }
           ],
@@ -71592,6 +71654,10 @@
             },
             {
               "name": "Alaina L Falck",
+              "count": 1
+            },
+            {
+              "name": "Andres Azuero",
               "count": 1
             },
             {
@@ -71619,11 +71685,7 @@
               "count": 1
             },
             {
-              "name": "Jutta M Ellermann",
-              "count": 1
-            },
-            {
-              "name": "Kathleen A McDermott",
+              "name": "Heather Hyde Evans",
               "count": 1
             }
           ]
