@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-02",
-  "updatedAt": "2026-11-02T19:12:18.042Z",
+  "updated": "2026-11-03",
+  "updatedAt": "2026-11-03T16:55:57.866Z",
   "source": "PubMed E-utilities",
   "faculty": [
     {
@@ -8837,25 +8837,6 @@
           }
         },
         {
-          "id": "42922685",
-          "title": "Coupled beta and high-frequency oscillations emerge from synchronized bursting in a minimal model of the parkinsonian subthalamic nucleus.",
-          "journal": "bioRxiv : the preprint server for biology",
-          "year": 2026,
-          "doi": "10.64898/2026.03.30.715339",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42922685/",
-          "publicationTypes": [
-            "Journal Article",
-            "Preprint"
-          ],
-          "versionLinks": [],
-          "authorship": {
-            "position": 3,
-            "total": 5,
-            "isFirst": false,
-            "isLast": false
-          }
-        },
-        {
           "id": "42962050",
           "title": "Coupled beta and high-frequency oscillations emerge from synchronized bursting in a minimal model of the parkinsonian subthalamic nucleus.",
           "journal": "PLoS computational biology",
@@ -8865,13 +8846,44 @@
           "publicationTypes": [
             "Journal Article"
           ],
-          "versionLinks": [],
+          "versionLinks": [
+            {
+              "type": "UpdateOf",
+              "id": "42922685"
+            }
+          ],
           "authorship": {
             "position": 3,
             "total": 5,
             "isFirst": false,
             "isLast": false
-          }
+          },
+          "preprintVersions": [
+            {
+              "id": "42922685",
+              "title": "Coupled beta and high-frequency oscillations emerge from synchronized bursting in a minimal model of the parkinsonian subthalamic nucleus.",
+              "journal": "bioRxiv : the preprint server for biology",
+              "year": 2026,
+              "doi": "10.64898/2026.03.30.715339",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/42922685/",
+              "publicationTypes": [
+                "Journal Article",
+                "Preprint"
+              ],
+              "versionLinks": [
+                {
+                  "type": "UpdateIn",
+                  "id": "42962050"
+                }
+              ],
+              "authorship": {
+                "position": 3,
+                "total": 5,
+                "isFirst": false,
+                "isLast": false
+              }
+            }
+          ]
         },
         {
           "id": "42380635",
@@ -9044,12 +9056,12 @@
       "authorCounts": {
         "first": 0,
         "last": 2,
-        "total": 12,
-        "known": 12
+        "total": 11,
+        "known": 11
       },
       "signals": {
         "positive": {
-          "count": 12,
+          "count": 11,
           "yearRange": {
             "min": 2022,
             "max": 2026
@@ -9073,7 +9085,7 @@
             },
             {
               "year": 2026,
-              "count": 4
+              "count": 3
             }
           ],
           "topJournals": [
@@ -9084,10 +9096,6 @@
             {
               "name": "Brain stimulation",
               "count": 2
-            },
-            {
-              "name": "bioRxiv : the preprint server for biology",
-              "count": 1
             },
             {
               "name": "Frontiers in neuroanatomy",
@@ -9128,19 +9136,11 @@
               "count": 4
             },
             {
-              "name": "oscillations",
-              "count": 4
-            },
-            {
-              "name": "beta",
-              "count": 3
-            },
-            {
               "name": "disease",
               "count": 3
             },
             {
-              "name": "frequency",
+              "name": "oscillations",
               "count": 3
             },
             {
@@ -9162,12 +9162,20 @@
             {
               "name": "basal",
               "count": 2
+            },
+            {
+              "name": "beta",
+              "count": 2
+            },
+            {
+              "name": "cerebellothalamic",
+              "count": 2
             }
           ],
           "topCoauthors": [
             {
               "name": "Jerrold L Vitek",
-              "count": 11
+              "count": 10
             },
             {
               "name": "Noam Harel",
@@ -9179,11 +9187,11 @@
             },
             {
               "name": "Jing Wang",
-              "count": 6
+              "count": 5
             },
             {
               "name": "Luke A Johnson",
-              "count": 6
+              "count": 5
             },
             {
               "name": "Michael C Park",
@@ -21737,6 +21745,24 @@
           }
         },
         {
+          "id": "42970162",
+          "title": "Measurement Invariance and Prevalence of Sexual Harassment Among University Students in Jordan.",
+          "journal": "Archives of sexual behavior",
+          "year": 2026,
+          "doi": "10.1007/s10508-026-03541-y",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42970162/",
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [],
+          "authorship": {
+            "position": 8,
+            "total": 9,
+            "isFirst": false,
+            "isLast": true
+          }
+        },
+        {
           "id": "41742254",
           "title": "Measuring marital choice as an indicator of women's marital agency in rural India.",
           "journal": "Contraception and reproductive medicine",
@@ -23434,13 +23460,13 @@
       ],
       "authorCounts": {
         "first": 26,
-        "last": 31,
-        "total": 88,
-        "known": 88
+        "last": 32,
+        "total": 89,
+        "known": 89
       },
       "signals": {
         "positive": {
-          "count": 88,
+          "count": 89,
           "yearRange": {
             "min": 2011,
             "max": 2026
@@ -23508,7 +23534,7 @@
             },
             {
               "year": 2026,
-              "count": 3
+              "count": 4
             }
           ],
           "topJournals": [
@@ -23575,16 +23601,16 @@
               "count": 22
             },
             {
+              "name": "among",
+              "count": 16
+            },
+            {
               "name": "social",
               "count": 16
             },
             {
               "name": "study",
               "count": 16
-            },
-            {
-              "name": "among",
-              "count": 15
             },
             {
               "name": "health",
@@ -23606,14 +23632,14 @@
           "topCoauthors": [
             {
               "name": "Irina Bergenfeld",
-              "count": 24
-            },
-            {
-              "name": "Gemma Ferguson",
-              "count": 16
+              "count": 25
             },
             {
               "name": "Kathryn M Yount",
+              "count": 17
+            },
+            {
+              "name": "Gemma Ferguson",
               "count": 16
             },
             {
@@ -23637,20 +23663,20 @@
               "count": 10
             },
             {
+              "name": "Brian Batayeh",
+              "count": 9
+            },
+            {
               "name": "Susan A Everson-Rose",
               "count": 9
             },
             {
-              "name": "Brian Batayeh",
+              "name": "Alexandria Ree Hadd",
               "count": 8
             },
             {
               "name": "Lynette M Renner",
               "count": 8
-            },
-            {
-              "name": "Alexandria Ree Hadd",
-              "count": 7
             }
           ]
         },
@@ -39805,6 +39831,24 @@
           }
         },
         {
+          "id": "42970650",
+          "title": "Identification of local nonlinear shear-wave dynamics using Volterra kernels: application to prostate cancer detection.",
+          "journal": "IEEE transactions on medical imaging",
+          "year": 2026,
+          "doi": "10.1109/TMI.2026.3749706",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42970650/",
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [],
+          "authorship": {
+            "position": 0,
+            "total": 6,
+            "isFirst": true,
+            "isLast": false
+          }
+        },
+        {
           "id": "42691181",
           "title": "Measurement of the Λ electric dipole moment with an entangled baryon-antibaryon system.",
           "journal": "Science (New York, N.Y.)",
@@ -39824,14 +39868,14 @@
         }
       ],
       "authorCounts": {
-        "first": 0,
+        "first": 1,
         "last": 0,
-        "total": 2,
-        "known": 2
+        "total": 3,
+        "known": 3
       },
       "signals": {
         "positive": {
-          "count": 2,
+          "count": 3,
           "yearRange": {
             "min": 2026,
             "max": 2026
@@ -39839,10 +39883,14 @@
           "yearCounts": [
             {
               "year": 2026,
-              "count": 2
+              "count": 3
             }
           ],
           "topJournals": [
+            {
+              "name": "IEEE transactions on medical imaging",
+              "count": 1
+            },
             {
               "name": "Magnetic resonance in medicine",
               "count": 1
@@ -39858,6 +39906,10 @@
               "count": 1
             },
             {
+              "name": "application",
+              "count": 1
+            },
+            {
               "name": "arrays",
               "count": 1
             },
@@ -39866,7 +39918,15 @@
               "count": 1
             },
             {
+              "name": "cancer",
+              "count": 1
+            },
+            {
               "name": "coil",
+              "count": 1
+            },
+            {
+              "name": "detection",
               "count": 1
             },
             {
@@ -39878,27 +39938,15 @@
               "count": 1
             },
             {
+              "name": "dynamics",
+              "count": 1
+            },
+            {
               "name": "electric",
               "count": 1
             },
             {
               "name": "entangled",
-              "count": 1
-            },
-            {
-              "name": "fast",
-              "count": 1
-            },
-            {
-              "name": "measurement",
-              "count": 1
-            },
-            {
-              "name": "method",
-              "count": 1
-            },
-            {
-              "name": "moment",
               "count": 1
             }
           ],
@@ -53192,6 +53240,24 @@
           }
         },
         {
+          "id": "42970470",
+          "title": "Malposition Rates of Subaxial Cervical Pedicle Screws Placed Using Intraoperative Computed Tomography (O-arm)-Based Three-dimensional Navigation.",
+          "journal": "Clinical spine surgery",
+          "year": 2026,
+          "doi": "10.1097/BSD.0000000000002205",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42970470/",
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [],
+          "authorship": {
+            "position": 7,
+            "total": 11,
+            "isFirst": false,
+            "isLast": false
+          }
+        },
+        {
           "id": "42686288",
           "title": "Neuromodulation in Spinal Cord Injury: Clinical Review.",
           "journal": "Neurosurgery clinics of North America",
@@ -53990,12 +54056,12 @@
       "authorCounts": {
         "first": 0,
         "last": 14,
-        "total": 43,
-        "known": 43
+        "total": 44,
+        "known": 44
       },
       "signals": {
         "positive": {
-          "count": 43,
+          "count": 44,
           "yearRange": {
             "min": 2015,
             "max": 2026
@@ -54043,7 +54109,7 @@
             },
             {
               "year": 2026,
-              "count": 3
+              "count": 4
             }
           ],
           "topJournals": [
@@ -62532,7 +62598,8 @@
           "doi": "10.1016/j.jcmg.2026.06.010",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42622598/",
           "publicationTypes": [
-            "Journal Article"
+            "Journal Article",
+            "Multicenter Study"
           ],
           "versionLinks": [],
           "authorship": {
@@ -95164,13 +95231,44 @@
           "publicationTypes": [
             "Journal Article"
           ],
-          "versionLinks": [],
+          "versionLinks": [
+            {
+              "type": "UpdateOf",
+              "id": "40667170"
+            }
+          ],
           "authorship": {
             "position": 13,
             "total": 15,
             "isFirst": false,
             "isLast": false
-          }
+          },
+          "preprintVersions": [
+            {
+              "id": "40667170",
+              "title": "CDH1 loss remodels gene expression and lineage identity in human mammary epithelial cells.",
+              "journal": "bioRxiv : the preprint server for biology",
+              "year": 2025,
+              "doi": "10.1101/2025.06.20.660633",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/40667170/",
+              "publicationTypes": [
+                "Journal Article",
+                "Preprint"
+              ],
+              "versionLinks": [
+                {
+                  "type": "UpdateIn",
+                  "id": "42945373"
+                }
+              ],
+              "authorship": {
+                "position": 6,
+                "total": 8,
+                "isFirst": false,
+                "isLast": false
+              }
+            }
+          ]
         },
         {
           "id": "41946751",
@@ -95235,25 +95333,6 @@
           "authorship": {
             "position": 21,
             "total": 23,
-            "isFirst": false,
-            "isLast": false
-          }
-        },
-        {
-          "id": "40667170",
-          "title": "CDH1 loss remodels gene expression and lineage identity in human mammary epithelial cells.",
-          "journal": "bioRxiv : the preprint server for biology",
-          "year": 2025,
-          "doi": "10.1101/2025.06.20.660633",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/40667170/",
-          "publicationTypes": [
-            "Journal Article",
-            "Preprint"
-          ],
-          "versionLinks": [],
-          "authorship": {
-            "position": 6,
-            "total": 8,
             "isFirst": false,
             "isLast": false
           }
@@ -95623,12 +95702,12 @@
       "authorCounts": {
         "first": 0,
         "last": 8,
-        "total": 22,
-        "known": 22
+        "total": 21,
+        "known": 21
       },
       "signals": {
         "positive": {
-          "count": 22,
+          "count": 21,
           "yearRange": {
             "min": 2013,
             "max": 2026
@@ -95668,7 +95747,7 @@
             },
             {
               "year": 2025,
-              "count": 8
+              "count": 7
             },
             {
               "year": 2026,
@@ -95678,7 +95757,7 @@
           "topJournals": [
             {
               "name": "bioRxiv : the preprint server for biology",
-              "count": 3
+              "count": 2
             },
             {
               "name": "Journal of molecular endocrinology",
@@ -95728,7 +95807,7 @@
             },
             {
               "name": "cells",
-              "count": 8
+              "count": 7
             },
             {
               "name": "cell",
@@ -95741,14 +95820,6 @@
             {
               "name": "receptors",
               "count": 5
-            },
-            {
-              "name": "epithelial",
-              "count": 4
-            },
-            {
-              "name": "mammary",
-              "count": 4
             },
             {
               "name": "phenotypes",
@@ -95765,6 +95836,14 @@
             {
               "name": "stem",
               "count": 4
+            },
+            {
+              "name": "epithelial",
+              "count": 3
+            },
+            {
+              "name": "like",
+              "count": 3
             }
           ],
           "topCoauthors": [
@@ -95781,10 +95860,6 @@
               "count": 4
             },
             {
-              "name": "Matthew J Sikora",
-              "count": 4
-            },
-            {
               "name": "Aiden Deacon",
               "count": 3
             },
@@ -95797,10 +95872,6 @@
               "count": 3
             },
             {
-              "name": "Chinasa A Ufondu",
-              "count": 3
-            },
-            {
               "name": "Emily John",
               "count": 3
             },
@@ -95809,11 +95880,19 @@
               "count": 3
             },
             {
-              "name": "Joseph L Sottnik",
+              "name": "Justin Hwang",
               "count": 3
             },
             {
-              "name": "Justin Hwang",
+              "name": "Kathryn L Schwertfeger",
+              "count": 3
+            },
+            {
+              "name": "Kyla M Hagen",
+              "count": 3
+            },
+            {
+              "name": "Matthew J Sikora",
               "count": 3
             }
           ]
