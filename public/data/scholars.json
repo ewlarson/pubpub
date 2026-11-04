@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-03",
-  "updatedAt": "2026-11-03T16:52:08.441Z",
+  "updated": "2026-11-04",
+  "updatedAt": "2026-11-04T16:51:23.723Z",
   "source": "PubMed E-utilities (ORCID)",
   "faculty": [
     {
@@ -8469,6 +8469,24 @@
         },
         {
           "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [],
+          "id": "42977806",
+          "title": "In Silico Insights into Device-Artery Interactions in Endovascular Pulmonary Flow Restrictors for Neonates with Congenital Heart Defects.",
+          "journal": "Cardiovascular engineering and technology",
+          "year": 2026,
+          "doi": "10.1007/s13239-026-00866-6",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42977806/",
+          "authorship": {
+            "position": 5,
+            "total": 12,
+            "isFirst": false,
+            "isLast": false
+          }
+        },
+        {
+          "publicationTypes": [
             "Journal Article",
             "Systematic Review"
           ],
@@ -8528,12 +8546,12 @@
       "authorCounts": {
         "first": 2,
         "last": 0,
-        "total": 4,
-        "known": 4
+        "total": 5,
+        "known": 5
       },
       "signals": {
         "positive": {
-          "count": 4,
+          "count": 5,
           "yearRange": {
             "min": 2022,
             "max": 2026
@@ -8549,13 +8567,13 @@
             },
             {
               "year": 2026,
-              "count": 2
+              "count": 3
             }
           ],
           "topJournals": [
             {
               "name": "Cardiovascular engineering and technology",
-              "count": 2
+              "count": 3
             },
             {
               "name": "European journal of pediatrics",
@@ -8569,14 +8587,26 @@
           "topKeywords": [
             {
               "name": "heart",
-              "count": 3
+              "count": 4
+            },
+            {
+              "name": "artery",
+              "count": 2
             },
             {
               "name": "left",
               "count": 2
             },
             {
+              "name": "neonates",
+              "count": 2
+            },
+            {
               "name": "pediatric",
+              "count": 2
+            },
+            {
+              "name": "pulmonary",
               "count": 2
             },
             {
@@ -8602,31 +8632,19 @@
             {
               "name": "adapts",
               "count": 1
-            },
-            {
-              "name": "advances",
-              "count": 1
-            },
-            {
-              "name": "artery",
-              "count": 1
-            },
-            {
-              "name": "banding",
-              "count": 1
             }
           ],
           "topCoauthors": [
+            {
+              "name": "Dominic P Recco",
+              "count": 3
+            },
             {
               "name": "Peter E Hammer",
               "count": 3
             },
             {
               "name": "David M Hoganson",
-              "count": 2
-            },
-            {
-              "name": "Dominic P Recco",
               "count": 2
             },
             {
@@ -8639,6 +8657,10 @@
             },
             {
               "name": "Baturalp Arslan",
+              "count": 1
+            },
+            {
+              "name": "Benigno Marco Fanni",
               "count": 1
             },
             {
@@ -8658,11 +8680,7 @@
               "count": 1
             },
             {
-              "name": "David J Carter",
-              "count": 1
-            },
-            {
-              "name": "David W Sutherland",
+              "name": "David Hoganson",
               "count": 1
             }
           ]

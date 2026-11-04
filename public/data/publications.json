@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-03",
-  "updatedAt": "2026-11-03T16:55:57.866Z",
+  "updated": "2026-11-04",
+  "updatedAt": "2026-11-04T16:55:22.206Z",
   "source": "PubMed E-utilities",
   "faculty": [
     {
@@ -5493,6 +5493,25 @@
           }
         },
         {
+          "id": "42978579",
+          "title": "Bioenergetic and Proteomic Profiling of ARID1A-Deficient Ovarian Clear Cell Carcinoma under Metabolic Challenge.",
+          "journal": "bioRxiv : the preprint server for biology",
+          "year": 2026,
+          "doi": "10.64898/2026.10.09.757928",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42978579/",
+          "publicationTypes": [
+            "Journal Article",
+            "Preprint"
+          ],
+          "versionLinks": [],
+          "authorship": {
+            "position": 14,
+            "total": 16,
+            "isFirst": false,
+            "isLast": false
+          }
+        },
+        {
           "id": "42904411",
           "title": "Cardiometabolic Risk, Minority Stress, and Resilience in the Study of Stress, Gender, and Minority Status (SGM SOL): An Ancillary Study of the Hispanic Community Health Study/Study of Latinos.",
           "journal": "Behavioral medicine (Washington, D.C.)",
@@ -6268,12 +6287,12 @@
       "authorCounts": {
         "first": 7,
         "last": 21,
-        "total": 40,
-        "known": 40
+        "total": 41,
+        "known": 41
       },
       "signals": {
         "positive": {
-          "count": 40,
+          "count": 41,
           "yearRange": {
             "min": 2019,
             "max": 2026
@@ -6309,7 +6328,7 @@
             },
             {
               "year": 2026,
-              "count": 7
+              "count": 8
             }
           ],
           "topJournals": [
@@ -6357,19 +6376,19 @@
           "topKeywords": [
             {
               "name": "ovarian",
-              "count": 17
+              "count": 18
             },
             {
               "name": "cancer",
               "count": 15
             },
             {
-              "name": "study",
+              "name": "proteomic",
               "count": 10
             },
             {
-              "name": "proteomic",
-              "count": 9
+              "name": "study",
+              "count": 10
             },
             {
               "name": "clinical",
@@ -6415,7 +6434,7 @@
             },
             {
               "name": "Carly A I Twigg",
-              "count": 7
+              "count": 8
             },
             {
               "name": "Jesenia M Perez",
@@ -24485,6 +24504,24 @@
           }
         },
         {
+          "id": "42977671",
+          "title": "Eliminating Safety Clutter in a Safety-Net Hospital.",
+          "journal": "Joint Commission journal on quality and patient safety",
+          "year": 2026,
+          "doi": "10.1016/j.jcjq.2026.09.010",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42977671/",
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [],
+          "authorship": {
+            "position": 2,
+            "total": 3,
+            "isFirst": false,
+            "isLast": true
+          }
+        },
+        {
           "id": "41697678",
           "title": "Medicaid Disenrollment Among Young Adults With and Without Complex Medical Conditions.",
           "journal": "JAMA pediatrics",
@@ -24938,13 +24975,13 @@
       ],
       "authorCounts": {
         "first": 11,
-        "last": 10,
-        "total": 27,
-        "known": 27
+        "last": 11,
+        "total": 28,
+        "known": 28
       },
       "signals": {
         "positive": {
-          "count": 27,
+          "count": 28,
           "yearRange": {
             "min": 2021,
             "max": 2026
@@ -24972,7 +25009,7 @@
             },
             {
               "year": 2026,
-              "count": 5
+              "count": 6
             }
           ],
           "topJournals": [
@@ -25055,15 +25092,15 @@
               "count": 3
             },
             {
+              "name": "hospital",
+              "count": 3
+            },
+            {
               "name": "mental",
               "count": 3
             },
             {
               "name": "nursing",
-              "count": 3
-            },
-            {
-              "name": "skilled",
               "count": 3
             }
           ],
@@ -30030,7 +30067,8 @@
           "doi": "10.1002/mrm.70486",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42415492/",
           "publicationTypes": [
-            "Journal Article"
+            "Journal Article",
+            "Research Support, N.I.H., Extramural"
           ],
           "versionLinks": [],
           "authorship": {
@@ -86765,7 +86803,8 @@
           "doi": "10.1371/journal.pone.0355778",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42709728/",
           "publicationTypes": [
-            "Journal Article"
+            "Journal Article",
+            "Research Support, U.S. Gov't, Non-P.H.S."
           ],
           "versionLinks": [],
           "authorship": {
@@ -109979,6 +110018,24 @@
           }
         },
         {
+          "id": "42977987",
+          "title": "Psychosocial stress exacerbates doxorubicin-induced cardiotoxicity in adult C57BL/6N mice.",
+          "journal": "Cardio-oncology (London, England)",
+          "year": 2026,
+          "doi": "10.1186/s40959-026-00549-0",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42977987/",
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [],
+          "authorship": {
+            "position": 8,
+            "total": 9,
+            "isFirst": false,
+            "isLast": true
+          }
+        },
+        {
           "id": "40319158",
           "title": "Divergent immediate and delayed effects of juvenile exposure to doxorubicin on the thymus in C57BL/6 mice.",
           "journal": "Scientific reports",
@@ -110658,13 +110715,13 @@
       ],
       "authorCounts": {
         "first": 1,
-        "last": 29,
-        "total": 38,
-        "known": 38
+        "last": 30,
+        "total": 39,
+        "known": 39
       },
       "signals": {
         "positive": {
-          "count": 38,
+          "count": 39,
           "yearRange": {
             "min": 2016,
             "max": 2026
@@ -110712,7 +110769,7 @@
             },
             {
               "year": 2026,
-              "count": 4
+              "count": 5
             }
           ],
           "topJournals": [
@@ -110730,6 +110787,10 @@
             },
             {
               "name": "Biomedicine & pharmacotherapy = Biomedecine & pharmacotherapie",
+              "count": 2
+            },
+            {
+              "name": "Cardio-oncology (London, England)",
               "count": 2
             },
             {
@@ -110751,28 +110812,24 @@
             {
               "name": "Antioxidants (Basel, Switzerland)",
               "count": 1
-            },
-            {
-              "name": "Biochimica et biophysica acta. Molecular basis of disease",
-              "count": 1
             }
           ],
           "topKeywords": [
             {
               "name": "induced",
-              "count": 21
+              "count": 22
             },
             {
               "name": "doxorubicin",
-              "count": 18
+              "count": 19
             },
             {
               "name": "mice",
-              "count": 13
+              "count": 14
             },
             {
               "name": "cardiotoxicity",
-              "count": 9
+              "count": 10
             },
             {
               "name": "cardiac",
@@ -110780,7 +110837,11 @@
             },
             {
               "name": "c57bl",
-              "count": 6
+              "count": 7
+            },
+            {
+              "name": "stress",
+              "count": 7
             },
             {
               "name": "cancer",
@@ -110788,10 +110849,6 @@
             },
             {
               "name": "endothelial",
-              "count": 6
-            },
-            {
-              "name": "stress",
               "count": 6
             },
             {
@@ -110810,7 +110867,7 @@
           "topCoauthors": [
             {
               "name": "Marianne K O Grant",
-              "count": 20
+              "count": 21
             },
             {
               "name": "Ibrahim Y Abdelgawad",
@@ -110818,18 +110875,22 @@
             },
             {
               "name": "Mohamed S Dabour",
-              "count": 13
+              "count": 14
             },
             {
               "name": "Alessandro Bartolomucci",
-              "count": 6
+              "count": 7
+            },
+            {
+              "name": "Mary R Daniel",
+              "count": 7
             },
             {
               "name": "Anne H Blaes",
               "count": 6
             },
             {
-              "name": "Mary R Daniel",
+              "name": "Maria Razzoli",
               "count": 6
             },
             {
@@ -110841,19 +110902,15 @@
               "count": 5
             },
             {
-              "name": "Maria Razzoli",
-              "count": 5
-            },
-            {
               "name": "Bushra Sadaf",
               "count": 3
             },
             {
-              "name": "Jason R B Dyck",
+              "name": "Fernando Souza-Neto",
               "count": 3
             },
             {
-              "name": "Karim T Sadak",
+              "name": "Jason R B Dyck",
               "count": 3
             }
           ]
