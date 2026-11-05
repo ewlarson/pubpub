@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-04",
-  "updatedAt": "2026-11-04T16:55:22.206Z",
+  "updated": "2026-11-05",
+  "updatedAt": "2026-11-05T17:10:13.818Z",
   "source": "PubMed E-utilities",
   "faculty": [
     {
@@ -45269,6 +45269,24 @@
           }
         },
         {
+          "id": "42980698",
+          "title": "Motor Expertise Combines Lower Task Engagement with Enhanced Error Sensitivity.",
+          "journal": "Cerebellum (London, England)",
+          "year": 2026,
+          "doi": "10.1007/s12311-026-02100-4",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42980698/",
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [],
+          "authorship": {
+            "position": 6,
+            "total": 10,
+            "isFirst": false,
+            "isLast": false
+          }
+        },
+        {
           "id": "42324687",
           "title": "Task-Evoked Functional Activation and Coupling With CSF Flow Detected in the Human Brain With Ultrashort Echo Time fMRI at 7 T.",
           "journal": "NMR in biomedicine",
@@ -47014,12 +47032,12 @@
       "authorCounts": {
         "first": 8,
         "last": 21,
-        "total": 93,
-        "known": 93
+        "total": 94,
+        "known": 94
       },
       "signals": {
         "positive": {
-          "count": 93,
+          "count": 94,
           "yearRange": {
             "min": 2012,
             "max": 2026
@@ -47083,7 +47101,7 @@
             },
             {
               "year": 2026,
-              "count": 8
+              "count": 9
             }
           ],
           "topJournals": [
@@ -47181,7 +47199,7 @@
           "topCoauthors": [
             {
               "name": "Shalom Michaeli",
-              "count": 57
+              "count": 58
             },
             {
               "name": "Olli Gr&#xf6;hn",
@@ -47189,7 +47207,7 @@
             },
             {
               "name": "Pavel Filip",
-              "count": 24
+              "count": 25
             },
             {
               "name": "Federico Giove",
@@ -81441,7 +81459,7 @@
         },
         {
           "id": "42667987",
-          "title": "Multi-ancestry sequencing analysis in 293,141 participants identifies predisposition DNA repair genes associated with HCC risk.",
+          "title": "Multi-ancestry sequencing analysis in 293,141 participants identifies predisposition DNA-repair genes associated with HCC risk.",
           "journal": "JHEP reports : innovation in hepatology",
           "year": 2026,
           "doi": "10.1016/j.jhepr.2026.102019",
@@ -81452,7 +81470,7 @@
           "versionLinks": [],
           "authorship": {
             "position": 16,
-            "total": 39,
+            "total": 38,
             "isFirst": false,
             "isLast": false
           }
@@ -102783,7 +102801,8 @@
           "doi": "10.1186/s12905-025-03826-9",
           "url": "https://pubmed.ncbi.nlm.nih.gov/40452024/",
           "publicationTypes": [
-            "Journal Article"
+            "Journal Article",
+            "Research Support, N.I.H., Extramural"
           ],
           "versionLinks": [],
           "authorship": {
