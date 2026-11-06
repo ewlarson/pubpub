@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-05",
-  "updatedAt": "2026-11-05T17:10:13.818Z",
+  "updated": "2026-11-06",
+  "updatedAt": "2026-11-06T16:40:50.902Z",
   "source": "PubMed E-utilities",
   "faculty": [
     {
@@ -9347,7 +9347,7 @@
         },
         {
           "id": "42896626",
-          "title": "Favorable survival for older adults treated with Axi-cel and Tisa-cel CD19 CAR-T therapy for relapsed/refractory DLBCL: a U.S. multicenter comparative analysis.",
+          "title": "Favorable Survival for Older Adults Treated With Axi-cel and Tisa-cel CD19 CAR-T Therapy for Relapsed/Refractory DLBCL: A U.S. Multicenter Comparative Analysis.",
           "journal": "Transplantation and cellular therapy",
           "year": 2026,
           "doi": "10.1016/j.jtct.2026.09.014",
@@ -19256,6 +19256,24 @@
           }
         },
         {
+          "id": "42988585",
+          "title": "Metformin and Severe Post-COVID-19 Outcomes Among Individuals With Diabetes Mellitus.",
+          "journal": "Diabetes, obesity & metabolism",
+          "year": 2026,
+          "doi": "10.1111/dom.71502",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42988585/",
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [],
+          "authorship": {
+            "position": 19,
+            "total": 21,
+            "isFirst": false,
+            "isLast": false
+          }
+        },
+        {
           "id": "42465953",
           "title": "Metformin and Severe Post-COVID-19 Outcomes Among Individuals with Diabetes Mellitus.",
           "journal": "medRxiv : the preprint server for health sciences",
@@ -20906,12 +20924,12 @@
       "authorCounts": {
         "first": 20,
         "last": 8,
-        "total": 77,
-        "known": 77
+        "total": 78,
+        "known": 78
       },
       "signals": {
         "positive": {
-          "count": 77,
+          "count": 78,
           "yearRange": {
             "min": 2019,
             "max": 2026
@@ -20947,7 +20965,7 @@
             },
             {
               "year": 2026,
-              "count": 12
+              "count": 13
             }
           ],
           "topJournals": [
@@ -20995,7 +21013,7 @@
           "topKeywords": [
             {
               "name": "covid",
-              "count": 51
+              "count": 52
             },
             {
               "name": "trial",
@@ -21007,11 +21025,11 @@
             },
             {
               "name": "diabetes",
-              "count": 14
+              "count": 15
             },
             {
               "name": "metformin",
-              "count": 14
+              "count": 15
             },
             {
               "name": "randomized",
@@ -21039,13 +21057,13 @@
             },
             {
               "name": "severe",
-              "count": 9
+              "count": 10
             }
           ],
           "topCoauthors": [
             {
               "name": "John B Buse",
-              "count": 20
+              "count": 21
             },
             {
               "name": "David R Boulware",
@@ -21057,7 +21075,7 @@
             },
             {
               "name": "Rachel Wong",
-              "count": 13
+              "count": 14
             },
             {
               "name": "Jared D Huling",
@@ -21068,11 +21086,11 @@
               "count": 11
             },
             {
-              "name": "Eric M Bomberg",
-              "count": 10
+              "name": "Steven G Johnson",
+              "count": 11
             },
             {
-              "name": "Steven G Johnson",
+              "name": "Eric M Bomberg",
               "count": 10
             },
             {
@@ -45313,7 +45331,8 @@
           "url": "https://pubmed.ncbi.nlm.nih.gov/41895548/",
           "publicationTypes": [
             "Journal Article",
-            "Review"
+            "Review",
+            "Research Support, Non-U.S. Gov't"
           ],
           "versionLinks": [],
           "authorship": {
@@ -91414,6 +91433,24 @@
       ],
       "publications": [
         {
+          "id": "42987602",
+          "title": "Weight stigma and healthcare avoidance: Associations with dieting, disordered eating and other weight-control behaviors.",
+          "journal": "Eating behaviors",
+          "year": 2026,
+          "doi": "10.1016/j.eatbeh.2026.102139",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42987602/",
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [],
+          "authorship": {
+            "position": 0,
+            "total": 5,
+            "isFirst": true,
+            "isLast": false
+          }
+        },
+        {
           "id": "40639532",
           "title": "A qualitative analysis of psychological and behavioral outcomes of weight-related self-monitoring among a population-based sample of emerging adults.",
           "journal": "Appetite",
@@ -92441,17 +92478,17 @@
         }
       ],
       "authorCounts": {
-        "first": 6,
+        "first": 7,
         "last": 5,
-        "total": 53,
-        "known": 53
+        "total": 54,
+        "known": 54
       },
       "signals": {
         "positive": {
-          "count": 53,
+          "count": 54,
           "yearRange": {
             "min": 2020,
-            "max": 2025
+            "max": 2026
           },
           "yearCounts": [
             {
@@ -92477,6 +92514,10 @@
             {
               "year": 2025,
               "count": 7
+            },
+            {
+              "year": 2026,
+              "count": 1
             }
           ],
           "topJournals": [
@@ -92486,7 +92527,7 @@
             },
             {
               "name": "Eating behaviors",
-              "count": 4
+              "count": 5
             },
             {
               "name": "Journal of the American Board of Family Medicine : JABFM",
@@ -92524,14 +92565,14 @@
           "topKeywords": [
             {
               "name": "eating",
+              "count": 20
+            },
+            {
+              "name": "weight",
               "count": 19
             },
             {
               "name": "food",
-              "count": 17
-            },
-            {
-              "name": "weight",
               "count": 17
             },
             {
@@ -92556,7 +92597,7 @@
             },
             {
               "name": "disordered",
-              "count": 10
+              "count": 11
             },
             {
               "name": "family",
@@ -92574,7 +92615,7 @@
           "topCoauthors": [
             {
               "name": "Dianne Neumark-Sztainer",
-              "count": 26
+              "count": 27
             },
             {
               "name": "Jerica M Berge",
@@ -92617,8 +92658,8 @@
               "count": 5
             },
             {
-              "name": "Angela R Fertig",
-              "count": 4
+              "name": "Melanie Wall",
+              "count": 5
             }
           ]
         },

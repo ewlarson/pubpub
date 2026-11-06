@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-05",
-  "updatedAt": "2026-11-05T17:10:13.818Z",
+  "updated": "2026-11-06",
+  "updatedAt": "2026-11-06T16:40:50.902Z",
   "source": "NIH RePORTER API",
   "faculty": [
     {
@@ -3937,17 +3937,6 @@
           "coreProjectNum": "R35GM142695"
         },
         {
-          "id": "3R35GM142695-03S1",
-          "title": "Statistical and Machine Learning Methods to Address Biomedical Challenges for Integrating Multi-view Data",
-          "role": "Not listed",
-          "amount": 351514,
-          "startDate": "2021-09-23",
-          "endDate": "2026-06-30",
-          "fiscalYear": 2023,
-          "url": "https://reporter.nih.gov/project-details/10711864",
-          "coreProjectNum": "R35GM142695"
-        },
-        {
           "id": "3R35GM142695-03S2",
           "title": "MultiViewPortal: Towards a Scalable Web Application for Multiview Learning",
           "role": "Not listed",
@@ -3956,6 +3945,17 @@
           "endDate": "2026-06-30",
           "fiscalYear": 2023,
           "url": "https://reporter.nih.gov/project-details/10827749",
+          "coreProjectNum": "R35GM142695"
+        },
+        {
+          "id": "3R35GM142695-03S1",
+          "title": "Statistical and Machine Learning Methods to Address Biomedical Challenges for Integrating Multi-view Data",
+          "role": "Not listed",
+          "amount": 351514,
+          "startDate": "2021-09-23",
+          "endDate": "2026-06-30",
+          "fiscalYear": 2023,
+          "url": "https://reporter.nih.gov/project-details/10711864",
           "coreProjectNum": "R35GM142695"
         },
         {
@@ -4291,17 +4291,6 @@
           "coreProjectNum": "R01AG075734"
         },
         {
-          "id": "3R01AG075734-02S1",
-          "title": "Training the Long-Term Services and Supports Dementia Care Workforce in Provision of Care to Sexual and Gender Minority Residents",
-          "role": "Not listed",
-          "amount": 25096,
-          "startDate": "2022-09-15",
-          "endDate": "2026-05-31",
-          "fiscalYear": 2024,
-          "url": "https://reporter.nih.gov/project-details/11004546",
-          "coreProjectNum": "R01AG075734"
-        },
-        {
           "id": "3R01AG075734-03S1",
           "title": "Training the Long-Term Services and Supports Dementia Care Workforce in Provision of Care to Sexual and Gender Minority Residents",
           "role": "Not listed",
@@ -4310,6 +4299,17 @@
           "endDate": "2026-05-31",
           "fiscalYear": 2024,
           "url": "https://reporter.nih.gov/project-details/11090086",
+          "coreProjectNum": "R01AG075734"
+        },
+        {
+          "id": "3R01AG075734-02S1",
+          "title": "Training the Long-Term Services and Supports Dementia Care Workforce in Provision of Care to Sexual and Gender Minority Residents",
+          "role": "Not listed",
+          "amount": 25096,
+          "startDate": "2022-09-15",
+          "endDate": "2026-05-31",
+          "fiscalYear": 2024,
+          "url": "https://reporter.nih.gov/project-details/11004546",
           "coreProjectNum": "R01AG075734"
         },
         {
