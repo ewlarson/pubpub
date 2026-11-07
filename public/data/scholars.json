@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-06",
-  "updatedAt": "2026-11-06T16:37:07.969Z",
+  "updated": "2026-11-07",
+  "updatedAt": "2026-11-07T15:25:34.926Z",
   "source": "PubMed E-utilities (ORCID)",
   "faculty": [
     {
@@ -4454,16 +4454,120 @@
         }
       ],
       "projectTitle": "Acute overeating and its timing: Implications for inflammation, metabolism, and obesity",
-      "publications": [],
-      "authorCounts": null,
+      "publications": [
+        {
+          "publicationTypes": [
+            "Journal Article",
+            "Preprint"
+          ],
+          "versionLinks": [],
+          "id": "42990196",
+          "title": "Cell-type resolved prenylomics in mouse liver enabled by a low-input proteomics workflow.",
+          "journal": "bioRxiv : the preprint server for biology",
+          "year": 2026,
+          "doi": "10.64898/2026.10.23.761417",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42990196/",
+          "authorship": {
+            "position": 2,
+            "total": 6,
+            "isFirst": false,
+            "isLast": false
+          }
+        }
+      ],
+      "authorCounts": {
+        "first": 0,
+        "last": 0,
+        "total": 1,
+        "known": 1
+      },
       "signals": {
         "positive": {
-          "count": 0,
-          "yearRange": null,
-          "yearCounts": [],
-          "topJournals": [],
-          "topKeywords": [],
-          "topCoauthors": []
+          "count": 1,
+          "yearRange": {
+            "min": 2026,
+            "max": 2026
+          },
+          "yearCounts": [
+            {
+              "year": 2026,
+              "count": 1
+            }
+          ],
+          "topJournals": [
+            {
+              "name": "bioRxiv : the preprint server for biology",
+              "count": 1
+            }
+          ],
+          "topKeywords": [
+            {
+              "name": "cell",
+              "count": 1
+            },
+            {
+              "name": "enabled",
+              "count": 1
+            },
+            {
+              "name": "input",
+              "count": 1
+            },
+            {
+              "name": "liver",
+              "count": 1
+            },
+            {
+              "name": "low",
+              "count": 1
+            },
+            {
+              "name": "mouse",
+              "count": 1
+            },
+            {
+              "name": "prenylomics",
+              "count": 1
+            },
+            {
+              "name": "proteomics",
+              "count": 1
+            },
+            {
+              "name": "resolved",
+              "count": 1
+            },
+            {
+              "name": "type",
+              "count": 1
+            },
+            {
+              "name": "workflow",
+              "count": 1
+            }
+          ],
+          "topCoauthors": [
+            {
+              "name": "Douglas Mashek",
+              "count": 1
+            },
+            {
+              "name": "Harinarayanan Kottala",
+              "count": 1
+            },
+            {
+              "name": "LeeAnn Higgins",
+              "count": 1
+            },
+            {
+              "name": "Mara T Mashek",
+              "count": 1
+            },
+            {
+              "name": "Mark D Distefano",
+              "count": 1
+            }
+          ]
         },
         "negative": {
           "count": 0,

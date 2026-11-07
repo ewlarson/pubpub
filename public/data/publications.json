@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-06",
-  "updatedAt": "2026-11-06T16:40:50.902Z",
+  "updated": "2026-11-07",
+  "updatedAt": "2026-11-07T15:29:16.908Z",
   "source": "PubMed E-utilities",
   "faculty": [
     {
@@ -81367,6 +81367,24 @@
       ],
       "publications": [
         {
+          "id": "42992835",
+          "title": "AASLD EXPO: Diagnosis and management of hepatitis delta virus (HDV) infection.",
+          "journal": "Hepatology (Baltimore, Md.)",
+          "year": 2026,
+          "doi": "10.1097/HEP.0000000000001909",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42992835/",
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [],
+          "authorship": {
+            "position": 1,
+            "total": 5,
+            "isFirst": false,
+            "isLast": false
+          }
+        },
+        {
           "id": "42831646",
           "title": "ACG Clinical Guideline: Preventive Care for Patients With Cirrhosis.",
           "journal": "The American journal of gastroenterology",
@@ -82301,12 +82319,12 @@
       "authorCounts": {
         "first": 3,
         "last": 30,
-        "total": 50,
-        "known": 50
+        "total": 51,
+        "known": 51
       },
       "signals": {
         "positive": {
-          "count": 50,
+          "count": 51,
           "yearRange": {
             "min": 2021,
             "max": 2026
@@ -82334,7 +82352,7 @@
             },
             {
               "year": 2026,
-              "count": 9
+              "count": 10
             }
           ],
           "topJournals": [
@@ -82390,7 +82408,7 @@
             },
             {
               "name": "hepatitis",
-              "count": 15
+              "count": 16
             },
             {
               "name": "liver",
@@ -85373,6 +85391,24 @@
           }
         },
         {
+          "id": "42994682",
+          "title": "Sex differences in ADHD Diagnosis and Care Patterns Among Children Enrolled in North Carolina Medicaid.",
+          "journal": "Academic pediatrics",
+          "year": 2026,
+          "doi": "10.1016/j.acap.2026.103753",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42994682/",
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [],
+          "authorship": {
+            "position": 4,
+            "total": 8,
+            "isFirst": false,
+            "isLast": false
+          }
+        },
+        {
           "id": "39927916",
           "title": "Childhood Adversity and Civic Engagement During Emerging Adulthood.",
           "journal": "The Journal of adolescent health : official publication of the Society for Adolescent Medicine",
@@ -85918,12 +85954,12 @@
       "authorCounts": {
         "first": 13,
         "last": 9,
-        "total": 30,
-        "known": 30
+        "total": 31,
+        "known": 31
       },
       "signals": {
         "positive": {
-          "count": 30,
+          "count": 31,
           "yearRange": {
             "min": 2014,
             "max": 2026
@@ -85971,13 +86007,13 @@
             },
             {
               "year": 2026,
-              "count": 1
+              "count": 2
             }
           ],
           "topJournals": [
             {
               "name": "Academic pediatrics",
-              "count": 3
+              "count": 4
             },
             {
               "name": "Journal of American college health : J of ACH",
@@ -86023,7 +86059,7 @@
             },
             {
               "name": "among",
-              "count": 7
+              "count": 8
             },
             {
               "name": "adolescent",
@@ -86050,6 +86086,10 @@
               "count": 4
             },
             {
+              "name": "care",
+              "count": 4
+            },
+            {
               "name": "childhood",
               "count": 4
             },
@@ -86059,10 +86099,6 @@
             },
             {
               "name": "ethnic",
-              "count": 4
-            },
-            {
-              "name": "parent",
               "count": 4
             }
           ],
@@ -86100,6 +86136,10 @@
               "count": 3
             },
             {
+              "name": "Jessica R Lunsford-Avery",
+              "count": 3
+            },
+            {
               "name": "Todd M Jensen",
               "count": 3
             },
@@ -86109,10 +86149,6 @@
             },
             {
               "name": "Allison Falls",
-              "count": 2
-            },
-            {
-              "name": "Charlotte M Nitardy",
               "count": 2
             }
           ]
@@ -89512,6 +89548,25 @@
           ]
         },
         {
+          "id": "42990523",
+          "title": "Loss of SUR1 and Kir6.2 ATP-sensitive potassium channel subunits produces comparable neuronal excitability and morphine antinociception.",
+          "journal": "bioRxiv : the preprint server for biology",
+          "year": 2026,
+          "doi": "10.64898/2026.10.27.761978",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42990523/",
+          "publicationTypes": [
+            "Journal Article",
+            "Preprint"
+          ],
+          "versionLinks": [],
+          "authorship": {
+            "position": 5,
+            "total": 6,
+            "isFirst": false,
+            "isLast": true
+          }
+        },
+        {
           "id": "41611994",
           "title": "The Biomarkers Consortium: 20 years of advancing precision medicine.",
           "journal": "Nature reviews. Drug discovery",
@@ -89699,13 +89754,13 @@
       ],
       "authorCounts": {
         "first": 3,
-        "last": 5,
-        "total": 10,
-        "known": 10
+        "last": 6,
+        "total": 11,
+        "known": 11
       },
       "signals": {
         "positive": {
-          "count": 10,
+          "count": 11,
           "yearRange": {
             "min": 2021,
             "max": 2026
@@ -89729,12 +89784,16 @@
             },
             {
               "year": 2026,
-              "count": 3
+              "count": 4
             }
           ],
           "topJournals": [
             {
               "name": "Behavioural brain research",
+              "count": 1
+            },
+            {
+              "name": "bioRxiv : the preprint server for biology",
               "count": 1
             },
             {
@@ -89768,15 +89827,19 @@
             {
               "name": "Pain",
               "count": 1
-            },
-            {
-              "name": "The Journal of pharmacology and experimental therapeutics",
-              "count": 1
             }
           ],
           "topKeywords": [
             {
               "name": "atp",
+              "count": 5
+            },
+            {
+              "name": "channel",
+              "count": 4
+            },
+            {
+              "name": "morphine",
               "count": 4
             },
             {
@@ -89792,10 +89855,6 @@
               "count": 3
             },
             {
-              "name": "channel",
-              "count": 3
-            },
-            {
               "name": "cyclase",
               "count": 3
             },
@@ -89808,7 +89867,7 @@
               "count": 3
             },
             {
-              "name": "morphine",
+              "name": "loss",
               "count": 3
             },
             {
@@ -89818,16 +89877,12 @@
             {
               "name": "opioid",
               "count": 3
-            },
-            {
-              "name": "after",
-              "count": 2
             }
           ],
           "topCoauthors": [
             {
               "name": "Kayla Johnson",
-              "count": 5
+              "count": 6
             },
             {
               "name": "Val J Watts",
@@ -89842,11 +89897,19 @@
               "count": 2
             },
             {
+              "name": "Brie Beck",
+              "count": 2
+            },
+            {
               "name": "Madelyn Moore",
               "count": 2
             },
             {
               "name": "Shelby Hulke",
+              "count": 2
+            },
+            {
+              "name": "Sunna Mujteba",
               "count": 2
             },
             {
@@ -89863,14 +89926,6 @@
             },
             {
               "name": "Amir Sadrati",
-              "count": 1
-            },
-            {
-              "name": "Annadka Shrinidhi",
-              "count": 1
-            },
-            {
-              "name": "Arin Bhattacharjee",
               "count": 1
             }
           ]
@@ -99422,6 +99477,25 @@
           }
         },
         {
+          "id": "42990684",
+          "title": "Exploring the Attitudes, Barriers, Concerns, Differences, and Ethics (ABCDEs) of Healthcare Decision Making of Vagus Nerve Stimulation.",
+          "journal": "medRxiv : the preprint server for health sciences",
+          "year": 2026,
+          "doi": "10.64898/2026.10.27.26366559",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42990684/",
+          "publicationTypes": [
+            "Journal Article",
+            "Preprint"
+          ],
+          "versionLinks": [],
+          "authorship": {
+            "position": 4,
+            "total": 12,
+            "isFirst": false,
+            "isLast": false
+          }
+        },
+        {
           "id": "42369462",
           "title": "Mental Health Outcomes of Foster and Adopted Individuals with Adverse Childhood Experiences: A Validation of Known Risks Using EHR Data.",
           "journal": "medRxiv : the preprint server for health sciences",
@@ -99603,12 +99677,12 @@
       "authorCounts": {
         "first": 1,
         "last": 2,
-        "total": 7,
-        "known": 7
+        "total": 8,
+        "known": 8
       },
       "signals": {
         "positive": {
-          "count": 7,
+          "count": 8,
           "yearRange": {
             "min": 2024,
             "max": 2026
@@ -99624,13 +99698,13 @@
             },
             {
               "year": 2026,
-              "count": 3
+              "count": 4
             }
           ],
           "topJournals": [
             {
               "name": "medRxiv : the preprint server for health sciences",
-              "count": 2
+              "count": 3
             },
             {
               "name": "Cell",
@@ -99675,6 +99749,10 @@
               "count": 2
             },
             {
+              "name": "abcdes",
+              "count": 1
+            },
+            {
               "name": "adopted",
               "count": 1
             },
@@ -99696,10 +99774,6 @@
             },
             {
               "name": "arousal",
-              "count": 1
-            },
-            {
-              "name": "association",
               "count": 1
             }
           ],
@@ -109645,6 +109719,25 @@
       ],
       "publications": [
         {
+          "id": "42990684",
+          "title": "Exploring the Attitudes, Barriers, Concerns, Differences, and Ethics (ABCDEs) of Healthcare Decision Making of Vagus Nerve Stimulation.",
+          "journal": "medRxiv : the preprint server for health sciences",
+          "year": 2026,
+          "doi": "10.64898/2026.10.27.26366559",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42990684/",
+          "publicationTypes": [
+            "Journal Article",
+            "Preprint"
+          ],
+          "versionLinks": [],
+          "authorship": {
+            "position": 11,
+            "total": 12,
+            "isFirst": false,
+            "isLast": true
+          }
+        },
+        {
           "id": "40103354",
           "title": "Assessment and Management of Concurrent Substance Use in Patients Receiving Repetitive Transcranial Magnetic Stimulation for Depressive, Obsessive-Compulsive, Psychotic, and Trauma-Related Disorders: A Delphi Consensus Study and Guideline.",
           "journal": "The American journal of psychiatry",
@@ -109791,16 +109884,16 @@
       ],
       "authorCounts": {
         "first": 0,
-        "last": 1,
-        "total": 6,
-        "known": 6
+        "last": 2,
+        "total": 7,
+        "known": 7
       },
       "signals": {
         "positive": {
-          "count": 6,
+          "count": 7,
           "yearRange": {
             "min": 2023,
-            "max": 2025
+            "max": 2026
           },
           "yearCounts": [
             {
@@ -109814,6 +109907,10 @@
             {
               "year": 2025,
               "count": 1
+            },
+            {
+              "year": 2026,
+              "count": 1
             }
           ],
           "topJournals": [
@@ -109823,6 +109920,10 @@
             },
             {
               "name": "Journal of mood and anxiety disorders",
+              "count": 1
+            },
+            {
+              "name": "medRxiv : the preprint server for health sciences",
               "count": 1
             },
             {
@@ -109840,16 +109941,20 @@
           ],
           "topKeywords": [
             {
-              "name": "magnetic",
-              "count": 3
+              "name": "stimulation",
+              "count": 4
             },
             {
-              "name": "stimulation",
+              "name": "magnetic",
               "count": 3
             },
             {
               "name": "transcranial",
               "count": 3
+            },
+            {
+              "name": "barriers",
+              "count": 2
             },
             {
               "name": "cardiac",
@@ -109864,6 +109969,10 @@
               "count": 2
             },
             {
+              "name": "abcdes",
+              "count": 1
+            },
+            {
               "name": "address",
               "count": 1
             },
@@ -109876,33 +109985,29 @@
               "count": 1
             },
             {
-              "name": "barriers",
-              "count": 1
-            },
-            {
-              "name": "bipoc",
-              "count": 1
-            },
-            {
-              "name": "careers",
+              "name": "attitudes",
               "count": 1
             }
           ],
           "topCoauthors": [
             {
               "name": "Ziad Nahas",
-              "count": 4
+              "count": 5
             },
             {
               "name": "Alik S Widge",
-              "count": 3
+              "count": 4
             },
             {
               "name": "Christi Rp Sullivan",
-              "count": 3
+              "count": 4
             },
             {
               "name": "Alexander Herman",
+              "count": 2
+            },
+            {
+              "name": "Anita Randolph",
               "count": 2
             },
             {
@@ -109910,7 +110015,15 @@
               "count": 2
             },
             {
+              "name": "Cash Differding",
+              "count": 2
+            },
+            {
               "name": "Linda L Carpenter",
+              "count": 2
+            },
+            {
+              "name": "Rachel A Johnson",
               "count": 2
             },
             {
@@ -109923,18 +110036,6 @@
             },
             {
               "name": "Alex Henry",
-              "count": 1
-            },
-            {
-              "name": "Alik Widge",
-              "count": 1
-            },
-            {
-              "name": "Alyssa M Krueger",
-              "count": 1
-            },
-            {
-              "name": "Andr&#xe9; R Brunoni",
               "count": 1
             }
           ]
