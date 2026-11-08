@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-07",
-  "updatedAt": "2026-11-07T15:25:34.926Z",
+  "updated": "2026-11-08",
+  "updatedAt": "2026-11-08T15:47:58.687Z",
   "source": "PubMed E-utilities (ORCID)",
   "faculty": [
     {
@@ -4323,17 +4323,36 @@
             "isFirst": false,
             "isLast": false
           }
+        },
+        {
+          "publicationTypes": [
+            "Journal Article",
+            "Preprint"
+          ],
+          "versionLinks": [],
+          "id": "42996008",
+          "title": "Task-evoked flexibility of intrinsic neural timescales is hierarchically organized, behaviorally relevant, and refined across two developmental stages.",
+          "journal": "bioRxiv : the preprint server for biology",
+          "year": 2026,
+          "doi": "10.64898/2026.10.21.760719",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42996008/",
+          "authorship": {
+            "position": 3,
+            "total": 6,
+            "isFirst": false,
+            "isLast": false
+          }
         }
       ],
       "authorCounts": {
         "first": 0,
         "last": 0,
-        "total": 1,
-        "known": 1
+        "total": 2,
+        "known": 2
       },
       "signals": {
         "positive": {
-          "count": 1,
+          "count": 2,
           "yearRange": {
             "min": 2026,
             "max": 2026
@@ -4341,10 +4360,14 @@
           "yearCounts": [
             {
               "year": 2026,
-              "count": 1
+              "count": 2
             }
           ],
           "topJournals": [
+            {
+              "name": "bioRxiv : the preprint server for biology",
+              "count": 1
+            },
             {
               "name": "Brain structure & function",
               "count": 1
@@ -4356,6 +4379,10 @@
               "count": 2
             },
             {
+              "name": "across",
+              "count": 1
+            },
+            {
               "name": "adults",
               "count": 1
             },
@@ -4365,6 +4392,10 @@
             },
             {
               "name": "baseline",
+              "count": 1
+            },
+            {
+              "name": "behaviorally",
               "count": 1
             },
             {
@@ -4380,27 +4411,31 @@
               "count": 1
             },
             {
+              "name": "developmental",
+              "count": 1
+            },
+            {
               "name": "differential",
               "count": 1
             },
             {
               "name": "during",
               "count": 1
-            },
-            {
-              "name": "fmrs",
-              "count": 1
-            },
-            {
-              "name": "glutamate",
-              "count": 1
-            },
-            {
-              "name": "healthy",
-              "count": 1
             }
           ],
           "topCoauthors": [
+            {
+              "name": "Amber Howell",
+              "count": 1
+            },
+            {
+              "name": "Andrew Westbrook",
+              "count": 1
+            },
+            {
+              "name": "Bart Larsen",
+              "count": 1
+            },
             {
               "name": "Dalal Khatib",
               "count": 1
@@ -4418,7 +4453,15 @@
               "count": 1
             },
             {
+              "name": "Linden Parkes",
+              "count": 1
+            },
+            {
               "name": "Vaibhav A Diwadkar",
+              "count": 1
+            },
+            {
+              "name": "Valerie J Sydnor",
               "count": 1
             }
           ]
@@ -8109,6 +8152,25 @@
         {
           "publicationTypes": [
             "Journal Article",
+            "Preprint"
+          ],
+          "versionLinks": [],
+          "id": "42999160",
+          "title": "Automated compartment-based quantification reveals distinct patterns of cutaneous innervation with aging and microbial colonization.",
+          "journal": "bioRxiv : the preprint server for biology",
+          "year": 2026,
+          "doi": "10.64898/2026.10.12.758665",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42999160/",
+          "authorship": {
+            "position": 6,
+            "total": 7,
+            "isFirst": false,
+            "isLast": true
+          }
+        },
+        {
+          "publicationTypes": [
+            "Journal Article",
             "Research Support, N.I.H., Extramural",
             "Research Support, Non-U.S. Gov't"
           ],
@@ -8149,16 +8211,16 @@
       ],
       "authorCounts": {
         "first": 0,
-        "last": 1,
-        "total": 2,
-        "known": 2
+        "last": 2,
+        "total": 3,
+        "known": 3
       },
       "signals": {
         "positive": {
-          "count": 2,
+          "count": 3,
           "yearRange": {
             "min": 2022,
-            "max": 2025
+            "max": 2026
           },
           "yearCounts": [
             {
@@ -8168,9 +8230,17 @@
             {
               "year": 2025,
               "count": 1
+            },
+            {
+              "year": 2026,
+              "count": 1
             }
           ],
           "topJournals": [
+            {
+              "name": "bioRxiv : the preprint server for biology",
+              "count": 1
+            },
             {
               "name": "Science (New York, N.Y.)",
               "count": 1
@@ -8186,6 +8256,34 @@
               "count": 2
             },
             {
+              "name": "aging",
+              "count": 1
+            },
+            {
+              "name": "automated",
+              "count": 1
+            },
+            {
+              "name": "based",
+              "count": 1
+            },
+            {
+              "name": "colonization",
+              "count": 1
+            },
+            {
+              "name": "compartment",
+              "count": 1
+            },
+            {
+              "name": "cutaneous",
+              "count": 1
+            },
+            {
+              "name": "distinct",
+              "count": 1
+            },
+            {
               "name": "female",
               "count": 1
             },
@@ -8194,46 +8292,22 @@
               "count": 1
             },
             {
+              "name": "innervation",
+              "count": 1
+            },
+            {
               "name": "local",
-              "count": 1
-            },
-            {
-              "name": "memory",
-              "count": 1
-            },
-            {
-              "name": "meningeal",
-              "count": 1
-            },
-            {
-              "name": "mice",
-              "count": 1
-            },
-            {
-              "name": "nociception",
-              "count": 1
-            },
-            {
-              "name": "proliferation",
-              "count": 1
-            },
-            {
-              "name": "regulatory",
-              "count": 1
-            },
-            {
-              "name": "required",
-              "count": 1
-            },
-            {
-              "name": "resident",
               "count": 1
             }
           ],
           "topCoauthors": [
             {
               "name": "&#xc9;lora Midavaine",
-              "count": 1
+              "count": 2
+            },
+            {
+              "name": "Beatriz C Moraes",
+              "count": 2
             },
             {
               "name": "Allan I Basbaum",
@@ -8241,10 +8315,6 @@
             },
             {
               "name": "Ana I Domingos",
-              "count": 1
-            },
-            {
-              "name": "Beatriz C Moraes",
               "count": 1
             },
             {
@@ -8256,6 +8326,10 @@
               "count": 1
             },
             {
+              "name": "Crystal A Chu",
+              "count": 1
+            },
+            {
               "name": "Daniel H Kaplan",
               "count": 1
             },
@@ -8264,19 +8338,15 @@
               "count": 1
             },
             {
+              "name": "Henry Le Chang",
+              "count": 1
+            },
+            {
               "name": "Joao M Braz",
               "count": 1
             },
             {
               "name": "John E Pintar",
-              "count": 1
-            },
-            {
-              "name": "Jonhan Ho",
-              "count": 1
-            },
-            {
-              "name": "Jorge Benitez",
               "count": 1
             }
           ]
@@ -10602,16 +10672,140 @@
         }
       ],
       "projectTitle": "Development of a First-in-Class Treatment Approach for Pediatric Neuroblastoma",
-      "publications": [],
-      "authorCounts": null,
+      "publications": [
+        {
+          "publicationTypes": [
+            "Journal Article",
+            "Preprint"
+          ],
+          "versionLinks": [],
+          "id": "42999305",
+          "title": "Bivalent Inhibitor Development for a Dynamic Epigenetic Tandem Reader Protein Using a Combinatorial Histone Code.",
+          "journal": "bioRxiv : the preprint server for biology",
+          "year": 2026,
+          "doi": "10.64898/2026.10.09.758058",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42999305/",
+          "authorship": {
+            "position": 0,
+            "total": 10,
+            "isFirst": true,
+            "isLast": false
+          }
+        }
+      ],
+      "authorCounts": {
+        "first": 1,
+        "last": 0,
+        "total": 1,
+        "known": 1
+      },
       "signals": {
         "positive": {
-          "count": 0,
-          "yearRange": null,
-          "yearCounts": [],
-          "topJournals": [],
-          "topKeywords": [],
-          "topCoauthors": []
+          "count": 1,
+          "yearRange": {
+            "min": 2026,
+            "max": 2026
+          },
+          "yearCounts": [
+            {
+              "year": 2026,
+              "count": 1
+            }
+          ],
+          "topJournals": [
+            {
+              "name": "bioRxiv : the preprint server for biology",
+              "count": 1
+            }
+          ],
+          "topKeywords": [
+            {
+              "name": "bivalent",
+              "count": 1
+            },
+            {
+              "name": "code",
+              "count": 1
+            },
+            {
+              "name": "combinatorial",
+              "count": 1
+            },
+            {
+              "name": "development",
+              "count": 1
+            },
+            {
+              "name": "dynamic",
+              "count": 1
+            },
+            {
+              "name": "epigenetic",
+              "count": 1
+            },
+            {
+              "name": "histone",
+              "count": 1
+            },
+            {
+              "name": "inhibitor",
+              "count": 1
+            },
+            {
+              "name": "protein",
+              "count": 1
+            },
+            {
+              "name": "reader",
+              "count": 1
+            },
+            {
+              "name": "tandem",
+              "count": 1
+            },
+            {
+              "name": "using",
+              "count": 1
+            }
+          ],
+          "topCoauthors": [
+            {
+              "name": "Kerstin E Peterson",
+              "count": 1
+            },
+            {
+              "name": "Kesavan Babu",
+              "count": 1
+            },
+            {
+              "name": "Marcus Fischer",
+              "count": 1
+            },
+            {
+              "name": "Molly S Sneddon",
+              "count": 1
+            },
+            {
+              "name": "Natalia Y Tretyakova",
+              "count": 1
+            },
+            {
+              "name": "Richard K Begyinah",
+              "count": 1
+            },
+            {
+              "name": "Ryan F Friess",
+              "count": 1
+            },
+            {
+              "name": "Thomas G Smith",
+              "count": 1
+            },
+            {
+              "name": "William C K Pomerantz",
+              "count": 1
+            }
+          ]
         },
         "negative": {
           "count": 0,
@@ -15395,6 +15589,25 @@
         {
           "publicationTypes": [
             "Journal Article",
+            "Preprint"
+          ],
+          "versionLinks": [],
+          "id": "42996046",
+          "title": "Structural damage of the cervical spinal cord within and beyond the maximal compression area in mucopolysaccharidosis types I and VI.",
+          "journal": "medRxiv : the preprint server for health sciences",
+          "year": 2026,
+          "doi": "10.64898/2026.10.21.26365852",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42996046/",
+          "authorship": {
+            "position": 8,
+            "total": 11,
+            "isFirst": false,
+            "isLast": false
+          }
+        },
+        {
+          "publicationTypes": [
+            "Journal Article",
             "Research Support, N.I.H., Extramural",
             "Research Support, Non-U.S. Gov't"
           ],
@@ -15516,15 +15729,15 @@
       "authorCounts": {
         "first": 2,
         "last": 2,
-        "total": 6,
-        "known": 6
+        "total": 7,
+        "known": 7
       },
       "signals": {
         "positive": {
-          "count": 6,
+          "count": 7,
           "yearRange": {
             "min": 2016,
-            "max": 2025
+            "max": 2026
           },
           "yearCounts": [
             {
@@ -15550,6 +15763,10 @@
             {
               "year": 2025,
               "count": 1
+            },
+            {
+              "year": 2026,
+              "count": 1
             }
           ],
           "topJournals": [
@@ -15574,6 +15791,10 @@
               "count": 1
             },
             {
+              "name": "medRxiv : the preprint server for health sciences",
+              "count": 1
+            },
+            {
               "name": "Nature biomedical engineering",
               "count": 1
             }
@@ -15588,20 +15809,24 @@
               "count": 4
             },
             {
+              "name": "compression",
+              "count": 3
+            },
+            {
+              "name": "cord",
+              "count": 3
+            },
+            {
               "name": "myelopathic",
+              "count": 3
+            },
+            {
+              "name": "spinal",
               "count": 3
             },
             {
               "name": "tensor",
               "count": 3
-            },
-            {
-              "name": "compression",
-              "count": 2
-            },
-            {
-              "name": "cord",
-              "count": 2
             },
             {
               "name": "magnetic",
@@ -15616,15 +15841,11 @@
               "count": 2
             },
             {
+              "name": "mucopolysaccharidosis",
+              "count": 2
+            },
+            {
               "name": "non",
-              "count": 2
-            },
-            {
-              "name": "resonance",
-              "count": 2
-            },
-            {
-              "name": "reveals",
               "count": 2
             }
           ],
@@ -15635,6 +15856,18 @@
             },
             {
               "name": "Bryon A Mueller",
+              "count": 3
+            },
+            {
+              "name": "Chester B Whitley",
+              "count": 2
+            },
+            {
+              "name": "Christophe Lenglet",
+              "count": 2
+            },
+            {
+              "name": "Igor Nestra&#x161;il",
               "count": 2
             },
             {
@@ -15662,20 +15895,8 @@
               "count": 2
             },
             {
-              "name": "Amy Wakumoto",
-              "count": 1
-            },
-            {
-              "name": "Benjamin Spurny-Dworak",
-              "count": 1
-            },
-            {
-              "name": "Bernhard Strasser",
-              "count": 1
-            },
-            {
-              "name": "Chester B Whitley",
-              "count": 1
+              "name": "Ren&#xe9; Labounek",
+              "count": 2
             }
           ]
         },

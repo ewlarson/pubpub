@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-07",
-  "updatedAt": "2026-11-07T15:29:16.908Z",
+  "updated": "2026-11-08",
+  "updatedAt": "2026-11-08T15:51:56.179Z",
   "source": "NIH RePORTER API",
   "faculty": [
     {
@@ -4291,17 +4291,6 @@
           "coreProjectNum": "R01AG075734"
         },
         {
-          "id": "3R01AG075734-02S1",
-          "title": "Training the Long-Term Services and Supports Dementia Care Workforce in Provision of Care to Sexual and Gender Minority Residents",
-          "role": "Not listed",
-          "amount": 25096,
-          "startDate": "2022-09-15",
-          "endDate": "2026-05-31",
-          "fiscalYear": 2024,
-          "url": "https://reporter.nih.gov/project-details/11004546",
-          "coreProjectNum": "R01AG075734"
-        },
-        {
           "id": "3R01AG075734-03S1",
           "title": "Training the Long-Term Services and Supports Dementia Care Workforce in Provision of Care to Sexual and Gender Minority Residents",
           "role": "Not listed",
@@ -4310,6 +4299,17 @@
           "endDate": "2026-05-31",
           "fiscalYear": 2024,
           "url": "https://reporter.nih.gov/project-details/11090086",
+          "coreProjectNum": "R01AG075734"
+        },
+        {
+          "id": "3R01AG075734-02S1",
+          "title": "Training the Long-Term Services and Supports Dementia Care Workforce in Provision of Care to Sexual and Gender Minority Residents",
+          "role": "Not listed",
+          "amount": 25096,
+          "startDate": "2022-09-15",
+          "endDate": "2026-05-31",
+          "fiscalYear": 2024,
+          "url": "https://reporter.nih.gov/project-details/11004546",
           "coreProjectNum": "R01AG075734"
         },
         {
@@ -5796,17 +5796,6 @@
           "coreProjectNum": "R01MH107394"
         },
         {
-          "id": "3R01MH107394-02S1",
-          "title": "A Longitudinal Study Examining Three RDoC Constructs in Adolescents with Non-Suicidal Self-Injury",
-          "role": "Not listed",
-          "amount": 132353,
-          "startDate": "2016-08-01",
-          "endDate": "2021-05-31",
-          "fiscalYear": 2017,
-          "url": "https://reporter.nih.gov/project-details/9474891",
-          "coreProjectNum": "R01MH107394"
-        },
-        {
           "id": "5R01MH107394-02",
           "title": "A Longitudinal Study Examining Three RDoC Constructs in Adolescents with Non-Suicidal Self-Injury",
           "role": "Not listed",
@@ -5815,6 +5804,17 @@
           "endDate": "2021-05-31",
           "fiscalYear": 2017,
           "url": "https://reporter.nih.gov/project-details/9315221",
+          "coreProjectNum": "R01MH107394"
+        },
+        {
+          "id": "3R01MH107394-02S1",
+          "title": "A Longitudinal Study Examining Three RDoC Constructs in Adolescents with Non-Suicidal Self-Injury",
+          "role": "Not listed",
+          "amount": 132353,
+          "startDate": "2016-08-01",
+          "endDate": "2021-05-31",
+          "fiscalYear": 2017,
+          "url": "https://reporter.nih.gov/project-details/9474891",
           "coreProjectNum": "R01MH107394"
         },
         {
