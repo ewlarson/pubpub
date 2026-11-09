@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-08",
-  "updatedAt": "2026-11-08T15:51:56.179Z",
+  "updated": "2026-11-09",
+  "updatedAt": "2026-11-09T19:35:47.276Z",
   "source": "NIH RePORTER API",
   "faculty": [
     {
@@ -3380,17 +3380,6 @@
           "coreProjectNum": "R01NS119297"
         },
         {
-          "id": "5R01NS119297-03",
-          "title": "3D Bioprinted Spinal Cord Organoids as a Relay System for Spinal Cord Injury",
-          "role": "Not listed",
-          "amount": 492229,
-          "startDate": "2021-09-02",
-          "endDate": "2026-06-30",
-          "fiscalYear": 2023,
-          "url": "https://reporter.nih.gov/project-details/10677016",
-          "coreProjectNum": "R01NS119297"
-        },
-        {
           "id": "3R01NS119297-03S1",
           "title": "3D Bioprinted Spinal Cord Organoids as a Relay System for Spinal Cord Injury",
           "role": "Not listed",
@@ -3399,6 +3388,17 @@
           "endDate": "2026-06-30",
           "fiscalYear": 2023,
           "url": "https://reporter.nih.gov/project-details/10840561",
+          "coreProjectNum": "R01NS119297"
+        },
+        {
+          "id": "5R01NS119297-03",
+          "title": "3D Bioprinted Spinal Cord Organoids as a Relay System for Spinal Cord Injury",
+          "role": "Not listed",
+          "amount": 492229,
+          "startDate": "2021-09-02",
+          "endDate": "2026-06-30",
+          "fiscalYear": 2023,
+          "url": "https://reporter.nih.gov/project-details/10677016",
           "coreProjectNum": "R01NS119297"
         },
         {
@@ -3807,17 +3807,6 @@
           "coreProjectNum": "K23DK118207"
         },
         {
-          "id": "5K23DK118207-03",
-          "title": "Optimizing Diabetes Care Quality for Low-Income Patients",
-          "role": "Not listed",
-          "amount": 198936,
-          "startDate": "2018-09-01",
-          "endDate": "2023-08-31",
-          "fiscalYear": 2020,
-          "url": "https://reporter.nih.gov/project-details/10001066",
-          "coreProjectNum": "K23DK118207"
-        },
-        {
           "id": "3K23DK118207-03S1",
           "title": "Optimizing Diabetes Care Quality for Low-Income Patients",
           "role": "Not listed",
@@ -3826,6 +3815,17 @@
           "endDate": "2023-08-31",
           "fiscalYear": 2020,
           "url": "https://reporter.nih.gov/project-details/10220358",
+          "coreProjectNum": "K23DK118207"
+        },
+        {
+          "id": "5K23DK118207-03",
+          "title": "Optimizing Diabetes Care Quality for Low-Income Patients",
+          "role": "Not listed",
+          "amount": 198936,
+          "startDate": "2018-09-01",
+          "endDate": "2023-08-31",
+          "fiscalYear": 2020,
+          "url": "https://reporter.nih.gov/project-details/10001066",
           "coreProjectNum": "K23DK118207"
         },
         {
@@ -4291,17 +4291,6 @@
           "coreProjectNum": "R01AG075734"
         },
         {
-          "id": "3R01AG075734-03S1",
-          "title": "Training the Long-Term Services and Supports Dementia Care Workforce in Provision of Care to Sexual and Gender Minority Residents",
-          "role": "Not listed",
-          "amount": 69606,
-          "startDate": "2022-09-15",
-          "endDate": "2026-05-31",
-          "fiscalYear": 2024,
-          "url": "https://reporter.nih.gov/project-details/11090086",
-          "coreProjectNum": "R01AG075734"
-        },
-        {
           "id": "3R01AG075734-02S1",
           "title": "Training the Long-Term Services and Supports Dementia Care Workforce in Provision of Care to Sexual and Gender Minority Residents",
           "role": "Not listed",
@@ -4310,6 +4299,17 @@
           "endDate": "2026-05-31",
           "fiscalYear": 2024,
           "url": "https://reporter.nih.gov/project-details/11004546",
+          "coreProjectNum": "R01AG075734"
+        },
+        {
+          "id": "3R01AG075734-03S1",
+          "title": "Training the Long-Term Services and Supports Dementia Care Workforce in Provision of Care to Sexual and Gender Minority Residents",
+          "role": "Not listed",
+          "amount": 69606,
+          "startDate": "2022-09-15",
+          "endDate": "2026-05-31",
+          "fiscalYear": 2024,
+          "url": "https://reporter.nih.gov/project-details/11090086",
           "coreProjectNum": "R01AG075734"
         },
         {
