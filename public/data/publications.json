@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-09",
-  "updatedAt": "2026-11-09T19:35:47.276Z",
+  "updated": "2026-11-10",
+  "updatedAt": "2026-11-10T16:52:20.340Z",
   "source": "PubMed E-utilities",
   "faculty": [
     {
@@ -72013,6 +72013,24 @@
           }
         },
         {
+          "id": "43004440",
+          "title": "Correction: Digital cognitive-behavioral therapy for pain management in individuals with recurrent acute and chronic pancreatitis (IMPACT-2): study protocol for a hybrid effectiveness-implementation trial.",
+          "journal": "Trials",
+          "year": 2026,
+          "doi": "10.1186/s13063-026-10074-1",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/43004440/",
+          "publicationTypes": [
+            "Published Erratum"
+          ],
+          "versionLinks": [],
+          "authorship": {
+            "position": 6,
+            "total": 16,
+            "isFirst": false,
+            "isLast": false
+          }
+        },
+        {
           "id": "40960980",
           "title": "Dana K. Andersen, MD: Leader, Visionary, Colleague, and Friend for the Pancreas Community.",
           "journal": "Pancreas",
@@ -72081,7 +72099,7 @@
           "versionLinks": [],
           "authorship": {
             "position": 6,
-            "total": 15,
+            "total": 16,
             "isFirst": false,
             "isLast": false
           }
@@ -76221,12 +76239,12 @@
       "authorCounts": {
         "first": 19,
         "last": 63,
-        "total": 223,
-        "known": 223
+        "total": 224,
+        "known": 224
       },
       "signals": {
         "positive": {
-          "count": 223,
+          "count": 224,
           "yearRange": {
             "min": 2014,
             "max": 2026
@@ -76282,7 +76300,7 @@
             },
             {
               "year": 2026,
-              "count": 24
+              "count": 25
             }
           ],
           "topJournals": [
@@ -76330,7 +76348,7 @@
           "topKeywords": [
             {
               "name": "pancreatitis",
-              "count": 126
+              "count": 127
             },
             {
               "name": "islet",
@@ -76341,12 +76359,12 @@
               "count": 86
             },
             {
-              "name": "pancreatectomy",
+              "name": "chronic",
               "count": 80
             },
             {
-              "name": "chronic",
-              "count": 79
+              "name": "pancreatectomy",
+              "count": 80
             },
             {
               "name": "total",
@@ -76358,11 +76376,11 @@
             },
             {
               "name": "acute",
-              "count": 51
+              "count": 52
             },
             {
               "name": "study",
-              "count": 39
+              "count": 40
             },
             {
               "name": "after",
@@ -76396,6 +76414,10 @@
             },
             {
               "name": "Dhiraj Yadav",
+              "count": 44
+            },
+            {
+              "name": "Guru Trikudanathan",
               "count": 43
             },
             {
@@ -76403,24 +76425,20 @@
               "count": 43
             },
             {
-              "name": "Guru Trikudanathan",
-              "count": 42
-            },
-            {
               "name": "Maisam Abu-El-Haija",
               "count": 34
+            },
+            {
+              "name": "Darwin L Conwell",
+              "count": 30
             },
             {
               "name": "Ty B Dunn",
               "count": 30
             },
             {
-              "name": "Darwin L Conwell",
-              "count": 29
-            },
-            {
               "name": "Phil A Hart",
-              "count": 28
+              "count": 29
             },
             {
               "name": "Dana K Andersen",
