@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-10",
-  "updatedAt": "2026-11-10T16:52:20.340Z",
+  "updated": "2026-11-11",
+  "updatedAt": "2026-11-11T16:58:47.934Z",
   "source": "PubMed E-utilities",
   "faculty": [
     {
@@ -57,6 +57,24 @@
             "total": 10,
             "isFirst": false,
             "isLast": false
+          }
+        },
+        {
+          "id": "43007486",
+          "title": "Community-based organizations' experiences in using a digital resource referral platform (ConnectedNest) to support cancer patients.",
+          "journal": "Supportive care in cancer : official journal of the Multinational Association of Supportive Care in Cancer",
+          "year": 2026,
+          "doi": "10.1007/s00520-026-11425-z",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/43007486/",
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [],
+          "authorship": {
+            "position": 8,
+            "total": 9,
+            "isFirst": false,
+            "isLast": true
           }
         },
         {
@@ -577,13 +595,13 @@
       ],
       "authorCounts": {
         "first": 10,
-        "last": 1,
-        "total": 28,
-        "known": 28
+        "last": 2,
+        "total": 29,
+        "known": 29
       },
       "signals": {
         "positive": {
-          "count": 28,
+          "count": 29,
           "yearRange": {
             "min": 2020,
             "max": 2026
@@ -615,7 +633,7 @@
             },
             {
               "year": 2026,
-              "count": 7
+              "count": 8
             }
           ],
           "topJournals": [
@@ -625,6 +643,10 @@
             },
             {
               "name": "JAMA network open",
+              "count": 2
+            },
+            {
+              "name": "Supportive care in cancer : official journal of the Multinational Association of Supportive Care in Cancer",
               "count": 2
             },
             {
@@ -654,16 +676,12 @@
             {
               "name": "Diabetes therapy : research, treatment and education of diabetes and related disorders",
               "count": 1
-            },
-            {
-              "name": "Health affairs (Project Hope)",
-              "count": 1
             }
           ],
           "topKeywords": [
             {
               "name": "cancer",
-              "count": 15
+              "count": 16
             },
             {
               "name": "health",
@@ -682,15 +700,15 @@
               "count": 5
             },
             {
+              "name": "community",
+              "count": 5
+            },
+            {
               "name": "study",
               "count": 5
             },
             {
               "name": "care",
-              "count": 4
-            },
-            {
-              "name": "community",
               "count": 4
             },
             {
@@ -702,29 +720,33 @@
               "count": 4
             },
             {
-              "name": "analysis",
-              "count": 3
+              "name": "platform",
+              "count": 4
             },
             {
-              "name": "association",
+              "name": "analysis",
               "count": 3
             }
           ],
           "topCoauthors": [
             {
               "name": "Abbie Begnaud",
-              "count": 4
+              "count": 5
+            },
+            {
+              "name": "Pinar Karaca-Mandic",
+              "count": 5
             },
             {
               "name": "Kelly D Hughes",
               "count": 4
             },
             {
-              "name": "Pinar Karaca Mandic",
-              "count": 4
+              "name": "Anne M Joseph",
+              "count": 3
             },
             {
-              "name": "Anne M Joseph",
+              "name": "Helen M Parsons",
               "count": 3
             },
             {
@@ -752,11 +774,7 @@
               "count": 2
             },
             {
-              "name": "Helen M Parsons",
-              "count": 2
-            },
-            {
-              "name": "Jeannette M Sample",
+              "name": "Dori Cross",
               "count": 2
             }
           ]
@@ -19285,32 +19303,44 @@
           "publicationTypes": [
             "Journal Article"
           ],
-          "versionLinks": [],
+          "versionLinks": [
+            {
+              "type": "UpdateOf",
+              "id": "42465953"
+            }
+          ],
           "authorship": {
             "position": 19,
             "total": 21,
             "isFirst": false,
             "isLast": false
-          }
-        },
-        {
-          "id": "42465953",
-          "title": "Metformin and Severe Post-COVID-19 Outcomes Among Individuals with Diabetes Mellitus.",
-          "journal": "medRxiv : the preprint server for health sciences",
-          "year": 2026,
-          "doi": "10.64898/2026.07.06.26357398",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42465953/",
-          "publicationTypes": [
-            "Journal Article",
-            "Preprint"
-          ],
-          "versionLinks": [],
-          "authorship": {
-            "position": 19,
-            "total": 20,
-            "isFirst": false,
-            "isLast": true
-          }
+          },
+          "preprintVersions": [
+            {
+              "id": "42465953",
+              "title": "Metformin and Severe Post-COVID-19 Outcomes Among Individuals with Diabetes Mellitus.",
+              "journal": "medRxiv : the preprint server for health sciences",
+              "year": 2026,
+              "doi": "10.64898/2026.07.06.26357398",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/42465953/",
+              "publicationTypes": [
+                "Journal Article",
+                "Preprint"
+              ],
+              "versionLinks": [
+                {
+                  "type": "UpdateIn",
+                  "id": "42988585"
+                }
+              ],
+              "authorship": {
+                "position": 19,
+                "total": 20,
+                "isFirst": false,
+                "isLast": true
+              }
+            }
+          ]
         },
         {
           "id": "42240559",
@@ -20943,13 +20973,13 @@
       ],
       "authorCounts": {
         "first": 20,
-        "last": 8,
-        "total": 78,
-        "known": 78
+        "last": 7,
+        "total": 77,
+        "known": 77
       },
       "signals": {
         "positive": {
-          "count": 78,
+          "count": 77,
           "yearRange": {
             "min": 2019,
             "max": 2026
@@ -20985,7 +21015,7 @@
             },
             {
               "year": 2026,
-              "count": 13
+              "count": 12
             }
           ],
           "topJournals": [
@@ -21002,11 +21032,11 @@
               "count": 4
             },
             {
-              "name": "medRxiv : the preprint server for health sciences",
-              "count": 4
+              "name": "Frontiers in endocrinology",
+              "count": 3
             },
             {
-              "name": "Frontiers in endocrinology",
+              "name": "medRxiv : the preprint server for health sciences",
               "count": 3
             },
             {
@@ -21033,7 +21063,7 @@
           "topKeywords": [
             {
               "name": "covid",
-              "count": 52
+              "count": 51
             },
             {
               "name": "trial",
@@ -21045,11 +21075,11 @@
             },
             {
               "name": "diabetes",
-              "count": 15
+              "count": 14
             },
             {
               "name": "metformin",
-              "count": 15
+              "count": 14
             },
             {
               "name": "randomized",
@@ -21077,13 +21107,13 @@
             },
             {
               "name": "severe",
-              "count": 10
+              "count": 9
             }
           ],
           "topCoauthors": [
             {
               "name": "John B Buse",
-              "count": 21
+              "count": 20
             },
             {
               "name": "David R Boulware",
@@ -21095,7 +21125,7 @@
             },
             {
               "name": "Rachel Wong",
-              "count": 14
+              "count": 13
             },
             {
               "name": "Jared D Huling",
@@ -24524,6 +24554,24 @@
           }
         },
         {
+          "id": "43007486",
+          "title": "Community-based organizations' experiences in using a digital resource referral platform (ConnectedNest) to support cancer patients.",
+          "journal": "Supportive care in cancer : official journal of the Multinational Association of Supportive Care in Cancer",
+          "year": 2026,
+          "doi": "10.1007/s00520-026-11425-z",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/43007486/",
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [],
+          "authorship": {
+            "position": 7,
+            "total": 9,
+            "isFirst": false,
+            "isLast": false
+          }
+        },
+        {
           "id": "41528439",
           "title": "Digital interdependence: impact of work spillover during clinical team handoffs.",
           "journal": "Journal of the American Medical Informatics Association : JAMIA",
@@ -25014,12 +25062,12 @@
       "authorCounts": {
         "first": 11,
         "last": 11,
-        "total": 28,
-        "known": 28
+        "total": 29,
+        "known": 29
       },
       "signals": {
         "positive": {
-          "count": 28,
+          "count": 29,
           "yearRange": {
             "min": 2021,
             "max": 2026
@@ -25047,7 +25095,7 @@
             },
             {
               "year": 2026,
-              "count": 6
+              "count": 7
             }
           ],
           "topJournals": [
@@ -25072,6 +25120,10 @@
               "count": 2
             },
             {
+              "name": "Supportive care in cancer : official journal of the Multinational Association of Supportive Care in Cancer",
+              "count": 2
+            },
+            {
               "name": "The American journal of managed care",
               "count": 2
             },
@@ -25086,10 +25138,6 @@
             {
               "name": "Health care management review",
               "count": 1
-            },
-            {
-              "name": "Hospital pediatrics",
-              "count": 1
             }
           ],
           "topKeywords": [
@@ -25103,18 +25151,18 @@
             },
             {
               "name": "digital",
-              "count": 5
+              "count": 6
             },
             {
               "name": "information",
               "count": 5
             },
             {
-              "name": "electronic",
-              "count": 4
+              "name": "support",
+              "count": 5
             },
             {
-              "name": "support",
+              "name": "electronic",
               "count": 4
             },
             {
@@ -25126,6 +25174,10 @@
               "count": 4
             },
             {
+              "name": "based",
+              "count": 3
+            },
+            {
               "name": "complex",
               "count": 3
             },
@@ -25135,10 +25187,6 @@
             },
             {
               "name": "mental",
-              "count": 3
-            },
-            {
-              "name": "nursing",
               "count": 3
             }
           ],
@@ -25164,6 +25212,10 @@
               "count": 3
             },
             {
+              "name": "Abbie Begnaud",
+              "count": 2
+            },
+            {
               "name": "Allison J Hare",
               "count": 2
             },
@@ -25176,19 +25228,15 @@
               "count": 2
             },
             {
+              "name": "David Haynes",
+              "count": 2
+            },
+            {
               "name": "Donovan T Maust",
               "count": 2
             },
             {
               "name": "Erin Hickey",
-              "count": 2
-            },
-            {
-              "name": "John P McHugh",
-              "count": 2
-            },
-            {
-              "name": "Josh Weiner",
               "count": 2
             }
           ]
@@ -65042,7 +65090,8 @@
           "doi": "10.1111/jgs.19153",
           "url": "https://pubmed.ncbi.nlm.nih.gov/39210674/",
           "publicationTypes": [
-            "Journal Article"
+            "Journal Article",
+            "Research Support, N.I.H., Extramural"
           ],
           "versionLinks": [],
           "authorship": {
@@ -66928,6 +66977,24 @@
           }
         },
         {
+          "id": "43006174",
+          "title": "When practical barriers create ethical challenges to research with women in prison: Recommendations for researchers to advance women's health.",
+          "journal": "Women's health (London, England)",
+          "year": 2026,
+          "doi": "10.1177/17455057261483478",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/43006174/",
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [],
+          "authorship": {
+            "position": 0,
+            "total": 5,
+            "isFirst": true,
+            "isLast": false
+          }
+        },
+        {
           "id": "40892296",
           "title": "\"It's gotta be really hard to be a mom inside right now:\" a qualitative analysis on the impacts of COVID-19 on perinatal support programs for people in prison.",
           "journal": "Health & justice",
@@ -68427,14 +68494,14 @@
         }
       ],
       "authorCounts": {
-        "first": 14,
+        "first": 15,
         "last": 43,
-        "total": 88,
-        "known": 88
+        "total": 89,
+        "known": 89
       },
       "signals": {
         "positive": {
-          "count": 88,
+          "count": 89,
           "yearRange": {
             "min": 2013,
             "max": 2026
@@ -68494,7 +68561,7 @@
             },
             {
               "year": 2026,
-              "count": 8
+              "count": 9
             }
           ],
           "topJournals": [
@@ -68519,6 +68586,10 @@
               "count": 3
             },
             {
+              "name": "Women's health (London, England)",
+              "count": 3
+            },
+            {
               "name": "BMC pregnancy and childbirth",
               "count": 2
             },
@@ -68533,16 +68604,12 @@
             {
               "name": "Health promotion practice",
               "count": 2
-            },
-            {
-              "name": "Infant mental health journal",
-              "count": 2
             }
           ],
           "topKeywords": [
             {
               "name": "health",
-              "count": 33
+              "count": 34
             },
             {
               "name": "among",
@@ -68554,7 +68621,7 @@
             },
             {
               "name": "women",
-              "count": 17
+              "count": 19
             },
             {
               "name": "care",
@@ -110255,25 +110322,6 @@
           }
         },
         {
-          "id": "41542045",
-          "title": "Psychosocial stress exacerbates doxorubicin-induced cardiotoxicity in adult C57BL/6N mice.",
-          "journal": "Research square",
-          "year": 2026,
-          "doi": "10.21203/rs.3.rs-8491866/v1",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/41542045/",
-          "publicationTypes": [
-            "Journal Article",
-            "Preprint"
-          ],
-          "versionLinks": [],
-          "authorship": {
-            "position": 8,
-            "total": 9,
-            "isFirst": false,
-            "isLast": true
-          }
-        },
-        {
           "id": "42977987",
           "title": "Psychosocial stress exacerbates doxorubicin-induced cardiotoxicity in adult C57BL/6N mice.",
           "journal": "Cardio-oncology (London, England)",
@@ -110283,13 +110331,44 @@
           "publicationTypes": [
             "Journal Article"
           ],
-          "versionLinks": [],
+          "versionLinks": [
+            {
+              "type": "UpdateOf",
+              "id": "41542045"
+            }
+          ],
           "authorship": {
             "position": 8,
             "total": 9,
             "isFirst": false,
             "isLast": true
-          }
+          },
+          "preprintVersions": [
+            {
+              "id": "41542045",
+              "title": "Psychosocial stress exacerbates doxorubicin-induced cardiotoxicity in adult C57BL/6N mice.",
+              "journal": "Research square",
+              "year": 2026,
+              "doi": "10.21203/rs.3.rs-8491866/v1",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/41542045/",
+              "publicationTypes": [
+                "Journal Article",
+                "Preprint"
+              ],
+              "versionLinks": [
+                {
+                  "type": "UpdateIn",
+                  "id": "42977987"
+                }
+              ],
+              "authorship": {
+                "position": 8,
+                "total": 9,
+                "isFirst": false,
+                "isLast": true
+              }
+            }
+          ]
         },
         {
           "id": "40319158",
@@ -110971,13 +111050,13 @@
       ],
       "authorCounts": {
         "first": 1,
-        "last": 30,
-        "total": 39,
-        "known": 39
+        "last": 29,
+        "total": 38,
+        "known": 38
       },
       "signals": {
         "positive": {
-          "count": 39,
+          "count": 38,
           "yearRange": {
             "min": 2016,
             "max": 2026
@@ -111025,7 +111104,7 @@
             },
             {
               "year": 2026,
-              "count": 5
+              "count": 4
             }
           ],
           "topJournals": [
@@ -111073,19 +111152,19 @@
           "topKeywords": [
             {
               "name": "induced",
-              "count": 22
+              "count": 21
             },
             {
               "name": "doxorubicin",
-              "count": 19
+              "count": 18
             },
             {
               "name": "mice",
-              "count": 14
+              "count": 13
             },
             {
               "name": "cardiotoxicity",
-              "count": 10
+              "count": 9
             },
             {
               "name": "cardiac",
@@ -111093,11 +111172,7 @@
             },
             {
               "name": "c57bl",
-              "count": 7
-            },
-            {
-              "name": "stress",
-              "count": 7
+              "count": 6
             },
             {
               "name": "cancer",
@@ -111105,6 +111180,10 @@
             },
             {
               "name": "endothelial",
+              "count": 6
+            },
+            {
+              "name": "stress",
               "count": 6
             },
             {
@@ -111123,7 +111202,7 @@
           "topCoauthors": [
             {
               "name": "Marianne K O Grant",
-              "count": 21
+              "count": 20
             },
             {
               "name": "Ibrahim Y Abdelgawad",
@@ -111131,22 +111210,18 @@
             },
             {
               "name": "Mohamed S Dabour",
-              "count": 14
+              "count": 13
             },
             {
               "name": "Alessandro Bartolomucci",
-              "count": 7
-            },
-            {
-              "name": "Mary R Daniel",
-              "count": 7
+              "count": 6
             },
             {
               "name": "Anne H Blaes",
               "count": 6
             },
             {
-              "name": "Maria Razzoli",
+              "name": "Mary R Daniel",
               "count": 6
             },
             {
@@ -111158,15 +111233,19 @@
               "count": 5
             },
             {
+              "name": "Maria Razzoli",
+              "count": 5
+            },
+            {
               "name": "Bushra Sadaf",
               "count": 3
             },
             {
-              "name": "Fernando Souza-Neto",
+              "name": "Jason R B Dyck",
               "count": 3
             },
             {
-              "name": "Jason R B Dyck",
+              "name": "Karim T Sadak",
               "count": 3
             }
           ]
@@ -111333,7 +111412,7 @@
         },
         {
           "id": "42804720",
-          "title": "Surgery and tile-based radiation therapy versus surgery and stereotactic radiation for newly diagnosed brain metastases (ROADS): a randomized, open-label, phase 3 trial.",
+          "title": "Surgery and Tile-Based Radiation Therapy Versus Surgery and Stereotactic Radiation for Newly Diagnosed Brain Metastases: A Randomized, Open-Label, Phase III Trial.",
           "journal": "Journal of clinical oncology : official journal of the American Society of Clinical Oncology",
           "year": 2026,
           "doi": "10.1200/JCO-26-01894",
