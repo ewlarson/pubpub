@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-11",
-  "updatedAt": "2026-11-11T16:58:47.934Z",
+  "updated": "2026-11-12",
+  "updatedAt": "2026-11-12T17:25:39.706Z",
   "source": "PubMed E-utilities",
   "faculty": [
     {
@@ -28684,7 +28684,8 @@
           "url": "https://pubmed.ncbi.nlm.nih.gov/39766828/",
           "publicationTypes": [
             "Journal Article",
-            "Case Reports"
+            "Case Reports",
+            "Research Support, N.I.H., Extramural"
           ],
           "versionLinks": [],
           "authorship": {
@@ -42402,7 +42403,8 @@
           "doi": "10.1200/PO-24-00873",
           "url": "https://pubmed.ncbi.nlm.nih.gov/40540702/",
           "publicationTypes": [
-            "Journal Article"
+            "Journal Article",
+            "Research Support, Non-U.S. Gov't"
           ],
           "versionLinks": [],
           "authorship": {
@@ -86569,7 +86571,8 @@
           "url": "https://pubmed.ncbi.nlm.nih.gov/39766828/",
           "publicationTypes": [
             "Journal Article",
-            "Case Reports"
+            "Case Reports",
+            "Research Support, N.I.H., Extramural"
           ],
           "versionLinks": [],
           "authorship": {
@@ -94364,6 +94367,24 @@
           }
         },
         {
+          "id": "43014874",
+          "title": "Insights Into the November 2026 Issue of the JOE.",
+          "journal": "Journal of endodontics",
+          "year": 2026,
+          "doi": "10.1016/j.joen.2026.10.010",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/43014874/",
+          "publicationTypes": [
+            "Editorial"
+          ],
+          "versionLinks": [],
+          "authorship": {
+            "position": 8,
+            "total": 12,
+            "isFirst": false,
+            "isLast": false
+          }
+        },
+        {
           "id": "42778267",
           "title": "Insights Into the October 2026 Issue of the JOE.",
           "journal": "Journal of endodontics",
@@ -95314,12 +95335,12 @@
       "authorCounts": {
         "first": 8,
         "last": 7,
-        "total": 59,
-        "known": 59
+        "total": 60,
+        "known": 60
       },
       "signals": {
         "positive": {
-          "count": 59,
+          "count": 60,
           "yearRange": {
             "min": 2021,
             "max": 2026
@@ -95347,13 +95368,13 @@
             },
             {
               "year": 2026,
-              "count": 18
+              "count": 19
             }
           ],
           "topJournals": [
             {
               "name": "Journal of endodontics",
-              "count": 27
+              "count": 28
             },
             {
               "name": "International endodontic journal",
@@ -95395,27 +95416,27 @@
             },
             {
               "name": "insights",
-              "count": 15
+              "count": 16
             },
             {
               "name": "issue",
-              "count": 15
+              "count": 16
+            },
+            {
+              "name": "joe",
+              "count": 14
             },
             {
               "name": "canal",
               "count": 13
             },
             {
-              "name": "joe",
-              "count": 13
+              "name": "2026",
+              "count": 11
             },
             {
               "name": "study",
               "count": 11
-            },
-            {
-              "name": "2026",
-              "count": 10
             },
             {
               "name": "endodontic",
@@ -95441,47 +95462,47 @@
           "topCoauthors": [
             {
               "name": "Amir Azarpazhooh",
-              "count": 14
+              "count": 15
             },
             {
               "name": "Anil Kishen",
-              "count": 14
+              "count": 15
             },
             {
               "name": "Anita Aminoshariae",
-              "count": 14
+              "count": 15
             },
             {
               "name": "Ariadne M Letra",
-              "count": 14
+              "count": 15
             },
             {
               "name": "Frank C Setzer",
-              "count": 14
+              "count": 15
             },
             {
               "name": "Franklin R Tay",
-              "count": 14
+              "count": 15
             },
             {
               "name": "Gerald N Glickman",
-              "count": 14
+              "count": 15
             },
             {
               "name": "Jianing He",
-              "count": 14
+              "count": 15
             },
             {
               "name": "Kenneth M Hargreaves",
-              "count": 14
+              "count": 15
             },
             {
               "name": "Linda Levin",
-              "count": 14
+              "count": 15
             },
             {
               "name": "Sahng G Kim",
-              "count": 14
+              "count": 15
             },
             {
               "name": "Christopher Staley",
