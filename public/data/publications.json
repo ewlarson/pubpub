@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-12",
-  "updatedAt": "2026-11-12T17:25:39.706Z",
+  "updated": "2026-11-13",
+  "updatedAt": "2026-11-13T17:02:48.913Z",
   "source": "PubMed E-utilities",
   "faculty": [
     {
@@ -6562,6 +6562,24 @@
           }
         },
         {
+          "id": "43020841",
+          "title": "Scaling productive aging to mitigate cumulative disadvantage.",
+          "journal": "Nature aging",
+          "year": 2026,
+          "doi": "10.1038/s43587-026-01174-3",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/43020841/",
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [],
+          "authorship": {
+            "position": 2,
+            "total": 6,
+            "isFirst": false,
+            "isLast": false
+          }
+        },
+        {
           "id": "41005356",
           "title": "Active aging activities and genetic determinants of cognitive health: findings from the Kuakini Honolulu-Asia Aging Study.",
           "journal": "The Gerontologist",
@@ -6620,12 +6638,12 @@
       "authorCounts": {
         "first": 1,
         "last": 0,
-        "total": 4,
-        "known": 4
+        "total": 5,
+        "known": 5
       },
       "signals": {
         "positive": {
-          "count": 4,
+          "count": 5,
           "yearRange": {
             "min": 2025,
             "max": 2026
@@ -6637,7 +6655,7 @@
             },
             {
               "year": 2026,
-              "count": 1
+              "count": 2
             }
           ],
           "topJournals": [
@@ -6654,6 +6672,10 @@
               "count": 1
             },
             {
+              "name": "Nature aging",
+              "count": 1
+            },
+            {
               "name": "The Gerontologist",
               "count": 1
             }
@@ -6664,16 +6686,16 @@
               "count": 5
             },
             {
+              "name": "aging",
+              "count": 3
+            },
+            {
               "name": "cognitive",
               "count": 3
             },
             {
               "name": "indigenous",
               "count": 3
-            },
-            {
-              "name": "aging",
-              "count": 2
             },
             {
               "name": "among",
@@ -6711,7 +6733,11 @@
           "topCoauthors": [
             {
               "name": "Ernest Gonzales",
-              "count": 3
+              "count": 4
+            },
+            {
+              "name": "Yeonjung Jane Lee",
+              "count": 2
             },
             {
               "name": "Adrienne Withall",
@@ -6751,10 +6777,6 @@
             },
             {
               "name": "Diane C Gooding",
-              "count": 1
-            },
-            {
-              "name": "Dina Lo Giudice",
               "count": 1
             }
           ]
@@ -9439,6 +9461,24 @@
           }
         },
         {
+          "id": "43019612",
+          "title": "Model-predicted fludarabine exposure and outcomes after tisagenlecleucel in children and young adults with B-Cell lymphoblastic leukemia.",
+          "journal": "Cytotherapy",
+          "year": 2026,
+          "doi": "10.1016/j.jcyt.2026.102987",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/43019612/",
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [],
+          "authorship": {
+            "position": 1,
+            "total": 7,
+            "isFirst": false,
+            "isLast": false
+          }
+        },
+        {
           "id": "40811818",
           "title": "New comorbidity index associated with survival after chimeric antigen receptor T-cell therapy for large B-cell lymphoma.",
           "journal": "Blood advances",
@@ -9452,6 +9492,24 @@
           "authorship": {
             "position": 7,
             "total": 45,
+            "isFirst": false,
+            "isLast": false
+          }
+        },
+        {
+          "id": "43023552",
+          "title": "Optimizing Reduced-Intensity Conditioning for Older Patients with AML and MDS: A Large-Scale Analysis from the CIBMTR.",
+          "journal": "Blood",
+          "year": 2026,
+          "doi": "10.1182/blood.2026036096",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/43023552/",
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [],
+          "authorship": {
+            "position": 15,
+            "total": 41,
             "isFirst": false,
             "isLast": false
           }
@@ -12645,12 +12703,12 @@
       "authorCounts": {
         "first": 17,
         "last": 25,
-        "total": 169,
-        "known": 169
+        "total": 171,
+        "known": 171
       },
       "signals": {
         "positive": {
-          "count": 169,
+          "count": 171,
           "yearRange": {
             "min": 2012,
             "max": 2026
@@ -12714,7 +12772,7 @@
             },
             {
               "year": 2026,
-              "count": 11
+              "count": 13
             }
           ],
           "topJournals": [
@@ -12732,7 +12790,7 @@
             },
             {
               "name": "Blood",
-              "count": 9
+              "count": 10
             },
             {
               "name": "Bone marrow transplantation",
@@ -12762,7 +12820,7 @@
           "topKeywords": [
             {
               "name": "cell",
-              "count": 137
+              "count": 138
             },
             {
               "name": "lymphoma",
@@ -12778,11 +12836,11 @@
             },
             {
               "name": "after",
-              "count": 39
+              "count": 40
             },
             {
               "name": "patients",
-              "count": 37
+              "count": 38
             },
             {
               "name": "hematopoietic",
@@ -12790,11 +12848,15 @@
             },
             {
               "name": "outcomes",
-              "count": 34
+              "count": 35
             },
             {
               "name": "leukemia",
-              "count": 31
+              "count": 32
+            },
+            {
+              "name": "large",
+              "count": 26
             },
             {
               "name": "acute",
@@ -12802,10 +12864,6 @@
             },
             {
               "name": "allogeneic",
-              "count": 25
-            },
-            {
-              "name": "large",
               "count": 25
             }
           ],
@@ -12820,7 +12878,7 @@
             },
             {
               "name": "Qing Cao",
-              "count": 22
+              "count": 23
             },
             {
               "name": "Jeffrey S Miller",
@@ -23796,6 +23854,25 @@
       ],
       "publications": [
         {
+          "id": "43019189",
+          "title": "Alterations along the gut-urinary axis in dogs with calcium oxalate urolithiasis.",
+          "journal": "Scientific reports",
+          "year": 2026,
+          "doi": "10.1038/s41598-026-65013-6",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/43019189/",
+          "publicationTypes": [
+            "Journal Article",
+            "Research Support, Non-U.S. Gov't"
+          ],
+          "versionLinks": [],
+          "authorship": {
+            "position": 0,
+            "total": 6,
+            "isFirst": true,
+            "isLast": false
+          }
+        },
+        {
           "id": "42059462",
           "title": "Clinical features, risk factors, and outcomes of Bordetella bronchiseptica respiratory infections in dogs diagnosed at a tertiary care institution.",
           "journal": "Journal of veterinary internal medicine",
@@ -23924,14 +24001,14 @@
         }
       ],
       "authorCounts": {
-        "first": 3,
+        "first": 4,
         "last": 2,
-        "total": 7,
-        "known": 7
+        "total": 8,
+        "known": 8
       },
       "signals": {
         "positive": {
-          "count": 7,
+          "count": 8,
           "yearRange": {
             "min": 2024,
             "max": 2026
@@ -23947,7 +24024,7 @@
             },
             {
               "year": 2026,
-              "count": 3
+              "count": 4
             }
           ],
           "topJournals": [
@@ -23972,6 +24049,10 @@
               "count": 1
             },
             {
+              "name": "Scientific reports",
+              "count": 1
+            },
+            {
               "name": "Veterinary sciences",
               "count": 1
             }
@@ -23979,10 +24060,22 @@
           "topKeywords": [
             {
               "name": "dogs",
-              "count": 4
+              "count": 5
             },
             {
               "name": "calcium",
+              "count": 4
+            },
+            {
+              "name": "oxalate",
+              "count": 3
+            },
+            {
+              "name": "urinary",
+              "count": 3
+            },
+            {
+              "name": "urolithiasis",
               "count": 3
             },
             {
@@ -23998,19 +24091,7 @@
               "count": 2
             },
             {
-              "name": "oxalate",
-              "count": 2
-            },
-            {
               "name": "profiling",
-              "count": 2
-            },
-            {
-              "name": "urinary",
-              "count": 2
-            },
-            {
-              "name": "urolithiasis",
               "count": 2
             },
             {
@@ -24022,21 +24103,29 @@
               "count": 1
             },
             {
-              "name": "animals",
+              "name": "along",
               "count": 1
             }
           ],
           "topCoauthors": [
             {
               "name": "Eva Furrow",
-              "count": 4
+              "count": 5
             },
             {
               "name": "Jody P Lulich",
-              "count": 3
+              "count": 4
             },
             {
               "name": "Jennifer L Granick",
+              "count": 3
+            },
+            {
+              "name": "Andres M Gomez",
+              "count": 2
+            },
+            {
+              "name": "Erin N Burton",
               "count": 2
             },
             {
@@ -24060,19 +24149,11 @@
               "count": 1
             },
             {
-              "name": "Andres M Gomez",
-              "count": 1
-            },
-            {
               "name": "Anna-Lena Ziese",
               "count": 1
             },
             {
               "name": "Antti Sukura",
-              "count": 1
-            },
-            {
-              "name": "Arnon Gal",
               "count": 1
             }
           ]
@@ -26861,6 +26942,24 @@
           }
         },
         {
+          "id": "43019612",
+          "title": "Model-predicted fludarabine exposure and outcomes after tisagenlecleucel in children and young adults with B-Cell lymphoblastic leukemia.",
+          "journal": "Cytotherapy",
+          "year": 2026,
+          "doi": "10.1016/j.jcyt.2026.102987",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/43019612/",
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [],
+          "authorship": {
+            "position": 3,
+            "total": 7,
+            "isFirst": false,
+            "isLast": false
+          }
+        },
+        {
           "id": "42416786",
           "title": "Newborn screening reduces survival disparities in SCID after stem cell transplant: A PIDTC report.",
           "journal": "Journal of human immunity",
@@ -27649,12 +27748,12 @@
       "authorCounts": {
         "first": 4,
         "last": 13,
-        "total": 49,
-        "known": 49
+        "total": 50,
+        "known": 50
       },
       "signals": {
         "positive": {
-          "count": 49,
+          "count": 50,
           "yearRange": {
             "min": 2019,
             "max": 2026
@@ -27690,7 +27789,7 @@
             },
             {
               "year": 2026,
-              "count": 10
+              "count": 11
             }
           ],
           "topJournals": [
@@ -27715,6 +27814,10 @@
               "count": 3
             },
             {
+              "name": "Cytotherapy",
+              "count": 2
+            },
+            {
               "name": "Frontiers in oncology",
               "count": 2
             },
@@ -27729,16 +27832,12 @@
             {
               "name": "The Journal of allergy and clinical immunology",
               "count": 2
-            },
-            {
-              "name": "Biomedicines",
-              "count": 1
             }
           ],
           "topKeywords": [
             {
               "name": "cell",
-              "count": 25
+              "count": 26
             },
             {
               "name": "transplant",
@@ -27765,24 +27864,24 @@
               "count": 11
             },
             {
-              "name": "patients",
+              "name": "after",
               "count": 10
             },
             {
-              "name": "after",
-              "count": 9
+              "name": "patients",
+              "count": 10
             },
             {
               "name": "dystrophic",
               "count": 9
             },
             {
-              "name": "recessive",
+              "name": "outcomes",
               "count": 9
             },
             {
-              "name": "outcomes",
-              "count": 8
+              "name": "recessive",
+              "count": 9
             }
           ],
           "topCoauthors": [
@@ -72174,6 +72273,24 @@
           }
         },
         {
+          "id": "43023041",
+          "title": "Exocrine Pancreatic Dysfunction in Chronic Pancreatitis: A Cross-Sectional Analysis of the Prospective Evaluation of Chronic Pancreatitis for Epidemiologic and Translational Studies Study (PROCEED).",
+          "journal": "Gastro hep advances",
+          "year": 2026,
+          "doi": "10.1016/j.gastha.2026.101121",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/43023041/",
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [],
+          "authorship": {
+            "position": 4,
+            "total": 19,
+            "isFirst": false,
+            "isLast": false
+          }
+        },
+        {
           "id": "41940812",
           "title": "Hyperglycemia During Acute Pancreatitis and Progression to Early-Onset Diabetes After Recovery: Preliminary Findings From the Diabetes Related to Acute Pancreatitis and Its Mechanisms (DREAM) Study.",
           "journal": "Diabetes care",
@@ -76308,12 +76425,12 @@
       "authorCounts": {
         "first": 19,
         "last": 63,
-        "total": 224,
-        "known": 224
+        "total": 225,
+        "known": 225
       },
       "signals": {
         "positive": {
-          "count": 224,
+          "count": 225,
           "yearRange": {
             "min": 2014,
             "max": 2026
@@ -76369,7 +76486,7 @@
             },
             {
               "year": 2026,
-              "count": 25
+              "count": 26
             }
           ],
           "topJournals": [
@@ -76417,7 +76534,7 @@
           "topKeywords": [
             {
               "name": "pancreatitis",
-              "count": 127
+              "count": 129
             },
             {
               "name": "islet",
@@ -76429,7 +76546,7 @@
             },
             {
               "name": "chronic",
-              "count": 80
+              "count": 82
             },
             {
               "name": "pancreatectomy",
@@ -76449,7 +76566,7 @@
             },
             {
               "name": "study",
-              "count": 40
+              "count": 41
             },
             {
               "name": "after",
@@ -76461,7 +76578,7 @@
             },
             {
               "name": "pancreatic",
-              "count": 29
+              "count": 30
             }
           ],
           "topCoauthors": [
@@ -76478,12 +76595,12 @@
               "count": 47
             },
             {
-              "name": "Martin L Freeman",
+              "name": "Dhiraj Yadav",
               "count": 45
             },
             {
-              "name": "Dhiraj Yadav",
-              "count": 44
+              "name": "Martin L Freeman",
+              "count": 45
             },
             {
               "name": "Guru Trikudanathan",
@@ -76499,15 +76616,15 @@
             },
             {
               "name": "Darwin L Conwell",
+              "count": 31
+            },
+            {
+              "name": "Phil A Hart",
               "count": 30
             },
             {
               "name": "Ty B Dunn",
               "count": 30
-            },
-            {
-              "name": "Phil A Hart",
-              "count": 29
             },
             {
               "name": "Dana K Andersen",
@@ -86364,6 +86481,25 @@
           }
         },
         {
+          "id": "43019189",
+          "title": "Alterations along the gut-urinary axis in dogs with calcium oxalate urolithiasis.",
+          "journal": "Scientific reports",
+          "year": 2026,
+          "doi": "10.1038/s41598-026-65013-6",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/43019189/",
+          "publicationTypes": [
+            "Journal Article",
+            "Research Support, Non-U.S. Gov't"
+          ],
+          "versionLinks": [],
+          "authorship": {
+            "position": 5,
+            "total": 6,
+            "isFirst": false,
+            "isLast": true
+          }
+        },
+        {
           "id": "41742579",
           "title": "Autoimmune lymphoproliferative syndrome in Boerboel dogs: clinicopathologic, diagnostic, and genetic characterization.",
           "journal": "Journal of veterinary internal medicine",
@@ -86793,13 +86929,13 @@
       ],
       "authorCounts": {
         "first": 2,
-        "last": 16,
-        "total": 24,
-        "known": 24
+        "last": 17,
+        "total": 25,
+        "known": 25
       },
       "signals": {
         "positive": {
-          "count": 24,
+          "count": 25,
           "yearRange": {
             "min": 2022,
             "max": 2026
@@ -86823,7 +86959,7 @@
             },
             {
               "year": 2026,
-              "count": 6
+              "count": 7
             }
           ],
           "topJournals": [
@@ -86834,6 +86970,10 @@
             {
               "name": "Genes",
               "count": 3
+            },
+            {
+              "name": "Scientific reports",
+              "count": 2
             },
             {
               "name": "BMC microbiology",
@@ -86860,10 +87000,6 @@
               "count": 1
             },
             {
-              "name": "Scientific reports",
-              "count": 1
-            },
-            {
               "name": "Veterinary sciences",
               "count": 1
             }
@@ -86871,11 +87007,11 @@
           "topKeywords": [
             {
               "name": "dogs",
-              "count": 12
+              "count": 13
             },
             {
               "name": "calcium",
-              "count": 6
+              "count": 7
             },
             {
               "name": "gene",
@@ -86883,6 +87019,10 @@
             },
             {
               "name": "miniature",
+              "count": 5
+            },
+            {
+              "name": "urinary",
               "count": 5
             },
             {
@@ -86894,7 +87034,11 @@
               "count": 4
             },
             {
-              "name": "urinary",
+              "name": "oxalate",
+              "count": 4
+            },
+            {
+              "name": "urolithiasis",
               "count": 4
             },
             {
@@ -86908,48 +87052,40 @@
             {
               "name": "hypertriglyceridemia",
               "count": 3
-            },
-            {
-              "name": "oxalate",
-              "count": 3
-            },
-            {
-              "name": "schnauzers",
-              "count": 3
             }
           ],
           "topCoauthors": [
             {
               "name": "Jody P Lulich",
-              "count": 11
+              "count": 12
+            },
+            {
+              "name": "Emily L Coffey",
+              "count": 7
             },
             {
               "name": "Katie M Minor",
               "count": 7
             },
             {
-              "name": "Emily L Coffey",
-              "count": 6
+              "name": "Jennifer L Granick",
+              "count": 5
             },
             {
               "name": "Steven G Friedenberg",
               "count": 5
             },
             {
-              "name": "Jennifer L Granick",
+              "name": "Andres M Gomez",
+              "count": 4
+            },
+            {
+              "name": "Erin N Burton",
               "count": 4
             },
             {
               "name": "Jonah N Cullen",
               "count": 4
-            },
-            {
-              "name": "Andres M Gomez",
-              "count": 3
-            },
-            {
-              "name": "Erin N Burton",
-              "count": 3
             },
             {
               "name": "Nicole M Tate",
@@ -91653,6 +91789,24 @@
       ],
       "publications": [
         {
+          "id": "43023456",
+          "title": "Breastfeeding Medicine Knowledge and Self-Efficacy Among Family Medicine Residents and Faculty: A Pilot Study.",
+          "journal": "Journal of human lactation : official journal of International Lactation Consultant Association",
+          "year": 2026,
+          "doi": "10.1177/08903344261499379",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/43023456/",
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [],
+          "authorship": {
+            "position": 1,
+            "total": 4,
+            "isFirst": false,
+            "isLast": false
+          }
+        },
+        {
           "id": "42987602",
           "title": "Weight stigma and healthcare avoidance: Associations with dieting, disordered eating and other weight-control behaviors.",
           "journal": "Eating behaviors",
@@ -92700,12 +92854,12 @@
       "authorCounts": {
         "first": 7,
         "last": 5,
-        "total": 54,
-        "known": 54
+        "total": 55,
+        "known": 55
       },
       "signals": {
         "positive": {
-          "count": 54,
+          "count": 55,
           "yearRange": {
             "min": 2020,
             "max": 2026
@@ -92737,7 +92891,7 @@
             },
             {
               "year": 2026,
-              "count": 1
+              "count": 2
             }
           ],
           "topJournals": [
@@ -92797,7 +92951,7 @@
             },
             {
               "name": "among",
-              "count": 15
+              "count": 16
             },
             {
               "name": "young",
@@ -92808,11 +92962,11 @@
               "count": 13
             },
             {
-              "name": "diverse",
-              "count": 12
+              "name": "study",
+              "count": 13
             },
             {
-              "name": "study",
+              "name": "diverse",
               "count": 12
             },
             {
@@ -92821,7 +92975,7 @@
             },
             {
               "name": "family",
-              "count": 9
+              "count": 10
             },
             {
               "name": "racially",

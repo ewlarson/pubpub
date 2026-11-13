@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-12",
-  "updatedAt": "2026-11-12T17:25:39.706Z",
+  "updated": "2026-11-13",
+  "updatedAt": "2026-11-13T17:02:48.913Z",
   "source": "NIH RePORTER API",
   "faculty": [
     {
@@ -6727,17 +6727,6 @@
           "coreProjectNum": "R01NS139908"
         },
         {
-          "id": "3R01NS139908-02S1",
-          "title": "Improving outcomes in HIV-associated opportunistic infections using CNS pharmacokinetics and pharmacodynamics",
-          "role": "Not listed",
-          "amount": 190085,
-          "startDate": "2024-08-18",
-          "endDate": "2029-05-31",
-          "fiscalYear": 2025,
-          "url": "https://reporter.nih.gov/project-details/11386303",
-          "coreProjectNum": "R01NS139908"
-        },
-        {
           "id": "5R01NS139908-02",
           "title": "Improving outcomes in HIV-associated opportunistic infections using CNS pharmacokinetics and pharmacodynamics",
           "role": "Not listed",
@@ -6746,6 +6735,17 @@
           "endDate": "2029-05-31",
           "fiscalYear": 2025,
           "url": "https://reporter.nih.gov/project-details/11171785",
+          "coreProjectNum": "R01NS139908"
+        },
+        {
+          "id": "3R01NS139908-02S1",
+          "title": "Improving outcomes in HIV-associated opportunistic infections using CNS pharmacokinetics and pharmacodynamics",
+          "role": "Not listed",
+          "amount": 190085,
+          "startDate": "2024-08-18",
+          "endDate": "2029-05-31",
+          "fiscalYear": 2025,
+          "url": "https://reporter.nih.gov/project-details/11386303",
           "coreProjectNum": "R01NS139908"
         },
         {
