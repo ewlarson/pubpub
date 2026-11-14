@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-13",
-  "updatedAt": "2026-11-13T17:02:48.913Z",
+  "updated": "2026-11-14",
+  "updatedAt": "2026-11-14T15:37:11.261Z",
   "source": "PubMed E-utilities",
   "faculty": [
     {
@@ -23917,7 +23917,8 @@
           "doi": "10.1007/s11306-026-02429-1",
           "url": "https://pubmed.ncbi.nlm.nih.gov/41961373/",
           "publicationTypes": [
-            "Journal Article"
+            "Journal Article",
+            "Research Support, Non-U.S. Gov't"
           ],
           "versionLinks": [],
           "authorship": {
@@ -72348,6 +72349,24 @@
           }
         },
         {
+          "id": "43030303",
+          "title": "Inflammatory, Insulinemic, and Plant-Based Dietary Patterns and Diabetes Among Patients with Acute Pancreatitis: A Cross-Sectional Analysis of the DREAM Study.",
+          "journal": "Nutrients",
+          "year": 2026,
+          "doi": "10.3390/nu18213676",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/43030303/",
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [],
+          "authorship": {
+            "position": 10,
+            "total": 36,
+            "isFirst": false,
+            "isLast": false
+          }
+        },
+        {
           "id": "42048053",
           "title": "Islet Autotransplant Recipients Have Elevated Proinsulin-to-C-Peptide Ratios Supporting Metabolic Stress as a Cause of Islet Attrition.",
           "journal": "Diabetes",
@@ -76425,12 +76444,12 @@
       "authorCounts": {
         "first": 19,
         "last": 63,
-        "total": 225,
-        "known": 225
+        "total": 226,
+        "known": 226
       },
       "signals": {
         "positive": {
-          "count": 225,
+          "count": 226,
           "yearRange": {
             "min": 2014,
             "max": 2026
@@ -76486,7 +76505,7 @@
             },
             {
               "year": 2026,
-              "count": 26
+              "count": 27
             }
           ],
           "topJournals": [
@@ -76534,7 +76553,7 @@
           "topKeywords": [
             {
               "name": "pancreatitis",
-              "count": 129
+              "count": 130
             },
             {
               "name": "islet",
@@ -76542,7 +76561,7 @@
             },
             {
               "name": "diabetes",
-              "count": 86
+              "count": 87
             },
             {
               "name": "chronic",
@@ -76562,11 +76581,11 @@
             },
             {
               "name": "acute",
-              "count": 52
+              "count": 53
             },
             {
               "name": "study",
-              "count": 41
+              "count": 42
             },
             {
               "name": "after",
@@ -76574,7 +76593,7 @@
             },
             {
               "name": "patients",
-              "count": 31
+              "count": 32
             },
             {
               "name": "pancreatic",
@@ -76596,7 +76615,7 @@
             },
             {
               "name": "Dhiraj Yadav",
-              "count": 45
+              "count": 46
             },
             {
               "name": "Martin L Freeman",
@@ -76604,7 +76623,7 @@
             },
             {
               "name": "Guru Trikudanathan",
-              "count": 43
+              "count": 44
             },
             {
               "name": "Sarah J Schwarzenberg",
@@ -76620,7 +76639,7 @@
             },
             {
               "name": "Phil A Hart",
-              "count": 30
+              "count": 31
             },
             {
               "name": "Ty B Dunn",
@@ -86580,7 +86599,8 @@
           "doi": "10.1007/s11306-026-02429-1",
           "url": "https://pubmed.ncbi.nlm.nih.gov/41961373/",
           "publicationTypes": [
-            "Journal Article"
+            "Journal Article",
+            "Research Support, Non-U.S. Gov't"
           ],
           "versionLinks": [],
           "authorship": {
@@ -105510,7 +105530,8 @@
           "doi": "10.1080/10428194.2025.2506502",
           "url": "https://pubmed.ncbi.nlm.nih.gov/40417831/",
           "publicationTypes": [
-            "Journal Article"
+            "Journal Article",
+            "Research Support, Non-U.S. Gov't"
           ],
           "versionLinks": [],
           "authorship": {
