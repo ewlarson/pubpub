@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-14",
-  "updatedAt": "2026-11-14T15:37:11.261Z",
+  "updated": "2026-11-15",
+  "updatedAt": "2026-11-15T16:09:34.884Z",
   "source": "PubMed E-utilities",
   "faculty": [
     {
@@ -9516,7 +9516,7 @@
         },
         {
           "id": "42906792",
-          "title": "Predictors and Outcomes of Immune Effector Cell Associated Neurotoxicity Syndrome in Patients Receiving Chimeric Antigen Receptor T Cell Therapy for Aggressive B-Cell Non-Hodgkin Lymphoma.",
+          "title": "Predictors and Outcomes of Immune Effector Cell- Associated Neurotoxicity Syndrome in Patients Receiving Chimeric Antigen Receptor T Cell Therapy for Aggressive B Cell Non-Hodgkin Lymphoma.",
           "journal": "Transplantation and cellular therapy",
           "year": 2026,
           "doi": "10.1016/j.jtct.2026.10.019",
@@ -27096,7 +27096,10 @@
           "url": "https://pubmed.ncbi.nlm.nih.gov/38272206/",
           "publicationTypes": [
             "Journal Article",
-            "Case Reports"
+            "Case Reports",
+            "Research Support, U.S. Gov't, Non-P.H.S.",
+            "Research Support, N.I.H., Extramural",
+            "Research Support, Non-U.S. Gov't"
           ],
           "versionLinks": [],
           "authorship": {
@@ -69182,7 +69185,8 @@
           "doi": "10.4049/jimmunol.2400395",
           "url": "https://pubmed.ncbi.nlm.nih.gov/39392378/",
           "publicationTypes": [
-            "Journal Article"
+            "Journal Article",
+            "Research Support, N.I.H., Extramural"
           ],
           "versionLinks": [],
           "authorship": {
@@ -70512,6 +70516,24 @@
           }
         },
         {
+          "id": "43034047",
+          "title": "Microbiota transplant therapy improves ulcerative colitis symptoms independent of donor engraftment in a pilot randomized placebo-controlled trial.",
+          "journal": "Inflammatory bowel diseases",
+          "year": 2026,
+          "doi": "10.1093/ibd/izag236",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/43034047/",
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [],
+          "authorship": {
+            "position": 3,
+            "total": 11,
+            "isFirst": false,
+            "isLast": false
+          }
+        },
+        {
           "id": "42529077",
           "title": "Shotgun metagenomic analysis reveals taxonomic and functional alterations in the gut microbiome across prodromal and symptomatic Lewy body disease.",
           "journal": "Frontiers in microbiomes",
@@ -70570,12 +70592,12 @@
       "authorCounts": {
         "first": 0,
         "last": 3,
-        "total": 7,
-        "known": 7
+        "total": 8,
+        "known": 8
       },
       "signals": {
         "positive": {
-          "count": 7,
+          "count": 8,
           "yearRange": {
             "min": 2026,
             "max": 2026
@@ -70583,7 +70605,7 @@
           "yearCounts": [
             {
               "year": 2026,
-              "count": 7
+              "count": 8
             }
           ],
           "topJournals": [
@@ -70604,6 +70626,10 @@
               "count": 1
             },
             {
+              "name": "Inflammatory bowel diseases",
+              "count": 1
+            },
+            {
               "name": "Journal of clinical gastroenterology",
               "count": 1
             }
@@ -70615,7 +70641,7 @@
             },
             {
               "name": "transplant",
-              "count": 3
+              "count": 4
             },
             {
               "name": "gut",
@@ -70623,6 +70649,10 @@
             },
             {
               "name": "kidney",
+              "count": 2
+            },
+            {
+              "name": "microbiota",
               "count": 2
             },
             {
@@ -70652,19 +70682,15 @@
             {
               "name": "analysis",
               "count": 1
-            },
-            {
-              "name": "body",
-              "count": 1
             }
           ],
           "topCoauthors": [
             {
-              "name": "Annie W Lin",
-              "count": 3
+              "name": "Christopher Staley",
+              "count": 4
             },
             {
-              "name": "Christopher Staley",
+              "name": "Annie W Lin",
               "count": 3
             },
             {
@@ -70676,7 +70702,19 @@
               "count": 2
             },
             {
+              "name": "Alexander Khoruts",
+              "count": 2
+            },
+            {
+              "name": "Amanda J Kabage",
+              "count": 2
+            },
+            {
               "name": "Arthur J Matas",
+              "count": 2
+            },
+            {
+              "name": "Byron P Vaughn",
               "count": 2
             },
             {
@@ -70693,18 +70731,6 @@
             },
             {
               "name": "Julia S Oliveira",
-              "count": 2
-            },
-            {
-              "name": "Moataz E Mohamed",
-              "count": 2
-            },
-            {
-              "name": "Olivia Solano",
-              "count": 2
-            },
-            {
-              "name": "Pamala A Jacobson",
               "count": 2
             }
           ]
@@ -72356,7 +72382,8 @@
           "doi": "10.3390/nu18213676",
           "url": "https://pubmed.ncbi.nlm.nih.gov/43030303/",
           "publicationTypes": [
-            "Journal Article"
+            "Journal Article",
+            "Multicenter Study"
           ],
           "versionLinks": [],
           "authorship": {
@@ -93580,7 +93607,8 @@
           "doi": "10.1093/infdis/jiae325",
           "url": "https://pubmed.ncbi.nlm.nih.gov/38900910/",
           "publicationTypes": [
-            "Journal Article"
+            "Journal Article",
+            "Research Support, N.I.H., Extramural"
           ],
           "versionLinks": [],
           "authorship": {
@@ -108365,6 +108393,24 @@
           }
         },
         {
+          "id": "43034047",
+          "title": "Microbiota transplant therapy improves ulcerative colitis symptoms independent of donor engraftment in a pilot randomized placebo-controlled trial.",
+          "journal": "Inflammatory bowel diseases",
+          "year": 2026,
+          "doi": "10.1093/ibd/izag236",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/43034047/",
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [],
+          "authorship": {
+            "position": 10,
+            "total": 11,
+            "isFirst": false,
+            "isLast": true
+          }
+        },
+        {
           "id": "41508901",
           "title": "Oral rehydration solution for the management of fluid and electrolyte disturbances in patients with an ileostomy: A scoping review.",
           "journal": "JPEN. Journal of parenteral and enteral nutrition",
@@ -109844,13 +109890,13 @@
       ],
       "authorCounts": {
         "first": 11,
-        "last": 37,
-        "total": 84,
-        "known": 84
+        "last": 38,
+        "total": 85,
+        "known": 85
       },
       "signals": {
         "positive": {
-          "count": 84,
+          "count": 85,
           "yearRange": {
             "min": 2015,
             "max": 2026
@@ -109902,7 +109948,7 @@
             },
             {
               "year": 2026,
-              "count": 9
+              "count": 10
             }
           ],
           "topJournals": [
@@ -109916,7 +109962,7 @@
             },
             {
               "name": "Inflammatory bowel diseases",
-              "count": 5
+              "count": 6
             },
             {
               "name": "ACG case reports journal",
@@ -109954,7 +110000,7 @@
             },
             {
               "name": "microbiota",
-              "count": 30
+              "count": 31
             },
             {
               "name": "bowel",
@@ -109990,7 +110036,7 @@
             },
             {
               "name": "therapy",
-              "count": 10
+              "count": 11
             },
             {
               "name": "recurrent",
@@ -110000,11 +110046,11 @@
           "topCoauthors": [
             {
               "name": "Alexander Khoruts",
-              "count": 31
+              "count": 32
             },
             {
               "name": "Amanda J Kabage",
-              "count": 12
+              "count": 13
             },
             {
               "name": "Michael J Sadowsky",
@@ -110012,7 +110058,7 @@
             },
             {
               "name": "Christopher Staley",
-              "count": 10
+              "count": 11
             },
             {
               "name": "Adam S Cheifetz",
@@ -110024,11 +110070,11 @@
             },
             {
               "name": "Monika Fischer",
-              "count": 8
+              "count": 9
             },
             {
               "name": "Daphne Moutsoglou",
-              "count": 7
+              "count": 8
             },
             {
               "name": "James P Campbell",
@@ -110039,11 +110085,11 @@
               "count": 7
             },
             {
-              "name": "Colleen R Kelly",
-              "count": 6
+              "name": "Sharon Lopez",
+              "count": 7
             },
             {
-              "name": "Eva A Enns",
+              "name": "Colleen R Kelly",
               "count": 6
             }
           ]
@@ -111473,16 +111519,143 @@
           "startDate": "2026-09-01"
         }
       ],
-      "publications": [],
-      "authorCounts": null,
+      "publications": [
+        {
+          "id": "43034047",
+          "title": "Microbiota transplant therapy improves ulcerative colitis symptoms independent of donor engraftment in a pilot randomized placebo-controlled trial.",
+          "journal": "Inflammatory bowel diseases",
+          "year": 2026,
+          "doi": "10.1093/ibd/izag236",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/43034047/",
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [],
+          "authorship": {
+            "position": 0,
+            "total": 11,
+            "isFirst": true,
+            "isLast": false
+          }
+        }
+      ],
+      "authorCounts": {
+        "first": 1,
+        "last": 0,
+        "total": 1,
+        "known": 1
+      },
       "signals": {
         "positive": {
-          "count": 0,
-          "yearRange": null,
-          "yearCounts": [],
-          "topJournals": [],
-          "topKeywords": [],
-          "topCoauthors": []
+          "count": 1,
+          "yearRange": {
+            "min": 2026,
+            "max": 2026
+          },
+          "yearCounts": [
+            {
+              "year": 2026,
+              "count": 1
+            }
+          ],
+          "topJournals": [
+            {
+              "name": "Inflammatory bowel diseases",
+              "count": 1
+            }
+          ],
+          "topKeywords": [
+            {
+              "name": "colitis",
+              "count": 1
+            },
+            {
+              "name": "controlled",
+              "count": 1
+            },
+            {
+              "name": "donor",
+              "count": 1
+            },
+            {
+              "name": "engraftment",
+              "count": 1
+            },
+            {
+              "name": "improves",
+              "count": 1
+            },
+            {
+              "name": "independent",
+              "count": 1
+            },
+            {
+              "name": "microbiota",
+              "count": 1
+            },
+            {
+              "name": "pilot",
+              "count": 1
+            },
+            {
+              "name": "placebo",
+              "count": 1
+            },
+            {
+              "name": "randomized",
+              "count": 1
+            },
+            {
+              "name": "symptoms",
+              "count": 1
+            },
+            {
+              "name": "therapy",
+              "count": 1
+            }
+          ],
+          "topCoauthors": [
+            {
+              "name": "Alexander Khoruts",
+              "count": 1
+            },
+            {
+              "name": "Amanda J Kabage",
+              "count": 1
+            },
+            {
+              "name": "Byron P Vaughn",
+              "count": 1
+            },
+            {
+              "name": "Christopher Staley",
+              "count": 1
+            },
+            {
+              "name": "Dina C Belhasan",
+              "count": 1
+            },
+            {
+              "name": "Levi Teigen",
+              "count": 1
+            },
+            {
+              "name": "Lulu Chen",
+              "count": 1
+            },
+            {
+              "name": "Monika Fischer",
+              "count": 1
+            },
+            {
+              "name": "Sharon Lopez",
+              "count": 1
+            },
+            {
+              "name": "William A Nickols",
+              "count": 1
+            }
+          ]
         },
         "negative": {
           "count": 0,

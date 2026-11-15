@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-14",
-  "updatedAt": "2026-11-14T15:33:25.931Z",
+  "updated": "2026-11-15",
+  "updatedAt": "2026-11-15T16:05:54.722Z",
   "source": "PubMed E-utilities (ORCID)",
   "faculty": [
     {
@@ -3102,7 +3102,8 @@
         },
         {
           "publicationTypes": [
-            "Journal Article"
+            "Journal Article",
+            "Research Support, N.I.H., Extramural"
           ],
           "versionLinks": [],
           "id": "39392378",
