@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-15",
-  "updatedAt": "2026-11-15T16:09:34.884Z",
+  "updated": "2026-11-16",
+  "updatedAt": "2026-11-16T19:19:16.175Z",
   "source": "PubMed E-utilities",
   "faculty": [
     {
@@ -3404,7 +3404,9 @@
           "doi": "10.1038/s41467-026-74783-6",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42362568/",
           "publicationTypes": [
-            "Journal Article"
+            "Journal Article",
+            "Research Support, N.I.H., Extramural",
+            "Research Support, Non-U.S. Gov't"
           ],
           "versionLinks": [
             {
@@ -93589,7 +93591,8 @@
           "doi": "10.1093/infdis/jiae372",
           "url": "https://pubmed.ncbi.nlm.nih.gov/39047063/",
           "publicationTypes": [
-            "Journal Article"
+            "Journal Article",
+            "Research Support, N.I.H., Extramural"
           ],
           "versionLinks": [],
           "authorship": {
@@ -105412,7 +105415,9 @@
           "doi": "10.1038/s41467-026-73517-y",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42215482/",
           "publicationTypes": [
-            "Journal Article"
+            "Journal Article",
+            "Research Support, N.I.H., Extramural",
+            "Research Support, Non-U.S. Gov't"
           ],
           "versionLinks": [],
           "authorship": {

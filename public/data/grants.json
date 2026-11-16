@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-15",
-  "updatedAt": "2026-11-15T16:09:34.884Z",
+  "updated": "2026-11-16",
+  "updatedAt": "2026-11-16T19:19:16.175Z",
   "source": "NIH RePORTER API",
   "faculty": [
     {
@@ -1968,7 +1968,19 @@
         }
       ],
       "reporterUrl": "",
-      "grants": []
+      "grants": [
+        {
+          "id": "5R01NS126762-04",
+          "title": "Role of mechanical heterogeneity in cerebral aneurysm growth and rupture",
+          "role": "Not listed",
+          "amount": 491601,
+          "startDate": "2023-01-15",
+          "endDate": "2027-12-31",
+          "fiscalYear": 2026,
+          "url": "https://reporter.nih.gov/project-details/11247598",
+          "coreProjectNum": "R01NS126762"
+        }
+      ]
     },
     {
       "id": "allyson-hart-hart1044-umn-edu",
@@ -3380,17 +3392,6 @@
           "coreProjectNum": "R01NS119297"
         },
         {
-          "id": "3R01NS119297-03S1",
-          "title": "3D Bioprinted Spinal Cord Organoids as a Relay System for Spinal Cord Injury",
-          "role": "Not listed",
-          "amount": 74284,
-          "startDate": "2021-09-02",
-          "endDate": "2026-06-30",
-          "fiscalYear": 2023,
-          "url": "https://reporter.nih.gov/project-details/10840561",
-          "coreProjectNum": "R01NS119297"
-        },
-        {
           "id": "5R01NS119297-03",
           "title": "3D Bioprinted Spinal Cord Organoids as a Relay System for Spinal Cord Injury",
           "role": "Not listed",
@@ -3399,6 +3400,17 @@
           "endDate": "2026-06-30",
           "fiscalYear": 2023,
           "url": "https://reporter.nih.gov/project-details/10677016",
+          "coreProjectNum": "R01NS119297"
+        },
+        {
+          "id": "3R01NS119297-03S1",
+          "title": "3D Bioprinted Spinal Cord Organoids as a Relay System for Spinal Cord Injury",
+          "role": "Not listed",
+          "amount": 74284,
+          "startDate": "2021-09-02",
+          "endDate": "2026-06-30",
+          "fiscalYear": 2023,
+          "url": "https://reporter.nih.gov/project-details/10840561",
           "coreProjectNum": "R01NS119297"
         },
         {
@@ -3807,17 +3819,6 @@
           "coreProjectNum": "K23DK118207"
         },
         {
-          "id": "3K23DK118207-03S1",
-          "title": "Optimizing Diabetes Care Quality for Low-Income Patients",
-          "role": "Not listed",
-          "amount": 53919,
-          "startDate": "2018-09-01",
-          "endDate": "2023-08-31",
-          "fiscalYear": 2020,
-          "url": "https://reporter.nih.gov/project-details/10220358",
-          "coreProjectNum": "K23DK118207"
-        },
-        {
           "id": "5K23DK118207-03",
           "title": "Optimizing Diabetes Care Quality for Low-Income Patients",
           "role": "Not listed",
@@ -3826,6 +3827,17 @@
           "endDate": "2023-08-31",
           "fiscalYear": 2020,
           "url": "https://reporter.nih.gov/project-details/10001066",
+          "coreProjectNum": "K23DK118207"
+        },
+        {
+          "id": "3K23DK118207-03S1",
+          "title": "Optimizing Diabetes Care Quality for Low-Income Patients",
+          "role": "Not listed",
+          "amount": 53919,
+          "startDate": "2018-09-01",
+          "endDate": "2023-08-31",
+          "fiscalYear": 2020,
+          "url": "https://reporter.nih.gov/project-details/10220358",
           "coreProjectNum": "K23DK118207"
         },
         {
@@ -6727,17 +6739,6 @@
           "coreProjectNum": "R01NS139908"
         },
         {
-          "id": "5R01NS139908-02",
-          "title": "Improving outcomes in HIV-associated opportunistic infections using CNS pharmacokinetics and pharmacodynamics",
-          "role": "Not listed",
-          "amount": 453730,
-          "startDate": "2024-08-18",
-          "endDate": "2029-05-31",
-          "fiscalYear": 2025,
-          "url": "https://reporter.nih.gov/project-details/11171785",
-          "coreProjectNum": "R01NS139908"
-        },
-        {
           "id": "3R01NS139908-02S1",
           "title": "Improving outcomes in HIV-associated opportunistic infections using CNS pharmacokinetics and pharmacodynamics",
           "role": "Not listed",
@@ -6746,6 +6747,17 @@
           "endDate": "2029-05-31",
           "fiscalYear": 2025,
           "url": "https://reporter.nih.gov/project-details/11386303",
+          "coreProjectNum": "R01NS139908"
+        },
+        {
+          "id": "5R01NS139908-02",
+          "title": "Improving outcomes in HIV-associated opportunistic infections using CNS pharmacokinetics and pharmacodynamics",
+          "role": "Not listed",
+          "amount": 453730,
+          "startDate": "2024-08-18",
+          "endDate": "2029-05-31",
+          "fiscalYear": 2025,
+          "url": "https://reporter.nih.gov/project-details/11171785",
           "coreProjectNum": "R01NS139908"
         },
         {
