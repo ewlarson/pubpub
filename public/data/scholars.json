@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-16",
-  "updatedAt": "2026-11-16T19:15:28.833Z",
+  "updated": "2026-11-17",
+  "updatedAt": "2026-11-17T18:09:14.951Z",
   "source": "PubMed E-utilities (ORCID)",
   "faculty": [
     {
@@ -8936,6 +8936,24 @@
       "publications": [
         {
           "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [],
+          "id": "43043010",
+          "title": "Spatial Immune Organization Associates with Response to CD40 Agonism in BCG-Unresponsive Non-Muscle-Invasive Bladder Cancer: A Phase I Trial.",
+          "journal": "Clinical cancer research : an official journal of the American Association for Cancer Research",
+          "year": 2026,
+          "doi": "10.1158/1078-0432.CCR-26-3256",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/43043010/",
+          "authorship": {
+            "position": 16,
+            "total": 25,
+            "isFirst": false,
+            "isLast": false
+          }
+        },
+        {
+          "publicationTypes": [
             "Journal Article",
             "Research Support, N.I.H., Extramural",
             "Research Support, Non-U.S. Gov't"
@@ -9083,15 +9101,15 @@
       "authorCounts": {
         "first": 1,
         "last": 2,
-        "total": 7,
-        "known": 7
+        "total": 8,
+        "known": 8
       },
       "signals": {
         "positive": {
-          "count": 7,
+          "count": 8,
           "yearRange": {
             "min": 2020,
-            "max": 2024
+            "max": 2026
           },
           "yearCounts": [
             {
@@ -9113,6 +9131,10 @@
             {
               "year": 2024,
               "count": 1
+            },
+            {
+              "year": 2026,
+              "count": 1
             }
           ],
           "topJournals": [
@@ -9133,13 +9155,29 @@
               "count": 1
             },
             {
+              "name": "Clinical cancer research : an official journal of the American Association for Cancer Research",
+              "count": 1
+            },
+            {
               "name": "Nature immunology",
               "count": 1
             }
           ],
           "topKeywords": [
             {
+              "name": "cd40",
+              "count": 3
+            },
+            {
+              "name": "immune",
+              "count": 3
+            },
+            {
               "name": "leukemia",
+              "count": 3
+            },
+            {
+              "name": "response",
               "count": 3
             },
             {
@@ -9151,7 +9189,11 @@
               "count": 2
             },
             {
-              "name": "cd40",
+              "name": "bladder",
+              "count": 2
+            },
+            {
+              "name": "cancer",
               "count": 2
             },
             {
@@ -9163,33 +9205,21 @@
               "count": 2
             },
             {
-              "name": "immune",
-              "count": 2
-            },
-            {
               "name": "immunity",
               "count": 2
             },
             {
               "name": "lymphocytic",
               "count": 2
-            },
-            {
-              "name": "models",
-              "count": 2
-            },
-            {
-              "name": "patients",
-              "count": 2
-            },
-            {
-              "name": "response",
-              "count": 2
             }
           ],
           "topCoauthors": [
             {
               "name": "Jeffrey V Ravetch",
+              "count": 4
+            },
+            {
+              "name": "Jeffrey L Wong",
               "count": 3
             },
             {
@@ -9197,11 +9227,15 @@
               "count": 2
             },
             {
-              "name": "Jeffrey L Wong",
+              "name": "Juan C Osorio",
               "count": 2
             },
             {
               "name": "Lindsey E Roeker",
+              "count": 2
+            },
+            {
+              "name": "Lucas Blanchard",
               "count": 2
             },
             {
@@ -9226,14 +9260,6 @@
             },
             {
               "name": "Alexander Muselman",
-              "count": 1
-            },
-            {
-              "name": "Andrew D Zelenetz",
-              "count": 1
-            },
-            {
-              "name": "Andrew Jones",
               "count": 1
             }
           ]

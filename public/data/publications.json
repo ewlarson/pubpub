@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-16",
-  "updatedAt": "2026-11-16T19:19:16.175Z",
+  "updated": "2026-11-17",
+  "updatedAt": "2026-11-17T18:13:02.426Z",
   "source": "PubMed E-utilities",
   "faculty": [
     {
@@ -19496,7 +19496,8 @@
           "doi": "10.1136/bmjdrc-2024-004536",
           "url": "https://pubmed.ncbi.nlm.nih.gov/39904520/",
           "publicationTypes": [
-            "Journal Article"
+            "Journal Article",
+            "Research Support, N.I.H., Extramural"
           ],
           "versionLinks": [],
           "authorship": {
@@ -68861,6 +68862,24 @@
           }
         },
         {
+          "id": "43043174",
+          "title": "Clinical Trial Endpoints for Cryptococcosis: Consensus Recommendations by the Mycoses Study Group Education & Research Consortium and European Confederation of Medical Mycology.",
+          "journal": "Clinical infectious diseases : an official publication of the Infectious Diseases Society of America",
+          "year": 2026,
+          "doi": "10.1093/cid/ciag581",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/43043174/",
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [],
+          "authorship": {
+            "position": 6,
+            "total": 18,
+            "isFirst": false,
+            "isLast": false
+          }
+        },
+        {
           "id": "41495969",
           "title": "Evaluating Desirability of Outcome Ranking (DOOR) and Win Ratio for Hierarchical Composite Endpoints in Cryptococcal Meningitis Trials.",
           "journal": "Clinical infectious diseases : an official publication of the Infectious Diseases Society of America",
@@ -69430,12 +69449,12 @@
       "authorCounts": {
         "first": 5,
         "last": 4,
-        "total": 29,
-        "known": 29
+        "total": 30,
+        "known": 30
       },
       "signals": {
         "positive": {
-          "count": 29,
+          "count": 30,
           "yearRange": {
             "min": 2022,
             "max": 2026
@@ -69459,13 +69478,13 @@
             },
             {
               "year": 2026,
-              "count": 8
+              "count": 9
             }
           ],
           "topJournals": [
             {
               "name": "Clinical infectious diseases : an official publication of the Infectious Diseases Society of America",
-              "count": 9
+              "count": 10
             },
             {
               "name": "Open forum infectious diseases",
@@ -69557,19 +69576,19 @@
           "topCoauthors": [
             {
               "name": "David R Boulware",
-              "count": 24
+              "count": 25
             },
             {
               "name": "David B Meya",
-              "count": 23
+              "count": 24
             },
             {
               "name": "Biyue Dai",
-              "count": 10
+              "count": 11
             },
             {
               "name": "Radha Rajasingham",
-              "count": 10
+              "count": 11
             },
             {
               "name": "Elizabeth Nalintya",
@@ -69592,16 +69611,16 @@
               "count": 6
             },
             {
+              "name": "Lillian Tugume",
+              "count": 6
+            },
+            {
               "name": "Morris K Rutakingirwa",
               "count": 6
             },
             {
               "name": "Paul Kirumira",
               "count": 6
-            },
-            {
-              "name": "Darlisha A Williams",
-              "count": 5
             }
           ]
         },
@@ -89278,7 +89297,8 @@
           "doi": "10.1136/bmjdrc-2025-005197",
           "url": "https://pubmed.ncbi.nlm.nih.gov/40850783/",
           "publicationTypes": [
-            "Journal Article"
+            "Journal Article",
+            "Research Support, N.I.H., Extramural"
           ],
           "versionLinks": [],
           "authorship": {
@@ -97805,6 +97825,24 @@
           }
         },
         {
+          "id": "43043174",
+          "title": "Clinical Trial Endpoints for Cryptococcosis: Consensus Recommendations by the Mycoses Study Group Education & Research Consortium and European Confederation of Medical Mycology.",
+          "journal": "Clinical infectious diseases : an official publication of the Infectious Diseases Society of America",
+          "year": 2026,
+          "doi": "10.1093/cid/ciag581",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/43043174/",
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [],
+          "authorship": {
+            "position": 7,
+            "total": 18,
+            "isFirst": false,
+            "isLast": false
+          }
+        },
+        {
           "id": "42636100",
           "title": "Concordance Between Fingerprick and Venous Whole Blood CD4 Counts Using the Visitect CD4 Advanced Disease Platform.",
           "journal": "The Journal of infectious diseases",
@@ -99614,12 +99652,12 @@
       "authorCounts": {
         "first": 14,
         "last": 31,
-        "total": 95,
-        "known": 95
+        "total": 96,
+        "known": 96
       },
       "signals": {
         "positive": {
-          "count": 95,
+          "count": 96,
           "yearRange": {
             "min": 2015,
             "max": 2026
@@ -99671,13 +99709,13 @@
             },
             {
               "year": 2026,
-              "count": 11
+              "count": 12
             }
           ],
           "topJournals": [
             {
               "name": "Clinical infectious diseases : an official publication of the Infectious Diseases Society of America",
-              "count": 20
+              "count": 21
             },
             {
               "name": "Open forum infectious diseases",
@@ -99769,11 +99807,11 @@
           "topCoauthors": [
             {
               "name": "David R Boulware",
-              "count": 72
+              "count": 73
             },
             {
               "name": "David B Meya",
-              "count": 49
+              "count": 50
             },
             {
               "name": "Elizabeth Nalintya",
@@ -99781,7 +99819,7 @@
             },
             {
               "name": "Caleb P Skipper",
-              "count": 23
+              "count": 24
             },
             {
               "name": "Darlisha A Williams",
@@ -99805,7 +99843,7 @@
             },
             {
               "name": "Lillian Tugume",
-              "count": 15
+              "count": 16
             },
             {
               "name": "Mahsa Abassi",
@@ -99813,7 +99851,7 @@
             },
             {
               "name": "Biyue Dai",
-              "count": 12
+              "count": 13
             }
           ]
         },
