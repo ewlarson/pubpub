@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-17",
-  "updatedAt": "2026-11-17T18:09:14.951Z",
+  "updated": "2026-11-18",
+  "updatedAt": "2026-11-18T17:50:58.132Z",
   "source": "PubMed E-utilities (ORCID)",
   "faculty": [
     {
@@ -6241,6 +6241,24 @@
         },
         {
           "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [],
+          "id": "43049172",
+          "title": "The New Kid on the Block: A Retrospective Multicenter Real-World Experience with Maribavir for Cytomegalovirus Infection in Pediatric Transplant and Cellular Therapy Recipients.",
+          "journal": "Journal of the Pediatric Infectious Diseases Society",
+          "year": 2026,
+          "doi": "10.1093/jpids/piag121",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/43049172/",
+          "authorship": {
+            "position": 21,
+            "total": 22,
+            "isFirst": false,
+            "isLast": true
+          }
+        },
+        {
+          "publicationTypes": [
             "Journal Article",
             "Review"
           ],
@@ -6485,13 +6503,13 @@
       ],
       "authorCounts": {
         "first": 3,
-        "last": 1,
-        "total": 15,
-        "known": 15
+        "last": 2,
+        "total": 16,
+        "known": 16
       },
       "signals": {
         "positive": {
-          "count": 15,
+          "count": 16,
           "yearRange": {
             "min": 2018,
             "max": 2026
@@ -6527,13 +6545,13 @@
             },
             {
               "year": 2026,
-              "count": 2
+              "count": 3
             }
           ],
           "topJournals": [
             {
               "name": "Journal of the Pediatric Infectious Diseases Society",
-              "count": 5
+              "count": 6
             },
             {
               "name": "Pediatric transplantation",
@@ -6570,6 +6588,10 @@
           ],
           "topKeywords": [
             {
+              "name": "pediatric",
+              "count": 6
+            },
+            {
               "name": "children",
               "count": 5
             },
@@ -6578,19 +6600,15 @@
               "count": 5
             },
             {
-              "name": "pediatric",
+              "name": "recipients",
+              "count": 5
+            },
+            {
+              "name": "transplant",
               "count": 5
             },
             {
               "name": "organ",
-              "count": 4
-            },
-            {
-              "name": "recipients",
-              "count": 4
-            },
-            {
-              "name": "transplant",
               "count": 4
             },
             {
@@ -6614,14 +6632,14 @@
               "count": 2
             },
             {
-              "name": "fungal",
+              "name": "cellular",
               "count": 2
             }
           ],
           "topCoauthors": [
             {
               "name": "Lara Danziger-Isakov",
-              "count": 5
+              "count": 6
             },
             {
               "name": "Brian T Fisher",

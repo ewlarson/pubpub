@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-17",
-  "updatedAt": "2026-11-17T18:13:02.426Z",
+  "updated": "2026-11-18",
+  "updatedAt": "2026-11-18T17:54:47.536Z",
   "source": "PubMed E-utilities",
   "faculty": [
     {
@@ -83423,6 +83423,24 @@
           }
         },
         {
+          "id": "43043640",
+          "title": "Health Care Utilization by Patients With Spanish-Language Preference in Minnesota During Operation Metro Surge.",
+          "journal": "JAMA network open",
+          "year": 2026,
+          "doi": "10.1001/jamanetworkopen.2026.44855",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/43043640/",
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [],
+          "authorship": {
+            "position": 2,
+            "total": 13,
+            "isFirst": false,
+            "isLast": false
+          }
+        },
+        {
           "id": "41143539",
           "title": "Home Blood Pressure Monitoring in Routine Care-Factors Associated with Enrollment and Blood Pressures Recorded in the Veterans Health Administration.",
           "journal": "American journal of hypertension",
@@ -85485,12 +85503,12 @@
       "authorCounts": {
         "first": 14,
         "last": 35,
-        "total": 109,
-        "known": 109
+        "total": 110,
+        "known": 110
       },
       "signals": {
         "positive": {
-          "count": 109,
+          "count": 110,
           "yearRange": {
             "min": 2014,
             "max": 2026
@@ -85546,7 +85564,7 @@
             },
             {
               "year": 2026,
-              "count": 12
+              "count": 13
             }
           ],
           "topJournals": [
@@ -85618,7 +85636,7 @@
             },
             {
               "name": "health",
-              "count": 19
+              "count": 20
             },
             {
               "name": "hypertension",
@@ -85626,7 +85644,7 @@
             },
             {
               "name": "patients",
-              "count": 14
+              "count": 15
             },
             {
               "name": "ambulatory",
@@ -85683,11 +85701,11 @@
               "count": 9
             },
             {
-              "name": "Debbie L Cohen",
-              "count": 8
+              "name": "Tyler N A Winkelman",
+              "count": 9
             },
             {
-              "name": "Jackson T Wright",
+              "name": "Debbie L Cohen",
               "count": 8
             }
           ]
@@ -106033,7 +106051,9 @@
           "doi": "10.1002/cam4.70086",
           "url": "https://pubmed.ncbi.nlm.nih.gov/39431920/",
           "publicationTypes": [
-            "Journal Article"
+            "Journal Article",
+            "Research Support, U.S. Gov't, P.H.S.",
+            "Research Support, N.I.H., Extramural"
           ],
           "versionLinks": [],
           "authorship": {
