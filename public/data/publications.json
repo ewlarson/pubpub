@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-19",
-  "updatedAt": "2026-11-19T18:04:55.097Z",
+  "updated": "2026-11-20",
+  "updatedAt": "2026-11-20T17:38:08.356Z",
   "source": "PubMed E-utilities",
   "faculty": [
     {
@@ -27161,7 +27161,8 @@
           "publicationTypes": [
             "Multicenter Study",
             "Clinical Trial, Phase II",
-            "Journal Article"
+            "Journal Article",
+            "Research Support, N.I.H., Extramural"
           ],
           "versionLinks": [],
           "authorship": {
@@ -35302,7 +35303,8 @@
           "doi": "10.1097/PCC.0000000000003542",
           "url": "https://pubmed.ncbi.nlm.nih.gov/38780383/",
           "publicationTypes": [
-            "Journal Article"
+            "Journal Article",
+            "Research Support, N.I.H., Extramural"
           ],
           "versionLinks": [],
           "authorship": {
@@ -42215,6 +42217,24 @@
           }
         },
         {
+          "id": "43062121",
+          "title": "Targeting Neutrophil Extracellular Traps to Inhibit Colon Cancer Tumor Necrosis and Metastasis.",
+          "journal": "Cancer discovery",
+          "year": 2026,
+          "doi": "10.1158/2159-8290.CD-25-0748",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/43062121/",
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [],
+          "authorship": {
+            "position": 18,
+            "total": 24,
+            "isFirst": false,
+            "isLast": false
+          }
+        },
+        {
           "id": "42670259",
           "title": "The Molecular and Immunological Landscape in Nasopharyngeal Carcinoma (NPC) Differs by Somatostatin Receptor 2 (SSTR2) Expression.",
           "journal": "Cancer medicine",
@@ -45150,12 +45170,12 @@
       "authorCounts": {
         "first": 34,
         "last": 41,
-        "total": 163,
-        "known": 163
+        "total": 164,
+        "known": 164
       },
       "signals": {
         "positive": {
-          "count": 163,
+          "count": 164,
           "yearRange": {
             "min": 2013,
             "max": 2026
@@ -45215,7 +45235,7 @@
             },
             {
               "year": 2026,
-              "count": 17
+              "count": 18
             }
           ],
           "topJournals": [
@@ -45263,7 +45283,7 @@
           "topKeywords": [
             {
               "name": "cancer",
-              "count": 74
+              "count": 75
             },
             {
               "name": "patients",
@@ -45271,7 +45291,7 @@
             },
             {
               "name": "tumor",
-              "count": 26
+              "count": 27
             },
             {
               "name": "colorectal",
@@ -49093,6 +49113,24 @@
           }
         },
         {
+          "id": "43056123",
+          "title": "Zopapogene Imadenovec-drba Treatment for Adults With Recurrent Respiratory Papillomatosis: A Review.",
+          "journal": "JAMA otolaryngology-- head & neck surgery",
+          "year": 2026,
+          "doi": "10.1001/jamaoto.2026.3674",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/43056123/",
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [],
+          "authorship": {
+            "position": 1,
+            "total": 3,
+            "isFirst": false,
+            "isLast": false
+          }
+        },
+        {
           "id": "41165069",
           "title": "Dysphagia Characteristics in High Versus Low Vagal Unilateral Vocal Fold Paralysis.",
           "journal": "The Laryngoscope",
@@ -50147,12 +50185,12 @@
       "authorCounts": {
         "first": 17,
         "last": 29,
-        "total": 62,
-        "known": 62
+        "total": 63,
+        "known": 63
       },
       "signals": {
         "positive": {
-          "count": 62,
+          "count": 63,
           "yearRange": {
             "min": 2013,
             "max": 2026
@@ -50212,7 +50250,7 @@
             },
             {
               "year": 2026,
-              "count": 7
+              "count": 8
             }
           ],
           "topJournals": [
@@ -50221,16 +50259,16 @@
               "count": 15
             },
             {
+              "name": "JAMA otolaryngology-- head & neck surgery",
+              "count": 9
+            },
+            {
               "name": "Journal of voice : official journal of the Voice Foundation",
               "count": 9
             },
             {
               "name": "Otolaryngology--head and neck surgery : official journal of American Academy of Otolaryngology-Head and Neck Surgery",
               "count": 9
-            },
-            {
-              "name": "JAMA otolaryngology-- head & neck surgery",
-              "count": 8
             },
             {
               "name": "Dysphagia",
@@ -50271,6 +50309,10 @@
               "count": 8
             },
             {
+              "name": "treatment",
+              "count": 8
+            },
+            {
               "name": "disorders",
               "count": 7
             },
@@ -50280,10 +50322,6 @@
             },
             {
               "name": "study",
-              "count": 7
-            },
-            {
-              "name": "treatment",
               "count": 7
             },
             {
@@ -50299,11 +50337,11 @@
               "count": 6
             },
             {
-              "name": "association",
+              "name": "adults",
               "count": 5
             },
             {
-              "name": "between",
+              "name": "association",
               "count": 5
             }
           ],
@@ -54676,7 +54714,8 @@
           "doi": "10.1212/WNL.0000000000209764",
           "url": "https://pubmed.ncbi.nlm.nih.gov/39151102/",
           "publicationTypes": [
-            "Journal Article"
+            "Journal Article",
+            "Research Support, N.I.H., Extramural"
           ],
           "versionLinks": [],
           "authorship": {
@@ -61052,6 +61091,24 @@
           }
         },
         {
+          "id": "43059532",
+          "title": "Exploring Mediating Roles of SDoH-Associated Biomarkers in Sex and Race-Related Disparities of COPD Outcomes.",
+          "journal": "COPD",
+          "year": 2026,
+          "doi": "10.1080/15412555.2026.2761141",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/43059532/",
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [],
+          "authorship": {
+            "position": 4,
+            "total": 5,
+            "isFirst": false,
+            "isLast": true
+          }
+        },
+        {
           "id": "41550697",
           "title": "HIV Status and COVID-19 Treatment Disparities in the US National Clinical Cohort Collaborative.",
           "journal": "Open forum infectious diseases",
@@ -61885,13 +61942,13 @@
       ],
       "authorCounts": {
         "first": 3,
-        "last": 12,
-        "total": 40,
-        "known": 40
+        "last": 13,
+        "total": 41,
+        "known": 41
       },
       "signals": {
         "positive": {
-          "count": 40,
+          "count": 41,
           "yearRange": {
             "min": 2019,
             "max": 2026
@@ -61927,7 +61984,7 @@
             },
             {
               "year": 2026,
-              "count": 8
+              "count": 9
             }
           ],
           "topJournals": [
@@ -62002,6 +62059,10 @@
               "count": 8
             },
             {
+              "name": "associated",
+              "count": 6
+            },
+            {
               "name": "collaborative",
               "count": 6
             },
@@ -62015,10 +62076,6 @@
             },
             {
               "name": "learning",
-              "count": 6
-            },
-            {
-              "name": "multi",
               "count": 6
             }
           ],
@@ -100085,6 +100142,24 @@
           ]
         },
         {
+          "id": "43061491",
+          "title": "UMN PAN dataset; a multimodal clinical dataset of early adversity, placement history, and prenatal exposures in adopted and foster care children.",
+          "journal": "Data in brief",
+          "year": 2026,
+          "doi": "10.1016/j.dib.2026.113395",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/43061491/",
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [],
+          "authorship": {
+            "position": 10,
+            "total": 11,
+            "isFirst": false,
+            "isLast": true
+          }
+        },
+        {
           "id": "41022827",
           "title": "Motion impact score for detecting spurious brain-behavior associations.",
           "journal": "Nature communications",
@@ -100197,13 +100272,13 @@
       ],
       "authorCounts": {
         "first": 1,
-        "last": 2,
-        "total": 8,
-        "known": 8
+        "last": 3,
+        "total": 9,
+        "known": 9
       },
       "signals": {
         "positive": {
-          "count": 8,
+          "count": 9,
           "yearRange": {
             "min": 2024,
             "max": 2026
@@ -100219,7 +100294,7 @@
             },
             {
               "year": 2026,
-              "count": 4
+              "count": 5
             }
           ],
           "topJournals": [
@@ -100229,6 +100304,10 @@
             },
             {
               "name": "Cell",
+              "count": 1
+            },
+            {
+              "name": "Data in brief",
               "count": 1
             },
             {
@@ -100254,11 +100333,27 @@
               "count": 3
             },
             {
+              "name": "adopted",
+              "count": 2
+            },
+            {
               "name": "associations",
               "count": 2
             },
             {
               "name": "childhood",
+              "count": 2
+            },
+            {
+              "name": "dataset",
+              "count": 2
+            },
+            {
+              "name": "foster",
+              "count": 2
+            },
+            {
+              "name": "prenatal",
               "count": 2
             },
             {
@@ -100274,27 +100369,11 @@
               "count": 1
             },
             {
-              "name": "adopted",
-              "count": 1
-            },
-            {
               "name": "adverse",
               "count": 1
             },
             {
-              "name": "affect",
-              "count": 1
-            },
-            {
-              "name": "anti",
-              "count": 1
-            },
-            {
-              "name": "approach",
-              "count": 1
-            },
-            {
-              "name": "arousal",
+              "name": "adversity",
               "count": 1
             }
           ],
@@ -100328,6 +100407,10 @@
               "count": 3
             },
             {
+              "name": "Evan Dastin-Van Rijn",
+              "count": 3
+            },
+            {
               "name": "Evan M Gordon",
               "count": 3
             },
@@ -100336,15 +100419,11 @@
               "count": 3
             },
             {
+              "name": "Logan Caola",
+              "count": 3
+            },
+            {
               "name": "Nico U F Dosenbach",
-              "count": 3
-            },
-            {
-              "name": "Roselyne J Chauvin",
-              "count": 3
-            },
-            {
-              "name": "Samuel R Krimmel",
               "count": 3
             }
           ]
