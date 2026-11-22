@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-21",
-  "updatedAt": "2026-11-21T16:42:14.402Z",
+  "updated": "2026-11-22",
+  "updatedAt": "2026-11-22T16:59:39.993Z",
   "source": "PubMed E-utilities",
   "faculty": [
     {
@@ -78131,6 +78131,25 @@
           }
         },
         {
+          "id": "43067775",
+          "title": "Lifespan brain structural variation reveals shared organization across mental health conditions.",
+          "journal": "medRxiv : the preprint server for health sciences",
+          "year": 2026,
+          "doi": "10.64898/2026.08.13.26360304",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/43067775/",
+          "publicationTypes": [
+            "Journal Article",
+            "Preprint"
+          ],
+          "versionLinks": [],
+          "authorship": {
+            "position": 44,
+            "total": 256,
+            "isFirst": false,
+            "isLast": false
+          }
+        },
+        {
           "id": "41803863",
           "title": "Promoting well-being through creativity: a mixed-methods study on integrating studio art into education for students in medical fields in Japan.",
           "journal": "BMC medical education",
@@ -80727,12 +80746,12 @@
       "authorCounts": {
         "first": 17,
         "last": 54,
-        "total": 144,
-        "known": 144
+        "total": 145,
+        "known": 145
       },
       "signals": {
         "positive": {
-          "count": 144,
+          "count": 145,
           "yearRange": {
             "min": 2014,
             "max": 2026
@@ -80788,7 +80807,7 @@
             },
             {
               "year": 2026,
-              "count": 16
+              "count": 17
             }
           ],
           "topJournals": [
@@ -80863,12 +80882,12 @@
               "count": 25
             },
             {
-              "name": "major",
+              "name": "brain",
               "count": 23
             },
             {
-              "name": "brain",
-              "count": 22
+              "name": "major",
+              "count": 23
             },
             {
               "name": "adolescent",
@@ -80902,35 +80921,35 @@
             },
             {
               "name": "Zeynep Ba&#x15f;g&#xf6;ze",
-              "count": 19
+              "count": 20
             },
             {
               "name": "Andrea Wiglesworth",
               "count": 18
             },
             {
+              "name": "Lianne Schmaal",
+              "count": 17
+            },
+            {
               "name": "Michelle Thai",
               "count": 17
             },
             {
-              "name": "Lianne Schmaal",
-              "count": 16
-            },
-            {
               "name": "Neda Jahanshad",
-              "count": 16
-            },
-            {
-              "name": "Lynn E Eberly",
-              "count": 15
+              "count": 17
             },
             {
               "name": "Paul M Thompson",
+              "count": 16
+            },
+            {
+              "name": "Dan J Stein",
               "count": 15
             },
             {
-              "name": "Christopher G Davey",
-              "count": 14
+              "name": "Dominik Grotegerd",
+              "count": 15
             }
           ]
         },
