@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-22",
-  "updatedAt": "2026-11-22T16:59:39.993Z",
+  "updated": "2026-11-23",
+  "updatedAt": "2026-11-23T20:56:33.696Z",
   "source": "PubMed E-utilities",
   "faculty": [
     {
@@ -27219,7 +27219,8 @@
           "url": "https://pubmed.ncbi.nlm.nih.gov/38613531/",
           "publicationTypes": [
             "Journal Article",
-            "Review"
+            "Review",
+            "Research Support, N.I.H., Extramural"
           ],
           "versionLinks": [],
           "authorship": {
@@ -40100,6 +40101,24 @@
           }
         },
         {
+          "id": "43070488",
+          "title": "Inhibition of miR-199a-3p Enhances Neuronal Differentiation of Bone Marrow Mesenchymal Stem Cells and Promotes Functional Recovery Following Spinal Cord Injury.",
+          "journal": "Physiological research",
+          "year": 2026,
+          "doi": "",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/43070488/",
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [],
+          "authorship": {
+            "position": 6,
+            "total": 8,
+            "isFirst": false,
+            "isLast": false
+          }
+        },
+        {
           "id": "42691181",
           "title": "Measurement of the Λ electric dipole moment with an entangled baryon-antibaryon system.",
           "journal": "Science (New York, N.Y.)",
@@ -40121,12 +40140,12 @@
       "authorCounts": {
         "first": 1,
         "last": 0,
-        "total": 3,
-        "known": 3
+        "total": 4,
+        "known": 4
       },
       "signals": {
         "positive": {
-          "count": 3,
+          "count": 4,
           "yearRange": {
             "min": 2026,
             "max": 2026
@@ -40134,7 +40153,7 @@
           "yearCounts": [
             {
               "year": 2026,
-              "count": 3
+              "count": 4
             }
           ],
           "topJournals": [
@@ -40147,11 +40166,19 @@
               "count": 1
             },
             {
+              "name": "Physiological research",
+              "count": 1
+            },
+            {
               "name": "Science (New York, N.Y.)",
               "count": 1
             }
           ],
           "topKeywords": [
+            {
+              "name": "199a",
+              "count": 1
+            },
             {
               "name": "antibaryon",
               "count": 1
@@ -40169,7 +40196,15 @@
               "count": 1
             },
             {
+              "name": "bone",
+              "count": 1
+            },
+            {
               "name": "cancer",
+              "count": 1
+            },
+            {
+              "name": "cells",
               "count": 1
             },
             {
@@ -40177,31 +40212,23 @@
               "count": 1
             },
             {
+              "name": "cord",
+              "count": 1
+            },
+            {
               "name": "detection",
               "count": 1
             },
             {
-              "name": "dipole",
-              "count": 1
-            },
-            {
-              "name": "driven",
-              "count": 1
-            },
-            {
-              "name": "dynamics",
-              "count": 1
-            },
-            {
-              "name": "electric",
-              "count": 1
-            },
-            {
-              "name": "entangled",
+              "name": "differentiation",
               "count": 1
             }
           ],
           "topCoauthors": [
+            {
+              "name": "T Liu",
+              "count": 2
+            },
             {
               "name": "X C Ai",
               "count": 2
@@ -40244,10 +40271,6 @@
             },
             {
               "name": "A Khoukaz",
-              "count": 1
-            },
-            {
-              "name": "A Kupsc",
               "count": 1
             }
           ]
@@ -42846,8 +42869,7 @@
           "doi": "10.1158/1078-0432.CCR-23-3004",
           "url": "https://pubmed.ncbi.nlm.nih.gov/38350001/",
           "publicationTypes": [
-            "Journal Article",
-            "Research Support, Non-U.S. Gov't"
+            "Journal Article"
           ],
           "versionLinks": [],
           "authorship": {

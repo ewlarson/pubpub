@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-22",
-  "updatedAt": "2026-11-22T16:55:56.685Z",
+  "updated": "2026-11-23",
+  "updatedAt": "2026-11-23T20:52:52.830Z",
   "source": "PubMed E-utilities (ORCID)",
   "faculty": [
     {
@@ -5614,6 +5614,24 @@
             "Journal Article"
           ],
           "versionLinks": [],
+          "id": "43070805",
+          "title": "Integrated Methods for Survey Outreach in an Assessment of Chemical Exposures Investigation After a Train Derailment-East Palestine, Ohio, 2023.",
+          "journal": "Journal of public health management and practice : JPHMP",
+          "year": 2026,
+          "doi": "10.1097/PHH.0000000000002459",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/43070805/",
+          "authorship": {
+            "position": 1,
+            "total": 20,
+            "isFirst": false,
+            "isLast": false
+          }
+        },
+        {
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [],
           "id": "41881956",
           "title": "Community Assessment of Chemical Exposures After a Train Derailment-East Palestine, Ohio, and Darlington Township, Pennsylvania, February-March 2023.",
           "journal": "Journal of occupational and environmental medicine",
@@ -5796,15 +5814,15 @@
       "authorCounts": {
         "first": 9,
         "last": 0,
-        "total": 10,
-        "known": 10
+        "total": 11,
+        "known": 11
       },
       "signals": {
         "positive": {
-          "count": 10,
+          "count": 11,
           "yearRange": {
             "min": 2020,
-            "max": 2025
+            "max": 2026
           },
           "yearCounts": [
             {
@@ -5826,6 +5844,10 @@
             {
               "year": 2025,
               "count": 3
+            },
+            {
+              "year": 2026,
+              "count": 1
             }
           ],
           "topJournals": [
@@ -5843,6 +5865,10 @@
             },
             {
               "name": "Journal of occupational and environmental medicine",
+              "count": 1
+            },
+            {
+              "name": "Journal of public health management and practice : JPHMP",
               "count": 1
             },
             {
@@ -5865,11 +5891,11 @@
           "topKeywords": [
             {
               "name": "2023",
-              "count": 4
+              "count": 5
             },
             {
               "name": "after",
-              "count": 4
+              "count": 5
             },
             {
               "name": "analysis",
@@ -5904,15 +5930,35 @@
               "count": 2
             },
             {
-              "name": "cohort",
+              "name": "assessment",
               "count": 2
             },
             {
-              "name": "data",
+              "name": "chemical",
               "count": 2
             }
           ],
           "topCoauthors": [
+            {
+              "name": "Beatrice Gichuhi",
+              "count": 2
+            },
+            {
+              "name": "Carolyn A Crisp",
+              "count": 2
+            },
+            {
+              "name": "Courtney M Dewart",
+              "count": 2
+            },
+            {
+              "name": "Dallas S Shi",
+              "count": 2
+            },
+            {
+              "name": "Daniel M Cornforth",
+              "count": 2
+            },
             {
               "name": "Eva A Enns",
               "count": 2
@@ -5926,6 +5972,10 @@
               "count": 2
             },
             {
+              "name": "Ian Dunn",
+              "count": 2
+            },
+            {
               "name": "Irina Tabidze",
               "count": 2
             },
@@ -5934,32 +5984,8 @@
               "count": 2
             },
             {
-              "name": "Massimo Pacilli",
+              "name": "Kathryn Burr",
               "count": 2
-            },
-            {
-              "name": "Shalini Kulasingam",
-              "count": 2
-            },
-            {
-              "name": "Stephanie Black",
-              "count": 2
-            },
-            {
-              "name": "Taylor Holly",
-              "count": 2
-            },
-            {
-              "name": "Adil Menon",
-              "count": 1
-            },
-            {
-              "name": "Agam K Rao",
-              "count": 1
-            },
-            {
-              "name": "Alyse Kittner",
-              "count": 1
             }
           ]
         },
