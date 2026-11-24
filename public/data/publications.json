@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-23",
-  "updatedAt": "2026-11-23T20:56:33.696Z",
+  "updated": "2026-11-24",
+  "updatedAt": "2026-11-24T20:01:08.563Z",
   "source": "PubMed E-utilities",
   "faculty": [
     {
@@ -3341,6 +3341,24 @@
           }
         },
         {
+          "id": "43073361",
+          "title": "Active locomotion predictively rescues head direction attractor dynamics in head-fixed mice.",
+          "journal": "Nature communications",
+          "year": 2026,
+          "doi": "10.1038/s41467-026-79031-5",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/43073361/",
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [],
+          "authorship": {
+            "position": 3,
+            "total": 7,
+            "isFirst": false,
+            "isLast": false
+          }
+        },
+        {
           "id": "42779886",
           "title": "BrainWideBench: Benchmarking large-scale pretraining and across-animal transfer in multi-region neural recordings.",
           "journal": "ArXiv",
@@ -3667,12 +3685,12 @@
       "authorCounts": {
         "first": 3,
         "last": 1,
-        "total": 16,
-        "known": 16
+        "total": 17,
+        "known": 17
       },
       "signals": {
         "positive": {
-          "count": 16,
+          "count": 17,
           "yearRange": {
             "min": 2025,
             "max": 2026
@@ -3684,20 +3702,20 @@
             },
             {
               "year": 2026,
-              "count": 8
+              "count": 9
             }
           ],
           "topJournals": [
+            {
+              "name": "Nature communications",
+              "count": 3
+            },
             {
               "name": "bioRxiv : the preprint server for biology",
               "count": 2
             },
             {
               "name": "Nature",
-              "count": 2
-            },
-            {
-              "name": "Nature communications",
               "count": 2
             },
             {
@@ -3735,11 +3753,19 @@
               "count": 4
             },
             {
+              "name": "head",
+              "count": 4
+            },
+            {
               "name": "neural",
               "count": 4
             },
             {
               "name": "computational",
+              "count": 3
+            },
+            {
+              "name": "mice",
               "count": 3
             },
             {
@@ -3759,23 +3785,15 @@
               "count": 2
             },
             {
+              "name": "active",
+              "count": 2
+            },
+            {
+              "name": "attractor",
+              "count": 2
+            },
+            {
               "name": "autism",
-              "count": 2
-            },
-            {
-              "name": "consciousness",
-              "count": 2
-            },
-            {
-              "name": "cortex",
-              "count": 2
-            },
-            {
-              "name": "disorders",
-              "count": 2
-            },
-            {
-              "name": "head",
               "count": 2
             }
           ],
@@ -3821,11 +3839,11 @@
               "count": 4
             },
             {
-              "name": "Fei Hu",
+              "name": "Dora Angelaki",
               "count": 4
             },
             {
-              "name": "Gaelle A Chapuis",
+              "name": "Fei Hu",
               "count": 4
             }
           ]
@@ -12972,6 +12990,24 @@
           }
         },
         {
+          "id": "43075241",
+          "title": "Associations Between Monocyte Activation and Collagen Turnover Biomarkers With Subsequent Clinical Events in People With HIV-A Nested Case-Control Study Among Participants in the INSIGHT ESPRIT, FIRST, SMART, and START Trials.",
+          "journal": "Open forum infectious diseases",
+          "year": 2026,
+          "doi": "10.1093/ofid/ofag713",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/43075241/",
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [],
+          "authorship": {
+            "position": 9,
+            "total": 12,
+            "isFirst": false,
+            "isLast": false
+          }
+        },
+        {
           "id": "42731860",
           "title": "Development of a heart failure with preserved ejection fraction risk prediction score in primary care settings with a high HIV prevalence.",
           "journal": "Open heart",
@@ -15560,12 +15596,12 @@
       "authorCounts": {
         "first": 16,
         "last": 17,
-        "total": 131,
-        "known": 131
+        "total": 132,
+        "known": 132
       },
       "signals": {
         "positive": {
-          "count": 131,
+          "count": 132,
           "yearRange": {
             "min": 2011,
             "max": 2026
@@ -15633,7 +15669,7 @@
             },
             {
               "year": 2026,
-              "count": 10
+              "count": 11
             }
           ],
           "topJournals": [
@@ -15642,12 +15678,12 @@
               "count": 9
             },
             {
-              "name": "The Journal of infectious diseases",
+              "name": "Open forum infectious diseases",
               "count": 9
             },
             {
-              "name": "Open forum infectious diseases",
-              "count": 8
+              "name": "The Journal of infectious diseases",
+              "count": 9
             },
             {
               "name": "AIDS and behavior",
@@ -15681,7 +15717,7 @@
           "topKeywords": [
             {
               "name": "hiv",
-              "count": 84
+              "count": 85
             },
             {
               "name": "antiretroviral",
@@ -15689,7 +15725,7 @@
             },
             {
               "name": "among",
-              "count": 25
+              "count": 26
             },
             {
               "name": "therapy",
@@ -15704,11 +15740,11 @@
               "count": 19
             },
             {
-              "name": "persons",
-              "count": 18
+              "name": "study",
+              "count": 19
             },
             {
-              "name": "study",
+              "name": "persons",
               "count": 18
             },
             {
@@ -15720,11 +15756,11 @@
               "count": 16
             },
             {
-              "name": "inflammation",
+              "name": "biomarkers",
               "count": 15
             },
             {
-              "name": "patients",
+              "name": "inflammation",
               "count": 15
             }
           ],
@@ -15750,12 +15786,16 @@
               "count": 12
             },
             {
+              "name": "Andrew N Phillips",
+              "count": 11
+            },
+            {
               "name": "Russell P Tracy",
               "count": 11
             },
             {
-              "name": "Andrew N Phillips",
-              "count": 10
+              "name": "Shweta Sharma",
+              "count": 11
             },
             {
               "name": "Daniel Duprez",
@@ -15763,10 +15803,6 @@
             },
             {
               "name": "Pragna Patel",
-              "count": 10
-            },
-            {
-              "name": "Shweta Sharma",
               "count": 10
             },
             {
@@ -81679,6 +81715,25 @@
           }
         },
         {
+          "id": "43076285",
+          "title": "The inclusive sexual function index: reliability, validity, and factor structure among transgender and gender diverse adults.",
+          "journal": "The journal of sexual medicine",
+          "year": 2026,
+          "doi": "10.1093/jsxmed/qdag345",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/43076285/",
+          "publicationTypes": [
+            "Journal Article",
+            "Validation Study"
+          ],
+          "versionLinks": [],
+          "authorship": {
+            "position": 1,
+            "total": 6,
+            "isFirst": false,
+            "isLast": false
+          }
+        },
+        {
           "id": "41332196",
           "title": "Exploring the Role of Social Worldviews in Linking Interpersonal Discrimination to Suicidal Ideation Among Sexual Minority Young Adults.",
           "journal": "Archives of suicide research : official journal of the International Academy for Suicide Research",
@@ -81700,12 +81755,12 @@
       "authorCounts": {
         "first": 1,
         "last": 1,
-        "total": 5,
-        "known": 5
+        "total": 6,
+        "known": 6
       },
       "signals": {
         "positive": {
-          "count": 5,
+          "count": 6,
           "yearRange": {
             "min": 2025,
             "max": 2026
@@ -81717,7 +81772,7 @@
             },
             {
               "year": 2026,
-              "count": 4
+              "count": 5
             }
           ],
           "topJournals": [
@@ -81740,19 +81795,31 @@
             {
               "name": "Journal of marital and family therapy",
               "count": 1
+            },
+            {
+              "name": "The journal of sexual medicine",
+              "count": 1
             }
           ],
           "topKeywords": [
+            {
+              "name": "among",
+              "count": 3
+            },
             {
               "name": "minority",
               "count": 3
             },
             {
-              "name": "among",
+              "name": "sexual",
+              "count": 3
+            },
+            {
+              "name": "adults",
               "count": 2
             },
             {
-              "name": "sexual",
+              "name": "gender",
               "count": 2
             },
             {
@@ -81765,10 +81832,6 @@
             },
             {
               "name": "2024",
-              "count": 1
-            },
-            {
-              "name": "adults",
               "count": 1
             },
             {
@@ -81786,15 +81849,15 @@
             {
               "name": "circulation",
               "count": 1
-            },
-            {
-              "name": "color",
-              "count": 1
             }
           ],
           "topCoauthors": [
             {
               "name": "Alexander R Kneubehl",
+              "count": 2
+            },
+            {
+              "name": "Haiden Hice",
               "count": 2
             },
             {
@@ -81835,10 +81898,6 @@
             },
             {
               "name": "DeAnna Harris-McKoy",
-              "count": 1
-            },
-            {
-              "name": "Haiden Hice",
               "count": 1
             }
           ]
