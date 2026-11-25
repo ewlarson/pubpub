@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-24",
-  "updatedAt": "2026-11-24T19:57:21.583Z",
+  "updated": "2026-11-25",
+  "updatedAt": "2026-11-25T19:02:36.067Z",
   "source": "PubMed E-utilities (ORCID)",
   "faculty": [
     {
@@ -17662,6 +17662,24 @@
             "Journal Article"
           ],
           "versionLinks": [],
+          "id": "43078826",
+          "title": "DigiDent: integrated bristle-level sensing and AI for contact-aware toothbrushing assessment.",
+          "journal": "Nature communications",
+          "year": 2026,
+          "doi": "10.1038/s41467-026-78284-4",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/43078826/",
+          "authorship": {
+            "position": 8,
+            "total": 10,
+            "isFirst": false,
+            "isLast": false
+          }
+        },
+        {
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [],
           "id": "42479908",
           "title": "Host-Guest Mismatch Enables Selective Hydrogen Atom Transfer.",
           "journal": "Angewandte Chemie (International ed. in English)",
@@ -18059,12 +18077,12 @@
       "authorCounts": {
         "first": 3,
         "last": 3,
-        "total": 21,
-        "known": 21
+        "total": 22,
+        "known": 22
       },
       "signals": {
         "positive": {
-          "count": 21,
+          "count": 22,
           "yearRange": {
             "min": 2019,
             "max": 2026
@@ -18100,7 +18118,7 @@
             },
             {
               "year": 2026,
-              "count": 3
+              "count": 4
             }
           ],
           "topJournals": [
@@ -18201,11 +18219,11 @@
               "count": 6
             },
             {
-              "name": "Matthew J Webber",
-              "count": 3
+              "name": "Ting Sang",
+              "count": 4
             },
             {
-              "name": "Ting Sang",
+              "name": "Matthew J Webber",
               "count": 3
             },
             {
@@ -18214,6 +18232,14 @@
             },
             {
               "name": "Fuwei Liu",
+              "count": 2
+            },
+            {
+              "name": "Gen Li",
+              "count": 2
+            },
+            {
+              "name": "Hao Ren",
               "count": 2
             },
             {
@@ -18233,16 +18259,8 @@
               "count": 2
             },
             {
-              "name": "Ya Liu",
+              "name": "Tieshan Zhang",
               "count": 2
-            },
-            {
-              "name": "Zheng Cheng",
-              "count": 2
-            },
-            {
-              "name": "Alejandro Perez-Ron",
-              "count": 1
             }
           ]
         },

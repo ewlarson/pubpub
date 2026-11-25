@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-24",
-  "updatedAt": "2026-11-24T20:01:08.563Z",
+  "updated": "2026-11-25",
+  "updatedAt": "2026-11-25T19:06:24.661Z",
   "source": "PubMed E-utilities",
   "faculty": [
     {
@@ -5626,6 +5626,24 @@
           }
         },
         {
+          "id": "43080073",
+          "title": "Opportunities for minimal residual disease detection in ovarian cancer using mass spectrometry.",
+          "journal": "Expert review of proteomics",
+          "year": 2026,
+          "doi": "10.1080/14789450.2026.2768839",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/43080073/",
+          "publicationTypes": [
+            "Editorial"
+          ],
+          "versionLinks": [],
+          "authorship": {
+            "position": 2,
+            "total": 3,
+            "isFirst": false,
+            "isLast": true
+          }
+        },
+        {
           "id": "42746633",
           "title": "Pre-vaccine sentinel antibodies predict blunted vaccine responses.",
           "journal": "Cell press blue",
@@ -6344,13 +6362,13 @@
       ],
       "authorCounts": {
         "first": 7,
-        "last": 21,
-        "total": 41,
-        "known": 41
+        "last": 22,
+        "total": 42,
+        "known": 42
       },
       "signals": {
         "positive": {
-          "count": 41,
+          "count": 42,
           "yearRange": {
             "min": 2019,
             "max": 2026
@@ -6386,10 +6404,14 @@
             },
             {
               "year": 2026,
-              "count": 8
+              "count": 9
             }
           ],
           "topJournals": [
+            {
+              "name": "Expert review of proteomics",
+              "count": 3
+            },
             {
               "name": "Journal of the American Society for Mass Spectrometry",
               "count": 3
@@ -6400,10 +6422,6 @@
             },
             {
               "name": "Clinical proteomics",
-              "count": 2
-            },
-            {
-              "name": "Expert review of proteomics",
               "count": 2
             },
             {
@@ -6434,11 +6452,11 @@
           "topKeywords": [
             {
               "name": "ovarian",
-              "count": 18
+              "count": 19
             },
             {
               "name": "cancer",
-              "count": 15
+              "count": 16
             },
             {
               "name": "proteomic",
@@ -6461,19 +6479,19 @@
               "count": 7
             },
             {
+              "name": "mass",
+              "count": 7
+            },
+            {
               "name": "serous",
               "count": 7
             },
             {
-              "name": "based",
-              "count": 6
-            },
-            {
-              "name": "mass",
-              "count": 6
-            },
-            {
               "name": "spectrometry",
+              "count": 7
+            },
+            {
+              "name": "based",
               "count": 6
             },
             {
@@ -6515,6 +6533,10 @@
               "count": 3
             },
             {
+              "name": "Britt K Erickson",
+              "count": 3
+            },
+            {
               "name": "Daniel W Chan",
               "count": 3
             },
@@ -6524,10 +6546,6 @@
             },
             {
               "name": "Joshua LaBaer",
-              "count": 3
-            },
-            {
-              "name": "Kristin L M Boylan",
               "count": 3
             }
           ]
@@ -61186,7 +61204,7 @@
         },
         {
           "id": "42870675",
-          "title": "Higher risk of Long COVID among patients with autoimmune rheumatic diseases and immunomodulatory therapy: a retrospective cohort analysis of national US data.",
+          "title": "Higher Risk of Long COVID Among Patients With Autoimmune Rheumatic Diseases and Immunomodulatory Therapy: A Retrospective Cohort Analysis of National US Data.",
           "journal": "Arthritis & rheumatology (Hoboken, N.J.)",
           "year": 2026,
           "doi": "10.1002/art.70361",
@@ -92128,6 +92146,24 @@
           }
         },
         {
+          "id": "43080745",
+          "title": "Identifying Patient-Specific Factors Affecting Phantom Limb Pain to Inform Personalized Treatment.",
+          "journal": "Canadian journal of pain = Revue canadienne de la douleur",
+          "year": 2026,
+          "doi": "10.1080/24740527.2026.2740518",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/43080745/",
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [],
+          "authorship": {
+            "position": 2,
+            "total": 5,
+            "isFirst": false,
+            "isLast": false
+          }
+        },
+        {
           "id": "42987602",
           "title": "Weight stigma and healthcare avoidance: Associations with dieting, disordered eating and other weight-control behaviors.",
           "journal": "Eating behaviors",
@@ -93175,12 +93211,12 @@
       "authorCounts": {
         "first": 7,
         "last": 5,
-        "total": 55,
-        "known": 55
+        "total": 56,
+        "known": 56
       },
       "signals": {
         "positive": {
-          "count": 55,
+          "count": 56,
           "yearRange": {
             "min": 2020,
             "max": 2026
@@ -93212,7 +93248,7 @@
             },
             {
               "year": 2026,
-              "count": 2
+              "count": 3
             }
           ],
           "topJournals": [
