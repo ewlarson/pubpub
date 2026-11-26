@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-25",
-  "updatedAt": "2026-11-25T19:06:24.661Z",
+  "updated": "2026-11-26",
+  "updatedAt": "2026-11-26T18:56:48.318Z",
   "source": "PubMed E-utilities",
   "faculty": [
     {
@@ -25471,7 +25471,7 @@
           "doi": "10.1001/jama.2026.14187",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42560707/",
           "publicationTypes": [
-            "Journal Article",
+            "Editorial",
             "Comment"
           ],
           "versionLinks": [],
@@ -28027,6 +28027,24 @@
       ],
       "publications": [
         {
+          "id": "43084102",
+          "title": "A Multicenter Survey of Palliative Care Services and Characteristics of End-of-Life Involvement Across Pediatric Cardiac Intensive Care Units.",
+          "journal": "Pediatric cardiology",
+          "year": 2026,
+          "doi": "10.1007/s00246-026-04580-x",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/43084102/",
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [],
+          "authorship": {
+            "position": 27,
+            "total": 35,
+            "isFirst": false,
+            "isLast": false
+          }
+        },
+        {
           "id": "42463152",
           "title": "Death and Cardiac Disease in Pediatric Hospitals and the Role of Subspecialty Palliative Care.",
           "journal": "Pediatrics",
@@ -28199,12 +28217,12 @@
       "authorCounts": {
         "first": 5,
         "last": 1,
-        "total": 9,
-        "known": 9
+        "total": 10,
+        "known": 10
       },
       "signals": {
         "positive": {
-          "count": 9,
+          "count": 10,
           "yearRange": {
             "min": 2024,
             "max": 2026
@@ -28220,7 +28238,7 @@
             },
             {
               "year": 2026,
-              "count": 5
+              "count": 6
             }
           ],
           "topJournals": [
@@ -28241,6 +28259,10 @@
               "count": 1
             },
             {
+              "name": "Pediatric cardiology",
+              "count": 1
+            },
+            {
               "name": "Pediatrics",
               "count": 1
             }
@@ -28248,6 +28270,10 @@
           "topKeywords": [
             {
               "name": "breastfeeding",
+              "count": 5
+            },
+            {
+              "name": "cardiac",
               "count": 5
             },
             {
@@ -28263,7 +28289,7 @@
               "count": 5
             },
             {
-              "name": "cardiac",
+              "name": "care",
               "count": 4
             },
             {
@@ -28289,60 +28315,56 @@
             {
               "name": "feeding",
               "count": 3
-            },
-            {
-              "name": "care",
-              "count": 2
             }
           ],
           "topCoauthors": [
+            {
+              "name": "Ahmed Asfari",
+              "count": 3
+            },
+            {
+              "name": "Asaad G Beshish",
+              "count": 3
+            },
+            {
+              "name": "Brittany L Shutes",
+              "count": 3
+            },
+            {
+              "name": "Christopher W Mastropietro",
+              "count": 3
+            },
+            {
+              "name": "Jennifer E Schramm",
+              "count": 3
+            },
             {
               "name": "Jessica A Davis",
               "count": 3
             },
             {
-              "name": "Nancy L Slater",
+              "name": "Jordan Schneider",
               "count": 3
             },
             {
-              "name": "Ahmed Asfari",
-              "count": 2
-            },
-            {
-              "name": "Asaad G Beshish",
-              "count": 2
-            },
-            {
-              "name": "Brittany L Shutes",
-              "count": 2
-            },
-            {
-              "name": "Christopher W Mastropietro",
-              "count": 2
-            },
-            {
-              "name": "Hema Desai",
-              "count": 2
-            },
-            {
-              "name": "Jennifer E Schramm",
-              "count": 2
-            },
-            {
-              "name": "Jordan Schneider",
-              "count": 2
-            },
-            {
               "name": "Joshua H Wong",
-              "count": 2
+              "count": 3
             },
             {
               "name": "Karan B Karki",
-              "count": 2
+              "count": 3
             },
             {
-              "name": "Karli A Negrin",
-              "count": 2
+              "name": "Katherine Cashen",
+              "count": 3
+            },
+            {
+              "name": "Kimberly I Mills",
+              "count": 3
+            },
+            {
+              "name": "Meghan M Chlebowski",
+              "count": 3
             }
           ]
         },
@@ -28393,6 +28415,24 @@
           }
         },
         {
+          "id": "43095795",
+          "title": "Estimating the Risk Associated with Cross-Contamination in a Foodborne Illness Outbreak.",
+          "journal": "Foodborne pathogens and disease",
+          "year": 2026,
+          "doi": "10.1177/15353141261511403",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/43095795/",
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "versionLinks": [],
+          "authorship": {
+            "position": 0,
+            "total": 3,
+            "isFirst": true,
+            "isLast": false
+          }
+        },
+        {
           "id": "42276445",
           "title": "Frozen Vegetable and Potato Consumption and Handling Practices - Minnesota, 2023.",
           "journal": "Journal of food protection",
@@ -28431,14 +28471,14 @@
         }
       ],
       "authorCounts": {
-        "first": 2,
+        "first": 3,
         "last": 0,
-        "total": 3,
-        "known": 3
+        "total": 4,
+        "known": 4
       },
       "signals": {
         "positive": {
-          "count": 3,
+          "count": 4,
           "yearRange": {
             "min": 2026,
             "max": 2026
@@ -28446,16 +28486,32 @@
           "yearCounts": [
             {
               "year": 2026,
-              "count": 3
+              "count": 4
             }
           ],
           "topJournals": [
             {
               "name": "Journal of food protection",
               "count": 3
+            },
+            {
+              "name": "Foodborne pathogens and disease",
+              "count": 1
             }
           ],
           "topKeywords": [
+            {
+              "name": "foodborne",
+              "count": 2
+            },
+            {
+              "name": "illness",
+              "count": 2
+            },
+            {
+              "name": "outbreak",
+              "count": 2
+            },
             {
               "name": "2013",
               "count": 1
@@ -28469,6 +28525,10 @@
               "count": 1
             },
             {
+              "name": "associated",
+              "count": 1
+            },
+            {
               "name": "cluster",
               "count": 1
             },
@@ -28477,42 +28537,30 @@
               "count": 1
             },
             {
+              "name": "contamination",
+              "count": 1
+            },
+            {
+              "name": "cross",
+              "count": 1
+            },
+            {
               "name": "data",
-              "count": 1
-            },
-            {
-              "name": "detection",
-              "count": 1
-            },
-            {
-              "name": "effect",
-              "count": 1
-            },
-            {
-              "name": "foodborne",
-              "count": 1
-            },
-            {
-              "name": "frozen",
-              "count": 1
-            },
-            {
-              "name": "handling",
-              "count": 1
-            },
-            {
-              "name": "illness",
               "count": 1
             }
           ],
           "topCoauthors": [
             {
               "name": "Craig W Hedberg",
-              "count": 3
+              "count": 4
             },
             {
               "name": "Alexandra R Edmundson",
               "count": 2
+            },
+            {
+              "name": "Dana Eikmeier",
+              "count": 1
             },
             {
               "name": "Hillary A Booth",
