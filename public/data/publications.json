@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-26",
-  "updatedAt": "2026-11-26T18:56:48.318Z",
+  "updated": "2026-11-27",
+  "updatedAt": "2026-11-27T18:48:37.836Z",
   "source": "PubMed E-utilities",
   "faculty": [
     {
@@ -127,6 +127,25 @@
           "versionLinks": [],
           "authorship": {
             "position": 11,
+            "total": 17,
+            "isFirst": false,
+            "isLast": false
+          }
+        },
+        {
+          "id": "43100359",
+          "title": "Spatial causal discovery reveals novel mechanisms of cellular senescence in human liver.",
+          "journal": "bioRxiv : the preprint server for biology",
+          "year": 2026,
+          "doi": "10.64898/2026.11.13.766422",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/43100359/",
+          "publicationTypes": [
+            "Journal Article",
+            "Preprint"
+          ],
+          "versionLinks": [],
+          "authorship": {
+            "position": 10,
             "total": 17,
             "isFirst": false,
             "isLast": false
@@ -596,12 +615,12 @@
       "authorCounts": {
         "first": 10,
         "last": 2,
-        "total": 29,
-        "known": 29
+        "total": 30,
+        "known": 30
       },
       "signals": {
         "positive": {
-          "count": 29,
+          "count": 30,
           "yearRange": {
             "min": 2020,
             "max": 2026
@@ -633,7 +652,7 @@
             },
             {
               "year": 2026,
-              "count": 8
+              "count": 9
             }
           ],
           "topJournals": [
@@ -658,6 +677,10 @@
               "count": 1
             },
             {
+              "name": "bioRxiv : the preprint server for biology",
+              "count": 1
+            },
+            {
               "name": "Cancer",
               "count": 1
             },
@@ -671,10 +694,6 @@
             },
             {
               "name": "Diabetes care",
-              "count": 1
-            },
-            {
-              "name": "Diabetes therapy : research, treatment and education of diabetes and related disorders",
               "count": 1
             }
           ],
@@ -73589,7 +73608,8 @@
             "Journal Article",
             "Multicenter Study",
             "Clinical Trial, Phase I",
-            "Clinical Trial, Phase II"
+            "Clinical Trial, Phase II",
+            "Research Support, Non-U.S. Gov't"
           ],
           "versionLinks": [],
           "authorship": {
@@ -92546,7 +92566,8 @@
           "url": "https://pubmed.ncbi.nlm.nih.gov/37327058/",
           "publicationTypes": [
             "Journal Article",
-            "Randomized Controlled Trial"
+            "Randomized Controlled Trial",
+            "Research Support, N.I.H., Extramural"
           ],
           "versionLinks": [],
           "authorship": {
